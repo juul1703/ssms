@@ -54,11 +54,17 @@
     if (!mijn) return '';
     var wanneer = mijn.dagen === 0 ? 'vandaag' : mijn.dagen === 1 ? 'morgen' : 'over ' + mijn.dagen + ' dagen';
     var kop = 'Volgende les' + (mijn.sessie ? ' \u00b7 sessie ' + mijn.sessie : '');
-    return '<div class="voorbereiding-blok">' +
+    /* De voorbereiding is af te vinken. Zodra dat gebeurt verdwijnt hij
+       ook van je homescreen; zie voorAf in app.js. */
+    var af = mijn.sessie && typeof voorAf === 'function' && voorAf(mijn.vakId, mijn.sessie);
+    return '<div class="voorbereiding-blok' + (af ? ' af' : '') + '">' +
       '<div class="voorbereiding-kop"><span>' + esc(kop) + '</span>' +
       '<span class="dl-datum">' + esc(wanneer) + '</span></div>' +
       (mijn.onderwerp ? '<div class="voorbereiding-onderwerp">' + esc(mijn.onderwerp) + '</div>' : '') +
-      '<div class="voorbereiding-taak">' + esc(mijn.titel) +
+      '<div class="voorbereiding-taak">' +
+      '<span class="mini-vink klikbaar" data-voorvink="' + esc(String(mijn.sessie || '')) + '" ' +
+      'role="button" tabindex="0" title="Voorbereiding afvinken">' + (af ? '\u2713' : '') + '</span>' +
+      '<span>' + esc(mijn.titel) + '</span>' +
       '<span class="dl-soort voorbereiding">voorbereiding</span></div></div>';
   }
 
@@ -227,7 +233,9 @@
         var isafg = isAf(vak, x.les);
         var uit = typeof lesUitgewerkt === 'function' ? lesUitgewerkt(vak, x.les) : true;
         return '<a class="hfd-rij' + (isafg ? ' af' : '') + '" href="' + lesUrl(vak, x.les) + '">' +
-          '<span class="mini-vink">' + (isafg ? '\u2713' : x.nr) + '</span>' +
+          '<span class="mini-vink klikbaar" data-lesvink="' + esc(x.les.id) + '" ' +
+          'role="button" tabindex="0" title="' + (isafg ? 'Weer op open zetten' : 'Afvinken') + '">' +
+          (isafg ? '\u2713' : x.nr) + '</span>' +
           '<span>' + esc(x.kort) +
           (uit ? '' : ' <span class="niet-uit">nog leeg</span>') +
           (x.les.voorbereiding ? '<span class="hfd-voor">' + esc(x.les.voorbereiding) + '</span>' : '') +
@@ -275,6 +283,40 @@
       ? '<span class="hint">Je rooster wordt opgehaald…</span>'
       : '<a class="btn" href="index.html">Terug naar het overzicht</a>';
   }
+
+  /* Afvinken vanaf de vakpagina zelf, zonder de les te openen. */
+  document.addEventListener('click', function(e){
+    if (!e.target.closest) return;
+
+    var lesVink = e.target.closest('[data-lesvink]');
+    if (lesVink && vak) {
+      e.preventDefault();
+      var lesId = lesVink.getAttribute('data-lesvink');
+      var les = vak.lessen.filter(function(l){ return l.id === lesId; })[0];
+      if (les) { zetAf(vak, les, !isAf(vak, les)); toonHoofdstukken(); }
+      return;
+    }
+
+    var voorVink = e.target.closest('[data-voorvink]');
+    if (voorVink) {
+      e.preventDefault();
+      var sessie = voorVink.getAttribute('data-voorvink');
+      if (sessie && typeof zetVoorAf === 'function') {
+        zetVoorAf(vakParam, sessie, !voorAf(vakParam, sessie));
+        toonDeadlines();
+      }
+      return;
+    }
+  });
+
+  /* Spatie of enter werkt ook, voor wie met een toetsenbord werkt. */
+  document.addEventListener('keydown', function(e){
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var knop = e.target.closest && e.target.closest('.mini-vink.klikbaar');
+    if (!knop) return;
+    e.preventDefault();
+    knop.click();
+  });
 
   /* kopieerbare stukjes en vinkjes werken ook hier */
   document.addEventListener('click', function(e){

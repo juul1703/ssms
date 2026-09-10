@@ -10,7 +10,7 @@
 
    VERSIE hoeft nu niet meer per se omhoog bij elke wijziging, maar het
    blijft handig: het ruimt de oude cache op. */
-var VERSIE = 'ssms-v33';
+var VERSIE = 'ssms-v34';
 var BESTANDEN = ['./', './index.html', './les.html', './vak.html', './styles.css', './app.js',
   './rooster.js', './les.js', './lesextra.js', './vak.js', './lesblokken.js', './lesstof.js',
   './ssms-inhoud.js', './vakken.js', './manifest.webmanifest'];

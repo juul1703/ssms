@@ -161,7 +161,9 @@ function deadlines(){
       return d.dagen <= TOETS_VENSTER;
     }));
   }
-  uit = uit.concat(voorbereidingDeadlines(nu).filter(function(d){ return !d.leeg; }));
+  uit = uit.concat(voorbereidingDeadlines(nu).filter(function(d){
+    return !d.leeg && !voorAf(d.vakId, d.sessie);
+  }));
 
   return uit.sort(function(x, y){ return x.dagen - y.dagen; });
 }
@@ -336,6 +338,17 @@ function onthoudVak(id){ try { localStorage.setItem('ssms-laatst', id); } catch(
 /* ---------- voortgang ---------- */
 var RING = 163.4;
 function sleutel(vak, les){ return 'ssms-les-' + vak.id + '-' + les.id; }
+
+/* Een voorbereiding afvinken. Die hangt aan een vak plus een sessienummer,
+   niet aan een les, want een sessie zonder eigen lesstof heeft geen les om
+   aan te hangen. Afgevinkt betekent: weg van het homescreen. */
+function voorSleutel(vakId, sessie){ return 'ssms-voor-' + vakId + '-' + sessie; }
+function voorAf(vakId, sessie){
+  try { return localStorage.getItem(voorSleutel(vakId, sessie)) === 'af'; } catch(e){ return false; }
+}
+function zetVoorAf(vakId, sessie, waarde){
+  try { localStorage.setItem(voorSleutel(vakId, sessie), waarde ? 'af' : 'open'); } catch(e){}
+}
 function isAf(vak, les){ try { return localStorage.getItem(sleutel(vak, les)) === 'af'; } catch(e){ return false; } }
 function zetAf(vak, les, waarde){ try { localStorage.setItem(sleutel(vak, les), waarde ? 'af' : 'open'); } catch(e){} }
 /* Collegeslides zijn naslag, geen studietaak: ze tellen niet mee voor de
