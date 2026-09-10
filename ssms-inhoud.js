@@ -4663,7 +4663,7 @@ LESSTOF['society-politics/slides-1'] = [
       { type: 'tekst', titel: '6. Theorie en theoretisch perspectief', toetsstof: true,
         tekst: 'Twee definities die makkelijk door elkaar lopen en daarom vaak getoetst worden.\n\nEen **theorie** is "een uitspraak over hoe en waarom specifieke feiten met elkaar samenhangen". Concreet en toetsbaar.\n\nEen **theoretisch perspectief** is "een basisbeeld dat het denken en het onderzoek stuurt". Veel ruimer: het bepaalt welke vragen je überhaupt stelt.\n\nHet schoolvoorbeeld is **Durkheims studie naar zelfdoding**: hij verbindt de mate van sociale integratie aan het risico, en onderscheidt daarbij onder meer altruïstische en egoïstische vormen. Waarom het zo vaak wordt aangehaald: het koppelt een sociaal feit aan een sociale oorzaak, in plaats van aan een individuele.' },
 
-      { type: 'vergelijking', titel: 'De drie klassieke perspectieven', toetsstof: true,
+      { type: 'tabel', titel: 'De drie klassieke perspectieven', toetsstof: true,
         kop: ['Functionalisme', 'Conflicttheorie', 'Symbolisch interactionisme'],
         rijen: [
           ['Een wereld van evenwicht', 'Een wereld van verschil', 'Een wereld van betekenis'],

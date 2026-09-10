@@ -66,7 +66,7 @@ LESSTOF['governance-policy/college-1'] = [
       { type: 'tekst', titel: '3. De zes voordelen van vergelijken', toetsstof: true,
         tekst: 'Het hoofdstuk gebruikt Covid-19 als opstapje. Dezelfde pandemie, heel verschillende uitkomsten:\n\n**China** had een vroege piek van bijna 7.000 gevallen op één dag in februari 2020, daarna de rest van het jaar 20 tot 50 per dag. In juni 2021: minder dan drie doden per miljoen inwoners, vaccinatiegraad 16 procent.\n\n**De Verenigde Staten** gingen van weinig gevallen in maart 2020 naar een piek van 70.000 in juli en meer dan 200.000 in december. In juni 2021: ongeveer 1.800 doden per miljoen inwoners, vaccinatiegraad 51 procent.\n\n**De Democratische Republiek Congo** kende bescheiden pieken en had in totaal ruim duizend doden gemeld, met nauwelijks 4.000 gevaccineerden op bijna 87 miljoen inwoners.\n\nDe cijfers zelf zeggen niets over de **oorzaak**. De verklaring is deels medisch en cultureel, maar zeker ook politiek: China is een autoritair regime dat snel kan handelen ongeacht de publieke opinie, en bovendien een eenheidsstaat die vanuit het centrum bestuurt. De VS is een federatie waarin staten veel eigen ruimte hadden, met een regering die de ernst traag erkende. De DRC is arm en instabiel met slechte zorg en infrastructuur. En bij de Chinese cijfers speelt de vraag hoeveel je ze kunt vertrouwen.' },
 
-      { type: 'vergelijking', titel: 'De zes voordelen op een rij', toetsstof: true,
+      { type: 'tabel', titel: 'De zes voordelen op een rij', toetsstof: true,
         kop: ['Voordeel', 'Wat het oplevert'],
         rijen: [
           ['Description', 'De basisfeiten vaststellen: hoe zijn overheden opgebouwd, hoe werken instellingen, hoe presteren ze'],
@@ -131,14 +131,22 @@ LESSTOF['governance-policy/college-1'] = [
         ] },
 
       { type: 'vergelijking', titel: 'Twee opvattingen van politiek', toetsstof: true,
-        kop: ['Politiek als gemeenschapsdienst', 'Politiek als machtsstrijd'],
-        rijen: [
-          ['Aristoteles', 'Lasswell, Clausewitz, Mao'],
-          ['De mens is van nature een politiek dier: politiek is onvermijdelijk én de hoogste menselijke activiteit', 'Politiek is een competitieve strijd om macht en middelen tussen mensen en groepen die hun eigen voordeel zoeken'],
-          ['Mensen komen pas tot hun aard als redelijke, deugdzame wezens door deel te nemen aan een gemeenschap die het gemeenschappelijk belang zoekt', 'Smalle belangen krijgen voorrang boven collectieve, en wie gezag heeft zet eigen doelen boven die van de gemeenschap'],
-          ['In de ideale constitutie regeren burgers in het belang van allen, niet omdat checks and balances hen dwingen maar omdat ze het juist vinden', 'De methoden lopen door in manipulatie, corruptie en soms geweld'],
-          ['Politiek als vreedzaam proces van open discussie dat leidt tot besluiten die voor alle betrokkenen aanvaardbaar zijn', 'Lasswell: wie krijgt wat, wanneer en hoe. Een proces met winnaars en verliezers']
-        ] },
+        links: { titel: 'Politiek als gemeenschapsdienst',
+          tekst: 'De lijn van **Aristoteles**.',
+          punten: [
+            'De mens is van nature een politiek dier: politiek is onvermijdelijk en tegelijk de hoogste menselijke activiteit',
+            'Mensen komen pas tot hun aard als redelijke, deugdzame wezens door deel te nemen aan een gemeenschap die het gemeenschappelijk belang zoekt',
+            'In de ideale constitutie regeren burgers in het belang van allen, niet omdat checks and balances hen dwingen maar omdat ze het juist vinden',
+            'Politiek als vreedzaam proces van open discussie dat leidt tot besluiten die voor alle betrokkenen aanvaardbaar zijn'
+          ] },
+        rechts: { titel: 'Politiek als machtsstrijd',
+          tekst: 'De lijn van **Lasswell, Clausewitz en Mao**.',
+          punten: [
+            'Politiek is een competitieve strijd om macht en middelen tussen mensen en groepen die hun eigen voordeel zoeken',
+            'Smalle belangen krijgen voorrang boven collectieve, en wie gezag heeft zet eigen doelen boven die van de gemeenschap',
+            'De methoden lopen door in manipulatie, corruptie en soms geweld en bloedvergieten',
+            'Lasswell: wie krijgt wat, wanneer en hoe. Een proces met winnaars en verliezers'
+          ] } },
 
       { type: 'slimmer', titel: 'De omkering die punten oplevert',
         tekst: 'Clausewitz zei dat oorlog de voortzetting van politiek met andere middelen is, en Mao dat oorlog politiek met bloedvergieten is.\n\nHet hoofdstuk draait dat om, en dat is precies het soort observatie waarmee je een antwoord optilt: je kunt evengoed zeggen dat **politiek de voortzetting van oorlog met andere middelen** is, of dat politiek oorlog zonder bloedvergieten is.\n\nDe realiteit haalt het ideaal zelden. Noem in een antwoord altijd beide opvattingen en zeg welke het beste past bij de casus die voorligt.' },
