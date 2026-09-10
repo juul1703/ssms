@@ -41,52 +41,35 @@
   var vorige = vak.lessen[index - 1] || null;
   var volgende = vak.lessen[index + 1] || null;
   var basis = 'ssms-' + vak.id + '-' + les.id;
-  var onderdelen = splitsKernstof(lesOnderdelen(vak, les));
+  var onderdelen = lesOnderdelen(vak, les);
 
-  /* Kernstof is bij de meeste lessen veel te lang voor één tabblad. Elk kopje
-     wordt daarom een eigen onderdeel, met een eigen tab, een eigen vinkje,
-     een eigen notitieveld en eigen vorige/volgende.
+  /* Kernstof is te lang voor één scherm, maar er zijn ook te veel kopjes om
+     er tabbladen van te maken. Daarom blijft het één tabblad met daaronder
+     een rij met alle kopjes. Je tikt een kopje aan en ziet dat stuk; met
+     'Alles' zie je de hele Kernstof achter elkaar.
 
-     De regel: een nieuw onderdeel begint bij elk blok dat een titel heeft.
-     Blokken zonder titel, zoals een begrippenlijst, horen bij het kopje
-     erboven. Staat er helemaal geen titel in, dan blijft het tabblad heel.
+     Er verdwijnt niets: elk blok zit altijd in precies één stuk, en 'Alles'
+     toont ze allemaal in de oorspronkelijke volgorde.
 
-     De ids blijven vast (kern-1, kern-2, ...), zodat je vinkjes en notities
-     blijven staan als er later een kopje bij komt. Let op: schuift een kopje
-     in de volgorde, dan schuiven de vinkjes mee. */
-  function splitsKernstof(tabs){
-    var TE_SPLITSEN = { kern: true, kernstof: true };
-    var uit = [];
+     Een nieuw stuk begint bij elk blok met een titel. Blokken zonder titel,
+     zoals een begrippenlijst, horen bij het kopje erboven. */
+  var subKeuze = {};   // per tabblad welk kopje je open hebt staan
 
-    tabs.forEach(function(tab){
-      var blokken = tab.blokken || [];
-      var metTitel = blokken.filter(function(b){ return b.titel; }).length;
-
-      if (!TE_SPLITSEN[String(tab.id).toLowerCase()] || metTitel < 2) {
-        uit.push(tab);
-        return;
+  function stukkenVan(tab){
+    var blokken = tab.blokken || [];
+    if (blokken.filter(function(b){ return b.titel; }).length < 2) return null;
+    var stukken = [];
+    blokken.forEach(function(b){
+      if (b.titel || !stukken.length) {
+        stukken.push({ titel: b.titel || tab.titel, blokken: [] });
       }
-
-      var stukken = [];
-      blokken.forEach(function(b){
-        if (b.titel || !stukken.length) {
-          stukken.push({ titel: b.titel || tab.titel, blokken: [] });
-        }
-        stukken[stukken.length - 1].blokken.push(b);
-      });
-
-      stukken.forEach(function(stuk, i){
-        uit.push({
-          id: tab.id + '-' + (i + 1),
-          titel: stuk.titel,
-          groepTitel: tab.titel,
-          blokken: stuk.blokken
-        });
-      });
+      stukken[stukken.length - 1].blokken.push(b);
     });
-
-    return uit;
+    return stukken;
   }
+
+  function subSleutel(tabId, i){ return basis + '-' + tabId + '-stuk-' + i; }
+  function subAf(tabId, i){ return lokaalWaar(subSleutel(tabId, i)); }
   var actief = 0;
 
   /* ---- kop ---- */
@@ -142,10 +125,36 @@
       sleutel: basis + '-' + o.id,
       volgendeHref: volgende ? lesUrl(vak, volgende) : 'index.html'
     };
-    document.getElementById('tabLabel').textContent = (o.groepTitel ? o.groepTitel + ' \u00b7 ' : '') +
-      'onderdeel ' + (actief + 1) + ' van ' + onderdelen.length;
+    document.getElementById('tabLabel').textContent = 'Onderdeel ' + (actief + 1) + ' van ' + onderdelen.length;
     document.getElementById('tabTitel').textContent = o.titel;
-    document.getElementById('inhoud').innerHTML = blokkenHtml(o.blokken, ctx);
+    var stukken = stukkenVan(o);
+    if (!stukken) {
+      document.getElementById('inhoud').innerHTML = blokkenHtml(o.blokken, ctx);
+    } else {
+      var keuze = subKeuze[o.id];
+      if (keuze === undefined) keuze = 'alles';
+
+      var rij = '<div class="subrij">' +
+        '<button class="subchip' + (keuze === 'alles' ? ' nu' : '') + '" data-sub="alles">Alles</button>' +
+        stukken.map(function(st, i){
+          var af = subAf(o.id, i);
+          return '<button class="subchip' + (keuze === i ? ' nu' : '') + (af ? ' af' : '') +
+            '" data-sub="' + i + '">' + (af ? '\u2713 ' : '') + esc(st.titel) + '</button>';
+        }).join('') + '</div>';
+
+      var body;
+      if (keuze === 'alles') {
+        body = stukken.map(function(st, i){
+          return '<section class="substuk' + (subAf(o.id, i) ? ' af' : '') + '" data-stuk="' + i + '">' +
+            blokkenHtml(st.blokken, ctx) + subVink(o.id, i) + '</section>';
+        }).join('');
+      } else {
+        body = '<section class="substuk' + (subAf(o.id, keuze) ? ' af' : '') + '" data-stuk="' + keuze + '">' +
+          blokkenHtml(stukken[keuze].blokken, ctx) + subVink(o.id, keuze) + '</section>';
+      }
+
+      document.getElementById('inhoud').innerHTML = rij + body;
+    }
     document.getElementById('notitieTab').textContent = o.titel.toLowerCase();
 
     var knop = document.getElementById('tabAf');
@@ -269,6 +278,35 @@
     lokaalZet(k, !lokaalWaar(k));
     toonTab(true);
     if (lokaalWaar(k) && actief < onderdelen.length - 1) naarTab(actief + 1);
+  });
+
+  /* Het vinkje onderaan een kopje. */
+  function subVink(tabId, i){
+    var af = subAf(tabId, i);
+    return '<div class="sub-af"><button type="button" class="sub-afknop' + (af ? ' af' : '') +
+      '" data-subvink="' + i + '">' + (af ? '\u2713 Kopje afgerond' : 'Kopje afvinken') + '</button></div>';
+  }
+
+  /* Een kopje kiezen of afvinken. */
+  document.getElementById('inhoud').addEventListener('click', function(e){
+    if (!e.target.closest) return;
+
+    var chip = e.target.closest('[data-sub]');
+    if (chip) {
+      var w = chip.getAttribute('data-sub');
+      subKeuze[onderdelen[actief].id] = (w === 'alles') ? 'alles' : parseInt(w, 10);
+      toonTab();
+      return;
+    }
+
+    var vink = e.target.closest('[data-subvink]');
+    if (vink) {
+      var i = parseInt(vink.getAttribute('data-subvink'), 10);
+      var k = subSleutel(onderdelen[actief].id, i);
+      lokaalZet(k, !lokaalWaar(k));
+      toonTab();
+      return;
+    }
   });
 
   document.getElementById('tabVorige').addEventListener('click', function(){ naarTab(actief - 1); });
