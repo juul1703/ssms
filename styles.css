@@ -763,3 +763,12 @@ a.notitie:hover .titel{color:var(--accent);}
   transition:border-color .15s ease,color .15s ease;}
 .subuit:hover{border-color:var(--accent);color:var(--accent);}
 .subuit-pijl{font-size:13px;}
+
+/* De afvinkknop onder een kopje. Zelfde vorm als 'Onderdeel afvinken'
+   onderaan een tabblad, zodat het één familie blijft. */
+.sub-af{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);
+  display:flex;justify-content:flex-end;}
+.sub-afknop{display:inline-flex;align-items:center;gap:9px;padding:11px 22px;font-size:13px;}
+.sub-afvink{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  width:17px;height:17px;border-radius:50%;border:1px solid currentColor;font-size:10px;opacity:.6;}
+.sub-afknop.af .sub-afvink{opacity:1;}

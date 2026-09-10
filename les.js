@@ -333,16 +333,30 @@
     if (lokaalWaar(k) && actief < onderdelen.length - 1) naarTab(actief + 1);
   });
 
+  /* Naar de bovenkant van de kopjesbalk, met wat lucht erboven. scrollIntoView
+     mikte op de balk zoals die na het hertekenen stond en schoot daardoor door;
+     dit rekent de positie zelf uit. */
   function naarBovenkant(){
     var b = document.querySelector('.subbalk');
-    if (b && b.scrollIntoView) b.scrollIntoView({ block: 'start' });
+    if (!b) return;
+    var y = b.getBoundingClientRect().top + window.pageYOffset - 24;
+    window.scrollTo(0, y < 0 ? 0 : y);
+  }
+
+  /* Bij afvinken wil je juist blijven staan waar je stond. */
+  function zonderSprong(fn){
+    var y = window.pageYOffset;
+    fn();
+    window.scrollTo(0, y);
   }
 
   /* Het vinkje onderaan een kopje. */
   function subVink(tabId, i){
     var af = subAf(tabId, i);
-    return '<div class="sub-af"><button type="button" class="sub-afknop' + (af ? ' af' : '') +
-      '" data-subvink="' + i + '">' + (af ? '\u2713 Kopje afgerond' : 'Kopje afvinken') + '</button></div>';
+    return '<div class="sub-af"><button type="button" class="btn af-knop sub-afknop' +
+      (af ? ' af' : '') + '" data-subvink="' + i + '">' +
+      '<span class="sub-afvink">' + (af ? '\u2713' : '') + '</span>' +
+      (af ? 'Kopje afgerond' : 'Kopje afvinken') + '</button></div>';
   }
 
   /* Een kopje kiezen of afvinken. */
@@ -397,7 +411,7 @@
       var i = parseInt(vink.getAttribute('data-subvink'), 10);
       var k = subSleutel(onderdelen[actief].id, i);
       lokaalZet(k, !lokaalWaar(k));
-      toonTab();
+      zonderSprong(toonTab);
       return;
     }
   });
