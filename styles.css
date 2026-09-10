@@ -745,3 +745,10 @@ a.notitie:hover .titel{color:var(--accent);}
   -webkit-tap-highlight-color:transparent;transition:border-color .15s ease,color .15s ease;}
 .sub-afknop:hover{border-color:var(--accent);color:var(--accent);}
 .sub-afknop.af{background:var(--accent);border-color:var(--accent);color:var(--paper);}
+
+/* Nummer of vinkje in een kopjeschip, en de Alles-knop achteraan */
+.subchip{display:inline-flex;align-items:center;gap:7px;}
+.subchip-nr{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  width:18px;height:18px;border-radius:50%;border:1px solid var(--line);font-size:10.5px;}
+.subchip.nu .subchip-nr{border-color:var(--paper);}
+.subchip.alles{border-style:dashed;}

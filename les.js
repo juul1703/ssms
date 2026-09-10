@@ -131,16 +131,20 @@
     if (!stukken) {
       document.getElementById('inhoud').innerHTML = blokkenHtml(o.blokken, ctx);
     } else {
+      /* Standaard open je op het eerste kopje, niet op Alles. Anders staat
+         de hele Kernstof alsnog achter elkaar en heb je aan de rij niets. */
       var keuze = subKeuze[o.id];
-      if (keuze === undefined) keuze = 'alles';
+      if (keuze === undefined) keuze = 0;
 
       var rij = '<div class="subrij">' +
-        '<button class="subchip' + (keuze === 'alles' ? ' nu' : '') + '" data-sub="alles">Alles</button>' +
         stukken.map(function(st, i){
           var af = subAf(o.id, i);
           return '<button class="subchip' + (keuze === i ? ' nu' : '') + (af ? ' af' : '') +
-            '" data-sub="' + i + '">' + (af ? '\u2713 ' : '') + esc(st.titel) + '</button>';
-        }).join('') + '</div>';
+            '" data-sub="' + i + '"><span class="subchip-nr">' + (af ? '\u2713' : (i + 1)) + '</span>' +
+            esc(st.titel) + '</button>';
+        }).join('') +
+        '<button class="subchip alles' + (keuze === 'alles' ? ' nu' : '') +
+        '" data-sub="alles">Alles achter elkaar</button></div>';
 
       var body;
       if (keuze === 'alles') {
@@ -296,6 +300,8 @@
       var w = chip.getAttribute('data-sub');
       subKeuze[onderdelen[actief].id] = (w === 'alles') ? 'alles' : parseInt(w, 10);
       toonTab();
+      var rij = document.querySelector('.subrij');
+      if (rij && rij.scrollIntoView) rij.scrollIntoView({ block: 'start' });
       return;
     }
 
