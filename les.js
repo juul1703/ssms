@@ -54,6 +54,8 @@
      Een nieuw stuk begint bij elk blok met een titel. Blokken zonder titel,
      zoals een begrippenlijst, horen bij het kopje erboven. */
   var subKeuze = {};   // per tabblad welk kopje je open hebt staan
+  var subOpen = false; // staat de kopjeslijst uitgeklapt?
+  var balkIn = lokaalWaar('ssms-kopjesbalk-in'); // is de hele balk ingeklapt?
 
   function stukkenVan(tab){
     var blokken = tab.blokken || [];
@@ -136,15 +138,62 @@
       var keuze = subKeuze[o.id];
       if (keuze === undefined) keuze = 0;
 
-      var rij = '<div class="subrij">' +
+      /* Een compacte balk in plaats van 33 chips: pijl terug, de naam van het
+         huidige kopje, pijl vooruit. Tik op de naam en de volledige lijst
+         klapt open. */
+      var alles = keuze === 'alles';
+      var nu = alles ? -1 : keuze;
+      var afTeller = stukken.filter(function(st, i){ return subAf(o.id, i); }).length;
+
+      var kop = alles
+        ? 'Alles achter elkaar'
+        : (nu + 1) + '. ' + stukken[nu].titel;
+
+      if (balkIn) {
+        var rij = '<div class="subbalk in">' +
+          '<button type="button" class="subuit" data-balk="1">' +
+          'Kopjes \u00b7 ' + (alles ? stukken.length + ' totaal' : (nu + 1) + ' van ' + stukken.length) +
+          ' <span class="subuit-pijl">\u2304</span></button></div>';
+        document.getElementById('inhoud').innerHTML = rij + (function(){
+          if (alles) {
+            return stukken.map(function(st, i){
+              return '<section class="substuk' + (subAf(o.id, i) ? ' af' : '') + '" data-stuk="' + i + '">' +
+                blokkenHtml(st.blokken, ctx) + subVink(o.id, i) + '</section>';
+            }).join('');
+          }
+          return '<section class="substuk' + (subAf(o.id, nu) ? ' af' : '') + '" data-stuk="' + nu + '">' +
+            blokkenHtml(stukken[nu].blokken, ctx) + subVink(o.id, nu) + '</section>';
+        })();
+        return;
+      }
+
+      var balk = '<div class="subbalk">' +
+        '<button type="button" class="subpijl" data-substap="-1"' +
+          (alles || nu === 0 ? ' disabled' : '') + ' aria-label="Vorige kopje">\u2190</button>' +
+        '<button type="button" class="subnu" data-sublijst="1">' +
+          '<span class="subnu-titel">' + esc(kop) + '</span>' +
+          '<span class="subnu-teller">' + (alles ? stukken.length + ' kopjes' :
+            'kopje ' + (nu + 1) + ' van ' + stukken.length) +
+            ' \u00b7 ' + afTeller + ' af</span>' +
+        '</button>' +
+        '<button type="button" class="subpijl" data-substap="1"' +
+          (alles || nu === stukken.length - 1 ? ' disabled' : '') + ' aria-label="Volgend kopje">\u2192</button>' +
+        '<button type="button" class="subpijl subin" data-balk="1" aria-label="Kopjesbalk inklappen">\u2303</button>' +
+        '</div>';
+
+      var lijst = '<div class="sublijst' + (subOpen ? '' : ' dicht') + '">' +
         stukken.map(function(st, i){
           var af = subAf(o.id, i);
-          return '<button class="subchip' + (keuze === i ? ' nu' : '') + (af ? ' af' : '') +
-            '" data-sub="' + i + '"><span class="subchip-nr">' + (af ? '\u2713' : (i + 1)) + '</span>' +
+          return '<button type="button" class="sublijst-rij' + (keuze === i ? ' nu' : '') +
+            (af ? ' af' : '') + '" data-sub="' + i + '">' +
+            '<span class="sublijst-nr">' + (af ? '\u2713' : (i + 1)) + '</span>' +
             esc(st.titel) + '</button>';
         }).join('') +
-        '<button class="subchip alles' + (keuze === 'alles' ? ' nu' : '') +
-        '" data-sub="alles">Alles achter elkaar</button></div>';
+        '<button type="button" class="sublijst-rij alles' + (alles ? ' nu' : '') +
+        '" data-sub="alles"><span class="sublijst-nr">\u2261</span>Alles achter elkaar lezen</button>' +
+        '</div>';
+
+      var rij = balk + lijst;
 
       var body;
       if (keuze === 'alles') {
@@ -284,6 +333,11 @@
     if (lokaalWaar(k) && actief < onderdelen.length - 1) naarTab(actief + 1);
   });
 
+  function naarBovenkant(){
+    var b = document.querySelector('.subbalk');
+    if (b && b.scrollIntoView) b.scrollIntoView({ block: 'start' });
+  }
+
   /* Het vinkje onderaan een kopje. */
   function subVink(tabId, i){
     var af = subAf(tabId, i);
@@ -295,13 +349,46 @@
   document.getElementById('inhoud').addEventListener('click', function(e){
     if (!e.target.closest) return;
 
+    /* De hele balk in- of uitklappen. De keuze blijft staan, ook als je een
+       andere les opent. */
+    if (e.target.closest('[data-balk]')) {
+      balkIn = !balkIn;
+      lokaalZet('ssms-kopjesbalk-in', balkIn);
+      if (balkIn) subOpen = false;
+      toonTab();
+      return;
+    }
+
+    /* De lijst open- of dichtklappen. */
+    if (e.target.closest('[data-sublijst]')) {
+      subOpen = !subOpen;
+      toonTab();
+      return;
+    }
+
+    /* Een kopje verder of terug. */
+    var stap = e.target.closest('[data-substap]');
+    if (stap && !stap.disabled) {
+      var o2 = onderdelen[actief];
+      var st2 = stukkenVan(o2);
+      var h = subKeuze[o2.id];
+      if (h === undefined) h = 0;
+      if (h !== 'alles') {
+        var n = h + parseInt(stap.getAttribute('data-substap'), 10);
+        if (n >= 0 && n < st2.length) subKeuze[o2.id] = n;
+      }
+      toonTab();
+      naarBovenkant();
+      return;
+    }
+
     var chip = e.target.closest('[data-sub]');
     if (chip) {
       var w = chip.getAttribute('data-sub');
       subKeuze[onderdelen[actief].id] = (w === 'alles') ? 'alles' : parseInt(w, 10);
+      subOpen = false;
       toonTab();
-      var rij = document.querySelector('.subrij');
-      if (rij && rij.scrollIntoView) rij.scrollIntoView({ block: 'start' });
+      naarBovenkant();
       return;
     }
 

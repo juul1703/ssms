@@ -722,33 +722,44 @@ a.notitie:hover .titel{color:var(--accent);}
   text-decoration:line-through;opacity:.55;}
 
 
-/* De rij met kopjes onder een tabblad. Kernstof blijft één tabblad; hiermee
-   spring je naar een kopje, of je zet hem op Alles voor de hele tekst. */
-.subrij{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 26px;padding-bottom:18px;
-  border-bottom:1px solid var(--line);}
-.subchip{border:1px solid var(--line);background:none;border-radius:999px;
-  padding:7px 13px;font-family:inherit;font-size:12.5px;line-height:1.3;color:var(--ink2);
-  cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent;
-  transition:border-color .15s ease,color .15s ease,background .15s ease;}
-.subchip:hover{border-color:var(--accent);color:var(--accent);}
-.subchip.nu{background:var(--ink);border-color:var(--ink);color:var(--paper);}
-.subchip.af{color:var(--muted);}
-.subchip.nu.af{color:var(--paper);}
-
-.substuk{scroll-margin-top:20px;}
-.substuk + .substuk{margin-top:34px;padding-top:30px;border-top:1px solid var(--line);}
-.substuk.af{opacity:.82;}
-
-.sub-af{margin-top:18px;}
-.sub-afknop{border:1px solid var(--line);background:none;border-radius:999px;
-  padding:8px 16px;font-family:inherit;font-size:12.5px;color:var(--ink2);cursor:pointer;
+/* De kopjesbalk onder een tabblad. Kernstof blijft één tabblad; met deze
+   balk loop je door de kopjes, en de lijst eronder klapt open om te springen. */
+.subbalk{display:flex;align-items:stretch;gap:8px;margin:0 0 26px;}
+.subpijl{flex:none;width:42px;border:1px solid var(--line);background:none;border-radius:12px;
+  font-family:inherit;font-size:15px;color:var(--ink2);cursor:pointer;
   -webkit-tap-highlight-color:transparent;transition:border-color .15s ease,color .15s ease;}
-.sub-afknop:hover{border-color:var(--accent);color:var(--accent);}
-.sub-afknop.af{background:var(--accent);border-color:var(--accent);color:var(--paper);}
+.subpijl:hover:not(:disabled){border-color:var(--accent);color:var(--accent);}
+.subpijl:disabled{opacity:.3;cursor:default;}
 
-/* Nummer of vinkje in een kopjeschip, en de Alles-knop achteraan */
-.subchip{display:inline-flex;align-items:center;gap:7px;}
-.subchip-nr{display:inline-flex;align-items:center;justify-content:center;flex:none;
-  width:18px;height:18px;border-radius:50%;border:1px solid var(--line);font-size:10.5px;}
-.subchip.nu .subchip-nr{border-color:var(--paper);}
-.subchip.alles{border-style:dashed;}
+.subnu{flex:1;min-width:0;text-align:left;border:1px solid var(--line);background:none;
+  border-radius:12px;padding:10px 15px;font-family:inherit;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:border-color .15s ease;}
+.subnu:hover{border-color:var(--accent);}
+.subnu-titel{display:block;font-size:14.5px;color:var(--ink);line-height:1.35;}
+.subnu-teller{display:block;font-size:11.5px;color:var(--muted);margin-top:3px;
+  letter-spacing:.04em;text-transform:uppercase;}
+
+.sublijst{display:flex;flex-direction:column;margin:-14px 0 26px;
+  border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+.sublijst.dicht{display:none;}
+.sublijst-rij{display:flex;align-items:center;gap:11px;text-align:left;border:none;
+  background:none;font-family:inherit;font-size:13.5px;color:var(--ink2);
+  padding:11px 15px;cursor:pointer;-webkit-tap-highlight-color:transparent;}
+.sublijst-rij + .sublijst-rij{border-top:1px solid var(--line);}
+.sublijst-rij:hover{background:rgba(0,0,0,.03);color:var(--ink);}
+.sublijst-rij.nu{background:var(--ink);color:var(--paper);}
+.sublijst-rij.af{color:var(--muted);}
+.sublijst-rij.nu.af{color:var(--paper);}
+.sublijst-nr{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  width:20px;height:20px;border-radius:50%;border:1px solid var(--line);font-size:10.5px;}
+.sublijst-rij.nu .sublijst-nr{border-color:var(--paper);}
+
+/* De kopjesbalk ingeklapt: alleen nog een smal knopje om hem terug te halen */
+.subin{font-size:13px;}
+.subbalk.in{margin-bottom:22px;}
+.subuit{border:1px dashed var(--line);background:none;border-radius:999px;
+  padding:6px 14px;font-family:inherit;font-size:12px;color:var(--muted);cursor:pointer;
+  letter-spacing:.04em;-webkit-tap-highlight-color:transparent;
+  transition:border-color .15s ease,color .15s ease;}
+.subuit:hover{border-color:var(--accent);color:var(--accent);}
+.subuit-pijl{font-size:13px;}
