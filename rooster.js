@@ -364,6 +364,16 @@ function feedHierna(nu){
 /* Toetsen en tentamens uit je rooster, als deadline.
    Meerdere zittingen van dezelfde toets (verschillende zalen of dagen naast elkaar)
    worden één regel, op de eerste datum. */
+/* Roosteritems die je niet als toets op je homescreen wilt. Wordt op de
+   titel gecontroleerd, kleine letters, dus een deel van de naam is genoeg.
+   Voeg hier gewoon een tekst toe als er iets tussen staat dat er niet hoort. */
+var GEEN_TOETS = ['demo'];
+
+function negeerAlsToets(titel){
+  var t = String(titel || '').toLowerCase();
+  return GEEN_TOETS.some(function(woord){ return t.indexOf(woord) > -1; });
+}
+
 function toetsenUitRooster(nu){
   if (!ROOSTER_FEED) return [];
   nu = nu || new Date();
@@ -371,6 +381,7 @@ function toetsenUitRooster(nu){
   var perToets = {};
   ROOSTER_FEED.forEach(function(e){
     if (e.start <= nu || soortUit(e.titel) !== 'toets') return;
+    if (negeerAlsToets(e.titel)) return;
     var sleutel = (e.vakId || slug(e.titel)) + '|' + soortLabel(e.titel);
     var dagen = Math.ceil((e.start - nu) / 86400000);
     if (!perToets[sleutel] || dagen < perToets[sleutel].dagen) {

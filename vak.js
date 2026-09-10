@@ -48,7 +48,7 @@
   /* Wat er voor de eerstvolgende les van dit vak moet gebeuren. De sessie en
      het onderwerp komen uit VAK_VOORBEREIDING; welke sessie eraan komt, leidt
      app.js af uit je rooster. */
-  function voorbereidingRegel(){
+  function voorbereidingRegel(inArchief){
     if (typeof voorbereidingDeadlines !== 'function') return '';
     var mijn = voorbereidingDeadlines(new Date()).filter(function(d){ return d.vakId === vakParam; })[0];
     if (!mijn) return '';
@@ -57,13 +57,16 @@
     /* De voorbereiding is af te vinken. Zodra dat gebeurt verdwijnt hij
        ook van je homescreen; zie voorAf in app.js. */
     var af = mijn.sessie && typeof voorAf === 'function' && voorAf(mijn.vakId, mijn.sessie);
+    if (af && !inArchief) return '';   // afgevinkt: staat verderop bij Afgerond
+    if (!af && inArchief) return '';
     return '<div class="voorbereiding-blok' + (af ? ' af' : '') + '">' +
       '<div class="voorbereiding-kop"><span>' + esc(kop) + '</span>' +
       '<span class="dl-datum">' + esc(wanneer) + '</span></div>' +
       (mijn.onderwerp ? '<div class="voorbereiding-onderwerp">' + esc(mijn.onderwerp) + '</div>' : '') +
       '<div class="voorbereiding-taak">' +
-      '<span class="mini-vink klikbaar" data-voorvink="' + esc(String(mijn.sessie || '')) + '" ' +
-      'role="button" tabindex="0" title="Voorbereiding afvinken">' + (af ? '\u2713' : '') + '</span>' +
+      '<button type="button" class="mini-vink klikbaar" data-voorvink="' + esc(String(mijn.sessie || '')) + '" ' +
+      'aria-pressed="' + (af ? 'true' : 'false') + '" title="Voorbereiding afvinken">' +
+      (af ? '\u2713' : '') + '</button>' +
       '<span>' + esc(mijn.titel) + '</span>' +
       '<span class="dl-soort voorbereiding">voorbereiding</span></div></div>';
   }
@@ -106,9 +109,13 @@
       : '<p class="noot" style="margin:' + (voor ? '12px 0 0' : '0') + ';">' +
         'Nog geen eigen deadlines voor dit vak. Voeg er hieronder een toe; hij komt ook op je homescreen te staan.</p>';
 
-    var archief = klaar.length
-      ? '<details class="dl-archief"><summary>Afgerond <span>' + klaar.length + '</span></summary>' +
-        klaar.map(function(x){ return dlRij(x.d, x.i, true); }).join('') + '</details>'
+    /* Een afgevinkte voorbereiding schuift mee naar Afgerond, net als een
+       eigen deadline die je afvinkt. */
+    var voorKlaar = voorbereidingRegel(true);
+    var aantalKlaar = klaar.length + (voorKlaar ? 1 : 0);
+    var archief = aantalKlaar
+      ? '<details class="dl-archief"><summary>Afgerond <span>' + aantalKlaar + '</span></summary>' +
+        voorKlaar + klaar.map(function(x){ return dlRij(x.d, x.i, true); }).join('') + '</details>'
       : '';
 
     el.innerHTML = voor + lijst + archief;
@@ -232,14 +239,17 @@
       var rijen = g.items.map(function(x){
         var isafg = isAf(vak, x.les);
         var uit = typeof lesUitgewerkt === 'function' ? lesUitgewerkt(vak, x.les) : true;
-        return '<a class="hfd-rij' + (isafg ? ' af' : '') + '" href="' + lesUrl(vak, x.les) + '">' +
-          '<span class="mini-vink klikbaar" data-lesvink="' + esc(x.les.id) + '" ' +
-          'role="button" tabindex="0" title="' + (isafg ? 'Weer op open zetten' : 'Afvinken') + '">' +
-          (isafg ? '\u2713' : x.nr) + '</span>' +
-          '<span>' + esc(x.kort) +
+        /* Het vinkje staat naast de link, niet erin. Binnen een link wint
+           op een telefoon de navigatie van de tik op het vinkje. */
+        return '<div class="hfd-rij' + (isafg ? ' af' : '') + '">' +
+          '<button type="button" class="mini-vink klikbaar" data-lesvink="' + esc(x.les.id) + '" ' +
+          'aria-pressed="' + (isafg ? 'true' : 'false') + '" ' +
+          'title="' + (isafg ? 'Weer op open zetten' : 'Afvinken') + '">' +
+          (isafg ? '\u2713' : x.nr) + '</button>' +
+          '<a class="hfd-link" href="' + lesUrl(vak, x.les) + '">' + esc(x.kort) +
           (uit ? '' : ' <span class="niet-uit">nog leeg</span>') +
           (x.les.voorbereiding ? '<span class="hfd-voor">' + esc(x.les.voorbereiding) + '</span>' : '') +
-          '</span></a>';
+          '</a></div>';
       }).join('');
       return '<details class="bron-groep"' + (gi === 0 ? ' open' : '') + '>' +
         '<summary><span class="bron-naam">' + esc(g.bron) + '</span>' +
@@ -307,15 +317,6 @@
       }
       return;
     }
-  });
-
-  /* Spatie of enter werkt ook, voor wie met een toetsenbord werkt. */
-  document.addEventListener('keydown', function(e){
-    if (e.key !== 'Enter' && e.key !== ' ') return;
-    var knop = e.target.closest && e.target.closest('.mini-vink.klikbaar');
-    if (!knop) return;
-    e.preventDefault();
-    knop.click();
   });
 
   /* kopieerbare stukjes en vinkjes werken ook hier */
