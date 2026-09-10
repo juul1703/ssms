@@ -53,7 +53,22 @@
 
      Een nieuw stuk begint bij elk blok met een titel. Blokken zonder titel,
      zoals een begrippenlijst, horen bij het kopje erboven. */
-  var subKeuze = {};   // per tabblad welk kopje je open hebt staan
+  /* Bij welk kopje je was, blijft staan in je browser, per les en per tabblad.
+     Kom je later terug, dan open je waar je gebleven was. */
+  function keuzeSleutel(tabId){ return basis + '-' + tabId + '-kopje'; }
+
+  function keuzeVan(tabId, aantal){
+    var v = null;
+    try { v = localStorage.getItem(keuzeSleutel(tabId)); } catch(e){}
+    if (v === null) return 0;
+    if (v === 'alles') return 'alles';
+    var n = parseInt(v, 10);
+    return (isNaN(n) || n < 0 || n >= aantal) ? 0 : n;
+  }
+
+  function zetKeuze(tabId, waarde){
+    try { localStorage.setItem(keuzeSleutel(tabId), String(waarde)); } catch(e){}
+  }
   var subOpen = false; // staat de kopjeslijst uitgeklapt?
   var balkIn = lokaalWaar('ssms-kopjesbalk-in'); // is de hele balk ingeklapt?
 
@@ -135,8 +150,7 @@
     } else {
       /* Standaard open je op het eerste kopje, niet op Alles. Anders staat
          de hele Kernstof alsnog achter elkaar en heb je aan de rij niets. */
-      var keuze = subKeuze[o.id];
-      if (keuze === undefined) keuze = 0;
+      var keuze = keuzeVan(o.id, stukken.length);
 
       /* Een compacte balk in plaats van 33 chips: pijl terug, de naam van het
          huidige kopje, pijl vooruit. Tik op de naam en de volledige lijst
@@ -385,11 +399,10 @@
     if (stap && !stap.disabled) {
       var o2 = onderdelen[actief];
       var st2 = stukkenVan(o2);
-      var h = subKeuze[o2.id];
-      if (h === undefined) h = 0;
+      var h = keuzeVan(o2.id, st2.length);
       if (h !== 'alles') {
         var n = h + parseInt(stap.getAttribute('data-substap'), 10);
-        if (n >= 0 && n < st2.length) subKeuze[o2.id] = n;
+        if (n >= 0 && n < st2.length) zetKeuze(o2.id, n);
       }
       toonTab();
       naarBovenkant();
@@ -399,7 +412,7 @@
     var chip = e.target.closest('[data-sub]');
     if (chip) {
       var w = chip.getAttribute('data-sub');
-      subKeuze[onderdelen[actief].id] = (w === 'alles') ? 'alles' : parseInt(w, 10);
+      zetKeuze(onderdelen[actief].id, (w === 'alles') ? 'alles' : parseInt(w, 10));
       subOpen = false;
       toonTab();
       naarBovenkant();
