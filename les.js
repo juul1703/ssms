@@ -347,17 +347,10 @@
     if (lokaalWaar(k) && actief < onderdelen.length - 1) naarTab(actief + 1);
   });
 
-  /* Naar de bovenkant van de kopjesbalk, met wat lucht erboven. scrollIntoView
-     mikte op de balk zoals die na het hertekenen stond en schoot daardoor door;
-     dit rekent de positie zelf uit. */
-  function naarBovenkant(){
-    var b = document.querySelector('.subbalk');
-    if (!b) return;
-    var y = b.getBoundingClientRect().top + window.pageYOffset - 24;
-    window.scrollTo(0, y < 0 ? 0 : y);
-  }
-
-  /* Bij afvinken wil je juist blijven staan waar je stond. */
+  /* Niets in deze balk mag de pagina laten springen. Elke actie tekent het
+     tabblad opnieuw, en daarbij verliest de browser je scrollpositie; die
+     zetten we hier direct terug. Geldt voor doorbladeren, kiezen uit de
+     lijst, afvinken en in- of uitklappen. */
   function zonderSprong(fn){
     var y = window.pageYOffset;
     fn();
@@ -383,14 +376,14 @@
       balkIn = !balkIn;
       lokaalZet('ssms-kopjesbalk-in', balkIn);
       if (balkIn) subOpen = false;
-      toonTab();
+      zonderSprong(toonTab);
       return;
     }
 
     /* De lijst open- of dichtklappen. */
     if (e.target.closest('[data-sublijst]')) {
       subOpen = !subOpen;
-      toonTab();
+      zonderSprong(toonTab);
       return;
     }
 
@@ -404,8 +397,7 @@
         var n = h + parseInt(stap.getAttribute('data-substap'), 10);
         if (n >= 0 && n < st2.length) zetKeuze(o2.id, n);
       }
-      toonTab();
-      naarBovenkant();
+      zonderSprong(toonTab);
       return;
     }
 
@@ -414,8 +406,7 @@
       var w = chip.getAttribute('data-sub');
       zetKeuze(onderdelen[actief].id, (w === 'alles') ? 'alles' : parseInt(w, 10));
       subOpen = false;
-      toonTab();
-      naarBovenkant();
+      zonderSprong(toonTab);
       return;
     }
 
