@@ -41,7 +41,52 @@
   var vorige = vak.lessen[index - 1] || null;
   var volgende = vak.lessen[index + 1] || null;
   var basis = 'ssms-' + vak.id + '-' + les.id;
-  var onderdelen = lesOnderdelen(vak, les);
+  var onderdelen = splitsKernstof(lesOnderdelen(vak, les));
+
+  /* Kernstof is bij de meeste lessen veel te lang voor één tabblad. Elk kopje
+     wordt daarom een eigen onderdeel, met een eigen tab, een eigen vinkje,
+     een eigen notitieveld en eigen vorige/volgende.
+
+     De regel: een nieuw onderdeel begint bij elk blok dat een titel heeft.
+     Blokken zonder titel, zoals een begrippenlijst, horen bij het kopje
+     erboven. Staat er helemaal geen titel in, dan blijft het tabblad heel.
+
+     De ids blijven vast (kern-1, kern-2, ...), zodat je vinkjes en notities
+     blijven staan als er later een kopje bij komt. Let op: schuift een kopje
+     in de volgorde, dan schuiven de vinkjes mee. */
+  function splitsKernstof(tabs){
+    var TE_SPLITSEN = { kern: true, kernstof: true };
+    var uit = [];
+
+    tabs.forEach(function(tab){
+      var blokken = tab.blokken || [];
+      var metTitel = blokken.filter(function(b){ return b.titel; }).length;
+
+      if (!TE_SPLITSEN[String(tab.id).toLowerCase()] || metTitel < 2) {
+        uit.push(tab);
+        return;
+      }
+
+      var stukken = [];
+      blokken.forEach(function(b){
+        if (b.titel || !stukken.length) {
+          stukken.push({ titel: b.titel || tab.titel, blokken: [] });
+        }
+        stukken[stukken.length - 1].blokken.push(b);
+      });
+
+      stukken.forEach(function(stuk, i){
+        uit.push({
+          id: tab.id + '-' + (i + 1),
+          titel: stuk.titel,
+          groepTitel: tab.titel,
+          blokken: stuk.blokken
+        });
+      });
+    });
+
+    return uit;
+  }
   var actief = 0;
 
   /* ---- kop ---- */
@@ -97,7 +142,8 @@
       sleutel: basis + '-' + o.id,
       volgendeHref: volgende ? lesUrl(vak, volgende) : 'index.html'
     };
-    document.getElementById('tabLabel').textContent = 'Onderdeel ' + (actief + 1) + ' van ' + onderdelen.length;
+    document.getElementById('tabLabel').textContent = (o.groepTitel ? o.groepTitel + ' \u00b7 ' : '') +
+      'onderdeel ' + (actief + 1) + ' van ' + onderdelen.length;
     document.getElementById('tabTitel').textContent = o.titel;
     document.getElementById('inhoud').innerHTML = blokkenHtml(o.blokken, ctx);
     document.getElementById('notitieTab').textContent = o.titel.toLowerCase();

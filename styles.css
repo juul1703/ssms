@@ -720,3 +720,8 @@ a.notitie:hover .titel{color:var(--accent);}
   border-color:var(--accent);color:var(--paper);}
 .voorbereiding-blok.af .voorbereiding-taak > span:not(.mini-vink):not(.dl-soort){
   text-decoration:line-through;opacity:.55;}
+
+/* Kernstof wordt opgesplitst in een onderdeel per kopje, dus de tabstrip
+   wordt lang. Hij scrollt horizontaal en de tablijst is het menu. */
+#tabs{overflow-x:auto;scrollbar-width:thin;-webkit-overflow-scrolling:touch;}
+#tabs .tab{white-space:nowrap;}
