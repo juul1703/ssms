@@ -41,7 +41,52 @@
   var vorige = vak.lessen[index - 1] || null;
   var volgende = vak.lessen[index + 1] || null;
   var basis = 'ssms-' + vak.id + '-' + les.id;
-  var onderdelen = lesOnderdelen(vak, les);
+  var onderdelen = metFlashcards(lesOnderdelen(vak, les));
+
+  /* Elke les krijgt Flashcards als vijfde tabblad. De kaarten worden
+     samengesteld uit alle begrippen- en flashcardblokken in de les, in
+     volgorde van voorkomen, zonder dubbele termen.
+
+     Wil je voor een les eigen kaarten schrijven, zet dan zelf een tabblad
+     met id 'kaarten' in de LESSTOF; dit blok laat dat dan met rust. */
+  function metFlashcards(tabs){
+    var alBestaat = tabs.some(function(t){ return String(t.id).toLowerCase() === 'kaarten'; });
+    if (alBestaat) return tabs;
+
+    var kaarten = [];
+    var gezien = {};
+
+    function voegToe(begrip, definitie){
+      if (!begrip || !definitie) return;
+      var sleutel = String(begrip).toLowerCase().trim();
+      if (gezien[sleutel]) return;
+      gezien[sleutel] = true;
+      kaarten.push({ begrip: begrip, definitie: definitie });
+    }
+
+    tabs.forEach(function(t){
+      (t.blokken || []).forEach(function(b){
+        if (b.type === 'begrippen') {
+          (b.items || []).forEach(function(x){ voegToe(x.begrip, x.definitie); });
+        }
+        if (b.type === 'flashcards') {
+          (b.kaarten || []).forEach(function(x){ voegToe(x.begrip, x.definitie); });
+        }
+      });
+    });
+
+    if (!kaarten.length) return tabs;
+
+    return tabs.concat([{
+      id: 'kaarten',
+      titel: 'Flashcards',
+      blokken: [
+        { type: 'tekst', titel: 'Hoe je deze kaarten gebruikt',
+          tekst: 'Tik op een term of op een definitie om alleen dat stuk te kopiëren. Zo kun je ze los plakken in Quizlet, Anki of je eigen aantekeningen.\n\nDe kaarten komen uit de begrippen die in deze les zijn behandeld.' },
+        { type: 'flashcards', titel: 'Begrippen uit deze les', kaarten: kaarten }
+      ]
+    }]);
+  }
 
   /* Kernstof is te lang voor één scherm, maar er zijn ook te veel kopjes om
      er tabbladen van te maken. Daarom blijft het één tabblad met daaronder
@@ -176,7 +221,7 @@
             }).join('');
           }
           return '<section class="substuk' + (subAf(o.id, nu) ? ' af' : '') + '" data-stuk="' + nu + '">' +
-            blokkenHtml(stukken[nu].blokken, ctx) + subVink(o.id, nu) + '</section>';
+            blokkenHtml(stukken[nu].blokken, ctx) + subVink(o.id, nu, stukken.length) + '</section>';
         })();
         return;
       }
@@ -217,7 +262,7 @@
         }).join('');
       } else {
         body = '<section class="substuk' + (subAf(o.id, keuze) ? ' af' : '') + '" data-stuk="' + keuze + '">' +
-          blokkenHtml(stukken[keuze].blokken, ctx) + subVink(o.id, keuze) + '</section>';
+          blokkenHtml(stukken[keuze].blokken, ctx) + subVink(o.id, keuze, stukken.length) + '</section>';
       }
 
       document.getElementById('inhoud').innerHTML = rij + body;
@@ -334,7 +379,7 @@
     }
 
     var kaart = t.closest('.kaart');
-    if (kaart && !t.closest('[data-kopieer]')) { kaart.classList.toggle('om'); return; }
+    if (kaart && !t.closest('[data-kopieer]')) { return; }   // kaarten draaien niet meer om
 
     var optie = t.closest('.qoptie');
     if (optie) { antwoordQuiz(optie); return; }
@@ -358,12 +403,22 @@
   }
 
   /* Het vinkje onderaan een kopje. */
-  function subVink(tabId, i){
+  /* Onderaan een kopje: links de afvinkknop, rechts een pijl naar het
+     volgende kopje. Bij het laatste kopje en in de stand 'alles achter
+     elkaar' vervalt die pijl. */
+  function subVink(tabId, i, aantal){
     var af = subAf(tabId, i);
-    return '<div class="sub-af"><button type="button" class="btn af-knop sub-afknop' +
+    var knop = '<button type="button" class="btn af-knop sub-afknop' +
       (af ? ' af' : '') + '" data-subvink="' + i + '">' +
       '<span class="sub-afvink">' + (af ? '\u2713' : '') + '</span>' +
-      (af ? 'Kopje afgerond' : 'Kopje afvinken') + '</button></div>';
+      (af ? 'Kopje afgerond' : 'Kopje afvinken') + '</button>';
+
+    var pijl = (aantal && i < aantal - 1)
+      ? '<button type="button" class="sub-volgende" data-substap="1">' +
+        'Volgend kopje <span aria-hidden="true">\u2192</span></button>'
+      : '';
+
+    return '<div class="sub-af">' + knop + pijl + '</div>';
   }
 
   /* Een kopje kiezen of afvinken. */

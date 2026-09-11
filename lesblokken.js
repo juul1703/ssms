@@ -137,14 +137,17 @@ var BLOKKEN = {
 
   /* ---- flashcards ---- */
   flashcards: function(b){
+    /* Geen omdraaikaarten maar rustige blokken: links de term, rechts de
+       definitie. Tik op een van de twee en je kopieert alleen dat stuk,
+       zodat je ze los kunt plakken in Quizlet, Anki of je aantekeningen. */
     return '<div class="blok-kop"><h2>' + esc(b.titel || 'Flashcards') + '</h2>' +
-      '<span class="hint">klik om te draaien · klik op de tekst om te kopiëren</span></div>' +
-      '<div class="kaarten">' + (b.kaarten || []).map(function(k, i){
-        return '<div class="kaart" data-kaart="' + i + '">' +
-          '<div class="kaart-vlak kaart-voor"><span class="kaart-rol">begrip</span>' +
-          '<span class="kopieer" data-kopieer="' + esc(k.begrip) + '">' + esc(k.begrip) + '</span></div>' +
-          '<div class="kaart-vlak kaart-achter"><span class="kaart-rol">definitie</span>' +
-          '<span class="kopieer" data-kopieer="' + esc(k.definitie) + '">' + esc(k.definitie) + '</span></div>' +
+      '<span class="hint">tik op een term of definitie om die te kopi\u00ebren</span></div>' +
+      '<div class="kaartlijst">' + (b.kaarten || []).map(function(k){
+        return '<div class="kaartrij">' +
+          '<button type="button" class="kaart-term kopieer" data-kopieer="' + esc(k.begrip) + '">' +
+          esc(k.begrip) + '</button>' +
+          '<button type="button" class="kaart-def kopieer" data-kopieer="' + esc(k.definitie) + '">' +
+          esc(k.definitie) + '</button>' +
           '</div>';
       }).join('') + '</div>';
   },

@@ -767,8 +767,29 @@ a.notitie:hover .titel{color:var(--accent);}
 /* De afvinkknop onder een kopje. Zelfde vorm als 'Onderdeel afvinken'
    onderaan een tabblad, zodat het één familie blijft. */
 .sub-af{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);
-  display:flex;justify-content:flex-end;}
+  display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+.sub-volgende{margin-left:auto;border:1px solid var(--line);background:none;border-radius:999px;
+  padding:11px 20px;font-family:inherit;font-size:13px;color:var(--ink2);cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:border-color .15s ease,color .15s ease;}
+.sub-volgende:hover{border-color:var(--accent);color:var(--accent);}
 .sub-afknop{display:inline-flex;align-items:center;gap:9px;padding:11px 22px;font-size:13px;}
 .sub-afvink{display:inline-flex;align-items:center;justify-content:center;flex:none;
   width:17px;height:17px;border-radius:50%;border:1px solid currentColor;font-size:10px;opacity:.6;}
 .sub-afknop.af .sub-afvink{opacity:1;}
+
+/* Flashcards als blokken: links de term, rechts de definitie. Allebei aan te
+   tikken om alleen dat stuk te kopiëren. Geen omdraaien. */
+.kaartlijst{display:flex;flex-direction:column;gap:10px;}
+.kaartrij{display:grid;grid-template-columns:minmax(150px,1fr) 2fr;gap:10px;align-items:stretch;}
+.kaart-term,.kaart-def{text-align:left;font-family:inherit;background:none;cursor:pointer;
+  border:1px solid var(--line);border-radius:12px;padding:13px 16px;line-height:1.5;
+  -webkit-tap-highlight-color:transparent;
+  transition:border-color .15s ease,background .15s ease;}
+.kaart-term{font-size:14px;color:var(--ink);font-weight:500;}
+.kaart-def{font-size:13.5px;color:var(--ink2);}
+.kaart-term:hover,.kaart-def:hover{border-color:var(--accent);background:rgba(0,0,0,.02);}
+.kaart-term:active,.kaart-def:active{transform:scale(.995);}
+@media (max-width:620px){
+  .kaartrij{grid-template-columns:1fr;gap:6px;}
+  .kaart-def{margin-left:14px;}
+}
