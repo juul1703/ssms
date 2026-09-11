@@ -46,6 +46,9 @@
     ],
     'society-politics': [
       { id: 'slides-1', titel: 'Sessie 1 \u00b7 Introductie en sociologische perspectieven', duur: 60 }
+    ],
+    'governance-policy': [
+      { id: 'slides-1', titel: 'Sessie 1 \u00b7 Governance and Policy: an introduction', duur: 60 }
     ]
   };
 

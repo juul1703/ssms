@@ -3685,23 +3685,35 @@ var VAK_VOORBEREIDING = {
     16: { onderwerp: 'Recap en tentamenvoorbereiding', titel: 'Daarna de eindtoets (mondeling)', lesIds: [] }
   },
 
+  /* Deel 1 (sessie 1 t/m 8) volgt het document 'G&P Part 1 Program and
+     sources 2026-27' van de docent, niet de module manual: de onderwerpen
+     staan daar in een andere volgorde en met data erbij.
+     Deel 2 (sessie 9 t/m 16) komt nog uit de manual. */
   'governance-policy': {
-    1:  { onderwerp: 'Governance and policy: een introductie', titel: 'McCormick H1 lezen', lesIds: [] },
-    2:  { onderwerp: 'Executives en bureaucratieën', titel: 'McCormick H8 en H10 lezen', lesIds: [] },
-    3:  { onderwerp: 'Politieke participatie en partijen', titel: 'McCormick H13 en H15 lezen', lesIds: [] },
-    4:  { onderwerp: 'Belangengroepen en publiek beleid', titel: 'McCormick H16 en H17 lezen', lesIds: [] },
-    5:  { onderwerp: 'Van government naar governance', titel: 'Levi-Faur (2012) lezen, p. 3-18', lesIds: [] },
-    6:  { onderwerp: 'Democratie en bureaucratie: normen en waarden', titel: 'Buckwalter & Balfour lezen (Quality of Governance, H2)', lesIds: [] },
-    7:  { onderwerp: 'Public governance: een casestudy', titel: 'Huberts, Kaptein & De Koning (2022) lezen', lesIds: [] },
-    8:  { onderwerp: 'Recap en tentamenvoorbereiding', titel: 'Daarna de midterm en de POP-week', lesIds: [] },
+    1:  { onderwerp: 'Governance and Policy: an introduction (Gomez Llata) \u00b7 11 sep',
+          titel: 'McCormick H1 lezen', lesIds: [] },
+    2:  { onderwerp: 'Democracy and bureaucracy: norms and values in building governance practices (Gomez Llata) \u00b7 18 sep',
+          titel: 'Verplicht: Buckwalter & Balfour lezen, hoofdstuk 2 van Quality of Governance', lesIds: [] },
+    3:  { onderwerp: 'Executives and bureaucracies (De Sousa) \u00b7 25 sep',
+          titel: 'McCormick H8 en H10 lezen', lesIds: [] },
+    4:  { onderwerp: 'Political participation and political parties (De Sousa) \u00b7 2 okt',
+          titel: 'McCormick H13 en H15 lezen', lesIds: [] },
+    5:  { onderwerp: 'The development of a paradigm: from government to governance (Gomez Llata) \u00b7 9 okt',
+          titel: 'Verplicht: Levi-Faur (2012), p. 3-18 \u00b7 aanbevolen: S\u00f8rensen & Torfing (2018), p. 350-359', lesIds: [] },
+    6:  { onderwerp: 'Public governance: a case study (Gomez Llata) \u00b7 16 okt',
+          titel: 'Verplicht: Huberts, Kaptein & De Koning (2022), p. 329-341', lesIds: [] },
+    7:  { onderwerp: 'Interest groups and public policy (De Sousa) \u00b7 30 okt',
+          titel: 'McCormick H16 en H17 lezen', lesIds: [] },
+    8:  { onderwerp: 'Recap and exam preparation (Gomez Llata & De Sousa) \u00b7 6 nov',
+          titel: 'Daarna de midterm en de POP-week', lesIds: [], leeg: true },
     9:  { onderwerp: 'Introductie besluitvorming', titel: 'Allison & Zelikow lezen, p. 1-12', lesIds: [] },
-    10: { onderwerp: 'Agendasetting', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
-    11: { onderwerp: 'Beleidsformulering', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
-    12: { onderwerp: 'Beleidsimplementatie 1', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
-    13: { onderwerp: 'Beleidsimplementatie 2', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
+    10: { onderwerp: 'Agendasetting', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    11: { onderwerp: 'Beleidsformulering', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    12: { onderwerp: 'Beleidsimplementatie 1', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    13: { onderwerp: 'Beleidsimplementatie 2', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
     14: { onderwerp: 'Beleidsevaluatie', titel: 'House (p. 618-627) en Weiss (p. 47-70) lezen', lesIds: [] },
-    15: { onderwerp: 'Beleid maken in de praktijk', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
-    16: { onderwerp: 'Overzicht en tentamenvoorbereiding', titel: 'Daarna de eindtoets', lesIds: [] }
+    15: { onderwerp: 'Beleid maken in de praktijk', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    16: { onderwerp: 'Overzicht en tentamenvoorbereiding', titel: 'Daarna de eindtoets', lesIds: [], leeg: true }
   },
 
   'society-politics': {
