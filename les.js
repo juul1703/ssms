@@ -243,13 +243,17 @@
       var lijst = '<div class="sublijst' + (subOpen ? '' : ' dicht') + '">' +
         stukken.map(function(st, i){
           var af = subAf(o.id, i);
-          return '<button type="button" class="sublijst-rij' + (keuze === i ? ' nu' : '') +
-            (af ? ' af' : '') + '" data-sub="' + i + '">' +
-            '<span class="sublijst-nr">' + (af ? '\u2713' : (i + 1)) + '</span>' +
-            esc(st.titel) + '</button>';
+          return '<div class="sublijst-rij' + (keuze === i ? ' nu' : '') +
+            (af ? ' af' : '') + '">' +
+            '<button type="button" class="sublijst-nr" data-subvink="' + i + '" ' +
+            'title="' + (af ? 'Weer op open zetten' : 'Afvinken') + '">' +
+            (af ? '\u2713' : (i + 1)) + '</button>' +
+            '<button type="button" class="sublijst-naam" data-sub="' + i + '">' +
+            esc(st.titel) + '</button></div>';
         }).join('') +
-        '<button type="button" class="sublijst-rij alles' + (alles ? ' nu' : '') +
-        '" data-sub="alles"><span class="sublijst-nr">\u2261</span>Alles achter elkaar lezen</button>' +
+        '<div class="sublijst-rij alles' + (alles ? ' nu' : '') + '">' +
+        '<span class="sublijst-nr leeg">\u2261</span>' +
+        '<button type="button" class="sublijst-naam" data-sub="alles">Alles achter elkaar lezen</button></div>' +
         '</div>';
 
       var rij = balk + lijst;
@@ -408,17 +412,22 @@
      elkaar' vervalt die pijl. */
   function subVink(tabId, i, aantal){
     var af = subAf(tabId, i);
-    var knop = '<button type="button" class="btn af-knop sub-afknop' +
-      (af ? ' af' : '') + '" data-subvink="' + i + '">' +
-      '<span class="sub-afvink">' + (af ? '\u2713' : '') + '</span>' +
-      (af ? 'Kopje afgerond' : 'Kopje afvinken') + '</button>';
+    /* Eén knop rechtsonder. Die vinkt dit kopje af en gaat meteen door naar
+       het volgende. Bij het laatste kopje valt het doorgaan weg.
+       Per ongeluk afgevinkt? Tik dan op het vinkje in de kopjeslijst. */
+    var laatste = !aantal || i >= aantal - 1;
 
-    var pijl = (aantal && i < aantal - 1)
-      ? '<button type="button" class="sub-volgende" data-substap="1">' +
-        'Volgend kopje <span aria-hidden="true">\u2192</span></button>'
-      : '';
+    var knop = laatste
+      ? '<button type="button" class="btn af-knop sub-afknop' + (af ? ' af' : '') +
+        '" data-subvink="' + i + '">' +
+        '<span class="sub-afvink">' + (af ? '\u2713' : '') + '</span>' +
+        (af ? 'Kopje afgerond' : 'Kopje afvinken') + '</button>'
+      : '<button type="button" class="btn af-knop sub-afknop" data-afverder="' + i + '">' +
+        '<span class="sub-afvink">' + (af ? '\u2713' : '') + '</span>' +
+        (af ? 'Volgend kopje' : 'Afvinken en verder') +
+        ' <span aria-hidden="true">\u2192</span></button>';
 
-    return '<div class="sub-af">' + knop + pijl + '</div>';
+    return '<div class="sub-af">' + knop + '</div>';
   }
 
   /* Een kopje kiezen of afvinken. */
@@ -461,6 +470,19 @@
       var w = chip.getAttribute('data-sub');
       zetKeuze(onderdelen[actief].id, (w === 'alles') ? 'alles' : parseInt(w, 10));
       subOpen = false;
+      zonderSprong(toonTab);
+      return;
+    }
+
+    /* Afvinken en meteen door. */
+    var verder = e.target.closest('[data-afverder]');
+    if (verder) {
+      var o3 = onderdelen[actief];
+      var st3 = stukkenVan(o3);
+      var j = parseInt(verder.getAttribute('data-afverder'), 10);
+      var sl = subSleutel(o3.id, j);
+      if (!lokaalWaar(sl)) lokaalZet(sl, true);
+      if (st3 && j + 1 < st3.length) zetKeuze(o3.id, j + 1);
       zonderSprong(toonTab);
       return;
     }
