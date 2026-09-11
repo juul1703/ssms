@@ -77,6 +77,66 @@ function sessieStart(vakId){
   return VAK_START[vakId] || SEMESTER_START;
 }
 
+/* Voorbereidingen van sessies die al geweest zijn en die je niet hebt
+   afgevinkt. Die verdwenen eerder geruisloos; nu blijven ze staan als
+   achterstand, met het aantal dagen dat ze te laat zijn.
+
+   Alleen sessies met echt leeswerk tellen mee: een sessie met 'leeg: true'
+   valt af, want daar viel niets te doen. */
+function achterstalligeVoorbereiding(nu){
+  if (typeof VAK_VOORBEREIDING === 'undefined') return [];
+  if (typeof ROOSTER_FEED === 'undefined' || !ROOSTER_FEED) return [];
+  var uit = [];
+
+  Object.keys(VAK_VOORBEREIDING).forEach(function(vakId){
+    var hit = vindVak(vakId);
+    if (!hit || verborgen(hit.vak)) return;
+
+    var sessies = sessiesVan(vakId);
+
+    for (var i = 0; i < sessies.length; i++) {
+      if (sessies[i].eind > nu) break;               // nog niet geweest
+      var plan = VAK_VOORBEREIDING[vakId][i + 1];
+      if (!plan || plan.leeg) continue;
+      if (voorAf(vakId, i + 1)) continue;            // zelf afgevinkt
+
+      /* Hangt er lesstof aan en is die helemaal af, dan is het ook klaar. */
+      var klaar = (plan.lesIds || []).length && (plan.lesIds || []).every(function(lesId){
+        var les = hit.vak.lessen.filter(function(l){ return l.id === lesId; })[0];
+        return les ? isAf(hit.vak, les) : false;
+      });
+      if (klaar) continue;
+
+      var teLaat = Math.round((nu - sessies[i].eind) / 86400000);
+      uit.push({
+        titel: plan.titel, vak: hit.vak.naam, vakId: vakId, soort: 'achterstand',
+        onderwerp: plan.onderwerp || '', sessie: i + 1, leeg: false,
+        achterstallig: true, teLaat: teLaat < 1 ? 1 : teLaat, dagen: -1
+      });
+    }
+  });
+
+  return uit.sort(function(a, b){ return b.teLaat - a.teLaat; });
+}
+
+/* De sessies van een vak, ontdubbeld per dag. Stond eerst midden in
+   voorbereidingDeadlines; nu apart zodat de achterstand precies dezelfde
+   telling gebruikt en de twee niet uit de pas kunnen lopen. */
+function sessiesVan(vakId){
+  var sessies = [];
+  var start = sessieStart(vakId);
+  ROOSTER_FEED.filter(function(e){
+    return e.vakId === vakId && soortUit(e.titel) !== 'toets' && e.start >= start;
+  }).sort(function(a, b){ return a.start - b.start; })
+    .forEach(function(e){
+      var dag = new Date(e.start).toDateString();
+      var laatste = sessies[sessies.length - 1];
+      if (laatste && laatste.dag === dag) return;
+      sessies.push({ dag: dag, start: e.start, eind: e.eind });
+    });
+  return sessies;
+}
+
 function voorbereidingDeadlines(nu){
   if (typeof VAK_VOORBEREIDING === 'undefined') return [];
   if (typeof ROOSTER_FEED === 'undefined' || !ROOSTER_FEED) return [];
@@ -91,17 +151,7 @@ function voorbereidingDeadlines(nu){
        geboekt uur), dan is dat samen één sessie. Zonder deze ontdubbeling
        loopt het sessienummer te snel op en zie je het leesschema van een
        latere sessie. */
-    var sessies = [];
-    var start = sessieStart(vakId);
-    ROOSTER_FEED.filter(function(e){
-      return e.vakId === vakId && soortUit(e.titel) !== 'toets' && e.start >= start;
-    }).sort(function(a, b){ return a.start - b.start; })
-      .forEach(function(e){
-        var dag = new Date(e.start).toDateString();
-        var laatste = sessies[sessies.length - 1];
-        if (laatste && laatste.dag === dag) return;   // zelfde dag, zelfde sessie
-        sessies.push({ dag: dag, start: e.start, eind: e.eind });
-      });
+    var sessies = sessiesVan(vakId);
 
     for (var i = 0; i < sessies.length; i++) {
       if (sessies[i].eind <= nu) continue;            // al geweest
@@ -164,6 +214,9 @@ function deadlines(){
   uit = uit.concat(voorbereidingDeadlines(nu).filter(function(d){
     return !d.leeg && !voorAf(d.vakId, d.sessie);
   }));
+  /* Achterstand hoort bovenaan te staan, dus met dagen -1 sorteert hij
+     vanzelf voor alles wat nog moet komen. */
+  uit = achterstalligeVoorbereiding(nu).concat(uit);
 
   return uit.sort(function(x, y){ return x.dagen - y.dagen; });
 }
@@ -465,10 +518,17 @@ function render(){
         var klasse = d.dagen <= 3 ? 'pil nu' : d.dagen >= 10 ? 'pil rustig' : 'pil';
         if (d.dagen > 60) klasse = 'pil rustig';
         var telling = d.dagen === 0 ? 'vandaag' : d.dagen === 1 ? 'morgen' : d.dagen + ' dagen';
+        /* Achterstand telt terug in plaats van vooruit. */
+        if (d.achterstallig) {
+          klasse = 'pil te-laat';
+          telling = d.teLaat === 1 ? '1 dag te laat' : d.teLaat + ' dagen te laat';
+        }
         var datum = d.datum
           ? d.datum.toLocaleDateString('nl-NL', { weekday: 'short', day: 'numeric', month: 'short' })
-          : '';
-        var merk = d.soort === 'voorbereiding'
+          : (d.achterstallig && d.sessie ? 'sessie ' + d.sessie : '');
+        var merk = d.achterstallig
+          ? '<span class="dl-soort te-laat">ingehaald worden</span>'
+          : d.soort === 'voorbereiding'
           ? '<span class="dl-soort voorbereiding">voorbereiding</span>'
           : d.soort === 'eigen' ? '<span class="dl-soort">eigen</span>' : '';
         return '<div class="dl' + (d.soort ? ' ' + d.soort : '') + '"' + (d.vakId ? ' data-vak="' + esc(d.vakId) + '"' : '') +

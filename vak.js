@@ -50,16 +50,35 @@
      app.js af uit je rooster. */
   function voorbereidingRegel(inArchief){
     if (typeof voorbereidingDeadlines !== 'function') return '';
-    var mijn = voorbereidingDeadlines(new Date()).filter(function(d){ return d.vakId === vakParam; })[0];
-    if (!mijn) return '';
+    var nu = new Date();
+
+    /* Gemiste voorbereidingen van dit vak, bovenaan het deadlineblok. */
+    var achter = typeof achterstalligeVoorbereiding === 'function'
+      ? achterstalligeVoorbereiding(nu).filter(function(d){ return d.vakId === vakParam; })
+      : [];
+    var achterHtml = (inArchief || !achter.length) ? '' :
+      '<div class="achterstand-blok">' +
+      '<div class="voorbereiding-kop"><span>Nog inhalen</span>' +
+      '<span class="dl-datum">' + achter.length + '</span></div>' +
+      achter.map(function(d){
+        return '<div class="voorbereiding-taak achterstand-rij">' +
+          '<span class="mini-vink klikbaar" data-voorvink="' + esc(String(d.sessie)) + '" ' +
+          'role="button" tabindex="0" title="Afvinken"></span>' +
+          '<span><strong>Sessie ' + esc(String(d.sessie)) + '</strong> \u00b7 ' + esc(d.titel) + '</span>' +
+          '<span class="dl-soort te-laat">' +
+          (d.teLaat === 1 ? '1 dag te laat' : d.teLaat + ' dagen te laat') + '</span></div>';
+      }).join('') + '</div>';
+
+    var mijn = voorbereidingDeadlines(nu).filter(function(d){ return d.vakId === vakParam; })[0];
+    if (!mijn) return achterHtml;
     var wanneer = mijn.dagen === 0 ? 'vandaag' : mijn.dagen === 1 ? 'morgen' : 'over ' + mijn.dagen + ' dagen';
     var kop = 'Volgende les' + (mijn.sessie ? ' \u00b7 sessie ' + mijn.sessie : '');
     /* De voorbereiding is af te vinken. Zodra dat gebeurt verdwijnt hij
        ook van je homescreen; zie voorAf in app.js. */
     var af = mijn.sessie && typeof voorAf === 'function' && voorAf(mijn.vakId, mijn.sessie);
-    if (af && !inArchief) return '';   // afgevinkt: staat verderop bij Afgerond
+    if (af && !inArchief) return achterHtml;   // afgevinkt: staat verderop bij Afgerond
     if (!af && inArchief) return '';
-    return '<div class="voorbereiding-blok' + (af ? ' af' : '') + '">' +
+    return achterHtml + '<div class="voorbereiding-blok' + (af ? ' af' : '') + '">' +
       '<div class="voorbereiding-kop"><span>' + esc(kop) + '</span>' +
       '<span class="dl-datum">' + esc(wanneer) + '</span></div>' +
       (mijn.onderwerp ? '<div class="voorbereiding-onderwerp">' + esc(mijn.onderwerp) + '</div>' : '') +
