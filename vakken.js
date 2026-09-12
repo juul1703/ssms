@@ -85,6 +85,9 @@
 
   /* Losse onderdelen die geen boek en geen slides zijn. */
   var EXTRA = {
+    'demystifying-research-methods': [
+      { id: 'conceptlist', groep: 'Extra naslagwerken', titel: 'Concept list \u00b7 alle 52 begrippen', duur: 90 }
+    ],
     'professional-skills': [
       { id: 'opdrachten', groep: 'Opdrachten', titel: 'De drie opdrachten \u00b7 aanpak per opdracht', duur: 30 }
     ],

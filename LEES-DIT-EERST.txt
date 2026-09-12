@@ -1,64 +1,16 @@
-SSMS-leeromgeving — schone versie
+SSMS-leeromgeving — complete repo, stand 12 september 2026 (sw v57)
 
 Sleep de INHOUD van deze map naar de hoofdmap van je repository.
-Geen submap: alle bestanden staan naast elkaar, en index.html moet
-je meteen zien op de hoofdpagina van je repo.
+Geen submap: alle bestanden staan naast elkaar, en index.html moet je
+meteen zien op de hoofdpagina van de repo.
 
-Wat er anders is dan hiervoor
------------------------------
-Het rooster maakte vroeger zelf vakken en lessen aan, met namen als
-"Hoorcollege · wo 9 sep". Dat botste steeds met de echte inhoud: welk
-bestand als laatste aan de beurt was, won, en de rest werd weggegooid.
-Dat is de oorzaak geweest van alle lege lijsten.
+OVERDRACHT.md is voor jou en voor een nieuwe chat. De site heeft dat
+bestand niet nodig; het kan er wel gewoon in staan.
 
-Die functie is er nu helemaal uit. Het rooster leest je MyTimetable-link
-en vertelt wanneer je waar moet zijn, meer niet. Welke vakken er zijn en
-wat erin zit staat op precies één plek: vakken.js.
-
-Waar wat staat
---------------
-vakken.js         welke vakken er zijn en welke onderdelen ze hebben
-ssms-inhoud.js    alle lesstof, het programma per vak (VAK_VOORBEREIDING)
-                  en de course manuals (VAK_MANUAL)
-rooster.js        leest je rooster, verder niets
-app.js            homescreen, deadlines, voortgang
-vak.js, les.js    tekenen de vak- en lespagina
-lesblokken.js     de blokken binnen een les
-lesstof.js        hulp bij het opzoeken van lesstof
-lesextra.js       extra's op de lespagina
-styles.css        opmaak
-sw.js             offline-cache, netwerk eerst
-manifest.webmanifest  naam en kleur op je beginscherm
-
-Hoe een vak is opgebouwd
-------------------------
-Per vak drie soorten groepen, in deze volgorde:
-
-  Colleges          een onderdeel per sessie uit het programma
-  Lecture slides    de uitgewerkte collegeslides, tellen niet mee
-                    voor de voortgangsbalk
-  eigen groepen     boek, opdrachten, naslag, wat er maar is
-
-Bij Intro to Safety & Security zit de lesstof van het boek in de
-sessies zelf: sessie 2 is H1 en H2, sessie 4 is H3 en H5, sessie 6 is
-H7 en H9, sessie 8 is H10. De vier hoofdstukken die het programma
-nergens aan koppelt (H4, H6, H8, H11) staan onderaan onder
-"Overige hoofdstukken".
-
-Iets toevoegen
---------------
-Nieuwe collegeslides:   een regel in SLIDES in vakken.js, en de lesstof
-                        onder LESSTOF['<vakId>/slides-2']
-Lesstof bij een sessie: LESSTOF['<vakId>/college-3']
-Boek aan sessies hangen: zet de hoofdstukken in BOEKEN in vakken.js en
-                        vul de lesIds in bij VAK_VOORBEREIDING
-Programma wijzigen:     VAK_VOORBEREIDING in ssms-inhoud.js
-
-Nog te doen
------------
-Map 'manuals' maken met daarin de module manual als
-
+Nog te doen:
+- Map 'manuals' maken met daarin de module manual als
   Y1_Semester_1_Manual_SSMS_20262027.pdf
+- Roosterlink koppelen via het tandwiel rechtsboven
 
-En je roosterlink koppelen via het tandwiel rechtsboven. Die staat in
-je browser, niet in de code, net als je vinkjes en eigen deadlines.
+Je vinkjes, notities, eigen deadlines en roosterlink zitten in je
+browser, niet in de repo. Die verhuizen niet mee naar een ander apparaat.
