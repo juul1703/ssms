@@ -2464,33 +2464,28 @@ LESSTOF['studiegids/intro'] = [
     id: 'programma', titel: 'Programma',
     blokken: [
       { type: 'tabel', titel: 'De zestien sessies', toetsstof: true,
-        kop: ['Sessie', 'Onderwerp', 'Vorm', 'Voorbereiding'],
+        kop: ['Sessie', 'Onderwerp', 'Docent', 'Voorbereiding'],
         rijen: [
-          ['1', 'Introductie: het SSMS-programma. Safety en security als vakgebied en beroepspraktijk', 'College (Corr & Gomez Llata)', ''],
-          ['2', 'Safety and security interventions', 'College (Gomez Llata)', 'Bieder, hoofdstuk 1 en 2'],
-          ['3', 'Communication matters', 'College (Corr)', ''],
-          ['4', 'Stakeholders, actoren en de invloed van cultuur', 'College (Gomez Llata)', 'Bieder, hoofdstuk 3 en 5'],
-          ['5', 'Managing safety and security', 'College (Corr)', ''],
-          ['6', 'Resilience in safety en security', 'College (Corr)', 'Bieder, hoofdstuk 7 en 9'],
-          ['7', 'Tales from the field (alumnus)', 'Gastcollege', 'Aanwezigheid verplicht'],
-          ['8', 'Recap en tentamenvoorbereiding', 'College (Corr & Gomez Llata)', 'Bieder, hoofdstuk 10'],
-          ['—', 'Midterm-toets en POP-week', '', ''],
-          ['9', 'Tales from the field', 'Gastcollege', 'Aanwezigheid verplicht'],
-          ['10', 'Crime, safety & security', 'College (Matczak)', 'Aanwezigheid verplicht'],
-          ['11', 'Artificial intelligence in security risk', 'College (Voss)', 'Aanwezigheid verplicht'],
-          ['12', 'The human security approach', 'College (de Ryck)', 'Aanwezigheid verplicht'],
-          ['13', 'Nog te bepalen', 'College', ''],
-          ['14', 'Industrial safety in action', 'College (Ren)', 'Aanwezigheid verplicht'],
-          ['15', 'Applied security risk management', 'College (Ekici)', 'Aanwezigheid verplicht'],
-          ['16', 'Recap en tentamenvoorbereiding', 'College (Corr & Gomez Llata)', ''],
-          ['—', 'Eindtoets', '', '']
-        ] },
-
-      { type: 'tekst', titel: 'Hoe het boek over de sessies is verdeeld', toetsstof: true,
-        tekst: 'Het boek wordt in **vier blokken** gelezen, allemaal vóór de midterm:\n\n- **Sessie 2:** hoofdstuk 1 en 2 (samenbrengen van de begrippen, en het conceptuele fundament)\n- **Sessie 4:** hoofdstuk 3 en 5 (Leveson over systeemtheorie, Jore over security culture)\n- **Sessie 6:** hoofdstuk 7 en 9 (Brooks & Coole over de beroepen, Schulman over high reliability)\n- **Sessie 8:** hoofdstuk 10 (Boustras over de werkplek)\n\nTwee dingen vallen op.\n\n**Het hele boek zit vóór de midterm.** Alles wat je na sessie 8 doet is toepassen en verbreden met gastcolleges. De midterm is dus het moment waarop de boekstof telt.\n\n**Hoofdstuk 4, 6, 8 en 11 staan niet in de voorbereidingskolom.** Dat betekent niet automatisch dat ze niet toetsbaar zijn: bij toetsmateriaal staat "alle cursusliteratuur". Maar de nadruk ligt duidelijk op de zeven genoemde hoofdstukken.' },
-
-      { type: 'slimmer', titel: 'Een planning die past bij dit programma',
-        tekst: 'Werk vooruit op het leesschema, niet erop.\n\nHoofdstuk 1 en 2 moeten af zijn vóór sessie 2, dus in de eerste week. Dat is krap als je pas na sessie 1 begint. De hoofdstukken hier zijn geschreven zodat je het boek zelf niet meer hoeft door te ploegen; reken op ongeveer een uur per hoofdstuk in plaats van drie.\n\nDe zwaarste week is die vóór sessie 4: hoofdstuk 3 (Leveson, technisch) en hoofdstuk 5 (Jore, conceptueel) samen. Plan daar extra tijd voor.\n\nNa sessie 8 verschuift je werk van lezen naar oefenen met vertellen, want de eindtoets is mondeling.' },
+          ['1', 'Introductie: de opleiding en het vakgebied', 'Corr & Gomez Llata', ''],
+          ['2', 'Safety- en securityinterventies', 'Gomez Llata', 'Bieder, hoofdstuk 1 en 2'],
+          ['3', 'Communication matters', 'Corr', ''],
+          ['4', 'Stakeholders, actoren en de invloed van cultuur', 'Gomez Llata', 'Bieder, hoofdstuk 3 en 5'],
+          ['5', 'Safety en security managen', 'Corr', ''],
+          ['6', 'Resilience in safety en security', 'Corr', 'Bieder, hoofdstuk 7 en 9'],
+          ['7', 'Tales from the field (alumnus)', 'Gastspreker', 'Aanwezigheid verplicht'],
+          ['8', 'Recap en tentamenvoorbereiding', 'Corr & Gomez Llata', 'Bieder, hoofdstuk 10'],
+          ['\u2014', 'Midterm-toets en POP-week', '', ''],
+          ['9', 'Tales from the field', 'Gastspreker', 'Aanwezigheid verplicht'],
+          ['10', 'Crime, safety en security', 'Matczak', 'Aanwezigheid verplicht'],
+          ['11', 'Artificial intelligence in security risk', 'Voss', 'Aanwezigheid verplicht'],
+          ['12', 'De human security approach', 'De Ryck', 'Aanwezigheid verplicht'],
+          ['13', 'Nog te bepalen', '', ''],
+          ['14', 'Industrial safety in action', 'Ren', 'Aanwezigheid verplicht'],
+          ['15', 'Applied security risk management', 'Ekici', 'Aanwezigheid verplicht'],
+          ['16', 'Recap en tentamenvoorbereiding', 'Corr & Gomez Llata', ''],
+          ['\u2014', 'Eindtoets (mondeling)', '', '']
+        ],
+        noot: 'Bij publicatie van de module manual stond dit programma nog als voorlopig te boek en het kan veranderen, onder andere door de beschikbaarheid van gastdocenten. Houd Brightspace en MyTimetable bij. Let op hoeveel gastcolleges verplicht zijn: sessie 7 en 9 tot en met 15.' },
 
       { type: 'tekst', titel: 'Regels bij dit vak', toetsstof: true,
         tekst: 'Aanwezigheid bij de colleges is **niet verplicht**, maar sterk aanbevolen om het vak succesvol af te ronden.\n\n**Gastcolleges moeten worden bijgewoond.**\n\nGeplande data en deadlines voor presentaties, workshops, in-class opdrachten, toetsen en excursies moeten zonder uitzondering worden gehaald.' }
@@ -2544,18 +2539,31 @@ LESSTOF['studiegids/governance'] = [
   {
     id: 'programma', titel: 'Programma',
     blokken: [
-      { type: 'tabel', titel: 'De zestien sessies', toetsstof: true,
+      { type: 'tabel', titel: 'Deel 1 \u00b7 de acht sessies tot de midterm', toetsstof: true,
+        kop: ['Sessie', 'Onderwerp en datum', 'Docent', 'Voorbereiding'],
+        rijen: [
+          ['1', 'Governance and Policy: an introduction \u00b7 11 sep, 13.00-14.30', 'Dr. Gomez Llata',
+           'McCormick, Hague & Harrop (2022), Chapter 1'],
+          ['2', 'Democracy and bureaucracy: norms and values in building governance practices \u00b7 18 sep, 13.00-14.30', 'Dr. Gomez Llata',
+           'Compulsory reading: the text "Democracy Legitimacy in Bureaucratic Structures: A Precarious Balance" corresponds to chapter 2 in Paanakker H., Masters A., Huberts L. (Eds), Quality of Governance, Palgrave Macmillan'],
+          ['3', 'Executives and Bureaucracies \u00b7 25 sep, 13.00-14.30', 'Dr. de Sousa',
+           'McCormick, Hague & Harrop (2022), Chapters 8 & 10'],
+          ['4', 'Political participation and political parties \u00b7 2 okt, 13.00-14.30', 'Dr. de Sousa',
+           'McCormick, Hague & Harrop (2022), Chapters 13 & 15'],
+          ['5', 'The development of a paradigm: from Government to Governance \u00b7 9 okt, 13.00-14.30', 'Dr. Gomez Llata',
+           'Compulsory reading: Levi-Faur, D. (2012), pp. 3-18. Recommended reading: S\u00f8rensen & Torfing (2018), pp. 350-359'],
+          ['6', 'Public Governance: a case study \u00b7 16 okt, 13.00-14.30', 'Dr. Gomez Llata',
+           'Compulsory reading: Leo Huberts, Kaptein & Bart de Koning (2022), Integrity Scandals of Politicians: A Political Integrity Index, Public Integrity, 24:3, 329-341'],
+          ['7', 'Interest Groups and Public Policy \u00b7 30 okt, 13.00-14.30', 'Dr. de Sousa',
+           'McCormick, Hague & Harrop (2022), Chapters 16 & 17'],
+          ['8', 'Recap and exam preparation \u00b7 6 nov, 13.00-14.30', 'Dr. Gomez Llata & Dr. de Sousa', ''],
+          ['\u2014', 'Midterm-toets en POP-week', '', '']
+        ],
+        noot: 'Dit deel komt uit het document "G&P Part 1 Program and sources 2026-27" van de docenten, niet uit de module manual. De volgorde verschilt daar: in de manual stond Executives op sessie 2 en de les over normen en waarden op sessie 6. Houd dit schema aan. Tussen 16 en 30 oktober zit de herfstvakantie, vandaar het gat.' },
+
+      { type: 'tabel', titel: 'Deel 2 \u00b7 sessie 9 tot 16, uit de module manual', toetsstof: true,
         kop: ['Sessie', 'Onderwerp', 'Docent', 'Voorbereiding'],
         rijen: [
-          ['1', 'Governance and Policy: een introductie', 'Dr. Gomez Llata', 'McCormick, Hague & Harrop, hoofdstuk 1'],
-          ['2', 'Executives and Bureaucracies', 'Dr. de Sousa', 'McCormick, hoofdstuk 8 en 10'],
-          ['3', 'Politieke participatie en politieke partijen', 'Dr. de Sousa', 'McCormick, hoofdstuk 13 en 15'],
-          ['4', 'Interest Groups and Public Policy', 'de Sousa', 'McCormick, hoofdstuk 16 en 17'],
-          ['5', 'De ontwikkeling van een paradigma: van Government naar Governance', 'Dr. Gomez Llata', 'Verplicht: Levi-Faur (2012), pp. 3-18. Aanbevolen: Sørensen & Torfing (2018), pp. 350-359'],
-          ['6', 'Democratie en bureaucratie: over de rol van normen en waarden in governance-praktijken', 'Dr. Gomez Llata', 'Verplicht: Democracy Legitimacy in Bureaucratic Structures (hoofdstuk 2 van Quality of Governance)'],
-          ['7', 'Public Governance: een casestudy', 'Dr. Gomez Llata', 'Verplicht: Huberts, Kaptein & de Koning (2022)'],
-          ['8', 'Recap en tentamenvoorbereiding', 'Dr. Gomez Llata & Dr. de Sousa', ''],
-          ['—', 'Midterm-toets en POP-week', '', ''],
           ['9', 'Introductie tot besluitvorming', 'Dr. Del Grosso', 'Allison, pp. 1-12'],
           ['10', 'Agenda setting', 'Dr. Del Grosso', ''],
           ['11', 'Policy formulation', 'Dr. Del Grosso', ''],
@@ -2564,9 +2572,9 @@ LESSTOF['studiegids/governance'] = [
           ['14', 'Policy evaluation', 'Dr. Del Grosso', 'House, pp. 618-627; Weiss, pp. 47-70'],
           ['15', 'Policy making in practice', 'Dr. Del Grosso', ''],
           ['16', 'Overzicht en tentamenvoorbereiding', 'Dr. Del Grosso', ''],
-          ['—', 'Eindtoets', '', '']
+          ['\u2014', 'Eindtoets', '', '']
         ],
-        noot: 'Merk de tweedeling op: sessie 1 tot 8 gaan over governance en bureaucratie, sessie 9 tot 16 over de beleidscyclus. De midterm dekt het eerste blok, de eindtoets het tweede.' },
+        noot: 'Voor deel 2 is er nog geen apart programmadocument van de docent. Merk de tweedeling op: sessie 1 tot 8 gaan over governance en bureaucratie, sessie 9 tot 16 over de beleidscyclus. De midterm dekt het eerste blok, de eindtoets het tweede.' },
 
       { type: 'tekst', titel: 'Regels bij dit vak',
         tekst: 'Aanwezigheid is niet verplicht maar sterk aanbevolen. Gastcolleges moeten worden bijgewoond. Geplande data en deadlines voor presentaties, workshops, in-class opdrachten, toetsen en excursies moeten zonder uitzondering worden gehaald.' }
