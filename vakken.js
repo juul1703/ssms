@@ -86,7 +86,9 @@
   /* Losse onderdelen die geen boek en geen slides zijn. */
   var EXTRA = {
     'demystifying-research-methods': [
-      { id: 'conceptlist', groep: 'Extra naslagwerken', titel: 'Concept list \u00b7 alle 52 begrippen', duur: 90 }
+      { id: 'conceptlist-1', groep: 'Extra naslagwerken', titel: 'Concept list deel 1 \u00b7 Intro to Research Methods', duur: 60 },
+      { id: 'conceptlist-2', groep: 'Extra naslagwerken', titel: 'Concept list deel 2 \u00b7 Understanding the problem', duur: 35 },
+      { id: 'conceptlist-3', groep: 'Extra naslagwerken', titel: 'Concept list deel 3 \u00b7 Planning your investigation', duur: 50 }
     ],
     'professional-skills': [
       { id: 'opdrachten', groep: 'Opdrachten', titel: 'De drie opdrachten \u00b7 aanpak per opdracht', duur: 30 }
