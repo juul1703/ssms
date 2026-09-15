@@ -96,6 +96,7 @@
     'fundamentals-of-academic-writing': [
       { id: 'naslagwerk', groep: 'Naslag',  titel: 'Engels academisch schrijven', duur: 40 },
       { id: 'rubric',     groep: 'Naslag',  titel: 'De beoordelingsrubric',       duur: 15 },
+      { id: 'writer-responsible', groep: 'Naslag', titel: 'Writer responsible writing \u00b7 de zes technieken', duur: 45 },
       { id: 'oefening-1', groep: 'Oefenen', titel: '"Europe\u2019s cocaine problem"', duur: 30 }
     ]
   };
