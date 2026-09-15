@@ -402,6 +402,31 @@ function voorAf(vakId, sessie){
 function zetVoorAf(vakId, sessie, waarde){
   try { localStorage.setItem(voorSleutel(vakId, sessie), waarde ? 'af' : 'open'); } catch(e){}
 }
+/* Afvinken vanaf het homescreen. Voorbereiding en achterstand gaan via
+   zetVoorAf; je eigen deadlines krijgen af: true in de lijst van hun vak,
+   precies zoals de vakpagina dat doet, zodat beide schermen hetzelfde zien. */
+function vinkDeadlineAf(code){
+  var d = String(code || '').split('|');
+  if (d[0] === 'voor' && d[1] && d[2]) {
+    zetVoorAf(d[1], parseInt(d[2], 10), true);
+    return;
+  }
+  if (d[0] === 'eigen' && d[1]) {
+    var datum = d[2], titel = d.slice(3).join('|');
+    try {
+      var s = 'ssms-deadlines-' + d[1];
+      var lijst = JSON.parse(localStorage.getItem(s) || '[]');
+      for (var i = 0; i < lijst.length; i++) {
+        if (lijst[i] && lijst[i].titel === titel && lijst[i].datum === datum) {
+          lijst[i].af = true;
+          break;
+        }
+      }
+      localStorage.setItem(s, JSON.stringify(lijst));
+    } catch(e){}
+  }
+}
+
 function isAf(vak, les){ try { return localStorage.getItem(sleutel(vak, les)) === 'af'; } catch(e){ return false; } }
 function zetAf(vak, les, waarde){ try { localStorage.setItem(sleutel(vak, les), waarde ? 'af' : 'open'); } catch(e){} }
 /* Collegeslides zijn naslag, geen studietaak: ze tellen niet mee voor de
@@ -531,8 +556,20 @@ function render(){
           : d.soort === 'voorbereiding'
           ? '<span class="dl-soort voorbereiding">voorbereiding</span>'
           : d.soort === 'eigen' ? '<span class="dl-soort">eigen</span>' : '';
+        /* Afvinken kan bij voorbereiding, achterstand en je eigen deadlines.
+           Toetsen uit het rooster niet: die gebeuren of je ze afvinkt of niet. */
+        var vink = '';
+        if (d.vakId && d.sessie && (d.soort === 'voorbereiding' || d.achterstallig)) {
+          vink = 'voor|' + d.vakId + '|' + d.sessie;
+        } else if (d.soort === 'eigen' && d.vakId && d.datum) {
+          vink = 'eigen|' + d.vakId + '|' + d.datum.toISOString().slice(0, 10) + '|' + d.titel;
+        }
+        var knop = vink
+          ? '<button class="dl-vink" type="button" data-dlvink="' + esc(vink) +
+            '" aria-label="Afvinken">\u2713</button>'
+          : '<span class="dl-vink-leeg"></span>';
         return '<div class="dl' + (d.soort ? ' ' + d.soort : '') + '"' + (d.vakId ? ' data-vak="' + esc(d.vakId) + '"' : '') +
-          '><div><div class="titel">' + esc(d.titel) + merk + '</div><div class="vak">' +
+          '>' + knop + '<div><div class="titel">' + esc(d.titel) + merk + '</div><div class="vak">' +
           esc(d.vak) + '</div></div><span class="wanneer"><span class="' + klasse + '">' + telling +
           '</span>' + (datum ? '<span class="dl-datum">' + esc(datum) + '</span>' : '') + '</span></div>';
       }).join('')
@@ -823,6 +860,16 @@ function zetModus(m){
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && huidigVak) sluitLade(); });
 
   document.addEventListener('click', function(e){
+    /* Afvinken op het homescreen. Moet vóór de [data-vak]-afhandeling staan,
+       want de deadlineregel zelf opent het vak. */
+    var dlv = e.target.closest ? e.target.closest('[data-dlvink]') : null;
+    if (dlv) {
+      e.preventDefault();
+      e.stopPropagation();
+      vinkDeadlineAf(dlv.getAttribute('data-dlvink'));
+      render();
+      return;
+    }
     var vink = e.target.closest ? e.target.closest('[data-vink]') : null;
     if (vink && huidigVak) {
       var l = huidigVak.vak.lessen.filter(function(x){ return x.id === vink.getAttribute('data-vink'); })[0];

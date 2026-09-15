@@ -83,7 +83,7 @@
   .regel.bezig .titel{font-weight:600;}
   .regel.bezig::before{content:"";position:absolute;left:-14px;top:50%;width:5px;height:5px;border-radius:50%;background:var(--accent);transform:translateY(-50%);}
   .regel.voorbij .tijd,.regel.voorbij .titel{opacity:.45;}
-  .dl{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;padding:11px 0;border-top:1px solid var(--line);}
+  .dl{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:11px 0;border-top:1px solid var(--line);}
   .tekstknop{background:none;border:none;padding:0;font:inherit;font-size:13px;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:3px;}
   .tekstknop:hover{color:var(--ink);}
   .feed-melding{margin-top:10px;font-size:12.5px;line-height:1.5;min-height:1em;}
@@ -814,3 +814,16 @@ a.notitie:hover .titel{color:var(--accent);}
 .achterstand-rij{margin-top:10px;}
 .achterstand-rij:first-of-type{margin-top:8px;}
 .achterstand-rij strong{font-weight:500;color:var(--ink);}
+
+
+/* --- afvinkknop bij de deadlines op het homescreen --- */
+.dl .dl-vink{
+  flex:none;width:22px;height:22px;border-radius:50%;padding:0;
+  border:1px solid var(--line);background:transparent;color:transparent;
+  font-size:12px;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .12s ease,border-color .12s ease,color .12s ease;
+}
+.dl .dl-vink:hover{border-color:var(--sage);color:var(--sage);}
+.dl .dl-vink:active{background:var(--sage);border-color:var(--sage);color:var(--paper);}
+.dl .dl-vink-leeg{display:block;width:22px;height:22px;}
