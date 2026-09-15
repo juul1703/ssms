@@ -9,465 +9,465 @@
 LESSTOF["intro-to-safety-security/h1"] = [
   {
     "id": "voor",
-    "titel": "Voorbereiding",
+    "titel": "Before you start",
     "blokken": [
       {
         "type": "leerdoelen",
         "items": [
-                  {
-                            "doel": "Uitleggen waarom de vraag \"wat is het verschil tussen safety en security\" geen taalkundige maar een praktische vraag is",
-                            "uitleg": "Begin nooit bij de woordenboekdefinitie. Zeg meteen waar het antwoord over gaat: **wie er verantwoordelijk is, wie betaalt en welke maatregel er komt**.\n\nDoe het in drie zinnen. Eerst: in het Engels zijn het twee woorden, in het Nederlands één, dus de taal helpt je niet. Dan: het onderscheid bepaalt welke afdeling, welke wet en welk budget aan zet is. Tot slot een voorbeeld waarin dat verschil maakt, bijvoorbeeld een brand die is aangestoken tegenover een brand door kortsluiting: zelfde schade, andere eigenaar van het probleem."
-                  },
-                  {
-                            "doel": "De historische ontwikkeling van safety schetsen: van installatie, via organisatie, naar samenleving",
-                            "uitleg": "Onthoud drie haltes en één beweging: de blik wordt telkens **wijder**.\n\nEerst de installatie: techniek veilig maken, betere machines en barrières. Dan de organisatie: het besef dat management, procedures en cultuur ongelukken veroorzaken, met de jaren tachtig als omslag. Daarna de samenleving: systemische risico’s, wetgeving en publieke verwachtingen. Noem bij de tweede halte Perrow, want die verplaatste de schuld van de operator naar het systeem."
-                  },
-                  {
-                            "doel": "De historische ontwikkeling van security schetsen: van staatsveiligheid, via eigen kwetsbaarheid, naar 9/11 en daarna",
-                            "uitleg": "Ook hier drie haltes, maar met een andere beweging: van **buiten naar binnen**.\n\nEerst security als zaak van de staat: verdediging tegen een vijand. Dan het besef dat organisaties zelf kwetsbaar zijn en zelf moeten beveiligen. Daarna 9/11, dat security institutionaliseerde: nieuwe diensten, verplichte screening, budgetten en regels die er daarvoor niet waren.\n\nZet de twee tijdlijnen naast elkaar als je het uitlegt. Safety verbreedt, security verplaatst zich naar de organisatie zelf. Precies daarom passen ze slecht in elkaar."
-                  },
-                  {
-                            "doel": "De twee academische onderscheidingsassen benoemen, toepassen, en uitleggen waarom ze soms verschillende antwoorden geven",
-                            "uitleg": "As 1 is **intentionaliteit**: was er opzet in het spel of niet. As 2 is **oorsprong en gevolg**: beweegt de schade van het systeem naar de omgeving, of van de omgeving naar het systeem.\n\nOefen met één casus en loop beide assen af, in die volgorde. Bij een medewerker die uit onvrede een klep openzet, zegt as 1 security (opzet) en as 2 safety (schade gaat van binnen naar buiten). Dat de assen botsen is geen fout van jou: dat is de kern van de paragraaf. Sluit dus af met de vraag waar het echt om gaat, namelijk welke maatregel je nodig hebt."
-                  },
-                  {
-                            "doel": "De drie invalshoeken van het boek noemen en per hoofdstuk aangeven waar het thuishoort",
-                            "uitleg": "De drie zijn de **conceptuele** invalshoek (wat betekenen de begrippen), de **organisatorische** (hoe werkt het in een organisatie) en de **maatschappelijke of institutionele** (wat doen politiek, wet en publiek ermee).\n\nHang elk hoofdstuk dat je leest meteen aan één van de drie; schrijf dat in je aantekening. Zo zie je waarom Leveson en Brooks & Coole elkaar lijken tegen te spreken: ze staan op een andere invalshoek en beantwoorden dus niet dezelfde vraag."
-                  },
-                  {
-                            "doel": "Uitleggen waarom safety science en security science jonge en versnipperde vakgebieden zijn, en waarom dat gevolgen heeft voor jouw beroep",
-                            "uitleg": "Noem drie oorzaken: beide vakgebieden zijn **jong**, ze zijn opgebouwd uit losse disciplines (techniek, psychologie, bestuurskunde, criminologie), en ze hebben **geen gedeelde begrippenlijst**.\n\nHet gevolg voor jou is concreet: er is geen standaardantwoord dat je kunt opzoeken, dus je moet je keuze onderbouwen. Zeg dat ook zo in een toets. Twee mensen kunnen met goede bronnen tot verschillende adviezen komen, en het verschil zit in hun invalshoek."
-                  },
-                  {
-                            "doel": "De vier structurele knelpunten benoemen die ontstaan als organisaties safety en security tegelijk moeten leveren",
-                            "uitleg": "Leer ze als vier **botsingen**, niet als vier losse woorden: tegengestelde maatregelen (een nooduitgang moet open, een beveiligde deur moet dicht), verschillende afdelingen en budgetten, verschillende soorten kennis en taal, en verschillende regels en toezichthouders.\n\nGebruik ze als checklist bij een casus: loop de vier langs en je vindt bijna altijd waar het misgaat. Knelpunt drie zit dieper dan het lijkt, want die twee groepen delen niet eens dezelfde manier van redeneren over risico."
-                  },
-                  {
-                            "doel": "Beargumenteren waarom \"veilig genoeg\" geen technische maar een politieke vraag is",
-                            "uitleg": "De redenering heeft drie stappen. Elke maatregel kost iets: geld, vrijheid, gemak of vertrouwen. Techniek kan berekenen hoe groót een risico is, maar niet welk **restrisico** aanvaardbaar is. Dus beslist iemand dat, en die keuze verdeelt lasten over partijen.\n\nKoppel het aan de openingszin van het hoofdstuk: hoe veiliger het wordt, hoe meer we eisen. De meetlat schuift mee, dus zonder expliciete afspraak over \"veilig genoeg\" is het antwoord altijd \"meer\"."
-                  }
+          {
+            "doel": "Explain why the question \"what is the difference between safety and security\" is a practical question rather than a linguistic one",
+            "uitleg": "Never start from the dictionary definition. Say straight away what the answer is really about: **who is responsible, who pays, and which measure follows**.\n\nDo it in three sentences. First: English has two words, Dutch has one, so the language does not help you. Then: the distinction decides which department, which law and which budget is up. Finally an example where that difference matters, such as a fire that was started deliberately versus a fire caused by a short circuit: same damage, different owner of the problem."
+          },
+          {
+            "doel": "Sketch the historical development of safety: from installation, through organisation, to society",
+            "uitleg": "Remember three stops and one movement: the view keeps getting **wider**.\n\nFirst the installation: making technology safe, better machines and barriers. Then the organisation: the realisation that management, procedures and culture cause accidents, with the 1980s as the turning point. Then society: systemic risks, legislation and public expectations. Name Perrow at the second stop, because he moved the blame from the operator to the system."
+          },
+          {
+            "doel": "Sketch the historical development of security: from state security, through own vulnerability, to 9/11 and after",
+            "uitleg": "Three stops here too, but with a different movement: from **outside to inside**.\n\nFirst security as a matter for the state: defence against an enemy. Then the realisation that organisations are themselves vulnerable and must protect themselves. Then 9/11, which institutionalised security: new agencies, mandatory screening, budgets and rules that did not exist before.\n\nPut the two timelines side by side when you explain it. Safety broadens, security moves into the organisation itself. That is exactly why they fit together so badly."
+          },
+          {
+            "doel": "Name and apply the two academic axes of distinction, and explain why they sometimes give different answers",
+            "uitleg": "Axis 1 is **intentionality**: was there intent or not. Axis 2 is **origin and effect**: does the harm move from the system to the environment, or from the environment to the system.\n\nPractise on one case and walk both axes, in that order. For an employee who opens a valve out of grievance, axis 1 says security (intent) and axis 2 says safety (harm moves from inside to outside). The axes clashing is not your mistake: it is the point of the section. So close with the question that actually matters, namely which measure you need."
+          },
+          {
+            "doel": "Name the three vantage points of the book and place each chapter on one of them",
+            "uitleg": "The three are the **conceptual** vantage point (what do the concepts mean), the **organisational** one (how does it work inside an organisation) and the **societal or institutional** one (what do politics, law and the public do with it).\n\nAttach every chapter you read to one of the three straight away; write it in your notes. That is how you see why Leveson and Brooks & Coole appear to contradict each other: they stand on different vantage points and are therefore not answering the same question."
+          },
+          {
+            "doel": "Explain why safety science and security science are young and fragmented fields, and why that matters for your profession",
+            "uitleg": "Name three causes: both fields are **young**, both are assembled from separate disciplines (engineering, psychology, public administration, criminology), and they have **no shared vocabulary**.\n\nThe consequence for you is concrete: there is no standard answer to look up, so you have to justify your choice. Say exactly that in an exam. Two people using good sources can reach different recommendations, and the difference lies in their vantage point."
+          },
+          {
+            "doel": "Name the four structural tensions that arise when organisations have to deliver safety and security at the same time",
+            "uitleg": "Learn them as four **collisions**, not four loose words: opposing measures (an emergency exit must open, a secured door must stay shut), different departments and budgets, different kinds of knowledge and language, and different rules and regulators.\n\nUse them as a checklist on a case: walk the four and you will almost always find where it goes wrong. Tension three runs deeper than it looks, because those two groups do not even share the same way of reasoning about risk."
+          },
+          {
+            "doel": "Argue why \"safe enough\" is a political rather than a technical question",
+            "uitleg": "The reasoning has three steps. Every measure costs something: money, freedom, convenience or trust. Engineering can calculate how **large** a risk is, but not which **residual risk** is acceptable. So somebody decides that, and that choice distributes burdens across parties.\n\nTie it to the opening line of the chapter: the safer it gets, the more we demand. The bar moves with it, so without an explicit agreement on \"safe enough\" the answer is always \"more\"."
+          }
         ]
       },
       {
         "type": "uitleg",
-        "titel": "Even kennismaken met dit boek",
-        "tekst": "Je leest een **bundel**, geen leerboek. Elf hoofdstukken van verschillende auteurs, die het onderling flink oneens zijn. Dat is geen slordigheid van de redactie, dat is de opzet.\n\nHet boek komt voort uit een **driedaagse workshop** van de denktank NeTWork, gehouden in juni 2018 in de abdij van Royaumont bij Parijs, gefinancierd door FonCSI, een Franse onderzoeksstichting voor industriële veiligheidscultuur. Onderzoekers uit verschillende landen en disciplines zaten daar drie dagen bij elkaar over één vraag: hoe verhouden safety en security zich tot elkaar?\n\nDe twee redacteuren zijn **Kenneth Pettersen Gould** (Universiteit van Stavanger, Noorwegen, achtergrond in maatschappelijke veiligheid en organisatieonderzoek) en **Corinne Bieder** (ENAC, de Franse burgerluchtvaartuniversiteit in Toulouse, achtergrond in luchtvaartveiligheid).\n\nDit eerste hoofdstuk is hun inleiding. Het doet twee dingen: het geeft je de **geschiedenis en de begrippen** die je nodig hebt om de rest te snappen, en het geeft je de **landkaart** van het boek."
+        "titel": "Meet this book first",
+        "tekst": "You are reading an **edited volume**, not a textbook. Eleven chapters by different authors who disagree with each other quite sharply. That is not editorial sloppiness, it is the design.\n\nThe book grew out of a **three-day workshop** of the NeTWork think tank, held in June 2018 at the abbey of Royaumont near Paris, funded by FonCSI, a French research foundation for industrial safety culture. Researchers from different countries and disciplines sat together for three days on one question: how do safety and security relate to each other?\n\nThe two editors are **Kenneth Pettersen Gould** (University of Stavanger, Norway, background in societal safety and organisational research) and **Corinne Bieder** (ENAC, the French civil aviation university in Toulouse, background in aviation safety).\n\nThis first chapter is their introduction. It does two things: it gives you the **history and the concepts** you need to follow the rest, and it gives you the **map** of the book."
       },
       {
         "type": "slimmer",
-        "titel": "Waarom ik dit hoofdstuk belangrijker vind dan het lijkt",
-        "tekst": "Inleidende hoofdstukken worden vaak overgeslagen. Doe dat hier niet, om één reden: dit is het enige hoofdstuk dat je uitlegt **waarom de rest elkaar tegenspreekt**.\n\nLeveson (h3) zegt dat het onderscheid tussen safety en security er nauwelijks toe doet. Brooks en Coole (h7) zeggen dat het twee compleet verschillende beroepen zijn met nauwelijks overlap. Dat lijkt op ruzie, maar het is het niet: ze kijken vanuit verschillende invalshoeken naar hetzelfde. Hoofdstuk 1 geeft je de drie invalshoeken waarmee je dat kunt zien.\n\nPraktisch: onthoud uit dit hoofdstuk vooral **drie dingen**. De tijdlijn, de twee onderscheidingsassen, en de drie invalshoeken. Alles wat je daarna leest hang je aan een van die drie."
+        "titel": "Why this chapter matters more than it looks",
+        "tekst": "Introductory chapters are often skipped. Do not skip this one, for one reason: it is the only chapter that explains **why the rest contradicts itself**.\n\nLeveson (ch3) says the distinction between safety and security hardly matters. Brooks and Coole (ch7) say they are two completely different professions with barely any overlap. That looks like a quarrel, but it is not: they are looking at the same thing from different vantage points. Chapter 1 gives you the three vantage points that let you see it.\n\nPractically: take **three things** away from this chapter. The timeline, the two axes of distinction, and the three vantage points. Everything you read afterwards you hang on one of those three."
       }
     ]
   },
   {
     "id": "kern",
-    "titel": "Kernstof",
+    "titel": "Core material",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "Het probleem waarmee alles begint",
+        "titel": "The problem everything starts from",
         "toetsstof": true,
-        "tekst": "Ik begin met de zin waar het hele boek op staat. De redacteuren formuleren hem als een algemene maatschappelijke trend:\n\n**Hoe veiliger en beter beveiligd onze organisaties en instituties worden, hoe méér veiligheid we van ze eisen.**\n\nLees die zin twee keer, want hij is contra-intuïtief. Je zou verwachten dat de roep om veiligheid afneemt als het veiliger wordt. Het omgekeerde gebeurt.\n\nDe cijfers geven de eerste helft gelijk. Veel van de grootste bedreigingen voor gezondheid en veiligheid op het werk zijn teruggedrongen, zeker in Europa en Noord-Amerika. Maar tegelijkertijd is industriële veiligheid **breder** geworden. Er kwam veel meer aandacht voor de **nieuwe systemische risico’s** die moderne samenlevingen zelf voortbrengen, en voor het idee dat lokale kwetsbaarheden worden beïnvloed door **wereldwijde gebeurtenissen**.\n\nDat is de spanning die je door het hele boek terugziet: de verwachtingen stijgen sneller dan wat organisaties feitelijk kunnen leveren."
+        "tekst": "I start with the sentence the whole book rests on. The editors phrase it as a general societal trend:\n\n**The safer and more secure our organisations and institutions become, the more safety we demand of them.**\n\nRead that twice, because it is counter-intuitive. You would expect the call for safety to fall as things get safer. The opposite happens.\n\nThe figures bear out the first half. Many of the greatest threats to health and safety at work have been pushed back, certainly in Europe and North America. But at the same time industrial safety has become **broader**. Far more attention went to the **new systemic risks** that modern societies generate themselves, and to the idea that local vulnerabilities are influenced by **global events**.\n\nThat is the tension you will see through the whole book: expectations rise faster than what organisations can actually deliver."
       },
       {
         "type": "voorbeeld",
-        "titel": "Waarom stijgende eisen logisch zijn",
-        "tekst": "Het klinkt onredelijk, maar er zit een gewone mechaniek achter. Denk aan een spoorwegovergang.\n\nZolang er elk jaar doden vallen bij onbewaakte overwegen, is een half beveiligde overweg een verbetering. Zodra alle overwegen slagbomen hebben en er nog maar zelden iets gebeurt, is elk incident opeens **groot nieuws**. Er wordt onderzoek geëist, een verantwoordelijke gezocht, en de norm gaat weer omhoog.\n\nDe verbetering zelf verlegt de meetlat. Precies daarom stapelen de eisen zich op terwijl de prestaties beter worden. En precies daarom, zegt hoofdstuk 1, moet je de vraag \"wat is veilig genoeg\" serieus stellen, want anders is het antwoord altijd \"meer\"."
+        "titel": "Why rising demands are logical",
+        "tekst": "It sounds unreasonable, but there is an ordinary mechanism behind it. Think of a level crossing.\n\nAs long as people die every year at unguarded crossings, a partly protected crossing is an improvement. Once every crossing has barriers and something rarely happens, each incident suddenly becomes **big news**. An investigation is demanded, someone is held responsible, and the standard goes up again.\n\nThe improvement itself moves the bar. That is exactly why demands pile up while performance improves. And exactly why chapter 1 says you have to take the question \"what is safe enough\" seriously, because otherwise the answer is always \"more\"."
       },
       {
         "type": "tekst",
-        "titel": "1.1 Waar safety vandaan komt",
+        "titel": "1.1 Where safety comes from",
         "toetsstof": true,
-        "tekst": "Nu de geschiedenis. Eerst safety, dan security. Je hebt beide sporen nodig om te begrijpen waarom ze zo moeilijk in elkaar te schuiven zijn.\n\nSafety is al lang een kernzorg van organisaties, vooral sinds de opkomst van **gevaarlijke technologieën en activiteiten**. In sectoren als energie, chemie, transport, water en zorg is safety een kernbegrip in **beleid, regelgeving én management** tegelijk. Dat drietal is belangrijk: safety zit niet alleen in de techniek, maar ook in de wet en in de manier waarop een organisatie is ingericht.\n\nDaardoor bestaan er inmiddels stevig ingeburgerde institutionele en managementstrategieën, samenwerkingsverbanden en praktijken rond het voorkómen van incidenten en ongevallen. Die effectief houden geldt als belangrijk voor de bescherming van gevaarlijke technologie, en wel om twee redenen:\n\n1. Ze zijn gebouwd op **eerdere incidenten**. Elke regel in een veiligheidsvoorschrift is meestal ooit betaald met schade.\n2. Ze vormen een **dynamisch maar kwetsbaar organisatorisch web van veiligheidsverdedigingen** (Macrae, 2014). Dat woord \"web\" is bewust gekozen: geen muur, maar een netwerk van elkaar deels overlappende verdedigingen dat voortdurend onderhoud vraagt."
+        "tekst": "Now the history. Safety first, then security. You need both tracks to understand why they are so hard to slot into each other.\n\nSafety has long been a core concern of organisations, especially since the rise of **hazardous technologies and activities**. In sectors such as energy, chemicals, transport, water and healthcare, safety is a core concept in **policy, regulation and management** at the same time. That trio matters: safety does not sit only in the technology, but also in the law and in the way an organisation is set up.\n\nAs a result there are now well-established institutional and management strategies, collaborations and practices around preventing incidents and accidents. Keeping these effective counts as important for the protection of hazardous technology, for two reasons:\n\n1. They are built on **previous incidents**. Every rule in a safety regulation has usually been paid for with damage at some point.\n2. They form a **dynamic but fragile organisational web of safety defences** (Macrae, 2014). The word \"web\" is deliberate: not a wall, but a network of partly overlapping defences that requires constant maintenance."
       },
       {
         "type": "tekst",
-        "titel": "De omslag in de jaren tachtig",
+        "titel": "The turn in the 1980s",
         "toetsstof": true,
-        "tekst": "Vanaf de jaren tachtig gebeurde er iets belangrijks in het denken over veiligheid. Gevoed door beter begrip van hóé en waaróm ongelukken gebeuren, kwam er aandacht voor de vraag hoe ongevallen en rampen worden veroorzaakt door **maatschappelijke ontwikkelingen**, dus niet alleen door kapotte onderdelen of onoplettende werknemers.\n\nTwee namen die je moet kennen:\n\n**Barry Turner**, *Man-made Disasters* (1978). Rampen komen niet uit de lucht vallen; er gaat een lange incubatieperiode aan vooraf waarin signalen worden gemist of verkeerd geduid. Organisaties bouwen hun eigen ramp op, jarenlang, zonder het te merken.\n\n**Charles Perrow**, *Normal Accidents* (1984). Perrow stelt dat in bepaalde risicovolle systemen grote ongelukken **onvermijdelijk** zijn. Niet door pech of slordigheid, maar door de aard van het systeem zelf.\n\nDat argument werd invloedrijk en wakkerde de belangstelling aan voor twee dingen tegelijk: de **grenzen aan veiligheid**, en de **mogelijkheden van organisatorische competentie**. Dus enerzijds: hoe ver kunnen we komen? En anderzijds: wat kan een goed georganiseerde organisatie dan wél?\n\nDie tweede vraag is precies waar hoofdstuk 8 (La Porte) en hoofdstuk 9 (Schulman) op doorgaan, met hun werk over high reliability organizations."
+        "tekst": "From the 1980s onwards something important happened in thinking about safety. Fed by a better understanding of **how** and **why** accidents happen, attention turned to how accidents and disasters are caused by **societal developments**, and not only by broken parts or inattentive workers.\n\nTwo names you need to know:\n\n**Barry Turner**, *Man-made Disasters* (1978). Disasters do not fall out of the sky; they are preceded by a long incubation period in which signals are missed or misread. Organisations build their own disaster, over years, without noticing.\n\n**Charles Perrow**, *Normal Accidents* (1984). Perrow argues that in certain high-risk systems major accidents are **inevitable**. Not through bad luck or sloppiness, but because of the nature of the system itself.\n\nThat argument became influential and stimulated interest in two things at once: the **limits to safety**, and the **possibilities of organisational competence**. So on the one hand: how far can we get? And on the other: what can a well-organised organisation actually achieve?\n\nThat second question is exactly what chapter 8 (La Porte) and chapter 9 (Schulman) pursue, with their work on high reliability organisations."
       },
       {
         "type": "uitleg",
-        "titel": "Waarom Perrow er hier toe doet",
-        "tekst": "Perrow onderscheidt twee eigenschappen van systemen: **interactieve complexiteit** (onderdelen beïnvloeden elkaar op manieren die ontwerpers niet voorzagen) en **tight coupling** (er zit geen speling tussen de stappen, dus een verstoring plant zich meteen voort).\n\nZit een systeem hoog op beide, dan zijn ongelukken volgens Perrow normaal in de statistische zin: te verwachten, niet uitzonderlijk. Kerncentrales zijn zijn standaardvoorbeeld.\n\nJe hoeft Perrow niet in detail te kennen voor dit vak, maar wel dit: dat idee verandert de vraag. Niet \"hoe voorkomen we alle ongelukken\", maar **\"hoeveel risico accepteren we, en wie beslist dat\"**. Dat is de vraag waar hoofdstuk 1 in paragraaf 1.4 op uitkomt."
+        "titel": "Why Perrow matters here",
+        "tekst": "Perrow distinguishes two properties of systems: **interactive complexity** (parts influence each other in ways designers did not foresee) and **tight coupling** (there is no slack between the steps, so a disturbance propagates immediately).\n\nIf a system scores high on both, then accidents are, according to Perrow, normal in the statistical sense: to be expected, not exceptional. Nuclear power plants are his standard example.\n\nYou do not need Perrow in detail for this course, but you do need this: the idea changes the question. Not \"how do we prevent all accidents\", but **\"how much risk do we accept, and who decides that\"**. That is the question chapter 1 arrives at in section 1.4."
       },
       {
         "type": "tekst",
-        "titel": "1.1 vervolg — waar security vandaan komt",
+        "titel": "1.1 continued — where security comes from",
         "toetsstof": true,
-        "tekst": "Security heeft een compleet andere afkomst, en dat verklaart veel van de latere wrijving.\n\n**Fase 1, tot circa 1989: security is staatsveiligheid.** Security was sterk verbonden met de staat en met bescherming tegen dreigingen van **buitenlandse staten**. Voor civiele industrieën was security alleen een thema voor zover die organisaties bijdroegen aan de **militaire verdedigingscapaciteit** van een staat. Een chemiefabriek deed dus wel aan safety, maar security was in principe iets van het leger en de inlichtingendiensten.\n\n**Fase 2, eind jaren tachtig: de blik draait naar binnen.** Toen de Koude Oorlog eindigde, verschoof de politieke aandacht naar vrede en internationale mensenrechten. En, belangrijker voor ons vak, er ontstond een groeiend bewustzijn van de **eigen kwetsbaarheid** van samenlevingen voor kwaadwillende daden als sabotage en terrorisme. De dreiging kwam niet langer per definitie van een andere staat.\n\n**Fase 3, tot 2001: nog steeds klein bier.** Tot de aanslagen in New York op 11 september 2001 vormden securitydreigingen een veel **kleiner deel** van de totale regelgevings- en managementscope dan andere gevaren, namelijk grote ongevallen en rampen. Dat is een cruciaal detail: security was er wel, maar het was ondergeschikt.\n\n**Fase 4, na 9/11: alles verandert.** Inmiddels zijn we veel vertrouwder geraakt met kwaadwillende aanvallen die zelfmoordoperaties kunnen omvatten. Mede door dat veranderde dreigingstype voelt het publiek een soort **vrij zwevende angst** (free-floating dread) die door terreuraanslagen wordt versterkt (LaPorte, 2006)."
+        "tekst": "Security has a completely different ancestry, and that explains much of the later friction.\n\n**Phase 1, until around 1989: security is state security.** Security was strongly tied to the state and to protection against threats from **foreign states**. For civil industries, security was only a theme insofar as those organisations contributed to the **military defence capability** of a state. A chemical plant did safety, but security was in principle a matter for the military and the intelligence services.\n\n**Phase 2, late 1980s: the gaze turns inward.** When the Cold War ended, political attention shifted to peace and international human rights. And, more important for our field, a growing awareness emerged of societies\u2019 **own vulnerability** to malicious acts such as sabotage and terrorism. The threat no longer came by definition from another state.\n\n**Phase 3, until 2001: still small beer.** Until the attacks in New York on 11 September 2001, security threats formed a much **smaller part** of the total regulatory and management scope than other dangers, namely major accidents and disasters. That is a crucial detail: security existed, but it was subordinate.\n\n**Phase 4, after 9/11: everything changes.** We have since become far more familiar with malicious attacks that may include suicide operations. Partly because of that changed threat type, the public feels a kind of **free-floating dread** that is reinforced by terrorist attacks (LaPorte, 2006)."
       },
       {
         "type": "uitleg",
-        "titel": "Wat \"free-floating dread\" precies betekent",
-        "tekst": "Dit begrip is subtieler dan \"mensen zijn bang\". Gewone angst heeft een **object**: je bent bang voor de weg oversteken, en die angst verdwijnt als je aan de overkant staat.\n\nVrij zwevende angst heeft geen vast object. Het is een algemeen gevoel van dreiging dat zich aan wisselende dingen hecht: een rugzak in de metro, een menigte, een geluid. Het zakt niet weg als een specifiek gevaar verdwijnt, omdat het nooit aan dat gevaar vastzat.\n\nWaarom dat er voor jouw vak toe doet: beleid dat op zulke angst reageert kan **objectief succesvol** zijn en **subjectief mislukken**. Je verlaagt de kans op een aanslag, maar het gevoel blijft, dus de roep om maatregelen blijft ook. Dat is dezelfde mechaniek als de openingszin van het hoofdstuk, nu vanuit de securitykant."
+        "titel": "What \"free-floating dread\" precisely means",
+        "tekst": "This concept is subtler than \"people are afraid\". Ordinary fear has an **object**: you are afraid of crossing the road, and the fear disappears once you are on the other side.\n\nFree-floating dread has no fixed object. It is a general sense of threat that attaches itself to changing things: a rucksack on the metro, a crowd, a noise. It does not subside when a specific danger disappears, because it was never attached to that danger.\n\nWhy this matters for your field: policy that responds to such dread can be **objectively successful** and **subjectively fail**. You lower the probability of an attack, but the feeling remains, so the call for measures remains too. That is the same mechanism as the opening line of the chapter, now seen from the security side."
       },
       {
         "type": "tekst",
-        "titel": "Wat er na 9/11 institutioneel gebeurde",
+        "titel": "What happened institutionally after 9/11",
         "toetsstof": true,
-        "tekst": "De gevolgen van die verschuiving waren concreet en zichtbaar:\n\n- Er kwamen **nieuwe beleidsbegrippen** en nieuwe management- en organisatieperspectieven voor een veilige samenleving.\n- Het publiek riep om **betere voorbereiding**, met de nadruk op **preventie** in het bijzonder.\n- Er ontwikkelden zich nieuwe **eisen en verantwoordingsvormen** (accountabilities).\n\nHet standaardvoorbeeld dat de auteurs geven: in de Verenigde Staten werd de **Transportation Security Administration (TSA)** opgericht na het aannemen van de **Aviation and Transportation Security Act** in november 2001. De TSA valt nu onder het **Department of Homeland Security**. De auteurs verwijzen daarbij naar het 9/11 Commission Report uit 2004, en voegen toe dat er vergelijkbare ontwikkelingen zijn geweest in Europese landen.\n\nLet op wat hier feitelijk gebeurt: **securitytaken worden ondergebracht bij de burgerluchtvaart**, een sector die tot dat moment volledig was ingericht op safety. Dat is de geboorte van het snijvlak dat dit boek onderzoekt, en meteen ook de geboorte van het probleem."
+        "tekst": "The consequences of that shift were concrete and visible:\n\n- **New policy concepts** appeared, along with new management and organisational perspectives for a secure society.\n- The public called for **better preparedness**, with an emphasis on **prevention** in particular.\n- New **requirements and forms of accountability** developed.\n\nThe standard example the editors give: in the United States the **Transportation Security Administration (TSA)** was created after the **Aviation and Transportation Security Act** was passed in November 2001. The TSA now sits under the **Department of Homeland Security**. The authors refer to the 9/11 Commission Report of 2004, and add that there have been comparable developments in European countries.\n\nNote what is actually happening: **security tasks are placed inside civil aviation**, a sector that until that moment was entirely built around safety. That is the birth of the interface this book investigates, and at the same time the birth of the problem."
       },
       {
         "type": "tekst",
-        "titel": "Vier gevolgen van dat snijvlak",
+        "titel": "Four consequences of that interface",
         "toetsstof": true,
-        "tekst": "De toenemende nadruk op security en de bijbehorende risicoreducerende maatregelen leidt tot een voor de hand liggend snijvlak tussen safety- en securitymanagement in gevaarlijke industrieën. De auteurs noemen vier concrete gevolgen. Ik zet ze op een rij, want dit is toetsbare stof:\n\n**1. Nieuwe categorie dreigingen.** Leiders en analisten moesten een compleet nieuwe categorie dreigingen begrijpen en meenemen in hun bestaande denkkaders.\n\n**2. Nieuwe samenwerkingen en domeinen.** Er ontstonden vormen van samenwerking en operationele domeinen die vóór 9/11 geen uitgangspunt waren van de bestaande strategieën en praktijken.\n\n**3. Twijfel aan het bestaande.** Er kwam twijfel over de effectiviteit van een flink deel van de bestaande benaderingen om gevaarlijke technologie te beschermen. Dat is een pijnlijk punt: het gaat niet alleen om iets toevoegen, maar om de vraag of wat er al stond wel deugt.\n\n**4. De interacties zijn niet vanzelfsprekend.** En dit is het meest onderschatte punt van het hele hoofdstuk: de interacties tussen safety en security blijken helemaal niet voor de hand te liggen, **vooral niet in normale situaties**. Er treden subtiele wederzijdse beïnvloedingen op. Pettersen en Bjørnskau (2015) lieten met veldonderzoek zien dat safety- en securitypraktijken elkaar in sommige gevallen zelfs **tegenwerken**."
+        "tekst": "The growing emphasis on security and its risk-reducing measures leads to an obvious interface between safety and security management in hazardous industries. The authors name four concrete consequences. I list them, because this is examinable material:\n\n**1. A new category of threats.** Leaders and analysts had to understand a completely new category of threats and incorporate it into their existing frames of thinking.\n\n**2. New collaborations and domains.** Forms of collaboration and operational domains emerged that were not a starting point of existing strategies and practices before 9/11.\n\n**3. Doubt about what already existed.** Doubt arose about the effectiveness of a fair part of the existing approaches to protecting hazardous technology. That is a painful point: it is not only about adding something, but about whether what was already in place is any good.\n\n**4. The interactions are far from obvious.** And this is the most underestimated point in the whole chapter: the interactions between safety and security turn out not to be obvious at all, **especially not in normal situations**. Subtle mutual influences occur. Pettersen and Bj\u00f8rnskau (2015) showed with field research that safety and security practices in some cases even **work against each other**."
       },
       {
         "type": "waarschuwing",
-        "titel": "Let op de woorden \"in normale situaties\"",
-        "tekst": "Dit is een detail dat studenten steevast overslaan, en het is juist het interessantste.\n\nBij een **crisis** is het meestal wel duidelijk hoe safety en security zich verhouden: er is een aanslag, of er is een ongeluk, en iedereen weet wie waarover gaat.\n\nDe wrijving zit in de **gewone dinsdagochtend**. Een deur die volgens de brandveiligheid open moet en volgens de beveiliging dicht. Een logboek dat volgens safety openbaar moet zijn en volgens security niet. Een medewerker die volgens safety alles moet melden en volgens security niets mag doorvertellen.\n\nDaar botsen ze, elke dag, in het klein. En dáár is nauwelijks onderzoek naar, zoals paragraaf 1.4 zal toegeven."
+        "titel": "Note the words \"in normal situations\"",
+        "tekst": "This is a detail students consistently skip, and it is the most interesting part.\n\nDuring a **crisis** it is usually clear enough how safety and security relate: there is an attack, or there is an accident, and everyone knows who is responsible for what.\n\nThe friction sits in the **ordinary Tuesday morning**. A door that fire safety says must open and security says must stay shut. A logbook that safety says must be public and security says must not. An employee who according to safety must report everything and according to security may pass nothing on.\n\nThat is where they collide, every day, in small ways. And there is barely any research on it, as section 1.4 will admit."
       },
       {
         "type": "voorbeeld",
-        "titel": "Vier keer botsen in de praktijk",
-        "tekst": "Om het concreet te maken, met voorbeelden in de geest van het hoofdstuk:\n\n**Nooduitgang.** Safety wil dat hij van binnenuit altijd opengaat. Security wil dat hij niet van buitenaf gebruikt kan worden en dat niemand ongezien naar buiten glipt.\n\n**Melden.** Safety wil dat je bijna-ongelukken meldt zonder straf, want zonder meldingen leer je niets. Security wil weten wie wat wanneer deed, en koppelt gedrag aan personen.\n\n**Publiceren.** Safetyonderzoek publiceert onderzoeksrapporten zodat de hele sector ervan leert. Securityonderzoek publiceert kwetsbaarheden juist niet, want dat is een handleiding voor de aanvaller.\n\n**Toegang.** Safety wil dat hulpverleners overal snel bij kunnen. Security wil dat zo min mogelijk mensen ergens bij kunnen.\n\nIn alle vier gevallen heeft **niemand ongelijk**. Dat is precies wat het zo lastig maakt: het is geen misverstand dat je met een goed gesprek oplost, het is een echte tegenstelling in doelen."
+        "titel": "Four collisions in practice",
+        "tekst": "To make it concrete, with examples in the spirit of the chapter:\n\n**Emergency exit.** Safety wants it to open from the inside at all times. Security wants it unusable from the outside and wants nobody slipping out unseen.\n\n**Reporting.** Safety wants you to report near-misses without punishment, because without reports you learn nothing. Security wants to know who did what when, and links behaviour to persons.\n\n**Publishing.** Safety investigation publishes its reports so the whole sector can learn. Security investigation deliberately does not publish vulnerabilities, because that is a manual for the attacker.\n\n**Access.** Safety wants emergency responders to reach everything quickly. Security wants as few people as possible to reach anything.\n\nIn all four cases **nobody is wrong**. That is precisely what makes it hard: it is not a misunderstanding you resolve with a good conversation, it is a genuine conflict of goals."
       },
       {
         "type": "tekst",
-        "titel": "De grote vraag die daaruit volgt",
+        "titel": "The big question that follows",
         "toetsstof": true,
-        "tekst": "Uit die botsingen komt een heel praktische organisatievraag voort, en die keert in bijna elk hoofdstuk van dit boek terug:\n\n**Moeten organisaties twee aparte eenheden hebben voor safety en security, of moeten ze de twee samenvoegen?**\n\nDe auteurs constateren dat veel organisaties, industrieën en instituties daarover **aarzelen**. Dat woord is bewust gekozen. Ze zeggen niet dat het antwoord bekend is en dat men te traag is, ze zeggen dat er geen antwoord is.\n\nEn dat is meteen jouw beroepsvraag. Als jij straks als SSMS’er een advies schrijft over de inrichting van een veiligheidsorganisatie, is dit de vraag waar je op afgerekend wordt."
+        "tekst": "Out of those collisions comes a very practical organisational question, and it returns in almost every chapter of this book:\n\n**Should organisations have two separate units for safety and security, or should they merge the two?**\n\nThe authors note that many organisations, industries and institutions **hesitate** about this. That word is chosen deliberately. They are not saying the answer is known and people are too slow; they are saying there is no answer.\n\nAnd that is immediately your professional question. When you later write an SSMS recommendation on how to organise a safety function, this is the question you will be judged on."
       },
       {
         "type": "tekst",
-        "titel": "Systemische risico’s en de politieke context",
+        "titel": "Systemic risks and the political context",
         "toetsstof": true,
-        "tekst": "Er speelt nog een derde beweging, naast de safetygeschiedenis en de securitygeschiedenis. Die is meer politiek-economisch, en het hoofdstuk noemt hem kort maar nadrukkelijk.\n\nVoor zowel safety als security worden gevaren en dreigingen tegenwoordig steeds vaker gedefinieerd als **systemische risico’s**: producten van de moderne samenleving zelf. Lokale kwetsbaarheden worden begrepen als beïnvloed door **wereldwijde gebeurtenissen en processen**, bijvoorbeeld binnen **digitalisering**.\n\nDeze ontwikkeling valt samen met een transformatie van zowel safety- als securitybeleid richting bredere velden en **gedeelde verantwoordelijkheden**, met aandacht voor maatschappelijke, civiele, homeland- en menselijke vraagstukken.\n\nEn die veranderingen moeten worden bezien in combinatie met de groei van **risicomanagement** als antwoord op beleidseisen. Die groei hangt weer samen met een breder patroon van **neoliberale invloed**, gekenmerkt door vergaande **deregulering, privatisering en uitbesteding**."
+        "tekst": "There is a third movement, alongside the safety history and the security history. It is more political-economic, and the chapter mentions it briefly but emphatically.\n\nFor both safety and security, hazards and threats are increasingly defined as **systemic risks**: products of modern society itself. Local vulnerabilities are understood as influenced by **global events and processes**, for instance within **digitalisation**.\n\nThis development coincides with a transformation of both safety and security policy towards broader fields and **shared responsibilities**, with attention to societal, civil, homeland and human issues.\n\nAnd these changes must be seen in combination with the growth of **risk management** as an answer to policy demands. That growth in turn connects to a broader pattern of **neoliberal influence**, characterised by far-reaching **deregulation, privatisation and outsourcing**."
       },
       {
         "type": "uitleg",
-        "titel": "Wat die neoliberale opmerking betekent voor jouw vak",
-        "tekst": "Dit is een politieke observatie, en de auteurs werken hem niet uit. Maar hij is belangrijk genoeg om te vertalen, want je ziet het effect elke dag.\n\nDe redenering: als de overheid **dereguleert** (minder gedetailleerde regels), **privatiseert** (taken naar bedrijven) en **uitbesteedt** (werk naar onderaannemers), dan verdwijnt de directe sturing op veiligheid. Wat komt daarvoor in de plaats? **Risicomanagement**. Niet langer \"u moet X doen\", maar \"u moet aantonen dat u uw risico’s beheerst\".\n\nDrie gevolgen die je moet kunnen benoemen:\n\n1. Veiligheid wordt iets wat je **aantoont met documenten**, niet alleen iets wat je doet. Papier gaat meetellen als prestatie.\n2. Verantwoordelijkheid raakt **verspreid** over opdrachtgever, aannemer en onderaannemer. Bij een incident is de eerste vraag wie er eigenlijk over ging.\n3. Er ontstaat ruimte voor **verschil in interpretatie**, want de norm is niet meer voorgeschreven maar zelf in te vullen.\n\nDit verklaart ook waarom safety en security zo lastig te integreren zijn: ze worden vaak door verschillende partijen geleverd, met verschillende contracten. Bongiovanni (h6) laat dat voor luchthavens concreet zien."
+        "titel": "What that neoliberal remark means for your field",
+        "tekst": "This is a political observation, and the authors do not develop it. But it is important enough to translate, because you see the effect every day.\n\nThe reasoning: if government **deregulates** (fewer detailed rules), **privatises** (tasks move to companies) and **outsources** (work moves to subcontractors), then direct steering on safety disappears. What replaces it? **Risk management**. No longer \"you must do X\", but \"you must demonstrate that you control your risks\".\n\nThree consequences you should be able to name:\n\n1. Safety becomes something you **demonstrate with documents**, not only something you do. Paperwork starts to count as performance.\n2. Responsibility becomes **dispersed** across client, contractor and subcontractor. After an incident the first question is who was actually responsible.\n3. Room appears for **differences in interpretation**, because the standard is no longer prescribed but filled in by the party itself.\n\nThis also explains why safety and security are so hard to integrate: they are often delivered by different parties, under different contracts. Bongiovanni (ch6) shows this concretely for airports."
       },
       {
         "type": "tekst",
-        "titel": "De conclusie van paragraaf 1.1",
+        "titel": "The conclusion of section 1.1",
         "toetsstof": true,
-        "tekst": "De auteurs sluiten hun historische deel af met een scherpe formulering die je uit je hoofd mag kennen:\n\nWaar het grijze gebied tussen security en safety vroeger nog kon worden teruggebracht tot het probleem van **het definiëren van het verschil tussen een ongeluk en een criminele daad**, kunnen safety en security elkaar niet langer negeren. Niet in concepten, niet in beleid, en niet in managementpraktijk. En, voegen ze toe tussen haakjes: **als ze dat ooit al konden**.\n\nDat laatste zinsdeel is meer dan een stijlfiguur. Zonder dat zinsdeel zeg je: vroeger waren ze gescheiden, nu niet meer, dus we moeten iets nieuws bouwen. Mét dat zinsdeel zeg je: de scheiding was altijd al kunstmatig, en we konden er alleen mee wegkomen zolang het grijze gebied klein leek.\n\nDat is een veel radicalere claim, want dan is het probleem niet nieuw, alleen onze **vereenvoudiging** is opgehouden te werken."
+        "tekst": "The authors close their historical part with a sharp formulation worth knowing by heart:\n\nWhereas the grey area between security and safety could once still be reduced to the problem of **defining the difference between an accident and a criminal act**, safety and security can no longer ignore each other. Not in concepts, not in policy, and not in management practice. And, they add in brackets: **if they ever could**.\n\nThat last clause is more than a stylistic flourish. Without it you are saying: they used to be separate, now they are not, so we must build something new. With it you are saying: the separation was always artificial, and we only got away with it as long as the grey area looked small.\n\nThat is a far more radical claim, because then the problem is not new; only our **simplification** has stopped working."
       },
       {
         "type": "tekst",
-        "titel": "1.2 Waarom definiëren zo verduiveld lastig is",
+        "titel": "1.2 Why defining is so devilishly hard",
         "toetsstof": true,
-        "tekst": "Nu de begrippen zelf. Het hoofdstuk begint voorzichtig: er is misschien **weinig verschil** tussen je *safe* voelen en je *secure* voelen (Ale, 2009). Maar als je aanneemt dat de concepten niet volledig analoog zijn, blijft heldere definiëring een uitdaging (Boholm e.a., 2016).\n\nTwee oorzaken worden genoemd.\n\n**Oorzaak 1: taal.** In veel talen bestaat maar één woord voor safety en security, anders dan in het Engels. Nederlands is daar een perfect voorbeeld van: wij zeggen \"veiligheid\" voor allebei, en moeten met \"beveiliging\", \"sociale veiligheid\" of gewoon de Engelse term improviseren.\n\n**Oorzaak 2: dubbel taalgebruik.** Er zijn veel academische definities aan de ene kant, en alledaags spraakgebruik aan de andere kant. Samen leveren die ambiguïteit op. \"Ik voel me hier niet veilig\" van een bewoner betekent iets anders dan \"veiligheid\" in een risicoanalyse, maar het is hetzelfde woord."
+        "tekst": "Now the concepts themselves. The chapter starts cautiously: there may be **little difference** between feeling *safe* and feeling *secure* (Ale, 2009). But if you assume the concepts are not fully analogous, clear definition remains a challenge (Boholm et al., 2016).\n\nTwo causes are named.\n\n**Cause 1: language.** Many languages have only one word for safety and security, unlike English. Dutch is a perfect example: it uses \"veiligheid\" for both, and has to improvise with \"beveiliging\", \"sociale veiligheid\" or simply the English term.\n\n**Cause 2: double usage.** There are many academic definitions on the one hand and everyday speech on the other. Together they produce ambiguity. \"I don\u2019t feel safe here\" from a resident means something different from \"safety\" in a risk analysis, but it is the same word."
       },
       {
         "type": "uitleg",
-        "titel": "Een Nederlands taalprobleem dat je zult tegenkomen",
-        "tekst": "Merk op wat het taalprobleem in de praktijk doet. In een Nederlandse gemeentelijke veiligheidsnota staat \"veiligheid\" en dat woord dekt tegelijk: brandveiligheid, verkeersveiligheid, ondermijning, woninginbraak, en veiligheidsgevoel.\n\nDat is geen slordigheid van die gemeente, dat is de taal. Maar het gevolg is dat de nota **maatregelen naast elkaar zet die niets met elkaar te maken hebben**, en dat de discussie over prioriteiten onmogelijk wordt: je vergelijkt appels met peren onder één woord.\n\nAls je in je opleiding leert om in een advies expliciet te maken **welk soort veiligheid** je bedoelt, dan doe je precies wat dit hoofdstuk vraagt. En dat is niet muggenziften: het is de voorwaarde voor een bruikbaar advies."
+        "titel": "A language problem you will meet in the Netherlands",
+        "tekst": "Notice what the language problem does in practice. A Dutch municipal safety memorandum says \"veiligheid\", and that one word covers fire safety, road safety, organised crime, burglary and the feeling of safety all at once.\n\nThat is not sloppiness by the municipality, that is the language. But the effect is that the memorandum **places measures side by side that have nothing to do with each other**, and that a discussion about priorities becomes impossible: you are comparing apples and pears under one word.\n\nIf your programme teaches you to make explicit in a recommendation **which kind of safety** you mean, you are doing exactly what this chapter asks. And that is not nitpicking: it is the precondition for a usable recommendation."
       },
       {
         "type": "tekst",
-        "titel": "As 1 — het onderscheid naar intentionaliteit",
+        "titel": "Axis 1 — the distinction by intentionality",
         "toetsstof": true,
-        "tekst": "De academische definities verwijzen hoofdzakelijk naar **twee typen onderscheid**. Dit is de eerste, en de bekendste.\n\n**Safety** richt zich op *hazards* en op **niet-intentionele of accidentele risico’s**.\n**Security** richt zich op **kwaadwillende dreigingen en intentionele risico’s**.\n\nDe kernvraag is dus: **deed iemand dit expres?**\n\nDeze as is intuïtief en werkt vaak goed. Een steiger die instort is safety, een aanslag op die steiger is security. Maar hij heeft twee zwakke plekken die je moet kennen:\n\n1. **Je weet het vaak niet.** Op het moment dat het misgaat, weet niemand of het opzet was. De brand woedt, de intentie stel je pas maanden later vast. Toch moet er nú gehandeld worden.\n2. **Het maakt voor de schade niet uit.** Een fabriek die explodeert richt dezelfde ravage aan, of het nu opzet was of niet. Dat is precies het argument waarmee **Leveson** in hoofdstuk 3 de hele as terzijde schuift."
+        "tekst": "The academic definitions refer mainly to **two types of distinction**. This is the first and best known.\n\n**Safety** deals with *hazards* and with **non-intentional or accidental risks**.\n**Security** deals with **malicious threats and intentional risks**.\n\nThe core question is therefore: **did somebody do this on purpose?**\n\nThis axis is intuitive and often works well. A scaffold that collapses is safety; an attack on that scaffold is security. But it has two weak spots you need to know:\n\n1. **You often do not know.** At the moment things go wrong, nobody knows whether it was intentional. The fire is burning; intent is established months later. Yet action is needed **now**.\n2. **It makes no difference to the damage.** A factory that explodes creates the same devastation whether it was intentional or not. That is precisely the argument with which **Leveson** in chapter 3 sets the whole axis aside."
       },
       {
         "type": "tekst",
-        "titel": "As 2 — het onderscheid naar oorsprong en gevolg",
+        "titel": "Axis 2 — the distinction by origin and effect",
         "toetsstof": true,
-        "tekst": "De tweede as is minder bekend maar analytisch scherper. Hij gaat niet over opzet, maar over de **richting van de schade**.\n\n**Safety** is het vermogen van het **systeem om de omgeving niet te schaden**.\n**Security** is het vermogen van de **omgeving om het systeem niet te schaden**.\n\nDus: wijst de pijl naar buiten of naar binnen?\n\nEen chemische fabriek die gif loost, schaadt de omgeving: safety. Een inbreker die de fabriek binnendringt, is de omgeving die het systeem schaadt: security.\n\nSommige auteurs combineren beide assen tot verfijndere schema’s, om recht te doen aan verschillen in woordgebruik tussen domeinen. Daarbij wordt de systeem-omgeving-as verrijkt met een derde mogelijkheid: het vermogen van een systeem om **zichzelf** niet te schaden. Dat is het **SEMA-raamwerk** van Piètre-Cambacédès en Chaudet (2010)."
+        "tekst": "The second axis is less well known but analytically sharper. It is not about intent but about the **direction of the harm**.\n\n**Safety** is the ability of the **system not to harm the environment**.\n**Security** is the ability of the **environment not to harm the system**.\n\nSo: does the arrow point outwards or inwards?\n\nA chemical plant discharging poison harms the environment: safety. A burglar entering the plant is the environment harming the system: security.\n\nSome authors combine both axes into more refined schemes, to do justice to differences in usage between domains. There the system-environment axis is enriched with a third possibility: the ability of a system not to harm **itself**. That is the **SEMA framework** of Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010)."
       },
       {
         "type": "uitleg",
-        "titel": "Waarom er een derde richting nodig was",
-        "tekst": "Waarom \"het systeem schaadt zichzelf\" als aparte categorie? Neem een machine die door slijtage zichzelf sloopt zonder dat er iemand gewond raakt of dat de omgeving iets merkt.\n\nMet twee richtingen past dat nergens: de omgeving doet niets, en de omgeving lijdt geen schade. Toch is het duidelijk een veiligheidsvraagstuk, en in de praktijk een duur ook.\n\nDe drie richtingen in SEMA zijn dus: systeem naar buiten, buiten naar systeem, en systeem naar zichzelf. Je hoeft SEMA niet in detail te kennen, maar wel dat de simpele tweedeling niet alles vangt en dat auteurs daarom verfijningen hebben voorgesteld."
+        "titel": "Why a third direction was needed",
+        "tekst": "Why make \"the system harms itself\" a separate category? Take a machine that destroys itself through wear without anyone being injured and without the environment noticing anything.\n\nWith two directions that fits nowhere: the environment does nothing, and the environment suffers nothing. Yet it is clearly a safety issue, and in practice an expensive one.\n\nThe three directions in SEMA are therefore: system outwards, outside towards system, and system towards itself. You do not need SEMA in detail, but you do need to know that the simple dichotomy does not capture everything and that authors have therefore proposed refinements."
       },
       {
         "type": "tabel",
-        "titel": "De twee assen naast elkaar",
+        "titel": "The two axes side by side",
         "kop": [
           "",
-          "As 1: intentionaliteit",
-          "As 2: oorsprong—gevolg"
+          "Axis 1: intentionality",
+          "Axis 2: origin\u2014effect"
         ],
         "rijen": [
           [
-            "Kernvraag",
-            "Deed iemand het expres?",
-            "Welke kant beweegt de schade op?"
+            "Core question",
+            "Did someone do it on purpose?",
+            "Which way does the harm move?"
           ],
           [
             "Safety",
-            "hazards, niet-intentionele en accidentele risico’s",
-            "systeem schaadt de omgeving niet"
+            "hazards, non-intentional and accidental risks",
+            "the system does not harm the environment"
           ],
           [
             "Security",
-            "kwaadwillende dreigingen, intentionele risico’s",
-            "omgeving schaadt het systeem niet"
+            "malicious threats, intentional risks",
+            "the environment does not harm the system"
           ],
           [
-            "Verfijning",
-            "combinaties van beide assen",
-            "plus: systeem schaadt zichzelf niet (SEMA)"
+            "Refinement",
+            "combinations of both axes",
+            "plus: the system does not harm itself (SEMA)"
           ],
           [
-            "Zwakke plek",
-            "intentie is vaak pas achteraf bekend",
-            "systeemgrens is een keuze, geen feit"
+            "Weak spot",
+            "intent is often known only afterwards",
+            "the system boundary is a choice, not a fact"
           ],
           [
-            "Genoemd bij",
+            "Cited in",
             "Ale (2009); Smith & Brooks (2012)",
-            "Boholm e.a. (2016); Piètre-Cambacédès & Bouissou (2013)"
+            "Boholm et al. (2016); Pi\u00e8tre-Cambac\u00e9d\u00e8s & Bouissou (2013)"
           ]
         ],
-        "noot": "Deze tabel is de meest praktische samenvatting van paragraaf 1.2. Kun je hem uit je hoofd reproduceren, dan kun je vrijwel elke casus in dit vak openen."
+        "noot": "This table is the most practical summary of section 1.2. If you can reproduce it from memory, you can open almost any case in this course."
       },
       {
         "type": "voorbeeld",
-        "titel": "De twee assen op één casus, en wat er dan gebeurt",
-        "tekst": "Casus: een medewerker van een waterzuivering zet uit frustratie over zijn ontslag een klep open. Er komt ongezuiverd water in de rivier.\n\n**As 1, intentionaliteit.** Hij deed het expres. Dus: **security**.\n\n**As 2, richting van de schade.** Het systeem schaadt de omgeving, de rivier. Dus: **safety**.\n\nTwee assen, twee verschillende antwoorden. Dat is geen fout in je redenering; dit is exact het grijze gebied waar het boek over gaat. Merk bovendien op dat de dader **binnen** het systeem staat, terwijl as 2 security definieert als iets wat van buiten komt.\n\nHoe je hier professioneel mee omgaat: je kiest niet stiekem één as en doet alsof het duidelijk is. Je **benoemt** dat de assen uiteenlopen, je legt uit welke gevolgen dat heeft (wie is verantwoordelijk, wie onderzoekt het, welke maatregel volgt), en pas dan geef je je advies. Dat verschil tussen \"een mening geven\" en \"een afweging tonen\" is precies het verschil tussen mbo- en hbo-niveau."
+        "titel": "The two axes on one case, and what then happens",
+        "tekst": "Case: an employee at a water treatment plant, frustrated about being dismissed, opens a valve. Untreated water enters the river.\n\n**Axis 1, intentionality.** He did it on purpose. So: **security**.\n\n**Axis 2, direction of the harm.** The system harms the environment, the river. So: **safety**.\n\nTwo axes, two different answers. That is not a flaw in your reasoning; this is exactly the grey area the book is about. Note as well that the perpetrator stands **inside** the system, while axis 2 defines security as something coming from outside.\n\nHow to handle this professionally: you do not quietly pick one axis and pretend it is obvious. You **state** that the axes diverge, you explain the consequences (who is responsible, who investigates, which measure follows), and only then do you give your recommendation. That difference between \"giving an opinion\" and \"showing a trade-off\" is exactly the difference between vocational and bachelor level."
       },
       {
         "type": "tekst",
-        "titel": "Onderscheiden of gewoon alles managen?",
+        "titel": "Distinguish, or simply manage everything?",
         "toetsstof": true,
-        "tekst": "Ondanks alle pogingen om het onderscheid te verfijnen, keert er volgens de auteurs één vraag steeds terug: moet je de twee **überhaupt onderscheiden**, of moet je gewoon zo goed mogelijk alle gevaren managen, of die ons nu onveilig of onbeveiligd doen voelen? Die vraag komt van **Young en Leveson (2014)**, en Leveson werkt dat standpunt in hoofdstuk 3 volledig uit.\n\nEen centraal concept om beide te bereiken is **risicomanagement**. Zie Blokland en Reniers in hoofdstuk 2, en de redacteuren zelf in hoofdstuk 11.\n\nMaar, waarschuwen de auteurs meteen, ook daar is het niet opgelost. Er is veel verwarring over:\n- wat je van risicoanalyse mag **verwachten** (Short, 1992),\n- **hoe** je die uitvoert,\n- en of die voor safety en security wel **hetzelfde** is (Jore, 2019).\n\nMerk op hoe dit hoofdstuk telkens dezelfde vorm heeft: hier is een voorgestelde oplossing, en hier is waarom die de zaak niet afsluit. Dat is geen zwakte van het boek, dat is de stand van het vakgebied."
+        "tekst": "Despite all attempts to refine the distinction, the authors say one question keeps returning: should you distinguish the two **at all**, or should you simply manage all hazards as well as possible, whether they make us feel unsafe or insecure? That question comes from **Young and Leveson (2014)**, and Leveson develops the position fully in chapter 3.\n\nA central concept for achieving both is **risk management**. See Blokland and Reniers in chapter 2, and the editors themselves in chapter 11.\n\nBut, the authors warn immediately, it is not settled there either. There is much confusion about:\n- what you may **expect** from risk analysis (Short, 1992),\n- **how** you carry it out,\n- and whether it is the **same** for safety and security (Jore, 2019).\n\nNotice how this chapter always has the same shape: here is a proposed solution, and here is why it does not close the matter. That is not a weakness of the book, that is the state of the field."
       },
       {
         "type": "tekst",
-        "titel": "Hoe wetenschap en techniek de kloof juist vergroten",
+        "titel": "How science and technology widen the gap",
         "toetsstof": true,
-        "tekst": "Je zou verwachten dat meer wetenschap en betere techniek de begrippen dichter bij elkaar brengen. Het tegendeel gebeurt vaak. De conceptuele verschillen tussen safety en security zijn in veel contexten **verder uitvergroot** door wetenschap en technologie. Het voorbeeld dat de auteurs uitwerken is de luchthaven.\n\nIn de dagelijkse operatie hebben securityscreeners en safetypersoneel:\n- een **andere opleiding**,\n- **andere technologie**,\n- en ze **werken op volledig verschillende manieren**.\n\nDaar komt bij dat de verschillende **regelgevende kaders** en de aard van sommige **contracten** op luchthavens die scheiding nog verder versterken (Bongiovanni, 2016).\n\nDenk even door wat dat betekent. Twee groepen mensen op hetzelfde terrein, met hetzelfde overkoepelende doel, die elkaars opleiding niet hebben gevolgd, elkaars apparatuur niet kunnen bedienen, onder verschillende regels vallen en soms voor verschillende werkgevers werken. Dat integreer je niet met een gezamenlijke nieuwsbrief."
+        "tekst": "You would expect more science and better technology to bring the concepts closer together. Often the opposite happens. The conceptual differences between safety and security have in many contexts been **further magnified** by science and technology. The example the authors work out is the airport.\n\nIn daily operations, security screeners and safety personnel have:\n- **different training**,\n- **different technology**,\n- and they **work in completely different ways**.\n\nOn top of that, the different **regulatory frameworks** and the nature of some **contracts** at airports reinforce that separation still further (Bongiovanni, 2016).\n\nThink through what that means. Two groups of people on the same site, with the same overarching aim, who have not followed each other\u2019s training, cannot operate each other\u2019s equipment, fall under different rules and sometimes work for different employers. You do not integrate that with a joint newsletter."
       },
       {
         "type": "tekst",
-        "titel": "En toch moeten mensen beslissen",
+        "titel": "And still people have to decide",
         "toetsstof": true,
-        "tekst": "Hier komt de zin die volgens mij het meest telt voor jouw toekomstige beroep.\n\nHoe gescheiden de werelden ook zijn, gedrag van individuele medewerkers of organisaties om zich tegen dreigingen en gevaren te beschermen vereist **beslissingen zonder dat is uitgemaakt of het om safety of om security gaat**.\n\nEn wie neemt die beslissingen? De auteurs zijn expliciet: **\"gewone werknemers\"**, managers, HSE-professionals, securityfunctionarissen en andere professionals.\n\nDat is de kloof tussen theorie en praktijk in dit vakgebied. Academici debatteren over de juiste definitie; de beveiliger bij de deur moet nu beslissen of hij die deur openzet.\n\nDe consequentie voor jou: een advies dat pas werkt nadat iemand het onderscheid correct heeft geclassificeerd, is geen bruikbaar advies. Het moet werken in de situatie waarin dat onderscheid niet vaststaat."
+        "tekst": "Here comes the sentence that in my view matters most for your future profession.\n\nHowever separate the two worlds are, the behaviour of individual employees or organisations protecting themselves against threats and hazards requires **decisions without it having been settled whether this is safety or security**.\n\nAnd who takes those decisions? The authors are explicit: **\"ordinary workers\"**, managers, HSE professionals, security officers and other professionals.\n\nThat is the gap between theory and practice in this field. Academics debate the correct definition; the guard at the door has to decide right now whether to open it.\n\nThe consequence for you: a recommendation that only works after someone has correctly classified the distinction is not a usable recommendation. It has to work in the situation where that distinction is not settled."
       },
       {
         "type": "tekst",
-        "titel": "De drie invalshoeken van het boek",
+        "titel": "The three vantage points of the book",
         "toetsstof": true,
-        "tekst": "Hoe vaag de scheidslijnen ook zijn, de bijdragen in dit boek laten zien hoe safety en security samenkomen vanuit verschillende wetenschappelijke posities en contexten. De redacteuren onderscheiden **drie invalshoeken**, en je moet weten welk hoofdstuk waar zit.\n\n**1. Conceptueel** — wat zíjn deze dingen eigenlijk, en welke woorden gebruiken we?\nBlokland & Reniers (h2), Jore (h5)\n\n**2. Technisch en methodologisch** — hoe analyseren, ontwerpen en meten we?\nLeveson (h3), Wipf (h4), Bongiovanni (h6)\n\n**3. Management en praktijk** — wie doet wat, in welke organisatie, en waar botst dat?\nBrooks & Coole (h7), La Porte (h8), Boustras (h10), Schulman (h9)\n\nDe hoofdstukken laten zien dat safety én security doen een vrij **generiek kenmerk** van organisaties is, en voor veel organisaties zelfs onlosmakelijk verbonden met hun bestaan. Maar als **beroepsvelden** hebben ze zich verschillend ontwikkeld, ondersteund door heel aparte wetenschappelijke en technologische velden.\n\nEn nog een nuance: sommige delen van de professionele safety- en securitypraktijk steunen op zeer gespecialiseerde en rigoureuze kennis, terwijl andere delen zijn **geroutiniseerd door conventie, regel of wet** (Short, 1992). Daarom is er, naast technische kennis en methoden, **empirische studie** nodig van de organisaties en systemen waarin safety en security zich ontwikkelen en op elkaar inwerken. Dat is precies wat La Porte in hoofdstuk 8 bepleit."
+        "tekst": "However blurred the dividing lines, the contributions in this book show how safety and security come together from different scientific positions and contexts. The editors distinguish **three vantage points**, and you should know which chapter sits where.\n\n**1. Conceptual** \u2014 what **are** these things, and which words do we use?\nBlokland & Reniers (ch2), Jore (ch5)\n\n**2. Technical and methodological** \u2014 how do we analyse, design and measure?\nLeveson (ch3), Wipf (ch4), Bongiovanni (ch6)\n\n**3. Management and practice** \u2014 who does what, in which organisation, and where does it collide?\nBrooks & Coole (ch7), La Porte (ch8), Boustras (ch10), Schulman (ch9)\n\nThe chapters show that doing safety **and** security is a fairly **generic feature** of organisations, and for many organisations even inseparable from their existence. But as **professional fields** they have developed differently, supported by quite separate scientific and technological fields.\n\nOne more nuance: some parts of professional safety and security practice rest on highly specialised and rigorous knowledge, while other parts are **routinised by convention, rule or law** (Short, 1992). That is why, alongside technical knowledge and methods, **empirical study** is needed of the organisations and systems in which safety and security develop and interact. That is precisely what La Porte argues for in chapter 8."
       },
       {
         "type": "uitleg",
-        "titel": "Waarom de invalshoek bepaalt wie er \"gelijk\" heeft",
-        "tekst": "Gebruik deze drie invalshoeken als bril, dan valt het boek op zijn plek.\n\nVanuit de **technische** invalshoek heeft Leveson gelijk: als de gevolgen hetzelfde zijn en je beheersmaatregel is hetzelfde, waarom zou je dan twee analyses doen?\n\nVanuit de **management**-invalshoek heeft Brooks en Coole gelijk: als de opleidingen, de beroepsverenigingen, de kennisdomeinen en de wetgeving verschillen, dan zijn dit twee beroepen, hoe graag je ook wilt integreren.\n\nVanuit de **conceptuele** invalshoek heeft Blokland en Reniers gelijk: zonder heldere woorden weet je niet eens waar je het over hebt.\n\nGeen van drieën heeft ongelijk. Ze beantwoorden verschillende vragen. Als je dat in een tentamenantwoord of een paper laat zien, laat je zien dat je het boek als geheel begrijpt in plaats van drie hoofdstukken los."
+        "titel": "Why the vantage point decides who is \"right\"",
+        "tekst": "Use these three vantage points as glasses and the book falls into place.\n\nFrom the **technical** vantage point Leveson is right: if the consequences are the same and your control measure is the same, why run two analyses?\n\nFrom the **management** vantage point Brooks and Coole are right: if the training, the professional bodies, the knowledge domains and the legislation differ, then these are two professions, however much you want to integrate.\n\nFrom the **conceptual** vantage point Blokland and Reniers are right: without clear words you do not even know what you are talking about.\n\nNone of the three is wrong. They answer different questions. If you show that in an exam answer or a paper, you show that you understand the book as a whole rather than three separate chapters."
       },
       {
         "type": "tekst",
-        "titel": "1.3 De staat van de wetenschap",
+        "titel": "1.3 The state of the science",
         "toetsstof": true,
-        "tekst": "Beide vakgebieden zijn als wetenschappelijke gemeenschap **relatief jong**. Dat klinkt als een detail voor onderzoekers, maar het heeft directe gevolgen voor jouw beroep, en die leg ik zo uit.\n\n**Safety science** wordt gewoonlijk beschreven als onderzoek gericht op betere bescherming: het voorkomen van gevaar of letselrisico. Maar de productie van veiligheidskennis blijkt **divers**: die varieert per context en mengt benaderingen uit verschillende disciplines (Le Coze, Pettersen & Reiman). Ook safetymanagers vormen een diverse en groeiende gemeenschap, al zijn er wel enige grenzen ontstaan, bijvoorbeeld binnen **Occupational Health and Safety (OHS)** (Hale, 2019).\n\nEn dan komt een observatie die je moet onthouden. De technische eisen aan safety verschillen enorm, afhankelijk van het type gevaar. Bovendien zijn veel eisen **juridisch of economisch** en komen ze eerder voort uit **beleid dan uit wetenschap**. Preciezer geformuleerd: ze komen voort uit de institutionele en organisatorische doelen in de veiligheidsstrategie en het veiligheidsklimaat van een supranationale toezichthouder, een nationale of lokale overheid, of een bedrijf.\n\n**Security science** is net zo divers, net zo multidisciplinair, en heeft een **nog minder scherp omlijnde** kennis- en vaardighedenstructuur (Smith & Brooks, 2012). Wel geldt hetzelfde herstelmiddel als bij safety: security laat zich veel beter definiëren zodra je het koppelt aan een **specifieke context** en aan bijbehorende concepten, theorieën en modellen."
+        "tekst": "Both fields are **relatively young** as scientific communities. That sounds like a detail for researchers, but it has direct consequences for your profession, which I will explain.\n\n**Safety science** is usually described as research aimed at better protection: preventing danger or the risk of injury. But the production of safety knowledge turns out to be **diverse**: it varies by context and mixes approaches from different disciplines (Le Coze, Pettersen & Reiman). Safety managers too form a diverse and growing community, although some boundaries have emerged, for instance within **Occupational Health and Safety (OHS)** (Hale, 2019).\n\nAnd then comes an observation to remember. The technical requirements for safety differ enormously depending on the type of hazard. Moreover, many requirements are **legal or economic** and stem from **policy rather than science**. More precisely: they stem from the institutional and organisational goals in the safety strategy and safety climate of a supranational regulator, a national or local government, or a company.\n\n**Security science** is just as diverse, just as multidisciplinary, and has an **even less sharply defined** structure of knowledge and skills (Smith & Brooks, 2012). The same remedy applies as with safety: security becomes far easier to define once you tie it to a **specific context** and to the corresponding concepts, theories and models."
       },
       {
         "type": "uitleg",
-        "titel": "Wat \"veel eisen komen uit beleid, niet uit wetenschap\" voor jou betekent",
-        "tekst": "Deze zin lijkt onschuldig maar is scherp. Hij zegt dat een flink deel van wat wij \"veiligheidseisen\" noemen niet volgt uit onderzoek naar wat werkt, maar uit **wetgeving, kosten en politieke doelen**.\n\nDrie praktische gevolgen:\n\n1. **Voldoen aan de regels is niet hetzelfde als veilig zijn.** Je kunt volledig compliant zijn en toch een onveilige situatie hebben, en omgekeerd.\n2. **De vraag \"waar komt deze eis vandaan\" is altijd legitiem.** Uit onderzoek, uit een wet, uit een verzekeraar, of uit een incident van tien jaar geleden? Dat bepaalt hoeveel gewicht je eraan hangt.\n3. **Als adviseur moet je beide talen spreken.** Wat werkt volgens onderzoek, én wat moet volgens de regels. Die vallen niet samen, en pretenderen dat ze samenvallen maakt je advies onbruikbaar.\n\nDit is een van de dingen die dit boek onderscheidt van een gewoon leerboek: het vertelt je niet alleen wat het vakgebied weet, maar ook hoe **wankel** een deel van die kennis is."
+        "titel": "What \"many requirements come from policy, not science\" means for you",
+        "tekst": "This sentence looks innocent but is sharp. It says that a fair part of what we call \"safety requirements\" does not follow from research into what works, but from **legislation, costs and political goals**.\n\nThree practical consequences:\n\n1. **Complying with the rules is not the same as being safe.** You can be fully compliant and still have an unsafe situation, and the other way round.\n2. **The question \"where does this requirement come from\" is always legitimate.** From research, from a law, from an insurer, or from an incident ten years ago? That determines how much weight you give it.\n3. **As an adviser you have to speak both languages.** What works according to research, **and** what is required by the rules. They do not coincide, and pretending they do makes your advice unusable.\n\nThis is one of the things that sets this book apart from an ordinary textbook: it tells you not only what the field knows, but also how **shaky** part of that knowledge is."
       },
       {
         "type": "voorbeeld",
-        "titel": "Security culture: hoe wankel het kan zijn",
-        "tekst": "De auteurs geven zelf een illustratie, en die vooruitwijzing naar hoofdstuk 5 is de moeite waard.\n\nSissel Jore merkt op dat een **ongevalsonderzoeksrapport** het begrip *security culture* gebruikte als een van de belangrijke verklarende factoren achter de afloop van een terroristische aanslag. Ook passen veel **Noorse petroleumbedrijven** security culture toe als middel voor securityverbetering.\n\nHet begrip heeft duidelijk een tegenhanger in *safety culture*, en het is in theorie te definiëren en te onderzoeken. Maar, en dat is het punt: het wordt toegepast met **weinig technische ondersteuning en analyse**.\n\nVertaald: er wordt een verklaring gegeven voor een aanslag met doden, met een begrip waarvan niet vaststaat wat het precies is of hoe je het meet. En op basis daarvan worden bedrijven aangestuurd.\n\nDe conclusie die de redacteuren trekken: de scheidslijnen vervagen niet alleen tussen security en safety, maar ook tussen **wetenschappelijke benaderingen en management**. In theorie én in de praktijk."
+        "titel": "Security culture: how shaky it can be",
+        "tekst": "The authors give an illustration themselves, and this pointer to chapter 5 is worth having.\n\nSissel Jore notes that an **accident investigation report** used the concept of *security culture* as one of the important explanatory factors behind the outcome of a terrorist attack. Many **Norwegian petroleum companies** also apply security culture as a means of security improvement.\n\nThe concept clearly has a counterpart in *safety culture*, and in theory it can be defined and researched. But, and this is the point: it is applied with **little technical support and analysis**.\n\nTranslated: an explanation is being given for an attack with fatalities, using a concept whose precise meaning and measurement are not settled. And companies are being steered on that basis.\n\nThe conclusion the editors draw: the dividing lines blur not only between security and safety, but also between **scientific approaches and management**. In theory as well as in practice."
       },
       {
         "type": "tekst",
-        "titel": "1.4 De grenzen van wat techniek en bureaucratie kunnen",
+        "titel": "1.4 The limits of what technology and bureaucracy can do",
         "toetsstof": true,
-        "tekst": "We komen bij het meest fundamentele deel van het hoofdstuk.\n\nDat er **grenzen** zitten aan bureaucratische en technische prestaties in de zoektocht naar safety en security is onmiskenbaar. Ongelukken én kwaadwillende aanvallen zullen gebeuren, en onzekerheden zullen blijven bestaan (Short, 1992).\n\nDe auteurs halen Schulman uit hoofdstuk 9 aan, en dit is een uitspraak om te onthouden:\n\nEr zijn altijd **meer manieren waarop een complex systeem kan falen** dan manieren waarop het correct werkt zoals ontworpen.\n\nEn dan komt de securityverzwaring erbovenop: vijandige strategie voegt **extra mogelijkheden tot rampspoed** toe, omdat kwetsbaarheden worden behandeld als **strategische doelwitten**.\n\nDat verschil is essentieel. Bij safety is toeval je tegenstander, en toeval zoekt niet gericht naar je zwakste plek. Bij security is er een denkende tegenpartij die jouw kwetsbaarheden juist **opzoekt en uitkiest**. Precies daarom is het derde onderscheidingsniveau van Blokland en Reniers in hoofdstuk 2, over de aard van de onzekerheid, zo belangrijk."
+        "tekst": "We come to the most fundamental part of the chapter.\n\nThat there are **limits** to bureaucratic and technical performance in the pursuit of safety and security is unmistakable. Accidents **and** malicious attacks will happen, and uncertainties will remain (Short, 1992).\n\nThe authors quote Schulman from chapter 9, and this is a statement to remember:\n\nThere are always **more ways in which a complex system can fail** than ways in which it works correctly as designed.\n\nAnd then the security aggravation comes on top: hostile strategy adds **extra possibilities for calamity**, because vulnerabilities are treated as **strategic targets**.\n\nThat difference is essential. In safety, chance is your opponent, and chance does not search deliberately for your weakest point. In security there is a thinking adversary who **seeks out and selects** your vulnerabilities. That is precisely why Blokland and Reniers\u2019 third level of distinction in chapter 2, about the nature of the uncertainty, matters so much."
       },
       {
         "type": "tekst",
-        "titel": "Drie vragen die het hoofdstuk aan jou doorgeeft",
+        "titel": "Three questions the chapter passes on to you",
         "toetsstof": true,
-        "tekst": "Uit die grenzen volgen drie vragen. De auteurs beantwoorden ze niet; ze geven ze door aan het vakgebied en aan de lezer.\n\n**Vraag 1: wat is veilig en beveiligd genoeg?**\nZolang je die vraag niet beantwoordt, is elk niveau te weinig, want er kan altijd nog iets bij.\n\n**Vraag 2: wat betekenen de nieuwe eisen voor de mensen?**\nSafety en security wekken nieuwe eisen op, zelfs eisen tot sterkere integratie. Wat zijn de implicaties daarvan voor de mensen in organisaties en instituties die technologieën beheren die blijven groeien in schaal en complexiteit?\n\n**Vraag 3: wie wordt versterkt en wie krijgt de spanning?**\nWie wordt door deze ontwikkeling machtiger of belangrijker, en wie ervaart juist meer spanning en conflict? Voor deze vraag verwijzen de auteurs naar La Porte in hoofdstuk 8.\n\nVraag 3 is de meest volwassen vraag van de drie, en meteen degene die studenten het vaakst overslaan. Elke veiligheidsmaatregel **verdeelt** iets: bevoegdheid, budget, status, werkdruk. Wie dat niet benoemt, schrijft een advies dat alleen op papier werkt."
+        "tekst": "Three questions follow from those limits. The authors do not answer them; they pass them on to the field and to the reader.\n\n**Question 1: what is safe and secure enough?**\nAs long as you do not answer that, every level is too little, because something can always be added.\n\n**Question 2: what do the new demands mean for the people?**\nSafety and security generate new demands, even demands for stronger integration. What are the implications for the people in organisations and institutions that manage technologies which keep growing in scale and complexity?\n\n**Question 3: who is strengthened and who gets the strain?**\nWho becomes more powerful or more important through this development, and who instead experiences more tension and conflict? For this question the authors point to La Porte in chapter 8.\n\nQuestion 3 is the most mature of the three, and at the same time the one students most often skip. Every safety measure **distributes** something: authority, budget, status, workload. Anyone who fails to name that writes a recommendation that only works on paper."
       },
       {
         "type": "tekst",
-        "titel": "De vier concrete knelpunten",
+        "titel": "The four concrete tensions",
         "toetsstof": true,
-        "tekst": "Het hoofdstuk maakt die abstracte vragen concreet met vier knelpunten. Deze vier zijn uitstekende toetsstof, want ze zijn kort en scherp.\n\n**Knelpunt 1: samenvoegen of gescheiden houden.** Veel organisaties aarzelen tussen twee aparte eenheden voor safety en security, of één samengevoegde behandeling. Er is geen bewezen goed antwoord.\n\n**Knelpunt 2: toezichthouders krijgen taken zonder kennisbasis.** Security wordt toegevoegd aan de scope van sommige safety-autoriteiten, bijvoorbeeld in de luchtvaart bij **EASA** en de Franse burgerluchtvaartautoriteit. Maar met **zeer beperkte input vanuit onderzoek** over hoe je conceptueel en praktisch met die uitgebreide scope omgaat. Er wordt dus beleid gemaakt op een terrein waar de wetenschap nog geen antwoord heeft.\n\n**Knelpunt 3: transparantie botst.** Een verder mogelijk probleem betreft transparantie en het delen van data en ervaring. De illustratie die de auteurs geven is de **publicatie van onderzoek**: securityonderzoek kan **vertrouwelijkheid** eisen over resultaten, terwijl safetymanagement en safetyonderzoek juist streven naar **maximale openheid**. Dat zijn twee tegengestelde informatieregimes, niet twee stijlen.\n\n**Knelpunt 4: het onderzoek staat scheef.** Het meeste onderzoek en de meeste literatuur over de relatie tussen safety en security richt zich op **engineeringaspecten** zoals ontwerp en risicoanalysemethoden, plus wat werk over conceptuele kwesties. Ondanks alle jaren waarin safety en security naast elkaar bestaan, lijkt er **beperkt onderzoek** te zijn naar hoe ze in de praktijk op alle niveaus worden gemanaged. Wel bevestigen een paar veldstudies een **spanning** tussen safety en security in dagelijkse activiteiten. Daarom is verder onderzoek naar de interacties nodig."
+        "tekst": "The chapter makes those abstract questions concrete with four tensions. These four are excellent exam material, because they are short and sharp.\n\n**Tension 1: merge or keep separate.** Many organisations hesitate between two separate units for safety and security, or one merged treatment. There is no proven right answer.\n\n**Tension 2: regulators get tasks without a knowledge base.** Security is added to the scope of some safety authorities, for instance in aviation at **EASA** and the French civil aviation authority. But with **very limited input from research** on how to deal conceptually and practically with that extended scope. Policy is therefore being made in an area where science has no answer yet.\n\n**Tension 3: transparency collides.** A further possible problem concerns transparency and the sharing of data and experience. The illustration the authors give is the **publication of research**: security research may demand **confidentiality** about results, while safety management and safety research strive for **maximum openness**. Those are two opposing information regimes, not two styles.\n\n**Tension 4: the research is lopsided.** Most research and literature on the relationship between safety and security focuses on **engineering aspects** such as design and risk analysis methods, plus some work on conceptual issues. Despite all the years in which safety and security have coexisted, there appears to be **limited research** into how they are managed in practice at all levels. A few field studies do confirm a **tension** between safety and security in daily activities. Further research into the interactions is therefore needed."
       },
       {
         "type": "uitleg",
-        "titel": "Waarom knelpunt 3 dieper zit dan het lijkt",
-        "tekst": "Ik licht knelpunt 3 eruit, want dat is degene waar studenten het snelst overheen lezen.\n\nSafety is groot geworden dóór openheid. Het hele leerproces van bijvoorbeeld de luchtvaart draait op openbare ongevalsrapporten: één ongeluk, wereldwijd geleerd. Dat is geen bijproduct, dat is het **werkende mechanisme**.\n\nSecurity werkt precies andersom. Een openbaar rapport over hoe iemand ergens binnenkwam is een **handleiding**. Openheid vergroot daar het risico.\n\nDus als je die twee samenvoegt, moet één van beide zijn belangrijkste leermechanisme inleveren. Voeg je ze samen onder een securityregime, dan verliest safety zijn openbare leercyclus. Voeg je ze samen onder een safetyregime, dan publiceer je kwetsbaarheden.\n\nDat is geen praktisch probleempje dat je met een geheimhoudingsclausule oplost. Het is een **structureel conflict**, en het is een van de sterkste argumenten tégen naïeve integratie. Onthoud dit voor als je ooit moet adviseren over samenvoegen: dit is je zwaarste tegenargument."
+        "titel": "Why tension 3 runs deeper than it looks",
+        "tekst": "I single out tension 3, because that is the one students skim over fastest.\n\nSafety grew great **through** openness. The whole learning process of aviation, for example, runs on public accident reports: one accident, learned from worldwide. That is not a by-product, it is the **working mechanism**.\n\nSecurity works the other way round. A public report on how someone got in is a **manual**. There, openness increases the risk.\n\nSo if you merge the two, one of them has to surrender its most important learning mechanism. Merge them under a security regime and safety loses its public learning cycle. Merge them under a safety regime and you publish vulnerabilities.\n\nThat is not a small practical problem you solve with a confidentiality clause. It is a **structural conflict**, and one of the strongest arguments **against** naive integration. Remember this if you ever have to advise on merging: this is your heaviest counter-argument."
       },
       {
         "type": "begrippen",
-        "titel": "Kernbegrippen uit hoofdstuk 1",
+        "titel": "Key concepts from chapter 1",
         "items": [
           {
-            "begrip": "Systemisch risico",
-            "definitie": "Risico dat wordt gezien als product van de moderne samenleving als geheel, waarbij lokale kwetsbaarheden worden beïnvloed door wereldwijde gebeurtenissen en processen."
+            "begrip": "Systemic risk",
+            "definitie": "Risk seen as a product of modern society as a whole, in which local vulnerabilities are influenced by global events and processes."
           },
           {
             "begrip": "Societal safety",
-            "definitie": "Verbreding van industriële veiligheid naar maatschappelijk niveau: veiligheid als eigenschap van een samenleving, niet alleen van een installatie of werkplek."
+            "definitie": "The broadening of industrial safety to the societal level: safety as a property of a society, not only of an installation or workplace."
           },
           {
             "begrip": "Societal security",
-            "definitie": "Beveiliging op maatschappelijk niveau, gericht op de eigen kwetsbaarheid van samenlevingen voor kwaadwillende daden, in plaats van op dreiging door vijandige staten."
+            "definitie": "Security at societal level, focused on societies\u2019 own vulnerability to malicious acts rather than on threats from hostile states."
           },
           {
-            "begrip": "Intentionaliteit",
-            "definitie": "De eerste onderscheidingsas: safety gaat over niet-intentionele, accidentele risico’s; security over intentionele, kwaadwillende dreigingen."
+            "begrip": "Intentionality",
+            "definitie": "The first axis of distinction: safety concerns non-intentional, accidental risks; security concerns intentional, malicious threats."
           },
           {
-            "begrip": "Systeem-omgeving-as",
-            "definitie": "De tweede onderscheidingsas: safety is het vermogen van het systeem de omgeving niet te schaden; security is het vermogen van de omgeving het systeem niet te schaden."
+            "begrip": "System-environment axis",
+            "definitie": "The second axis of distinction: safety is the ability of the system not to harm the environment; security is the ability of the environment not to harm the system."
           },
           {
-            "begrip": "SEMA-raamwerk",
-            "definitie": "Verfijning van Piètre-Cambacédès en Chaudet (2010) die de systeem-omgeving-as uitbreidt met het vermogen van een systeem om zichzelf niet te schaden."
+            "begrip": "SEMA framework",
+            "definitie": "The refinement by Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010) that extends the system-environment axis with the ability of a system not to harm itself."
           },
           {
-            "begrip": "Vrij zwevende angst",
-            "definitie": "Door LaPorte beschreven publieke angst zonder vast object, die door terreuraanslagen wordt versterkt en niet verdwijnt als een specifiek gevaar verdwijnt."
+            "begrip": "Free-floating dread",
+            "definitie": "Public dread without a fixed object, described by LaPorte, reinforced by terrorist attacks and not disappearing when a specific danger disappears."
           },
           {
-            "begrip": "Web van veiligheidsverdedigingen",
-            "definitie": "Het dynamische maar kwetsbare geheel van organisatorische verdedigingen tegen incidenten, gebouwd op eerdere incidenten (Macrae, 2014)."
+            "begrip": "Web of safety defences",
+            "definitie": "The dynamic but fragile whole of organisational defences against incidents, built on previous incidents (Macrae, 2014)."
           },
           {
             "begrip": "Normal accidents",
-            "definitie": "Perrows stelling (1984) dat grote ongelukken in bepaalde risicovolle systemen onvermijdelijk zijn door de aard van die systemen zelf."
+            "definitie": "Perrow\u2019s thesis (1984) that major accidents in certain high-risk systems are inevitable because of the nature of those systems themselves."
           },
           {
             "begrip": "Occupational Health and Safety",
-            "definitie": "Het deelveld van arbeidsveiligheid en -gezondheid, waarbinnen zich duidelijker professionele grenzen hebben gevormd dan in safety science als geheel."
+            "definitie": "The subfield of occupational safety and health, within which clearer professional boundaries have formed than in safety science as a whole."
           },
           {
-            "begrip": "Neoliberale invloed",
-            "definitie": "Het bredere patroon van deregulering, privatisering en uitbesteding waarbinnen de groei van risicomanagement als beleidsoplossing moet worden begrepen."
+            "begrip": "Neoliberal influence",
+            "definitie": "The broader pattern of deregulation, privatisation and outsourcing within which the growth of risk management as a policy solution must be understood."
           },
           {
             "begrip": "Vantage point",
-            "definitie": "Invalshoek van waaruit de convergentie van safety en security wordt bekeken: conceptueel, technisch-methodologisch, of management en praktijk."
+            "definitie": "The position from which the convergence of safety and security is viewed: conceptual, technical-methodological, or management and practice."
           }
         ]
       },
       {
         "type": "citaat",
-        "tekst": "Waar het grijze gebied tussen security en safety vroeger nog was terug te brengen tot de vraag wat het verschil is tussen een ongeluk en een criminele daad, kunnen ze elkaar niet langer negeren, als ze dat ooit al konden.",
-        "bron": "Werkvertaling van de slotstelling van paragraaf 1.1, Pettersen Gould & Bieder",
+        "tekst": "Whereas the grey area between security and safety could once be reduced to the question of what distinguishes an accident from a criminal act, they can no longer ignore each other, if they ever could.",
+        "bron": "Working translation of the closing claim of section 1.1, Pettersen Gould & Bieder",
         "jaar": "2020"
       },
       {
         "type": "waarschuwing",
-        "titel": "Drie fouten die ik telkens terugzie",
-        "tekst": "**Fout 1: aannemen dat safety en security elkaar versterken.** Het hoofdstuk zegt het omgekeerde. De praktijken kunnen elkaar tegenwerken, en juist in normale, alledaagse situaties zijn de interacties allesbehalve vanzelfsprekend.\n\n**Fout 2: de twee assen door elkaar halen.** As 1 gaat over opzet. As 2 gaat over de richting van de schade. Dat zijn twee onafhankelijke manieren om te onderscheiden, geen twee formuleringen van hetzelfde. Ze kunnen bij dezelfde casus verschillende antwoorden geven, en dat is informatief.\n\n**Fout 3: denken dat dit hoofdstuk een oplossing geeft.** Dat doet het niet, en dat is bewust. Het geeft je de landkaart, de begrippen en de open vragen. Wie in een tentamen \"de oplossing van hoofdstuk 1\" opschrijft, heeft het niet gelezen."
+        "titel": "Three mistakes I keep seeing",
+        "tekst": "**Mistake 1: assuming safety and security reinforce each other.** The chapter says the opposite. The practices can work against each other, and precisely in normal, everyday situations the interactions are anything but obvious.\n\n**Mistake 2: mixing up the two axes.** Axis 1 is about intent. Axis 2 is about the direction of the harm. Those are two independent ways of distinguishing, not two phrasings of the same thing. They can give different answers on the same case, and that is informative.\n\n**Mistake 3: thinking this chapter offers a solution.** It does not, and that is deliberate. It gives you the map, the concepts and the open questions. Anyone who writes \"the solution of chapter 1\" in an exam has not read it."
       },
       {
         "type": "tekst",
-        "titel": "1.5 De opbouw van het boek",
+        "titel": "1.5 The structure of the book",
         "toetsstof": true,
-        "tekst": "De hoofdstukken zijn niet in secties verdeeld, maar de volgorde loopt ruwweg van **conceptueel**, via **technisch en methodologisch**, naar **empirisch onderzoek, management en praktijk**. De auteurs merken uitdrukkelijk op dat er behoorlijk wat **overlap** tussen hoofdstukken zit.\n\nHet slothoofdstuk (h11) vat de belangrijkste uitdagingen en problemen samen die zichtbaar worden als je de bijdragen naast elkaar legt, en bespreekt een aantal kernpunten voor een **onderling verbonden onderzoeksagenda** voor safety en security."
+        "tekst": "The chapters are not divided into sections, but the order runs roughly from **conceptual**, through **technical and methodological**, to **empirical research, management and practice**. The authors explicitly note that there is a fair amount of **overlap** between chapters.\n\nThe final chapter (ch11) summarises the main challenges and problems that become visible when you put the contributions side by side, and discusses a number of key points for an **interconnected research agenda** for safety and security."
       },
       {
         "type": "tabel",
-        "titel": "De elf hoofdstukken, met invalshoek",
+        "titel": "The eleven chapters, with vantage point",
         "kop": [
-          "H",
-          "Auteur(s)",
-          "Invalshoek",
-          "Kern in één zin"
+          "Ch",
+          "Author(s)",
+          "Vantage point",
+          "Core in one sentence"
         ],
         "rijen": [
           [
             "1",
             "Pettersen Gould & Bieder",
-            "inleiding",
-            "Hoe safety en security historisch groeiden, waarom ze nu samenkomen, en hoe dit boek is opgebouwd."
+            "introduction",
+            "How safety and security grew historically, why they now converge, and how this book is built."
           ],
           [
             "2",
             "Blokland & Reniers",
-            "conceptueel",
-            "Risicoperspectief: wat verbindt en scheidt safety en security bij onzekerheid over effecten op doelstellingen."
+            "conceptual",
+            "A risk perspective: what connects and separates safety and security under uncertainty about effects on objectives."
           ],
           [
             "3",
             "Leveson",
-            "technisch",
-            "System safety engineering kan safety- en securityscenario’s aan; ontwerpfouten zijn vooraf niet uit te bannen."
+            "technical",
+            "System safety engineering can handle safety and security scenarios; design flaws cannot be eliminated in advance."
           ],
           [
             "4",
             "Wipf",
-            "technisch",
-            "Speltheorie op een casus uit lichte helikopteroperaties; overeenkomsten en verschillen tussen beoordelingstechnieken."
+            "technical",
+            "Game theory on a case from light helicopter operations; similarities and differences between assessment techniques."
           ],
           [
             "5",
             "Jore",
-            "conceptueel",
-            "Security culture als veelbelovend maar conceptueel wankel begrip, getoetst aan een aanslag op een Algerijnse oliefaciliteit."
+            "conceptual",
+            "Security culture as a promising but conceptually shaky notion, tested against an attack on an Algerian oil facility."
           ],
           [
             "6",
             "Bongiovanni",
-            "technisch",
-            "Eindgebruikersperspectief en designmethoden op de luchthaven; kijk verder dan juridisch en managerial."
+            "technical",
+            "An end-user perspective and design methods at the airport; look beyond the legal and managerial."
           ],
           [
             "7",
             "Brooks & Coole",
             "management",
-            "Safety en security divergeren als beroepen; binnen hun eigen kennisdomeinen zijn de synergieën beperkt."
+            "Safety and security diverge as professions; within their own knowledge domains the synergies are limited."
           ],
           [
             "8",
             "La Porte",
             "management",
-            "Welke organisatorische puzzels ontstaan als safety én security tegelijk worden geëist van grote technische organisaties?"
+            "Which organisational puzzles arise when safety and security are demanded simultaneously of large technical organisations?"
           ],
           [
             "9",
             "Schulman",
             "management",
-            "High reliability management als mogelijk gemeenschappelijk kader, met de spanningen die dat oplevert."
+            "High reliability management as a possible common framework, with the tensions that creates."
           ],
           [
             "10",
             "Boustras",
             "management",
-            "Safety en security vanuit de werkplek: opkomende risico’s en nieuwe drijvers."
+            "Safety and security from the workplace: emerging risks and new drivers."
           ],
           [
             "11",
             "Bieder & Pettersen Gould",
-            "synthese",
-            "De onderzoeks- en managementuitdagingen die uit alle bijdragen samen naar voren komen."
+            "synthesis",
+            "The research and management challenges that emerge from all the contributions together."
           ]
         ],
-        "noot": "De invalshoekkolom komt uit paragraaf 1.2, waar de redacteuren de auteurs aan een vantage point koppelen; de laatste kolom is hun eigen samenvatting in 1.5."
+        "noot": "The vantage point column comes from section 1.2, where the editors attach the authors to a vantage point; the last column is their own summary in 1.5."
       },
       {
         "type": "tekst",
-        "titel": "De hoofdstuksamenvattingen, uitgebreid",
+        "titel": "The chapter summaries, expanded",
         "toetsstof": true,
-        "tekst": "Hieronder wat de redacteuren zelf per hoofdstuk aankondigen. Lees dit nu vluchtig, en kom er na elk hoofdstuk op terug. Dan zie je steeds waar je bent op de kaart.\n\n**Hoofdstuk 2 — Blokland & Reniers.** Nemen een risicoperspectief en richten zich op wat safety en security verbindt en onderscheidt in situaties met onzekerheid over effecten op individuele, organisatorische of maatschappelijke doelstellingen. Voor risicoanalysedoeleinden schetsen zij safety en security grotendeels op dezelfde manier, maar zij beargumenteren ook verschillen die te maken hebben met effecten, doelstellingen en onzekerheid.\n\n**Hoofdstuk 3 — Leveson.** Laat zien hoe methoden uit system safety engineering kunnen worden ontwikkeld zodat ze zowel safety- als securityscenario’s omvatten. De aanpak erkent dat **ontwerpfouten niet vóór gebruik kunnen worden geëlimineerd**, en dat de complexiteit van veel systemen vraagt om nieuwe en meer omvattende causaliteitsmodellen. Het hoofdstuk laat zien hoe engineeringgereedschappen op basis van systeemtheorie safety en security geïntegreerd kunnen behandelen.\n\n**Hoofdstuk 4 — Wipf.** Gebruikt op basis van een empirische casus uit lichte helikopteroperaties een **speltheoretische benadering** om safety- en securitykwesties in combinatie te beoordelen. Het hoofdstuk illustreert de overeenkomsten en verschillen tussen beoordelingstechnieken.\n\n**Hoofdstuk 5 — Jore.** Erkent dat security science zich richting **zachtere maatregelen** beweegt, en betoogt dat security culture een veelbelovend concept is voor organisaties omdat het security tot prioriteit en gedeelde verantwoordelijkheid kan maken. Ze vergelijkt het met het veel breder toegepaste safety culture. De deugdelijkheid van het concept wordt besproken aan de hand van een onderzoeksrapport over een terroristische aanslag op een internationaal geleide Algerijnse oliefaciliteit, en de discussie wordt gestructureerd met criteria voor **conceptuele adequaatheid**.\n\n**Hoofdstuk 6 — Bongiovanni.** Is methodegericht en neemt een **eindgebruikersperspectief** op safety en security. Met focus op de luchthavensecurityomgeving, en securityscreening in het bijzonder, laat hij de mogelijke voordelen zien van verder kijken dan de juridische en managementperspectieven die zowel safety- als securitymanagement lijken te domineren. Zijn stelling: zo kunnen organisaties minder middelen besteden aan de **\"eeuwige spelbrekers\"** van loss prevention en meer waarde creëren voor gebruikers.\n\n**Hoofdstuk 7 — Brooks & Coole.** Legt uit hoe safety en security, hoewel ze een overkoepelende drijfveer van maatschappelijk welzijn delen, **uiteenlopen als afzonderlijke beroepen**. Zij beschouwen security binnen de context van corporate security en safety binnen de context van occupational health and safety, en concluderen dat er, bekeken binnen hun beroepen en de ondersteunende professionele kennisdomeinen, **beperkte synergie** is.\n\n**Hoofdstuk 8 — La Porte.** Stelt de vraag welke organisatieontwerp- en operationele puzzels ontstaan wanneer van organisaties en publieke instellingen tegelijk \"veiligheid in de operatie\" en \"beveiliging tegen externe dreiging\" wordt geëist, terwijl hun kerntechnologieën groeien in schaal en complexiteit. Voortbouwend op ervaring uit een **veldstudie van grootschalige technische organisaties** formuleert het hoofdstuk vragen die opkomen als safety en security gemengde operationele uitdagingen worden, en schetst het een gids voor verder empirisch onderzoek. Ook behandelt het de strategische implicaties voor de **hoogste leiding**, die zowel met externe dreigingen als met de toenemende sociale complexiteit van de operatie te maken krijgt.\n\n**Hoofdstuk 9 — Schulman.** Richt zich, voortbouwend op eerder onderzoek naar **high-reliability management**, op de managementuitdaging van de convergentie van safety en security. Hij bespreekt hoe high reliability kan functioneren als gemeenschappelijk kader voor safety en security, en welke uitdagingen het meebrengt om beide onder één groter managementkader te brengen.\n\n**Hoofdstuk 10 — Boustras.** Verkent safety en security vanuit het perspectief van de **werkplek**, en betoogt dat opkomende risico’s en nieuwe drijvers zorgen voor nieuwe aandachtsgebieden op het snijvlak. Omdat de werkgerelateerde gevolgen en de directe economische impact voor organisaties **minder zichtbaar** zijn, worden overheidsinstanties en regeldruk meer de ruggengraat, met toenemende eisen aan de werkplek."
+        "tekst": "Below is what the editors themselves announce per chapter. Read this quickly now, and come back to it after each chapter. That way you keep seeing where you are on the map.\n\n**Chapter 2 \u2014 Blokland & Reniers.** Take a risk perspective and focus on what connects and distinguishes safety and security in situations with uncertainty about effects on individual, organisational or societal objectives. For risk analysis purposes they sketch safety and security largely in the same way, but they also argue for differences relating to effects, objectives and uncertainty.\n\n**Chapter 3 \u2014 Leveson.** Shows how methods from system safety engineering can be developed so that they cover both safety and security scenarios. The approach accepts that **design flaws cannot be eliminated before use**, and that the complexity of many systems calls for new and more comprehensive models of causality. The chapter shows how engineering tools based on systems theory can treat safety and security in an integrated way.\n\n**Chapter 4 \u2014 Wipf.** Uses a **game-theoretical approach** on an empirical case from light helicopter operations to assess safety and security issues in combination. The chapter illustrates the similarities and differences between assessment techniques.\n\n**Chapter 5 \u2014 Jore.** Acknowledges that security science is moving towards **softer measures**, and argues that security culture is a promising concept for organisations because it can make security a priority and a shared responsibility. She compares it with the far more widely applied safety culture. The soundness of the concept is discussed through an investigation report on a terrorist attack on an internationally run Algerian oil facility, and the discussion is structured with criteria for **conceptual adequacy**.\n\n**Chapter 6 \u2014 Bongiovanni.** Is method-oriented and takes an **end-user perspective** on safety and security. Focusing on the airport security environment, and security screening in particular, he shows the possible benefits of looking beyond the legal and managerial perspectives that appear to dominate both safety and security management. His claim: this way organisations can spend fewer resources on the **\"eternal spoilsports\"** of loss prevention and create more value for users.\n\n**Chapter 7 \u2014 Brooks & Coole.** Explains how safety and security, although they share an overarching driver of societal wellbeing, **diverge as separate professions**. They consider security within the context of corporate security and safety within the context of occupational health and safety, and conclude that, viewed within their professions and the supporting professional knowledge domains, there is **limited synergy**.\n\n**Chapter 8 \u2014 La Porte.** Asks which organisational design and operational puzzles arise when organisations and public institutions are required to deliver both \"safety in operations\" and \"security against external threat\", while their core technologies grow in scale and complexity. Building on experience from a **field study of large technical organisations**, the chapter formulates questions that arise when safety and security become mixed operational challenges, and sketches a guide for further empirical research. It also addresses the strategic implications for **top leadership**, who face both external threats and the growing social complexity of operations.\n\n**Chapter 9 \u2014 Schulman.** Building on earlier research into **high-reliability management**, focuses on the management challenge of the convergence of safety and security. He discusses how high reliability can function as a common framework for safety and security, and which challenges come with bringing both under one larger management framework.\n\n**Chapter 10 \u2014 Boustras.** Explores safety and security from the perspective of the **workplace**, and argues that emerging risks and new drivers create new areas of attention at the interface. Because the work-related consequences and the direct economic impact for organisations are **less visible**, government agencies and regulatory pressure become more of a backbone, with increasing demands on the workplace."
       },
       {
         "type": "vergelijking",
-        "titel": "De twee posities die het boek uit elkaar houdt",
+        "titel": "The two positions the book keeps apart",
         "links": {
-          "titel": "Integreren",
-          "tekst": "Safety en security zijn in de kern hetzelfde probleem en horen samen te worden aangepakt.",
+          "titel": "Integrate",
+          "tekst": "Safety and security are at heart the same problem and should be tackled together.",
           "punten": [
-            "Leveson (h3): dezelfde analyse, alleen extra causale scenario’s",
-            "Blokland & Reniers (h2): security als deelverzameling van safety",
-            "Schulman (h9): high reliability als gemeenschappelijk kader",
-            "Sterk argument: de gevolgen zijn identiek, dus waarom twee systemen?"
+            "Leveson (ch3): the same analysis, only extra causal scenarios",
+            "Blokland & Reniers (ch2): security as a subset of safety",
+            "Schulman (ch9): high reliability as a common framework",
+            "Strong argument: the consequences are identical, so why two systems?"
           ]
         },
         "rechts": {
-          "titel": "Gescheiden houden",
-          "tekst": "Safety en security zijn verschillende beroepen met verschillende kennis, regels en informatieregimes.",
+          "titel": "Keep separate",
+          "tekst": "Safety and security are different professions with different knowledge, rules and information regimes.",
           "punten": [
-            "Brooks & Coole (h7): beperkte synergie tussen de beroepen",
-            "Verschillende opleiding, technologie en werkwijze op luchthavens",
-            "Openheid tegenover vertrouwelijkheid als botsende regimes",
-            "Sterk argument: integreren op papier lost het praktijkconflict niet op"
+            "Brooks & Coole (ch7): limited synergy between the professions",
+            "Different training, technology and working methods at airports",
+            "Openness versus confidentiality as colliding regimes",
+            "Strong argument: integrating on paper does not resolve the conflict in practice"
           ]
         }
       }
@@ -475,48 +475,48 @@ LESSTOF["intro-to-safety-security/h1"] = [
   },
   {
     "id": "toepassen",
-    "titel": "Toepassen",
+    "titel": "Applying it",
     "blokken": [
       {
         "type": "uitleg",
-        "titel": "Wat je met dit hoofdstuk kunt doen",
-        "tekst": "Hoofdstuk 1 geeft je geen methode maar wel een **manier van kijken**. Hieronder maak ik daar iets bruikbaars van: een vaste volgorde waarmee je een situatie kunt openen, en oefeningen om te zien of het zit.\n\nDe kern van hbo-niveau in dit vak: niet kiezen tussen safety en security en dan doorstampen, maar **laten zien dat je de spanning hebt gezien** en daarna beargumenteerd kiezen."
+        "titel": "What you can do with this chapter",
+        "tekst": "Chapter 1 gives you no method but it does give you a **way of looking**. Below I turn that into something usable: a fixed order for opening a situation, and exercises to see whether it has landed.\n\nThe core of bachelor level in this field: do not pick safety or security and then plough ahead, but **show that you have seen the tension** and then choose with reasons."
       },
       {
         "type": "stappen",
-        "titel": "Een situatie openen met hoofdstuk 1",
+        "titel": "Opening a situation with chapter 1",
         "items": [
           {
-            "titel": "Beschrijf de situatie feitelijk, zonder etiket",
-            "tekst": "Wie, wat, waar, wanneer. Plak er nog geen \"dit is een securitykwestie\" op. Dat etiket stuurt je analyse en je zit er vaak naast als je het te vroeg plakt."
+            "titel": "Describe the situation factually, without a label",
+            "tekst": "Who, what, where, when. Do not yet stick \"this is a security issue\" on it. That label steers your analysis and you are often wrong if you attach it too early."
           },
           {
-            "titel": "Toets as 1: was het intentioneel?",
-            "tekst": "Is er een partij die dit expres doet of wil doen? Let op: het antwoord mag \"onbekend\" zijn, en dat is zelf een bevinding. Zoals het hoofdstuk zegt, mensen moeten beslissen zonder dat dit is uitgemaakt."
+            "titel": "Test axis 1: was it intentional?",
+            "tekst": "Is there a party doing this on purpose, or wanting to? Note: the answer may be \"unknown\", and that is itself a finding. As the chapter says, people have to decide without this being settled."
           },
           {
-            "titel": "Toets as 2: welke kant beweegt de schade op?",
-            "tekst": "Schaadt het systeem de omgeving, schaadt de omgeving het systeem, of schaadt het systeem zichzelf? Teken desnoods een cirkel met een pijl. Bepaal ook expliciet waar jij de systeemgrens legt, want die keuze bepaalt je uitkomst."
+            "titel": "Test axis 2: which way does the harm move?",
+            "tekst": "Does the system harm the environment, does the environment harm the system, or does the system harm itself? Draw a circle with an arrow if it helps. Also state explicitly where you place the system boundary, because that choice determines your outcome."
           },
           {
-            "titel": "Vergelijk de twee antwoorden",
-            "tekst": "Geven ze hetzelfde antwoord, dan heb je een eenvoudig geval. Geven ze verschillende antwoorden, dan zit je in het grijze gebied en is dat je belangrijkste bevinding, niet je probleem."
+            "titel": "Compare the two answers",
+            "tekst": "If they agree, you have a straightforward case. If they differ, you are in the grey area, and that is your most important finding, not your problem."
           },
           {
-            "titel": "Kies je invalshoek",
-            "tekst": "Is de vraag conceptueel (wat is dit?), technisch-methodologisch (hoe analyseer of ontwerp ik dit?) of management en praktijk (wie doet wat, en waar botst dat?). Dat bepaalt welke hoofdstukken je erbij pakt en welk soort antwoord past."
+            "titel": "Choose your vantage point",
+            "tekst": "Is the question conceptual (what is this?), technical-methodological (how do I analyse or design this?) or management and practice (who does what, and where does it collide?). That determines which chapters you reach for and what kind of answer fits."
           },
           {
-            "titel": "Zoek de botsing",
-            "tekst": "Welke maatregel voor het een verzwakt het ander? Denk aan de vier klassieke botsingen: nooduitgang, melden, publiceren, toegang. Vind je er geen, dan heb je waarschijnlijk niet goed genoeg gekeken."
+            "titel": "Find the collision",
+            "tekst": "Which measure for the one weakens the other? Think of the four classic collisions: emergency exit, reporting, publishing, access. If you find none, you probably have not looked hard enough."
           },
           {
-            "titel": "Benoem de verdeling",
-            "tekst": "Wie wordt versterkt en wie krijgt de spanning? Welk budget, welke bevoegdheid, welke werkdruk verschuift? Dit is vraag 3 uit paragraaf 1.4 en het onderdeel dat het vaakst ontbreekt in studentenadviezen."
+            "titel": "Name the distribution",
+            "tekst": "Who is strengthened and who gets the strain? Which budget, which authority, which workload shifts? This is question 3 from section 1.4 and the part most often missing from student recommendations."
           },
           {
-            "titel": "Formuleer wat \"genoeg\" is, en wie dat bepaalt",
-            "tekst": "Zonder antwoord op \"veilig genoeg\" is elke maatregel te weinig. Zeg dus expliciet welk niveau je voorstelt, waarop je dat baseert en wie erover gaat."
+            "titel": "State what \"enough\" is, and who decides",
+            "tekst": "Without an answer to \"safe enough\", every measure is too little. So say explicitly which level you propose, what you base it on, and who owns that decision."
           }
         ]
       },
@@ -524,233 +524,233 @@ LESSTOF["intro-to-safety-security/h1"] = [
         "type": "oefening",
         "id": "h1-oef-1",
         "niveau": "basis",
-        "vraag": "Leg uit waarom het einde van de Koude Oorlog en 11 september 2001 samen het keerpunt vormen voor security in civiele, gevaarlijke industrieën. Behandel beide momenten apart.",
-        "antwoord": "Vóór het einde van de Koude Oorlog was security vooral staatsveiligheid: bescherming tegen dreiging van vijandige staten. Civiele industrie kwam alleen in beeld voor zover ze bijdroeg aan de militaire verdedigingscapaciteit van een staat. Security was dus in principe geen taak van een chemiefabriek of een luchthaven. Het einde van de Koude Oorlog leverde de eerste verschuiving: de politieke aandacht ging naar vrede en internationale mensenrechten, en tegelijk groeide het bewustzijn dat samenlevingen zelf kwetsbaar zijn voor kwaadwillende daden als sabotage en terrorisme. De dreiging hoefde niet langer van een staat te komen. Toch bleef security tot 2001 een klein deel van de regelgevings- en managementscope vergeleken met grote ongevallen en rampen. 9/11 leverde de tweede verschuiving: aanvallen die zelfmoordoperaties kunnen omvatten werden een vertrouwde categorie, het publiek ontwikkelde een vrij zwevende angst die door aanslagen wordt versterkt, en er kwamen nieuwe beleidsbegrippen, nieuwe instituties zoals de TSA na de Aviation and Transportation Security Act van november 2001, en nieuwe eisen en verantwoordingsvormen met nadruk op preventie. Samen betekenen die twee momenten dat securitytaken terechtkwamen bij civiele organisaties die volledig waren ingericht op safety, en daar ontstaat het snijvlak dat dit boek onderzoekt."
+        "vraag": "Explain why the end of the Cold War and 11 September 2001 together form the turning point for security in civil, hazardous industries. Treat both moments separately.",
+        "antwoord": "Before the end of the Cold War, security was mainly state security: protection against threats from hostile states. Civil industry came into view only insofar as it contributed to the military defence capability of a state. Security was therefore in principle not a task for a chemical plant or an airport. The end of the Cold War produced the first shift: political attention moved to peace and international human rights, and at the same time awareness grew that societies are themselves vulnerable to malicious acts such as sabotage and terrorism. The threat no longer had to come from a state. Even so, until 2001 security remained a small part of the regulatory and management scope compared with major accidents and disasters. 9/11 produced the second shift: attacks that may include suicide operations became a familiar category, the public developed a free-floating dread reinforced by attacks, and new policy concepts appeared, new institutions such as the TSA after the Aviation and Transportation Security Act of November 2001, and new requirements and forms of accountability with an emphasis on prevention. Together those two moments mean that security tasks ended up with civil organisations built entirely around safety, and that is where the interface this book investigates arises."
       },
       {
         "type": "oefening",
         "id": "h1-oef-2",
         "niveau": "basis",
-        "vraag": "Een ziekenhuis wil de spoedeisende hulp beter beveiligen na incidenten met agressie. De beveiliger stelt voor de zijingang ’s nachts te sluiten. Analyseer met beide assen en benoem de botsing.",
-        "antwoord": "As 1, intentionaliteit: agressie tegen personeel is intentioneel, dus de dreiging waartegen de maatregel is gericht valt onder security. As 2, richting van de schade: de omgeving, in dit geval bezoekers die agressief worden, schaadt het systeem, dus ook hier wijst het naar security. Beide assen geven hetzelfde antwoord, dus dit is in eerste aanleg een duidelijk securityvraagstuk. De botsing zit in de maatregel, niet in het probleem. Een gesloten zijingang is een klassieke toegangsbotsing: security wil dat zo min mogelijk mensen ergens binnenkomen, safety wil dat patiënten en hulpverleners er snel bij kunnen. Bij een gesloten zijingang worden vluchtroutes en aanrijroutes langer, wat in geval van brand of bij een instabiele patiënt levens kan kosten. Er is bovendien een verdelingsvraag: het personeel bij de hoofdingang krijgt de drukte en de agressie erbij, terwijl het personeel bij de zijingang rust krijgt. Een advies dat alleen zegt \"sluiten\" of alleen \"openhouden\" mist de kern; je moet benoemen wat elke keuze kost en aan wie."
+        "vraag": "A hospital wants to better secure its emergency department after incidents of aggression. The security officer proposes closing the side entrance at night. Analyse with both axes and name the collision.",
+        "antwoord": "Axis 1, intentionality: aggression against staff is intentional, so the threat the measure targets falls under security. Axis 2, direction of the harm: the environment, in this case visitors turning aggressive, harms the system, so this too points to security. Both axes give the same answer, so at first sight this is a clear security issue. The collision sits in the measure, not in the problem. A closed side entrance is a classic access collision: security wants as few people as possible to enter, safety wants patients and responders to reach the place quickly. With a closed side entrance, escape routes and approach routes get longer, which in the event of a fire or an unstable patient can cost lives. There is also a distribution question: the staff at the main entrance get the crowding and the aggression on top, while the staff at the side entrance get quiet. A recommendation that only says \"close it\" or only \"keep it open\" misses the point; you have to state what each choice costs and to whom."
       },
       {
         "type": "oefening",
         "id": "h1-oef-3",
         "niveau": "gevorderd",
-        "vraag": "Een chemisch bedrijf wil safety en security samenvoegen in één afdeling. Schrijf drie argumenten vóór en drie tegen, elk expliciet gebaseerd op hoofdstuk 1.",
-        "antwoord": "Vóór. Ten eerste worden gevaren en dreigingen tegenwoordig allebei begrepen als systemische risico’s waarbij lokale kwetsbaarheden samenhangen met wereldwijde processen zoals digitalisering, dus analyseer je ze het best in samenhang. Ten tweede moeten medewerkers in de dagelijkse praktijk toch al beslissingen nemen zonder dat vaststaat of iets safety of security is; het hoofdstuk noemt daarbij expliciet gewone werknemers, managers, HSE-professionals en securityfunctionarissen, dus een gescheiden structuur past niet op het feitelijke werk. Ten derde zijn de subtiele wederzijdse beïnvloedingen tussen beide juist in normale situaties zichtbaar, en die zie je alleen als iemand naar beide tegelijk kijkt. Tegen. Ten eerste kunnen safety- en securitypraktijken elkaar tegenwerken, zoals Pettersen en Bjørnskau lieten zien; die conflicten verdwijnen niet doordat je ze onder één manager hangt, ze worden alleen onzichtbaar. Ten tweede botsen de informatieregimes structureel: safetymanagement en safetyonderzoek streven naar maximale openheid, terwijl securityonderzoek vertrouwelijkheid kan eisen, en samenvoegen betekent dat een van beide zijn leermechanisme inlevert. Ten derde zijn het als beroepsvelden verschillend ontwikkeld, ondersteund door aparte wetenschappelijke en technologische velden, met verschillende opleiding, technologie, werkwijze, regelgevende kaders en soms verschillende contracten. Conclusie voor het advies: het hoofdstuk geeft geen bewezen antwoord en stelt vast dat organisaties hierover aarzelen, dus een verdedigbaar advies benoemt de knelpunten en kiest expliciet welke prijs men bereid is te betalen."
+        "vraag": "A chemical company wants to merge safety and security into one department. Write three arguments for and three against, each explicitly based on chapter 1.",
+        "antwoord": "For. First, hazards and threats are nowadays both understood as systemic risks in which local vulnerabilities connect to global processes such as digitalisation, so you analyse them best in combination. Second, in daily practice employees already have to take decisions without it being settled whether something is safety or security; the chapter explicitly mentions ordinary workers, managers, HSE professionals and security officers, so a separated structure does not fit the actual work. Third, the subtle mutual influences between the two are visible precisely in normal situations, and you only see them if someone looks at both at once. Against. First, safety and security practices can work against each other, as Pettersen and Bj\u00f8rnskau showed; those conflicts do not disappear by hanging them under one manager, they merely become invisible. Second, the information regimes collide structurally: safety management and safety research strive for maximum openness, while security research may demand confidentiality, and merging means one of the two surrenders its learning mechanism. Third, as professional fields they developed differently, supported by separate scientific and technological fields, with different training, technology, working methods, regulatory frameworks and sometimes different contracts. Conclusion for the recommendation: the chapter offers no proven answer and establishes that organisations hesitate about this, so a defensible recommendation names the tensions and states explicitly which price one is willing to pay."
       },
       {
         "type": "oefening",
         "id": "h1-oef-4",
         "niveau": "gevorderd",
-        "vraag": "De auteurs schrijven dat safety en security elkaar niet langer kunnen negeren, \"als ze dat ooit al konden\". Wat verandert dat zinsdeel aan de stelling?",
-        "antwoord": "Het verandert de aard van de claim van historisch naar conceptueel. Zonder dat zinsdeel is de stelling een beschrijving van verandering: vroeger waren safety en security werkelijk gescheiden, door nieuwe dreigingen en systemische risico’s zijn ze dat niet meer, dus moeten we iets nieuws bouwen. Met dat zinsdeel wordt gesuggereerd dat de scheiding altijd al kunstmatig was, en dat we ermee wegkwamen zolang het grijze gebied klein leek en terug te brengen was tot de vraag of iets een ongeluk of een criminele daad was. Wat er dan is veranderd is niet de werkelijkheid maar de houdbaarheid van onze vereenvoudiging. Dat heeft twee gevolgen. Ten eerste kun je het probleem niet oplossen door nieuwe securitytaken netjes in bestaande safetystructuren te schuiven, want die structuren zijn zelf gebouwd op de aanname die nu wankelt. Ten tweede verklaart het waarom het boek zoveel aandacht besteedt aan definities: als de scheiding nooit scherp was, is de eerste vraag niet hoe je integreert maar wat je precies uit elkaar dacht te houden."
+        "vraag": "The authors write that safety and security can no longer ignore each other, \"if they ever could\". What does that clause change about the claim?",
+        "antwoord": "It changes the nature of the claim from historical to conceptual. Without the clause the statement is a description of change: safety and security used to be genuinely separate, new threats and systemic risks mean they no longer are, so we must build something new. With the clause it is suggested that the separation was always artificial, and that we got away with it as long as the grey area looked small and could be reduced to the question of whether something was an accident or a criminal act. What has changed is then not reality but the tenability of our simplification. That has two consequences. First, you cannot solve the problem by slotting new security tasks neatly into existing safety structures, because those structures are themselves built on the assumption that is now wobbling. Second, it explains why the book devotes so much attention to definitions: if the separation was never sharp, the first question is not how you integrate but what exactly you thought you were keeping apart."
       },
       {
         "type": "oefening",
         "id": "h1-oef-5",
         "niveau": "gevorderd",
-        "vraag": "Waarom noemen de auteurs het problematisch dat toezichthouders zoals EASA er security bij krijgen? Verbind je antwoord aan wat het hoofdstuk zegt over de staat van het onderzoek.",
-        "antwoord": "Het probleem is niet de uitbreiding zelf maar het ontbreken van een kennisbasis eronder. Security wordt toegevoegd aan de scope van safety-autoriteiten zoals EASA en de Franse burgerluchtvaartautoriteit, maar met zeer beperkte input vanuit onderzoek over hoe je conceptueel en praktisch met die bredere scope omgaat. Dat sluit direct aan bij het vierde knelpunt: het meeste onderzoek en de meeste literatuur richten zich op engineeringaspecten zoals ontwerp en risicoanalysemethoden, met daarnaast wat conceptueel werk, terwijl er beperkt onderzoek is naar hoe safety en security in de praktijk op alle niveaus worden gemanaged. De weinige veldstudies die er zijn bevestigen bovendien spanning tussen beide in dagelijkse activiteiten. Een toezichthouder krijgt dus een taak erbij op een terrein waar de wetenschap nog niet kan zeggen hoe die taak zich verhoudt tot de bestaande taak, terwijl er aanwijzingen zijn dat de twee elkaar bijten. Het risico is dat de uitbreiding op papier wordt geregeld, dat de bestaande safetyroutines het frame blijven, en dat de spanning wordt doorgeschoven naar de mensen in de uitvoering die het in het dagelijkse werk moeten oplossen."
+        "vraag": "Why do the authors call it problematic that regulators such as EASA are given security as well? Connect your answer to what the chapter says about the state of the research.",
+        "antwoord": "The problem is not the extension itself but the absence of a knowledge base beneath it. Security is added to the scope of safety authorities such as EASA and the French civil aviation authority, but with very limited input from research on how to handle that broader scope conceptually and practically. That connects directly to the fourth tension: most research and literature focuses on engineering aspects such as design and risk analysis methods, with some conceptual work alongside, while there is limited research into how safety and security are managed in practice at all levels. The few field studies that exist moreover confirm tension between the two in daily activities. So a regulator is given an extra task in an area where science cannot yet say how that task relates to the existing one, while there are indications that the two bite each other. The risk is that the extension is arranged on paper, that existing safety routines remain the frame, and that the tension is passed down to the people in operations who have to resolve it in their daily work."
       },
       {
         "type": "oefening",
         "id": "h1-oef-6",
         "niveau": "gevorderd",
-        "vraag": "Bedenk zelf een casus waarin de twee assen een verschillend antwoord geven, en leg uit wat dat betekent voor de vraag wie het onderzoek zou moeten doen.",
-        "antwoord": "Een voorbeeldcasus: een onderhoudsmonteur van een windpark slaat opzettelijk een controle over om eerder naar huis te kunnen, waardoor later een gondel in brand vliegt en het omliggende terrein wordt bedreigd. As 1 wijst richting security, want het overslaan was intentioneel; al is de intentie niet gericht op schade, maar op tijdwinst, en dat is al een reden om voorzichtig te zijn met deze as. As 2 wijst richting safety, want het systeem, het windpark, schaadt de omgeving. De dader staat bovendien binnen de systeemgrens, terwijl as 2 security juist definieert als iets wat van buiten komt. Voor de onderzoeksvraag is dit beslissend. Onder een safetyframe wordt de vraag waarom het overslaan van die controle mogelijk en aantrekkelijk was: werkdruk, planning, ontwerp van de procedure, ontbrekende terugkoppeling. Onder een securityframe wordt de vraag wie het deed en of er sancties moeten volgen. Die tweede vraag levert een dader op en een dossier, de eerste levert een verbetering op die het volgende geval voorkomt. Tegelijk botst het met het informatieregime: onder een safetyframe wil je een open melding zonder straf, onder een securityframe wil je juist herleidbaarheid naar personen. Het benoemen van dat verschil, en van de gevolgen voor wie onderzoekt en wat er wordt geleerd, is hier de eigenlijke professionele bijdrage."
+        "vraag": "Devise your own case in which the two axes give different answers, and explain what that means for the question of who should carry out the investigation.",
+        "antwoord": "An example case: a maintenance technician at a wind farm deliberately skips an inspection in order to go home earlier, after which a nacelle catches fire and the surrounding area is threatened. Axis 1 points towards security, because skipping the check was intentional; although the intent was not aimed at harm but at saving time, which is already a reason to be careful with this axis. Axis 2 points towards safety, because the system, the wind farm, harms the environment. The perpetrator moreover sits inside the system boundary, while axis 2 defines security as something coming from outside. For the investigation question this is decisive. Under a safety frame the question becomes why skipping that check was possible and attractive: workload, planning, the design of the procedure, missing feedback. Under a security frame the question becomes who did it and whether sanctions should follow. That second question produces a culprit and a file; the first produces an improvement that prevents the next case. At the same time it collides with the information regime: under a safety frame you want an open report without punishment, under a security frame you want traceability to persons. Naming that difference, and its consequences for who investigates and what is learned, is the actual professional contribution here."
       }
     ]
   },
   {
     "id": "checken",
-    "titel": "Checken",
+    "titel": "Check yourself",
     "blokken": [
       {
         "type": "uitleg",
-        "titel": "Hoe je hier het meest uithaalt",
-        "tekst": "Maak eerst de quiz zonder terug te bladeren. Fout is nuttig: de uitleg onder elk antwoord zegt niet alleen wát goed is maar ook waarom het andere antwoord verleidelijk was.\n\nDaarna de zelftest hieronder. Kun je die vijf dingen navertellen zonder je aantekeningen erbij, dan zit dit hoofdstuk. Wat je niet kunt navertellen, weet je nog niet, hoe bekend het ook voelde tijdens het lezen."
+        "titel": "How to get the most out of this",
+        "tekst": "Do the quiz first without turning back. Being wrong is useful: the explanation under each answer says not only what is right but also why the other option was tempting.\n\nAfterwards, test yourself out loud. If you can retell the timeline, the two axes, the three vantage points, the four tensions and the three open questions without your notes, this chapter has landed. Whatever you cannot retell, you do not know yet, however familiar it felt while reading."
       },
       {
         "type": "quiz",
-        "titel": "Check jezelf op hoofdstuk 1",
+        "titel": "Check yourself on chapter 1",
         "vragen": [
           {
-            "vraag": "Wat is de openingsstelling van het hoofdstuk over maatschappelijke verwachtingen?",
+            "vraag": "What is the opening claim of the chapter about societal expectations?",
             "opties": [
-              "Naarmate het veiliger wordt, neemt de roep om veiligheid af",
-              "Hoe veiliger organisaties worden, hoe meer veiligheid we van ze eisen",
-              "Veiligheid is vooral een technisch probleem",
-              "De publieke opinie speelt geen rol in veiligheidsbeleid"
+              "As things get safer, the call for safety declines",
+              "The safer organisations become, the more safety we demand of them",
+              "Safety is mainly a technical problem",
+              "Public opinion plays no role in safety policy"
             ],
             "juist": 1,
-            "uitleg": "Contra-intuïtief maar centraal. De verbetering zelf verlegt de meetlat, waardoor de eisen sneller stijgen dan de prestaties."
+            "uitleg": "Counter-intuitive but central. The improvement itself moves the bar, so demands rise faster than performance."
           },
           {
-            "vraag": "Waarmee was security tot het einde van de Koude Oorlog vooral verbonden?",
+            "vraag": "What was security mainly tied to until the end of the Cold War?",
             "opties": [
-              "Cybercriminaliteit",
-              "Staatsveiligheid en dreiging van buitenlandse staten",
-              "Arbeidsveiligheid op de werkvloer",
-              "Winkeldiefstal en vandalisme"
+              "Cybercrime",
+              "State security and threats from foreign states",
+              "Occupational safety on the shop floor",
+              "Shoplifting and vandalism"
             ],
             "juist": 1,
-            "uitleg": "Civiele industrie kwam alleen in beeld voor zover ze bijdroeg aan de **militaire verdedigingscapaciteit** van een staat."
+            "uitleg": "Civil industry came into view only insofar as it contributed to the **military defence capability** of a state."
           },
           {
-            "vraag": "Wat gebeurde er volgens het hoofdstuk vanaf de jaren tachtig in het safetydenken?",
+            "vraag": "What happened in safety thinking from the 1980s onwards, according to the chapter?",
             "opties": [
-              "Ongevallen werden herleid tot technisch falen",
-              "Er kwam aandacht voor maatschappelijke oorzaken en organisatiekenmerken",
-              "Safety werd samengevoegd met security",
-              "Statistiek werd afgeschaft als methode"
+              "Accidents were traced back to technical failure",
+              "Attention turned to societal causes and organisational characteristics",
+              "Safety was merged with security",
+              "Statistics was abandoned as a method"
             ],
             "juist": 1,
-            "uitleg": "Turner en Perrow lieten zien dat gevaren samenhangen met organisatiekenmerken, en dat grote ongelukken in bepaalde systemen onvermijdelijk zijn."
+            "uitleg": "Turner and Perrow showed that hazards connect to organisational characteristics, and that major accidents in certain systems are inevitable."
           },
           {
-            "vraag": "Wat is de kern van de tweede onderscheidingsas?",
+            "vraag": "What is the core of the second axis of distinction?",
             "opties": [
-              "Of de dader opzet had",
-              "Of het incident is gemeld",
-              "Of het systeem de omgeving schaadt of de omgeving het systeem",
-              "Of de schade financieel of fysiek is"
+              "Whether the perpetrator acted intentionally",
+              "Whether the incident was reported",
+              "Whether the system harms the environment or the environment harms the system",
+              "Whether the damage is financial or physical"
             ],
             "juist": 2,
-            "uitleg": "Opzet hoort bij de **eerste** as. As 2 gaat uitsluitend over de richting waarin de schade beweegt."
+            "uitleg": "Intent belongs to the **first** axis. Axis 2 is exclusively about the direction in which the harm moves."
           },
           {
-            "vraag": "Wat voegt het SEMA-raamwerk toe?",
+            "vraag": "What does the SEMA framework add?",
             "opties": [
-              "Een schaal voor risiconiveaus",
-              "De mogelijkheid dat een systeem zichzelf schaadt",
-              "Een lijst van dreigingstypen",
-              "Een methode voor kosten-batenanalyse"
+              "A scale for risk levels",
+              "The possibility that a system harms itself",
+              "A list of threat types",
+              "A method for cost-benefit analysis"
             ],
             "juist": 1,
-            "uitleg": "Piètre-Cambacédès en Chaudet (2010) verrijken de systeem-omgeving-as met een derde richting, omdat de tweedeling niet alles vangt."
+            "uitleg": "Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010) enrich the system-environment axis with a third direction, because the dichotomy does not capture everything."
           },
           {
-            "vraag": "Wat zegt het hoofdstuk over de interactie tussen safety- en securitypraktijken?",
+            "vraag": "What does the chapter say about the interaction between safety and security practices?",
             "opties": [
-              "Ze versterken elkaar bijna altijd",
-              "Ze staan volledig los van elkaar",
-              "Ze kunnen elkaar tegenwerken, en juist in normale situaties zijn de interacties niet vanzelfsprekend",
-              "Ze zijn in de praktijk identiek geworden"
+              "They almost always reinforce each other",
+              "They are completely unrelated",
+              "They can work against each other, and precisely in normal situations the interactions are not obvious",
+              "They have become identical in practice"
             ],
             "juist": 2,
-            "uitleg": "Pettersen en Bjørnskau (2015) toonden dat met veldonderzoek aan. Let vooral op \"in normale situaties\": de wrijving zit in het dagelijkse werk, niet in de crisis."
+            "uitleg": "Pettersen and Bj\u00f8rnskau (2015) demonstrated this with field research. Note especially \"in normal situations\": the friction sits in daily work, not in the crisis."
           },
           {
-            "vraag": "Waarom vergroten wetenschap en technologie het verschil op luchthavens?",
+            "vraag": "Why do science and technology widen the difference at airports?",
             "opties": [
-              "Omdat de technologie te duur is",
-              "Omdat screeners en safetypersoneel andere opleiding, technologie en werkwijze hebben",
-              "Omdat er te weinig personeel is",
-              "Omdat de luchthaven geen safetybeleid heeft"
+              "Because the technology is too expensive",
+              "Because screeners and safety personnel have different training, technology and working methods",
+              "Because there is too little staff",
+              "Because the airport has no safety policy"
             ],
             "juist": 1,
-            "uitleg": "Verschillende regelgevende kaders en de aard van sommige contracten versterken die scheiding nog verder."
+            "uitleg": "Different regulatory frameworks and the nature of some contracts reinforce that separation still further."
           },
           {
-            "vraag": "Waarom botsen safetyonderzoek en securityonderzoek rond publicatie?",
+            "vraag": "Why do safety research and security research collide around publication?",
             "opties": [
-              "Securityonderzoek is duurder",
-              "Security kan vertrouwelijkheid eisen terwijl safety maximale openheid nastreeft",
-              "Safetyonderzoek gebruikt geen peer review",
-              "Security mag alleen door de overheid worden gepubliceerd"
+              "Security research is more expensive",
+              "Security may demand confidentiality while safety strives for maximum openness",
+              "Safety research does not use peer review",
+              "Security may only be published by government"
             ],
             "juist": 1,
-            "uitleg": "Een **structureel** conflict tussen twee informatieregimes. Bij integratie levert een van beide zijn belangrijkste leermechanisme in."
+            "uitleg": "A **structural** conflict between two information regimes. On integration, one of the two surrenders its most important learning mechanism."
           },
           {
-            "vraag": "Wat stelt Schulman volgens hoofdstuk 1 over complexe systemen?",
+            "vraag": "What does Schulman claim about complex systems, according to chapter 1?",
             "opties": [
-              "Ze falen zelden als het ontwerp goed is",
-              "Er zijn meer manieren waarop ze kunnen falen dan waarop ze correct werken",
-              "Ze zijn veiliger naarmate ze groter zijn",
-              "Hun falen is altijd terug te voeren op menselijke fouten"
+              "They rarely fail if the design is good",
+              "There are more ways in which they can fail than ways in which they work correctly",
+              "They are safer the larger they are",
+              "Their failure can always be traced back to human error"
             ],
             "juist": 1,
-            "uitleg": "En vijandige strategie voegt daar mogelijkheden aan toe, omdat kwetsbaarheden worden behandeld als **strategische doelwitten**."
+            "uitleg": "And hostile strategy adds possibilities to that, because vulnerabilities are treated as **strategic targets**."
           },
           {
-            "vraag": "Wat is het probleem met de uitbreiding van EASA naar security?",
+            "vraag": "What is the problem with extending EASA\u2019s scope to security?",
             "opties": [
-              "EASA heeft geen mandaat",
-              "Er is nauwelijks onderzoek dat zegt hoe je die bredere scope conceptueel en praktisch aanpakt",
-              "Security hoort bij de politie",
-              "De luchtvaart heeft geen securityproblemen"
+              "EASA has no mandate",
+              "There is barely any research saying how to handle that broader scope conceptually and practically",
+              "Security belongs to the police",
+              "Aviation has no security problems"
             ],
             "juist": 1,
-            "uitleg": "Een kennisgat. Het meeste onderzoek gaat over engineering en concepten, weinig over het managen van beide in de praktijk."
+            "uitleg": "A knowledge gap. Most research is about engineering and concepts, little about managing both in practice."
           },
           {
-            "vraag": "Wat zegt het hoofdstuk over de herkomst van veel technische safetyeisen?",
+            "vraag": "What does the chapter say about where many technical safety requirements come from?",
             "opties": [
-              "Ze komen vrijwel allemaal uit wetenschappelijk onderzoek",
-              "Veel eisen zijn juridisch of economisch en komen eerder uit beleid dan uit wetenschap",
-              "Ze worden bepaald door verzekeraars",
-              "Ze zijn wereldwijd gestandaardiseerd"
+              "Almost all of them come from scientific research",
+              "Many requirements are legal or economic and stem from policy rather than science",
+              "They are set by insurers",
+              "They are standardised worldwide"
             ],
             "juist": 1,
-            "uitleg": "Ze komen voort uit institutionele en organisatorische doelen van toezichthouders, overheden of bedrijven. Voldoen aan de regels is dus niet hetzelfde als veilig zijn."
+            "uitleg": "They stem from the institutional and organisational goals of regulators, governments or companies. Complying with the rules is therefore not the same as being safe."
           },
           {
-            "vraag": "Welke drie invalshoeken onderscheiden de redacteuren?",
+            "vraag": "Which three vantage points do the editors distinguish?",
             "opties": [
-              "Juridisch, economisch, technisch",
-              "Conceptueel; technisch en methodologisch; management en praktijk",
-              "Preventie, repressie, nazorg",
-              "Individueel, organisatorisch, maatschappelijk"
+              "Legal, economic, technical",
+              "Conceptual; technical and methodological; management and practice",
+              "Prevention, repression, aftercare",
+              "Individual, organisational, societal"
             ],
             "juist": 1,
-            "uitleg": "Conceptueel (Blokland & Reniers, Jore), technisch-methodologisch (Leveson, Wipf, Bongiovanni), en management en praktijk (Brooks & Coole, La Porte, Boustras, Schulman)."
+            "uitleg": "Conceptual (Blokland & Reniers, Jore), technical-methodological (Leveson, Wipf, Bongiovanni), and management and practice (Brooks & Coole, La Porte, Boustras, Schulman)."
           },
           {
-            "vraag": "Welke vraag uit paragraaf 1.4 gaat over de verdeling van lasten?",
+            "vraag": "Which question from section 1.4 is about the distribution of burdens?",
             "opties": [
-              "Wat is veilig en beveiligd genoeg?",
-              "Wie wordt versterkt en wie ervaart meer spanning en conflict?",
-              "Hoeveel kost een maatregel?",
-              "Welke technologie is het effectiefst?"
+              "What is safe and secure enough?",
+              "Who is strengthened and who experiences more tension and conflict?",
+              "How much does a measure cost?",
+              "Which technology is most effective?"
             ],
             "juist": 1,
-            "uitleg": "De auteurs verwijzen daarvoor naar La Porte in hoofdstuk 8. Elke maatregel verdeelt bevoegdheid, budget, status en werkdruk."
+            "uitleg": "The authors point to La Porte in chapter 8 for this. Every measure distributes authority, budget, status and workload."
           },
           {
-            "vraag": "Wat is de functie van dit inleidende hoofdstuk binnen het boek?",
+            "vraag": "What is the function of this introductory chapter within the book?",
             "opties": [
-              "Het geeft de oplossing waar de rest op voortbouwt",
-              "Het geeft de geschiedenis, de begrippen en de landkaart, en laat de vragen open",
-              "Het weerlegt de andere hoofdstukken",
-              "Het beschrijft één casus in detail"
+              "It gives the solution the rest builds on",
+              "It gives the history, the concepts and the map, and leaves the questions open",
+              "It refutes the other chapters",
+              "It describes one case in detail"
             ],
             "juist": 1,
-            "uitleg": "Het hoofdstuk geeft juist geen oplossing. Dat is bewust: het maakt zichtbaar waarom de volgende hoofdstukken elkaar kunnen tegenspreken."
+            "uitleg": "The chapter deliberately gives no solution. That is the point: it makes visible why the following chapters can contradict each other."
           }
         ]
       },
       {
         "type": "bronnen",
-        "titel": "Bronnen bij hoofdstuk 1",
+        "titel": "Sources for chapter 1",
         "items": [
           {
-            "apa": "Pettersen Gould, K., & Bieder, C. (2020). Safety and security: The challenges of bringing them together. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 1–8). Springer."
+            "apa": "Pettersen Gould, K., & Bieder, C. (2020). Safety and security: The challenges of bringing them together. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 1\u20138). Springer."
           },
           {
             "apa": "Ale, B. (2009). Risk: An introduction. The concepts of risk, danger and chance. Routledge."
           },
           {
-            "apa": "Boholm, M., Möller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320–338."
+            "apa": "Boholm, M., M\u00f6ller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320\u2013338."
           },
           {
-            "apa": "Hale, A. (2019). From national to European frameworks for understanding the role of occupational health and safety specialists. Safety Science, 115, 435–445."
+            "apa": "Hale, A. (2019). From national to European frameworks for understanding the role of occupational health and safety specialists. Safety Science, 115, 435\u2013445."
           },
           {
-            "apa": "LaPorte, T. R. (2006). Challenges of assuring high reliability when facing suicide terrorism. In P. Auerswald e.a. (Eds.), Seeds of disasters. Cambridge University Press."
+            "apa": "LaPorte, T. R. (2006). Challenges of assuring high reliability when facing suicide terrorism. In P. Auerswald et al. (Eds.), Seeds of disasters. Cambridge University Press."
           },
           {
             "apa": "Macrae, C. (2014). Close calls: Managing risk and resilience in airline flight safety. Springer."
@@ -759,13 +759,13 @@ LESSTOF["intro-to-safety-security/h1"] = [
             "apa": "Perrow, C. (1984). Normal accidents: Living with high-risk technologies. Basic Books."
           },
           {
-            "apa": "Pettersen, K. A., & Bjornskau, T. (2015). Organizational contradictions between safety and security. Safety Science, 71, 167–177."
+            "apa": "Pettersen, K. A., & Bjornskau, T. (2015). Organizational contradictions between safety and security. Safety Science, 71, 167\u2013177."
           },
           {
-            "apa": "Piètre-Cambacédès, L., & Bouissou, M. (2013). Cross-fertilization between safety and security engineering. Reliability Engineering & System Safety, 110, 110–126."
+            "apa": "Pi\u00e8tre-Cambac\u00e9d\u00e8s, L., & Bouissou, M. (2013). Cross-fertilization between safety and security engineering. Reliability Engineering & System Safety, 110, 110\u2013126."
           },
           {
-            "apa": "Piètre-Cambacédès, L., & Chaudet, C. (2010). The SEMA referential framework. International Journal of Critical Infrastructure Protection, 3, 55–66."
+            "apa": "Pi\u00e8tre-Cambac\u00e9d\u00e8s, L., & Chaudet, C. (2010). The SEMA referential framework. International Journal of Critical Infrastructure Protection, 3, 55\u201366."
           },
           {
             "apa": "Short, J. F. (1992). Organizations, uncertainties, and risk. Westview Press."
@@ -777,21 +777,21 @@ LESSTOF["intro-to-safety-security/h1"] = [
             "apa": "Turner, B. A. (1978). Man-made disasters. Wykeham Press."
           },
           {
-            "apa": "Young, W., & Leveson, N. (2014). An integrated approach to safety and security based on systems theory. Communications of the ACM, 57(2), 31–35."
+            "apa": "Young, W., & Leveson, N. (2014). An integrated approach to safety and security based on systems theory. Communications of the ACM, 57(2), 31\u201335."
           }
         ]
       },
       {
         "type": "preview",
-        "titel": "Van geschiedenis naar fundament",
+        "titel": "From history to foundations",
         "vakId": "intro-to-safety-security",
         "lesId": "h2",
-        "tekst": "Hoofdstuk 1 liet zien dát de begrippen door elkaar lopen en waarom dat historisch zo is gegroeid. Hoofdstuk 2 probeert er een fundament onder te leggen, met één ISO-definitie als vertrekpunt.",
+        "tekst": "Chapter 1 showed that the concepts run into each other and why that grew historically. Chapter 2 tries to put a foundation under them, with one ISO definition as the starting point.",
         "punten": [
-          "Waarom de woorden \"unsafety\" en \"unsecurity\" nauwelijks bestaan, en waarom dat een probleem is",
-          "Risico als het effect van onzekerheid op doelstellingen",
-          "Doelstellingen als vectoren, en het 90-graden-criterium voor conflict",
-          "Drie niveaus waarop safety en security volgens Blokland en Reniers verschillen"
+          "Why the words \"unsafety\" and \"unsecurity\" barely exist, and why that is a problem",
+          "Risk as the effect of uncertainty on objectives",
+          "Objectives as vectors, and the 90-degree criterion for conflict",
+          "Three levels at which safety and security differ according to Blokland and Reniers"
         ]
       }
     ]
