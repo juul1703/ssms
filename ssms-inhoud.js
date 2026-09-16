@@ -1359,352 +1359,344 @@ LESSTOF["intro-to-safety-security/h2"] = [
 LESSTOF["intro-to-safety-security/h3"] = [
   {
     "id": "voor",
-    "titel": "Voorbereiding",
+    "titel": "Before you start",
     "blokken": [
       {
         "type": "leerdoelen",
         "items": [
-          "Uitleggen waarom er volgens Leveson geen goede of foute definities bestaan, alleen bruikbare",
-          "De vier definities van dit hoofdstuk reproduceren: safety, accident, hazard en hazard analysis",
-          "Uitleggen waarom hazards worden gedefinieerd als systeemtoestanden en niet als omgevingskenmerken",
-          "Uitleggen waarom safety en security niet gelijk zijn aan betrouwbaarheid",
-          "Beargumenteren waarom de focus in security te smal is als die alleen op informatie en buitenhouden ligt",
-          "Het Stuxnet-voorbeeld gebruiken om te laten zien dat intentionaliteit voor de beheersmaatregel weinig uitmaakt",
-          "STAMP, CAST en STPA uit elkaar houden en zeggen waarvoor je elk gebruikt",
-          "Een STPA-analyse volgen op het remsysteem van een vliegtuig, inclusief de securityuitbreiding"
+          "Explain why, according to Leveson, there are no right or wrong definitions, only useful ones",
+          "Reproduce the four definitions of this chapter: safety, accident, hazard and hazard analysis",
+          "Explain why hazards are defined as system states and not as properties of the environment",
+          "Explain why safety and security are not the same as reliability",
+          "Argue why the focus in security is too narrow if it rests only on information and keeping intruders out",
+          "Use the Stuxnet example to show that intentionality matters little for the control measure",
+          "Tell STAMP, CAST and STPA apart and say what you use each one for",
+          "Follow an STPA analysis on an aircraft braking system, including the security extension"
         ]
       },
       {
         "type": "uitleg",
-        "titel": "Waar dit hoofdstuk over gaat",
-        "tekst": "**Nancy Leveson** is hoogleraar aan het MIT en een van de bekendste namen in system safety engineering. Haar boek *Engineering a Safer World* (2012) is de basis van dit hoofdstuk.\n\nHaar stelling: of safety en security overlappen hangt volledig af van hoe je ze definieert. Definities zijn **door mensen gemaakt** en degene die definieert kan alles insluiten of uitsluiten wat hij wil. De echte vraag is dus niet welke definitie juist is, maar **wat een definitie impliceert** voor het oplossen van het probleem, en welke definitie leidt tot de effectiefste manier om de eigenschap te bereiken die je wilt bereiken.\n\nZij stelt daarom een **inclusieve definitie** voor die safety en security combineert, en werkt daarna drie praktische gevolgen uit."
+        "titel": "What this chapter is about",
+        "tekst": "**Nancy Leveson** is a professor at MIT and one of the best-known names in system safety engineering. Her book *Engineering a Safer World* (2012) is the basis of this chapter.\n\nHer claim: whether safety and security overlap depends entirely on how you define them. Definitions are **made by people**, and whoever defines can include or exclude anything they like. So the real question is not which definition is correct, but **what a definition implies** for solving the problem, and which definition leads to the most effective way of achieving the property you want to achieve.\n\nShe therefore proposes an **inclusive definition** that combines safety and security, and then works out three practical consequences."
       },
       {
         "type": "slimmer",
-        "titel": "De structuur van dit hoofdstuk",
-        "tekst": "Het hoofdstuk heeft een strak skelet. Als je dat vasthoudt, verdwaal je niet in het remsysteemvoorbeeld.\n\n1. Definities (3.1)\n2. Gevolg 1: safety en security zijn niet gelijk aan betrouwbaarheid (3.2)\n3. Gevolg 2: security moet breder dan informatie en indringers buitenhouden (3.3)\n4. Gevolg 3: er is een paradigmawissel nodig naar systeemtheorie, met STAMP, CAST en STPA (3.4)\n5. Conclusie (3.5)\n\nHet uitgebreide voorbeeld van het remsysteem hoort helemaal bij punt 4 en is bedoeld om te laten zien dat security er pas **aan het einde** van de analyse bij komt."
+        "titel": "The structure of this chapter",
+        "tekst": "The chapter has a tight skeleton. Hold on to it and you will not get lost in the braking system example.\n\n1. Definitions (3.1)\n2. Consequence 1: safety and security are not the same as reliability (3.2)\n3. Consequence 2: security must go beyond information and keeping intruders out (3.3)\n4. Consequence 3: a paradigm shift towards systems theory is needed, with STAMP, CAST and STPA (3.4)\n5. Conclusion (3.5)\n\nThe extended braking system example belongs entirely to point 4, and its purpose is to show that security only enters **at the very end** of the analysis."
       }
     ]
   },
   {
     "id": "kern",
-    "titel": "Kernstof",
+    "titel": "Core material: chapter 3",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "3.1 Definities zijn saai maar noodzakelijk",
+        "titel": "3.1 Definitions are boring but necessary",
         "toetsstof": true,
-        "tekst": "Definities zijn nodig voor effectieve communicatie. Er is geen goede of foute definitie, alleen de definitie die we kiezen te gebruiken.\n\nMaar die keuze heeft gevolgen. Beperken we onze definitie van safety en security, dan beperken we daarmee effectief ook de **overlap** tussen beide. En beperkte definities beperken mogelijk ook de **oplossingen** voor het probleem. Beginnen we daarentegen bij inclusievere en praktischere definities, dan worden overlap en gemeenschappelijke benaderingen mogelijk.\n\nDat is de hele strategie van dit hoofdstuk: niet ruziën over wie gelijk heeft, maar kiezen voor de definitie die de meeste oplossingsruimte openlaat."
+        "tekst": "Definitions are needed for effective communication. There is no right or wrong definition, only the definition we choose to use.\n\nBut that choice has consequences. If we limit our definition of safety and security, we effectively limit the **overlap** between them as well. And limited definitions may also limit the **solutions** to the problem. If instead we start from more inclusive and more practical definitions, overlap and common approaches become possible.\n\nThat is the whole strategy of this chapter: do not argue about who is right, but choose the definition that leaves the most solution space open."
       },
       {
         "type": "tekst",
-        "titel": "Hoe verschillend safety wordt gedefinieerd",
         "toetsstof": true,
-        "tekst": "Safety is al minstens honderd jaar onderdeel van engineering, en is als maatschappelijke zorg nog veel ouder. Leveson signaleert grote verschillen:\n\n- **Engineers** gebruiken een precieze definitie.\n- **Sociale wetenschappers** gebruiken vaak veel minder zorgvuldig opgestelde definities, en veranderen die soms afhankelijk van context of doel.\n- De definitie verschilt ook **per industrie**. Sommige beperken safety en ongevallen tot gebeurtenissen die menselijk leven en letsel raken. De commerciële luchtvaart definieerde safety historisch in termen van **hull losses**, dus het verlies van een vliegtuigromp.\n- Sommige industrieën met serieuze politieke gevoeligheden, zoals **kernenergie**, hebben politiek nuttige definities voorgesteld die voor het ontwerpwerk vrijwel onbruikbaar zijn."
+        "tekst": "**How differently safety gets defined**\n\nSafety has been part of engineering for at least a hundred years, and as a societal concern it is far older. Leveson points to large differences:\n\n- **Engineers** use a precise definition.\n- **Social scientists** often use far less carefully constructed definitions, and sometimes change them depending on context or purpose.\n- The definition also differs **by industry**. Some limit safety and accidents to events affecting human life and injury. Commercial aviation historically defined safety in terms of **hull losses**, the loss of an aircraft fuselage.\n- Some industries with serious political sensitivities, such as **nuclear power**, have proposed politically useful definitions that are almost unusable for design work."
       },
       {
         "type": "tekst",
-        "titel": "De vier definities die je uit je hoofd moet kennen",
         "toetsstof": true,
-        "tekst": "Leveson kiest de meest inclusieve definitie, ontstaan in de Amerikaanse defensie-industrie na de Tweede Wereldoorlog.\n\n**Safety is vrijheid van ongevallen (verliezen).**\n\n**Een ongeval of mishap is elke ongewenste of ongeplande gebeurtenis die leidt tot een verlies, zoals gedefinieerd door de belanghebbenden van het systeem.**\n\nVerliezen kunnen zijn: verlies van mensenlevens of letsel, schade aan apparatuur of eigendom, milieuvervuiling, **missieverlies** (het niet vervullen van de missie), negatieve zakelijke impact zoals reputatieschade, vertraging van een productlancering of juridische verwikkelingen, en meer.\n\nLet op de twee cruciale eigenschappen van deze definitie:\n1. Er staat **niets** in over het verschil tussen onbedoelde en opzettelijke oorzaken.\n2. De definitie beperkt de oorzaken **op geen enkele manier**.\n\nDaarmee zit security er per definitie al in."
+        "tekst": "**The four definitions you need to know by heart**\n\nLeveson picks the most inclusive definition, which arose in the US defence industry after the Second World War.\n\n**Safety is freedom from accidents (losses).**\n\n**An accident or mishap is any undesired or unplanned event that results in a loss, as defined by the system stakeholders.**\n\nLosses may be: loss of human life or injury, damage to equipment or property, environmental pollution, **mission loss** (failing to fulfil the mission), negative business impact such as reputational damage, delay of a product launch or legal entanglements, and more.\n\nNote the two crucial properties of this definition:\n1. It says **nothing** about the difference between unintentional and deliberate causes.\n2. It limits the causes **in no way at all**.\n\nWith that, security is already inside it by definition."
       },
       {
         "type": "tekst",
-        "titel": "Hazard: het belangrijkste begrip uit safety engineering",
         "toetsstof": true,
-        "tekst": "**Een hazard is een systeemtoestand of set van condities die, samen met bepaalde (worst-case) omgevingscondities, tot een verlies zal leiden.**\n\nDit is subtiel en veel studenten struikelen erover. Hazards worden in safety engineering gedefinieerd als toestanden van **het systeem**, niet van de omgeving.\n\nWaarom? Het uiteindelijke doel van safety engineering is verliezen elimineren. Maar sommige condities die tot een verlies leiden vallen buiten de controle van de ontwerper of gebruiker, dus buiten de grens van het ontworpen en bediende systeem. Om praktische redenen worden hazards daarom gedefinieerd als **systeemtoestanden die ontwerpers en gebruikers nooit willen laten optreden** en dus proberen te elimineren of, als dat niet kan, te beheersen."
+        "tekst": "**Hazard: the most important concept in safety engineering**\n\n**A hazard is a system state or set of conditions that, together with certain (worst-case) environmental conditions, will lead to a loss.**\n\nThis is subtle and many students stumble over it. In safety engineering, hazards are defined as states of **the system**, not of the environment.\n\nWhy? The ultimate goal of safety engineering is to eliminate losses. But some conditions leading to a loss lie outside the control of the designer or operator, and therefore outside the boundary of the system being designed and operated. For practical reasons, hazards are therefore defined as **system states that designers and operators never want to occur** and so try to eliminate or, where that is impossible, to control."
       },
       {
         "type": "voorbeeld",
-        "titel": "Het weer en de berg",
-        "tekst": "De term hazard wordt soms losjes gebruikt voor dingen buiten de systeemgrens, zoals slecht weer of hoge bergen in de luchtvaart. Volgens Leveson is dat onjuist.\n\nDe hazard is **niet** het slechte weer of de berg. De hazard is:\n- het vliegtuig dat negatief wordt beïnvloed door het slechte weer, of\n- het vliegtuig dat de minimale afstand tot de berg schendt.\n\nHet weer en de berg kunnen we niet elimineren. Het ontwerp en de bediening van ons systeem kunnen we wél zo inrichten dat de dreiging die ervan uitgaat verdwijnt. Constraints of controls kunnen dan bestaan uit ontwerpen dat het vliegtuig het weer kan doorstaan, of uit operationele regels om weg te blijven bij het weer of de berg.\n\nHet doel van ontwerpers en gebruikers is dus: de systeemhazards identificeren, gedefinieerd als vallend binnen hun eigen controle, en die elimineren of beheersen in ontwerp en operatie."
+        "tekst": "**The weather and the mountain**\n\nThe term hazard is sometimes used loosely for things outside the system boundary, such as bad weather or high mountains in aviation. According to Leveson that is incorrect.\n\nThe hazard is **not** the bad weather or the mountain. The hazard is:\n- the aircraft being adversely affected by the bad weather, or\n- the aircraft violating the minimum separation from the mountain.\n\nWe cannot eliminate the weather or the mountain. We can design and operate our system so that the threat they pose disappears. Constraints or controls might then consist of designing the aircraft to withstand the weather, or of operational rules to stay away from the weather or the mountain.\n\nThe goal of designers and operators is therefore to identify the system hazards, defined as falling within their own control, and to eliminate or control them in design and operations."
       },
       {
         "type": "tekst",
-        "titel": "Hazard en vulnerability zijn hetzelfde",
         "toetsstof": true,
-        "tekst": "In security is de equivalente term voor hazard **vulnerability**: een zwakte in een product waardoor het openstaat voor een verlies.\n\nIn de meest algemene zin kan security worden gedefinieerd als de systeemtoestand die vrij is van dreigingen of kwetsbaarheden, dus van mogelijke verliezen. Hazard en vulnerability zijn hier in essentie **equivalent**.\n\nDit is een van de sterkste zetten van het hoofdstuk: twee vakgebieden met twee woordenschatten blijken hetzelfde begrip te gebruiken."
+        "tekst": "**Hazard and vulnerability are the same thing**\n\nIn security the equivalent term for hazard is **vulnerability**: a weakness in a product that leaves it open to a loss.\n\nIn the most general sense, security can be defined as the system state that is free of threats or vulnerabilities, that is, of potential losses. Hazard and vulnerability are essentially **equivalent** here.\n\nThis is one of the strongest moves in the chapter: two fields with two vocabularies turn out to be using the same concept."
       },
       {
         "type": "tekst",
-        "titel": "Hazard analysis en het doel van safety engineering",
         "toetsstof": true,
-        "tekst": "**Hazard analysis is het proces waarbij je de causale scenario’s van hazards identificeert.**\n\nHazard analysis kijkt gewoonlijk alleen naar scenario’s die uit onbedoelde gebeurtenissen bestaan. Security meenemen vraagt alleen om het **toevoegen van een paar extra causale scenario’s** aan het proces. Die toevoeging levert alle informatie op die je nodig hebt om verliezen te voorkomen die normaal als securityproblemen worden gezien.\n\nLeveson geeft een voorbeeld. Een operator doet het verkeerde omdat hij per ongeluk in de war is over de toestand van het systeem, bijvoorbeeld door te denken dat een klep al dicht is en hem dus niet te sluiten. Die verkeerde informatie kan komen van een **sensorstoring** die verkeerde informatie geeft, of van een **vijandige actor** die opzettelijk valse informatie levert.\n\nDat levert bij de analyse **meer paden** naar de gevaarlijke toestand op, die je in ontwerp of operatie moet afhandelen. Maar het verandert niet noodzakelijk de manier waarop de ontwerper of gebruiker dat onveilige gedrag probeert te voorkomen.\n\n**Het doel van safety engineering is hazardscenario’s elimineren of beheersen in ontwerp en operatie.**\n\nTot slot: het verschil tussen fysieke security en cybersecurity is volgens Leveson irrelevant, behalve dat cybersecurity zich op slechts één aspect van het systeemontwerp richt en dus een **beperktere scope** heeft. Fysieke systeemsecurity omvat tegenwoordig vrijwel altijd softwarecomponenten, dus cybersecurity is meestal een **onderdeel** van fysieke systeemsecurity."
+        "tekst": "**Hazard analysis and the goal of safety engineering**\n\n**Hazard analysis is the process of identifying the causal scenarios of hazards.**\n\nHazard analysis usually considers only scenarios made up of unintentional events. Including security merely requires **adding a few extra causal scenarios** to the process. That addition yields all the information you need to prevent losses that are normally seen as security problems.\n\nLeveson gives an example. An operator does the wrong thing because they are accidentally confused about the state of the system, for instance believing a valve is already closed and therefore not closing it. That incorrect information may come from a **sensor failure** delivering wrong information, or from a **hostile actor** deliberately supplying false information.\n\nIn the analysis, that produces **more paths** to the hazardous state, which you have to handle in design or operations. But it does not necessarily change the way the designer or operator tries to prevent that unsafe behaviour.\n\n**The goal of safety engineering is to eliminate or control hazard scenarios in design and operations.**\n\nFinally, Leveson regards the difference between physical security and cybersecurity as irrelevant, except that cybersecurity targets only one aspect of the system design and therefore has a **narrower scope**. Physical system security nowadays almost always involves software components, so cybersecurity is usually a **part** of physical system security."
       },
       {
         "type": "tekst",
-        "titel": "3.2 Safety en security zijn niet gelijk aan betrouwbaarheid",
+        "titel": "3.2 Safety and security are not the same as reliability",
         "toetsstof": true,
-        "tekst": "Er bestaat veel verwarring tussen safety en betrouwbaarheid (reliability), terwijl het twee heel verschillende eigenschappen zijn.\n\nToen systemen relatief eenvoudig waren, uitsluitend bestonden uit elektromechanische onderdelen en uitputtend geanalyseerd of getest konden worden, konden ontwerpfouten die tot verlies leiden grotendeels worden opgespoord en verwijderd **voordat** het systeem in gebruik ging. Wat overbleef als oorzaak van verlies waren vooral **fysieke storingen**.\n\nUit dat tijdperk, de jaren zeventig en eerder, stammen de traditionele hazardanalysetechnieken:\n- **fault tree analysis (FTA)**\n- **HAZOP**, in de chemische industrie\n- **event tree analysis**, in de nucleaire industrie\n- **FMECA**, failure modes and criticality analysis\n\nVoor die relatief eenvoudige systemen was de betrouwbaarheid van componenten een handige **proxy** voor safety, omdat de meeste ongevallen voortkwamen uit componentfalen. De technieken waren dan ook ontworpen om componentstoringen te vinden die tot een verlies kunnen leiden."
+        "tekst": "There is much confusion between safety and reliability, while they are two very different properties.\n\nWhen systems were relatively simple, consisted purely of electromechanical parts and could be analysed or tested exhaustively, design flaws leading to loss could largely be found and removed **before** the system went into use. What remained as a cause of loss were mainly **physical failures**.\n\nThe traditional hazard analysis techniques date from that era, the 1970s and earlier:\n- **fault tree analysis (FTA)**\n- **HAZOP**, in the chemical industry\n- **event tree analysis**, in the nuclear industry\n- **FMECA**, failure modes and criticality analysis\n\nFor those relatively simple systems, component reliability was a handy **proxy** for safety, because most accidents arose from component failure. The techniques were accordingly designed to find component failures that can lead to a loss."
       },
       {
         "type": "tekst",
-        "titel": "Waarom die proxy niet meer werkt",
         "toetsstof": true,
-        "tekst": "Sinds de introductie van computerbesturing en software in kritische systemen, vanaf ongeveer **1980**, is de systeemcomplexiteit **exponentieel** toegenomen.\n\nDe kern van het probleem: **systeemontwerpfouten, dus systems engineering-fouten, kunnen niet vóór gebruik worden geëlimineerd** en vormen vandaag een belangrijke oorzaak van ongevallen. Daar komt bij dat er meer erkenning is dat verliezen kunnen samenhangen met human factors-ontwerp, management, operationele procedures, regelgevende en sociale factoren, en met veranderingen binnen het systeem of zijn omgeving **in de tijd**. Dat geldt voor safety én voor security.\n\nDe twee stellingen die je moet kennen, allebei tegen-intuïtief:\n\n1. Systeemcomponenten kunnen **perfect betrouwbaar** zijn, dus voldoen aan hun gestelde eisen en dus niet falen, en tóch gebeuren er ongevallen. Sterker nog: dat gebeurt vaak.\n2. Systeemcomponenten en zelfs het systeem als geheel kunnen **onbetrouwbaar** zijn, terwijl het systeem toch veilig is.\n\nSafety of security definiëren in termen van betrouwbaarheid werkt dus niet voor de systemen die we vandaag bouwen. Verliezen voorkom je niet door simpelweg systeem- of componentstoringen te voorkomen."
+        "tekst": "**Why that proxy no longer works**\n\nSince the introduction of computer control and software into critical systems, from roughly **1980** onwards, system complexity has grown **exponentially**.\n\nThe core of the problem: **system design errors, that is, systems engineering errors, cannot be eliminated before use** and are today a major cause of accidents. On top of that there is more recognition that losses can be connected to human factors design, management, operational procedures, regulatory and social factors, and to changes within the system or its environment **over time**. That holds for safety and for security alike.\n\nThe two claims you need to know, both counter-intuitive:\n\n1. System components can be **perfectly reliable**, meaning they meet their stated requirements and therefore do not fail, and accidents still happen. In fact, that happens often.\n2. System components and even the system as a whole can be **unreliable** while the system is nonetheless safe.\n\nDefining safety or security in terms of reliability therefore does not work for the systems we build today. You do not prevent losses simply by preventing system or component failures."
       },
       {
         "type": "tekst",
-        "titel": "3.3 De focus in security moet breder",
+        "titel": "3.3 The focus in security has to be broader",
         "toetsstof": true,
-        "tekst": "Te vaak ligt de focus in security, en zeker in cybersecurity, op het beschermen van **informatie**. Maar er zijn belangrijke verliezen die niets met informatie te maken hebben en die grotendeels worden genegeerd. Die verliezen gaan over **mission assurance**.\n\nHet verlies van elektriciteitsproductie uit het net of uit een kerncentrale, of het verlies van de wetenschappelijke missie van een ruimtevaartuig, is net zo belangrijk als informatieverlies. In sommige opzichten zelfs belangrijker.\n\nDaarbij komt een praktisch argument. Het is vrijwel onmogelijk gebleken om mensen buiten systemen te houden, zeker bij cybersystemen die verbonden zijn met de buitenwereld. Kwaadwillenden buiten je systeem houden lijkt dus **geen effectieve manier** om het securityprobleem op te lossen."
+        "tekst": "Too often the focus in security, and certainly in cybersecurity, is on protecting **information**. But there are important losses that have nothing to do with information and that are largely ignored. Those losses concern **mission assurance**.\n\nThe loss of electricity production from the grid or from a nuclear plant, or the loss of a spacecraft’s scientific mission, is just as important as a loss of information. In some respects more so.\n\nThere is a practical argument alongside it. Keeping people out of systems has proved almost impossible, certainly for cyber systems connected to the outside world. Keeping malicious actors out of your system therefore looks like **no effective way** of solving the security problem."
       },
       {
         "type": "tekst",
-        "titel": "Waarom intentionaliteit er voor de oplossing weinig toe doet",
         "toetsstof": true,
-        "tekst": "Intentionaliteit verschilt inderdaad tussen safety en security. Maar volgens Leveson is intentionaliteit **niet erg belangrijk** wanneer je safety en security analyseert en verliezen wilt voorkomen.\n\nHaar argument: dat verschil is irrelevant vanuit safety engineering-perspectief zodra de **gevolgen hetzelfde** zijn. Of de explosie van een chemische fabriek nu het gevolg is van een opzettelijke of een onbedoelde daad, het resultaat is hetzelfde: schadelijk voor het systeem én de omgeving.\n\nIntentionaliteit voegt eenvoudigweg **extra causale scenario’s** toe aan de hazardanalyse. De technieken om die causale scenario’s te vinden en te voorkomen kunnen **identiek** zijn.\n\nMerk op hoe direct dit botst met Blokland en Reniers uit hoofdstuk 2, die intentionaliteit juist als eerste onderscheidingsniveau opvoeren. Beiden hebben gelijk binnen hun eigen doel: zij willen de begrippen scheiden, zij wil een gezamenlijke ontwerpaanpak."
+        "tekst": "**Why intentionality matters little for the solution**\n\nIntentionality does indeed differ between safety and security. But according to Leveson, intentionality is **not very important** when you analyse safety and security and want to prevent losses.\n\nHer argument: that difference is irrelevant from a safety engineering perspective as soon as the **consequences are the same**. Whether a chemical plant explosion results from a deliberate or an unintentional act, the result is the same: harmful to the system and to its environment.\n\nIntentionality simply adds **extra causal scenarios** to the hazard analysis. The techniques for finding and preventing those causal scenarios can be **identical**.\n\nNote how directly this clashes with Blokland and Reniers in chapter 2, who make intentionality their first level of distinction. Both are right within their own purpose: they want to separate the concepts, she wants a shared design approach."
       },
       {
         "type": "voorbeeld",
-        "titel": "Stuxnet, helemaal uitgeschreven",
-        "tekst": "Het Stuxnet-worm richtte zich op het Iraanse nucleaire programma. Leveson ontleedt het geval volgens haar eigen begrippen. Leer dit rijtje uit je hoofd, het is het schoolvoorbeeld van het hele hoofdstuk.\n\n- **Loss:** schade aan de reactor, specifiek aan de centrifuges.\n- **Hazard / vulnerability:** de centrifuges raken beschadigd doordat ze te snel draaien.\n- **Constraint die moest worden afgedwongen:** de centrifuges mogen nooit boven een maximaal toerental draaien.\n- **Hazardous control action die optrad:** een commando \"verhoog snelheid\" geven terwijl de centrifuges al op maximale snelheid draaien.\n- **Mogelijk causaal scenario:** de operator of softwarecontroller dácht dat de centrifuges langzamer dan maximaal draaiden.\n\nEn nu de clou. Die vergissing kon onbedoeld zijn, dus een menselijke of softwarefout, of, zoals in dit geval, opzettelijk. Maar welk van de twee het ook was, **de effectiefste beheersmaatregelen zijn voor beide gevallen dezelfde**: bijvoorbeeld een mechanische begrenzer (interlock) die te hoog toerental fysiek onmogelijk maakt, of een analoge toerenteller.\n\nLeveson voegt nog een waarschuwing toe: securityproblemen hoeven niet van buiten het systeem te beginnen. Inbreuken kunnen **van binnenuit** starten en de omgeving zware schade toebrengen."
+        "tekst": "**Stuxnet, written out in full**\n\nThe Stuxnet worm targeted the Iranian nuclear programme. Leveson dissects the case using her own concepts. Learn this list by heart; it is the model example of the whole chapter.\n\n- **Loss:** damage to the reactor, specifically to the centrifuges.\n- **Hazard / vulnerability:** the centrifuges are damaged by spinning too fast.\n- **Constraint that had to be enforced:** the centrifuges must never spin above a maximum rotation speed.\n- **Hazardous control action that occurred:** issuing an \"increase speed\" command while the centrifuges were already at maximum speed.\n- **Possible causal scenario:** the operator or software controller believed the centrifuges were spinning slower than maximum.\n\nAnd now the punchline. That mistaken belief could be unintentional, a human or software error, or, as in this case, deliberate. But whichever it was, **the most effective control measures are the same in both cases**: for instance a mechanical interlock that makes excessive speed physically impossible, or an analogue tachometer.\n\nLeveson adds a warning: security problems need not start outside the system. Breaches can start **from within** and cause severe damage to the environment."
       },
       {
         "type": "tekst",
-        "titel": "3.4 De paradigmawissel: van ketens naar systeemtheorie",
+        "titel": "3.4 The paradigm shift: from chains to systems theory",
         "toetsstof": true,
-        "tekst": "Effectievere oplossingen vinden vraagt om het heroverwegen van het fundament onder de huidige oplossingen: de **causaliteitsmodellen** waarvan we aannemen dat ze aan safety- en securityproblemen ten grondslag liggen.\n\nTraditioneel worden ongevallen of verliezen gezien als het gevolg van een **keten van faalgebeurtenissen**: A faalt en veroorzaakt het falen van B, enzovoort tot het verlies optreedt. Dat model heet het **domino-model**, of recenter het **Zwitserse-kaasmodel** van ongevalsoorzaak. Het bestaat al heel lang. Maar onze technische systemen zijn totaal anders dan de systemen die vroeger bestonden, en het model verklaart de oorzaken van hedendaagse ongevallen niet meer volledig.\n\nDaarom is een paradigmawissel nodig naar een causaliteitsmodel gebaseerd op **systeemtheorie**. Systeemtheorie ontstond rond het midden van de vorige eeuw, juist om om te gaan met de toegenomen complexiteit van de systemen die we bouwden."
+        "tekst": "Finding more effective solutions requires rethinking the foundation under our current solutions: the **causality models** we assume underlie safety and security problems.\n\nTraditionally, accidents or losses are seen as the result of a **chain of failure events**: A fails and causes B to fail, and so on until the loss occurs. That model is called the **domino model**, or more recently the **Swiss cheese model** of accident causation. It has been around a long time. But our engineered systems are utterly different from the systems that used to exist, and the model no longer fully explains the causes of today’s accidents.\n\nA paradigm shift is therefore needed, towards a causality model based on **systems theory**. Systems theory emerged around the middle of the last century, precisely to deal with the growing complexity of the systems we were building."
       },
       {
         "type": "tekst",
-        "titel": "STAMP: safety als besturingsprobleem",
         "toetsstof": true,
-        "tekst": "**STAMP** staat voor **System-Theoretic Accident Model and Processes** (Leveson, 2012).\n\nIn plaats van ongevallen te behandelen als het resultaat van ketens van faalgebeurtenissen, behandelt STAMP safety én security als een **dynamisch besturingsprobleem** (control problem). Het doel is het afdwingen van **constraints** op het gedrag van het systeem als geheel: zowel op het gedrag van individuele componenten als op de **interacties tussen** componenten.\n\nVoorbeelden van zulke systeemconstraints:\n- in het Stuxnet-geval: het toerental van de centrifuges beheersen om slijtage te beperken;\n- minimale afstand aanhouden tussen vliegtuigen of auto’s;\n- nooit chemicaliën of straling uit een fabriek laten ontsnappen;\n- werknemers niet blootstellen aan gevaren op de werkplek;\n- een bom mag nooit tot ontploffing komen zonder positieve actie van een bevoegd persoon.\n\nDe kern in één zin: STAMP **breidt het traditionele causaliteitsmodel uit** zodat het meer omvat dan alleen storingen."
+        "tekst": "**STAMP: safety as a control problem**\n\n**STAMP** stands for **System-Theoretic Accident Model and Processes** (Leveson, 2012).\n\nInstead of treating accidents as the result of chains of failure events, STAMP treats safety and security as a **dynamic control problem**. The aim is enforcing **constraints** on the behaviour of the system as a whole: on the behaviour of individual components and on the **interactions between** components.\n\nExamples of such system constraints:\n- in the Stuxnet case: controlling the rotation speed of the centrifuges to limit wear;\n- maintaining minimum separation between aircraft or cars;\n- never letting chemicals or radiation escape from a plant;\n- not exposing workers to hazards in the workplace;\n- a bomb must never detonate without positive action by an authorised person.\n\nThe core in one sentence: STAMP **extends the traditional causality model** so that it covers more than failures alone."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**CAST and STPA: two tools on one model**"
       },
       {
         "type": "vergelijking",
-        "titel": "CAST en STPA: twee gereedschappen op één model",
         "links": {
           "titel": "CAST",
-          "tekst": "**Causal Analysis based on System Theory.** Voor het analyseren van de oorzaak van verliezen die **al hebben plaatsgevonden**.",
+          "tekst": "**Causal Analysis based on System Theory.** For analysing the cause of losses that **have already occurred**.",
           "punten": [
-            "Kijkt achteruit",
-            "De oorzaken kunnen zowel onbedoelde als opzettelijke handelingen omvatten",
-            "Er zijn al securitygerelateerde verliezen mee geanalyseerd"
+            "Looks backwards",
+            "The causes may include both unintentional and deliberate acts",
+            "Security-related losses have already been analysed with it"
           ]
         },
         "rechts": {
           "titel": "STPA",
-          "tekst": "**System-Theoretic Process Analysis.** Voor het identificeren van mogelijke oorzaken van verliezen die **nog niet zijn gebeurd** maar in de toekomst kunnen optreden.",
+          "tekst": "**System-Theoretic Process Analysis.** For identifying possible causes of losses that **have not yet happened** but could occur in future.",
           "punten": [
-            "Kijkt vooruit: hazard analysis door verliesscenario’s te identificeren",
-            "Levert informatie over ontwerp en operatie",
-            "Ontwerpers en gebruikers kunnen de gevonden causale scenario’s elimineren of beheersen"
+            "Looks forward: hazard analysis by identifying loss scenarios",
+            "Delivers information about design and operations",
+            "Designers and operators can eliminate or control the causal scenarios found"
           ]
         }
       },
       {
         "type": "waarschuwing",
-        "titel": "Hou deze drie namen uit elkaar",
-        "tekst": "**STAMP** is alleen een theoretisch **model**. Bovenop dat model kunnen allerlei nieuwe en krachtigere gereedschappen worden gebouwd.\n\n**CAST** is zo’n gereedschap, voor **al gebeurde** verliezen.\n\n**STPA** is zo’n gereedschap, voor **nog niet gebeurde** verliezen.\n\nWie STAMP een methode noemt, of STPA een model, heeft het hoofdstuk niet goed gelezen."
+        "tekst": "**Keep these three names apart**\n\n**STAMP** is only a theoretical **model**. On top of that model, all kinds of new and more powerful tools can be built.\n\n**CAST** is such a tool, for losses that **have already happened**.\n\n**STPA** is such a tool, for losses that **have not yet happened**.\n\nAnyone calling STAMP a method, or STPA a model, has not read the chapter carefully."
       },
       {
         "type": "tekst",
-        "titel": "Het voorbeeld: het grondremsysteem van een vliegtuig",
         "toetsstof": true,
-        "tekst": "Om te laten zien wat STPA oplevert en hoe safety en security geïntegreerd worden afgehandeld, gebruikt Leveson een **grondremsysteem** van een vliegtuig.\n\nDe hazards op systeemniveau rond vertraging zijn bijvoorbeeld:\n\n- **H-4.1** De vertraging is onvoldoende bij de landing, bij een afgebroken start of tijdens het taxiën.\n- **H-4.2** Asymmetrische vertraging stuurt het vliegtuig richting andere objecten.\n- **H-4.3** Vertraging treedt op ná het V1-punt tijdens de start.\n\nHet **V1-punt** is het punt waarop remmen tijdens de start gevaarlijk is en het veiliger is de start voort te zetten dan af te breken."
+        "tekst": "**The example: an aircraft wheel braking system**\n\nTo show what STPA delivers and how safety and security are handled in an integrated way, Leveson uses an aircraft **wheel braking system**.\n\nThe system-level hazards around deceleration are, for instance:\n\n- **H-4.1** Deceleration is insufficient on landing, during a rejected take-off or while taxiing.\n- **H-4.2** Asymmetric deceleration steers the aircraft towards other objects.\n- **H-4.3** Deceleration occurs after the V1 point during take-off.\n\nThe **V1 point** is the point at which braking during take-off is dangerous and continuing the take-off is safer than aborting it."
       },
       {
         "type": "tekst",
-        "titel": "De functionele besturingsstructuur (Fig. 3.1)",
         "toetsstof": true,
-        "tekst": "STPA wordt uitgevoerd op een **functioneel model** van het systeem, niet op een fysiek schema. In het voorbeeld ziet die besturingsstructuur er zo uit:\n\n- De **Flight Crew** (mensen) bestuurt de **Brake System Control Unit (BSCU)**.\n- De BSCU bestaat uit een **autobrake controller** en een **hydraulic controller**, die in hedendaagse vliegtuigen allebei uit flink wat software bestaan.\n- De BSCU bestuurt de **Hydraulic Controller**, die de daadwerkelijke fysieke commando’s aan de wielremmen geeft.\n- De Flight Crew kan **ook rechtstreeks** commando’s naar het hydraulische remsysteem sturen om te vertragen.\n\nDie laatste, directe route is geen detail. Hij levert straks een van de scenario’s op waarin een correct remcommando toch niet wordt uitgevoerd."
+        "tekst": "**The functional control structure (Fig. 3.1)**\n\nSTPA is carried out on a **functional model** of the system, not on a physical diagram. In the example, the control structure looks like this:\n\n- The **flight crew** (people) controls the **Brake System Control Unit (BSCU)**.\n- The BSCU consists of an **autobrake controller** and a **hydraulic controller**, both of which in today’s aircraft contain a good deal of software.\n- The BSCU controls the **hydraulic controller**, which issues the actual physical commands to the wheel brakes.\n- The flight crew can **also send commands directly** to the hydraulic braking system to decelerate.\n\nThat last, direct route is not a detail. It later produces one of the scenarios in which a correct braking command is nonetheless not executed."
       },
       {
         "type": "tekst",
-        "titel": "Stap 1 — Unsafe Control Actions identificeren",
         "toetsstof": true,
-        "tekst": "De analyse begint voor safety en security op **precies dezelfde manier**. Er is niets extra’s nodig voor security tot aan het einde van het proces.\n\nEerst worden de mogelijke **onveilige of onbeveiligde besturingshandelingen** (unsafe control actions, UCA’s) geïdentificeerd. Dat gebeurt langs vier vaste kolommen:\n\n1. Niet leveren van de besturingshandeling veroorzaakt een hazard.\n2. Wel leveren veroorzaakt een hazard.\n3. Te vroeg, te laat, of in de verkeerde volgorde.\n4. Te vroeg gestopt, of te lang toegepast.\n\nDeze vier kolommen zijn de motor van STPA. Ze dwingen je alle manieren langs waarop een besturingshandeling fout kan gaan, ook wanneer er niets kapot is."
+        "tekst": "**Step 1 — Identifying unsafe control actions**\n\nThe analysis starts in **exactly the same way** for safety and for security. Nothing extra is needed for security until the end of the process.\n\nFirst the possible **unsafe or unsecure control actions** (UCAs) are identified, along four fixed columns:\n\n1. Not providing the control action causes a hazard.\n2. Providing it causes a hazard.\n3. Too early, too late, or in the wrong order.\n4. Stopped too soon, or applied too long.\n\nThese four columns are the engine of STPA. They force you through every way a control action can go wrong, including when nothing is broken."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Table 3.1 — Unsafe control actions for the BSCU (partial)**"
       },
       {
         "type": "tabel",
-        "titel": "Tabel 3.1 — Unsafe control actions voor de BSCU (gedeeltelijk)",
         "kop": [
           "Control action",
-          "Niet leveren veroorzaakt hazard",
-          "Wel leveren veroorzaakt hazard",
-          "Te vroeg / te laat / verkeerde volgorde",
-          "Te vroeg gestopt / te lang toegepast"
+          "Not providing causes hazard",
+          "Providing causes hazard",
+          "Too early / too late / wrong order",
+          "Stopped too soon / applied too long"
         ],
         "rijen": [
           [
             "Brake",
-            "UCA-1: BSCU Autobrake levert de Brake-besturingshandeling niet tijdens de landingsuitloop terwijl de BSCU is ingeschakeld [H-4.1]",
-            "UCA-2: BSCU Autobrake levert Brake tijdens een normale start [H-4.3, H-4.6]. UCA-5: BSCU Autobrake levert Brake met onvoldoende remniveau tijdens de landingsuitloop [H-4.1]. UCA-6: BSCU Autobrake levert Brake met directionele of asymmetrische remming tijdens de landingsuitloop [H-4.1, H-4.2]",
-            "UCA-3: BSCU Autobrake levert Brake te laat (meer dan TBD seconden) na touchdown [H-4.1]",
-            "UCA-4: BSCU Autobrake stopt te vroeg met Brake (voordat de TBD taxisnelheid is bereikt) wanneer het vliegtuig landt [H-4.1]"
+            "UCA-1: BSCU Autobrake does not provide the Brake control action during landing roll when the BSCU is armed [H-4.1]",
+            "UCA-2: BSCU Autobrake provides Brake during a normal take-off [H-4.3, H-4.6]. UCA-5: BSCU Autobrake provides Brake with an insufficient level of braking during landing roll [H-4.1]. UCA-6: BSCU Autobrake provides Brake with directional or asymmetrical braking during landing roll [H-4.1, H-4.2]",
+            "UCA-3: BSCU Autobrake provides Brake too late (more than TBD seconds) after touchdown [H-4.1]",
+            "UCA-4: BSCU Autobrake stops providing Brake too early (before TBD taxi speed is reached) when the aircraft is landing [H-4.1]"
           ]
         ],
-        "noot": "TBD betekent \"to be determined\": de precieze waarde wordt later in het ontwerp vastgesteld. Zes UCA’s uit één besturingshandeling, en dit is nog maar een gedeeltelijk voorbeeld."
+        "noot": "TBD means \"to be determined\": the precise value is fixed later in the design. Six UCAs out of one control action, and this is only a partial example."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Table 3.2 — Unsafe control actions for the flight crew (partial)**"
       },
       {
         "type": "tabel",
-        "titel": "Tabel 3.2 — Unsafe control actions voor de flight crew (gedeeltelijk)",
         "kop": [
           "Control action",
-          "Niet leveren veroorzaakt hazard",
-          "Wel leveren veroorzaakt hazard",
-          "Te vroeg / te laat / verkeerde volgorde",
-          "Te vroeg gestopt / te lang toegepast"
+          "Not providing causes hazard",
+          "Providing causes hazard",
+          "Too early / too late / wrong order",
+          "Stopped too soon / applied too long"
         ],
         "rijen": [
           [
             "Power Off BSCU",
-            "UCA-1: de crew schakelt de BSCU niet uit wanneer abnormaal WBS-gedrag optreedt [H-4.1, H-4.4, H-7]",
-            "UCA-2: de crew schakelt de BSCU uit terwijl de anti-skidfunctie nodig is en het WBS normaal functioneert [H-4.1, H-7]",
-            "De crew schakelt de BSCU te vroeg uit, voordat het autobrake- of anti-skidgedrag is voltooid terwijl dat nog nodig is [H-4.1, H-7]",
-            "N.v.t."
+            "UCA-1: the crew does not power off the BSCU when abnormal WBS behaviour occurs [H-4.1, H-4.4, H-7]",
+            "UCA-2: the crew powers off the BSCU when anti-skid functionality is needed and the WBS is functioning normally [H-4.1, H-7]",
+            "The crew powers off the BSCU too early, before the autobrake or anti-skid behaviour is completed while it is still needed [H-4.1, H-7]",
+            "Not applicable"
           ]
         ],
-        "noot": "De kern van deze tabel: mensen worden in STPA behandeld als **elke andere systeemcomponent**. Precies dezelfde vier kolommen, geen aparte menselijke-fout-categorie. WBS staat voor wheel braking system."
+        "noot": "The core of this table: in STPA, people are treated like **any other system component**. Exactly the same four columns, no separate human error category. WBS stands for wheel braking system."
       },
       {
         "type": "tekst",
-        "titel": "Stap 2 — Scenario’s die tot die UCA’s leiden",
         "toetsstof": true,
-        "tekst": "De volgende stap is het identificeren van de **scenario’s** die tot deze onveilige besturingshandelingen kunnen leiden. Die scenario’s omvatten de normale faalscenario’s die de traditionele technieken (FTA, FMECA, HAZOP) ook vinden, maar bijna altijd **meer dan dat**.\n\nWe nemen UCA-1: de autobrake activeert niet terwijl hij wel is ingesteld. Piloten kunnen het tijdens de touchdown druk hebben, daarom staat dit remsysteem toe dat ze automatisch remmen na touchdown instellen. De vraag van de hazardanalyse is dan: waaróm zou die onveilige besturingshandeling optreden?\n\n**Scenario 1.** UCA-1 kan optreden als de BSCU ten onrechte denkt dat het vliegtuig al tot stilstand is gekomen. Een mogelijke reden voor die onjuiste overtuiging is dat de ontvangen terugkoppeling tijdens de landingsuitloop **kortstondig nul snelheid** aangeeft. Die terugkoppeling kan tijdens anti-skidwerking even nul aangeven, ook al staat het vliegtuig niet stil.\n\n**Scenario 2.** De BSCU is ingeschakeld en het vliegtuig begint de landingsuitloop. De BSCU levert de remhandeling niet omdat hij ten onrechte denkt dat het vliegtuig nog in de lucht is en nog niet heeft geland. Die onjuiste overtuiging ontstaat als de touchdown-indicatie niet wordt ontvangen bij touchdown. Dat kan gebeuren door:\n- **aquaplaning** van de wielen door een natte baan, dus onvoldoende wielsnelheid;\n- **vertraagde** wielsnelheid- of gewicht-op-wielterugkoppeling door de gebruikte filtering;\n- **tegenstrijdige** lucht- of grondindicaties door een landing met zijwind;\n- **falen** van de wielsnelheidssensoren;\n- **falen** van de lucht/grond-schakelaars;\n- en meer.\n\nHet gevolg: er kan onvoldoende vertraging worden geleverd bij de landing [H-4.1]."
+        "tekst": "**Step 2 — Scenarios leading to those UCAs**\n\nThe next step is identifying the **scenarios** that can lead to these unsafe control actions. Those scenarios include the ordinary failure scenarios that the traditional techniques (FTA, FMECA, HAZOP) also find, but almost always **more than that**.\n\nTake UCA-1: the autobrake does not activate although it is armed. Pilots can be busy during touchdown, which is why this braking system lets them set automatic braking after touchdown. The hazard analysis question is then: **why** would that unsafe control action occur?\n\n**Scenario 1.** UCA-1 can occur if the BSCU incorrectly believes the aircraft has already come to a stop. One possible reason for that incorrect belief is that the feedback received during landing roll momentarily indicates **zero speed**. That feedback can briefly read zero during anti-skid operation, even though the aircraft is not stationary.\n\n**Scenario 2.** The BSCU is armed and the aircraft begins the landing roll. The BSCU does not provide the brake action because it incorrectly believes the aircraft is still airborne and has not yet landed. That incorrect belief arises when the touchdown indication is not received at touchdown. That can happen through:\n- **aquaplaning** of the wheels on a wet runway, so insufficient wheel speed;\n- **delayed** wheel speed or weight-on-wheels feedback due to the filtering used;\n- **conflicting** air and ground indications after a crosswind landing;\n- **failure** of the wheel speed sensors;\n- **failure** of the air/ground switches;\n- and more.\n\nThe consequence: insufficient deceleration may be provided on landing [H-4.1]."
       },
       {
         "type": "tekst",
-        "titel": "Stap 3 — En dan pas komt security erbij",
         "toetsstof": true,
-        "tekst": "Dit is het hart van het hoofdstuk. Om oorzaken die met security te maken hebben mee te nemen, hoeft er **maar één extra mogelijkheid** te worden overwogen:\n\nIdentificeer hoe de scenario’s, bijvoorbeeld de gespecificeerde terugkoppeling en andere informatie, kunnen worden beïnvloed door een **tegenstander**.\n\nPreciezer: hoe zou terugkoppeling en andere informatie kunnen worden **geïnjecteerd, vervalst (spoofed), gemanipuleerd (tampered), onderschept of gelekt** aan een tegenstander?\n\nVoor het scenario hierboven levert dat bijvoorbeeld deze extra oorzaken op:\n- een tegenstander **vervalst** terugkoppeling die onvoldoende wielsnelheid aangeeft;\n- de wielsnelheid raakt **vertraagd** doordat een tegenstander een **DoS-aanval** (denial of service) uitvoert;\n- correcte wielsnelheidsterugkoppeling wordt door een tegenstander **onderschept en geblokkeerd**;\n- een tegenstander **schakelt de voeding** van de wielsnelheidssensoren uit.\n\nMerk op dat deze vier regels precies dezelfde plek in de analyse innemen als de sensorstoring uit scenario 2. Dat is het bewijs van Levesons stelling: security is geen aparte analyse, maar een extra kolom oorzaken in dezelfde analyse."
+        "tekst": "**Step 3 — And only now does security come in**\n\nThis is the heart of the chapter. To include causes related to security, **only one extra possibility** has to be considered:\n\nIdentify how the scenarios, for example the specified feedback and other information, could be affected by an **adversary**.\n\nMore precisely: how could feedback and other information be **injected, spoofed, tampered with, intercepted or leaked** to an adversary?\n\nFor the scenario above, that yields these additional causes, for instance:\n- an adversary **spoofs** feedback indicating insufficient wheel speed;\n- wheel speed becomes **delayed** because an adversary carries out a **denial of service (DoS)** attack;\n- correct wheel speed feedback is **intercepted and blocked** by an adversary;\n- an adversary **powers off** the wheel speed sensors.\n\nNote that these four lines occupy exactly the same place in the analysis as the sensor failure from scenario 2. That is the proof of Leveson’s claim: security is not a separate analysis, but an extra column of causes within the same analysis."
       },
       {
         "type": "tekst",
-        "titel": "Stap 4 — Als de juiste actie wél wordt gegeven maar niet wordt uitgevoerd",
         "toetsstof": true,
-        "tekst": "Er moeten ook scenario’s worden gemaakt voor situaties waarin een **correcte en veilige besturingshandeling wél wordt geleverd maar niet wordt uitgevoerd**. In dit voorbeeld: de BSCU stuurt het remcommando, maar de remmen worden niet aangezet.\n\n**Scenario 3.** De BSCU stuurt een Brake-commando, maar de remmen worden niet aangezet omdat het wielremsysteem eerder in een **alternatieve remmodus** is gezet, waarbij de BSCU wordt omzeild. Gevolg: mogelijk onvoldoende vertraging bij de landing [H-4.1].\n\n**Scenario 4.** De BSCU stuurt een Brake-commando, maar de remmen worden niet aangezet door **onvoldoende hydraulische druk** (pompstoring, hydraulisch lek, enzovoort). Gevolg: [H-4.1].\n\n**Scenario 5.** De BSCU stuurt een Brake-commando, de remmen worden aangezet, maar het vliegtuig vertraagt niet door een **natte baan** waarop de wielen aquaplanen. Gevolg: [H-4.1].\n\nEn opnieuw wordt security erbij gehaald door dezelfde vraag te stellen: hoe kunnen tegenstanders met het besturingsproces interacteren om de onveilige besturingshandelingen te veroorzaken?\n\n**Scenario 6.** De BSCU stuurt een Brake-commando, maar de remmen worden niet aangezet omdat een tegenstander een **commando heeft geïnjecteerd** dat het wielremsysteem in een alternatieve remmodus zet. Gevolg: [H-4.1].\n\nZie de symmetrie: scenario 6 is de securityversie van scenario 3, met exact dezelfde gevolgen en grotendeels dezelfde beheersmaatregelen."
+        "tekst": "**Step 4 — When the correct action is provided but not executed**\n\nScenarios also have to be created for situations in which a **correct and safe control action is provided but not executed**. In this example: the BSCU sends the braking command, but the brakes are not applied.\n\n**Scenario 3.** The BSCU sends a Brake command, but the brakes are not applied because the wheel braking system was earlier placed in an **alternative braking mode** that bypasses the BSCU. Consequence: insufficient deceleration may be provided on landing [H-4.1].\n\n**Scenario 4.** The BSCU sends a Brake command, but the brakes are not applied due to **insufficient hydraulic pressure** (pump failure, hydraulic leak, and so on). Consequence: [H-4.1].\n\n**Scenario 5.** The BSCU sends a Brake command, the brakes are applied, but the aircraft does not decelerate because of a **wet runway** on which the wheels aquaplane. Consequence: [H-4.1].\n\nAnd once again security is brought in by asking the same question: how could adversaries interact with the control process to cause the unsafe control actions?\n\n**Scenario 6.** The BSCU sends a Brake command, but the brakes are not applied because an adversary **injected a command** placing the wheel braking system in an alternative braking mode. Consequence: [H-4.1].\n\nNotice the symmetry: scenario 6 is the security version of scenario 3, with exactly the same consequences and largely the same control measures."
       },
       {
         "type": "tekst",
-        "titel": "Stap 5 — Mensen krijgen dezelfde behandeling",
         "toetsstof": true,
-        "tekst": "STPA kan mensen op dezelfde manier behandelen als hardware en software. Tabel 3.2 laat de verantwoordelijkheid van de crew zien om de BSCU uit te schakelen.\n\n**Crew-UCA-1:** de crew schakelt de BSCU niet uit wanneer abnormaal WBS-gedrag optreedt [H-4.1, H-4.4].\n\n**Scenario 1 bij Crew-UCA-1:** abnormaal WBS-gedrag treedt op en er wordt een BSCU-foutindicatie aan de crew gegeven. De crew schakelt de BSCU niet uit, omdat de **operationele procedures niet voorschreven** dat de crew de BSCU moet uitschakelen bij het ontvangen van een BSCU-foutindicatie.\n\nLet op waar de oorzaak ligt: niet bij een onoplettende piloot, maar bij een gat in de procedure. Dat is typisch systeemtheoretisch denken. Leveson merkt op dat hier verfijnde human factors-overwegingen kunnen worden meegenomen, maar dat dat buiten de scope van dit korte hoofdstuk valt."
+        "tekst": "**Step 5 — People get the same treatment**\n\nSTPA can treat people in the same way as hardware and software. Table 3.2 shows the crew’s responsibility to power off the BSCU.\n\n**Crew-UCA-1:** the crew does not power off the BSCU when abnormal WBS behaviour occurs [H-4.1, H-4.4].\n\n**Scenario 1 for Crew-UCA-1:** abnormal WBS behaviour occurs and a BSCU fault indication is provided to the crew. The crew does not power off the BSCU because the **operating procedures did not specify** that the crew should power off the BSCU upon receiving a BSCU fault indication.\n\nNote where the cause lies: not with an inattentive pilot, but with a gap in the procedure. That is characteristic systems-theoretical thinking. Leveson notes that sophisticated human factors considerations could be included here, but that this falls outside the scope of this short chapter."
       },
       {
         "type": "tekst",
-        "titel": "3.5 Wat we uit dit betoog kunnen concluderen",
+        "titel": "3.5 What we can conclude from this argument",
         "toetsstof": true,
-        "tekst": "Safety en security kunnen met een **gemeenschappelijke aanpak en een geïntegreerd analyseproces** worden behandeld, mits ze passend worden gedefinieerd. De definities die gangbaar zijn in de defensie-industrie bieden die mogelijkheid.\n\nMaar er moeten ook andere beperkingen worden weggenomen om succes te versnellen bij deze twee eigenschappen, die volgens Leveson werkelijk **twee kanten van dezelfde medaille** zijn:\n\n1. **Safetyanalyse** moet worden uitgebreid tot voorbij betrouwbaarheidsanalyse.\n2. **Security** moet worden verbreed voorbij de huidige beperkte focus op informatiebeveiliging en het buitenhouden van indringers.\n3. Er is een **paradigmawissel** nodig: weg van ongevallen als keten van faalgebeurtenissen en hazardanalysetechnieken gebaseerd op betrouwbaarheidstheorie, richting causaliteitsmodellen en hazardanalysetechnieken gebaseerd op **systeemtheorie**."
+        "tekst": "Safety and security can be handled with a **common approach and an integrated analysis process**, provided they are defined appropriately. The definitions common in the defence industry offer that possibility.\n\nBut other limitations also have to be removed to speed up success with these two properties, which according to Leveson really are **two sides of the same coin**:\n\n1. **Safety analysis** must be extended beyond reliability analysis.\n2. **Security** must be broadened beyond its current narrow focus on information security and keeping intruders out.\n3. A **paradigm shift** is needed: away from accidents as a chain of failure events and hazard analysis techniques based on reliability theory, towards causality models and hazard analysis techniques based on **systems theory**."
       },
       {
         "type": "tekst",
-        "titel": "Werkt het ook echt?",
         "toetsstof": true,
-        "tekst": "Leveson beantwoordt die vraag zelf. De systeemtheoretische benadering van safety engineering en de bijbehorende geïntegreerde benadering van safety en security zijn vele malen **experimenteel vergeleken** met de huidige benaderingen, en ook **empirisch vergeleken** door bedrijven op hun eigen systemen.\n\nIn alle vergelijkingen, inmiddels zo’n honderd, zijn de systeemtheoretische en geïntegreerde benaderingen superieur gebleken aan de traditionele benaderingen. Ze worden momenteel gebruikt op kritische systemen over de hele wereld en in vrijwel elke industrie, en in het bijzonder in de **auto-industrie en de luchtvaart**, waar autonomie snel oprukt."
+        "tekst": "**Does it actually work?**\n\nLeveson answers that question herself. The systems-theoretical approach to safety engineering and the associated integrated approach to safety and security have been **compared experimentally** with current approaches many times, and also **compared empirically** by companies on their own systems.\n\nIn all those comparisons, by now around a hundred, the systems-theoretical and integrated approaches have proved superior to the traditional ones. They are currently used on critical systems worldwide and in almost every industry, and in particular in the **automotive industry and aviation**, where autonomy is advancing fast."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Key concepts from chapter 3**"
       },
       {
         "type": "begrippen",
-        "titel": "Kernbegrippen uit hoofdstuk 3",
         "items": [
           {
             "begrip": "Safety (Leveson)",
-            "definitie": "Vrijheid van ongevallen, dus van verliezen. De definitie beperkt de oorzaken op geen enkele manier, waardoor security er automatisch in zit."
+            "definitie": "Freedom from accidents, that is, from losses. The definition limits the causes in no way at all, so security is automatically included."
           },
           {
             "begrip": "Accident / mishap",
-            "definitie": "Elke ongewenste of ongeplande gebeurtenis die leidt tot een verlies, zoals gedefinieerd door de belanghebbenden van het systeem."
+            "definitie": "Any undesired or unplanned event that results in a loss, as defined by the system stakeholders."
           },
           {
             "begrip": "Hazard",
-            "definitie": "Een systeemtoestand of set condities die, samen met worst-case omgevingscondities, tot een verlies zal leiden. Altijd binnen de controle van de ontwerper."
+            "definitie": "A system state or set of conditions that, together with worst-case environmental conditions, will lead to a loss. Always within the designer’s control."
           },
           {
             "begrip": "Vulnerability",
-            "definitie": "De securityequivalent van hazard: een zwakte in een product waardoor het openstaat voor verlies."
+            "definitie": "The security equivalent of a hazard: a weakness in a product that leaves it open to a loss."
           },
           {
             "begrip": "Hazard analysis",
-            "definitie": "Het proces waarbij de causale scenario’s van hazards worden geïdentificeerd."
+            "definitie": "The process of identifying the causal scenarios of hazards."
           },
           {
-            "begrip": "Betrouwbaarheid",
-            "definitie": "De mate waarin componenten aan hun gestelde eisen voldoen. Geen geldige proxy meer voor safety: betrouwbare componenten kunnen samen tot een ongeval leiden, en onbetrouwbare systemen kunnen veilig zijn."
+            "begrip": "Reliability",
+            "definitie": "The degree to which components meet their stated requirements. No longer a valid proxy for safety: reliable components can jointly cause an accident, and unreliable systems can be safe."
           },
           {
             "begrip": "Mission assurance",
-            "definitie": "Het zeker stellen dat het systeem zijn missie vervult; verliezen op dit vlak worden in security vaak genegeerd doordat de focus op informatie ligt."
+            "definitie": "Ensuring the system fulfils its mission; losses of this kind are often ignored in security because the focus lies on information."
           },
           {
-            "begrip": "Zwitserse-kaasmodel",
-            "definitie": "De recentere naam voor het dominomodel: ongevallen als keten van faalgebeurtenissen. Verklaart hedendaagse ongevallen niet meer volledig."
+            "begrip": "Swiss cheese model",
+            "definitie": "The more recent name for the domino model: accidents as a chain of failure events. No longer fully explains today’s accidents."
           },
           {
             "begrip": "STAMP",
-            "definitie": "Theoretisch causaliteitsmodel dat safety en security behandelt als dynamisch besturingsprobleem: het afdwingen van constraints op systeemgedrag en op interacties tussen componenten."
+            "definitie": "Theoretical causality model treating safety and security as a dynamic control problem: enforcing constraints on system behaviour and on interactions between components."
           },
           {
             "begrip": "CAST",
-            "definitie": "Gereedschap op basis van STAMP voor het analyseren van de oorzaken van verliezen die al hebben plaatsgevonden."
+            "definitie": "A tool built on STAMP for analysing the causes of losses that have already occurred."
           },
           {
             "begrip": "STPA",
-            "definitie": "Gereedschap op basis van STAMP voor het identificeren van mogelijke oorzaken van verliezen die nog niet zijn opgetreden."
+            "definitie": "A tool built on STAMP for identifying possible causes of losses that have not yet occurred."
           },
           {
             "begrip": "Unsafe control action",
-            "definitie": "Een besturingshandeling die tot een hazard kan leiden, langs vier assen: niet leveren, wel leveren, verkeerde timing of volgorde, te vroeg gestopt of te lang toegepast."
+            "definitie": "A control action that can lead to a hazard, along four axes: not provided, provided, wrong timing or order, stopped too soon or applied too long."
           },
           {
             "begrip": "Constraint",
-            "definitie": "Een eis aan het gedrag van het systeem die moet worden afgedwongen, zoals: de centrifuges mogen nooit boven een maximaal toerental draaien."
+            "definitie": "A requirement on system behaviour that must be enforced, such as: the centrifuges must never spin above a maximum rotation speed."
           },
           {
-            "begrip": "V1-punt",
-            "definitie": "Het punt tijdens de start waarna remmen gevaarlijk is en doorstarten veiliger is dan afbreken."
+            "begrip": "V1 point",
+            "definitie": "The point during take-off after which braking is dangerous and continuing the take-off is safer than aborting."
           }
         ]
       },
       {
         "type": "waarschuwing",
-        "titel": "De drie klassieke misverstanden bij dit hoofdstuk",
-        "tekst": "**1. \"Leveson zegt dat er geen verschil is tussen safety en security.\"** Nee. Ze zegt dat intentionaliteit wél verschilt, maar dat het verschil **irrelevant is voor de analyse en de oplossing** zodra de gevolgen hetzelfde zijn.\n\n**2. \"Een hazard is een gevaar in de omgeving.\"** Nee. Een hazard is een **systeemtoestand** binnen de controle van de ontwerper. De berg is geen hazard; te dicht bij de berg vliegen is dat wel.\n\n**3. \"Als alle componenten betrouwbaar zijn, is het systeem veilig.\"** Nee. Perfect betrouwbare componenten kunnen samen tot een ongeval leiden, en een onbetrouwbaar systeem kan veilig zijn."
+        "tekst": "**The three classic misreadings of this chapter**\n\n**1. \"Leveson says there is no difference between safety and security.\"** No. She says intentionality does differ, but that the difference is **irrelevant for the analysis and the solution** as soon as the consequences are the same.\n\n**2. \"A hazard is a danger in the environment.\"** No. A hazard is a **system state** within the designer’s control. The mountain is not a hazard; flying too close to the mountain is.\n\n**3. \"If all components are reliable, the system is safe.\"** No. Perfectly reliable components can jointly cause an accident, and an unreliable system can be safe."
       },
       {
         "type": "citaat",
-        "tekst": "Er bestaat geen goede of foute definitie, alleen degene die we kiezen te gebruiken. De vraag is wat een definitie impliceert voor de oplossing van het probleem dat ermee wordt afgebakend.",
-        "bron": "Werkvertaling van de openingsstelling van Leveson, hoofdstuk 3",
+        "tekst": "There is no right or wrong definition, only the one we choose to use. The question is what a definition implies for solving the problem it delimits.",
+        "bron": "Working translation of Leveson’s opening claim, chapter 3",
         "jaar": "2020"
       }
     ]
   },
   {
     "id": "toepassen",
-    "titel": "Toepassen",
+    "titel": "Applying it",
     "blokken": [
       {
         "type": "stappen",
-        "titel": "Een STPA-analyse zelf uitvoeren, vereenvoudigd",
+        "titel": "Running an STPA analysis yourself, simplified",
         "items": [
           {
-            "titel": "Definieer de verliezen",
-            "tekst": "Wat willen de belanghebbenden absoluut niet verliezen? Denk breed: levens, apparatuur, milieu, de missie zelf, reputatie, juridische positie."
+            "titel": "Define the losses",
+            "tekst": "What do the stakeholders absolutely not want to lose? Think broadly: lives, equipment, the environment, the mission itself, reputation, legal position."
           },
           {
-            "titel": "Definieer de systeemhazards",
-            "tekst": "Welke systeemtoestanden leiden, samen met worst-case omgevingscondities, tot die verliezen? Blijf binnen wat de ontwerper kan beheersen. Nummer ze, zoals H-4.1, zodat je er later naar kunt verwijzen."
+            "titel": "Define the system hazards",
+            "tekst": "Which system states lead, together with worst-case environmental conditions, to those losses? Stay within what the designer can control. Number them, such as H-4.1, so you can refer back to them."
           },
           {
-            "titel": "Teken de functionele besturingsstructuur",
-            "tekst": "Wie of wat bestuurt wat, en welke terugkoppeling gaat waarheen? Neem mensen op als gewone componenten. Vergeet geen directe routes die de hoofdcontroller omzeilen."
+            "titel": "Draw the functional control structure",
+            "tekst": "Who or what controls what, and which feedback goes where? Include people as ordinary components. Do not forget direct routes that bypass the main controller."
           },
           {
-            "titel": "Loop de vier kolommen langs voor elke besturingshandeling",
-            "tekst": "Niet leveren, wel leveren, verkeerde timing of volgorde, te vroeg gestopt of te lang toegepast. Noteer bij elke UCA welke hazard hij veroorzaakt."
+            "titel": "Walk the four columns for every control action",
+            "tekst": "Not provided, provided, wrong timing or order, stopped too soon or applied too long. For each UCA, note which hazard it causes."
           },
           {
-            "titel": "Bedenk scenario’s waarom een UCA zou optreden",
-            "tekst": "Meestal draait het om een onjuiste overtuiging van de controller over de systeemtoestand, en om ontbrekende, vertraagde of foute terugkoppeling. Doe dit ook voor het geval dat de juiste actie wel wordt gegeven maar niet wordt uitgevoerd."
+            "titel": "Devise scenarios for why a UCA would occur",
+            "tekst": "Usually it comes down to an incorrect belief by the controller about the system state, and to missing, delayed or wrong feedback. Do this also for the case where the correct action is provided but not executed."
           },
           {
-            "titel": "Voeg pas nu de tegenstander toe",
-            "tekst": "Hoe kan informatie worden geïnjecteerd, vervalst, gemanipuleerd, onderschept of gelekt? Elke bestaande scenario-regel krijgt daarmee een securityvariant, op precies dezelfde plek."
+            "titel": "Only now add the adversary",
+            "tekst": "How could information be injected, spoofed, tampered with, intercepted or leaked? Every existing scenario line thereby gets a security variant, in exactly the same place."
           },
           {
-            "titel": "Vertaal scenario’s naar eisen en ontwerp",
-            "tekst": "De gevonden scenario’s worden safety- en securityeisen, en je ontwerpt ze het systeem uit. In het Stuxnet-geval: een mechanische begrenzer en een analoge meter."
+            "titel": "Translate scenarios into requirements and design",
+            "tekst": "The scenarios found become safety and security requirements, and you design them into the system. In the Stuxnet case: a mechanical interlock and an analogue gauge."
           }
         ]
       },
@@ -1712,71 +1704,71 @@ LESSTOF["intro-to-safety-security/h3"] = [
         "type": "oefening",
         "id": "h3-oef-1",
         "niveau": "basis",
-        "vraag": "Leg uit waarom Leveson de definitie uit de defensie-industrie kiest, en welk gevolg die keuze heeft voor de plaats van security.",
-        "antwoord": "Ze kiest die definitie omdat hij het meest inclusief is: safety is vrijheid van ongevallen, en een ongeval is elke ongewenste of ongeplande gebeurtenis die tot een verlies leidt zoals de belanghebbenden dat definiëren. Doorslaggevend is wat er níet in staat. De definitie maakt geen onderscheid tussen onbedoelde en opzettelijke oorzaken en beperkt de oorzaken op geen enkele manier. Daarmee valt security er automatisch binnen. Het gevolg is dat security geen apart analysetraject wordt maar een uitbreiding van de oorzaken binnen dezelfde hazardanalyse. Dat past bij haar strategie: definities zijn niet goed of fout, maar een beperkte definitie beperkt ook de oplossingsruimte, en een inclusieve definitie maakt een gemeenschappelijke aanpak mogelijk."
+        "vraag": "Explain why Leveson chooses the definition from the defence industry, and what that choice implies for where security sits.",
+        "antwoord": "She chooses it because it is the most inclusive: safety is freedom from accidents, and an accident is any undesired or unplanned event resulting in a loss as the stakeholders define it. What is decisive is what the definition does not say. It draws no distinction between unintentional and deliberate causes and limits the causes in no way at all. Security therefore falls inside it automatically. The consequence is that security does not become a separate analytical track but an extension of the causes within the same hazard analysis. That fits her strategy: definitions are not right or wrong, but a limited definition also limits the solution space, while an inclusive definition makes a common approach possible."
       },
       {
         "type": "oefening",
         "id": "h3-oef-2",
         "niveau": "basis",
-        "vraag": "Waarom is betrouwbaarheid ooit een bruikbare vervanger voor safety geweest, en waarom niet meer?",
-        "antwoord": "Toen systemen relatief eenvoudig waren, uitsluitend uit elektromechanische onderdelen bestonden en uitputtend te analyseren en te testen waren, konden ontwerpfouten grotendeels vóór ingebruikname worden gevonden en verwijderd. Wat overbleef als oorzaak van verlies waren vooral fysieke storingen, dus componentfalen. Daardoor was componentbetrouwbaarheid een handige proxy voor safety, en de klassieke technieken zoals FTA, HAZOP, event tree analysis en FMECA waren precies daarop gebouwd. Sinds ongeveer 1980, met computerbesturing en software in kritische systemen, is de complexiteit exponentieel gegroeid en kunnen systeemontwerpfouten niet meer vóór gebruik worden geëlimineerd. Bovendien hangen verliezen ook samen met human factors, management, procedures, regelgeving en verandering over tijd. Componenten kunnen perfect betrouwbaar zijn terwijl er toch ongevallen gebeuren, en een onbetrouwbaar systeem kan veilig zijn. De proxy is dus vervallen."
+        "vraag": "Why was reliability once a usable substitute for safety, and why is it no longer?",
+        "antwoord": "When systems were relatively simple, consisted purely of electromechanical parts and could be analysed and tested exhaustively, design flaws could largely be found and removed before the system went into use. What remained as a cause of loss were mainly physical failures, that is, component failures. Component reliability was therefore a handy proxy for safety, and the classic techniques such as FTA, HAZOP, event tree analysis and FMECA were built precisely on that. Since roughly 1980, with computer control and software in critical systems, complexity has grown exponentially and system design errors can no longer be eliminated before use. Moreover, losses are also connected to human factors, management, procedures, regulation and change over time. Components can be perfectly reliable while accidents still happen, and an unreliable system can be safe. The proxy has therefore lapsed."
       },
       {
         "type": "oefening",
         "id": "h3-oef-3",
         "niveau": "gevorderd",
-        "vraag": "Vergelijk de rol van intentionaliteit bij Leveson (h3) en bij Blokland en Reniers (h2). Kunnen ze allebei gelijk hebben?",
-        "antwoord": "Blokland en Reniers maken intentionaliteit tot het eerste onderscheidingsniveau: zijn de negatieve effecten op doelstellingen intentioneel, dan is de term security passend en anders niet. Leveson stelt dat intentionaliteit weliswaar verschilt, maar niet erg belangrijk is bij analyse en preventie, omdat het verschil irrelevant is zodra de gevolgen hetzelfde zijn; het voegt alleen extra causale scenario’s toe. Ze kunnen allebei gelijk hebben omdat ze verschillende vragen beantwoorden. Blokland en Reniers werken conceptueel en semantisch: zij zoeken een woordenschat waarmee je situaties kunt beschrijven en onderscheiden, en dan is intentionaliteit onderscheidend. Leveson werkt technisch en methodologisch: zij zoekt de aanpak die de meeste verliezen voorkomt, en dan telt alleen of de beheersmaatregel verandert. Waar het echt schuurt is bij het derde niveau van Blokland en Reniers, de aard van de onzekerheid: als een tegenstander zijn tactiek aanpast, is de verzameling causale scenario’s niet stabiel, en dat is een reëel bezwaar tegen het idee dat je met een paar extra scenario’s klaar bent."
+        "vraag": "Compare the role of intentionality in Leveson (ch3) and in Blokland and Reniers (ch2). Can both be right?",
+        "antwoord": "Blokland and Reniers make intentionality their first level of distinction: if the negative effects on objectives are intentional, the term security is appropriate, and otherwise it is not. Leveson holds that intentionality does differ but is not very important in analysis and prevention, because the difference is irrelevant once the consequences are the same; it only adds extra causal scenarios. Both can be right because they answer different questions. Blokland and Reniers work conceptually and semantically: they want a vocabulary with which to describe and distinguish situations, and there intentionality is distinguishing. Leveson works technically and methodologically: she wants the approach that prevents the most losses, and there the only thing that counts is whether the control measure changes. Where it genuinely rubs is at Blokland and Reniers’ third level, the nature of the uncertainty: if an adversary adapts their tactics, the set of causal scenarios is not stable, and that is a real objection to the idea that a few extra scenarios settle the matter."
       },
       {
         "type": "oefening",
         "id": "h3-oef-4",
         "niveau": "gevorderd",
-        "vraag": "Neem scenario 2 uit het remvoorbeeld (de touchdown-indicatie wordt niet ontvangen). Toon aan dat de securityoorzaken op precies dezelfde plek in de analyse passen, en leg uit waarom dat Levesons stelling ondersteunt.",
-        "antwoord": "In scenario 2 gelooft de BSCU ten onrechte dat het vliegtuig nog in de lucht is, doordat de touchdown-indicatie niet binnenkomt. De onbedoelde oorzaken zijn aquaplaning, vertraging door filtering, tegenstrijdige lucht- en grondindicaties bij zijwind, en falen van wielsnelheidssensoren of lucht/grond-schakelaars. De securityoorzaken zijn dat een tegenstander onvoldoende wielsnelheid vervalst, dat wielsnelheid vertraagt door een DoS-aanval, dat correcte terugkoppeling wordt onderschept en geblokkeerd, of dat de voeding van de sensoren wordt uitgeschakeld. Merk op dat elke securityoorzaak een tegenhanger heeft in de lijst met onbedoelde oorzaken: spoofing tegenover een sensorstoring, DoS tegenover filtervertraging, uitschakelen van de voeding tegenover sensoruitval. Ze veroorzaken dezelfde onjuiste overtuiging bij dezelfde controller, leiden tot dezelfde UCA en dezelfde hazard H-4.1. Daarmee ondersteunt het Levesons stelling: security vergt geen tweede analyse, maar één extra vraag aan het einde van de bestaande analyse, namelijk hoe informatie kan worden geïnjecteerd, vervalst, gemanipuleerd, onderschept of gelekt."
+        "vraag": "Take scenario 2 from the braking example (the touchdown indication is not received). Show that the security causes fit in exactly the same place in the analysis, and explain why that supports Leveson’s claim.",
+        "antwoord": "In scenario 2 the BSCU incorrectly believes the aircraft is still airborne, because the touchdown indication does not arrive. The unintentional causes are aquaplaning, delay caused by filtering, conflicting air and ground indications in a crosswind, and failure of the wheel speed sensors or the air/ground switches. The security causes are that an adversary spoofs insufficient wheel speed, that wheel speed is delayed by a DoS attack, that correct feedback is intercepted and blocked, or that the sensors are powered off. Note that each security cause has a counterpart in the list of unintentional causes: spoofing against sensor failure, DoS against filter delay, powering off against sensor loss. They produce the same incorrect belief in the same controller, lead to the same UCA and the same hazard H-4.1. That supports Leveson’s claim: security requires no second analysis, but one extra question at the end of the existing one, namely how information could be injected, spoofed, tampered with, intercepted or leaked."
       },
       {
         "type": "oefening",
         "id": "h3-oef-5",
         "niveau": "gevorderd",
-        "vraag": "Waarom noemt Leveson het formuleren van hazards als systeemtoestanden een praktische keuze, en niet een filosofisch standpunt?",
-        "antwoord": "Omdat het uiteindelijke doel eliminatie van verliezen is, terwijl sommige condities die tot verlies leiden buiten de macht van ontwerper en gebruiker liggen en dus buiten de grens van het ontworpen systeem vallen. Je kunt het weer en de berg niet wegnemen. Als je hazards zou definiëren als die externe condities, produceert je analyse conclusies waar niemand iets mee kan. Door hazards te definiëren als systeemtoestanden die je nooit wilt laten optreden, wordt elke gevonden hazard automatisch een toestand waar je iets aan kunt doen, in ontwerp of in operatie. Dat maakt de definitie een instrument voor handelen in plaats van een beschrijving van de wereld, en dat is precies de lijn die Leveson in paragraaf 3.1 uitzet: kies de definitie die de effectiefste oplossing mogelijk maakt."
+        "vraag": "Why does Leveson call the framing of hazards as system states a practical choice rather than a philosophical position?",
+        "antwoord": "Because the ultimate goal is eliminating losses, while some conditions leading to loss lie beyond the power of designer and operator and therefore outside the boundary of the designed system. You cannot remove the weather or the mountain. If you defined hazards as those external conditions, your analysis would produce conclusions nobody can act on. By defining hazards as system states you never want to occur, every hazard found automatically becomes a state you can do something about, in design or in operations. That makes the definition an instrument for action rather than a description of the world, and that is exactly the line Leveson sets out in section 3.1: choose the definition that makes the most effective solution possible."
       }
     ]
   },
   {
     "id": "checken",
-    "titel": "Checken",
+    "titel": "Check yourself",
     "blokken": [
       {
         "type": "quiz",
-        "titel": "Check jezelf op hoofdstuk 3",
+        "titel": "Check yourself on chapter 3",
         "vragen": [
           {
-            "vraag": "Hoe definieert Leveson safety?",
+            "vraag": "How does Leveson define safety?",
             "opties": [
-              "De afwezigheid van risico",
-              "Vrijheid van ongevallen, dus van verliezen",
-              "De betrouwbaarheid van alle componenten",
-              "Het vermogen van het systeem de omgeving niet te schaden"
+              "The absence of risk",
+              "Freedom from accidents, that is, from losses",
+              "The reliability of all components",
+              "The ability of the system not to harm the environment"
             ],
             "juist": 1,
-            "uitleg": "En een ongeval is elke ongewenste of ongeplande gebeurtenis die tot een verlies leidt, zoals gedefinieerd door de belanghebbenden. De definitie beperkt de oorzaken **niet**, dus security zit erin."
+            "uitleg": "And an accident is any undesired or unplanned event resulting in a loss, as defined by the stakeholders. The definition does **not** limit the causes, so security is included."
           },
           {
-            "vraag": "Wat is volgens Leveson een hazard?",
+            "vraag": "What, according to Leveson, is a hazard?",
             "opties": [
-              "Een gevaarlijk verschijnsel in de omgeving",
-              "Een systeemtoestand die samen met worst-case omgevingscondities tot verlies leidt",
-              "Een gebeurtenis met letsel tot gevolg",
-              "Een kwetsbaarheid in software"
+              "A dangerous phenomenon in the environment",
+              "A system state that, together with worst-case environmental conditions, leads to a loss",
+              "An event resulting in injury",
+              "A weakness in software"
             ],
             "juist": 1,
-            "uitleg": "Hazards liggen binnen de controle van de ontwerper. Niet de berg, maar het vliegtuig dat de minimale afstand tot de berg schendt."
+            "uitleg": "Hazards lie within the designer’s control. Not the mountain, but the aircraft violating minimum separation from the mountain."
           },
           {
-            "vraag": "Wat is in security het equivalent van een hazard?",
+            "vraag": "What is the security equivalent of a hazard?",
             "opties": [
               "Threat",
               "Vulnerability",
@@ -1784,112 +1776,112 @@ LESSTOF["intro-to-safety-security/h3"] = [
               "Exploit"
             ],
             "juist": 1,
-            "uitleg": "Een zwakte in een product die het openstelt voor verlies. Leveson noemt hazard en vulnerability in essentie equivalent."
+            "uitleg": "A weakness in a product that leaves it open to a loss. Leveson calls hazard and vulnerability essentially equivalent."
           },
           {
-            "vraag": "Welke stelling over betrouwbaarheid klopt volgens dit hoofdstuk?",
+            "vraag": "Which statement about reliability is correct according to this chapter?",
             "opties": [
-              "Betrouwbare componenten garanderen een veilig systeem",
-              "Een onbetrouwbaar systeem kan veilig zijn",
-              "Safety is een deelverzameling van betrouwbaarheid",
-              "Betrouwbaarheid is voor hardware en safety voor software"
+              "Reliable components guarantee a safe system",
+              "An unreliable system can be safe",
+              "Safety is a subset of reliability",
+              "Reliability is for hardware and safety for software"
             ],
             "juist": 1,
-            "uitleg": "En andersom: perfect betrouwbare componenten kunnen samen tot ongevallen leiden. Verliezen voorkom je niet door alleen storingen te voorkomen."
+            "uitleg": "And the other way round: perfectly reliable components can jointly cause accidents. You do not prevent losses by preventing failures alone."
           },
           {
-            "vraag": "Wat was in het Stuxnet-geval de constraint die moest worden afgedwongen?",
+            "vraag": "In the Stuxnet case, what was the constraint that had to be enforced?",
             "opties": [
-              "De software mag niet worden aangepast",
-              "De centrifuges mogen nooit boven een maximaal toerental draaien",
-              "Er mag geen usb-stick worden aangesloten",
-              "De operator moet altijd bevestigen"
+              "The software must not be modified",
+              "The centrifuges must never spin above a maximum rotation speed",
+              "No USB stick may be connected",
+              "The operator must always confirm"
             ],
             "juist": 1,
-            "uitleg": "De hazard was dat de centrifuges beschadigen door te snel te draaien; de hazardous control action was een verhoog-snelheidcommando bij al maximaal toerental."
+            "uitleg": "The hazard was the centrifuges being damaged by spinning too fast; the hazardous control action was an increase-speed command at already maximum speed."
           },
           {
-            "vraag": "Waarom maakt het bij Stuxnet weinig uit of de fout opzettelijk was?",
+            "vraag": "Why does it matter little in Stuxnet whether the error was deliberate?",
             "opties": [
-              "Omdat de dader toch niet te vinden was",
-              "Omdat de effectiefste beheersmaatregelen in beide gevallen dezelfde zijn",
-              "Omdat opzet juridisch niet bewijsbaar is",
-              "Omdat de schade beperkt bleef"
+              "Because the perpetrator could not be found anyway",
+              "Because the most effective control measures are the same in both cases",
+              "Because intent cannot be proven legally",
+              "Because the damage stayed limited"
             ],
             "juist": 1,
-            "uitleg": "Bijvoorbeeld een mechanische begrenzer of een analoge toerenteller. Intentionaliteit voegt vooral **extra causale scenario’s** toe."
+            "uitleg": "For instance a mechanical interlock or an analogue tachometer. Intentionality mainly adds **extra causal scenarios**."
           },
           {
-            "vraag": "Wat is STAMP precies?",
+            "vraag": "What exactly is STAMP?",
             "opties": [
-              "Een analysemethode",
-              "Een theoretisch causaliteitsmodel",
-              "Een softwarepakket",
-              "Een certificeringsnorm"
+              "An analysis method",
+              "A theoretical causality model",
+              "A software package",
+              "A certification standard"
             ],
             "juist": 1,
-            "uitleg": "STAMP is het model. CAST en STPA zijn de gereedschappen die erop zijn gebouwd."
+            "uitleg": "STAMP is the model. CAST and STPA are the tools built on it."
           },
           {
-            "vraag": "Waarvoor gebruik je CAST?",
+            "vraag": "What do you use CAST for?",
             "opties": [
-              "Voor verliezen die nog kunnen gebeuren",
-              "Voor verliezen die al hebben plaatsgevonden",
-              "Voor het certificeren van software",
-              "Voor het trainen van operators"
+              "For losses that may still happen",
+              "For losses that have already occurred",
+              "For certifying software",
+              "For training operators"
             ],
             "juist": 1,
-            "uitleg": "CAST kijkt achteruit, STPA kijkt vooruit. De oorzaken die CAST vindt kunnen zowel onbedoeld als opzettelijk zijn."
+            "uitleg": "CAST looks backwards, STPA looks forward. The causes CAST finds may be unintentional as well as deliberate."
           },
           {
-            "vraag": "Langs welke vier assen worden unsafe control actions geïdentificeerd?",
+            "vraag": "Along which four axes are unsafe control actions identified?",
             "opties": [
-              "Mens, machine, methode, milieu",
-              "Kans, gevolg, blootstelling, duur",
-              "Niet leveren, wel leveren, verkeerde timing of volgorde, te vroeg gestopt of te lang toegepast",
-              "Ontwerp, bouw, gebruik, onderhoud"
+              "People, machine, method, environment",
+              "Likelihood, consequence, exposure, duration",
+              "Not provided, provided, wrong timing or order, stopped too soon or applied too long",
+              "Design, build, use, maintenance"
             ],
             "juist": 2,
-            "uitleg": "Deze vier kolommen zijn de motor van STPA, en ze gelden ook voor menselijke controllers zoals de flight crew."
+            "uitleg": "These four columns are the engine of STPA, and they apply to human controllers such as the flight crew too."
           },
           {
-            "vraag": "Wanneer komt security in het STPA-proces aan bod?",
+            "vraag": "When does security enter the STPA process?",
             "opties": [
-              "Meteen bij het definiëren van de verliezen",
-              "Bij het tekenen van de besturingsstructuur",
-              "Pas aan het einde, als extra vraag bij de scenario’s",
-              "In een aparte parallelle analyse"
+              "Immediately, when defining the losses",
+              "When drawing the control structure",
+              "Only at the end, as an extra question about the scenarios",
+              "In a separate parallel analysis"
             ],
             "juist": 2,
-            "uitleg": "De analyse verloopt identiek tot het einde. Dan komt er één vraag bij: hoe kan informatie worden geïnjecteerd, vervalst, gemanipuleerd, onderschept of gelekt?"
+            "uitleg": "The analysis runs identically until the end. Then one question is added: how could information be injected, spoofed, tampered with, intercepted or leaked?"
           },
           {
-            "vraag": "Wat verwijt Leveson het Zwitserse-kaasmodel?",
+            "vraag": "What is Leveson’s objection to the Swiss cheese model?",
             "opties": [
-              "Het is te ingewikkeld",
-              "Het verklaart de oorzaken van hedendaagse ongevallen niet meer volledig",
-              "Het houdt geen rekening met menselijk falen",
-              "Het is nooit empirisch getoetst"
+              "It is too complicated",
+              "It no longer fully explains the causes of today’s accidents",
+              "It ignores human failure",
+              "It has never been tested empirically"
             ],
             "juist": 1,
-            "uitleg": "Het model ziet ongevallen als een keten van faalgebeurtenissen, maar onze technische systemen zijn totaal anders dan die van vroeger."
+            "uitleg": "The model sees accidents as a chain of failure events, but our engineered systems are utterly different from those of the past."
           },
           {
-            "vraag": "Waarom is de focus op informatiebeveiliging volgens Leveson te smal?",
+            "vraag": "Why is the focus on information security too narrow, according to Leveson?",
             "opties": [
-              "Informatie is niet waardevol",
-              "Belangrijke verliezen betreffen mission assurance, zoals het wegvallen van elektriciteitsproductie",
-              "Cybersecurity is te duur",
-              "Informatiebeveiliging is al opgelost"
+              "Information is not valuable",
+              "Important losses concern mission assurance, such as the loss of electricity production",
+              "Cybersecurity is too expensive",
+              "Information security has already been solved"
             ],
             "juist": 1,
-            "uitleg": "En bovendien blijkt het vrijwel onmogelijk mensen buiten verbonden systemen te houden, dus indringers weren is geen effectieve oplossingsstrategie."
+            "uitleg": "And besides, keeping people out of connected systems has proved almost impossible, so excluding intruders is not an effective solution strategy."
           }
         ]
       },
       {
         "type": "bronnen",
-        "titel": "Bronnen bij hoofdstuk 3",
+        "titel": "Sources for chapter 3",
         "items": [
           {
             "apa": "Leveson, N. (2020). Safety and security are two sides of the same coin. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 17–27). Springer."
@@ -1908,21 +1900,19 @@ LESSTOF["intro-to-safety-security/h3"] = [
       },
       {
         "type": "preview",
-        "titel": "Van systeemtheorie naar speltheorie",
+        "titel": "From systems theory to game theory",
         "vakId": "intro-to-safety-security",
         "lesId": "h4",
-        "tekst": "Leveson lost het securityprobleem op binnen de safetyanalyse. Wipf pakt in hoofdstuk 4 juist het punt op dat Blokland en Reniers maakten: als de tegenstander meedenkt, heb je speltheorie nodig.",
+        "tekst": "Leveson solves the security problem inside the safety analysis. In chapter 4 Wipf picks up exactly the point Blokland and Reniers made: if the adversary thinks along with you, you need game theory.",
         "punten": [
-          "Een empirische casus uit lichte helikopteroperaties",
-          "Wat speltheoretische modellen wel en niet kunnen",
-          "Overeenkomsten en verschillen tussen beoordelingstechnieken"
+          "An empirical case from light helicopter operations",
+          "What game-theoretical models can and cannot do",
+          "Similarities and differences between assessment techniques"
         ]
       }
     ]
   }
 ];
-
-
 LESSTOF["intro-to-safety-security/h4"] = [
 { id: "voor", titel: "Voorbereiding", blokken: [
 { type: "leerdoelen", items: ["Uitleggen waarom safety en security in de luchtvaart traditioneel gescheiden zijn, en welke ICAO-definities daaraan ten grondslag liggen", "De dreigingsmatrix van Wipf reproduceren en uitleggen waarom er twee lege cellen in zitten", "De drie aanvalsvormen op satellietnavigatie (jamming, meaconing, spoofing) onderscheiden en met elkaar vergelijken op kosten, kennis en pakkans", "De drie kwaliteitsmaten van een navigatiedienst noemen: reliability, availability en integrity", "Uitleggen wat een speltheoretische benadering is en welke elementen je nodig hebt om een echte situatie als spel te modelleren", "Het HEMS-voorbeeld ontleden in spelers, strategieën, situaties en uitkomsten", "Uitleggen waarom Wipf stelt dat safety en security alleen verschillen in het aantal spelers", "De paradox verklaren waarom kwetsbare infrastructuur zo zelden wordt aangevallen"] },
@@ -1998,56 +1988,550 @@ LESSTOF["intro-to-safety-security/h4"] = [
 ];
 
 LESSTOF["intro-to-safety-security/h5"] = [
-{ id: "voor", titel: "Voorbereiding", blokken: [
-{ type: "leerdoelen", items: ["De feiten van de aanslag op In Amenas reproduceren en uitleggen waarom die aanslag het begrip security culture op de kaart zette", "Uitleggen waarom volgens Jore niet intentionaliteit maar kwaadwillende intentie het onderscheid tussen safety en security maakt", "De vijf kenmerken van een sterke security culture uit het Statoil-rapport noemen", "De acht criteria van Gerring voor conceptuele adequaatheid opsommen en toepassen", "Per criterium beoordelen hoe security culture scoort, en de conclusie van Jore reproduceren", "Uitleggen waarom begrippen als just culture en zwakke signalen niet zomaar van safety naar security zijn over te zetten", "Het onderscheid uitleggen tussen \"apart begrijpen\" en \"apart behandelen\"", "Beargumenteren waarom Jore het begrip ondanks alle bezwaren toch wil behouden"] },
-{ type: "uitleg", titel: "Wie is Jore en wat doet dit hoofdstuk", tekst: "**Sissel Jore** is verbonden aan de Universiteit van Stavanger in Noorwegen, dezelfde universiteit als redacteur Pettersen Gould. Ze is gespecialiseerd in security in de petroleumsector en in de vraag hoe je security als wetenschappelijk begrip afbakent.\n\nDit hoofdstuk hoort bij de **conceptuele** invalshoek van het boek, samen met Blokland en Reniers (hoofdstuk 2). Maar waar zij definities bouwen, doet Jore iets anders: ze pakt een begrip dat in de praktijk al wordt gebruikt, **security culture**, en toetst of het stevig genoeg is.\n\nHaar aanpak is een goed voorbeeld van hoe je een begrip wetenschappelijk beoordeelt. Ze gebruikt een vaste checklist, de acht criteria van Gerring, en loopt die stuk voor stuk langs. Dat is een methode die je zelf kunt gebruiken bij elk modewoord dat je in je vakgebied tegenkomt." },
-{ type: "slimmer", titel: "De vraag die in de titel zit", tekst: "De titel van het hoofdstuk is een vraag: dual or distinct phenomena? Dus: zijn safety culture en security culture **twee kanten van hetzelfde** (dual), of **twee verschillende dingen** (distinct)?\n\nHet antwoord van Jore is subtiel, en het is de zin die je uit dit hoofdstuk moet meenemen:\n\n**Security- en safetycultuur moeten apart worden begrepen, maar in de praktijk niet apart worden behandeld.**\n\nLees het hoofdstuk met die zin in je hoofd. Alles wat Jore doet is uitleggen waarom beide helften van die zin kloppen." }
-] },
-{ id: "kern", titel: "Kernstof", blokken: [
-{ type: "tekst", titel: "5.1 In Amenas: de feiten", toetsstof: true, tekst: "Het hoofdstuk opent met een casus die je moet kennen.\n\nOp **16 januari 2013** vond de grootste terroristische aanslag in de geschiedenis van de olie- en gasindustrie plaats, bij de Algerijnse oliefaciliteit **In Amenas**. Tweeëndertig zwaarbewapende terroristen vielen de installatie aan, waar bijna **800 werknemers** aanwezig waren. Velen werden gegijzeld in een belegering die **vier dagen** duurde, midden in de Algerijnse woestijn. De terroristen doodden **40 mensen uit 10 landen**, onder wie **vijf medewerkers van Statoil**, het Noorse staatsoliebedrijf dat tegenwoordig Equinor heet.\n\nNa afloop stelde Statoil een **onderzoekscommissie** in om de relevante keten van gebeurtenissen vast te stellen en om Statoil in staat te stellen zijn security, risicobeoordeling en crisisparaatheid te verbeteren.\n\nDe conclusie van het onderzoeksrapport: Statoil had wel een **security risk management-systeem** ingericht, maar de algehele **capaciteit en cultuur** van het bedrijf moesten worden versterkt om te kunnen reageren op securityrisico's in volatiele en complexe omgevingen. Het rapport beschreef **security culture** als een belangrijke verklarende factor achter de afloop van de aanslag, én als een belangrijk instrument om security te verbeteren." },
-{ type: "waarschuwing", titel: "Waarom deze zin het hele hoofdstuk draagt", tekst: "Let goed op wat het rapport doet. Het gebruikt security culture op **twee manieren tegelijk**:\n\n1. als **verklaring** van wat er is misgegaan (het ontbrak eraan, daarom liep het zo af),\n2. als **oplossing** voor de toekomst (bouw het op, dan gaat het beter).\n\nDat is een zware belasting voor een begrip. Als je een aanslag met veertig doden deels verklaart uit het ontbreken van iets, en vervolgens bedrijven opdraagt dat iets op te bouwen, dan moet je wel heel precies weten wat dat iets is en hoe je het meet. En precies daar wringt het, zoals hoofdstuk 1 al aankondigde: het begrip wordt toegepast met weinig technische onderbouwing." },
-{ type: "tekst", titel: "Waarom security culture opeens overal opdook", toetsstof: true, tekst: "Voor veel bedrijven vormen kwaadwillende dreigingen zoals terrorisme een **nieuwe context**. Het managen van zulke dreigingen wordt vaak \"security\" genoemd, in tegenstelling tot \"safety\", dat verwijst naar het managen van risico's die **niet** worden veroorzaakt door actoren met de intentie om schade toe te brengen.\n\nMet die nieuwe verantwoordelijkheid voor security in de private sector zijn nieuwe managementconcepten en instrumenten ontstaan die organisaties moeten helpen die rol te vervullen: **security risk management-systemen, security risk analysis, en security culture**.\n\nDe gemene deler van al die concepten: ze hebben allemaal hun **tegenhanger in safetymanagement**, en worden nu overgenomen en toegepast op het securitydomein.\n\nMaar, waarschuwt Jore meteen, het overzetten van concepten naar een nieuw gebied is niet per se onproblematisch. Vergeleken met safety is security een relatief jong academisch veld, en \"security culture\" is een term die **zelden in de literatuur** voorkomt.\n\nToch heeft de aanbeveling in het Statoil-rapport geleid tot een sterk verhoogde aandacht voor security culture in de petroleumsector. Volgens een studie uit 2015 paste **de helft** van de onderzochte Noorse petroleumbedrijven security culture actief toe als middel voor securityverbetering." },
-{ type: "tekst", titel: "De vragen van het hoofdstuk", toetsstof: true, tekst: "Zowel safety als security zijn elementen van de **organisatiecultuur**. Hoe moeten organisaties zich dan verhouden tot dit nieuwe begrip security culture?\n\nJore stelt drie vragen:\n\n1. Hoe **adequaat** is het begrip security culture?\n2. Welke **relatie** bestaat er tussen safety culture en security culture?\n3. Moeten die twee worden gezien als een **dualiteit** of als **gescheiden**?\n\nDe adequaatheid wordt besproken aan de hand van hoe het begrip wordt gebruikt in het In Amenas-rapport, met de **criteria voor conceptuele goedheid van Gerring** als meetlat." },
-{ type: "tekst", titel: "5.2 Het echte onderscheid: kwaadwillende intentie", toetsstof: true, tekst: "Als security culture moet worden gezien als iets anders dan safety culture, dan moet je eerst weten wat de domeinen safety en security inhouden, en waar ze elkaar raken.\n\nIn het dagelijks gebruik roepen \"safety\" en \"security\" allebei associaties op van vrijheid van dreiging en schade. Hoewel ze vaak als synoniem worden behandeld, hebben ze ook verschillende betekenissen. Vaak worden ze gebruikt om onderscheid te maken tussen het managen van gevaren zonder kwaadwillende intentie (safety) en het managen van dreigingen van rationele mensen mét kwaadwillende intentie, zoals sabotage, hacken of terrorisme (security).\n\nEn nu komt de zet die Jore onderscheidt van Blokland en Reniers. Zij stelt:\n\n**Het is kwaadwillende intentie die safety van security onderscheidt, en niet intentionaliteit als zodanig, want intentionaliteit speelt ook een rol bij safety.**\n\nHaar argument gaat in drie stappen:\n\n1. De literatuur over organisatieveiligheid erkent al lang dat ongevallen niet willekeurig zijn, maar het gevolg van onvoldoende middelen, organisatie en planning.\n2. Menselijke **intentie** speelt soms een rol bij het veroorzaken van ongevallen: werknemers wijken soms **opzettelijk** af van standaardprocedures. Organisaties moeten robuuste maatregelen ontwerpen die daar rekening mee houden.\n3. Daaruit volgt dat **crimineel gedrag niet alleen bij security hoort**. Safety omvat ook rationele actoren die bewust regels overtreden, bijvoorbeeld door drugsgebruik of door geen veiligheidsuitrusting te dragen.\n\nConclusie: **noch intentionaliteit, noch criminaliteit** is voldoende om safety van security te onderscheiden. Het verschil moet dan zitten in de **kwaadwillende intentie van de actor die daadwerkelijk van plan is schade te veroorzaken**." },
-{ type: "uitleg", titel: "Waarom dit een scherpere as is dan die van hoofdstuk 1", tekst: "Hoofdstuk 1 gaf je de as intentionaliteit: deed iemand het expres? Jore laat zien dat die as te grof is.\n\nNeem een werknemer die expres zijn veiligheidsbril niet draagt omdat hij die irritant vindt. Dat is intentioneel. Het is zelfs een overtreding. Maar het is geen security, want hij wil **niemand schade toebrengen**. Hij wil alleen van die bril af.\n\nNeem een werknemer die expres zijn bril niet draagt om een ongeluk te veroorzaken en het bedrijf te treffen. Dat is dezelfde handeling, maar nu security.\n\nHet verschil zit dus niet in \"expres\" maar in \"expres om te schaden\". Dat is de precisie die Jore toevoegt. Onthoud het als: **intentie is niet genoeg, het gaat om intentie tot schade.**" },
-{ type: "tekst", titel: "Twee eigenschappen van security die alles anders maken", toetsstof: true, tekst: "Jore noemt twee kenmerken van security die het domein fundamenteel anders maken dan safety.\n\n**Ten eerste:** security wordt vaak bedreigd door **externe dreigingen** die meestal buiten het vermogen van organisaties liggen om ze volledig te kennen en te hanteren. Je kunt je eigen fabriek tot in detail kennen. Je kunt de plannen van een terreurgroep niet kennen.\n\n**Ten tweede:** zulke risico's zijn **niet zo direct gekoppeld aan winst en productiesysteem** als safetyrisico's. Een ongeval op de werkvloer raakt direct je productie en je kosten. Een aanslag is daar veel losser van.\n\nDaaruit volgt een harde constatering: **zelfs een bedrijf met een optimale security culture kan nog steeds het doelwit van een terreuraanslag worden en grote schade lijden.**\n\nEn dan de kritische vraag waarmee Jore de paragraaf afsluit: een gijzeling of terreuraanslag is een gebeurtenis met een **extreem lage waarschijnlijkheid**. Is het dan wel zinvol om het begrip cultuur toe te passen op zulke extreme gebeurtenissen, op dezelfde manier als bij safety?" },
-{ type: "voorbeeld", titel: "Waarom cultuur bij zeldzame gebeurtenissen anders werkt", tekst: "Safety culture werkt onder meer omdat er **feedback** is. Een fabriek heeft elke maand kleine incidenten, bijna-ongelukken, meldingen. Een cultuur die daar goed op reageert, ziet het effect: minder incidenten, betere meldingen. De cultuur leert van de eigen data.\n\nBij een terreuraanslag is die feedback er niet. De meeste bedrijven maken er nooit een mee. Je kunt tien jaar lang een prachtige security culture hebben en nooit weten of die iets uitmaakt, omdat er nooit iets gebeurt. En als er wél iets gebeurt, is één gebeurtenis te weinig om er een cultuur op te beoordelen.\n\nDat is de kern van Jores twijfel. Cultuur is een instrument dat leert van herhaling. Terrorisme herhaalt zich, voor een individuele organisatie, vrijwel nooit." },
-{ type: "tekst", titel: "5.3 Wat het rapport precies zegt over security culture", toetsstof: true, tekst: "Het Statoil-rapport concludeerde dat Statoil **geen cultuur had ontwikkeld** waarin algemeen werd erkend dat security de gedeelde verantwoordelijkheid van iedereen was, en dat een **holistische benadering** van securitymanagement ontbrak.\n\nConcreet:\n\n- Security was **niet ingericht als een bedrijfsfunctie onafhankelijk van safety**.\n- Security werd **niet erkend in zijn eigen onderscheidende kenmerken**.\n- Er was een gebrek aan **betrokkenheid van het management**.\n- Security werd in de organisatie over het algemeen **niet goed begrepen**.\n\nHet vermogen om veranderingen in de omgeving te begrijpen en erop te reageren was volgens de commissie kenmerkend voor bedrijven met een sterke security culture. Zulke bedrijven delen vijf kenmerken (tabel 5.1 in het boek):" },
-{ type: "stappen", items: [{ titel: "Hands-on securityleiderschap", tekst: "met toegang tot het topmanagement en het vermogen de securityagenda door het hele bedrijf te sturen." }, { titel: "Hoge en helder geformuleerde ambities", tekst: "voor de securitycapaciteit, die wordt behandeld als een **discipline los van safety**, met heldere doelen en toegewijde professionals." }, { titel: "Voldoende capaciteit en competentie", tekst: "om de securityuitdagingen waar het bedrijf voor staat te identificeren en te beantwoorden." }] },
-{ type: "tekst", tekst: "4. Een **holistische benadering** van het managen van securityrisico's, als geïntegreerd onderdeel van de kernprocessen en leveringen.\n5. **Transparante, inclusieve, actieve en gezaghebbende risicomanagementprocessen**, gerund door een organisatie die potentiële dreigingen kan identificeren en ernaar kan handelen.\n\nJore erkent dat de manier waarop de commissie het begrip gebruikt en haar aanbevelingen overeenkomen met het gangbare begrip van hoe je een security culture opbouwt. Maar de aanbeveling om een security culture **los van safety** te bouwen zou wel eens problematischer kunnen zijn dan het lijkt. Als organisaties middelen steken in het bouwen van een sterke security culture, dan zouden zulke programma's op een **wetenschappelijk fundament** moeten rusten.\n\nDus de vraag: hoe houdt het begrip security culture zich onder wetenschappelijk onderzoek?" },
-{ type: "waarschuwing", titel: "Zie de spanning in de vijf kenmerken zelf", tekst: "Kijk nog eens naar kenmerk 2 en 4. Kenmerk 2 zegt: behandel security als een **discipline los van safety**. Kenmerk 4 zegt: benader security **holistisch, als geïntegreerd onderdeel van de kernprocessen**.\n\nDat is niet per se tegenstrijdig, maar het is wel de spanning waar het hele boek over gaat, in één tabel. Apart als discipline, geïntegreerd als praktijk. En dat is precies waar Jore uiteindelijk op uitkomt: apart begrijpen, samen behandelen." },
-{ type: "tekst", titel: "5.4 De meetlat: Gerrings acht criteria", toetsstof: true, tekst: "Volgens **Gerring** (1999) zijn concepten cruciaal voor het functioneren en de ontwikkeling van wetenschap. Conceptuele adequaatheid moet worden gezien als een poging om te voldoen aan **acht criteria** (tabel 5.2):" },
-{ type: "tabel", kop: ["Criterium", "Vraag"], rijen: [["**Familiarity** (vertrouwdheid)", "Hoe vertrouwd is het begrip voor verschillende doelgroepen?"], ["**Resonance** (resonantie)", "Roept de gekozen term herkenning op?"], ["**Parsimony** (spaarzaamheid)", "Hoe beknopt zijn de term en de lijst van definiërende kenmerken?"], ["**Coherence** (samenhang)", "Hoe intern consistent zijn de gevallen en kenmerken?"], ["**Differentiation** (onderscheid)", "Hoe onderscheiden zijn de gevallen en kenmerken van vergelijkbare begrippen?"], ["**Depth** (diepte)", "Hoeveel bijkomende eigenschappen delen de gevallen die onder de definitie vallen?"], ["**Theoretical utility** (theoretisch nut)", "Hoe bruikbaar is het begrip binnen een breder veld van gevolgtrekkingen?"], ["**Field utility** (veldnut)", "Hoe bruikbaar is het begrip binnen een veld van verwante gevallen en kenmerken?"]], noot: "Deze acht criteria zijn de structuur van de rest van het hoofdstuk. Paragraaf 5.5 doet de eerste twee, 5.6 de middelste vier, 5.7 de laatste twee." },
-{ type: "slimmer", titel: "Gebruik deze lijst zelf", tekst: "Deze acht criteria zijn een gereedschap dat je de rest van je opleiding kunt gebruiken. Elke keer dat je een modewoord tegenkomt, resilience, mindfulness, safety leadership, zero trust, kun je het langs deze acht vragen halen.\n\nJe zult merken dat veel begrippen hoog scoren op de eerste twee (iedereen kent ze, ze klinken goed) en laag op de middelste vier (niemand weet precies wat ze betekenen of hoe ze verschillen van het buurbegrip). Dat is exact het patroon dat Jore bij security culture vindt." },
-{ type: "tekst", titel: "5.5 Vertrouwdheid en resonantie: hoog", toetsstof: true, tekst: "Security omvat tegenwoordig meer dan alleen technische oplossingen en fysieke bescherming; het gaat om het managen van dreigingen van **rationele, strategische actoren**. Een component die perceptie, gedeeld begrip en het managen van dreigingen omvat, lijkt daarom een gunstige bijdrage aan het veld. Om die reden **lijkt** security culture een veelbelovend instrument om corporate security te verbeteren.\n\nDe mate waarin een nieuw begrip \"logisch\" of intuïtief helder is, hangt volgens Gerring sterk af van de mate waarin het aansluit bij, of botst met, gevestigd gebruik in de dagelijkse taal en binnen een gespecialiseerde taalgemeenschap.\n\n**Safety culture** is een goed ingeburgerd begrip, vertrouwd voor leken, professionals en academici. Het Statoil-rapport beschreef security culture als een gemeenschappelijke set van overtuigingen, houdingen, praktijken en gedragingen die worden waargenomen, geïnternaliseerd en gedeeld over geografische eenheden en niveaus heen. Die definitie komt overeen met hoe organisatiecultuur, safety culture en security culture vaak worden gedefinieerd.\n\nDe term \"safety culture\" werd voor het eerst gebruikt als verklarende factor in het onderzoek na de kernramp van **Tsjernobyl in 1986**. Sindsdien wordt safety culture in meerdere sectoren gezien als cruciaal voor het voorkomen van ongevallen. Hoewel de term en de methoden om hem te meten en te bereiken omstreden blijven, wordt het begrip breed geaccepteerd en toegepast als bijdragende factor aan de veiligheid van organisaties.\n\nDoor te leunen op de connotaties van dat gevestigde begrip, suggereert security culture dat security **ook** kan worden bereikt met dezelfde instrumenten.\n\n**Oordeel:** security culture is vertrouwd en resoneert goed. Twee van de acht criteria gehaald." },
-{ type: "tekst", titel: "5.6 Spaarzaamheid, samenhang, onderscheid en diepte: laag", toetsstof: true, tekst: "Nu de vier criteria waar het misgaat.\n\n**Het begrip is nieuw en de literatuur is dun.** Hoewel de definitie, het begrip en de aanbevelingen van het rapport aansluiten bij bestaande theoretische perspectieven, is het begrip nieuw in de academische literatuur. De literatuur over security culture is klein vergeleken met de enorme hoeveelheid onderzoek en diverse perspectieven op safety culture. Ze is vooral ontwikkeld binnen de **nucleaire, chemische en luchtvaartindustrie**, voortbouwend op bestaande theorieën uit safety culture-onderzoek. Op een paar uitzonderingen na is er weinig geschreven over hoe je een optimale security culture bereikt.\n\nHet gevolg: security culture **mist heldere indicatoren of kenmerken, is slecht gedefinieerd en geoperationaliseerd, en mist onderzoek dat security koppelt aan organisatieprestaties**.\n\n**De definities zijn sectorgebonden en dreigingsgebonden.** Bestaande definities van security culture zijn gekoppeld aan een specifieke sector, en vaak aan een specifieke dreiging. Het meeste werk dat de term gebruikt gaat over **informatiebeveiliging**, niet over sabotage of terrorisme. De literatuur houdt dus geen rekening met de **polysemie** van het securityveld: het feit dat security veel verschillende dingen betekent.\n\nDaaruit volgt dat security culture **geen overkoepelend fenomeen** is dat alle mogelijke securitydreigingen dekt. Hoewel alle securitydreigingen een misdrijf zijn, verschillen hun modus operandi, doelwitkeuze en motivatie enorm, en moeten ze op zeer verschillende manieren worden aangepakt." },
-{ type: "voorbeeld", titel: "Waarom één cultuur niet alle dreigingen dekt", tekst: "Een datalek door een phishingmail, een boze ex-werknemer die een pomp saboteert, en een gewapende overval op een boorplatform zijn alle drie security. Alle drie zijn misdrijven.\n\nMaar de cultuur die het eerste voorkomt (niet klikken op linkjes, wachtwoorden serieus nemen) heeft niets te maken met de cultuur die het tweede voorkomt (signalen van een collega die afglijdt herkennen) en al helemaal niets met de derde (weten waar je heen moet bij een aanval en hoe je informatie over de locatie afschermt).\n\nDat bedoelt Jore met polysemie. Als \"security culture\" alle drie moet dekken, betekent het niets specifieks meer. Als het er één dekt, is het geen overkoepelend begrip. Het is het een of het ander." },
-{ type: "tekst", tekst: "**Het grootste probleem: onderscheid van buurbegrippen.** Misschien wel de grootste uitdaging met de term is hoe hij zich verhoudt tot en onderscheidt van vergelijkbare termen als **organisatiecultuur** en **safety culture**.\n\nHet merendeel van de academische literatuur die de term gebruikt bepleit een holistisch perspectief en stelt dat security culture moet worden gezien als een **geïntegreerd onderdeel van safety culture**. Als de kenmerken van security culture worden gedefinieerd, worden ze vaak **op dezelfde manier beschreven als safety culture**, zonder dat de specifieke kenmerken van security worden meegenomen.\n\nDat maakt het moeilijk om de begrippen van elkaar te onderscheiden, theoretisch én praktisch. De theoretische perspectieven over security culture verklaren de relaties tussen organisatie-, safety- en securitycultuur niet, en beantwoorden de fundamentele vragen niet: **is security culture een subcultuur van safety culture of van organisatiecultuur, en welke relatie bestaat er tussen hen?**" },
-{ type: "tekst", titel: "Een juridisch staartje", toetsstof: true, tekst: "Voor bedrijven in de petroleumsector hebben de verschillen en overlap tussen safety- en securitycultuur echte gevolgen.\n\nVolgens de Noorse **Petroleum Framework Regulation** (artikel 15) zijn bedrijven verplicht een **safety culture** op te bouwen. Als security culture wordt gezien als een **subcultuur van safety culture**, dan betekent dat dat bedrijven **ook wettelijk verplicht zijn** een security culture op te bouwen.\n\nDat is een fraai voorbeeld van hoe een ogenschijnlijk academische vraag (is het een subcultuur?) direct juridische gevolgen heeft (is het verplicht?). Precies waar hoofdstuk 1 voor waarschuwde: veel eisen komen uit beleid en recht, niet uit wetenschap." },
-{ type: "tekst", titel: "5.7 Theoretisch nut en veldnut: gemengd", toetsstof: true, tekst: "Concepten zijn de bouwstenen van alle theoretische structuren. Hoe zit security culture in de bredere wetenschap van security?\n\nHier maakt Jore een observatie over het hele securityveld die je moet kennen. Op een paar uitzonderingen na **ontbreekt het securityveld aan theorieën over organisatiesecurity**. Het meeste van de literatuur bestaat uit **normatieve theorieën** over hoe je security bereikt, zonder te bouwen op onderzoek. De reden: security is traditioneel verbonden geweest met **het leger en de politie**, en werd dus beschouwd als **geheim materiaal**.\n\nHet begrip security culture wordt zelden gebruikt, en de academische literatuur die de kernelementen van security science beschrijft, noemt security culture **niet eens**. Er zijn dus geen studies die beschrijven hoe je een security culture opbouwt en hoe die past binnen corporate security.\n\nEn toch, zegt Jore, zou security culture een **veelbelovende bijdrage** aan de literatuur kunnen zijn, want security science beweegt zich **richting zachtere maatregelen** zoals awareness, mindfulness en resilience. Een begrip als security culture zou kunnen fungeren als een **verenigend concept** voor hoe je corporate security management uitvoert.\n\nVoorwaarde: om bruikbaar te zijn voor theorievorming is er behoefte aan theoretische ontwikkeling gebaseerd op **empirische studies** over de rol van security culture en hoe die security in organisaties beïnvloedt." },
-{ type: "tekst", titel: "Wat er nodig is: grenzen trekken", toetsstof: true, tekst: "Om theoretische ontwikkeling te bevorderen, is het belangrijk relaties vast te stellen met buurbegrippen zoals safety culture. Als de definities zwaar overlappen, worden de fenomenen moeilijk te onderscheiden, en de nieuwere literatuur die het begrip probeert te operationaliseren gebruikt **dezelfde beschrijvingen, kenmerken en indicatoren**.\n\nEr is dus behoefte aan het **articuleren van de overlap en de grenzen** van de begrippen. Daarnaast moet worden onderzocht of een goede safety culture een **voorwaarde** is voor een goede security culture, en andersom." },
-{ type: "tekst", titel: "Wat niet overdraagbaar is: just culture en zwakke signalen", toetsstof: true, tekst: "In de praktijk heeft elke organisatie een cultuur, of een reeks subculturen, waarvan je mag verwachten dat ze safety en security beïnvloeden. Maar het is niet per se gunstig om theorieën en concepten simpelweg van safety naar security over te zetten. Veel aspecten van het gebruik van de term zijn **niet direct overdraagbaar** naar een securitycontext. Jore geeft drie voorbeelden die het hart van haar bezwaar vormen.\n\n**Just culture.** Wat betekent een \"just culture\" in de context van security, wanneer de aanvaller kwaadwillende intentie heeft? Just culture is het safetyprincipe dat je fouten mag melden zonder straf, omdat de organisatie meer leert van openheid dan van angst. Maar dat principe veronderstelt dat degene die de fout maakte geen kwaad in de zin had. Bij een saboteur is dat uitgangspunt onzinnig. Dit raakt de mogelijkheid van **transparantie en openheid buiten vertrouwde kringen**.\n\n**Iedereen toegewijd aan security.** Het rapport stelt dat Statoil een cultuur zou moeten hebben waarin elke medewerker toegewijd is aan security. Maar is dat mogelijk, of zelfs wenselijk? Betekent een security culture dat je **achterdochtig** bent tegenover collega's en anderen? En is **wantrouwen** niet strijdig met het opbouwen van een safety culture?\n\n**Zwakke signalen.** Het opsporen van en leren van zwakke signalen, een kernidee uit safety, is problematisch wanneer daders **strategisch** zijn en er geen belang bij hebben hun plannen te onthullen." },
-{ type: "uitleg", titel: "Waarom dit drie versies van hetzelfde probleem zijn", tekst: "Alle drie de voorbeelden komen op hetzelfde neer, en dat is een van de belangrijkste inzichten van het boek als geheel.\n\nSafety culture is gebouwd op **vertrouwen en openheid**. Meld je fouten, deel wat je ziet, leer samen. Dat werkt omdat niemand in het systeem tegen je is. De zwaartekracht, de vermoeidheid, de slijtage: ze hebben geen agenda.\n\nSecurity veronderstelt een **tegenstander**. En zodra er een tegenstander is, kan openheid tegen je werken, kan vertrouwen worden misbruikt, en verbergt de tegenstander de signalen die je zou willen oppikken.\n\nDus als je safety culture overzet naar security, zet je de **motor** ervan, vertrouwen, over naar een context waarin die motor de kwetsbaarheid is. Dat is geen detail dat je met een goede definitie oplost. Het is een structureel verschil, hetzelfde dat hoofdstuk 1 aanduidde als openheid tegenover vertrouwelijkheid." },
-{ type: "tekst", titel: "De praktijk: gebruikt, maar zonder effect op de organisatie", toetsstof: true, tekst: "Theoretische discussies zijn vaak abstract en horen thuis in academische kringen. Maar de adequaatheid van security culture heeft praktische relevantie, omdat het begrip niet alleen een theoretische term is maar ook een **pragmatisch instrument** dat in meerdere petroleumbedrijven is ingevoerd na publicatie van het In Amenas-rapport.\n\nEen studie naar het gebruik van de term door Noorse petroleumbedrijven concludeerde dat, hoewel de helft van de bedrijven de term gebruikte, dat gebruik **geen directe invloed leek te hebben op hoe zij hun securitysysteem inrichtten**. De bedrijven die het begrip afwezen, gaven als reden de **moeilijkheid om security culture van safety culture te scheiden**.\n\nEr is dus een praktische behoefte om security culture te **operationaliseren**. Maar uit safetyonderzoek weten we al dat cultuur in een organisatiecontext bijna alles dekt wat een organisatie doet, en dat het daardoor moeilijk is de impact van cultuur op safety te meten. Dat geldt ook voor security culture.\n\nBovendien is er in safetyonderzoek discussie over de relatie tussen cultuur en **wat er feitelijk gebeurt** in organisaties. Het feit dat het begrip safety culture zelf omstreden is, maakt het overzetten van perspectieven van safety naar security moeilijk." },
-{ type: "voorbeeld", titel: "Een term gebruiken zonder iets te veranderen", tekst: "De bevinding uit die Noorse studie is een klassieker die je in elke organisatie tegenkomt. De helft van de bedrijven zegt \"wij werken aan security culture\". Maar als je kijkt naar hoe ze hun beveiliging hebben ingericht, verschilt dat niet van de bedrijven die de term niet gebruiken.\n\nDat betekent dat de term functioneert als een **label**, niet als een **instrument**. Je plakt het op wat je toch al deed. Dat is een risico bij elk populair begrip: het geeft de indruk van verandering zonder de verandering zelf.\n\nVoor jou als toekomstig adviseur is de vraag dus niet \"gebruikt deze organisatie het begrip\" maar \"wat doet deze organisatie anders sinds ze het begrip gebruikt\". Als het antwoord \"niets\" is, heb je je bevinding." },
-{ type: "tekst", titel: "5.8 Conclusies", toetsstof: true, tekst: "Jore trekt vier conclusies, en ze wijzen niet allemaal dezelfde kant op. Dat is precies de reden dat je ze alle vier moet kennen.\n\n**Conclusie 1: het begrip is nodig.** Er is ongetwijfeld behoefte aan het begrip security culture in het huidige dreigingslandschap. In complexe en volatiele omgevingen zoals In Amenas zouden bedrijven systemen moeten invoeren die bewustzijn van externe dreigingen genereren en manieren bieden om ermee om te gaan. Voor zulke dreigingen zullen **heldere tactische waarschuwingen**, met specifieke informatie over waar, wanneer en hoe een tegenstander kan aanvallen, **zelden voorkomen**. Organisaties moeten dus streven naar **resilience tegen meerdere dreigingen**, inclusief securityscenario's met lage waarschijnlijkheid. Dat zijn allemaal argumenten voor een sterke organisatiecultuur met een collectieve **security mindfulness** die zwakke signalen opzoekt en naar resilience streeft.\n\n**Conclusie 2: het begrip is slecht afgebakend, maar dat is geen reden het af te wijzen.** Hoewel security culture oppervlakkig een veelbelovend spoor lijkt, zijn de operationalisering en afbakening zo onnauwkeurig dat het gebruik van het begrip **contraproductief** kan zijn. Maar, en dit is de wending: hetzelfde kan worden gezegd over safety culture, dus dat is geen argument om het begrip te verwerpen.\n\n**Conclusie 3: in de praktijk een dualiteit.** Vanuit praktisch oogpunt moet een organisatie omgaan met safety- én securityrisico's; beide beïnvloeden de organisatiecultuur. Vanuit praktisch perspectief is er dus behoefte om deze concepten te zien als een **dualiteit** en niet als gescheiden fenomenen. Securitydreigingen hebben een andere dynamiek dan safetyrisico's, en daardoor wordt security in organisaties vaak **verwaarloosd**. Dat is het voordeel van het begrip security culture: het maakt security tot een **prioriteit en gedeelde verantwoordelijkheid**.\n\n**Conclusie 4: het wordt belangrijker, niet minder.** Naarmate digitalisering in alle sectoren toeneemt en meer digitale assets aan het internet worden gekoppeld, zullen organisaties hun aandacht voor securitydreigingen moeten vergroten, waarbij de **culturele component** een belangrijke rol zal spelen, omdat **technische oplossingen onvoldoende** zullen zijn. Daarom moet security culture verder worden ontwikkeld als theoretisch én praktisch element. Security science beweegt richting zachtere maatregelen zoals awareness, mindfulness en resilience, allemaal belangrijke componenten van security culture." },
-{ type: "waarschuwing", titel: "De formule uit het abstract, nog een keer", tekst: "Jore vat het zelf samen in één zin, die ook in het abstract staat:\n\n**Security en safety culture moeten apart worden begrepen, maar mogen in de praktijk niet als gescheiden worden behandeld.**\n\nBeide helften zijn onderbouwd. Apart begrijpen, omdat kwaadwillende intentie, externe dreiging, lage waarschijnlijkheid en de onbruikbaarheid van just culture en zwakke signalen laten zien dat het echt om iets anders gaat. Niet apart behandelen, omdat een organisatie maar één cultuur heeft, omdat beide risico's die cultuur beïnvloeden, en omdat een aparte security culture in de praktijk niet los te maken blijkt van safety culture.\n\nDat is niet halfslachtig. Het is de enige positie die recht doet aan beide bevindingen." },
-{ type: "begrippen", titel: "Kernbegrippen uit hoofdstuk 5", items: [{ begrip: "In Amenas", definitie: "Algerijnse gasinstallatie waar op 16 januari 2013 32 terroristen een vierdaagse gijzeling begonnen; 40 doden uit 10 landen, onder wie vijf Statoil-medewerkers. De grootste terreuraanslag in de geschiedenis van de olie- en gasindustrie." }, { begrip: "Statoil", definitie: "Noors staatsoliebedrijf, tegenwoordig Equinor, dat de onderzoekscommissie instelde waarvan het rapport security culture als verklarende factor en als oplossing aanwees." }, { begrip: "Security culture", definitie: "Gemeenschappelijke set van overtuigingen, houdingen, praktijken en gedragingen rond security, gedeeld over eenheden en niveaus. Vertrouwd en resonerend, maar slecht gedefinieerd, geoperationaliseerd en afgebakend." }, { begrip: "Safety culture", definitie: "Het gevestigde tegenhangerbegrip, voor het eerst gebruikt als verklarende factor na Tsjernobyl in 1986. Breed geaccepteerd, maar zelf ook omstreden in definitie en meting." }, { begrip: "Kwaadwillende intentie", definitie: "Volgens Jore het echte onderscheid tussen safety en security. Niet intentie als zodanig, want opzettelijke regelovertreding komt ook bij safety voor, maar de intentie om schade toe te brengen." }, { begrip: "Conceptuele adequaatheid", definitie: "De mate waarin een begrip voldoet aan de acht criteria van Gerring: familiarity, resonance, parsimony, coherence, differentiation, depth, theoretical utility, field utility." }, { begrip: "Polysemie", definitie: "Het verschijnsel dat een woord veel verschillende betekenissen heeft. Security dekt informatiebeveiliging, sabotage, terrorisme en meer, met heel verschillende modus operandi en motieven." }, { begrip: "Just culture", definitie: "Safetyprincipe dat fouten zonder straf gemeld kunnen worden, zodat de organisatie leert. Volgens Jore niet overdraagbaar naar security, omdat de aanvaller kwaadwillend is." }, { begrip: "Zwakke signalen", definitie: "Kleine voortekenen die in safety worden opgezocht om ongevallen te voorkomen. In security problematisch, omdat strategische daders hun plannen juist verbergen." }, { begrip: "Security mindfulness", definitie: "De collectieve alertheid op externe dreigingen die Jore bepleit, gericht op het opzoeken van zwakke signalen en op resilience." }, { begrip: "Resilience", definitie: "Het vermogen van een organisatie om meerdere dreigingen te weerstaan en zich te herstellen, inclusief scenario's met lage waarschijnlijkheid; volgens Jore het doel bij dreigingen zonder heldere tactische waarschuwing." }, { begrip: "Dualiteit", definitie: "Jores conclusie over de verhouding tussen safety- en securitycultuur: twee kanten van dezelfde organisatiecultuur, apart te begrijpen maar niet apart te behandelen." }, { begrip: "Petroleum Framework Regulation", definitie: "Noorse regelgeving die petroleumbedrijven verplicht een safety culture op te bouwen; als security culture daar een subcultuur van is, wordt die verplichting ook op security van toepassing." }] }
-] },
-{ id: "toepassen", titel: "Toepassen", blokken: [
-{ type: "stappen", titel: "Een begrip beoordelen met Gerring, in acht stappen", items: [{ titel: "Familiarity.", tekst: "Kennen de mensen die het begrip moeten gebruiken het? Zo ja, waarvan? Vaak van een buurbegrip, en dat is meteen een risico." }, { titel: "Resonance.", tekst: "Klinkt het goed, sluit het aan bij bestaand taalgebruik? Let op: dit is een oppervlakkig criterium, en het is precies waar modewoorden hoog op scoren." }, { titel: "Parsimony.", tekst: "Kun je het begrip definiëren in één zin met een korte lijst kenmerken? Zo niet, dan dekt het waarschijnlijk te veel." }, { titel: "Coherence.", tekst: "Passen alle gevallen die eronder vallen bij elkaar? Bij security culture: passen phishing, sabotage en terrorisme onder één cultuur?" }, { titel: "Differentiation.", tekst: "Wat onderscheidt het begrip van zijn buren? Als de kenmerken letterlijk dezelfde zijn als die van het buurbegrip, heb je geen nieuw begrip maar een nieuw etiket." }, { titel: "Depth.", tekst: "Delen de gevallen meer dan alleen de definiërende kenmerken? Hoe rijker de gedeelde eigenschappen, hoe nuttiger het begrip." }, { titel: "Theoretical utility.", tekst: "Kun je er iets mee voorspellen of verklaren, binnen een bredere theorie? Zijn er empirische studies die het begrip koppelen aan uitkomsten?" }, { titel: "Field utility.", tekst: "Helpt het begrip praktijkmensen om hun werk anders te doen? Of gebruiken ze het als label voor wat ze toch al deden?" }] },
-{ type: "oefening", id: "h5-oef-1", niveau: "basis", vraag: "Leg uit waarom Jore stelt dat intentionaliteit niet voldoende is om safety van security te onderscheiden, en welk criterium zij ervoor in de plaats stelt.", antwoord: "Jore wijst erop dat intentie ook een rol speelt binnen safety. De organisatieveiligheidsliteratuur erkent al lang dat ongevallen niet willekeurig zijn en dat werknemers soms opzettelijk afwijken van procedures, bijvoorbeeld door drugsgebruik of het niet dragen van beschermingsmiddelen. Dat is intentioneel en soms zelfs crimineel, maar het is geen security, want de werknemer wil niemand schade toebrengen. Daarom zijn noch intentionaliteit noch criminaliteit voldoende als onderscheidend criterium. Het onderscheid zit volgens haar in de kwaadwillende intentie van een actor die daadwerkelijk van plan is schade te veroorzaken. Dat is scherper dan de intentionaliteitsas uit hoofdstuk 1: niet \"deed iemand het expres\" maar \"deed iemand het expres om te schaden\". Praktisch gevolg: dezelfde handeling, zoals een veiligheidsbril niet dragen, valt onder safety of security afhankelijk van het doel van degene die het doet." },
-{ type: "oefening", id: "h5-oef-2", niveau: "basis", vraag: "Loop de acht criteria van Gerring langs voor security culture en geef per criterium in één zin het oordeel van Jore.", antwoord: "Familiarity: hoog, omdat het leunt op het bekende begrip safety culture. Resonance: hoog, de term klinkt logisch en sluit aan bij gevestigd taalgebruik. Parsimony: laag, het begrip mist heldere indicatoren en kenmerken en is slecht gedefinieerd. Coherence: laag, de bestaande definities zijn sector- en dreigingsgebonden en de literatuur houdt geen rekening met de polysemie van security, zodat phishing, sabotage en terrorisme niet coherent onder één begrip vallen. Differentiation: laag, en volgens Jore het grootste probleem, omdat de kenmerken van security culture op dezelfde manier worden beschreven als die van safety culture en de relatie tot organisatie- en safetycultuur onbeantwoord blijft. Depth: laag, er is nauwelijks onderzoek dat security culture koppelt aan organisatieprestaties. Theoretical utility: potentieel aanwezig, omdat security science richting zachte maatregelen beweegt en een verenigend begrip kan gebruiken, maar nog niet gerealiseerd bij gebrek aan empirische studies. Field utility: beperkt, want de helft van de Noorse petroleumbedrijven gebruikt de term zonder dat het hun securityinrichting beïnvloedt, en de andere helft wijst hem af omdat hij niet van safety culture te scheiden is." },
-{ type: "oefening", id: "h5-oef-3", niveau: "gevorderd", vraag: "Jore stelt dat just culture niet overdraagbaar is naar security. Werk uit waarom, en verbind dat met het transparantieprobleem uit hoofdstuk 1.", antwoord: "Just culture is een safetyprincipe dat werknemers fouten en bijna-ongelukken laat melden zonder angst voor straf, omdat de organisatie meer leert van openheid dan van verzwijgen. Het principe veronderstelt dat degene die de fout maakte te goeder trouw handelde en dat de organisatie als geheel baat heeft bij het delen van de informatie. Bij security is de tegenstander per definitie kwaadwillend. Een saboteur die zijn \"fout\" meldt bestaat niet, en informatie over kwetsbaarheden die je openlijk deelt, komt bij de aanvaller terecht. Openheid, de motor van just culture, wordt daarmee een kwetsbaarheid. Jore formuleert dat als een beperking van transparantie en openheid buiten vertrouwde kringen. Dit is exact het derde knelpunt uit hoofdstuk 1: safety streeft naar maximale openheid, security kan vertrouwelijkheid eisen, en die twee informatieregimes botsen structureel. Het gevolg voor security culture is dat je een van de krachtigste instrumenten uit safety culture niet kunt overnemen, en dat een security culture die alsnog op openheid bouwt, de organisatie kwetsbaarder maakt in plaats van veiliger." },
-{ type: "oefening", id: "h5-oef-4", niveau: "gevorderd", vraag: "Jore concludeert dat safety- en securitycultuur apart moeten worden begrepen maar niet apart behandeld. Is dat een tegenstrijdigheid? Onderbouw je antwoord met beide helften van haar argument.", antwoord: "Het is geen tegenstrijdigheid, omdat \"begrijpen\" en \"behandelen\" over verschillende dingen gaan. Apart begrijpen betreft de analyse: security onderscheidt zich door kwaadwillende intentie, wordt bedreigd van buiten door partijen die je niet kunt kennen, is losser gekoppeld aan winst en productie, betreft gebeurtenissen met extreem lage waarschijnlijkheid, en laat safetyinstrumenten als just culture en het leren van zwakke signalen niet toe. Wie dat negeert en security culture als kopie van safety culture opvat, krijgt een begrip zonder onderscheidend vermogen, precies het gebrek dat Gerrings criterium differentiation blootlegt. Niet apart behandelen betreft de praktijk: een organisatie heeft één cultuur of een set subculturen, beide soorten risico's beïnvloeden die cultuur, en bedrijven die een aparte security culture probeerden op te bouwen, liepen vast omdat ze die niet los konden maken van safety culture. Bovendien wordt security in organisaties vaak verwaarloosd, en het praktische voordeel van het begrip is juist dat het security tot prioriteit en gedeelde verantwoordelijkheid maakt binnen de bestaande cultuur. De twee helften vullen elkaar dus aan: scherp onderscheiden in je analyse, zodat je weet welke instrumenten wel en niet overdraagbaar zijn, en vervolgens integreren in één organisatiecultuur, omdat er in de praktijk geen tweede cultuur is om het in onder te brengen." }
-] },
-{ id: "checken", titel: "Checken", blokken: [
-{ type: "quiz", titel: "Check jezelf op hoofdstuk 5", vragen: [{ vraag: "Wat gebeurde er op 16 januari 2013 bij In Amenas?", opties: ["Een gaslek met tientallen doden", "Een terreuraanslag door 32 gewapende mannen met een vierdaagse gijzeling, 40 doden uit 10 landen", "Een cyberaanval op de besturing van de installatie", "Een staking die uitliep op geweld"], juist: 1, uitleg: "De grootste terreuraanslag in de geschiedenis van de olie- en gasindustrie, met vijf Statoil-medewerkers onder de doden." }, { vraag: "Op welke twee manieren gebruikte het Statoil-rapport het begrip security culture?", opties: ["Als definitie en als meetinstrument", "Als verklarende factor achter de afloop en als instrument om security te verbeteren", "Als juridische verplichting en als financiële post", "Als subcultuur van safety culture en als onafhankelijke discipline"], juist: 1, uitleg: "Verklaring én oplossing tegelijk. Dat is een zware belasting voor een begrip dat nauwelijks in de literatuur voorkomt." }, { vraag: "Wat is volgens Jore het echte onderscheid tussen safety en security?", opties: ["Intentionaliteit", "Of er een misdrijf is gepleegd", "Kwaadwillende intentie: de intentie om schade toe te brengen", "Of de dreiging van binnen of van buiten komt"], juist: 2, uitleg: "Intentie en criminaliteit komen ook bij safety voor, bijvoorbeeld bij een werknemer die bewust regels overtreedt zonder iemand te willen schaden." }, { vraag: "Welk van de volgende is géén kenmerk van een sterke security culture volgens het Statoil-rapport?", opties: ["Hands-on securityleiderschap met toegang tot het topmanagement", "Security behandeld als discipline los van safety", "Een volledig van safety gescheiden meldsysteem", "Een holistische benadering als onderdeel van de kernprocessen"], juist: 2, uitleg: "De vijf kenmerken zijn leiderschap, ambities als aparte discipline, capaciteit en competentie, holistische benadering, en transparante risicomanagementprocessen." }, { vraag: "Bij welke ramp werd safety culture voor het eerst als verklarende factor gebruikt?", opties: ["Bhopal 1984", "Tsjernobyl 1986", "Piper Alpha 1988", "Deepwater Horizon 2010"], juist: 1, uitleg: "Sindsdien geldt safety culture in meerdere sectoren als cruciaal voor ongevalspreventie, al blijven definitie en meting omstreden." }, { vraag: "Op welke twee criteria van Gerring scoort security culture hoog?", opties: ["Parsimony en coherence", "Familiarity en resonance", "Differentiation en depth", "Theoretical utility en field utility"], juist: 1, uitleg: "Het begrip is vertrouwd en klinkt logisch omdat het leunt op safety culture. Precies daar zit ook het risico: het suggereert dat dezelfde instrumenten werken." }, { vraag: "Wat noemt Jore de grootste uitdaging voor het begrip security culture?", opties: ["Dat het te technisch is", "Dat het zich niet onderscheidt van organisatiecultuur en safety culture", "Dat het te duur is om te implementeren", "Dat het alleen in Noorwegen wordt gebruikt"], juist: 1, uitleg: "De kenmerken worden op dezelfde manier beschreven als die van safety culture, en de vraag of het een subcultuur is blijft onbeantwoord." }, { vraag: "Waarom is het meeste onderzoek naar security volgens Jore normatief en niet empirisch?", opties: ["Omdat security te nieuw is om te onderzoeken", "Omdat security traditioneel bij leger en politie hoorde en als geheim werd beschouwd", "Omdat bedrijven geen data willen delen", "Omdat er geen tijdschriften voor bestaan"], juist: 1, uitleg: "Daardoor ontbreekt het aan theorieën over organisatiesecurity, en noemt de literatuur over security science het begrip security culture niet eens." }, { vraag: "Waarom is just culture volgens Jore niet overdraagbaar naar security?", opties: ["Omdat security geen fouten kent", "Omdat het principe openheid en goede trouw veronderstelt, terwijl de aanvaller kwaadwillend is", "Omdat security geen meldsystemen gebruikt", "Omdat just culture wettelijk alleen voor safety geldt"], juist: 1, uitleg: "Openheid is de motor van just culture, en juist die openheid wordt in een securitycontext een kwetsbaarheid." }, { vraag: "Wat vond de studie naar Noorse petroleumbedrijven die security culture gebruikten?", opties: ["Ze hadden minder incidenten", "Het gebruik van de term had geen directe invloed op hoe ze hun securitysysteem inrichtten", "Ze hadden een aparte securityafdeling opgezet", "Ze waren allemaal gestopt met safety culture"], juist: 1, uitleg: "De term functioneerde als label, niet als instrument. Bedrijven die hem afwezen, noemden als reden dat hij niet van safety culture te scheiden was." }, { vraag: "Waarom is de slechte afbakening van security culture volgens Jore geen reden om het begrip te verwerpen?", opties: ["Omdat het begrip wettelijk verplicht is", "Omdat safety culture precies dezelfde gebreken heeft en toch breed wordt gebruikt", "Omdat er geen alternatief bestaat", "Omdat de petroleumsector het al heeft ingevoerd"], juist: 1, uitleg: "Wie security culture afwijst op grond van onnauwkeurige afbakening, zou safety culture op dezelfde grond moeten afwijzen." }, { vraag: "Wat is de eindconclusie van Jore over de verhouding tussen safety- en securitycultuur?", opties: ["Ze zijn identiek en moeten samengevoegd worden", "Ze zijn volledig gescheiden en moeten apart worden georganiseerd", "Ze moeten apart worden begrepen maar in de praktijk niet apart worden behandeld", "Security culture moet safety culture vervangen"], juist: 2, uitleg: "Apart begrijpen vanwege kwaadwillende intentie en niet-overdraagbare instrumenten; niet apart behandelen omdat een organisatie maar één cultuur heeft." }] },
-{ type: "bronnen", items: [{'apa': 'Jore, S. H. (2020). Security and safety culture: Dual or distinct phenomena? In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 43–51). Springer.'}, {'apa': 'Gerring, J. (1999). What makes a concept good? A criterial framework for understanding concept formation in the social sciences. Polity, 31(3), 357–393.'}, {'apa': 'Jore, S. H. (2017). The conceptual and scientific demarcation of security in contrast to safety. European Journal for Security Research, 1–18.'}, {'apa': 'Jore, S. H. (2017). Security culture: A sufficient explanation for a terrorist attack? In Risk, Reliability and Safety: Proceedings of ESREL 2016 (pp. 467–474). CRC Press.'}, {'apa': 'Statoil ASA (2013). The In Amenas attack: Report of the investigation into the terrorist attack on In Amenas.'}, {'apa': 'Antonsen, S. (2017). Safety culture: Theory, method and improvement. CRC Press.'}, {'apa': 'Hopkins, A. (2006). Studying organisational cultures and their effects on safety. Safety Science, 44(10), 875–889.'}, {'apa': 'Larsen, C. I., & Østensjø, C. (2015). Operatørselskapene i petroleumssektoren sitt syn på sikringskultur. Masterscriptie, Universiteit van Stavanger.'}, {'apa': 'Malcolmson, J. (2009). What is security culture? Does it differ in content from general organisational culture? IEEE Carnahan Conference on Security Technology, 361–366.'}, {'apa': 'Van Nunen, K., Sas, M., Reniers, G., Vierendeels, G., Ponnet, K., & Hardyns, W. (2018). An integrative conceptual framework for physical security culture in organisations. Journal of Integrated Security Science, 2(1), 25–32.'}] },
-{ type: "preview", titel: "Van cultuur naar gebruiker", tekst: "Jore kijkt naar de organisatie van binnenuit. Bongiovanni draait in hoofdstuk 6 de camera om en kijkt vanuit de reiziger die door de security op de luchthaven moet.", punten: ['Waarom het juridische en het managementperspectief de luchthavensecurity domineren', 'Wat een eindgebruikersperspectief en designmethoden kunnen toevoegen', 'Hoe je minder geld kwijt bent aan loss prevention en meer waarde levert aan gebruikers'] }
-] }
+  {
+    "id": "voor",
+    "titel": "Before you start",
+    "blokken": [
+      {
+        "type": "leerdoelen",
+        "items": [
+          "Reproduce the facts of the In Amenas attack and explain why it put the concept of security culture on the map",
+          "Explain why, according to Jore, the distinction between safety and security rests on malicious intent rather than on intentionality",
+          "Name the five features of a strong security culture from the Statoil report",
+          "List and apply Gerring’s eight criteria for conceptual adequacy",
+          "Judge, criterion by criterion, how security culture scores, and reproduce Jore’s conclusion",
+          "Explain why concepts such as just culture and weak signals cannot simply be carried over from safety to security",
+          "Explain the distinction between \"understanding separately\" and \"treating separately\"",
+          "Argue why Jore wants to keep the concept despite all her objections"
+        ]
+      },
+      {
+        "type": "uitleg",
+        "titel": "Who Jore is and what this chapter does",
+        "tekst": "**Sissel Jore** works at the University of Stavanger in Norway, the same university as editor Pettersen Gould. She specialises in security in the petroleum sector and in the question of how to demarcate security as a scientific concept.\n\nThis chapter belongs to the **conceptual** vantage point of the book, together with Blokland and Reniers (chapter 2). But where they build definitions, Jore does something else: she takes a concept already used in practice, **security culture**, and tests whether it is solid enough.\n\nHer approach is a good example of how to assess a concept scientifically. She uses a fixed checklist, Gerring’s eight criteria, and walks through them one by one. That is a method you can use yourself on any buzzword you meet in your field."
+      },
+      {
+        "type": "slimmer",
+        "titel": "The question in the title",
+        "tekst": "The title of the chapter is a question: dual or distinct phenomena? So: are safety culture and security culture **two sides of the same thing** (dual), or **two different things** (distinct)?\n\nJore’s answer is subtle, and it is the sentence to take away from this chapter:\n\n**Security and safety culture should be understood separately, but in practice should not be treated separately.**\n\nRead the chapter with that sentence in mind. Everything Jore does is explain why both halves of it hold."
+      }
+    ]
+  },
+  {
+    "id": "kern2",
+    "titel": "Core material: chapter 5",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "5.1 In Amenas: the facts",
+        "toetsstof": true,
+        "tekst": "The chapter opens with a case you need to know.\n\nOn **16 January 2013** the largest terrorist attack in the history of the oil and gas industry took place, at the Algerian oil facility **In Amenas**. Thirty-two heavily armed terrorists attacked the installation, where almost **800 employees** were present. Many were taken hostage in a siege lasting **four days**, in the middle of the Algerian desert. The terrorists killed **40 people from 10 countries**, among them **five employees of Statoil**, the Norwegian state oil company now called Equinor.\n\nAfterwards, Statoil set up an **investigation committee** to establish the relevant chain of events and to enable Statoil to improve its security, risk assessment and crisis preparedness.\n\nThe conclusion of the investigation report: Statoil had put a **security risk management system** in place, but the company’s overall **capacity and culture** needed strengthening in order to respond to security risks in volatile and complex environments. The report described **security culture** as an important explanatory factor behind the outcome of the attack, and as an important instrument for improving security."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "**Why that one sentence carries the whole chapter**\n\nNotice what the report does. It uses security culture in **two ways at once**:\n\n1. as an **explanation** of what went wrong (it was lacking, hence the outcome),\n2. as a **solution** for the future (build it, and things will go better).\n\nThat is a heavy load for a concept to carry. If you partly explain an attack with forty deaths by the absence of something, and then instruct companies to build that something, you had better know precisely what it is and how to measure it. And that is exactly where it pinches, as chapter 1 already announced: the concept is applied with little technical support."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**Why security culture suddenly turned up everywhere**\n\nFor many companies, malicious threats such as terrorism form a **new context**. Managing such threats is often called \"security\", in contrast to \"safety\", which refers to managing risks **not** caused by actors intending to do harm.\n\nWith that new responsibility for security in the private sector, new management concepts and instruments have emerged to help organisations fulfil that role: **security risk management systems, security risk analysis, and security culture**.\n\nWhat all these concepts have in common: they all have their **counterpart in safety management**, and are now being adopted and applied to the security domain.\n\nBut, Jore warns immediately, transferring concepts to a new area is not necessarily unproblematic. Compared with safety, security is a relatively young academic field, and \"security culture\" is a term that appears **rarely in the literature**.\n\nEven so, the recommendation in the Statoil report has led to strongly increased attention for security culture in the petroleum sector. According to a 2015 study, **half** of the Norwegian petroleum companies studied actively applied security culture as a means of security improvement."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**The questions of the chapter**\n\nSafety and security are both elements of **organisational culture**. How, then, should organisations relate to this new concept of security culture?\n\nJore asks three questions:\n\n1. How **adequate** is the concept of security culture?\n2. What **relationship** exists between safety culture and security culture?\n3. Should the two be seen as a **duality** or as **separate**?\n\nAdequacy is discussed through the way the concept is used in the In Amenas report, with **Gerring’s criteria for conceptual goodness** as the yardstick."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.2 The real distinction: malicious intent",
+        "toetsstof": true,
+        "tekst": "If security culture is to be seen as something other than safety culture, you first need to know what the domains of safety and security involve, and where they touch.\n\nIn everyday use, \"safety\" and \"security\" both evoke associations of freedom from threat and harm. Although they are often treated as synonyms, they also carry different meanings. They are often used to distinguish between managing hazards without malicious intent (safety) and managing threats from rational people **with** malicious intent, such as sabotage, hacking or terrorism (security).\n\nAnd now comes the move that sets Jore apart from Blokland and Reniers. She argues:\n\n**It is malicious intent that distinguishes safety from security, and not intentionality as such, because intentionality plays a role in safety too.**\n\nHer argument runs in three steps:\n\n1. The organisational safety literature has long recognised that accidents are not random, but the result of insufficient resources, organisation and planning.\n2. Human **intention** sometimes plays a role in causing accidents: employees sometimes **deliberately** deviate from standard procedures. Organisations have to design robust measures that take that into account.\n3. It follows that **criminal behaviour does not belong to security alone**. Safety also involves rational actors who knowingly break rules, for instance through drug use or by not wearing protective equipment.\n\nConclusion: **neither intentionality nor criminality** is sufficient to distinguish safety from security. The difference must therefore lie in the **malicious intent of an actor who genuinely means to cause harm**."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**Why this is a sharper axis than the one in chapter 1**\n\nChapter 1 gave you the intentionality axis: did someone do it on purpose? Jore shows that axis is too coarse.\n\nTake an employee who deliberately does not wear safety goggles because he finds them irritating. That is intentional. It is even a violation. But it is not security, because he does not want to **harm anyone**. He just wants rid of the goggles.\n\nTake an employee who deliberately does not wear them in order to cause an accident and hurt the company. Same action, but now it is security.\n\nThe difference lies not in \"on purpose\" but in \"on purpose in order to harm\". That is the precision Jore adds. Remember it as: **intent is not enough, it is about intent to harm.**"
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**Two properties of security that change everything**\n\nJore names two features of security that make the domain fundamentally different from safety.\n\n**First:** security is often threatened by **external threats** that generally lie beyond organisations’ ability to know and handle fully. You can know your own plant in detail. You cannot know the plans of a terrorist group.\n\n**Second:** such risks are **not as directly coupled to profit and the production system** as safety risks are. An accident on the shop floor hits your production and your costs directly. An attack is far more loosely connected to them.\n\nFrom that follows a hard observation: **even a company with an optimal security culture can still become the target of a terrorist attack and suffer great damage.**\n\nAnd then the critical question with which Jore closes the section: a hostage situation or terrorist attack is an event of **extremely low probability**. Is it then meaningful to apply the concept of culture to such extreme events, in the same way as in safety?"
+      },
+      {
+        "type": "voorbeeld",
+        "tekst": "**Why culture works differently for rare events**\n\nSafety culture works partly because there is **feedback**. A plant has small incidents, near misses and reports every month. A culture that responds well to them sees the effect: fewer incidents, better reporting. The culture learns from its own data.\n\nWith a terrorist attack that feedback is absent. Most companies never experience one. You can have a beautiful security culture for ten years and never know whether it makes any difference, because nothing ever happens. And if something does happen, one event is too little to judge a culture by.\n\nThat is the core of Jore’s doubt. Culture is an instrument that learns from repetition. For an individual organisation, terrorism almost never repeats."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.3 What the report actually says about security culture",
+        "toetsstof": true,
+        "tekst": "The Statoil report concluded that Statoil had **not developed a culture** in which it was generally recognised that security was everyone’s shared responsibility, and that a **holistic approach** to security management was lacking.\n\nConcretely:\n\n- Security was **not organised as a corporate function independent of safety**.\n- Security was **not recognised in its own distinctive characteristics**.\n- There was a lack of **management involvement**.\n- Security was generally **not well understood** within the organisation.\n\nThe ability to understand and respond to changes in the environment was, according to the committee, characteristic of companies with a strong security culture. Such companies share five features (table 5.1 in the book):"
+      },
+      {
+        "type": "stappen",
+        "items": [
+          {
+            "titel": "Hands-on security leadership",
+            "tekst": "with access to top management and the ability to drive the security agenda throughout the company."
+          },
+          {
+            "titel": "High and clearly stated ambitions",
+            "tekst": "for the security capacity, which is treated as a **discipline separate from safety**, with clear goals and dedicated professionals."
+          },
+          {
+            "titel": "Sufficient capacity and competence",
+            "tekst": "to identify and respond to the security challenges the company faces."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "tekst": "4. A **holistic approach** to managing security risks, as an integrated part of core processes and deliveries.\n5. **Transparent, inclusive, active and authoritative risk management processes**, run by an organisation able to identify and act on potential threats.\n\nJore accepts that the way the committee uses the concept, and its recommendations, match the common understanding of how you build a security culture. But the recommendation to build a security culture **separate from safety** may be more problematic than it seems. If organisations put resources into building a strong security culture, such programmes ought to rest on a **scientific foundation**.\n\nHence the question: how does the concept of security culture hold up under scientific scrutiny?"
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "**See the tension inside the five features themselves**\n\nLook again at features 2 and 4. Feature 2 says: treat security as a **discipline separate from safety**. Feature 4 says: approach security **holistically, as an integrated part of core processes**.\n\nThat is not necessarily contradictory, but it is the tension the whole book is about, in a single table. Separate as a discipline, integrated as a practice. And that is exactly where Jore ends up: understand separately, treat together."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.4 The yardstick: Gerring’s eight criteria",
+        "toetsstof": true,
+        "tekst": "According to **Gerring** (1999), concepts are crucial for the functioning and development of science. Conceptual adequacy should be seen as an attempt to satisfy **eight criteria** (table 5.2):"
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Criterion",
+          "Question"
+        ],
+        "rijen": [
+          [
+            "**Familiarity**",
+            "How familiar is the concept to different audiences?"
+          ],
+          [
+            "**Resonance**",
+            "Does the chosen term ring true?"
+          ],
+          [
+            "**Parsimony**",
+            "How concise are the term and its list of defining attributes?"
+          ],
+          [
+            "**Coherence**",
+            "How internally consistent are the instances and attributes?"
+          ],
+          [
+            "**Differentiation**",
+            "How differentiated are the instances and attributes from those of neighbouring concepts?"
+          ],
+          [
+            "**Depth**",
+            "How many accompanying properties are shared by the instances covered by the definition?"
+          ],
+          [
+            "**Theoretical utility**",
+            "How useful is the concept within a wider field of inferences?"
+          ],
+          [
+            "**Field utility**",
+            "How useful is the concept within a field of related instances and attributes?"
+          ]
+        ],
+        "noot": "These eight criteria are the structure of the rest of the chapter. Section 5.5 does the first two, 5.6 the middle four, 5.7 the last two."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Use this list yourself**\n\nThese eight criteria are a tool you can use for the rest of your degree. Every time you meet a buzzword – resilience, mindfulness, safety leadership, zero trust – you can run it past these eight questions.\n\nYou will notice that many concepts score high on the first two (everybody knows them, they sound right) and low on the middle four (nobody knows exactly what they mean or how they differ from the neighbouring concept). That is exactly the pattern Jore finds for security culture."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.5 Familiarity and resonance: high",
+        "toetsstof": true,
+        "tekst": "Security today involves more than technical solutions and physical protection; it is about managing threats from **rational, strategic actors**. A component covering perception, shared understanding and the management of threats therefore looks like a welcome contribution to the field. For that reason security culture **seems** a promising instrument for improving corporate security.\n\nThe degree to which a new concept is \"logical\" or intuitively clear depends, according to Gerring, largely on how far it fits with, or clashes with, established usage in everyday language and within a specialised language community.\n\n**Safety culture** is a well-established concept, familiar to lay people, professionals and academics. The Statoil report described security culture as a common set of beliefs, attitudes, practices and behaviours that are perceived, internalised and shared across geographical units and levels. That definition matches how organisational culture, safety culture and security culture are often defined.\n\nThe term \"safety culture\" was first used as an explanatory factor in the investigation after the **Chernobyl** nuclear disaster in **1986**. Since then, safety culture has been seen across several sectors as crucial for preventing accidents. Although the term and the methods for measuring and achieving it remain contested, the concept is broadly accepted and applied as a contributing factor to organisational safety.\n\nBy leaning on the connotations of that established concept, security culture suggests that security **too** can be achieved with the same instruments.\n\n**Verdict:** security culture is familiar and resonates well. Two of the eight criteria met."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.6 Parsimony, coherence, differentiation and depth: low",
+        "toetsstof": true,
+        "tekst": "Now the four criteria where it goes wrong.\n\n**The concept is new and the literature is thin.** Although the report’s definition, understanding and recommendations connect to existing theoretical perspectives, the concept is new in the academic literature. The literature on security culture is small compared with the enormous body of research and the diverse perspectives on safety culture. It has mainly been developed within the **nuclear, chemical and aviation industries**, building on existing theories from safety culture research. With a few exceptions, little has been written about how to achieve an optimal security culture.\n\nThe consequence: security culture **lacks clear indicators or attributes, is poorly defined and operationalised, and lacks research connecting security to organisational performance**.\n\n**The definitions are sector-bound and threat-bound.** Existing definitions of security culture are tied to a specific sector, and often to a specific threat. Most work using the term concerns **information security**, not sabotage or terrorism. The literature therefore fails to account for the **polysemy** of the security field: the fact that security means many different things.\n\nIt follows that security culture is **not an overarching phenomenon** covering every possible security threat. Although all security threats are crimes, their modus operandi, target selection and motivation differ enormously, and they have to be tackled in very different ways."
+      },
+      {
+        "type": "voorbeeld",
+        "tekst": "**Why one culture does not cover all threats**\n\nA data breach through a phishing email, an angry ex-employee sabotaging a pump, and an armed raid on a drilling platform are all three security. All three are crimes.\n\nBut the culture that prevents the first (not clicking links, taking passwords seriously) has nothing to do with the culture that prevents the second (recognising the signals of a colleague going off the rails) and even less with the third (knowing where to go under attack and how to shield information about the location).\n\nThat is what Jore means by polysemy. If \"security culture\" has to cover all three, it no longer means anything specific. If it covers one, it is not an overarching concept. It is one or the other."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**The biggest problem: differentiation from neighbouring concepts.** Perhaps the greatest challenge with the term is how it relates to and differs from similar terms such as **organisational culture** and **safety culture**.\n\nMost of the academic literature using the term argues for a holistic perspective and holds that security culture should be seen as an **integrated part of safety culture**. When the attributes of security culture are defined, they are often **described in the same way as safety culture**, without the specific characteristics of security being taken into account.\n\nThat makes the concepts hard to tell apart, theoretically and practically. The theoretical perspectives on security culture do not explain the relations between organisational, safety and security culture, and leave the fundamental questions unanswered: **is security culture a subculture of safety culture or of organisational culture, and what relationship exists between them?**"
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**A legal sting in the tail**\n\nFor companies in the petroleum sector, the differences and overlap between safety and security culture have real consequences.\n\nUnder the Norwegian **Petroleum Framework Regulation** (article 15), companies are obliged to build a **safety culture**. If security culture is seen as a **subculture of safety culture**, that means companies are **legally obliged** to build a security culture too.\n\nThat is a neat example of how an apparently academic question (is it a subculture?) has direct legal consequences (is it mandatory?). Exactly what chapter 1 warned about: many requirements come from policy and law, not from science."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.7 Theoretical and field utility: mixed",
+        "toetsstof": true,
+        "tekst": "Concepts are the building blocks of all theoretical structures. How does security culture sit within the wider science of security?\n\nHere Jore makes an observation about the whole security field that you need to know. With a few exceptions, the security field **lacks theories about organisational security**. Most of the literature consists of **normative theories** about how to achieve security, without building on research. The reason: security has traditionally been connected to **the military and the police**, and was therefore regarded as **classified material**.\n\nThe concept of security culture is rarely used, and the academic literature describing the core elements of security science does **not even mention** it. There are therefore no studies describing how to build a security culture and how it fits within corporate security.\n\nAnd yet, Jore says, security culture could be a **promising contribution** to the literature, because security science is moving **towards softer measures** such as awareness, mindfulness and resilience. A concept like security culture could act as a **unifying concept** for how corporate security management is carried out.\n\nThe condition: to be useful for theory building, theoretical development is needed based on **empirical studies** of the role of security culture and how it influences security in organisations."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**What is needed: drawing boundaries**\n\nTo advance theoretical development, it is important to establish relations with neighbouring concepts such as safety culture. If the definitions overlap heavily, the phenomena become hard to distinguish, and the newer literature attempting to operationalise the concept uses **the same descriptions, attributes and indicators**.\n\nThere is therefore a need to **articulate the overlap and the boundaries** of the concepts. In addition, it should be investigated whether a good safety culture is a **precondition** for a good security culture, and the other way round."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**What is not transferable: just culture and weak signals**\n\nIn practice every organisation has a culture, or a set of subcultures, which you would expect to influence safety and security. But it is not necessarily beneficial simply to transfer theories and concepts from safety to security. Many aspects of the use of the term are **not directly transferable** to a security context. Jore gives three examples that form the heart of her objection.\n\n**Just culture.** What does a \"just culture\" mean in the context of security, when the attacker has malicious intent? Just culture is the safety principle that you may report errors without punishment, because the organisation learns more from openness than from fear. But that principle assumes the person who made the error meant no harm. With a saboteur that assumption is nonsense. This touches the possibility of **transparency and openness outside trusted circles**.\n\n**Everyone committed to security.** The report states that Statoil should have a culture in which every employee is committed to security. But is that possible, or even desirable? Does a security culture mean being **suspicious** of colleagues and others? And is **distrust** not at odds with building a safety culture?\n\n**Weak signals.** Detecting and learning from weak signals, a core idea from safety, is problematic when perpetrators are **strategic** and have no interest in revealing their plans."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**Why these are three versions of the same problem**\n\nAll three examples come down to the same thing, and it is one of the most important insights of the book as a whole.\n\nSafety culture is built on **trust and openness**. Report your errors, share what you see, learn together. That works because nothing in the system is against you. Gravity, fatigue and wear have no agenda.\n\nSecurity presupposes an **adversary**. And as soon as there is an adversary, openness can be used against you, trust can be abused, and the adversary hides the very signals you would want to pick up.\n\nSo if you transfer safety culture to security, you transfer its **engine**, trust, into a context where that engine is the vulnerability. That is not a detail you fix with a good definition. It is a structural difference, the same one chapter 1 labelled as openness versus confidentiality."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**In practice: used, but without effect on the organisation**\n\nTheoretical discussions are often abstract and belong in academic circles. But the adequacy of security culture has practical relevance, because the concept is not only a theoretical term but also a **pragmatic instrument** introduced in several petroleum companies after the In Amenas report was published.\n\nA study of the use of the term by Norwegian petroleum companies concluded that, although half of the companies used the term, that use appeared to have **no direct influence on how they organised their security system**. The companies rejecting the concept gave as their reason the **difficulty of separating security culture from safety culture**.\n\nThere is therefore a practical need to **operationalise** security culture. But safety research already tells us that culture in an organisational context covers almost everything an organisation does, which makes the impact of culture on safety hard to measure. The same holds for security culture.\n\nMoreover, safety research contains a debate about the relation between culture and **what actually happens** in organisations. The fact that the concept of safety culture is itself contested makes transferring perspectives from safety to security difficult."
+      },
+      {
+        "type": "voorbeeld",
+        "tekst": "**Using a term without changing anything**\n\nThe finding from that Norwegian study is a classic you will meet in any organisation. Half the companies say \"we are working on security culture\". But if you look at how they have arranged their security, it does not differ from the companies that never use the term.\n\nThat means the term functions as a **label**, not as an **instrument**. You stick it on what you were doing anyway. That is a risk with any popular concept: it gives the impression of change without the change itself.\n\nFor you as a future adviser, the question is therefore not \"does this organisation use the concept\" but \"what does this organisation do differently since it started using the concept\". If the answer is \"nothing\", you have your finding."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.8 Conclusions",
+        "toetsstof": true,
+        "tekst": "Jore draws four conclusions, and they do not all point the same way. That is precisely why you need all four.\n\n**Conclusion 1: the concept is needed.** There is undoubtedly a need for the concept of security culture in today’s threat landscape. In complex and volatile environments such as In Amenas, companies should introduce systems that generate awareness of external threats and offer ways of dealing with them. For such threats, **clear tactical warnings**, with specific information about where, when and how an adversary may attack, will **rarely occur**. Organisations must therefore aim for **resilience against multiple threats**, including low-probability security scenarios. Those are all arguments for a strong organisational culture with a collective **security mindfulness** that seeks out weak signals and strives for resilience.\n\n**Conclusion 2: the concept is poorly demarcated, but that is no reason to reject it.** Although security culture looks superficially like a promising avenue, its operationalisation and demarcation are so imprecise that using the concept can be **counterproductive**. But, and this is the twist: the same can be said of safety culture, so that is not an argument for rejecting the concept.\n\n**Conclusion 3: in practice a duality.** From a practical point of view an organisation has to deal with safety risks **and** security risks; both influence the organisational culture. From a practical perspective there is therefore a need to see these concepts as a **duality** and not as separate phenomena. Security threats have a different dynamic from safety risks, and because of that security is often **neglected** in organisations. That is the advantage of the concept of security culture: it makes security a **priority and a shared responsibility**.\n\n**Conclusion 4: it will grow more important, not less.** As digitalisation increases in every sector and more digital assets are connected to the internet, organisations will have to increase their attention to security threats, with the **cultural component** playing an important role, because **technical solutions will not be sufficient**. Security culture should therefore be developed further as a theoretical and a practical element. Security science is moving towards softer measures such as awareness, mindfulness and resilience, all of them important components of security culture."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "**The formula from the abstract, once more**\n\nJore sums it up herself in one sentence, which also appears in the abstract:\n\n**Security and safety culture should be understood separately, but must not be treated as separate in practice.**\n\nBoth halves are supported. Understand separately, because malicious intent, external threat, low probability and the unusability of just culture and weak signals show that this really is something else. Do not treat separately, because an organisation has only one culture, because both kinds of risk influence that culture, and because a separate security culture turns out in practice to be inseparable from safety culture.\n\nThat is not fence-sitting. It is the only position that does justice to both findings."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Key concepts from chapter 5**"
+      },
+      {
+        "type": "begrippen",
+        "items": [
+          {
+            "begrip": "In Amenas",
+            "definitie": "Algerian gas facility where on 16 January 2013 thirty-two terrorists began a four-day siege; 40 people from 10 countries were killed, among them five Statoil employees. The largest terrorist attack in the history of the oil and gas industry."
+          },
+          {
+            "begrip": "Statoil",
+            "definitie": "Norwegian state oil company, now Equinor, which set up the investigation committee whose report identified security culture as an explanatory factor and as a solution."
+          },
+          {
+            "begrip": "Security culture",
+            "definitie": "A common set of beliefs, attitudes, practices and behaviours around security, shared across units and levels. Familiar and resonant, but poorly defined, operationalised and demarcated."
+          },
+          {
+            "begrip": "Safety culture",
+            "definitie": "The established counterpart concept, first used as an explanatory factor after Chernobyl in 1986. Broadly accepted, but itself contested in definition and measurement."
+          },
+          {
+            "begrip": "Malicious intent",
+            "definitie": "According to Jore the real distinction between safety and security. Not intent as such, since deliberate rule-breaking occurs in safety too, but the intention to cause harm."
+          },
+          {
+            "begrip": "Conceptual adequacy",
+            "definitie": "The degree to which a concept satisfies Gerring’s eight criteria: familiarity, resonance, parsimony, coherence, differentiation, depth, theoretical utility, field utility."
+          },
+          {
+            "begrip": "Polysemy",
+            "definitie": "The phenomenon of one word carrying many different meanings. Security covers information security, sabotage, terrorism and more, with very different modus operandi and motives."
+          },
+          {
+            "begrip": "Just culture",
+            "definitie": "The safety principle that errors can be reported without punishment so the organisation learns. According to Jore not transferable to security, because the attacker is malicious."
+          },
+          {
+            "begrip": "Weak signals",
+            "definitie": "Small early indications that safety work seeks out in order to prevent accidents. Problematic in security, because strategic perpetrators deliberately hide their plans."
+          },
+          {
+            "begrip": "Security mindfulness",
+            "definitie": "The collective alertness to external threats that Jore advocates, aimed at seeking out weak signals and at resilience."
+          },
+          {
+            "begrip": "Resilience",
+            "definitie": "An organisation’s ability to withstand multiple threats and recover, including low-probability scenarios; according to Jore the aim for threats without clear tactical warning."
+          },
+          {
+            "begrip": "Duality",
+            "definitie": "Jore’s conclusion about the relation between safety and security culture: two sides of the same organisational culture, to be understood separately but not treated separately."
+          },
+          {
+            "begrip": "Petroleum Framework Regulation",
+            "definitie": "Norwegian regulation obliging petroleum companies to build a safety culture; if security culture is a subculture of it, that obligation extends to security as well."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toepassen",
+    "titel": "Applying it",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "Assessing a concept with Gerring, in eight steps",
+        "items": [
+          {
+            "titel": "Familiarity.",
+            "tekst": "Do the people who have to use the concept know it? If so, from where? Often from a neighbouring concept, and that is a risk in itself."
+          },
+          {
+            "titel": "Resonance.",
+            "tekst": "Does it sound right, does it fit existing usage? Careful: this is a superficial criterion, and it is exactly where buzzwords score high."
+          },
+          {
+            "titel": "Parsimony.",
+            "tekst": "Can you define the concept in one sentence with a short list of attributes? If not, it probably covers too much."
+          },
+          {
+            "titel": "Coherence.",
+            "tekst": "Do all the cases falling under it belong together? For security culture: do phishing, sabotage and terrorism fit under one culture?"
+          },
+          {
+            "titel": "Differentiation.",
+            "tekst": "What sets the concept apart from its neighbours? If the attributes are literally the same as the neighbouring concept’s, you do not have a new concept but a new label."
+          },
+          {
+            "titel": "Depth.",
+            "tekst": "Do the cases share more than just the defining attributes? The richer the shared properties, the more useful the concept."
+          },
+          {
+            "titel": "Theoretical utility.",
+            "tekst": "Can you predict or explain anything with it, within a broader theory? Are there empirical studies linking the concept to outcomes?"
+          },
+          {
+            "titel": "Field utility.",
+            "tekst": "Does the concept help practitioners do their work differently? Or do they use it as a label for what they were already doing?"
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "h5-oef-1",
+        "niveau": "basis",
+        "vraag": "Explain why Jore argues that intentionality is not sufficient to distinguish safety from security, and which criterion she puts in its place.",
+        "antwoord": "Jore points out that intention plays a role within safety too. The organisational safety literature has long recognised that accidents are not random and that employees sometimes deliberately deviate from procedures, for instance through drug use or by not wearing protective equipment. That is intentional and sometimes even criminal, but it is not security, because the employee does not want to harm anyone. Neither intentionality nor criminality is therefore sufficient as a distinguishing criterion. The distinction lies, she argues, in the malicious intent of an actor who genuinely means to cause harm. That is sharper than the intentionality axis of chapter 1: not \"did someone do it on purpose\" but \"did someone do it on purpose in order to harm\". The practical consequence: the same action, such as not wearing safety goggles, falls under safety or security depending on the aim of the person doing it."
+      },
+      {
+        "type": "oefening",
+        "id": "h5-oef-2",
+        "niveau": "basis",
+        "vraag": "Walk through Gerring’s eight criteria for security culture and give Jore’s verdict on each in one sentence.",
+        "antwoord": "Familiarity: high, because it leans on the well-known concept of safety culture. Resonance: high, the term sounds logical and fits established usage. Parsimony: low, the concept lacks clear indicators and attributes and is poorly defined. Coherence: low, because existing definitions are sector- and threat-bound and the literature ignores the polysemy of security, so phishing, sabotage and terrorism do not sit coherently under one concept. Differentiation: low, and according to Jore the biggest problem, because the attributes of security culture are described in the same way as those of safety culture and the relation to organisational and safety culture is left unanswered. Depth: low, there is hardly any research linking security culture to organisational performance. Theoretical utility: potentially present, since security science is moving towards softer measures and could use a unifying concept, but not yet realised for lack of empirical studies. Field utility: limited, since half the Norwegian petroleum companies use the term without it influencing how they arrange their security, and the other half reject it because it cannot be separated from safety culture."
+      },
+      {
+        "type": "oefening",
+        "id": "h5-oef-3",
+        "niveau": "gevorderd",
+        "vraag": "Jore argues that just culture is not transferable to security. Work out why, and connect it to the transparency problem from chapter 1.",
+        "antwoord": "Just culture is a safety principle that lets employees report errors and near misses without fear of punishment, because the organisation learns more from openness than from concealment. The principle assumes the person who made the error acted in good faith and that the organisation as a whole benefits from sharing the information. In security the adversary is malicious by definition. A saboteur who reports his \"error\" does not exist, and information about vulnerabilities you share openly reaches the attacker. Openness, the engine of just culture, thereby becomes a vulnerability. Jore formulates this as a limit on transparency and openness outside trusted circles. This is exactly the third tension from chapter 1: safety strives for maximum openness, security may demand confidentiality, and those two information regimes collide structurally. The consequence for security culture is that you cannot adopt one of the most powerful instruments of safety culture, and that a security culture nonetheless built on openness makes the organisation more vulnerable rather than safer."
+      },
+      {
+        "type": "oefening",
+        "id": "h5-oef-4",
+        "niveau": "gevorderd",
+        "vraag": "Jore concludes that safety and security culture should be understood separately but not treated separately. Is that a contradiction? Support your answer with both halves of her argument.",
+        "antwoord": "It is not a contradiction, because \"understanding\" and \"treating\" concern different things. Understanding separately concerns the analysis: security is distinguished by malicious intent, is threatened from outside by parties you cannot know, is loosely coupled to profit and production, involves events of extremely low probability, and does not permit safety instruments such as just culture and learning from weak signals. Anyone ignoring that and treating security culture as a copy of safety culture ends up with a concept without distinguishing power, exactly the deficiency Gerring's differentiation criterion exposes. Not treating separately concerns practice: an organisation has one culture or a set of subcultures, both kinds of risk influence that culture, and companies that tried to build a separate security culture ran aground because they could not detach it from safety culture. Moreover, security is often neglected in organisations, and the practical advantage of the concept is precisely that it makes security a priority and a shared responsibility within the existing culture. The two halves therefore complement each other: distinguish sharply in your analysis, so you know which instruments are and are not transferable, and then integrate into one organisational culture, because in practice there is no second culture to house it in."
+      }
+    ]
+  },
+  {
+    "id": "checken",
+    "titel": "Check yourself",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Check yourself on chapter 5",
+        "vragen": [
+          {
+            "vraag": "What happened at In Amenas on 16 January 2013?",
+            "opties": [
+              "A gas leak with dozens of deaths",
+              "A terrorist attack by 32 armed men with a four-day siege, 40 dead from 10 countries",
+              "A cyberattack on the control system of the installation",
+              "A strike that turned violent"
+            ],
+            "juist": 1,
+            "uitleg": "The largest terrorist attack in the history of the oil and gas industry, with five Statoil employees among the dead."
+          },
+          {
+            "vraag": "In which two ways did the Statoil report use the concept of security culture?",
+            "opties": [
+              "As a definition and as a measuring instrument",
+              "As an explanatory factor behind the outcome and as an instrument for improving security",
+              "As a legal obligation and as a financial item",
+              "As a subculture of safety culture and as an independent discipline"
+            ],
+            "juist": 1,
+            "uitleg": "Explanation and solution at once. That is a heavy load for a concept that barely appears in the literature."
+          },
+          {
+            "vraag": "What, according to Jore, is the real distinction between safety and security?",
+            "opties": [
+              "Intentionality",
+              "Whether a crime has been committed",
+              "Malicious intent: the intention to cause harm",
+              "Whether the threat comes from inside or outside"
+            ],
+            "juist": 2,
+            "uitleg": "Intent and criminality occur in safety too, for instance with an employee who knowingly breaks rules without wanting to harm anyone."
+          },
+          {
+            "vraag": "Which of the following is NOT a feature of a strong security culture according to the Statoil report?",
+            "opties": [
+              "Hands-on security leadership with access to top management",
+              "Security treated as a discipline separate from safety",
+              "A reporting system entirely separated from safety",
+              "A holistic approach as part of the core processes"
+            ],
+            "juist": 2,
+            "uitleg": "The five features are leadership, ambitions as a separate discipline, capacity and competence, a holistic approach, and transparent risk management processes."
+          },
+          {
+            "vraag": "After which disaster was safety culture first used as an explanatory factor?",
+            "opties": [
+              "Bhopal 1984",
+              "Chernobyl 1986",
+              "Piper Alpha 1988",
+              "Deepwater Horizon 2010"
+            ],
+            "juist": 1,
+            "uitleg": "Since then safety culture has been seen across sectors as crucial for accident prevention, although its definition and measurement remain contested."
+          },
+          {
+            "vraag": "On which two of Gerring’s criteria does security culture score high?",
+            "opties": [
+              "Parsimony and coherence",
+              "Familiarity and resonance",
+              "Differentiation and depth",
+              "Theoretical utility and field utility"
+            ],
+            "juist": 1,
+            "uitleg": "The concept is familiar and sounds logical because it leans on safety culture. That is also where the risk sits: it suggests the same instruments will work."
+          },
+          {
+            "vraag": "What does Jore call the greatest challenge for the concept of security culture?",
+            "opties": [
+              "That it is too technical",
+              "That it is not differentiated from organisational culture and safety culture",
+              "That it is too expensive to implement",
+              "That it is only used in Norway"
+            ],
+            "juist": 1,
+            "uitleg": "Its attributes are described in the same way as those of safety culture, and the question whether it is a subculture remains unanswered."
+          },
+          {
+            "vraag": "Why is most security research normative rather than empirical, according to Jore?",
+            "opties": [
+              "Because security is too new to research",
+              "Because security traditionally belonged to the military and the police and was regarded as classified",
+              "Because companies will not share data",
+              "Because no journals exist for it"
+            ],
+            "juist": 1,
+            "uitleg": "As a result the field lacks theories of organisational security, and the literature on security science does not even mention the concept of security culture."
+          },
+          {
+            "vraag": "Why is just culture not transferable to security, according to Jore?",
+            "opties": [
+              "Because security has no errors",
+              "Because the principle assumes openness and good faith, while the attacker is malicious",
+              "Because security does not use reporting systems",
+              "Because just culture legally applies only to safety"
+            ],
+            "juist": 1,
+            "uitleg": "Openness is the engine of just culture, and in a security context that very openness becomes a vulnerability."
+          },
+          {
+            "vraag": "What did the study of Norwegian petroleum companies using security culture find?",
+            "opties": [
+              "They had fewer incidents",
+              "Using the term had no direct influence on how they organised their security system",
+              "They had set up a separate security department",
+              "They had all abandoned safety culture"
+            ],
+            "juist": 1,
+            "uitleg": "The term functioned as a label, not as an instrument. Companies that rejected it said the reason was that it could not be separated from safety culture."
+          },
+          {
+            "vraag": "Why is the poor demarcation of security culture not a reason to reject the concept, according to Jore?",
+            "opties": [
+              "Because the concept is legally required",
+              "Because safety culture has exactly the same shortcomings and is still widely used",
+              "Because there is no alternative",
+              "Because the petroleum sector has already introduced it"
+            ],
+            "juist": 1,
+            "uitleg": "Anyone rejecting security culture on grounds of imprecise demarcation would have to reject safety culture on the same grounds."
+          },
+          {
+            "vraag": "What is Jore’s final conclusion about the relation between safety and security culture?",
+            "opties": [
+              "They are identical and should be merged",
+              "They are completely separate and should be organised apart",
+              "They should be understood separately but not treated separately in practice",
+              "Security culture should replace safety culture"
+            ],
+            "juist": 2,
+            "uitleg": "Understood separately because of malicious intent and non-transferable instruments; not treated separately because an organisation has only one culture."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Jore, S. H. (2020). Security and safety culture: Dual or distinct phenomena? In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 43–51). Springer."
+          },
+          {
+            "apa": "Gerring, J. (1999). What makes a concept good? A criterial framework for understanding concept formation in the social sciences. Polity, 31(3), 357–393."
+          },
+          {
+            "apa": "Jore, S. H. (2017). The conceptual and scientific demarcation of security in contrast to safety. European Journal for Security Research, 1–18."
+          },
+          {
+            "apa": "Jore, S. H. (2017). Security culture: A sufficient explanation for a terrorist attack? In Risk, Reliability and Safety: Proceedings of ESREL 2016 (pp. 467–474). CRC Press."
+          },
+          {
+            "apa": "Statoil ASA (2013). The In Amenas attack: Report of the investigation into the terrorist attack on In Amenas."
+          },
+          {
+            "apa": "Antonsen, S. (2017). Safety culture: Theory, method and improvement. CRC Press."
+          },
+          {
+            "apa": "Hopkins, A. (2006). Studying organisational cultures and their effects on safety. Safety Science, 44(10), 875–889."
+          },
+          {
+            "apa": "Larsen, C. I., & Østensjø, C. (2015). Operatørselskapene i petroleumssektoren sitt syn på sikringskultur. Master’s thesis, University of Stavanger."
+          },
+          {
+            "apa": "Malcolmson, J. (2009). What is security culture? Does it differ in content from general organisational culture? IEEE Carnahan Conference on Security Technology, 361–366."
+          },
+          {
+            "apa": "Van Nunen, K., Sas, M., Reniers, G., Vierendeels, G., Ponnet, K., & Hardyns, W. (2018). An integrative conceptual framework for physical security culture in organisations. Journal of Integrated Security Science, 2(1), 25–32."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "From culture to the user",
+        "tekst": "Jore looks at the organisation from the inside. In chapter 6 Bongiovanni turns the camera around and looks from the traveller who has to pass through security at the airport.",
+        "punten": [
+          "Why the legal and managerial perspectives dominate airport security",
+          "What an end-user perspective and design methods can add",
+          "How to spend less on loss prevention and deliver more value to users"
+        ]
+      }
+    ]
+  }
 ];
-
 LESSTOF["intro-to-safety-security/h6"] = [
 { id: "voor", titel: "Voorbereiding", blokken: [
 { type: "leerdoelen", items: ["Het dilemma van risicomanagement uitleggen dat Bongiovanni als vertrekpunt neemt, en wat \"eternal killjoys\" betekent", "Uitleggen waarom kritieke infrastructuren safety en security in twee aparte functies hebben georganiseerd, en waarom dat volgens de literatuur niet meer volstaat", "Definiëren wat een safety- en securityervaring is en waarom een eindgebruikersperspectief in dit veld ongebruikelijk is", "De drie fasen van design thinking volgens Liedtka noemen en per fase de instrumenten beschrijven", "Een stakeholdermap, een user-persona en een user-journey map uitleggen en zelf opstellen", "De twee ideatielenzen derive en utilize uitleggen en toepassen", "De drie benaderingen van luchthavensafety en -security (juridisch, managerial, design) op alle zeven dimensies vergelijken", "De beperkingen van het model benoemen die Bongiovanni zelf aangeeft"] },
