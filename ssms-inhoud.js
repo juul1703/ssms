@@ -801,393 +801,393 @@ LESSTOF["intro-to-safety-security/h1"] = [
 LESSTOF["intro-to-safety-security/h2"] = [
   {
     "id": "voor",
-    "titel": "Voorbereiding",
+    "titel": "Before you start",
     "blokken": [
       {
         "type": "leerdoelen",
         "items": [
-          "Uitleggen waarom gestandaardiseerde definities noodzakelijk zijn voor safety and security science",
-          "De ISO-definitie van risico letterlijk reproduceren en toepassen",
-          "De definitie van \"objectives\" van Blokland en Reniers uitleggen en gebruiken als startpunt",
-          "De drie elementen benoemen die aanwezig moeten zijn wil er risico bestaan",
-          "Het fundamentele verschil tussen risico en safety uitleggen",
-          "De drie niveaus benoemen waarop safety en security van elkaar verschillen: effect, doelstellingen en onzekerheid",
-          "Uitleggen wat de vectorbenadering van doelstellingen en het 90-graden-criterium betekenen",
-          "Definities geven van safety, security en unsecurity zoals dit hoofdstuk ze voorstelt"
+          "Explain why standardised definitions are necessary for safety and security science",
+          "Reproduce the ISO definition of risk word for word and apply it",
+          "Explain Blokland and Reniers\u2019 definition of \"objectives\" and use it as a starting point",
+          "Name the three elements that must be present for risk to exist",
+          "Explain the fundamental difference between risk and safety",
+          "Name the three levels at which safety and security differ: effect, objectives and uncertainty",
+          "Explain what the vector approach to objectives and the 90-degree criterion mean",
+          "Give definitions of safety, security and unsecurity as this chapter proposes them"
         ]
       },
       {
         "type": "uitleg",
-        "titel": "Waar dit hoofdstuk over gaat",
-        "tekst": "Dit hoofdstuk is geschreven door **Peter J. Blokland** en **Genserik L. Reniers** van de Safety and Security Science Group (S3G) van de TU Delft. Reniers werkt daarnaast in Brussel en Antwerpen.\n\nIedereen heeft een intuïtief begrip van risico, safety en security, en dat begrip is tot op zekere hoogte universeel. Maar zodra je de betekenis van die woorden helemaal wilt doorgronden, beland je in een **semantisch debat** en **ontologische discussies**.\n\nHet doel van de auteurs: die discussie doorbreken door een gemeenschappelijke semantische en ontologische bodem voor te stellen, met het begrip **\"objectives\" (doelstellingen)** als centraal startpunt."
+        "titel": "What this chapter is about",
+        "tekst": "This chapter is written by **Peter J. Blokland** and **Genserik L. Reniers** of the Safety and Security Science Group (S3G) at TU Delft. Reniers also works in Brussels and Antwerp.\n\nEveryone has an intuitive understanding of risk, safety and security, and to a degree that understanding is universal. But as soon as you try to get to the bottom of what those words mean, you end up in a **semantic debate** and in **ontological discussions**.\n\nThe authors\u2019 aim: break that deadlock by proposing a common semantic and ontological ground, with the concept of **\"objectives\"** as the central starting point."
       },
       {
         "type": "slimmer",
-        "titel": "Zo hou je dit hoofdstuk uit elkaar",
-        "tekst": "Dit hoofdstuk stapelt definities op elkaar. Als je één schakel mist, valt de rest om. Schrijf daarom terwijl je leest deze keten op één A4:\n\nobjectives → risk (ISO) → safety → security → unsecurity\n\nEn zet er bij elke stap achter: **welk woord komt erbij?** Bij security komt \"intentional\" erbij. Bij unsecurity komen \"alignment is low\" en \"likelihood is high\" erbij. Zo onthoud je het zonder stampen."
+        "titel": "How to keep this chapter straight",
+        "tekst": "This chapter stacks definitions on top of each other. Miss one link and the rest collapses. So while you read, write this chain on a single sheet:\n\nobjectives \u2192 risk (ISO) \u2192 safety \u2192 security \u2192 unsecurity\n\nAnd note at each step: **which word is added?** At security, \"intentional\" is added. At unsecurity, \"alignment is low\" and \"likelihood is high\" are added. That way you remember it without cramming."
       },
       {
         "type": "waarschuwing",
-        "titel": "Ontologie en semantiek, kort",
-        "tekst": "**Semantiek** gaat over de betekenis van woorden. **Ontologie** gaat over wat er eigenlijk bestaat: wát is een risico voor een ding? Het hoofdstuk gaat over beide tegelijk, en de auteurs claimen dus niet alleen betere woorden, maar ook een beter beeld van waar we het eigenlijk over hebben."
+        "titel": "Ontology and semantics, briefly",
+        "tekst": "**Semantics** is about the meaning of words. **Ontology** is about what actually exists: what **is** a risk to a thing? The chapter deals with both at once, so the authors are not only claiming better words, but also a better picture of what we are actually talking about."
       }
     ]
   },
   {
     "id": "kern",
-    "titel": "Kernstof",
+    "titel": "Core material",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "2.1 Inleiding — twee hardnekkige misverstanden",
+        "titel": "2.1 Introduction \u2014 two persistent misconceptions",
         "toetsstof": true,
-        "tekst": "Het hoofdstuk begint met twee opvattingen die volgens de auteurs onhoudbaar zijn.\n\n**Misverstand 1: risico en safety zijn tegenpolen.** Dat wordt vaak beweerd, maar er groeit begrip dat dit maar **gedeeltelijk** waar is en niet strookt met de modernere, meer omvattende opvattingen over risico en safety (zie het werk van Aven).\n\n**Misverstand 2: safety en security zijn volstrekt gescheiden vakgebieden.** Zo worden ze vaak gezien: aparte expertisegebieden, los van elkaar bestudeerd. Andere opvattingen benadrukken juist de **overeenkomsten** en zien de twee zelfs als synoniemen (Boholm e.a., 2016).\n\nDe vragen van het hoofdstuk zijn dan: hoe verhouden deze concepten zich tot elkaar, en hoe helpt een eigentijdse en inclusieve blik erop bij het begrijpen en aanpakken van de bijbehorende vraagstukken?"
+        "tekst": "The chapter starts with two views the authors regard as untenable.\n\n**Misconception 1: risk and safety are opposites.** This is often asserted, but understanding is growing that it is only **partly** true and does not fit the more modern, more comprehensive views of risk and safety (see the work of Aven).\n\n**Misconception 2: safety and security are entirely separate fields.** That is how they are often seen: separate areas of expertise, studied apart from each other. Other views emphasise the **similarities** and even treat the two as synonyms (Boholm et al., 2016).\n\nThe questions of the chapter are then: how do these concepts relate to each other, and how does a contemporary and inclusive view of them help in understanding and tackling the issues involved?"
       },
       {
         "type": "tekst",
-        "titel": "2.2 De concepten — van specialistisch naar holistisch",
+        "titel": "2.2 The concepts \u2014 from specialist to holistic",
         "toetsstof": true,
-        "tekst": "De opvattingen over en het bewustzijn van safety, security en risico zijn de laatste jaren geëvolueerd: van een **smal, specialistisch perspectief** naar een **holistischer** beeld en aanpak.\n\nMaar, en dat is de kern van de klacht: dat begrip is **niet noodzakelijk gedeeld**. Iedereen snapt wat de woorden betekenen, in zijn eigen beleving. Zodra je een discussie opent over wat deze concepten nu écht zijn en hoe je ze zou moeten bestuderen of aanpakken, eindig je hoogstwaarschijnlijk in ontologische en semantische debatten, door de uiteenlopende opvattingen, percepties en definities die naast elkaar bestaan."
+        "tekst": "Views of and awareness about safety, security and risk have evolved in recent years: from a **narrow, specialist perspective** towards a more **holistic** picture and approach.\n\nBut, and this is the heart of the complaint, that understanding is **not necessarily shared**. Everyone grasps what the words mean, in their own experience. As soon as you open a discussion about what these concepts really are and how they should be studied or addressed, you most probably end up in ontological and semantic debates, because of the diverging views, perceptions and definitions that exist side by side."
       },
       {
         "type": "tekst",
-        "titel": "2.2.1 Waarom standaardisatie ertoe doet",
+        "titel": "2.2.1 Why standardisation matters",
         "toetsstof": true,
-        "tekst": "Wetenschap, ook het domein van risico en safety, hangt sterk af van heldere en gedeelde definities van concepten, en van goed gedefinieerde parameters. Precieze definities leveren drie dingen op:\n\n1. **standaardisatie**,\n2. **betere communicatie**,\n3. **ondubbelzinnig delen van kennis**.\n\nDe auteurs gebruiken een treffende vergelijking van Brazma (2001): ons vermogen om informatie uit onafhankelijke experimenten te combineren hangt af van standaarden, net zoals **fabricagestandaarden** nodig zijn om onderdelen van verschillende fabrikanten op elkaar te laten passen."
+        "tekst": "Science, including the domain of risk and safety, depends heavily on clear and shared definitions of concepts and on well-defined parameters. Precise definitions deliver three things:\n\n1. **standardisation**,\n2. **better communication**,\n3. **unambiguous sharing of knowledge**.\n\nThe authors use a telling comparison from Brazma (2001): our ability to combine information from independent experiments depends on standards, just as **manufacturing standards** are needed to make components from different manufacturers fit together."
       },
       {
         "type": "tekst",
-        "titel": "2.2.2 Synoniemen en antoniemen — het gat in het vocabulaire",
+        "titel": "2.2.2 Synonyms and antonyms \u2014 the gap in the vocabulary",
         "toetsstof": true,
-        "tekst": "Wie in safety and security science zoekt naar ondubbelzinnige definities en parameters die safety, security en risico helder verbinden, komt bedrogen uit. Uit de safety science-literatuur blijkt dat de vraag \"wat is safety\" op **veel manieren** kan worden beantwoord, en dat een heldere definitie van het **tegenovergestelde** vrijwel niet te vinden is.\n\nDe gevolgtrekking is dubbel:\n- er is **geen** breed geaccepteerde semantische basis in safety and security science;\n- er is **evenmin** standaardisatie voor het benoemen van de antoniemen, de woorden die een gebrek aan safety of security aanduiden.\n\nEen perfect woord voor het ontbreken van safety zou **\"unsafety\"** zijn, maar het wordt nauwelijks gebruikt in wetenschappelijke literatuur."
+        "tekst": "Anyone searching safety and security science for unambiguous definitions and parameters that clearly connect safety, security and risk will be disappointed. The safety science literature shows that the question \"what is safety\" can be answered in **many ways**, and that a clear definition of the **opposite** is almost impossible to find.\n\nThe conclusion is twofold:\n- there is **no** widely accepted semantic basis in safety and security science;\n- there is **equally** no standardisation for naming the antonyms, the words that denote a lack of safety or security.\n\nA perfect word for the absence of safety would be **\"unsafety\"**, but it is barely used in scientific literature."
       },
       {
         "type": "tabel",
-        "titel": "Tabel 2.1 — Google Scholar-hits, 27 maart 2018",
+        "titel": "Table 2.1 \u2014 Google Scholar hits, 27 March 2018",
         "kop": [
           "Concept",
-          "Aantal hits",
+          "Hits",
           "Concept",
-          "Aantal hits"
+          "Hits"
         ],
         "rijen": [
           [
             "Risk",
-            "4.770.000",
+            "4,770,000",
             "Uncertainty",
-            "3.930.000"
+            "3,930,000"
           ],
           [
             "Safety",
-            "3.450.000",
+            "3,450,000",
             "Unsafety",
-            "8.800"
+            "8,800"
           ],
           [
             "Security",
-            "3.290.000",
+            "3,290,000",
             "Unsecurity",
-            "40.800"
+            "40,800"
           ],
           [
             "Accident",
-            "3.110.000",
+            "3,110,000",
             "Insecurity",
-            "1.090.000"
+            "1,090,000"
           ],
           [
             "Incident",
-            "3.160.000",
+            "3,160,000",
             "Mishap",
-            "77.500"
+            "77,500"
           ],
           [
             "Disaster",
-            "2.800.000",
+            "2,800,000",
             "Catastrophe",
-            "899.000"
+            "899,000"
           ],
           [
             "Hazard",
-            "3.340.000",
+            "3,340,000",
             "Danger",
-            "2.770.000"
+            "2,770,000"
           ],
           [
             "Injury",
-            "1.900.000",
+            "1,900,000",
             "Loss",
-            "5.810.000"
+            "5,810,000"
           ]
         ],
-        "noot": "Je hoeft de getallen niet uit je hoofd te kennen, wel de verhouding: \"safety\" scoort 3,45 miljoen, \"unsafety\" 8.800. Dat gat van ongeveer een factor 400 is het hele argument van de auteurs."
+        "noot": "You do not need the numbers by heart, but you do need the ratio: \"safety\" scores 3.45 million, \"unsafety\" 8,800. That gap of roughly a factor of 400 is the authors\u2019 whole argument."
       },
       {
         "type": "tekst",
-        "titel": "Waarom niet \"insecurity\"?",
+        "titel": "Why not \"insecurity\"?",
         "toetsstof": true,
-        "tekst": "Voor het antoniem van security is het nóg lastiger een gangbaar woord te vinden dat de lading dekt. Het probleem zit in de betekenis van het gangbare woord: de Oxford Living Dictionary definieert **unsecurity** als \"onzekerheid of angst over jezelf\" en \"een gebrek aan zelfvertrouwen\".\n\nDe auteurs stellen de retorische vraag of dat is wat mensen bedoelen als ze het vandaag over securityvraagstukken hebben in safety and security science. Hun antwoord: nee, en daarom is het verstandig om het woord **\"unsecurity\"** te gebruiken, als bewuste term voor het ontbreken van security."
+        "tekst": "Finding a common word that covers the antonym of security is even harder. The problem lies in the meaning of the common word: the Oxford Living Dictionary defines **insecurity** as \"uncertainty or anxiety about oneself\" and \"a lack of confidence\".\n\nThe authors ask the rhetorical question whether that is what people mean when they talk about security issues in safety and security science today. Their answer: no, and that is why it is sensible to use the word **\"unsecurity\"**, as a deliberate term for the absence of security."
       },
       {
         "type": "tekst",
-        "titel": "2.3.1 Standaarddefinities — het ISO-anker",
+        "titel": "2.3.1 Standard definitions \u2014 the ISO anchor",
         "toetsstof": true,
-        "tekst": "Standaarddefinities voor safety en security ontbreken. Voor **risico** is dat anders. Er bestaan veel opvattingen en definities van risico, maar er is wél een omvattende, gestandaardiseerde definitie. De **International Organization for Standardization (ISO)** definieert risico als:\n\nhet effect van onzekerheid op doelstellingen.\n\n*(Engels: \"the effect of uncertainty on objectives\", ISO 31000.)*\n\nDoor die definitie als referentie te nemen kun je safety, security én hun antoniemen op een vergelijkbare, ondubbelzinnige en omvattende manier definiëren. Dat is precies wat dit hoofdstuk doet. **Safety** in de breedste zin wordt dan:\n\nSafety is de conditie, of het geheel van omstandigheden, waarin de kans op negatieve effecten op doelstellingen laag is."
+        "tekst": "Standard definitions for safety and security are missing. For **risk** it is different. There are many views and definitions of risk, but there **is** a comprehensive, standardised definition. The **International Organization for Standardization (ISO)** defines risk as:\n\nthe effect of uncertainty on objectives.\n\n*(ISO 31000.)*\n\nBy taking that definition as a reference you can define safety, security **and** their antonyms in a comparable, unambiguous and comprehensive way. That is precisely what this chapter does. **Safety** in the broadest sense then becomes:\n\nSafety is the condition, or the set of circumstances, in which the likelihood of negative effects on objectives is low."
       },
       {
         "type": "tekst",
-        "titel": "Safety-I en Safety-II: van verlies naar prestatie",
+        "titel": "Safety-I and Safety-II: from loss to performance",
         "toetsstof": true,
-        "tekst": "Risico en safety, waarbij safety hier breed wordt opgevat inclusief security, zijn nauw verwant, en het begrip van beide concepten is op **vergelijkbare wijze geëvolueerd**: van een puur verliesperspectief naar een omvattender beeld dat zowel negatieve effecten (verlies) als positieve effecten (winst) meeneemt.\n\nOok binnen safety science groeit het besef dat het domein niet alleen gaat over bescherming tegen verlies (**Safety-I**), maar ook over de conditie van **uitstekende prestatie** bij het bereiken en veiligstellen van doelstellingen (**Safety-II**). Dat onderscheid komt van Hollnagel (2014).\n\nDe kern van de klacht van de auteurs: tegenwoordig worden risico, safety en security gekoppeld aan wat je eigenlijk **wilt** en hoe je dat krijgt. Maar juist dat meest voor de hand liggende deel, **de doelstellingen**, wordt in definities vaak vergeten. Terwijl het concept \"objective\" misschien wel het belangrijkste element is om risico, safety en security te begrijpen."
+        "tekst": "Risk and safety, where safety is taken broadly here to include security, are closely related, and understanding of both concepts has evolved in a **comparable way**: from a pure loss perspective to a more comprehensive picture that takes in both negative effects (loss) and positive effects (gain).\n\nWithin safety science too, awareness is growing that the domain is not only about protection against loss (**Safety-I**), but also about the condition of **excellent performance** in achieving and safeguarding objectives (**Safety-II**). That distinction comes from Hollnagel (2014).\n\nThe core of the authors\u2019 complaint: nowadays risk, safety and security are linked to what you actually **want** and how you get it. But the most obvious part of that, **the objectives**, is often forgotten in definitions. While the concept of \"objective\" is perhaps the single most important element for understanding risk, safety and security."
       },
       {
         "type": "citaat",
-        "tekst": "Doelstellingen zijn die zaken, tastbaar en niet-tastbaar, die individuen, organisaties of de samenleving willen, nodig hebben, nastreven, proberen te verkrijgen of op mikken. Ook condities, situaties of bezittingen die al zijn verworven en die als gewenste of noodzakelijke toestand in stand worden gehouden, bewust en uitgesproken of onbewust en onuitgesproken.",
-        "bron": "Werkvertaling van de definitie van \"objectives\" in Blokland & Reniers, hoofdstuk 2",
+        "tekst": "Objectives are those things, tangible and intangible, that individuals, organisations or society want, need, pursue, try to obtain or aim at. Also conditions, situations or possessions already acquired and maintained as a desired or necessary state, consciously and explicitly or unconsciously and tacitly.",
+        "bron": "Working translation of the definition of \"objectives\" in Blokland & Reniers, chapter 2",
         "jaar": "2020"
       },
       {
         "type": "tekst",
-        "titel": "2.3.2 Waarom die definitie zo breed is",
+        "titel": "2.3.2 Why that definition is so broad",
         "toetsstof": true,
-        "tekst": "Let op wat de definitie van \"objectives\" allemaal binnenhaalt. Dat is geen slordigheid, dat is het punt.\n\n- **tastbaar én niet-tastbaar** (geld en gebouwen, maar ook reputatie en vertrouwen)\n- **individueel, organisatorisch én maatschappelijk** niveau\n- **nog te bereiken** doelen én **al bereikte** condities die je in stand wilt houden\n- **bewust en expliciet** geformuleerd én **onbewust en impliciet** aanwezig\n\nDat laatste is het meest onderschatte deel. Je fysieke integriteit is een doelstelling die je nooit hebt opgeschreven, maar wel hebt. Precies daarom kan er risico bestaan zonder dat iemand ooit een doel formuleerde."
+        "tekst": "Notice everything the definition of \"objectives\" pulls in. That is not sloppiness, that is the point.\n\n- **tangible and intangible** (money and buildings, but also reputation and trust)\n- the **individual, organisational and societal** level\n- objectives **still to be achieved** and conditions **already achieved** that you want to maintain\n- **consciously and explicitly** formulated and **unconsciously and tacitly** present\n\nThat last one is the most underestimated part. Your physical integrity is an objective you never wrote down, but you have it. That is exactly why risk can exist without anyone ever having formulated a goal."
       },
       {
         "type": "tekst",
-        "titel": "2.3.3 Risico en safety verbinden — de drie elementen",
+        "titel": "2.3.3 Connecting risk and safety \u2014 the three elements",
         "toetsstof": true,
-        "tekst": "Op basis van de ISO-definitie ziet het verband er zo uit. Om risico te laten **bestaan** moeten alle drie deze elementen aanwezig zijn:\n\n1. **objectives** — doelstellingen\n2. **effects** — effecten die die doelstellingen kunnen raken\n3. **uncertainty** — onzekerheid die met deze elementen samenhangt\n\nSafety, inclusief security, betreft vooral de **doelstellingen** en de **effecten** die deze doelstellingen kunnen raken.\n\nRisico én safety begrijpen vraagt dus om vier dingen tegelijk: begrijpen welke doelstellingen ertoe doen, welke effecten die doelstellingen kunnen raken, hoe **waarschijnlijk** die effecten zijn, en hoe **groot de impact** van die effecten met bijbehorende waarschijnlijkheid is. Bij safety geldt daarbij: de waarschijnlijkheid is **laag**."
+        "tekst": "On the basis of the ISO definition the connection looks like this. For risk to **exist**, all three of these elements must be present:\n\n1. **objectives**\n2. **effects** that can touch those objectives\n3. **uncertainty** connected to these elements\n\nSafety, including security, mainly concerns the **objectives** and the **effects** that can touch those objectives.\n\nUnderstanding risk **and** safety therefore requires four things at once: understanding which objectives matter, which effects can touch those objectives, how **likely** those effects are, and how **large the impact** of those effects with their likelihood is. For safety it holds that the likelihood is **low**."
       },
       {
         "type": "vergelijking",
-        "titel": "2.3.4 Het enige fundamentele verschil tussen risico en safety",
+        "titel": "2.3.4 The only fundamental difference between risk and safety",
         "links": {
-          "titel": "Risico",
-          "tekst": "Gaat over een **onzekere toekomstige toestand**.",
+          "titel": "Risk",
+          "tekst": "Concerns an **uncertain future state**.",
           "punten": [
-            "Vereist objectives, effects én uncertainty",
-            "Kijkt vooruit",
-            "Uitgedrukt in kans en gevolg"
+            "Requires objectives, effects and uncertainty",
+            "Looks ahead",
+            "Expressed in likelihood and consequence"
           ]
         },
         "rechts": {
           "titel": "Safety",
-          "tekst": "Gaat over **bepaalde, feitelijke condities**.",
+          "tekst": "Concerns **certain, actual conditions**.",
           "punten": [
-            "Betreft vooral objectives en effects",
-            "Kijkt naar de toestand zoals die is",
-            "Uitgedrukt als: kans op negatieve effecten is laag"
+            "Mainly concerns objectives and effects",
+            "Looks at the state as it is",
+            "Expressed as: the likelihood of negative effects is low"
           ]
         }
       },
       {
         "type": "tekst",
-        "titel": "Positieve en negatieve effecten",
+        "titel": "Positive and negative effects",
         "toetsstof": true,
-        "tekst": "Bij de effecten geldt een simpele maar belangrijke regel:\n\n- Zijn de effecten **positief**, dan **vergroten** ze de safety, want ze ondersteunen de betrokken doelstellingen.\n- Zijn de effecten **negatief**, dan **verkleinen** ze de safety, oftewel ze vergroten de **unsafety**, want ze doen af aan de betrokken doelstellingen.\n\nMerk op hoe dit direct volgt uit de definitiekeuze. Doordat safety is gedefinieerd via effecten op doelstellingen, kan safety optellen en aftrekken. Dat kan niet in een definitie die safety opvat als de afwezigheid van ongevallen."
+        "tekst": "For the effects there is a simple but important rule:\n\n- If the effects are **positive**, they **increase** safety, because they support the objectives involved.\n- If the effects are **negative**, they **decrease** safety, in other words they increase **unsafety**, because they detract from the objectives involved.\n\nNotice how this follows directly from the choice of definition. Because safety is defined through effects on objectives, safety can add up and subtract. That is impossible in a definition that treats safety as the absence of accidents."
       },
       {
         "type": "tekst",
-        "titel": "2.3.5 Kwaliteit van perceptie",
+        "titel": "2.3.5 Quality of perception",
         "toetsstof": true,
-        "tekst": "Los van de feitelijke condities en mogelijke toekomstige uitkomsten zullen risico, safety en security **altijd verschillen van persoon tot persoon**, door verschillen in doelstellingen en in de waarden die eraan hangen.\n\nDaarom stellen de auteurs: risico, safety en security zijn **constructies in het hoofd van mensen**. Iedereen heeft andere doelstellingen, of waardeert dezelfde doelstellingen anders, en dat levert verschillende percepties van dezelfde werkelijkheid op.\n\nBovendien heeft ieder mens een eigen unieke waarneming van de werkelijkheid, omdat die werkelijkheid altijd **interpretatie** vereist en alleen waargenomen kán worden. Er blijft dus altijd een restniveau van onzekerheid en een resterend gebrek aan begrip, verschillend per persoon.\n\nDe consequentie voor het vak: safety science zou moeten streven naar de **hoogst mogelijke kwaliteit van perceptie**, waarbij de afwijking tussen de werkelijkheid zoals die is en de perceptie ervan zo klein mogelijk is."
+        "tekst": "Apart from the actual conditions and possible future outcomes, risk, safety and security will **always differ from person to person**, because of differences in objectives and in the values attached to them.\n\nThat is why the authors state: risk, safety and security are **constructs in people\u2019s minds**. Everyone has different objectives, or values the same objectives differently, and that produces different perceptions of the same reality.\n\nMoreover, every person has their own unique perception of reality, because reality always requires **interpretation** and can only be perceived. So there always remains a residual level of uncertainty and a residual lack of understanding, different for each person.\n\nThe consequence for the field: safety science should strive for the **highest possible quality of perception**, in which the deviation between reality as it is and the perception of it is as small as possible."
       },
       {
         "type": "tekst",
         "titel": "2.3.6 Constraints",
         "toetsstof": true,
-        "tekst": "Het nastreven of veiligstellen van doelstellingen gaat altijd gepaard met effecten van onzekerheid, afkomstig uit allerlei **risicobronnen**.\n\nWie risico beheerst en daarbij safety en security nastreeft, moet dus de risicobronnen en de bijbehorende risico’s **identificeren**. Het nastreven en veiligstellen van doelstellingen vereist dat bepaalde risiconiveaus **niet worden overschreden**. Die grenzen heten **constraints**, en je moet ze meenemen in risicomanagement en je eraan houden zodra safety in het geding is.\n\nOnthoud dit woord: **constraint** komt in hoofdstuk 3 bij Leveson terug als de kern van het hele STAMP-model, alleen dan technisch uitgewerkt."
+        "tekst": "Pursuing or safeguarding objectives always comes with effects of uncertainty, originating from all kinds of **risk sources**.\n\nAnyone managing risk while pursuing safety and security must therefore **identify** the risk sources and the associated risks. Pursuing and safeguarding objectives requires that certain risk levels are **not exceeded**. Those limits are called **constraints**, and you have to include them in risk management and respect them as soon as safety is at stake.\n\nRemember this word: **constraint** returns in chapter 3 with Leveson as the core of the entire STAMP model, only worked out technically there."
       },
       {
         "type": "tekst",
-        "titel": "2.4.1 Onderscheid op het niveau van \"effect\"",
+        "titel": "2.4.1 Distinction at the level of \"effect\"",
         "toetsstof": true,
-        "tekst": "Nu de vraag die het hoofdstuk moet beantwoorden: wat maakt security hetzelfde als safety, en wat zet ze uit elkaar? De auteurs onderscheiden **drie niveaus**. Dit is het eerste.\n\nEerst een onderscheid dat je nodig hebt. Risicoprofessionals proberen vooral het **niveau van risico** te bepalen zodra risico’s zijn geïdentificeerd. Maar de beoordeling van de **aard van het risico** is een belangrijk aanvullend element:\n\n- **Level of risk**: het niveau van impact van de effecten op doelstellingen, positief en negatief, in combinatie met het bijbehorende onzekerheidsniveau. Meestal uitgedrukt als combinatie van kansen en gevolgen.\n- **Nature of risk**: hangt meer samen met de **bronnen** van het risico en met hoe risico’s ontstaan en zich ontwikkelen.\n\nIn **ISO Guide 73** is een risicobron gedefinieerd als een element dat, alleen of in combinatie, risico kan doen ontstaan. En precies in het begrijpen van mogelijke risicobronnen zit het verschil tussen safety en security."
+        "tekst": "Now the question the chapter has to answer: what makes security the same as safety, and what sets them apart? The authors distinguish **three levels**. This is the first.\n\nFirst a distinction you need. Risk professionals mainly try to determine the **level of risk** once risks have been identified. But assessing the **nature of the risk** is an important additional element:\n\n- **Level of risk**: the level of impact of the effects on objectives, positive and negative, combined with the associated level of uncertainty. Usually expressed as a combination of likelihoods and consequences.\n- **Nature of risk**: relates more to the **sources** of the risk and to how risks arise and develop.\n\nIn **ISO Guide 73** a risk source is defined as an element which alone or in combination has the potential to give rise to risk. And it is precisely in understanding possible risk sources that the difference between safety and security lies."
       },
       {
         "type": "tekst",
-        "titel": "Security als deelverzameling van safety",
+        "titel": "Security as a subset of safety",
         "toetsstof": true,
-        "tekst": "Voortbouwend op ISO 31000 en ISO Guide 73 kan safety worden gezien als \"een conditie of geheel van omstandigheden waarin de kans op negatieve effecten van onzekerheid op doelstellingen laag is\".\n\nAls je safety zo heel algemeen opvat, dan is security niet meer dan een **deelverzameling van safety**. Immers: als de kans op negatieve effecten van onzekerheid op doelstellingen laag is, dan betekent dat óók dat er een beveiligde conditie bestaat.\n\nHet eerste en meest voor de hand liggende onderscheid ontstaat bij de **effecten**: die kunnen **intentioneel** of **onintentioneel (accidenteel)** zijn.\n\n- Zijn de negatieve effecten op doelstellingen **intentioneel**, dan is het passend en correct om de term **security** te gebruiken in plaats van safety.\n- Het is dus ook **onjuist** om de term security te gebruiken wanneer de betrokken effecten onintentioneel zijn.\n\nTerroristen willen expres schade en leed veroorzaken: zij vergroten opzettelijk de kans op negatieve effecten op de doelstellingen van de groepen of delen van de samenleving die zij willen terroriseren. Criminelen handelen opzettelijk in strijd met wetten die maatschappelijke, organisatorische of individuele doelstellingen beschermen.\n\nDaarmee komen de auteurs tot:\n\n**Security is de conditie of het geheel van omstandigheden waarin de kans op intentionele negatieve effecten op doelstellingen laag is.**"
+        "tekst": "Building on ISO 31000 and ISO Guide 73, safety can be seen as \"a condition or set of circumstances in which the likelihood of negative effects of uncertainty on objectives is low\".\n\nIf you take safety that generally, then security is no more than a **subset of safety**. After all: if the likelihood of negative effects of uncertainty on objectives is low, that also means a secure condition exists.\n\nThe first and most obvious distinction arises at the level of the **effects**: these can be **intentional** or **unintentional (accidental)**.\n\n- If the negative effects on objectives are **intentional**, it is appropriate and correct to use the term **security** instead of safety.\n- It is therefore also **incorrect** to use the term security when the effects involved are unintentional.\n\nTerrorists deliberately want to cause damage and suffering: they intentionally increase the likelihood of negative effects on the objectives of the groups or parts of society they want to terrorise. Criminals deliberately act against laws that protect societal, organisational or individual objectives.\n\nThat brings the authors to:\n\n**Security is the condition or set of circumstances in which the likelihood of intentional negative effects on objectives is low.**"
       },
       {
         "type": "tekst",
-        "titel": "2.4.2 Onderscheid op het niveau van \"objectives\"",
+        "titel": "2.4.2 Distinction at the level of \"objectives\"",
         "toetsstof": true,
-        "tekst": "Het tweede en fundamentelere onderscheid zit in de betrokken doelstellingen zelf.\n\nEen typisch kenmerk van een securitysituatie is de betrokkenheid van **meerdere partijen**, minimaal twee. Daarmee komen verschillende percepties in het spel, en dus ook verschillende doelstellingen. Eén partij probeert een set doelstellingen te bereiken, te behouden en te beschermen; een of meer tegenpartijen denken daar anders over en kunnen die doelstellingen **opzettelijk negatief** proberen te beïnvloeden.\n\nVanuit dat perspectief geldt: securityvraagstukken zijn situaties of omstandigheden waarin **verschillende, niet-uitgelijnde doelstellingen** van belanghebbenden met elkaar botsen."
+        "tekst": "The second and more fundamental distinction lies in the objectives involved.\n\nA typical feature of a security situation is the involvement of **multiple parties**, at least two. That brings different perceptions into play, and therefore different objectives. One party tries to achieve, maintain and protect a set of objectives; one or more opposing parties take a different view and may deliberately try to affect those objectives **negatively**.\n\nFrom that perspective: security issues are situations or circumstances in which **different, non-aligned objectives** of stakeholders collide."
       },
       {
         "type": "voorbeeld",
-        "titel": "Doelstellingen als vectoren: het 90-graden-criterium",
-        "tekst": "Denk aan doelstellingen als **vectoren**: pijlen die in een bepaalde richting wijzen. Dan kun je (non-)alignment **meetkundig** bepalen.\n\nStel dat volledig uitgelijnde doelstellingen een afwijking van **0 graden** hebben. Zodra de afwijking **meer dan 90 graden** wordt, is duidelijk dat de doelstellingen **conflicterend** zijn: het bereiken van het doel van de ene partij veroorzaakt dan negatieve effecten op de doelstellingen van de andere partij.\n\nDe managementconclusie die de auteurs hieraan verbinden: bij securitymanagement is het **cruciaal om de aanwezigheid van verschillende, tegengestelde doelstellingen te ontdekken**. Dat opsporen is de eigenlijke securitytaak."
+        "titel": "Objectives as vectors: the 90-degree criterion",
+        "tekst": "Think of objectives as **vectors**: arrows pointing in a particular direction. Then you can determine (non-)alignment **geometrically**.\n\nSuppose fully aligned objectives have a deviation of **0 degrees**. As soon as the deviation becomes **more than 90 degrees**, it is clear the objectives are **conflicting**: achieving one party\u2019s goal then causes negative effects on the other party\u2019s objectives.\n\nThe management conclusion the authors draw: in security management it is **crucial to discover the presence of different, opposing objectives**. Detecting that is the actual security task."
       },
       {
         "type": "tekst",
-        "titel": "De definitie van unsecurity",
+        "titel": "The definition of unsecurity",
         "toetsstof": true,
-        "tekst": "Voortbouwend op de definitie van security uit 2.4.1 en op het alignment-perspectief uit 2.4.2 komen de auteurs tot een definitie van het antoniem:\n\n**Unsecurity is de conditie of het geheel van omstandigheden waarin de uitlijning van doelstellingen laag is en waarin de kans op intentionele negatieve effecten op doelstellingen hoog is.**\n\nLet op dat er dus **twee voorwaarden** in zitten: lage alignment én hoge kans. Terrorisme is volgens de auteurs een heel heldere illustratie van non-alignment, omdat veel terroristische doelstellingen exact tegengesteld zijn aan de maatschappelijke, organisatorische en individuele doelstellingen waar ze zich tegen keren."
+        "tekst": "Building on the definition of security from 2.4.1 and on the alignment perspective from 2.4.2, the authors arrive at a definition of the antonym:\n\n**Unsecurity is the condition or set of circumstances in which the alignment of objectives is low and in which the likelihood of intentional negative effects on objectives is high.**\n\nNote that it contains **two conditions**: low alignment **and** high likelihood. Terrorism, the authors say, is a very clear illustration of non-alignment, because many terrorist objectives are exactly opposed to the societal, organisational and individual objectives they turn against."
       },
       {
         "type": "tekst",
-        "titel": "2.4.3 Onderscheid op het niveau van \"uncertainty\"",
+        "titel": "2.4.3 Distinction at the level of \"uncertainty\"",
         "toetsstof": true,
-        "tekst": "Het derde onderscheid gaat over onzekerheid, en heeft directe methodologische gevolgen.\n\n**Bij safety werkt statistiek.** Safety science en safetymanagement leunen vaak op **statistische data** om theorieën te ontwikkelen en maatregelen te bouwen. Dat kan omdat de aard van onintentionele effecten meebrengt dat **dezelfde gebeurtenissen zich herhalen** in andere situaties en omstandigheden. Bovendien kan elk individu worden meegenomen voor doelstellingen die sterk zijn uitgelijnd, zoals het behouden van je fysieke integriteit. Dat levert een enorme hoeveelheid data op om theorieën en maatregelen op te bouwen met statistische instrumenten.\n\n**Bij security werkt statistiek slecht.** Bij securityvraagstukken leiden de intentionele aard en de non-alignment van doelstellingen tot **herhaalde pogingen om nieuwe tactieken en technieken te bedenken** om die niet-uitgelijnde doelstellingen te bereiken. Daardoor is het veel moeilijker om op statistische data te bouwen bij het bepalen van specifieke onzekerheden.\n\nDe conclusie is methodologisch: er kunnen en moeten **andere instrumenten** worden gebruikt om risico- en safety- of securityniveaus te bepalen, zoals **speltheoretische modellen**. Dat is precies wat Wipf in hoofdstuk 4 doet."
+        "tekst": "The third distinction concerns uncertainty, and it has direct methodological consequences.\n\n**With safety, statistics work.** Safety science and safety management often lean on **statistical data** to develop theories and build measures. That is possible because the nature of unintentional effects means the **same events repeat** in other situations and circumstances. Moreover, every individual can be included for objectives that are strongly aligned, such as preserving your physical integrity. That yields an enormous amount of data on which to build theories and measures with statistical instruments.\n\n**With security, statistics work poorly.** In security issues the intentional nature and the non-alignment of objectives lead to **repeated attempts to devise new tactics and techniques** for achieving those non-aligned objectives. That makes it far harder to rely on statistical data when determining specific uncertainties.\n\nThe conclusion is methodological: **other instruments** can and must be used to determine levels of risk and of safety or security, such as **game-theoretical models**. That is precisely what Wipf does in chapter 4."
       },
       {
         "type": "stappen",
-        "titel": "De hele redenering van het hoofdstuk in vier stappen",
+        "titel": "The chapter\u2019s whole argument in four steps",
         "items": [
           {
-            "titel": "Risico ontstaat zodra er doelstellingen zijn",
-            "tekst": "Bewust of onbewust, uitgesproken of niet. Zonder doelstelling geen risico, want er is dan niets om een effect op te hebben."
+            "titel": "Risk arises as soon as there are objectives",
+            "tekst": "Conscious or unconscious, stated or not. Without an objective there is no risk, because there is nothing for an effect to act on."
           },
           {
-            "titel": "Risico wordt een safety- of unsafetykwestie zodra doelstellingen aan een situatie hangen",
-            "tekst": "Namelijk aan een specifieke situatie of set omstandigheden met specifieke risicobronnen erin, die mogelijke effecten van onzekerheid op doelstellingen opleveren."
+            "titel": "Risk becomes a safety or unsafety matter as soon as objectives are attached to a situation",
+            "tekst": "Namely to a specific situation or set of circumstances containing specific risk sources, which produce possible effects of uncertainty on objectives."
           },
           {
-            "titel": "Zodra er meer dan één partij bij is, kunnen conflicterende doelstellingen ontstaan",
-            "tekst": "Dat leidt tot opzettelijke negatieve effecten van onzekerheid op de doelstellingen van een van beide partijen. Op dat moment worden safetykwesties securitykwesties."
+            "titel": "As soon as more than one party is involved, conflicting objectives can arise",
+            "tekst": "That leads to deliberate negative effects of uncertainty on the objectives of one of the two parties. At that moment safety matters become security matters."
           },
           {
-            "titel": "De intentionaliteit verandert ook de aard van de onzekerheid",
-            "tekst": "Safety wordt security wanneer er conflicterende doelstellingen tussen partijen ontstaan, want door het conflict worden de negatieve effecten intentioneel, en door die intentionaliteit verandert ook de aard van de onzekerheid. Dat is het slotargument van het hoofdstuk."
+            "titel": "Intentionality also changes the nature of the uncertainty",
+            "tekst": "Safety becomes security when conflicting objectives between parties arise, because the conflict makes the negative effects intentional, and that intentionality also changes the nature of the uncertainty. That is the chapter\u2019s closing argument."
           }
         ]
       },
       {
         "type": "tabel",
-        "titel": "De drie onderscheidingsniveaus samengevat",
+        "titel": "The three levels of distinction summarised",
         "kop": [
-          "Niveau",
-          "Bij safety",
-          "Bij security",
-          "Gevolg"
+          "Level",
+          "With safety",
+          "With security",
+          "Consequence"
         ],
         "rijen": [
           [
             "Effect",
-            "onintentioneel, accidenteel",
-            "intentioneel",
-            "ander woord is passend"
+            "unintentional, accidental",
+            "intentional",
+            "a different word is appropriate"
           ],
           [
             "Objectives",
-            "doelstellingen van één partij",
-            "minimaal twee partijen, non-aligned doelen",
-            "conflict opsporen is de kerntaak"
+            "objectives of one party",
+            "at least two parties, non-aligned objectives",
+            "detecting the conflict is the core task"
           ],
           [
             "Uncertainty",
-            "gebeurtenissen herhalen zich, statistiek werkt",
-            "tegenstander vernieuwt tactiek steeds",
-            "speltheorie in plaats van statistiek"
+            "events repeat, statistics work",
+            "the adversary keeps renewing tactics",
+            "game theory instead of statistics"
           ]
         ],
-        "noot": "Deze drie rijen zijn het skelet van paragraaf 2.4 en het meest waarschijnlijke tentamenonderwerp van dit hoofdstuk."
+        "noot": "These three rows are the skeleton of section 2.4 and the most likely exam topic from this chapter."
       },
       {
         "type": "begrippen",
-        "titel": "Kernbegrippen uit hoofdstuk 2",
+        "titel": "Key concepts from chapter 2",
         "items": [
           {
-            "begrip": "Risico (ISO 31000)",
-            "definitie": "Het effect van onzekerheid op doelstellingen. Vereist het samen aanwezig zijn van objectives, effects en uncertainty."
+            "begrip": "Risk (ISO 31000)",
+            "definitie": "The effect of uncertainty on objectives. Requires objectives, effects and uncertainty to be present together."
           },
           {
             "begrip": "Objectives",
-            "definitie": "Alles wat individuen, organisaties of de samenleving willen, nodig hebben of nastreven, tastbaar en niet-tastbaar, nog te bereiken of al bereikt en in stand gehouden, bewust of onbewust."
+            "definitie": "Everything individuals, organisations or society want, need or pursue, tangible and intangible, still to be achieved or already achieved and maintained, consciously or unconsciously."
           },
           {
             "begrip": "Safety",
-            "definitie": "De conditie of het geheel van omstandigheden waarin de kans op negatieve effecten van onzekerheid op doelstellingen laag is."
+            "definitie": "The condition or set of circumstances in which the likelihood of negative effects of uncertainty on objectives is low."
           },
           {
             "begrip": "Security",
-            "definitie": "De conditie of het geheel van omstandigheden waarin de kans op intentionele negatieve effecten op doelstellingen laag is. Deelverzameling van safety in brede zin."
+            "definitie": "The condition or set of circumstances in which the likelihood of intentional negative effects on objectives is low. A subset of safety in the broad sense."
           },
           {
             "begrip": "Unsafety",
-            "definitie": "Het ontbreken van safety. Woord dat volgens de auteurs zou moeten bestaan maar nauwelijks in wetenschappelijke literatuur wordt gebruikt."
+            "definitie": "The absence of safety. A word that according to the authors should exist but is barely used in scientific literature."
           },
           {
             "begrip": "Unsecurity",
-            "definitie": "De conditie waarin de uitlijning van doelstellingen laag is en de kans op intentionele negatieve effecten op doelstellingen hoog."
+            "definitie": "The condition in which the alignment of objectives is low and the likelihood of intentional negative effects on objectives is high."
           },
           {
             "begrip": "Level of risk",
-            "definitie": "De omvang van de impact van effecten op doelstellingen gecombineerd met het bijbehorende onzekerheidsniveau; meestal kans maal gevolg."
+            "definitie": "The magnitude of the impact of effects on objectives combined with the associated level of uncertainty; usually likelihood times consequence."
           },
           {
             "begrip": "Nature of risk",
-            "definitie": "De aard van het risico, gekoppeld aan de risicobronnen en aan hoe risico’s ontstaan en zich ontwikkelen. Hier zit het verschil tussen safety en security."
+            "definitie": "The character of the risk, tied to the risk sources and to how risks arise and develop. This is where the difference between safety and security sits."
           },
           {
-            "begrip": "Risicobron",
-            "definitie": "Volgens ISO Guide 73 een element dat, alleen of in combinatie, risico kan doen ontstaan."
+            "begrip": "Risk source",
+            "definitie": "According to ISO Guide 73, an element which alone or in combination has the potential to give rise to risk."
           },
           {
-            "begrip": "Alignment van doelstellingen",
-            "definitie": "De mate waarin doelstellingen van partijen dezelfde kant op wijzen. Boven de 90 graden afwijking zijn ze conflicterend."
+            "begrip": "Alignment of objectives",
+            "definitie": "The degree to which the objectives of parties point the same way. Above a deviation of 90 degrees they are conflicting."
           },
           {
             "begrip": "Constraints",
-            "definitie": "Risiconiveaus die niet mogen worden overschreden om doelstellingen te kunnen nastreven en veiligstellen."
+            "definitie": "Risk levels that may not be exceeded if objectives are to be pursued and safeguarded."
           },
           {
-            "begrip": "Kwaliteit van perceptie",
-            "definitie": "De mate waarin de waarneming van de werkelijkheid overeenkomt met de werkelijkheid zelf; volgens de auteurs het streven van safety science."
+            "begrip": "Quality of perception",
+            "definitie": "The degree to which the perception of reality matches reality itself; according to the authors the aim of safety science."
           },
           {
-            "begrip": "Safety-I en Safety-II",
-            "definitie": "Onderscheid van Hollnagel: bescherming tegen verlies tegenover de conditie van uitstekend presteren bij het bereiken van doelstellingen."
+            "begrip": "Safety-I and Safety-II",
+            "definitie": "Hollnagel\u2019s distinction: protection against loss versus the condition of performing excellently in achieving objectives."
           }
         ]
       },
       {
         "type": "waarschuwing",
-        "titel": "Let op deze drie valkuilen",
-        "tekst": "**1. Risico is niet het tegenovergestelde van safety.** Dat is hooguit gedeeltelijk waar. Het echte verschil: risico gaat over een onzekere toekomstige toestand, safety over feitelijke, bepaalde condities.\n\n**2. \"Intentioneel\" slaat op het effect, niet op de gebeurtenis.** De definitie zegt: intentionele negatieve **effecten op doelstellingen**. Iemand die opzettelijk iets doet zonder dat het jouw doelstellingen raakt, levert geen securitykwestie op.\n\n**3. Unsecurity is niet gewoon \"geen security\".** Er zitten twee voorwaarden in: lage alignment én hoge kans op intentionele negatieve effecten. Als je er één weglaat, klopt je definitie niet."
+        "titel": "Watch out for these three traps",
+        "tekst": "**1. Risk is not the opposite of safety.** That is at best partly true. The real difference: risk concerns an uncertain future state, safety concerns actual, certain conditions.\n\n**2. \"Intentional\" refers to the effect, not to the event.** The definition says: intentional negative **effects on objectives**. Someone doing something deliberately without it touching your objectives does not produce a security issue.\n\n**3. Unsecurity is not simply \"no security\".** It contains two conditions: low alignment **and** a high likelihood of intentional negative effects. Leave one out and your definition is wrong."
       },
       {
         "type": "tekst",
-        "titel": "2.5 Conclusie van het hoofdstuk",
+        "titel": "2.5 The chapter\u2019s conclusion",
         "toetsstof": true,
-        "tekst": "De auteurs vatten zelf kort samen wat ze hebben gedaan: ze hebben de concepten risico, safety en security beschreven, hun overeenkomsten en verschillen uiteengezet, en vervolgens een **semantisch en ontologisch fundament** voor safety and security science voorgesteld. Daarbij introduceerden ze een definitie van **objectives** als centraal startpunt voor de studie en het management van risico, safety en security."
+        "tekst": "The authors summarise briefly what they have done: they described the concepts of risk, safety and security, set out their similarities and differences, and then proposed a **semantic and ontological foundation** for safety and security science. In doing so they introduced a definition of **objectives** as the central starting point for the study and management of risk, safety and security."
       }
     ]
   },
   {
     "id": "toepassen",
-    "titel": "Toepassen",
+    "titel": "Applying it",
     "blokken": [
       {
         "type": "stappen",
-        "titel": "Een casus ontleden met het model van Blokland en Reniers",
+        "titel": "Dissecting a case with Blokland and Reniers\u2019 model",
         "items": [
           {
-            "titel": "Benoem de doelstellingen, ook de onuitgesproken",
-            "tekst": "Wat wil deze partij bereiken of behouden? Vergeet de onbewuste doelstellingen niet: fysieke integriteit, reputatie, continuïteit. Die staan zelden op papier maar bepalen wel wat als negatief effect telt."
+            "titel": "Name the objectives, including the tacit ones",
+            "tekst": "What does this party want to achieve or maintain? Do not forget the unconscious objectives: physical integrity, reputation, continuity. They are rarely written down but they determine what counts as a negative effect."
           },
           {
-            "titel": "Benoem de risicobronnen",
-            "tekst": "Welke elementen kunnen, alleen of in combinatie, risico doen ontstaan? Dit is de nature of risk, niet het niveau ervan."
+            "titel": "Name the risk sources",
+            "tekst": "Which elements can, alone or in combination, give rise to risk? This is the nature of risk, not its level."
           },
           {
-            "titel": "Bepaal of de negatieve effecten intentioneel zijn",
-            "tekst": "Zo ja, dan is de term security passend. Zo nee, dan is het onjuist om van security te spreken."
+            "titel": "Determine whether the negative effects are intentional",
+            "tekst": "If so, the term security is appropriate. If not, it is incorrect to speak of security."
           },
           {
-            "titel": "Tel de partijen en meet de alignment",
-            "tekst": "Zijn er minimaal twee partijen? Wijzen hun doelstellingen meer dan 90 graden uit elkaar? Dan zijn ze conflicterend en heb je een securitysituatie."
+            "titel": "Count the parties and measure the alignment",
+            "tekst": "Are there at least two parties? Do their objectives point more than 90 degrees apart? Then they are conflicting and you have a security situation."
           },
           {
-            "titel": "Kies je methode op basis van het onzekerheidstype",
-            "tekst": "Herhalen de gebeurtenissen zich, dan kun je statistiek gebruiken. Vernieuwt de tegenpartij steeds haar tactiek, dan heb je speltheoretische modellen nodig."
+            "titel": "Choose your method based on the type of uncertainty",
+            "tekst": "If the events repeat, you can use statistics. If the opposing party keeps renewing its tactics, you need game-theoretical models."
           },
           {
-            "titel": "Formuleer de constraints",
-            "tekst": "Welke risiconiveaus mogen niet worden overschreden om de doelstellingen overeind te houden? Dat is je concrete managementopdracht."
+            "titel": "Formulate the constraints",
+            "tekst": "Which risk levels may not be exceeded if the objectives are to hold? That is your concrete management assignment."
           }
         ]
       },
@@ -1195,75 +1195,75 @@ LESSTOF["intro-to-safety-security/h2"] = [
         "type": "oefening",
         "id": "h2-oef-1",
         "niveau": "basis",
-        "vraag": "Waarom kiezen de auteurs de ISO-definitie van risico als vertrekpunt, en niet een definitie van safety?",
-        "antwoord": "Omdat er voor safety en security geen standaarddefinities bestaan, en voor risico wel. Ondanks de vele meningen en definities over risico bestaat er een omvattende, gestandaardiseerde definitie van ISO: risico is het effect van onzekerheid op doelstellingen. Die definitie is bruikbaar als anker omdat je er safety, security en hun antoniemen op een vergelijkbare, ondubbelzinnige en omvattende manier uit kunt afleiden. Zonder zo’n anker beland je precies in de semantische en ontologische discussie die het hoofdstuk wil doorbreken, en verlies je de standaardisatie die nodig is voor communicatie en voor het combineren van kennis uit onafhankelijk onderzoek."
+        "vraag": "Why do the authors take the ISO definition of risk as their starting point rather than a definition of safety?",
+        "antwoord": "Because there are no standard definitions for safety and security, while for risk there is one. Despite the many opinions and definitions of risk, there exists a comprehensive, standardised ISO definition: risk is the effect of uncertainty on objectives. That definition works as an anchor because you can derive safety, security and their antonyms from it in a comparable, unambiguous and comprehensive way. Without such an anchor you end up precisely in the semantic and ontological discussion the chapter wants to break open, and you lose the standardisation needed for communication and for combining knowledge from independent research."
       },
       {
         "type": "oefening",
         "id": "h2-oef-2",
         "niveau": "basis",
-        "vraag": "Leg uit waarom security volgens dit hoofdstuk een deelverzameling van safety is, en waarom de auteurs toch drie onderscheidingsniveaus nodig hebben.",
-        "antwoord": "Als je safety heel algemeen definieert als de conditie waarin de kans op negatieve effecten van onzekerheid op doelstellingen laag is, dan valt security daar logisch onder: is die kans laag, dan bestaat er ook een beveiligde conditie. Security is dan simpelweg het deel van safety waarin de effecten intentioneel zijn. Maar met die insluiting alleen kun je nog niets: je weet niet wanneer je het woord security hoort te gebruiken, hoe zo’n situatie in elkaar zit, of welke methode je moet kiezen. Daarom werken de auteurs drie niveaus uit. Op effectniveau bepaalt intentionaliteit welk woord passend is. Op doelstellingniveau blijkt dat security altijd meerdere partijen met niet-uitgelijnde doelen veronderstelt. Op onzekerheidsniveau blijkt dat de methodiek moet veranderen omdat een tegenstander zijn tactiek aanpast."
+        "vraag": "Explain why security is a subset of safety according to this chapter, and why the authors nevertheless need three levels of distinction.",
+        "antwoord": "If you define safety very generally as the condition in which the likelihood of negative effects of uncertainty on objectives is low, then security logically falls under it: if that likelihood is low, a secure condition also exists. Security is then simply the part of safety in which the effects are intentional. But that inclusion alone gets you nowhere: you do not know when you should use the word security, how such a situation is constructed, or which method to choose. That is why the authors work out three levels. At the level of effect, intentionality decides which word is appropriate. At the level of objectives it turns out that security always presupposes multiple parties with non-aligned goals. At the level of uncertainty it turns out the methodology has to change because an adversary adapts their tactics."
       },
       {
         "type": "oefening",
         "id": "h2-oef-3",
         "niveau": "gevorderd",
-        "vraag": "De auteurs stellen dat risico, safety en security constructies zijn in het hoofd van mensen. Botst die stelling met hun streven naar standaardisatie? Onderbouw.",
-        "antwoord": "Op het eerste gezicht wel: als deze begrippen per persoon verschillen omdat mensen andere doelstellingen hebben en dezelfde doelstellingen anders waarderen, waarom zou je ze dan willen standaardiseren? Het antwoord van de auteurs is dat er twee verschillende dingen worden gestandaardiseerd. Wat per persoon verschilt is de invulling: welke doelstellingen ertoe doen en hoe zwaar ze wegen. Wat gestandaardiseerd moet worden is het begrippenkader waarmee je die invulling beschrijft en vergelijkt. Sterker nog, juist omdat de inhoud subjectief is, is een gedeeld kader nodig, anders kun je percepties niet naast elkaar leggen. Dat sluit aan bij hun begrip kwaliteit van perceptie: het doel is de afwijking tussen de werkelijkheid en de waarneming ervan zo klein mogelijk te maken, en dat kan alleen als je de waarneming van meerdere mensen in dezelfde taal kunt uitdrukken."
+        "vraag": "The authors state that risk, safety and security are constructs in people\u2019s minds. Does that claim clash with their pursuit of standardisation? Argue your answer.",
+        "antwoord": "At first sight it does: if these concepts differ per person because people have different objectives and value the same objectives differently, why would you standardise them? The authors\u2019 answer is that two different things are being standardised. What differs per person is the content: which objectives matter and how heavily they weigh. What has to be standardised is the conceptual framework with which you describe and compare that content. In fact, precisely because the content is subjective, a shared framework is needed, otherwise you cannot put perceptions side by side. That fits their notion of quality of perception: the aim is to make the deviation between reality and the perception of it as small as possible, and that is only achievable if you can express several people\u2019s perceptions in the same language."
       },
       {
         "type": "oefening",
         "id": "h2-oef-4",
         "niveau": "gevorderd",
-        "vraag": "Een gemeente plaatst betonnen blokken tegen inrijden op een markt. Analyseer de situatie op alle drie de onderscheidingsniveaus, en benoem waar het model wringt.",
-        "antwoord": "Effectniveau: de dreiging waartegen de maatregel is bedoeld is intentioneel, dus de term security is passend. Maar de blokken kunnen zelf onintentionele negatieve effecten veroorzaken, bijvoorbeeld struikelen of belemmering van hulpdiensten, en dat is dan een safetykwestie. Eén maatregel produceert dus effecten in beide categorieën. Doelstellingniveau: er zijn minimaal twee partijen. De gemeente wil bezoekers beschermen en de markt laten doorgaan; een aanvaller wil precies die bezoekers raken, dus de doelstellingen wijzen ruim meer dan 90 graden uit elkaar. Tegelijk zijn er partijen met deels uitgelijnde doelen die toch bezwaar maken, zoals marktkooplui die bevoorrading kwijtraken. Onzekerheidsniveau: statistiek helpt hier weinig, want inrijincidenten zijn zeldzaam en aanvallers passen hun methode aan, bijvoorbeeld door een andere toegang of een ander wapen te kiezen. Speltheoretische modellen passen beter. Waar het model wringt: de vectorbenadering suggereert een meetbare hoek, maar in de praktijk zijn doelstellingen zelden zo scherp geformuleerd dat je alignment echt kunt meten, en veel betrokkenen hebben onbewuste doelstellingen die pas zichtbaar worden als de maatregel er staat."
+        "vraag": "A municipality places concrete blocks against vehicle ramming at a market. Analyse the situation at all three levels of distinction, and say where the model strains.",
+        "antwoord": "Effect level: the threat the measure targets is intentional, so the term security is appropriate. But the blocks themselves can cause unintentional negative effects, for instance tripping or obstruction of emergency services, and that is a safety matter. One measure therefore produces effects in both categories. Objectives level: there are at least two parties. The municipality wants to protect visitors and keep the market running; an attacker wants to hit precisely those visitors, so the objectives point far more than 90 degrees apart. At the same time there are parties with partly aligned goals who still object, such as market traders who lose their delivery access. Uncertainty level: statistics help little here, because ramming incidents are rare and attackers adapt their method, for instance by choosing another access point or another weapon. Game-theoretical models fit better. Where the model strains: the vector approach suggests a measurable angle, but in practice objectives are rarely formulated sharply enough to measure alignment, and many of those involved have unconscious objectives that only become visible once the measure is in place."
       }
     ]
   },
   {
     "id": "checken",
-    "titel": "Checken",
+    "titel": "Check yourself",
     "blokken": [
       {
         "type": "quiz",
-        "titel": "Check jezelf op hoofdstuk 2",
+        "titel": "Check yourself on chapter 2",
         "vragen": [
           {
-            "vraag": "Hoe definieert ISO risico?",
+            "vraag": "How does ISO define risk?",
             "opties": [
-              "Kans maal gevolg",
-              "Het effect van onzekerheid op doelstellingen",
-              "De mogelijkheid van verlies",
-              "De afwezigheid van veiligheid"
+              "Likelihood times consequence",
+              "The effect of uncertainty on objectives",
+              "The possibility of loss",
+              "The absence of safety"
             ],
             "juist": 1,
-            "uitleg": "Deze definitie is het anker van het hele hoofdstuk. Kans maal gevolg is een gangbare **uitdrukking** van het level of risk, niet de definitie zelf."
+            "uitleg": "This definition is the anchor of the whole chapter. Likelihood times consequence is a common **expression** of the level of risk, not the definition itself."
           },
           {
-            "vraag": "Welke drie elementen moeten aanwezig zijn wil er risico bestaan?",
+            "vraag": "Which three elements must be present for risk to exist?",
             "opties": [
-              "Dader, doelwit, toezicht",
-              "Kans, gevolg, blootstelling",
-              "Doelstellingen, effecten, onzekerheid",
-              "Bron, pad, ontvanger"
+              "Perpetrator, target, supervision",
+              "Likelihood, consequence, exposure",
+              "Objectives, effects, uncertainty",
+              "Source, pathway, receptor"
             ],
             "juist": 2,
-            "uitleg": "Objectives, effects en uncertainty. Safety betreft daarvan vooral de doelstellingen en de effecten."
+            "uitleg": "Objectives, effects and uncertainty. Of these, safety mainly concerns the objectives and the effects."
           },
           {
-            "vraag": "Wat is volgens het hoofdstuk het enige fundamentele verschil tussen risico en safety?",
+            "vraag": "What, according to the chapter, is the only fundamental difference between risk and safety?",
             "opties": [
-              "Risico is meetbaar en safety niet",
-              "Risico gaat over een onzekere toekomstige toestand, safety over bepaalde actuele condities",
-              "Risico is negatief en safety positief",
-              "Risico is technisch en safety organisatorisch"
+              "Risk is measurable and safety is not",
+              "Risk concerns an uncertain future state, safety concerns certain actual conditions",
+              "Risk is negative and safety positive",
+              "Risk is technical and safety organisational"
             ],
             "juist": 1,
-            "uitleg": "Precies dit staat in paragraaf 2.3.4. Positieve effecten vergroten de safety, negatieve effecten vergroten de unsafety."
+            "uitleg": "This is exactly what section 2.3.4 says. Positive effects increase safety, negative effects increase unsafety."
           },
           {
-            "vraag": "Welke term gebruiken de auteurs bewust voor het ontbreken van security?",
+            "vraag": "Which term do the authors deliberately use for the absence of security?",
             "opties": [
               "Insecurity",
               "Unsecurity",
@@ -1271,83 +1271,83 @@ LESSTOF["intro-to-safety-security/h2"] = [
               "Threat"
             ],
             "juist": 1,
-            "uitleg": "Insecurity betekent in het dagelijks gebruik onzekerheid over jezelf en gebrek aan zelfvertrouwen, wat niet dekt wat men in dit vakgebied bedoelt."
+            "uitleg": "In everyday use, insecurity means uncertainty about oneself and a lack of confidence, which does not cover what the field means."
           },
           {
-            "vraag": "Bij welke afwijking tussen doelstellingsvectoren spreken de auteurs van conflicterende doelstellingen?",
+            "vraag": "At what deviation between objective vectors do the authors speak of conflicting objectives?",
             "opties": [
-              "Meer dan 30 graden",
-              "Meer dan 45 graden",
-              "Meer dan 90 graden",
-              "Precies 180 graden"
+              "More than 30 degrees",
+              "More than 45 degrees",
+              "More than 90 degrees",
+              "Exactly 180 degrees"
             ],
             "juist": 2,
-            "uitleg": "Boven de 90 graden veroorzaakt het bereiken van het doel van de ene partij negatieve effecten op de doelstellingen van de andere."
+            "uitleg": "Above 90 degrees, achieving one party\u2019s goal causes negative effects on the other party\u2019s objectives."
           },
           {
-            "vraag": "Waarom werkt statistiek slecht bij securityvraagstukken?",
+            "vraag": "Why do statistics work poorly for security issues?",
             "opties": [
-              "Er zijn te weinig onderzoekers",
-              "Securitydata zijn geheim",
-              "Tegenstanders bedenken steeds nieuwe tactieken en technieken",
-              "Security is niet kwantificeerbaar"
+              "There are too few researchers",
+              "Security data are classified",
+              "Adversaries keep devising new tactics and techniques",
+              "Security cannot be quantified"
             ],
             "juist": 2,
-            "uitleg": "De intentionaliteit en de non-alignment leiden tot voortdurende vernieuwing van tactiek, waardoor gebeurtenissen zich niet op dezelfde manier herhalen. Daarom zijn onder meer **speltheoretische modellen** nodig."
+            "uitleg": "Intentionality and non-alignment lead to continuous renewal of tactics, so events do not repeat in the same way. That is why **game-theoretical models**, among others, are needed."
           },
           {
-            "vraag": "Wat is het verschil tussen level of risk en nature of risk?",
+            "vraag": "What is the difference between level of risk and nature of risk?",
             "opties": [
-              "Level gaat over impact en onzekerheid, nature over de bronnen en de ontwikkeling van het risico",
-              "Level is kwalitatief, nature kwantitatief",
-              "Level geldt voor safety, nature voor security",
-              "Er is geen verschil"
+              "Level concerns impact and uncertainty, nature concerns the sources and the development of the risk",
+              "Level is qualitative, nature quantitative",
+              "Level applies to safety, nature to security",
+              "There is no difference"
             ],
             "juist": 0,
-            "uitleg": "En juist in het begrijpen van de **risicobronnen**, dus de nature of risk, ligt volgens de auteurs het verschil tussen safety en security."
+            "uitleg": "And it is precisely in understanding the **risk sources**, the nature of risk, that the authors locate the difference between safety and security."
           },
           {
-            "vraag": "Wat hoort volgens de definitie wél bij \"objectives\"?",
+            "vraag": "What does the definition of \"objectives\" include?",
             "opties": [
-              "Alleen expliciet geformuleerde bedrijfsdoelen",
-              "Alleen tastbare bezittingen",
-              "Ook onbewuste en onuitgesproken gewenste condities",
-              "Alleen doelen die je nog moet bereiken"
+              "Only explicitly formulated corporate goals",
+              "Only tangible possessions",
+              "Also unconscious and unstated desired conditions",
+              "Only goals you still have to achieve"
             ],
             "juist": 2,
-            "uitleg": "De definitie is bewust breed: tastbaar en niet-tastbaar, nog na te streven en al verworven, bewust én onbewust."
+            "uitleg": "The definition is deliberately broad: tangible and intangible, still to be pursued and already acquired, conscious **and** unconscious."
           },
           {
-            "vraag": "Wat is een constraint in dit hoofdstuk?",
+            "vraag": "What is a constraint in this chapter?",
             "opties": [
-              "Een wettelijke verplichting",
-              "Een risiconiveau dat niet mag worden overschreden",
-              "Een beperking van het budget",
-              "Een geïdentificeerde risicobron"
+              "A legal obligation",
+              "A risk level that may not be exceeded",
+              "A budget limitation",
+              "An identified risk source"
             ],
             "juist": 1,
-            "uitleg": "Het nastreven en veiligstellen van doelstellingen vereist dat bepaalde risiconiveaus niet worden overschreden. Dit begrip keert bij **Leveson** terug als kern van STAMP."
+            "uitleg": "Pursuing and safeguarding objectives requires that certain risk levels are not exceeded. This concept returns with **Leveson** as the core of STAMP."
           }
         ]
       },
       {
         "type": "bronnen",
-        "titel": "Bronnen bij hoofdstuk 2",
+        "titel": "Sources for chapter 2",
         "items": [
           {
-            "apa": "Blokland, P. J., & Reniers, G. L. (2020). The concepts of risk, safety, and security: A fundamental exploration and understanding of similarities and differences. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 9–16). Springer."
+            "apa": "Blokland, P. J., & Reniers, G. L. (2020). The concepts of risk, safety, and security: A fundamental exploration and understanding of similarities and differences. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 9\u201316). Springer."
           },
           {
-            "apa": "Aven, T. (2014). What is safety science? Safety Science, 67, 15–20."
+            "apa": "Aven, T. (2014). What is safety science? Safety Science, 67, 15\u201320."
           },
           {
             "apa": "Blokland, P., & Reniers, G. (2017). Safety and performance: Total respect management (TR3M). Nova Science Publishers."
           },
           {
-            "apa": "Boholm, M., Möller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320–338."
+            "apa": "Boholm, M., M\u00f6ller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320\u2013338."
           },
           {
-            "apa": "Brazma, A. (2001). On the importance of standardisation in life sciences. Bioinformatics, 17(2), 113–114."
+            "apa": "Brazma, A. (2001). On the importance of standardisation in life sciences. Bioinformatics, 17(2), 113\u2013114."
           },
           {
             "apa": "Hollnagel, E. (2014). Safety-I and Safety-II: The past and future of safety management. Ashgate."
@@ -1362,14 +1362,14 @@ LESSTOF["intro-to-safety-security/h2"] = [
       },
       {
         "type": "preview",
-        "titel": "Van definities naar ontwerp",
+        "titel": "From definitions to design",
         "vakId": "intro-to-safety-security",
         "lesId": "h3",
-        "tekst": "Blokland en Reniers zoeken het verschil. Leveson doet in hoofdstuk 3 het omgekeerde: zij kiest een definitie die het verschil juist opheft, en laat zien wat je daarmee wint in de techniek.",
+        "tekst": "Blokland and Reniers look for the difference. Leveson does the opposite in chapter 3: she picks a definition that removes the difference, and shows what that buys you in engineering.",
         "punten": [
-          "Waarom definities volgens Leveson niet goed of fout zijn, maar handig of onhandig",
-          "Hazard, vulnerability en waarom safety niet hetzelfde is als betrouwbaarheid",
-          "STAMP, CAST en STPA, uitgewerkt op een remsysteem van een vliegtuig"
+          "Why definitions according to Leveson are not right or wrong, but useful or unhelpful",
+          "Hazard, vulnerability, and why safety is not the same as reliability",
+          "STAMP, CAST and STPA, worked out on an aircraft braking system"
         ]
       }
     ]
