@@ -62,127 +62,113 @@ LESSTOF["intro-to-safety-security/h1"] = [
   },
   {
     "id": "kern",
-    "titel": "Core material",
+    "titel": "Core material: chapter 1",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "The problem everything starts from",
+        "titel": "Introduction: why expectations keep rising",
         "toetsstof": true,
         "tekst": "I start with the sentence the whole book rests on. The editors phrase it as a general societal trend:\n\n**The safer and more secure our organisations and institutions become, the more safety we demand of them.**\n\nRead that twice, because it is counter-intuitive. You would expect the call for safety to fall as things get safer. The opposite happens.\n\nThe figures bear out the first half. Many of the greatest threats to health and safety at work have been pushed back, certainly in Europe and North America. But at the same time industrial safety has become **broader**. Far more attention went to the **new systemic risks** that modern societies generate themselves, and to the idea that local vulnerabilities are influenced by **global events**.\n\nThat is the tension you will see through the whole book: expectations rise faster than what organisations can actually deliver."
       },
       {
         "type": "voorbeeld",
-        "titel": "Why rising demands are logical",
-        "tekst": "It sounds unreasonable, but there is an ordinary mechanism behind it. Think of a level crossing.\n\nAs long as people die every year at unguarded crossings, a partly protected crossing is an improvement. Once every crossing has barriers and something rarely happens, each incident suddenly becomes **big news**. An investigation is demanded, someone is held responsible, and the standard goes up again.\n\nThe improvement itself moves the bar. That is exactly why demands pile up while performance improves. And exactly why chapter 1 says you have to take the question \"what is safe enough\" seriously, because otherwise the answer is always \"more\"."
+        "tekst": "**Why rising demands are logical**\n\nIt sounds unreasonable, but there is an ordinary mechanism behind it. Think of a level crossing.\n\nAs long as people die every year at unguarded crossings, a partly protected crossing is an improvement. Once every crossing has barriers and something rarely happens, each incident suddenly becomes **big news**. An investigation is demanded, someone is held responsible, and the standard goes up again.\n\nThe improvement itself moves the bar. That is exactly why demands pile up while performance improves. And exactly why chapter 1 says you have to take the question \"what is safe enough\" seriously, because otherwise the answer is always \"more\"."
       },
       {
         "type": "tekst",
-        "titel": "1.1 Where safety comes from",
+        "titel": "1.1 Where safety and security come from",
         "toetsstof": true,
         "tekst": "Now the history. Safety first, then security. You need both tracks to understand why they are so hard to slot into each other.\n\nSafety has long been a core concern of organisations, especially since the rise of **hazardous technologies and activities**. In sectors such as energy, chemicals, transport, water and healthcare, safety is a core concept in **policy, regulation and management** at the same time. That trio matters: safety does not sit only in the technology, but also in the law and in the way an organisation is set up.\n\nAs a result there are now well-established institutional and management strategies, collaborations and practices around preventing incidents and accidents. Keeping these effective counts as important for the protection of hazardous technology, for two reasons:\n\n1. They are built on **previous incidents**. Every rule in a safety regulation has usually been paid for with damage at some point.\n2. They form a **dynamic but fragile organisational web of safety defences** (Macrae, 2014). The word \"web\" is deliberate: not a wall, but a network of partly overlapping defences that requires constant maintenance."
       },
       {
         "type": "tekst",
-        "titel": "The turn in the 1980s",
         "toetsstof": true,
-        "tekst": "From the 1980s onwards something important happened in thinking about safety. Fed by a better understanding of **how** and **why** accidents happen, attention turned to how accidents and disasters are caused by **societal developments**, and not only by broken parts or inattentive workers.\n\nTwo names you need to know:\n\n**Barry Turner**, *Man-made Disasters* (1978). Disasters do not fall out of the sky; they are preceded by a long incubation period in which signals are missed or misread. Organisations build their own disaster, over years, without noticing.\n\n**Charles Perrow**, *Normal Accidents* (1984). Perrow argues that in certain high-risk systems major accidents are **inevitable**. Not through bad luck or sloppiness, but because of the nature of the system itself.\n\nThat argument became influential and stimulated interest in two things at once: the **limits to safety**, and the **possibilities of organisational competence**. So on the one hand: how far can we get? And on the other: what can a well-organised organisation actually achieve?\n\nThat second question is exactly what chapter 8 (La Porte) and chapter 9 (Schulman) pursue, with their work on high reliability organisations."
+        "tekst": "**The turn in the 1980s**\n\nFrom the 1980s onwards something important happened in thinking about safety. Fed by a better understanding of **how** and **why** accidents happen, attention turned to how accidents and disasters are caused by **societal developments**, and not only by broken parts or inattentive workers.\n\nTwo names you need to know:\n\n**Barry Turner**, *Man-made Disasters* (1978). Disasters do not fall out of the sky; they are preceded by a long incubation period in which signals are missed or misread. Organisations build their own disaster, over years, without noticing.\n\n**Charles Perrow**, *Normal Accidents* (1984). Perrow argues that in certain high-risk systems major accidents are **inevitable**. Not through bad luck or sloppiness, but because of the nature of the system itself.\n\nThat argument became influential and stimulated interest in two things at once: the **limits to safety**, and the **possibilities of organisational competence**. So on the one hand: how far can we get? And on the other: what can a well-organised organisation actually achieve?\n\nThat second question is exactly what chapter 8 (La Porte) and chapter 9 (Schulman) pursue, with their work on high reliability organisations."
       },
       {
         "type": "uitleg",
-        "titel": "Why Perrow matters here",
-        "tekst": "Perrow distinguishes two properties of systems: **interactive complexity** (parts influence each other in ways designers did not foresee) and **tight coupling** (there is no slack between the steps, so a disturbance propagates immediately).\n\nIf a system scores high on both, then accidents are, according to Perrow, normal in the statistical sense: to be expected, not exceptional. Nuclear power plants are his standard example.\n\nYou do not need Perrow in detail for this course, but you do need this: the idea changes the question. Not \"how do we prevent all accidents\", but **\"how much risk do we accept, and who decides that\"**. That is the question chapter 1 arrives at in section 1.4."
+        "tekst": "**Why Perrow matters here**\n\nPerrow distinguishes two properties of systems: **interactive complexity** (parts influence each other in ways designers did not foresee) and **tight coupling** (there is no slack between the steps, so a disturbance propagates immediately).\n\nIf a system scores high on both, then accidents are, according to Perrow, normal in the statistical sense: to be expected, not exceptional. Nuclear power plants are his standard example.\n\nYou do not need Perrow in detail for this course, but you do need this: the idea changes the question. Not \"how do we prevent all accidents\", but **\"how much risk do we accept, and who decides that\"**. That is the question chapter 1 arrives at in section 1.4."
       },
       {
         "type": "tekst",
-        "titel": "1.1 continued — where security comes from",
         "toetsstof": true,
-        "tekst": "Security has a completely different ancestry, and that explains much of the later friction.\n\n**Phase 1, until around 1989: security is state security.** Security was strongly tied to the state and to protection against threats from **foreign states**. For civil industries, security was only a theme insofar as those organisations contributed to the **military defence capability** of a state. A chemical plant did safety, but security was in principle a matter for the military and the intelligence services.\n\n**Phase 2, late 1980s: the gaze turns inward.** When the Cold War ended, political attention shifted to peace and international human rights. And, more important for our field, a growing awareness emerged of societies\u2019 **own vulnerability** to malicious acts such as sabotage and terrorism. The threat no longer came by definition from another state.\n\n**Phase 3, until 2001: still small beer.** Until the attacks in New York on 11 September 2001, security threats formed a much **smaller part** of the total regulatory and management scope than other dangers, namely major accidents and disasters. That is a crucial detail: security existed, but it was subordinate.\n\n**Phase 4, after 9/11: everything changes.** We have since become far more familiar with malicious attacks that may include suicide operations. Partly because of that changed threat type, the public feels a kind of **free-floating dread** that is reinforced by terrorist attacks (LaPorte, 2006)."
+        "tekst": "**1.1 continued — where security comes from**\n\nSecurity has a completely different ancestry, and that explains much of the later friction.\n\n**Phase 1, until around 1989: security is state security.** Security was strongly tied to the state and to protection against threats from **foreign states**. For civil industries, security was only a theme insofar as those organisations contributed to the **military defence capability** of a state. A chemical plant did safety, but security was in principle a matter for the military and the intelligence services.\n\n**Phase 2, late 1980s: the gaze turns inward.** When the Cold War ended, political attention shifted to peace and international human rights. And, more important for our field, a growing awareness emerged of societies’ **own vulnerability** to malicious acts such as sabotage and terrorism. The threat no longer came by definition from another state.\n\n**Phase 3, until 2001: still small beer.** Until the attacks in New York on 11 September 2001, security threats formed a much **smaller part** of the total regulatory and management scope than other dangers, namely major accidents and disasters. That is a crucial detail: security existed, but it was subordinate.\n\n**Phase 4, after 9/11: everything changes.** We have since become far more familiar with malicious attacks that may include suicide operations. Partly because of that changed threat type, the public feels a kind of **free-floating dread** that is reinforced by terrorist attacks (LaPorte, 2006)."
       },
       {
         "type": "uitleg",
-        "titel": "What \"free-floating dread\" precisely means",
-        "tekst": "This concept is subtler than \"people are afraid\". Ordinary fear has an **object**: you are afraid of crossing the road, and the fear disappears once you are on the other side.\n\nFree-floating dread has no fixed object. It is a general sense of threat that attaches itself to changing things: a rucksack on the metro, a crowd, a noise. It does not subside when a specific danger disappears, because it was never attached to that danger.\n\nWhy this matters for your field: policy that responds to such dread can be **objectively successful** and **subjectively fail**. You lower the probability of an attack, but the feeling remains, so the call for measures remains too. That is the same mechanism as the opening line of the chapter, now seen from the security side."
+        "tekst": "**What \"free-floating dread\" precisely means**\n\nThis concept is subtler than \"people are afraid\". Ordinary fear has an **object**: you are afraid of crossing the road, and the fear disappears once you are on the other side.\n\nFree-floating dread has no fixed object. It is a general sense of threat that attaches itself to changing things: a rucksack on the metro, a crowd, a noise. It does not subside when a specific danger disappears, because it was never attached to that danger.\n\nWhy this matters for your field: policy that responds to such dread can be **objectively successful** and **subjectively fail**. You lower the probability of an attack, but the feeling remains, so the call for measures remains too. That is the same mechanism as the opening line of the chapter, now seen from the security side."
       },
       {
         "type": "tekst",
-        "titel": "What happened institutionally after 9/11",
         "toetsstof": true,
-        "tekst": "The consequences of that shift were concrete and visible:\n\n- **New policy concepts** appeared, along with new management and organisational perspectives for a secure society.\n- The public called for **better preparedness**, with an emphasis on **prevention** in particular.\n- New **requirements and forms of accountability** developed.\n\nThe standard example the editors give: in the United States the **Transportation Security Administration (TSA)** was created after the **Aviation and Transportation Security Act** was passed in November 2001. The TSA now sits under the **Department of Homeland Security**. The authors refer to the 9/11 Commission Report of 2004, and add that there have been comparable developments in European countries.\n\nNote what is actually happening: **security tasks are placed inside civil aviation**, a sector that until that moment was entirely built around safety. That is the birth of the interface this book investigates, and at the same time the birth of the problem."
+        "tekst": "**What happened institutionally after 9/11**\n\nThe consequences of that shift were concrete and visible:\n\n- **New policy concepts** appeared, along with new management and organisational perspectives for a secure society.\n- The public called for **better preparedness**, with an emphasis on **prevention** in particular.\n- New **requirements and forms of accountability** developed.\n\nThe standard example the editors give: in the United States the **Transportation Security Administration (TSA)** was created after the **Aviation and Transportation Security Act** was passed in November 2001. The TSA now sits under the **Department of Homeland Security**. The authors refer to the 9/11 Commission Report of 2004, and add that there have been comparable developments in European countries.\n\nNote what is actually happening: **security tasks are placed inside civil aviation**, a sector that until that moment was entirely built around safety. That is the birth of the interface this book investigates, and at the same time the birth of the problem."
       },
       {
         "type": "tekst",
-        "titel": "Four consequences of that interface",
         "toetsstof": true,
-        "tekst": "The growing emphasis on security and its risk-reducing measures leads to an obvious interface between safety and security management in hazardous industries. The authors name four concrete consequences. I list them, because this is examinable material:\n\n**1. A new category of threats.** Leaders and analysts had to understand a completely new category of threats and incorporate it into their existing frames of thinking.\n\n**2. New collaborations and domains.** Forms of collaboration and operational domains emerged that were not a starting point of existing strategies and practices before 9/11.\n\n**3. Doubt about what already existed.** Doubt arose about the effectiveness of a fair part of the existing approaches to protecting hazardous technology. That is a painful point: it is not only about adding something, but about whether what was already in place is any good.\n\n**4. The interactions are far from obvious.** And this is the most underestimated point in the whole chapter: the interactions between safety and security turn out not to be obvious at all, **especially not in normal situations**. Subtle mutual influences occur. Pettersen and Bj\u00f8rnskau (2015) showed with field research that safety and security practices in some cases even **work against each other**."
+        "tekst": "**Four consequences of that interface**\n\nThe growing emphasis on security and its risk-reducing measures leads to an obvious interface between safety and security management in hazardous industries. The authors name four concrete consequences. I list them, because this is examinable material:\n\n**1. A new category of threats.** Leaders and analysts had to understand a completely new category of threats and incorporate it into their existing frames of thinking.\n\n**2. New collaborations and domains.** Forms of collaboration and operational domains emerged that were not a starting point of existing strategies and practices before 9/11.\n\n**3. Doubt about what already existed.** Doubt arose about the effectiveness of a fair part of the existing approaches to protecting hazardous technology. That is a painful point: it is not only about adding something, but about whether what was already in place is any good.\n\n**4. The interactions are far from obvious.** And this is the most underestimated point in the whole chapter: the interactions between safety and security turn out not to be obvious at all, **especially not in normal situations**. Subtle mutual influences occur. Pettersen and Bjørnskau (2015) showed with field research that safety and security practices in some cases even **work against each other**."
       },
       {
         "type": "waarschuwing",
-        "titel": "Note the words \"in normal situations\"",
-        "tekst": "This is a detail students consistently skip, and it is the most interesting part.\n\nDuring a **crisis** it is usually clear enough how safety and security relate: there is an attack, or there is an accident, and everyone knows who is responsible for what.\n\nThe friction sits in the **ordinary Tuesday morning**. A door that fire safety says must open and security says must stay shut. A logbook that safety says must be public and security says must not. An employee who according to safety must report everything and according to security may pass nothing on.\n\nThat is where they collide, every day, in small ways. And there is barely any research on it, as section 1.4 will admit."
+        "tekst": "**Note the words \"in normal situations\"**\n\nThis is a detail students consistently skip, and it is the most interesting part.\n\nDuring a **crisis** it is usually clear enough how safety and security relate: there is an attack, or there is an accident, and everyone knows who is responsible for what.\n\nThe friction sits in the **ordinary Tuesday morning**. A door that fire safety says must open and security says must stay shut. A logbook that safety says must be public and security says must not. An employee who according to safety must report everything and according to security may pass nothing on.\n\nThat is where they collide, every day, in small ways. And there is barely any research on it, as section 1.4 will admit."
       },
       {
         "type": "voorbeeld",
-        "titel": "Four collisions in practice",
-        "tekst": "To make it concrete, with examples in the spirit of the chapter:\n\n**Emergency exit.** Safety wants it to open from the inside at all times. Security wants it unusable from the outside and wants nobody slipping out unseen.\n\n**Reporting.** Safety wants you to report near-misses without punishment, because without reports you learn nothing. Security wants to know who did what when, and links behaviour to persons.\n\n**Publishing.** Safety investigation publishes its reports so the whole sector can learn. Security investigation deliberately does not publish vulnerabilities, because that is a manual for the attacker.\n\n**Access.** Safety wants emergency responders to reach everything quickly. Security wants as few people as possible to reach anything.\n\nIn all four cases **nobody is wrong**. That is precisely what makes it hard: it is not a misunderstanding you resolve with a good conversation, it is a genuine conflict of goals."
+        "tekst": "**Four collisions in practice**\n\nTo make it concrete, with examples in the spirit of the chapter:\n\n**Emergency exit.** Safety wants it to open from the inside at all times. Security wants it unusable from the outside and wants nobody slipping out unseen.\n\n**Reporting.** Safety wants you to report near-misses without punishment, because without reports you learn nothing. Security wants to know who did what when, and links behaviour to persons.\n\n**Publishing.** Safety investigation publishes its reports so the whole sector can learn. Security investigation deliberately does not publish vulnerabilities, because that is a manual for the attacker.\n\n**Access.** Safety wants emergency responders to reach everything quickly. Security wants as few people as possible to reach anything.\n\nIn all four cases **nobody is wrong**. That is precisely what makes it hard: it is not a misunderstanding you resolve with a good conversation, it is a genuine conflict of goals."
       },
       {
         "type": "tekst",
-        "titel": "The big question that follows",
         "toetsstof": true,
-        "tekst": "Out of those collisions comes a very practical organisational question, and it returns in almost every chapter of this book:\n\n**Should organisations have two separate units for safety and security, or should they merge the two?**\n\nThe authors note that many organisations, industries and institutions **hesitate** about this. That word is chosen deliberately. They are not saying the answer is known and people are too slow; they are saying there is no answer.\n\nAnd that is immediately your professional question. When you later write an SSMS recommendation on how to organise a safety function, this is the question you will be judged on."
+        "tekst": "**The big question that follows**\n\nOut of those collisions comes a very practical organisational question, and it returns in almost every chapter of this book:\n\n**Should organisations have two separate units for safety and security, or should they merge the two?**\n\nThe authors note that many organisations, industries and institutions **hesitate** about this. That word is chosen deliberately. They are not saying the answer is known and people are too slow; they are saying there is no answer.\n\nAnd that is immediately your professional question. When you later write an SSMS recommendation on how to organise a safety function, this is the question you will be judged on."
       },
       {
         "type": "tekst",
-        "titel": "Systemic risks and the political context",
         "toetsstof": true,
-        "tekst": "There is a third movement, alongside the safety history and the security history. It is more political-economic, and the chapter mentions it briefly but emphatically.\n\nFor both safety and security, hazards and threats are increasingly defined as **systemic risks**: products of modern society itself. Local vulnerabilities are understood as influenced by **global events and processes**, for instance within **digitalisation**.\n\nThis development coincides with a transformation of both safety and security policy towards broader fields and **shared responsibilities**, with attention to societal, civil, homeland and human issues.\n\nAnd these changes must be seen in combination with the growth of **risk management** as an answer to policy demands. That growth in turn connects to a broader pattern of **neoliberal influence**, characterised by far-reaching **deregulation, privatisation and outsourcing**."
+        "tekst": "**Systemic risks and the political context**\n\nThere is a third movement, alongside the safety history and the security history. It is more political-economic, and the chapter mentions it briefly but emphatically.\n\nFor both safety and security, hazards and threats are increasingly defined as **systemic risks**: products of modern society itself. Local vulnerabilities are understood as influenced by **global events and processes**, for instance within **digitalisation**.\n\nThis development coincides with a transformation of both safety and security policy towards broader fields and **shared responsibilities**, with attention to societal, civil, homeland and human issues.\n\nAnd these changes must be seen in combination with the growth of **risk management** as an answer to policy demands. That growth in turn connects to a broader pattern of **neoliberal influence**, characterised by far-reaching **deregulation, privatisation and outsourcing**."
       },
       {
         "type": "uitleg",
-        "titel": "What that neoliberal remark means for your field",
-        "tekst": "This is a political observation, and the authors do not develop it. But it is important enough to translate, because you see the effect every day.\n\nThe reasoning: if government **deregulates** (fewer detailed rules), **privatises** (tasks move to companies) and **outsources** (work moves to subcontractors), then direct steering on safety disappears. What replaces it? **Risk management**. No longer \"you must do X\", but \"you must demonstrate that you control your risks\".\n\nThree consequences you should be able to name:\n\n1. Safety becomes something you **demonstrate with documents**, not only something you do. Paperwork starts to count as performance.\n2. Responsibility becomes **dispersed** across client, contractor and subcontractor. After an incident the first question is who was actually responsible.\n3. Room appears for **differences in interpretation**, because the standard is no longer prescribed but filled in by the party itself.\n\nThis also explains why safety and security are so hard to integrate: they are often delivered by different parties, under different contracts. Bongiovanni (ch6) shows this concretely for airports."
+        "tekst": "**What that neoliberal remark means for your field**\n\nThis is a political observation, and the authors do not develop it. But it is important enough to translate, because you see the effect every day.\n\nThe reasoning: if government **deregulates** (fewer detailed rules), **privatises** (tasks move to companies) and **outsources** (work moves to subcontractors), then direct steering on safety disappears. What replaces it? **Risk management**. No longer \"you must do X\", but \"you must demonstrate that you control your risks\".\n\nThree consequences you should be able to name:\n\n1. Safety becomes something you **demonstrate with documents**, not only something you do. Paperwork starts to count as performance.\n2. Responsibility becomes **dispersed** across client, contractor and subcontractor. After an incident the first question is who was actually responsible.\n3. Room appears for **differences in interpretation**, because the standard is no longer prescribed but filled in by the party itself.\n\nThis also explains why safety and security are so hard to integrate: they are often delivered by different parties, under different contracts. Bongiovanni (ch6) shows this concretely for airports."
       },
       {
         "type": "tekst",
-        "titel": "The conclusion of section 1.1",
         "toetsstof": true,
-        "tekst": "The authors close their historical part with a sharp formulation worth knowing by heart:\n\nWhereas the grey area between security and safety could once still be reduced to the problem of **defining the difference between an accident and a criminal act**, safety and security can no longer ignore each other. Not in concepts, not in policy, and not in management practice. And, they add in brackets: **if they ever could**.\n\nThat last clause is more than a stylistic flourish. Without it you are saying: they used to be separate, now they are not, so we must build something new. With it you are saying: the separation was always artificial, and we only got away with it as long as the grey area looked small.\n\nThat is a far more radical claim, because then the problem is not new; only our **simplification** has stopped working."
+        "tekst": "**The conclusion of section 1.1**\n\nThe authors close their historical part with a sharp formulation worth knowing by heart:\n\nWhereas the grey area between security and safety could once still be reduced to the problem of **defining the difference between an accident and a criminal act**, safety and security can no longer ignore each other. Not in concepts, not in policy, and not in management practice. And, they add in brackets: **if they ever could**.\n\nThat last clause is more than a stylistic flourish. Without it you are saying: they used to be separate, now they are not, so we must build something new. With it you are saying: the separation was always artificial, and we only got away with it as long as the grey area looked small.\n\nThat is a far more radical claim, because then the problem is not new; only our **simplification** has stopped working."
       },
       {
         "type": "tekst",
         "titel": "1.2 Why defining is so devilishly hard",
         "toetsstof": true,
-        "tekst": "Now the concepts themselves. The chapter starts cautiously: there may be **little difference** between feeling *safe* and feeling *secure* (Ale, 2009). But if you assume the concepts are not fully analogous, clear definition remains a challenge (Boholm et al., 2016).\n\nTwo causes are named.\n\n**Cause 1: language.** Many languages have only one word for safety and security, unlike English. Dutch is a perfect example: it uses \"veiligheid\" for both, and has to improvise with \"beveiliging\", \"sociale veiligheid\" or simply the English term.\n\n**Cause 2: double usage.** There are many academic definitions on the one hand and everyday speech on the other. Together they produce ambiguity. \"I don\u2019t feel safe here\" from a resident means something different from \"safety\" in a risk analysis, but it is the same word."
+        "tekst": "Now the concepts themselves. The chapter starts cautiously: there may be **little difference** between feeling *safe* and feeling *secure* (Ale, 2009). But if you assume the concepts are not fully analogous, clear definition remains a challenge (Boholm et al., 2016).\n\nTwo causes are named.\n\n**Cause 1: language.** Many languages have only one word for safety and security, unlike English. Dutch is a perfect example: it uses \"veiligheid\" for both, and has to improvise with \"beveiliging\", \"sociale veiligheid\" or simply the English term.\n\n**Cause 2: double usage.** There are many academic definitions on the one hand and everyday speech on the other. Together they produce ambiguity. \"I don’t feel safe here\" from a resident means something different from \"safety\" in a risk analysis, but it is the same word."
       },
       {
         "type": "uitleg",
-        "titel": "A language problem you will meet in the Netherlands",
-        "tekst": "Notice what the language problem does in practice. A Dutch municipal safety memorandum says \"veiligheid\", and that one word covers fire safety, road safety, organised crime, burglary and the feeling of safety all at once.\n\nThat is not sloppiness by the municipality, that is the language. But the effect is that the memorandum **places measures side by side that have nothing to do with each other**, and that a discussion about priorities becomes impossible: you are comparing apples and pears under one word.\n\nIf your programme teaches you to make explicit in a recommendation **which kind of safety** you mean, you are doing exactly what this chapter asks. And that is not nitpicking: it is the precondition for a usable recommendation."
+        "tekst": "**A language problem you will meet in the Netherlands**\n\nNotice what the language problem does in practice. A Dutch municipal safety memorandum says \"veiligheid\", and that one word covers fire safety, road safety, organised crime, burglary and the feeling of safety all at once.\n\nThat is not sloppiness by the municipality, that is the language. But the effect is that the memorandum **places measures side by side that have nothing to do with each other**, and that a discussion about priorities becomes impossible: you are comparing apples and pears under one word.\n\nIf your programme teaches you to make explicit in a recommendation **which kind of safety** you mean, you are doing exactly what this chapter asks. And that is not nitpicking: it is the precondition for a usable recommendation."
       },
       {
         "type": "tekst",
-        "titel": "Axis 1 — the distinction by intentionality",
         "toetsstof": true,
-        "tekst": "The academic definitions refer mainly to **two types of distinction**. This is the first and best known.\n\n**Safety** deals with *hazards* and with **non-intentional or accidental risks**.\n**Security** deals with **malicious threats and intentional risks**.\n\nThe core question is therefore: **did somebody do this on purpose?**\n\nThis axis is intuitive and often works well. A scaffold that collapses is safety; an attack on that scaffold is security. But it has two weak spots you need to know:\n\n1. **You often do not know.** At the moment things go wrong, nobody knows whether it was intentional. The fire is burning; intent is established months later. Yet action is needed **now**.\n2. **It makes no difference to the damage.** A factory that explodes creates the same devastation whether it was intentional or not. That is precisely the argument with which **Leveson** in chapter 3 sets the whole axis aside."
+        "tekst": "**Axis 1 — the distinction by intentionality**\n\nThe academic definitions refer mainly to **two types of distinction**. This is the first and best known.\n\n**Safety** deals with *hazards* and with **non-intentional or accidental risks**.\n**Security** deals with **malicious threats and intentional risks**.\n\nThe core question is therefore: **did somebody do this on purpose?**\n\nThis axis is intuitive and often works well. A scaffold that collapses is safety; an attack on that scaffold is security. But it has two weak spots you need to know:\n\n1. **You often do not know.** At the moment things go wrong, nobody knows whether it was intentional. The fire is burning; intent is established months later. Yet action is needed **now**.\n2. **It makes no difference to the damage.** A factory that explodes creates the same devastation whether it was intentional or not. That is precisely the argument with which **Leveson** in chapter 3 sets the whole axis aside."
       },
       {
         "type": "tekst",
-        "titel": "Axis 2 — the distinction by origin and effect",
         "toetsstof": true,
-        "tekst": "The second axis is less well known but analytically sharper. It is not about intent but about the **direction of the harm**.\n\n**Safety** is the ability of the **system not to harm the environment**.\n**Security** is the ability of the **environment not to harm the system**.\n\nSo: does the arrow point outwards or inwards?\n\nA chemical plant discharging poison harms the environment: safety. A burglar entering the plant is the environment harming the system: security.\n\nSome authors combine both axes into more refined schemes, to do justice to differences in usage between domains. There the system-environment axis is enriched with a third possibility: the ability of a system not to harm **itself**. That is the **SEMA framework** of Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010)."
+        "tekst": "**Axis 2 — the distinction by origin and effect**\n\nThe second axis is less well known but analytically sharper. It is not about intent but about the **direction of the harm**.\n\n**Safety** is the ability of the **system not to harm the environment**.\n**Security** is the ability of the **environment not to harm the system**.\n\nSo: does the arrow point outwards or inwards?\n\nA chemical plant discharging poison harms the environment: safety. A burglar entering the plant is the environment harming the system: security.\n\nSome authors combine both axes into more refined schemes, to do justice to differences in usage between domains. There the system-environment axis is enriched with a third possibility: the ability of a system not to harm **itself**. That is the **SEMA framework** of Piètre-Cambacédès and Chaudet (2010)."
       },
       {
         "type": "uitleg",
-        "titel": "Why a third direction was needed",
-        "tekst": "Why make \"the system harms itself\" a separate category? Take a machine that destroys itself through wear without anyone being injured and without the environment noticing anything.\n\nWith two directions that fits nowhere: the environment does nothing, and the environment suffers nothing. Yet it is clearly a safety issue, and in practice an expensive one.\n\nThe three directions in SEMA are therefore: system outwards, outside towards system, and system towards itself. You do not need SEMA in detail, but you do need to know that the simple dichotomy does not capture everything and that authors have therefore proposed refinements."
+        "tekst": "**Why a third direction was needed**\n\nWhy make \"the system harms itself\" a separate category? Take a machine that destroys itself through wear without anyone being injured and without the environment noticing anything.\n\nWith two directions that fits nowhere: the environment does nothing, and the environment suffers nothing. Yet it is clearly a safety issue, and in practice an expensive one.\n\nThe three directions in SEMA are therefore: system outwards, outside towards system, and system towards itself. You do not need SEMA in detail, but you do need to know that the simple dichotomy does not capture everything and that authors have therefore proposed refinements."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**The two axes side by side**"
       },
       {
         "type": "tabel",
-        "titel": "The two axes side by side",
         "kop": [
           "",
           "Axis 1: intentionality",
-          "Axis 2: origin\u2014effect"
+          "Axis 2: origin—effect"
         ],
         "rijen": [
           [
@@ -213,44 +199,38 @@ LESSTOF["intro-to-safety-security/h1"] = [
           [
             "Cited in",
             "Ale (2009); Smith & Brooks (2012)",
-            "Boholm et al. (2016); Pi\u00e8tre-Cambac\u00e9d\u00e8s & Bouissou (2013)"
+            "Boholm et al. (2016); Piètre-Cambacédès & Bouissou (2013)"
           ]
         ],
         "noot": "This table is the most practical summary of section 1.2. If you can reproduce it from memory, you can open almost any case in this course."
       },
       {
         "type": "voorbeeld",
-        "titel": "The two axes on one case, and what then happens",
-        "tekst": "Case: an employee at a water treatment plant, frustrated about being dismissed, opens a valve. Untreated water enters the river.\n\n**Axis 1, intentionality.** He did it on purpose. So: **security**.\n\n**Axis 2, direction of the harm.** The system harms the environment, the river. So: **safety**.\n\nTwo axes, two different answers. That is not a flaw in your reasoning; this is exactly the grey area the book is about. Note as well that the perpetrator stands **inside** the system, while axis 2 defines security as something coming from outside.\n\nHow to handle this professionally: you do not quietly pick one axis and pretend it is obvious. You **state** that the axes diverge, you explain the consequences (who is responsible, who investigates, which measure follows), and only then do you give your recommendation. That difference between \"giving an opinion\" and \"showing a trade-off\" is exactly the difference between vocational and bachelor level."
+        "tekst": "**The two axes on one case, and what then happens**\n\nCase: an employee at a water treatment plant, frustrated about being dismissed, opens a valve. Untreated water enters the river.\n\n**Axis 1, intentionality.** He did it on purpose. So: **security**.\n\n**Axis 2, direction of the harm.** The system harms the environment, the river. So: **safety**.\n\nTwo axes, two different answers. That is not a flaw in your reasoning; this is exactly the grey area the book is about. Note as well that the perpetrator stands **inside** the system, while axis 2 defines security as something coming from outside.\n\nHow to handle this professionally: you do not quietly pick one axis and pretend it is obvious. You **state** that the axes diverge, you explain the consequences (who is responsible, who investigates, which measure follows), and only then do you give your recommendation. That difference between \"giving an opinion\" and \"showing a trade-off\" is exactly the difference between vocational and bachelor level."
       },
       {
         "type": "tekst",
-        "titel": "Distinguish, or simply manage everything?",
         "toetsstof": true,
-        "tekst": "Despite all attempts to refine the distinction, the authors say one question keeps returning: should you distinguish the two **at all**, or should you simply manage all hazards as well as possible, whether they make us feel unsafe or insecure? That question comes from **Young and Leveson (2014)**, and Leveson develops the position fully in chapter 3.\n\nA central concept for achieving both is **risk management**. See Blokland and Reniers in chapter 2, and the editors themselves in chapter 11.\n\nBut, the authors warn immediately, it is not settled there either. There is much confusion about:\n- what you may **expect** from risk analysis (Short, 1992),\n- **how** you carry it out,\n- and whether it is the **same** for safety and security (Jore, 2019).\n\nNotice how this chapter always has the same shape: here is a proposed solution, and here is why it does not close the matter. That is not a weakness of the book, that is the state of the field."
+        "tekst": "**Distinguish, or simply manage everything?**\n\nDespite all attempts to refine the distinction, the authors say one question keeps returning: should you distinguish the two **at all**, or should you simply manage all hazards as well as possible, whether they make us feel unsafe or insecure? That question comes from **Young and Leveson (2014)**, and Leveson develops the position fully in chapter 3.\n\nA central concept for achieving both is **risk management**. See Blokland and Reniers in chapter 2, and the editors themselves in chapter 11.\n\nBut, the authors warn immediately, it is not settled there either. There is much confusion about:\n- what you may **expect** from risk analysis (Short, 1992),\n- **how** you carry it out,\n- and whether it is the **same** for safety and security (Jore, 2019).\n\nNotice how this chapter always has the same shape: here is a proposed solution, and here is why it does not close the matter. That is not a weakness of the book, that is the state of the field."
       },
       {
         "type": "tekst",
-        "titel": "How science and technology widen the gap",
         "toetsstof": true,
-        "tekst": "You would expect more science and better technology to bring the concepts closer together. Often the opposite happens. The conceptual differences between safety and security have in many contexts been **further magnified** by science and technology. The example the authors work out is the airport.\n\nIn daily operations, security screeners and safety personnel have:\n- **different training**,\n- **different technology**,\n- and they **work in completely different ways**.\n\nOn top of that, the different **regulatory frameworks** and the nature of some **contracts** at airports reinforce that separation still further (Bongiovanni, 2016).\n\nThink through what that means. Two groups of people on the same site, with the same overarching aim, who have not followed each other\u2019s training, cannot operate each other\u2019s equipment, fall under different rules and sometimes work for different employers. You do not integrate that with a joint newsletter."
+        "tekst": "**How science and technology widen the gap**\n\nYou would expect more science and better technology to bring the concepts closer together. Often the opposite happens. The conceptual differences between safety and security have in many contexts been **further magnified** by science and technology. The example the authors work out is the airport.\n\nIn daily operations, security screeners and safety personnel have:\n- **different training**,\n- **different technology**,\n- and they **work in completely different ways**.\n\nOn top of that, the different **regulatory frameworks** and the nature of some **contracts** at airports reinforce that separation still further (Bongiovanni, 2016).\n\nThink through what that means. Two groups of people on the same site, with the same overarching aim, who have not followed each other’s training, cannot operate each other’s equipment, fall under different rules and sometimes work for different employers. You do not integrate that with a joint newsletter."
       },
       {
         "type": "tekst",
-        "titel": "And still people have to decide",
         "toetsstof": true,
-        "tekst": "Here comes the sentence that in my view matters most for your future profession.\n\nHowever separate the two worlds are, the behaviour of individual employees or organisations protecting themselves against threats and hazards requires **decisions without it having been settled whether this is safety or security**.\n\nAnd who takes those decisions? The authors are explicit: **\"ordinary workers\"**, managers, HSE professionals, security officers and other professionals.\n\nThat is the gap between theory and practice in this field. Academics debate the correct definition; the guard at the door has to decide right now whether to open it.\n\nThe consequence for you: a recommendation that only works after someone has correctly classified the distinction is not a usable recommendation. It has to work in the situation where that distinction is not settled."
+        "tekst": "**And still people have to decide**\n\nHere comes the sentence that in my view matters most for your future profession.\n\nHowever separate the two worlds are, the behaviour of individual employees or organisations protecting themselves against threats and hazards requires **decisions without it having been settled whether this is safety or security**.\n\nAnd who takes those decisions? The authors are explicit: **\"ordinary workers\"**, managers, HSE professionals, security officers and other professionals.\n\nThat is the gap between theory and practice in this field. Academics debate the correct definition; the guard at the door has to decide right now whether to open it.\n\nThe consequence for you: a recommendation that only works after someone has correctly classified the distinction is not a usable recommendation. It has to work in the situation where that distinction is not settled."
       },
       {
         "type": "tekst",
-        "titel": "The three vantage points of the book",
         "toetsstof": true,
-        "tekst": "However blurred the dividing lines, the contributions in this book show how safety and security come together from different scientific positions and contexts. The editors distinguish **three vantage points**, and you should know which chapter sits where.\n\n**1. Conceptual** \u2014 what **are** these things, and which words do we use?\nBlokland & Reniers (ch2), Jore (ch5)\n\n**2. Technical and methodological** \u2014 how do we analyse, design and measure?\nLeveson (ch3), Wipf (ch4), Bongiovanni (ch6)\n\n**3. Management and practice** \u2014 who does what, in which organisation, and where does it collide?\nBrooks & Coole (ch7), La Porte (ch8), Boustras (ch10), Schulman (ch9)\n\nThe chapters show that doing safety **and** security is a fairly **generic feature** of organisations, and for many organisations even inseparable from their existence. But as **professional fields** they have developed differently, supported by quite separate scientific and technological fields.\n\nOne more nuance: some parts of professional safety and security practice rest on highly specialised and rigorous knowledge, while other parts are **routinised by convention, rule or law** (Short, 1992). That is why, alongside technical knowledge and methods, **empirical study** is needed of the organisations and systems in which safety and security develop and interact. That is precisely what La Porte argues for in chapter 8."
+        "tekst": "**The three vantage points of the book**\n\nHowever blurred the dividing lines, the contributions in this book show how safety and security come together from different scientific positions and contexts. The editors distinguish **three vantage points**, and you should know which chapter sits where.\n\n**1. Conceptual** — what **are** these things, and which words do we use?\nBlokland & Reniers (ch2), Jore (ch5)\n\n**2. Technical and methodological** — how do we analyse, design and measure?\nLeveson (ch3), Wipf (ch4), Bongiovanni (ch6)\n\n**3. Management and practice** — who does what, in which organisation, and where does it collide?\nBrooks & Coole (ch7), La Porte (ch8), Boustras (ch10), Schulman (ch9)\n\nThe chapters show that doing safety **and** security is a fairly **generic feature** of organisations, and for many organisations even inseparable from their existence. But as **professional fields** they have developed differently, supported by quite separate scientific and technological fields.\n\nOne more nuance: some parts of professional safety and security practice rest on highly specialised and rigorous knowledge, while other parts are **routinised by convention, rule or law** (Short, 1992). That is why, alongside technical knowledge and methods, **empirical study** is needed of the organisations and systems in which safety and security develop and interact. That is precisely what La Porte argues for in chapter 8."
       },
       {
         "type": "uitleg",
-        "titel": "Why the vantage point decides who is \"right\"",
-        "tekst": "Use these three vantage points as glasses and the book falls into place.\n\nFrom the **technical** vantage point Leveson is right: if the consequences are the same and your control measure is the same, why run two analyses?\n\nFrom the **management** vantage point Brooks and Coole are right: if the training, the professional bodies, the knowledge domains and the legislation differ, then these are two professions, however much you want to integrate.\n\nFrom the **conceptual** vantage point Blokland and Reniers are right: without clear words you do not even know what you are talking about.\n\nNone of the three is wrong. They answer different questions. If you show that in an exam answer or a paper, you show that you understand the book as a whole rather than three separate chapters."
+        "tekst": "**Why the vantage point decides who is \"right\"**\n\nUse these three vantage points as glasses and the book falls into place.\n\nFrom the **technical** vantage point Leveson is right: if the consequences are the same and your control measure is the same, why run two analyses?\n\nFrom the **management** vantage point Brooks and Coole are right: if the training, the professional bodies, the knowledge domains and the legislation differ, then these are two professions, however much you want to integrate.\n\nFrom the **conceptual** vantage point Blokland and Reniers are right: without clear words you do not even know what you are talking about.\n\nNone of the three is wrong. They answer different questions. If you show that in an exam answer or a paper, you show that you understand the book as a whole rather than three separate chapters."
       },
       {
         "type": "tekst",
@@ -260,40 +240,38 @@ LESSTOF["intro-to-safety-security/h1"] = [
       },
       {
         "type": "uitleg",
-        "titel": "What \"many requirements come from policy, not science\" means for you",
-        "tekst": "This sentence looks innocent but is sharp. It says that a fair part of what we call \"safety requirements\" does not follow from research into what works, but from **legislation, costs and political goals**.\n\nThree practical consequences:\n\n1. **Complying with the rules is not the same as being safe.** You can be fully compliant and still have an unsafe situation, and the other way round.\n2. **The question \"where does this requirement come from\" is always legitimate.** From research, from a law, from an insurer, or from an incident ten years ago? That determines how much weight you give it.\n3. **As an adviser you have to speak both languages.** What works according to research, **and** what is required by the rules. They do not coincide, and pretending they do makes your advice unusable.\n\nThis is one of the things that sets this book apart from an ordinary textbook: it tells you not only what the field knows, but also how **shaky** part of that knowledge is."
+        "tekst": "**What \"many requirements come from policy, not science\" means for you**\n\nThis sentence looks innocent but is sharp. It says that a fair part of what we call \"safety requirements\" does not follow from research into what works, but from **legislation, costs and political goals**.\n\nThree practical consequences:\n\n1. **Complying with the rules is not the same as being safe.** You can be fully compliant and still have an unsafe situation, and the other way round.\n2. **The question \"where does this requirement come from\" is always legitimate.** From research, from a law, from an insurer, or from an incident ten years ago? That determines how much weight you give it.\n3. **As an adviser you have to speak both languages.** What works according to research, **and** what is required by the rules. They do not coincide, and pretending they do makes your advice unusable.\n\nThis is one of the things that sets this book apart from an ordinary textbook: it tells you not only what the field knows, but also how **shaky** part of that knowledge is."
       },
       {
         "type": "voorbeeld",
-        "titel": "Security culture: how shaky it can be",
-        "tekst": "The authors give an illustration themselves, and this pointer to chapter 5 is worth having.\n\nSissel Jore notes that an **accident investigation report** used the concept of *security culture* as one of the important explanatory factors behind the outcome of a terrorist attack. Many **Norwegian petroleum companies** also apply security culture as a means of security improvement.\n\nThe concept clearly has a counterpart in *safety culture*, and in theory it can be defined and researched. But, and this is the point: it is applied with **little technical support and analysis**.\n\nTranslated: an explanation is being given for an attack with fatalities, using a concept whose precise meaning and measurement are not settled. And companies are being steered on that basis.\n\nThe conclusion the editors draw: the dividing lines blur not only between security and safety, but also between **scientific approaches and management**. In theory as well as in practice."
+        "tekst": "**Security culture: how shaky it can be**\n\nThe authors give an illustration themselves, and this pointer to chapter 5 is worth having.\n\nSissel Jore notes that an **accident investigation report** used the concept of *security culture* as one of the important explanatory factors behind the outcome of a terrorist attack. Many **Norwegian petroleum companies** also apply security culture as a means of security improvement.\n\nThe concept clearly has a counterpart in *safety culture*, and in theory it can be defined and researched. But, and this is the point: it is applied with **little technical support and analysis**.\n\nTranslated: an explanation is being given for an attack with fatalities, using a concept whose precise meaning and measurement are not settled. And companies are being steered on that basis.\n\nThe conclusion the editors draw: the dividing lines blur not only between security and safety, but also between **scientific approaches and management**. In theory as well as in practice."
       },
       {
         "type": "tekst",
         "titel": "1.4 The limits of what technology and bureaucracy can do",
         "toetsstof": true,
-        "tekst": "We come to the most fundamental part of the chapter.\n\nThat there are **limits** to bureaucratic and technical performance in the pursuit of safety and security is unmistakable. Accidents **and** malicious attacks will happen, and uncertainties will remain (Short, 1992).\n\nThe authors quote Schulman from chapter 9, and this is a statement to remember:\n\nThere are always **more ways in which a complex system can fail** than ways in which it works correctly as designed.\n\nAnd then the security aggravation comes on top: hostile strategy adds **extra possibilities for calamity**, because vulnerabilities are treated as **strategic targets**.\n\nThat difference is essential. In safety, chance is your opponent, and chance does not search deliberately for your weakest point. In security there is a thinking adversary who **seeks out and selects** your vulnerabilities. That is precisely why Blokland and Reniers\u2019 third level of distinction in chapter 2, about the nature of the uncertainty, matters so much."
+        "tekst": "We come to the most fundamental part of the chapter.\n\nThat there are **limits** to bureaucratic and technical performance in the pursuit of safety and security is unmistakable. Accidents **and** malicious attacks will happen, and uncertainties will remain (Short, 1992).\n\nThe authors quote Schulman from chapter 9, and this is a statement to remember:\n\nThere are always **more ways in which a complex system can fail** than ways in which it works correctly as designed.\n\nAnd then the security aggravation comes on top: hostile strategy adds **extra possibilities for calamity**, because vulnerabilities are treated as **strategic targets**.\n\nThat difference is essential. In safety, chance is your opponent, and chance does not search deliberately for your weakest point. In security there is a thinking adversary who **seeks out and selects** your vulnerabilities. That is precisely why Blokland and Reniers’ third level of distinction in chapter 2, about the nature of the uncertainty, matters so much."
       },
       {
         "type": "tekst",
-        "titel": "Three questions the chapter passes on to you",
         "toetsstof": true,
-        "tekst": "Three questions follow from those limits. The authors do not answer them; they pass them on to the field and to the reader.\n\n**Question 1: what is safe and secure enough?**\nAs long as you do not answer that, every level is too little, because something can always be added.\n\n**Question 2: what do the new demands mean for the people?**\nSafety and security generate new demands, even demands for stronger integration. What are the implications for the people in organisations and institutions that manage technologies which keep growing in scale and complexity?\n\n**Question 3: who is strengthened and who gets the strain?**\nWho becomes more powerful or more important through this development, and who instead experiences more tension and conflict? For this question the authors point to La Porte in chapter 8.\n\nQuestion 3 is the most mature of the three, and at the same time the one students most often skip. Every safety measure **distributes** something: authority, budget, status, workload. Anyone who fails to name that writes a recommendation that only works on paper."
+        "tekst": "**Three questions the chapter passes on to you**\n\nThree questions follow from those limits. The authors do not answer them; they pass them on to the field and to the reader.\n\n**Question 1: what is safe and secure enough?**\nAs long as you do not answer that, every level is too little, because something can always be added.\n\n**Question 2: what do the new demands mean for the people?**\nSafety and security generate new demands, even demands for stronger integration. What are the implications for the people in organisations and institutions that manage technologies which keep growing in scale and complexity?\n\n**Question 3: who is strengthened and who gets the strain?**\nWho becomes more powerful or more important through this development, and who instead experiences more tension and conflict? For this question the authors point to La Porte in chapter 8.\n\nQuestion 3 is the most mature of the three, and at the same time the one students most often skip. Every safety measure **distributes** something: authority, budget, status, workload. Anyone who fails to name that writes a recommendation that only works on paper."
       },
       {
         "type": "tekst",
-        "titel": "The four concrete tensions",
         "toetsstof": true,
-        "tekst": "The chapter makes those abstract questions concrete with four tensions. These four are excellent exam material, because they are short and sharp.\n\n**Tension 1: merge or keep separate.** Many organisations hesitate between two separate units for safety and security, or one merged treatment. There is no proven right answer.\n\n**Tension 2: regulators get tasks without a knowledge base.** Security is added to the scope of some safety authorities, for instance in aviation at **EASA** and the French civil aviation authority. But with **very limited input from research** on how to deal conceptually and practically with that extended scope. Policy is therefore being made in an area where science has no answer yet.\n\n**Tension 3: transparency collides.** A further possible problem concerns transparency and the sharing of data and experience. The illustration the authors give is the **publication of research**: security research may demand **confidentiality** about results, while safety management and safety research strive for **maximum openness**. Those are two opposing information regimes, not two styles.\n\n**Tension 4: the research is lopsided.** Most research and literature on the relationship between safety and security focuses on **engineering aspects** such as design and risk analysis methods, plus some work on conceptual issues. Despite all the years in which safety and security have coexisted, there appears to be **limited research** into how they are managed in practice at all levels. A few field studies do confirm a **tension** between safety and security in daily activities. Further research into the interactions is therefore needed."
+        "tekst": "**The four concrete tensions**\n\nThe chapter makes those abstract questions concrete with four tensions. These four are excellent exam material, because they are short and sharp.\n\n**Tension 1: merge or keep separate.** Many organisations hesitate between two separate units for safety and security, or one merged treatment. There is no proven right answer.\n\n**Tension 2: regulators get tasks without a knowledge base.** Security is added to the scope of some safety authorities, for instance in aviation at **EASA** and the French civil aviation authority. But with **very limited input from research** on how to deal conceptually and practically with that extended scope. Policy is therefore being made in an area where science has no answer yet.\n\n**Tension 3: transparency collides.** A further possible problem concerns transparency and the sharing of data and experience. The illustration the authors give is the **publication of research**: security research may demand **confidentiality** about results, while safety management and safety research strive for **maximum openness**. Those are two opposing information regimes, not two styles.\n\n**Tension 4: the research is lopsided.** Most research and literature on the relationship between safety and security focuses on **engineering aspects** such as design and risk analysis methods, plus some work on conceptual issues. Despite all the years in which safety and security have coexisted, there appears to be **limited research** into how they are managed in practice at all levels. A few field studies do confirm a **tension** between safety and security in daily activities. Further research into the interactions is therefore needed."
       },
       {
         "type": "uitleg",
-        "titel": "Why tension 3 runs deeper than it looks",
-        "tekst": "I single out tension 3, because that is the one students skim over fastest.\n\nSafety grew great **through** openness. The whole learning process of aviation, for example, runs on public accident reports: one accident, learned from worldwide. That is not a by-product, it is the **working mechanism**.\n\nSecurity works the other way round. A public report on how someone got in is a **manual**. There, openness increases the risk.\n\nSo if you merge the two, one of them has to surrender its most important learning mechanism. Merge them under a security regime and safety loses its public learning cycle. Merge them under a safety regime and you publish vulnerabilities.\n\nThat is not a small practical problem you solve with a confidentiality clause. It is a **structural conflict**, and one of the strongest arguments **against** naive integration. Remember this if you ever have to advise on merging: this is your heaviest counter-argument."
+        "tekst": "**Why tension 3 runs deeper than it looks**\n\nI single out tension 3, because that is the one students skim over fastest.\n\nSafety grew great **through** openness. The whole learning process of aviation, for example, runs on public accident reports: one accident, learned from worldwide. That is not a by-product, it is the **working mechanism**.\n\nSecurity works the other way round. A public report on how someone got in is a **manual**. There, openness increases the risk.\n\nSo if you merge the two, one of them has to surrender its most important learning mechanism. Merge them under a security regime and safety loses its public learning cycle. Merge them under a safety regime and you publish vulnerabilities.\n\nThat is not a small practical problem you solve with a confidentiality clause. It is a **structural conflict**, and one of the strongest arguments **against** naive integration. Remember this if you ever have to advise on merging: this is your heaviest counter-argument."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Key concepts from chapter 1**"
       },
       {
         "type": "begrippen",
-        "titel": "Key concepts from chapter 1",
         "items": [
           {
             "begrip": "Systemic risk",
@@ -305,7 +283,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
           },
           {
             "begrip": "Societal security",
-            "definitie": "Security at societal level, focused on societies\u2019 own vulnerability to malicious acts rather than on threats from hostile states."
+            "definitie": "Security at societal level, focused on societies’ own vulnerability to malicious acts rather than on threats from hostile states."
           },
           {
             "begrip": "Intentionality",
@@ -317,7 +295,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
           },
           {
             "begrip": "SEMA framework",
-            "definitie": "The refinement by Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010) that extends the system-environment axis with the ability of a system not to harm itself."
+            "definitie": "The refinement by Piètre-Cambacédès and Chaudet (2010) that extends the system-environment axis with the ability of a system not to harm itself."
           },
           {
             "begrip": "Free-floating dread",
@@ -329,7 +307,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
           },
           {
             "begrip": "Normal accidents",
-            "definitie": "Perrow\u2019s thesis (1984) that major accidents in certain high-risk systems are inevitable because of the nature of those systems themselves."
+            "definitie": "Perrow’s thesis (1984) that major accidents in certain high-risk systems are inevitable because of the nature of those systems themselves."
           },
           {
             "begrip": "Occupational Health and Safety",
@@ -353,8 +331,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
       },
       {
         "type": "waarschuwing",
-        "titel": "Three mistakes I keep seeing",
-        "tekst": "**Mistake 1: assuming safety and security reinforce each other.** The chapter says the opposite. The practices can work against each other, and precisely in normal, everyday situations the interactions are anything but obvious.\n\n**Mistake 2: mixing up the two axes.** Axis 1 is about intent. Axis 2 is about the direction of the harm. Those are two independent ways of distinguishing, not two phrasings of the same thing. They can give different answers on the same case, and that is informative.\n\n**Mistake 3: thinking this chapter offers a solution.** It does not, and that is deliberate. It gives you the map, the concepts and the open questions. Anyone who writes \"the solution of chapter 1\" in an exam has not read it."
+        "tekst": "**Three mistakes I keep seeing**\n\n**Mistake 1: assuming safety and security reinforce each other.** The chapter says the opposite. The practices can work against each other, and precisely in normal, everyday situations the interactions are anything but obvious.\n\n**Mistake 2: mixing up the two axes.** Axis 1 is about intent. Axis 2 is about the direction of the harm. Those are two independent ways of distinguishing, not two phrasings of the same thing. They can give different answers on the same case, and that is informative.\n\n**Mistake 3: thinking this chapter offers a solution.** It does not, and that is deliberate. It gives you the map, the concepts and the open questions. Anyone who writes \"the solution of chapter 1\" in an exam has not read it."
       },
       {
         "type": "tekst",
@@ -363,8 +340,11 @@ LESSTOF["intro-to-safety-security/h1"] = [
         "tekst": "The chapters are not divided into sections, but the order runs roughly from **conceptual**, through **technical and methodological**, to **empirical research, management and practice**. The authors explicitly note that there is a fair amount of **overlap** between chapters.\n\nThe final chapter (ch11) summarises the main challenges and problems that become visible when you put the contributions side by side, and discusses a number of key points for an **interconnected research agenda** for safety and security."
       },
       {
+        "type": "tekst",
+        "tekst": "**The eleven chapters, with vantage point**"
+      },
+      {
         "type": "tabel",
-        "titel": "The eleven chapters, with vantage point",
         "kop": [
           "Ch",
           "Author(s)",
@@ -443,13 +423,15 @@ LESSTOF["intro-to-safety-security/h1"] = [
       },
       {
         "type": "tekst",
-        "titel": "The chapter summaries, expanded",
         "toetsstof": true,
-        "tekst": "Below is what the editors themselves announce per chapter. Read this quickly now, and come back to it after each chapter. That way you keep seeing where you are on the map.\n\n**Chapter 2 \u2014 Blokland & Reniers.** Take a risk perspective and focus on what connects and distinguishes safety and security in situations with uncertainty about effects on individual, organisational or societal objectives. For risk analysis purposes they sketch safety and security largely in the same way, but they also argue for differences relating to effects, objectives and uncertainty.\n\n**Chapter 3 \u2014 Leveson.** Shows how methods from system safety engineering can be developed so that they cover both safety and security scenarios. The approach accepts that **design flaws cannot be eliminated before use**, and that the complexity of many systems calls for new and more comprehensive models of causality. The chapter shows how engineering tools based on systems theory can treat safety and security in an integrated way.\n\n**Chapter 4 \u2014 Wipf.** Uses a **game-theoretical approach** on an empirical case from light helicopter operations to assess safety and security issues in combination. The chapter illustrates the similarities and differences between assessment techniques.\n\n**Chapter 5 \u2014 Jore.** Acknowledges that security science is moving towards **softer measures**, and argues that security culture is a promising concept for organisations because it can make security a priority and a shared responsibility. She compares it with the far more widely applied safety culture. The soundness of the concept is discussed through an investigation report on a terrorist attack on an internationally run Algerian oil facility, and the discussion is structured with criteria for **conceptual adequacy**.\n\n**Chapter 6 \u2014 Bongiovanni.** Is method-oriented and takes an **end-user perspective** on safety and security. Focusing on the airport security environment, and security screening in particular, he shows the possible benefits of looking beyond the legal and managerial perspectives that appear to dominate both safety and security management. His claim: this way organisations can spend fewer resources on the **\"eternal spoilsports\"** of loss prevention and create more value for users.\n\n**Chapter 7 \u2014 Brooks & Coole.** Explains how safety and security, although they share an overarching driver of societal wellbeing, **diverge as separate professions**. They consider security within the context of corporate security and safety within the context of occupational health and safety, and conclude that, viewed within their professions and the supporting professional knowledge domains, there is **limited synergy**.\n\n**Chapter 8 \u2014 La Porte.** Asks which organisational design and operational puzzles arise when organisations and public institutions are required to deliver both \"safety in operations\" and \"security against external threat\", while their core technologies grow in scale and complexity. Building on experience from a **field study of large technical organisations**, the chapter formulates questions that arise when safety and security become mixed operational challenges, and sketches a guide for further empirical research. It also addresses the strategic implications for **top leadership**, who face both external threats and the growing social complexity of operations.\n\n**Chapter 9 \u2014 Schulman.** Building on earlier research into **high-reliability management**, focuses on the management challenge of the convergence of safety and security. He discusses how high reliability can function as a common framework for safety and security, and which challenges come with bringing both under one larger management framework.\n\n**Chapter 10 \u2014 Boustras.** Explores safety and security from the perspective of the **workplace**, and argues that emerging risks and new drivers create new areas of attention at the interface. Because the work-related consequences and the direct economic impact for organisations are **less visible**, government agencies and regulatory pressure become more of a backbone, with increasing demands on the workplace."
+        "tekst": "**The chapter summaries, expanded**\n\nBelow is what the editors themselves announce per chapter. Read this quickly now, and come back to it after each chapter. That way you keep seeing where you are on the map.\n\n**Chapter 2 — Blokland & Reniers.** Take a risk perspective and focus on what connects and distinguishes safety and security in situations with uncertainty about effects on individual, organisational or societal objectives. For risk analysis purposes they sketch safety and security largely in the same way, but they also argue for differences relating to effects, objectives and uncertainty.\n\n**Chapter 3 — Leveson.** Shows how methods from system safety engineering can be developed so that they cover both safety and security scenarios. The approach accepts that **design flaws cannot be eliminated before use**, and that the complexity of many systems calls for new and more comprehensive models of causality. The chapter shows how engineering tools based on systems theory can treat safety and security in an integrated way.\n\n**Chapter 4 — Wipf.** Uses a **game-theoretical approach** on an empirical case from light helicopter operations to assess safety and security issues in combination. The chapter illustrates the similarities and differences between assessment techniques.\n\n**Chapter 5 — Jore.** Acknowledges that security science is moving towards **softer measures**, and argues that security culture is a promising concept for organisations because it can make security a priority and a shared responsibility. She compares it with the far more widely applied safety culture. The soundness of the concept is discussed through an investigation report on a terrorist attack on an internationally run Algerian oil facility, and the discussion is structured with criteria for **conceptual adequacy**.\n\n**Chapter 6 — Bongiovanni.** Is method-oriented and takes an **end-user perspective** on safety and security. Focusing on the airport security environment, and security screening in particular, he shows the possible benefits of looking beyond the legal and managerial perspectives that appear to dominate both safety and security management. His claim: this way organisations can spend fewer resources on the **\"eternal spoilsports\"** of loss prevention and create more value for users.\n\n**Chapter 7 — Brooks & Coole.** Explains how safety and security, although they share an overarching driver of societal wellbeing, **diverge as separate professions**. They consider security within the context of corporate security and safety within the context of occupational health and safety, and conclude that, viewed within their professions and the supporting professional knowledge domains, there is **limited synergy**.\n\n**Chapter 8 — La Porte.** Asks which organisational design and operational puzzles arise when organisations and public institutions are required to deliver both \"safety in operations\" and \"security against external threat\", while their core technologies grow in scale and complexity. Building on experience from a **field study of large technical organisations**, the chapter formulates questions that arise when safety and security become mixed operational challenges, and sketches a guide for further empirical research. It also addresses the strategic implications for **top leadership**, who face both external threats and the growing social complexity of operations.\n\n**Chapter 9 — Schulman.** Building on earlier research into **high-reliability management**, focuses on the management challenge of the convergence of safety and security. He discusses how high reliability can function as a common framework for safety and security, and which challenges come with bringing both under one larger management framework.\n\n**Chapter 10 — Boustras.** Explores safety and security from the perspective of the **workplace**, and argues that emerging risks and new drivers create new areas of attention at the interface. Because the work-related consequences and the direct economic impact for organisations are **less visible**, government agencies and regulatory pressure become more of a backbone, with increasing demands on the workplace."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**The two positions the book keeps apart**"
       },
       {
         "type": "vergelijking",
-        "titel": "The two positions the book keeps apart",
         "links": {
           "titel": "Integrate",
           "tekst": "Safety and security are at heart the same problem and should be tackled together.",
@@ -539,7 +521,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
         "id": "h1-oef-3",
         "niveau": "gevorderd",
         "vraag": "A chemical company wants to merge safety and security into one department. Write three arguments for and three against, each explicitly based on chapter 1.",
-        "antwoord": "For. First, hazards and threats are nowadays both understood as systemic risks in which local vulnerabilities connect to global processes such as digitalisation, so you analyse them best in combination. Second, in daily practice employees already have to take decisions without it being settled whether something is safety or security; the chapter explicitly mentions ordinary workers, managers, HSE professionals and security officers, so a separated structure does not fit the actual work. Third, the subtle mutual influences between the two are visible precisely in normal situations, and you only see them if someone looks at both at once. Against. First, safety and security practices can work against each other, as Pettersen and Bj\u00f8rnskau showed; those conflicts do not disappear by hanging them under one manager, they merely become invisible. Second, the information regimes collide structurally: safety management and safety research strive for maximum openness, while security research may demand confidentiality, and merging means one of the two surrenders its learning mechanism. Third, as professional fields they developed differently, supported by separate scientific and technological fields, with different training, technology, working methods, regulatory frameworks and sometimes different contracts. Conclusion for the recommendation: the chapter offers no proven answer and establishes that organisations hesitate about this, so a defensible recommendation names the tensions and states explicitly which price one is willing to pay."
+        "antwoord": "For. First, hazards and threats are nowadays both understood as systemic risks in which local vulnerabilities connect to global processes such as digitalisation, so you analyse them best in combination. Second, in daily practice employees already have to take decisions without it being settled whether something is safety or security; the chapter explicitly mentions ordinary workers, managers, HSE professionals and security officers, so a separated structure does not fit the actual work. Third, the subtle mutual influences between the two are visible precisely in normal situations, and you only see them if someone looks at both at once. Against. First, safety and security practices can work against each other, as Pettersen and Bjørnskau showed; those conflicts do not disappear by hanging them under one manager, they merely become invisible. Second, the information regimes collide structurally: safety management and safety research strive for maximum openness, while security research may demand confidentiality, and merging means one of the two surrenders its learning mechanism. Third, as professional fields they developed differently, supported by separate scientific and technological fields, with different training, technology, working methods, regulatory frameworks and sometimes different contracts. Conclusion for the recommendation: the chapter offers no proven answer and establishes that organisations hesitate about this, so a defensible recommendation names the tensions and states explicitly which price one is willing to pay."
       },
       {
         "type": "oefening",
@@ -630,7 +612,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
               "A method for cost-benefit analysis"
             ],
             "juist": 1,
-            "uitleg": "Pi\u00e8tre-Cambac\u00e9d\u00e8s and Chaudet (2010) enrich the system-environment axis with a third direction, because the dichotomy does not capture everything."
+            "uitleg": "Piètre-Cambacédès and Chaudet (2010) enrich the system-environment axis with a third direction, because the dichotomy does not capture everything."
           },
           {
             "vraag": "What does the chapter say about the interaction between safety and security practices?",
@@ -641,7 +623,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
               "They have become identical in practice"
             ],
             "juist": 2,
-            "uitleg": "Pettersen and Bj\u00f8rnskau (2015) demonstrated this with field research. Note especially \"in normal situations\": the friction sits in daily work, not in the crisis."
+            "uitleg": "Pettersen and Bjørnskau (2015) demonstrated this with field research. Note especially \"in normal situations\": the friction sits in daily work, not in the crisis."
           },
           {
             "vraag": "Why do science and technology widen the difference at airports?",
@@ -677,7 +659,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
             "uitleg": "And hostile strategy adds possibilities to that, because vulnerabilities are treated as **strategic targets**."
           },
           {
-            "vraag": "What is the problem with extending EASA\u2019s scope to security?",
+            "vraag": "What is the problem with extending EASA’s scope to security?",
             "opties": [
               "EASA has no mandate",
               "There is barely any research saying how to handle that broader scope conceptually and practically",
@@ -738,16 +720,16 @@ LESSTOF["intro-to-safety-security/h1"] = [
         "titel": "Sources for chapter 1",
         "items": [
           {
-            "apa": "Pettersen Gould, K., & Bieder, C. (2020). Safety and security: The challenges of bringing them together. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 1\u20138). Springer."
+            "apa": "Pettersen Gould, K., & Bieder, C. (2020). Safety and security: The challenges of bringing them together. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 1–8). Springer."
           },
           {
             "apa": "Ale, B. (2009). Risk: An introduction. The concepts of risk, danger and chance. Routledge."
           },
           {
-            "apa": "Boholm, M., M\u00f6ller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320\u2013338."
+            "apa": "Boholm, M., Möller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320–338."
           },
           {
-            "apa": "Hale, A. (2019). From national to European frameworks for understanding the role of occupational health and safety specialists. Safety Science, 115, 435\u2013445."
+            "apa": "Hale, A. (2019). From national to European frameworks for understanding the role of occupational health and safety specialists. Safety Science, 115, 435–445."
           },
           {
             "apa": "LaPorte, T. R. (2006). Challenges of assuring high reliability when facing suicide terrorism. In P. Auerswald et al. (Eds.), Seeds of disasters. Cambridge University Press."
@@ -759,13 +741,13 @@ LESSTOF["intro-to-safety-security/h1"] = [
             "apa": "Perrow, C. (1984). Normal accidents: Living with high-risk technologies. Basic Books."
           },
           {
-            "apa": "Pettersen, K. A., & Bjornskau, T. (2015). Organizational contradictions between safety and security. Safety Science, 71, 167\u2013177."
+            "apa": "Pettersen, K. A., & Bjornskau, T. (2015). Organizational contradictions between safety and security. Safety Science, 71, 167–177."
           },
           {
-            "apa": "Pi\u00e8tre-Cambac\u00e9d\u00e8s, L., & Bouissou, M. (2013). Cross-fertilization between safety and security engineering. Reliability Engineering & System Safety, 110, 110\u2013126."
+            "apa": "Piètre-Cambacédès, L., & Bouissou, M. (2013). Cross-fertilization between safety and security engineering. Reliability Engineering & System Safety, 110, 110–126."
           },
           {
-            "apa": "Pi\u00e8tre-Cambac\u00e9d\u00e8s, L., & Chaudet, C. (2010). The SEMA referential framework. International Journal of Critical Infrastructure Protection, 3, 55\u201366."
+            "apa": "Piètre-Cambacédès, L., & Chaudet, C. (2010). The SEMA referential framework. International Journal of Critical Infrastructure Protection, 3, 55–66."
           },
           {
             "apa": "Short, J. F. (1992). Organizations, uncertainties, and risk. Westview Press."
@@ -777,7 +759,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
             "apa": "Turner, B. A. (1978). Man-made disasters. Wykeham Press."
           },
           {
-            "apa": "Young, W., & Leveson, N. (2014). An integrated approach to safety and security based on systems theory. Communications of the ACM, 57(2), 31\u201335."
+            "apa": "Young, W., & Leveson, N. (2014). An integrated approach to safety and security based on systems theory. Communications of the ACM, 57(2), 31–35."
           }
         ]
       },
@@ -797,7 +779,6 @@ LESSTOF["intro-to-safety-security/h1"] = [
     ]
   }
 ];
-
 LESSTOF["intro-to-safety-security/h2"] = [
   {
     "id": "voor",
@@ -808,7 +789,7 @@ LESSTOF["intro-to-safety-security/h2"] = [
         "items": [
           "Explain why standardised definitions are necessary for safety and security science",
           "Reproduce the ISO definition of risk word for word and apply it",
-          "Explain Blokland and Reniers\u2019 definition of \"objectives\" and use it as a starting point",
+          "Explain Blokland and Reniers’ definition of \"objectives\" and use it as a starting point",
           "Name the three elements that must be present for risk to exist",
           "Explain the fundamental difference between risk and safety",
           "Name the three levels at which safety and security differ: effect, objectives and uncertainty",
@@ -819,12 +800,12 @@ LESSTOF["intro-to-safety-security/h2"] = [
       {
         "type": "uitleg",
         "titel": "What this chapter is about",
-        "tekst": "This chapter is written by **Peter J. Blokland** and **Genserik L. Reniers** of the Safety and Security Science Group (S3G) at TU Delft. Reniers also works in Brussels and Antwerp.\n\nEveryone has an intuitive understanding of risk, safety and security, and to a degree that understanding is universal. But as soon as you try to get to the bottom of what those words mean, you end up in a **semantic debate** and in **ontological discussions**.\n\nThe authors\u2019 aim: break that deadlock by proposing a common semantic and ontological ground, with the concept of **\"objectives\"** as the central starting point."
+        "tekst": "This chapter is written by **Peter J. Blokland** and **Genserik L. Reniers** of the Safety and Security Science Group (S3G) at TU Delft. Reniers also works in Brussels and Antwerp.\n\nEveryone has an intuitive understanding of risk, safety and security, and to a degree that understanding is universal. But as soon as you try to get to the bottom of what those words mean, you end up in a **semantic debate** and in **ontological discussions**.\n\nThe authors’ aim: break that deadlock by proposing a common semantic and ontological ground, with the concept of **\"objectives\"** as the central starting point."
       },
       {
         "type": "slimmer",
         "titel": "How to keep this chapter straight",
-        "tekst": "This chapter stacks definitions on top of each other. Miss one link and the rest collapses. So while you read, write this chain on a single sheet:\n\nobjectives \u2192 risk (ISO) \u2192 safety \u2192 security \u2192 unsecurity\n\nAnd note at each step: **which word is added?** At security, \"intentional\" is added. At unsecurity, \"alignment is low\" and \"likelihood is high\" are added. That way you remember it without cramming."
+        "tekst": "This chapter stacks definitions on top of each other. Miss one link and the rest collapses. So while you read, write this chain on a single sheet:\n\nobjectives → risk (ISO) → safety → security → unsecurity\n\nAnd note at each step: **which word is added?** At security, \"intentional\" is added. At unsecurity, \"alignment is low\" and \"likelihood is high\" are added. That way you remember it without cramming."
       },
       {
         "type": "waarschuwing",
@@ -834,36 +815,37 @@ LESSTOF["intro-to-safety-security/h2"] = [
     ]
   },
   {
-    "id": "kern",
-    "titel": "Core material",
+    "id": "kern2",
+    "titel": "Core material: chapter 2",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "2.1 Introduction \u2014 two persistent misconceptions",
+        "titel": "2.1 Introduction — two persistent misconceptions",
         "toetsstof": true,
         "tekst": "The chapter starts with two views the authors regard as untenable.\n\n**Misconception 1: risk and safety are opposites.** This is often asserted, but understanding is growing that it is only **partly** true and does not fit the more modern, more comprehensive views of risk and safety (see the work of Aven).\n\n**Misconception 2: safety and security are entirely separate fields.** That is how they are often seen: separate areas of expertise, studied apart from each other. Other views emphasise the **similarities** and even treat the two as synonyms (Boholm et al., 2016).\n\nThe questions of the chapter are then: how do these concepts relate to each other, and how does a contemporary and inclusive view of them help in understanding and tackling the issues involved?"
       },
       {
         "type": "tekst",
-        "titel": "2.2 The concepts \u2014 from specialist to holistic",
+        "titel": "2.2 The concepts — from specialist to holistic",
         "toetsstof": true,
         "tekst": "Views of and awareness about safety, security and risk have evolved in recent years: from a **narrow, specialist perspective** towards a more **holistic** picture and approach.\n\nBut, and this is the heart of the complaint, that understanding is **not necessarily shared**. Everyone grasps what the words mean, in their own experience. As soon as you open a discussion about what these concepts really are and how they should be studied or addressed, you most probably end up in ontological and semantic debates, because of the diverging views, perceptions and definitions that exist side by side."
       },
       {
         "type": "tekst",
-        "titel": "2.2.1 Why standardisation matters",
         "toetsstof": true,
-        "tekst": "Science, including the domain of risk and safety, depends heavily on clear and shared definitions of concepts and on well-defined parameters. Precise definitions deliver three things:\n\n1. **standardisation**,\n2. **better communication**,\n3. **unambiguous sharing of knowledge**.\n\nThe authors use a telling comparison from Brazma (2001): our ability to combine information from independent experiments depends on standards, just as **manufacturing standards** are needed to make components from different manufacturers fit together."
+        "tekst": "**2.2.1 Why standardisation matters**\n\nScience, including the domain of risk and safety, depends heavily on clear and shared definitions of concepts and on well-defined parameters. Precise definitions deliver three things:\n\n1. **standardisation**,\n2. **better communication**,\n3. **unambiguous sharing of knowledge**.\n\nThe authors use a telling comparison from Brazma (2001): our ability to combine information from independent experiments depends on standards, just as **manufacturing standards** are needed to make components from different manufacturers fit together."
       },
       {
         "type": "tekst",
-        "titel": "2.2.2 Synonyms and antonyms \u2014 the gap in the vocabulary",
         "toetsstof": true,
-        "tekst": "Anyone searching safety and security science for unambiguous definitions and parameters that clearly connect safety, security and risk will be disappointed. The safety science literature shows that the question \"what is safety\" can be answered in **many ways**, and that a clear definition of the **opposite** is almost impossible to find.\n\nThe conclusion is twofold:\n- there is **no** widely accepted semantic basis in safety and security science;\n- there is **equally** no standardisation for naming the antonyms, the words that denote a lack of safety or security.\n\nA perfect word for the absence of safety would be **\"unsafety\"**, but it is barely used in scientific literature."
+        "tekst": "**2.2.2 Synonyms and antonyms — the gap in the vocabulary**\n\nAnyone searching safety and security science for unambiguous definitions and parameters that clearly connect safety, security and risk will be disappointed. The safety science literature shows that the question \"what is safety\" can be answered in **many ways**, and that a clear definition of the **opposite** is almost impossible to find.\n\nThe conclusion is twofold:\n- there is **no** widely accepted semantic basis in safety and security science;\n- there is **equally** no standardisation for naming the antonyms, the words that denote a lack of safety or security.\n\nA perfect word for the absence of safety would be **\"unsafety\"**, but it is barely used in scientific literature."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**Table 2.1 — Google Scholar hits, 27 March 2018**"
       },
       {
         "type": "tabel",
-        "titel": "Table 2.1 \u2014 Google Scholar hits, 27 March 2018",
         "kop": [
           "Concept",
           "Hits",
@@ -920,25 +902,23 @@ LESSTOF["intro-to-safety-security/h2"] = [
             "5,810,000"
           ]
         ],
-        "noot": "You do not need the numbers by heart, but you do need the ratio: \"safety\" scores 3.45 million, \"unsafety\" 8,800. That gap of roughly a factor of 400 is the authors\u2019 whole argument."
+        "noot": "You do not need the numbers by heart, but you do need the ratio: \"safety\" scores 3.45 million, \"unsafety\" 8,800. That gap of roughly a factor of 400 is the authors’ whole argument."
       },
       {
         "type": "tekst",
-        "titel": "Why not \"insecurity\"?",
         "toetsstof": true,
-        "tekst": "Finding a common word that covers the antonym of security is even harder. The problem lies in the meaning of the common word: the Oxford Living Dictionary defines **insecurity** as \"uncertainty or anxiety about oneself\" and \"a lack of confidence\".\n\nThe authors ask the rhetorical question whether that is what people mean when they talk about security issues in safety and security science today. Their answer: no, and that is why it is sensible to use the word **\"unsecurity\"**, as a deliberate term for the absence of security."
+        "tekst": "**Why not \"insecurity\"?**\n\nFinding a common word that covers the antonym of security is even harder. The problem lies in the meaning of the common word: the Oxford Living Dictionary defines **insecurity** as \"uncertainty or anxiety about oneself\" and \"a lack of confidence\".\n\nThe authors ask the rhetorical question whether that is what people mean when they talk about security issues in safety and security science today. Their answer: no, and that is why it is sensible to use the word **\"unsecurity\"**, as a deliberate term for the absence of security."
       },
       {
         "type": "tekst",
-        "titel": "2.3.1 Standard definitions \u2014 the ISO anchor",
+        "titel": "2.3 Standard definitions, risk and objectives",
         "toetsstof": true,
         "tekst": "Standard definitions for safety and security are missing. For **risk** it is different. There are many views and definitions of risk, but there **is** a comprehensive, standardised definition. The **International Organization for Standardization (ISO)** defines risk as:\n\nthe effect of uncertainty on objectives.\n\n*(ISO 31000.)*\n\nBy taking that definition as a reference you can define safety, security **and** their antonyms in a comparable, unambiguous and comprehensive way. That is precisely what this chapter does. **Safety** in the broadest sense then becomes:\n\nSafety is the condition, or the set of circumstances, in which the likelihood of negative effects on objectives is low."
       },
       {
         "type": "tekst",
-        "titel": "Safety-I and Safety-II: from loss to performance",
         "toetsstof": true,
-        "tekst": "Risk and safety, where safety is taken broadly here to include security, are closely related, and understanding of both concepts has evolved in a **comparable way**: from a pure loss perspective to a more comprehensive picture that takes in both negative effects (loss) and positive effects (gain).\n\nWithin safety science too, awareness is growing that the domain is not only about protection against loss (**Safety-I**), but also about the condition of **excellent performance** in achieving and safeguarding objectives (**Safety-II**). That distinction comes from Hollnagel (2014).\n\nThe core of the authors\u2019 complaint: nowadays risk, safety and security are linked to what you actually **want** and how you get it. But the most obvious part of that, **the objectives**, is often forgotten in definitions. While the concept of \"objective\" is perhaps the single most important element for understanding risk, safety and security."
+        "tekst": "**Safety-I and Safety-II: from loss to performance**\n\nRisk and safety, where safety is taken broadly here to include security, are closely related, and understanding of both concepts has evolved in a **comparable way**: from a pure loss perspective to a more comprehensive picture that takes in both negative effects (loss) and positive effects (gain).\n\nWithin safety science too, awareness is growing that the domain is not only about protection against loss (**Safety-I**), but also about the condition of **excellent performance** in achieving and safeguarding objectives (**Safety-II**). That distinction comes from Hollnagel (2014).\n\nThe core of the authors’ complaint: nowadays risk, safety and security are linked to what you actually **want** and how you get it. But the most obvious part of that, **the objectives**, is often forgotten in definitions. While the concept of \"objective\" is perhaps the single most important element for understanding risk, safety and security."
       },
       {
         "type": "citaat",
@@ -948,19 +928,20 @@ LESSTOF["intro-to-safety-security/h2"] = [
       },
       {
         "type": "tekst",
-        "titel": "2.3.2 Why that definition is so broad",
         "toetsstof": true,
-        "tekst": "Notice everything the definition of \"objectives\" pulls in. That is not sloppiness, that is the point.\n\n- **tangible and intangible** (money and buildings, but also reputation and trust)\n- the **individual, organisational and societal** level\n- objectives **still to be achieved** and conditions **already achieved** that you want to maintain\n- **consciously and explicitly** formulated and **unconsciously and tacitly** present\n\nThat last one is the most underestimated part. Your physical integrity is an objective you never wrote down, but you have it. That is exactly why risk can exist without anyone ever having formulated a goal."
+        "tekst": "**2.3.2 Why that definition is so broad**\n\nNotice everything the definition of \"objectives\" pulls in. That is not sloppiness, that is the point.\n\n- **tangible and intangible** (money and buildings, but also reputation and trust)\n- the **individual, organisational and societal** level\n- objectives **still to be achieved** and conditions **already achieved** that you want to maintain\n- **consciously and explicitly** formulated and **unconsciously and tacitly** present\n\nThat last one is the most underestimated part. Your physical integrity is an objective you never wrote down, but you have it. That is exactly why risk can exist without anyone ever having formulated a goal."
       },
       {
         "type": "tekst",
-        "titel": "2.3.3 Connecting risk and safety \u2014 the three elements",
         "toetsstof": true,
-        "tekst": "On the basis of the ISO definition the connection looks like this. For risk to **exist**, all three of these elements must be present:\n\n1. **objectives**\n2. **effects** that can touch those objectives\n3. **uncertainty** connected to these elements\n\nSafety, including security, mainly concerns the **objectives** and the **effects** that can touch those objectives.\n\nUnderstanding risk **and** safety therefore requires four things at once: understanding which objectives matter, which effects can touch those objectives, how **likely** those effects are, and how **large the impact** of those effects with their likelihood is. For safety it holds that the likelihood is **low**."
+        "tekst": "**2.3.3 Connecting risk and safety — the three elements**\n\nOn the basis of the ISO definition the connection looks like this. For risk to **exist**, all three of these elements must be present:\n\n1. **objectives**\n2. **effects** that can touch those objectives\n3. **uncertainty** connected to these elements\n\nSafety, including security, mainly concerns the **objectives** and the **effects** that can touch those objectives.\n\nUnderstanding risk **and** safety therefore requires four things at once: understanding which objectives matter, which effects can touch those objectives, how **likely** those effects are, and how **large the impact** of those effects with their likelihood is. For safety it holds that the likelihood is **low**."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**2.3.4 The only fundamental difference between risk and safety**"
       },
       {
         "type": "vergelijking",
-        "titel": "2.3.4 The only fundamental difference between risk and safety",
         "links": {
           "titel": "Risk",
           "tekst": "Concerns an **uncertain future state**.",
@@ -982,60 +963,55 @@ LESSTOF["intro-to-safety-security/h2"] = [
       },
       {
         "type": "tekst",
-        "titel": "Positive and negative effects",
         "toetsstof": true,
-        "tekst": "For the effects there is a simple but important rule:\n\n- If the effects are **positive**, they **increase** safety, because they support the objectives involved.\n- If the effects are **negative**, they **decrease** safety, in other words they increase **unsafety**, because they detract from the objectives involved.\n\nNotice how this follows directly from the choice of definition. Because safety is defined through effects on objectives, safety can add up and subtract. That is impossible in a definition that treats safety as the absence of accidents."
+        "tekst": "**Positive and negative effects**\n\nFor the effects there is a simple but important rule:\n\n- If the effects are **positive**, they **increase** safety, because they support the objectives involved.\n- If the effects are **negative**, they **decrease** safety, in other words they increase **unsafety**, because they detract from the objectives involved.\n\nNotice how this follows directly from the choice of definition. Because safety is defined through effects on objectives, safety can add up and subtract. That is impossible in a definition that treats safety as the absence of accidents."
       },
       {
         "type": "tekst",
-        "titel": "2.3.5 Quality of perception",
         "toetsstof": true,
-        "tekst": "Apart from the actual conditions and possible future outcomes, risk, safety and security will **always differ from person to person**, because of differences in objectives and in the values attached to them.\n\nThat is why the authors state: risk, safety and security are **constructs in people\u2019s minds**. Everyone has different objectives, or values the same objectives differently, and that produces different perceptions of the same reality.\n\nMoreover, every person has their own unique perception of reality, because reality always requires **interpretation** and can only be perceived. So there always remains a residual level of uncertainty and a residual lack of understanding, different for each person.\n\nThe consequence for the field: safety science should strive for the **highest possible quality of perception**, in which the deviation between reality as it is and the perception of it is as small as possible."
+        "tekst": "**2.3.5 Quality of perception**\n\nApart from the actual conditions and possible future outcomes, risk, safety and security will **always differ from person to person**, because of differences in objectives and in the values attached to them.\n\nThat is why the authors state: risk, safety and security are **constructs in people’s minds**. Everyone has different objectives, or values the same objectives differently, and that produces different perceptions of the same reality.\n\nMoreover, every person has their own unique perception of reality, because reality always requires **interpretation** and can only be perceived. So there always remains a residual level of uncertainty and a residual lack of understanding, different for each person.\n\nThe consequence for the field: safety science should strive for the **highest possible quality of perception**, in which the deviation between reality as it is and the perception of it is as small as possible."
       },
       {
         "type": "tekst",
-        "titel": "2.3.6 Constraints",
         "toetsstof": true,
-        "tekst": "Pursuing or safeguarding objectives always comes with effects of uncertainty, originating from all kinds of **risk sources**.\n\nAnyone managing risk while pursuing safety and security must therefore **identify** the risk sources and the associated risks. Pursuing and safeguarding objectives requires that certain risk levels are **not exceeded**. Those limits are called **constraints**, and you have to include them in risk management and respect them as soon as safety is at stake.\n\nRemember this word: **constraint** returns in chapter 3 with Leveson as the core of the entire STAMP model, only worked out technically there."
+        "tekst": "**2.3.6 Constraints**\n\nPursuing or safeguarding objectives always comes with effects of uncertainty, originating from all kinds of **risk sources**.\n\nAnyone managing risk while pursuing safety and security must therefore **identify** the risk sources and the associated risks. Pursuing and safeguarding objectives requires that certain risk levels are **not exceeded**. Those limits are called **constraints**, and you have to include them in risk management and respect them as soon as safety is at stake.\n\nRemember this word: **constraint** returns in chapter 3 with Leveson as the core of the entire STAMP model, only worked out technically there."
       },
       {
         "type": "tekst",
-        "titel": "2.4.1 Distinction at the level of \"effect\"",
+        "titel": "2.4 The three levels of distinction",
         "toetsstof": true,
         "tekst": "Now the question the chapter has to answer: what makes security the same as safety, and what sets them apart? The authors distinguish **three levels**. This is the first.\n\nFirst a distinction you need. Risk professionals mainly try to determine the **level of risk** once risks have been identified. But assessing the **nature of the risk** is an important additional element:\n\n- **Level of risk**: the level of impact of the effects on objectives, positive and negative, combined with the associated level of uncertainty. Usually expressed as a combination of likelihoods and consequences.\n- **Nature of risk**: relates more to the **sources** of the risk and to how risks arise and develop.\n\nIn **ISO Guide 73** a risk source is defined as an element which alone or in combination has the potential to give rise to risk. And it is precisely in understanding possible risk sources that the difference between safety and security lies."
       },
       {
         "type": "tekst",
-        "titel": "Security as a subset of safety",
         "toetsstof": true,
-        "tekst": "Building on ISO 31000 and ISO Guide 73, safety can be seen as \"a condition or set of circumstances in which the likelihood of negative effects of uncertainty on objectives is low\".\n\nIf you take safety that generally, then security is no more than a **subset of safety**. After all: if the likelihood of negative effects of uncertainty on objectives is low, that also means a secure condition exists.\n\nThe first and most obvious distinction arises at the level of the **effects**: these can be **intentional** or **unintentional (accidental)**.\n\n- If the negative effects on objectives are **intentional**, it is appropriate and correct to use the term **security** instead of safety.\n- It is therefore also **incorrect** to use the term security when the effects involved are unintentional.\n\nTerrorists deliberately want to cause damage and suffering: they intentionally increase the likelihood of negative effects on the objectives of the groups or parts of society they want to terrorise. Criminals deliberately act against laws that protect societal, organisational or individual objectives.\n\nThat brings the authors to:\n\n**Security is the condition or set of circumstances in which the likelihood of intentional negative effects on objectives is low.**"
+        "tekst": "**Security as a subset of safety**\n\nBuilding on ISO 31000 and ISO Guide 73, safety can be seen as \"a condition or set of circumstances in which the likelihood of negative effects of uncertainty on objectives is low\".\n\nIf you take safety that generally, then security is no more than a **subset of safety**. After all: if the likelihood of negative effects of uncertainty on objectives is low, that also means a secure condition exists.\n\nThe first and most obvious distinction arises at the level of the **effects**: these can be **intentional** or **unintentional (accidental)**.\n\n- If the negative effects on objectives are **intentional**, it is appropriate and correct to use the term **security** instead of safety.\n- It is therefore also **incorrect** to use the term security when the effects involved are unintentional.\n\nTerrorists deliberately want to cause damage and suffering: they intentionally increase the likelihood of negative effects on the objectives of the groups or parts of society they want to terrorise. Criminals deliberately act against laws that protect societal, organisational or individual objectives.\n\nThat brings the authors to:\n\n**Security is the condition or set of circumstances in which the likelihood of intentional negative effects on objectives is low.**"
       },
       {
         "type": "tekst",
-        "titel": "2.4.2 Distinction at the level of \"objectives\"",
         "toetsstof": true,
-        "tekst": "The second and more fundamental distinction lies in the objectives involved.\n\nA typical feature of a security situation is the involvement of **multiple parties**, at least two. That brings different perceptions into play, and therefore different objectives. One party tries to achieve, maintain and protect a set of objectives; one or more opposing parties take a different view and may deliberately try to affect those objectives **negatively**.\n\nFrom that perspective: security issues are situations or circumstances in which **different, non-aligned objectives** of stakeholders collide."
+        "tekst": "**2.4.2 Distinction at the level of \"objectives\"**\n\nThe second and more fundamental distinction lies in the objectives involved.\n\nA typical feature of a security situation is the involvement of **multiple parties**, at least two. That brings different perceptions into play, and therefore different objectives. One party tries to achieve, maintain and protect a set of objectives; one or more opposing parties take a different view and may deliberately try to affect those objectives **negatively**.\n\nFrom that perspective: security issues are situations or circumstances in which **different, non-aligned objectives** of stakeholders collide."
       },
       {
         "type": "voorbeeld",
-        "titel": "Objectives as vectors: the 90-degree criterion",
-        "tekst": "Think of objectives as **vectors**: arrows pointing in a particular direction. Then you can determine (non-)alignment **geometrically**.\n\nSuppose fully aligned objectives have a deviation of **0 degrees**. As soon as the deviation becomes **more than 90 degrees**, it is clear the objectives are **conflicting**: achieving one party\u2019s goal then causes negative effects on the other party\u2019s objectives.\n\nThe management conclusion the authors draw: in security management it is **crucial to discover the presence of different, opposing objectives**. Detecting that is the actual security task."
+        "tekst": "**Objectives as vectors: the 90-degree criterion**\n\nThink of objectives as **vectors**: arrows pointing in a particular direction. Then you can determine (non-)alignment **geometrically**.\n\nSuppose fully aligned objectives have a deviation of **0 degrees**. As soon as the deviation becomes **more than 90 degrees**, it is clear the objectives are **conflicting**: achieving one party’s goal then causes negative effects on the other party’s objectives.\n\nThe management conclusion the authors draw: in security management it is **crucial to discover the presence of different, opposing objectives**. Detecting that is the actual security task."
       },
       {
         "type": "tekst",
-        "titel": "The definition of unsecurity",
         "toetsstof": true,
-        "tekst": "Building on the definition of security from 2.4.1 and on the alignment perspective from 2.4.2, the authors arrive at a definition of the antonym:\n\n**Unsecurity is the condition or set of circumstances in which the alignment of objectives is low and in which the likelihood of intentional negative effects on objectives is high.**\n\nNote that it contains **two conditions**: low alignment **and** high likelihood. Terrorism, the authors say, is a very clear illustration of non-alignment, because many terrorist objectives are exactly opposed to the societal, organisational and individual objectives they turn against."
+        "tekst": "**The definition of unsecurity**\n\nBuilding on the definition of security from 2.4.1 and on the alignment perspective from 2.4.2, the authors arrive at a definition of the antonym:\n\n**Unsecurity is the condition or set of circumstances in which the alignment of objectives is low and in which the likelihood of intentional negative effects on objectives is high.**\n\nNote that it contains **two conditions**: low alignment **and** high likelihood. Terrorism, the authors say, is a very clear illustration of non-alignment, because many terrorist objectives are exactly opposed to the societal, organisational and individual objectives they turn against."
       },
       {
         "type": "tekst",
-        "titel": "2.4.3 Distinction at the level of \"uncertainty\"",
         "toetsstof": true,
-        "tekst": "The third distinction concerns uncertainty, and it has direct methodological consequences.\n\n**With safety, statistics work.** Safety science and safety management often lean on **statistical data** to develop theories and build measures. That is possible because the nature of unintentional effects means the **same events repeat** in other situations and circumstances. Moreover, every individual can be included for objectives that are strongly aligned, such as preserving your physical integrity. That yields an enormous amount of data on which to build theories and measures with statistical instruments.\n\n**With security, statistics work poorly.** In security issues the intentional nature and the non-alignment of objectives lead to **repeated attempts to devise new tactics and techniques** for achieving those non-aligned objectives. That makes it far harder to rely on statistical data when determining specific uncertainties.\n\nThe conclusion is methodological: **other instruments** can and must be used to determine levels of risk and of safety or security, such as **game-theoretical models**. That is precisely what Wipf does in chapter 4."
+        "tekst": "**2.4.3 Distinction at the level of \"uncertainty\"**\n\nThe third distinction concerns uncertainty, and it has direct methodological consequences.\n\n**With safety, statistics work.** Safety science and safety management often lean on **statistical data** to develop theories and build measures. That is possible because the nature of unintentional effects means the **same events repeat** in other situations and circumstances. Moreover, every individual can be included for objectives that are strongly aligned, such as preserving your physical integrity. That yields an enormous amount of data on which to build theories and measures with statistical instruments.\n\n**With security, statistics work poorly.** In security issues the intentional nature and the non-alignment of objectives lead to **repeated attempts to devise new tactics and techniques** for achieving those non-aligned objectives. That makes it far harder to rely on statistical data when determining specific uncertainties.\n\nThe conclusion is methodological: **other instruments** can and must be used to determine levels of risk and of safety or security, such as **game-theoretical models**. That is precisely what Wipf does in chapter 4."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**The chapter’s whole argument in four steps**"
       },
       {
         "type": "stappen",
-        "titel": "The chapter\u2019s whole argument in four steps",
         "items": [
           {
             "titel": "Risk arises as soon as there are objectives",
@@ -1051,13 +1027,16 @@ LESSTOF["intro-to-safety-security/h2"] = [
           },
           {
             "titel": "Intentionality also changes the nature of the uncertainty",
-            "tekst": "Safety becomes security when conflicting objectives between parties arise, because the conflict makes the negative effects intentional, and that intentionality also changes the nature of the uncertainty. That is the chapter\u2019s closing argument."
+            "tekst": "Safety becomes security when conflicting objectives between parties arise, because the conflict makes the negative effects intentional, and that intentionality also changes the nature of the uncertainty. That is the chapter’s closing argument."
           }
         ]
       },
       {
+        "type": "tekst",
+        "tekst": "**The three levels of distinction summarised**"
+      },
+      {
         "type": "tabel",
-        "titel": "The three levels of distinction summarised",
         "kop": [
           "Level",
           "With safety",
@@ -1087,8 +1066,11 @@ LESSTOF["intro-to-safety-security/h2"] = [
         "noot": "These three rows are the skeleton of section 2.4 and the most likely exam topic from this chapter."
       },
       {
+        "type": "tekst",
+        "tekst": "**Key concepts from chapter 2**"
+      },
+      {
         "type": "begrippen",
-        "titel": "Key concepts from chapter 2",
         "items": [
           {
             "begrip": "Risk (ISO 31000)",
@@ -1140,18 +1122,17 @@ LESSTOF["intro-to-safety-security/h2"] = [
           },
           {
             "begrip": "Safety-I and Safety-II",
-            "definitie": "Hollnagel\u2019s distinction: protection against loss versus the condition of performing excellently in achieving objectives."
+            "definitie": "Hollnagel’s distinction: protection against loss versus the condition of performing excellently in achieving objectives."
           }
         ]
       },
       {
         "type": "waarschuwing",
-        "titel": "Watch out for these three traps",
-        "tekst": "**1. Risk is not the opposite of safety.** That is at best partly true. The real difference: risk concerns an uncertain future state, safety concerns actual, certain conditions.\n\n**2. \"Intentional\" refers to the effect, not to the event.** The definition says: intentional negative **effects on objectives**. Someone doing something deliberately without it touching your objectives does not produce a security issue.\n\n**3. Unsecurity is not simply \"no security\".** It contains two conditions: low alignment **and** a high likelihood of intentional negative effects. Leave one out and your definition is wrong."
+        "tekst": "**Watch out for these three traps**\n\n**1. Risk is not the opposite of safety.** That is at best partly true. The real difference: risk concerns an uncertain future state, safety concerns actual, certain conditions.\n\n**2. \"Intentional\" refers to the effect, not to the event.** The definition says: intentional negative **effects on objectives**. Someone doing something deliberately without it touching your objectives does not produce a security issue.\n\n**3. Unsecurity is not simply \"no security\".** It contains two conditions: low alignment **and** a high likelihood of intentional negative effects. Leave one out and your definition is wrong."
       },
       {
         "type": "tekst",
-        "titel": "2.5 The chapter\u2019s conclusion",
+        "titel": "2.5 The chapter’s conclusion",
         "toetsstof": true,
         "tekst": "The authors summarise briefly what they have done: they described the concepts of risk, safety and security, set out their similarities and differences, and then proposed a **semantic and ontological foundation** for safety and security science. In doing so they introduced a definition of **objectives** as the central starting point for the study and management of risk, safety and security."
       }
@@ -1163,7 +1144,7 @@ LESSTOF["intro-to-safety-security/h2"] = [
     "blokken": [
       {
         "type": "stappen",
-        "titel": "Dissecting a case with Blokland and Reniers\u2019 model",
+        "titel": "Dissecting a case with Blokland and Reniers’ model",
         "items": [
           {
             "titel": "Name the objectives, including the tacit ones",
@@ -1209,8 +1190,8 @@ LESSTOF["intro-to-safety-security/h2"] = [
         "type": "oefening",
         "id": "h2-oef-3",
         "niveau": "gevorderd",
-        "vraag": "The authors state that risk, safety and security are constructs in people\u2019s minds. Does that claim clash with their pursuit of standardisation? Argue your answer.",
-        "antwoord": "At first sight it does: if these concepts differ per person because people have different objectives and value the same objectives differently, why would you standardise them? The authors\u2019 answer is that two different things are being standardised. What differs per person is the content: which objectives matter and how heavily they weigh. What has to be standardised is the conceptual framework with which you describe and compare that content. In fact, precisely because the content is subjective, a shared framework is needed, otherwise you cannot put perceptions side by side. That fits their notion of quality of perception: the aim is to make the deviation between reality and the perception of it as small as possible, and that is only achievable if you can express several people\u2019s perceptions in the same language."
+        "vraag": "The authors state that risk, safety and security are constructs in people’s minds. Does that claim clash with their pursuit of standardisation? Argue your answer.",
+        "antwoord": "At first sight it does: if these concepts differ per person because people have different objectives and value the same objectives differently, why would you standardise them? The authors’ answer is that two different things are being standardised. What differs per person is the content: which objectives matter and how heavily they weigh. What has to be standardised is the conceptual framework with which you describe and compare that content. In fact, precisely because the content is subjective, a shared framework is needed, otherwise you cannot put perceptions side by side. That fits their notion of quality of perception: the aim is to make the deviation between reality and the perception of it as small as possible, and that is only achievable if you can express several people’s perceptions in the same language."
       },
       {
         "type": "oefening",
@@ -1282,7 +1263,7 @@ LESSTOF["intro-to-safety-security/h2"] = [
               "Exactly 180 degrees"
             ],
             "juist": 2,
-            "uitleg": "Above 90 degrees, achieving one party\u2019s goal causes negative effects on the other party\u2019s objectives."
+            "uitleg": "Above 90 degrees, achieving one party’s goal causes negative effects on the other party’s objectives."
           },
           {
             "vraag": "Why do statistics work poorly for security issues?",
@@ -1335,19 +1316,19 @@ LESSTOF["intro-to-safety-security/h2"] = [
         "titel": "Sources for chapter 2",
         "items": [
           {
-            "apa": "Blokland, P. J., & Reniers, G. L. (2020). The concepts of risk, safety, and security: A fundamental exploration and understanding of similarities and differences. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 9\u201316). Springer."
+            "apa": "Blokland, P. J., & Reniers, G. L. (2020). The concepts of risk, safety, and security: A fundamental exploration and understanding of similarities and differences. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security (pp. 9–16). Springer."
           },
           {
-            "apa": "Aven, T. (2014). What is safety science? Safety Science, 67, 15\u201320."
+            "apa": "Aven, T. (2014). What is safety science? Safety Science, 67, 15–20."
           },
           {
             "apa": "Blokland, P., & Reniers, G. (2017). Safety and performance: Total respect management (TR3M). Nova Science Publishers."
           },
           {
-            "apa": "Boholm, M., M\u00f6ller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320\u2013338."
+            "apa": "Boholm, M., Möller, N., & Hansson, S. O. (2016). The concepts of risk, safety, and security: Applications in everyday language. Risk Analysis, 36(2), 320–338."
           },
           {
-            "apa": "Brazma, A. (2001). On the importance of standardisation in life sciences. Bioinformatics, 17(2), 113\u2013114."
+            "apa": "Brazma, A. (2001). On the importance of standardisation in life sciences. Bioinformatics, 17(2), 113–114."
           },
           {
             "apa": "Hollnagel, E. (2014). Safety-I and Safety-II: The past and future of safety management. Ashgate."
@@ -1375,7 +1356,6 @@ LESSTOF["intro-to-safety-security/h2"] = [
     ]
   }
 ];
-
 LESSTOF["intro-to-safety-security/h3"] = [
   {
     "id": "voor",

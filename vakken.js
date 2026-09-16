@@ -59,8 +59,8 @@
     'intro-to-safety-security': {
       groep: 'Overige hoofdstukken',
       delen: {
-        h1:  'H1 Safety en security samenbrengen',
-        h2:  'H2 Risico, safety en security als concept',
+        h1:  'H1 Bringing safety and security together',
+        h2:  'H2 Risk, safety and security as concepts',
         h3:  'H3 Twee kanten van dezelfde medaille',
         h4:  'H4 Safety versus security in de luchtvaart',
         h5:  'H5 Security- en safetycultuur',
@@ -130,12 +130,25 @@
       bron.forEach(function(tab){
         var doel = tabs.filter(function(t){ return t.id === tab.id; })[0];
         if (!doel) { doel = { id: tab.id, titel: tab.titel, blokken: [] }; tabs.push(doel); }
-        if (ids.length > 1 && namen[id]) {
+        /* Alleen een scheidingskopje als dit tabblad al inhoud van een ander
+           hoofdstuk heeft. Tabbladen die maar van een hoofdstuk zijn, zoals
+           'Core material: chapter 2', hebben die kop niet nodig. */
+        if (ids.length > 1 && namen[id] && doel.blokken.length) {
           doel.blokken.push({ type: 'tekst', titel: namen[id], tekst: '' });
         }
         doel.blokken = doel.blokken.concat(tab.blokken || []);
       });
     });
+    /* Vaste volgorde, zodat 'Core material: chapter 2' naast hoofdstuk 1
+       staat en niet achteraan belandt. Onbekende tabbladen blijven achteraan. */
+    var VOLGORDE = ['voor', 'kern', 'kern2', 'kern3', 'kern4', 'toepassen', 'checken', 'kaarten'];
+    tabs.sort(function(a, b){
+      var ia = VOLGORDE.indexOf(a.id), ib = VOLGORDE.indexOf(b.id);
+      if (ia < 0) ia = 99;
+      if (ib < 0) ib = 99;
+      return ia - ib;
+    });
+
     return tabs.length ? tabs : null;
   }
 
