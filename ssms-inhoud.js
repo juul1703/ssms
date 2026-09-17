@@ -4259,8 +4259,8 @@ var VAK_MANUAL = {
 
   'intro-to-safety-security': {
     // Zet de pdf in de map 'manuals' naast je andere bestanden en pas de naam hier aan.
-    pdf: 'manuals/Y1_Semester_1_Manual_SSMS_20262027.pdf',
-    pdfNaam: 'Module manual Y1 Semester 1 (2026-2027)',
+    pdf: 'manuals/Y1_manual_intro_ssms.pdf',
+    pdfNaam: 'Module manual \u00b7 Intro to Safety & Security (2.1)',
     studiegids: 'intro',
     intro: 'Funderingsvak dat de domeinen van safety en security introduceert, plus de stakeholderbenaderingen van de SSMS-professional.',
     regels: [
@@ -4300,7 +4300,7 @@ var VAK_MANUAL = {
   },
 
   'demystifying-research-methods': {
-    pdf: 'manuals/2026-2027_DRM_course_manual.pdf',
+    pdf: 'manuals/Y1_manual_drm.pdf',
     pdfNaam: 'Demystifying Research Methods course manual (2026-2027)',
     studiegids: 'drm',
     intro: 'Eerste vak van de Research Methods-track. Je leert een eigen applied research design opzetten, met probleem, doelstelling, hoofdvraag en twee deelvragen, en je leert bestaand onderzoek beoordelen.',
@@ -4570,7 +4570,7 @@ LESSTOF['professional-skills/opdrachten'] = [
   if (typeof VAK_MANUAL === 'undefined') return;
 
   VAK_MANUAL['professional-skills'] = {
-    pdf: 'manuals/2026-27_Professional_Skills_Course_Manual.pdf',
+    pdf: 'manuals/Y1_manual_professional_skills.pdf',
     pdfNaam: 'Professional Skills course manual (2026-27)',
     studiegids: 'skills',
     intro: 'Praktijkgericht vak naast de theorievakken: communicatie, public speaking, personal branding, conflictoplossing, teamwork, leiderschap, consultancy en projectmanagement, getoetst met twee groepspresentaties en één individuele opdracht.',
@@ -5091,7 +5091,7 @@ LESSTOF['intro-to-safety-security/slides-1'] = [
   if (typeof VAK_MANUAL === 'undefined') return;
 
   VAK_MANUAL['governance-policy'] = {
-    pdf: '', pdfNaam: '',
+    pdf: 'manuals/Y1_manual_governance_policy.pdf', pdfNaam: 'Module manual · Governance & Policy (2.2)',
     studiegids: 'governance',
     intro: 'Over hoe bureaucratieën werken en hoe beleid tot stand komt. De eerste helft gaat over publieke organisaties en governance, de tweede helft over de fasen van beleidsvorming en waar die in de praktijk vastlopen.',
     regels: [
@@ -5128,7 +5128,7 @@ LESSTOF['intro-to-safety-security/slides-1'] = [
   };
 
   VAK_MANUAL['society-politics'] = {
-    pdf: '', pdfNaam: '',
+    pdf: 'manuals/Y1_manual_society_politics.pdf', pdfNaam: 'Module manual · Society & Politics (2.3)',
     studiegids: 'society',
     intro: 'Sociologie in de eerste helft, politicologie in de tweede. Het vak geldt als een van de academische moederdisciplines van safety en security studies.',
     regels: [
@@ -5162,7 +5162,7 @@ LESSTOF['intro-to-safety-security/slides-1'] = [
   };
 
   VAK_MANUAL['fundamentals-of-academic-writing'] = {
-    pdf: '', pdfNaam: '',
+    pdf: 'manuals/Y1_manual_FAW.pdf', pdfNaam: 'Module manual · Fundamentals of Academic Writing (3.2)',
     studiegids: 'writing',
     intro: 'Schrijfvak Engels: alinea\u2019s, cohesie en coherentie, zinsbouw, formele stijl en parafraseren. Eén examen aan het eind bepaalt je hele cijfer.',
     regels: [
