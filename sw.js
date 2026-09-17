@@ -10,10 +10,10 @@
 
    VERSIE hoeft nu niet meer per se omhoog bij elke wijziging, maar het
    blijft handig: het ruimt de oude cache op. */
-var VERSIE = 'ssms-v70';
+var VERSIE = 'ssms-v72';
 var BESTANDEN = ['./', './index.html', './les.html', './vak.html', './styles.css', './app.js',
   './rooster.js', './les.js', './lesextra.js', './vak.js', './lesblokken.js', './lesstof.js',
-  './ssms-inhoud.js', './governance-college-1.js', './governance-slides-1.js', './society-slides-1.js', './ps-college-1.js', './drm-conceptlist-1.js', './drm-conceptlist-2.js', './drm-conceptlist-3.js', './faw-writer-responsible.js', './society-college-2.js', './vakken.js', './manifest.webmanifest'];
+  './ssms-inhoud.js', './governance-college-1.js', './governance-slides-1.js', './governance-college-2.js', './society-slides-1.js', './ps-college-1.js', './drm-conceptlist-1.js', './drm-conceptlist-2.js', './drm-conceptlist-3.js', './faw-writer-responsible.js', './society-college-2.js', './vakken.js', './manifest.webmanifest'];
 
 self.addEventListener('install', function(e){
   /* Elk bestand apart, en een mislukking mag de installatie niet slopen.
