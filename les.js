@@ -373,6 +373,29 @@
       }).join('');
   }
 
+  /* De balk zit ingeklapt achter het vergrootglas naast het menu. */
+  function zetZoekOpen(open){
+    var vak_ = document.getElementById('leszoek');
+    var knop = document.getElementById('zoekKnop');
+    vak_.hidden = !open;
+    knop.setAttribute('aria-expanded', open ? 'true' : 'false');
+    knop.classList.toggle('nu', open);
+    if (open) document.getElementById('zoekVeld').focus();
+    else {
+      document.getElementById('zoekVeld').value = '';
+      var uit = document.getElementById('zoekUit');
+      uit.hidden = true; uit.innerHTML = '';
+    }
+  }
+
+  document.getElementById('zoekKnop').addEventListener('click', function(){
+    zetZoekOpen(document.getElementById('leszoek').hidden);
+  });
+
+  document.getElementById('zoekVeld').addEventListener('keydown', function(e){
+    if (e.key === 'Escape') zetZoekOpen(false);
+  });
+
   document.getElementById('zoekVeld').addEventListener('input', toonZoek);
   document.getElementById('zoekWis').addEventListener('click', function(){
     var veld = document.getElementById('zoekVeld');
@@ -388,6 +411,7 @@
     var zs = rij.getAttribute('data-zstuk');
     if (zs !== '') zetKeuze(onderdelen[ti].id, +zs);
     naarTab(ti);
+    zetZoekOpen(false);
     document.getElementById('inhoud').scrollIntoView({ block: 'start' });
   });
 

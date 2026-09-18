@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 17 september 2026, service worker **v77**.
+Stand: 17 september 2026, service worker **v78**.
 
 
 ## 1. Wat het is
@@ -167,7 +167,7 @@ open te zetten. Onderaan elk kopje één knop rechts: Afvinken en verder.
 Niets mag springen. Elke actie tekent het tabblad opnieuw; `zonderSprong()`
 zet de scrollpositie terug. Voeg je een actie toe, gebruik die functie dan ook.
 
-### Zoeken binnen een les (nieuw in v77)
+### Zoeken binnen een les (nieuw in v77, knop sinds v78)
 
 Boven de tabbladen staat een zoekveld dat de hele les doorzoekt: alle
 tabbladen, alle blokken, alle velden. `tekstVanBlok()` loopt recursief door
@@ -178,6 +178,11 @@ toont het fragment met de term gemarkeerd; aantikken springt naar dat
 tabblad en zet dat kopje open via `zetKeuze`. Zoeken begint vanaf twee
 tekens, maximaal 25 treffers in beeld. Zit in `les.js`, met het veld in
 `les.html` en de opmaak achteraan `styles.css`.
+
+De balk staat standaard ingeklapt achter het vergrootglas in de knoppenbalk
+bovenin, naast het menu en de licht/donker-knop. `zetZoekOpen()` regelt het
+uitklappen, focust het veld, maakt het leeg bij sluiten en sluit de balk weer
+zodra je een treffer aantikt. Escape sluit hem ook.
 
 ### Bloktypes in `lesblokken.js`
 

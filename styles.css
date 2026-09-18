@@ -829,7 +829,8 @@ a.notitie:hover .titel{color:var(--accent);}
 .dl .dl-vink-leeg{display:block;width:22px;height:22px;}
 
 /* --- zoeken binnen een les --- */
-.leszoek{margin:14px 0 4px;}
+.leszoek{margin:12px 0 4px;}
+.rond.nu{color:var(--accent);border-color:var(--accent);}
 .leszoek-veld{display:flex;align-items:center;gap:8px;border:1px solid var(--line);
   border-radius:12px;padding:8px 12px;background:transparent;}
 .leszoek-veld:focus-within{border-color:var(--sage);}
