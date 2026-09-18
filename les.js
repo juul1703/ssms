@@ -119,6 +119,10 @@
 
   function stukkenVan(tab){
     var blokken = tab.blokken || [];
+    /* De kopjesbalk hoort alleen bij de kernstof. Op Voorbereiding, Toepassen
+       en Checken zijn titels gewoon koppen boven een blok, geen stappen om
+       door te klikken. Kernstof-tabbladen hebben id 'kern', 'kern2', ... */
+    if (String(tab.id || '').indexOf('kern') !== 0) return null;
     if (blokken.filter(function(b){ return b.titel; }).length < 2) return null;
     var stukken = [];
     blokken.forEach(function(b){
@@ -288,6 +292,104 @@
     toonVoortgang();
     if (!bewaarPlek) window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  /* ================== zoeken binnen deze les ==================
+     Doorzoekt alle tabbladen van de les. Een treffer wijst naar een
+     tabblad en, in de kernstof, naar het kopje waar de term staat.
+     Aantikken springt daarheen en zet dat kopje open. */
+
+  function tekstVanBlok(b){
+    var uit = [];
+    (function loop(w){
+      if (w === null || w === undefined) return;
+      if (typeof w === 'string') { uit.push(w); return; }
+      if (typeof w === 'number' || typeof w === 'boolean') return;
+      if (Array.isArray(w)) { w.forEach(loop); return; }
+      Object.keys(w).forEach(function(k){ loop(w[k]); });
+    })(b);
+    /* opmaaktekens weg, anders zoek je door sterretjes heen */
+    return uit.join(' \u00b7 ').replace(/\*\*/g, '').replace(/\s+/g, ' ');
+  }
+
+  function zoekIndex(){
+    var rijen = [];
+    onderdelen.forEach(function(o, ti){
+      var stukken = stukkenVan(o);
+      if (stukken) {
+        stukken.forEach(function(st, si){
+          st.blokken.forEach(function(b){
+            rijen.push({ tab: ti, stuk: si, tabTitel: o.titel, kop: st.titel, tekst: tekstVanBlok(b) });
+          });
+        });
+      } else {
+        (o.blokken || []).forEach(function(b){
+          rijen.push({ tab: ti, stuk: null, tabTitel: o.titel, kop: b.titel || '', tekst: tekstVanBlok(b) });
+        });
+      }
+    });
+    return rijen;
+  }
+
+  var index = null;
+
+  function fragment(tekst, term){
+    var laag = tekst.toLowerCase(), pos = laag.indexOf(term);
+    if (pos < 0) return '';
+    var van = Math.max(0, pos - 60), tot = Math.min(tekst.length, pos + term.length + 90);
+    return (van > 0 ? '\u2026' : '') + esc(tekst.slice(van, pos)) +
+      '<mark>' + esc(tekst.slice(pos, pos + term.length)) + '</mark>' +
+      esc(tekst.slice(pos + term.length, tot)) + (tot < tekst.length ? '\u2026' : '');
+  }
+
+  function toonZoek(){
+    var veld = document.getElementById('zoekVeld');
+    var uit = document.getElementById('zoekUit');
+    var term = (veld.value || '').trim().toLowerCase();
+    if (term.length < 2) { uit.hidden = true; uit.innerHTML = ''; return; }
+    if (!index) index = zoekIndex();
+
+    var treffers = [];
+    index.forEach(function(r, i){
+      if (r.tekst.toLowerCase().indexOf(term) >= 0) treffers.push({ r: r, i: i });
+    });
+
+    if (!treffers.length) {
+      uit.hidden = false;
+      uit.innerHTML = '<p class="zoek-niets">Niets gevonden voor \u201c' + esc(term) + '\u201d in deze les.</p>';
+      return;
+    }
+
+    var top = treffers.slice(0, 25);
+    uit.hidden = false;
+    uit.innerHTML = '<p class="zoek-aantal">' + treffers.length + ' ' +
+      (treffers.length === 1 ? 'treffer' : 'treffers') +
+      (treffers.length > top.length ? ', eerste ' + top.length + ' getoond' : '') + '</p>' +
+      top.map(function(t){
+        var r = t.r;
+        return '<button class="zoek-rij" data-ztab="' + r.tab + '" data-zstuk="' +
+          (r.stuk === null ? '' : r.stuk) + '">' +
+          '<span class="zoek-plek">' + esc(r.tabTitel) + (r.kop ? ' \u00b7 ' + esc(r.kop) : '') + '</span>' +
+          '<span class="zoek-frag">' + fragment(r.tekst, term) + '</span></button>';
+      }).join('');
+  }
+
+  document.getElementById('zoekVeld').addEventListener('input', toonZoek);
+  document.getElementById('zoekWis').addEventListener('click', function(){
+    var veld = document.getElementById('zoekVeld');
+    veld.value = '';
+    toonZoek();
+    veld.focus();
+  });
+
+  document.getElementById('zoekUit').addEventListener('click', function(e){
+    var rij = e.target.closest ? e.target.closest('[data-ztab]') : null;
+    if (!rij) return;
+    var ti = +rij.getAttribute('data-ztab');
+    var zs = rij.getAttribute('data-zstuk');
+    if (zs !== '') zetKeuze(onderdelen[ti].id, +zs);
+    naarTab(ti);
+    document.getElementById('inhoud').scrollIntoView({ block: 'start' });
+  });
 
   function naarTab(i){
     if (i < 0 || i >= onderdelen.length) return;
