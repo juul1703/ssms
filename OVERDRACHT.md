@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 17 september 2026, service worker **v78**.
+Stand: 19 september 2026, service worker **v79**.
 
 
 ## 1. Wat het is
@@ -41,6 +41,7 @@ bestanden.
 | `society-slides-1.js` | Society & Politics sessie 1, uit de collegeslides |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
+| `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `faw-writer-responsible.js` | FAW naslag: writer responsible writing |
 | `sw.js` | Offline-cache, netwerk eerst |
@@ -62,6 +63,7 @@ governance-slides-1.js      <- losse lesbestanden hier
 governance-college-2.js
 society-slides-1.js
 ps-college-1.js
+ps-college-2.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
@@ -202,7 +204,7 @@ drie kolommen gebruik je `tabel`. `bronnen` wil `apa`, niet `titel` + `tekst`.
 
 ## 6. Welke lesstof er nu is
 
-41 lessen, ruim 1.160 blokken.
+42 lessen, ruim 1.200 blokken.
 
 **Engels** (nieuw geschreven of vertaald):
 
@@ -212,7 +214,9 @@ drie kolommen gebruik je `tabel`. `bronnen` wil `apa`, niet `titel` + `tekst`.
 - Governance & Policy sessie 2 (Buckwalter & Balfour, Quality of Governance H2)
 - Society & Politics sessie 1 (slides) en **sessie 2 (Macionis H7)**, die
   laatste met 82 flashcards
-- Professional Skills sessie 1 (non-verbale communicatie)
+- Professional Skills sessie 1 (non-verbale communicatie) en **sessie 2
+  (communicating adverse information)**: twee kernstof-tabs (CAT; kanalen,
+  medium en barrières), 76 flashcards
 - DRM conceptlijst, drie delen, onder Extra naslagwerken
 - FAW: writer responsible writing, onder Naslag
 
@@ -297,6 +301,11 @@ kloppen. Spaties in bestandsnamen hebben al één keer een 404 opgeleverd.
 - **Verkeerd boek bij een sessie.** "H2" van het ene boek is niet "H2" van het
   andere. Bij Governance sessie 2 is McCormick H2 bijna toegevoegd terwijl de
   verplichte stof Buckwalter & Balfour was. Check de auteur, niet het nummer.
+
+- **Titels in kernstof.** Elk blok met een titel in een `kern`-tab wordt een
+  eigen kopje in de balk. Geef in kernstof alleen de paragraafblokken en de
+  Summary een titel; zet bij kaders de kop vetgedrukt als eerste regel in
+  `tekst`, en laat tabellen en begrippen zonder titel.
 
 ## 10. Nog openstaand
 
