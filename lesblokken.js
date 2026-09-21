@@ -34,8 +34,13 @@ var KADER_LABEL = { uitleg: 'Uitleg', waarschuwing: 'Let op', voorbeeld: 'Voorbe
 var BLOKKEN = {
 
   tekst: function(b){
+    /* punten onder een tekstblok werden tot v81 niet getoond; drie lessen
+       hadden daardoor onzichtbare lijstjes (Governance sessie 1). */
     return (b.titel ? '<h2>' + esc(b.titel) + '</h2>' : '') +
-      (b.html ? b.html : rijkeTekst(b.tekst));
+      (b.html ? b.html : rijkeTekst(b.tekst)) +
+      (b.punten && b.punten.length
+        ? '<ul>' + b.punten.map(function(p){ return '<li>' + rijkeTekst(p).replace(/^<p>|<\/p>$/g, '') + '</li>'; }).join('') + '</ul>'
+        : '');
   },
 
   /* ---- kaders ---- */

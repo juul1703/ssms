@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v80**.
+Stand: 21 september 2026, service worker **v82**.
 
 
 ## 1. Wat het is
@@ -41,6 +41,9 @@ bestanden.
 | `society-slides-1.js` | Society & Politics sessie 1, uit de collegeslides |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) |
+| `recap-society.js` | "To remember"-tabbladen voor Society slides-1, college-2 en college-3 |
+| `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
+| `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
@@ -71,6 +74,9 @@ drm-conceptlist-3.js
 faw-writer-responsible.js
 society-college-2.js
 society-college-3.js
+recap-society.js
+recap-professional-skills.js
+recap-governance.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
 ```
@@ -170,6 +176,25 @@ open te zetten. Onderaan elk kopje één knop rechts: Afvinken en verder.
 
 Niets mag springen. Elke actie tekent het tabblad opnieuw; `zonderSprong()`
 zet de scrollpositie terug. Voeg je een actie toe, gebruik die functie dan ook.
+
+### Het tabblad "To remember" (recap, sinds v81)
+
+Een zesde tabblad met de echte kernprincipes van de les op een rij: tabellen
+en korte uitleg, afgesloten met een `hardop`-blok "Say it out loud". Id
+`recap`, titel `To remember`. Het staat direct na de laatste kernstof-tab.
+
+De recaps staan niet in de lesbestanden zelf maar per vak in een eigen
+bestand (`recap-society.js`, later `recap-intro.js` enzovoort), met per les
+`voegRecapToe('<vak>/<les>', { id: 'recap', ... })`. Die functie staat in
+`lesstof.js`. Het recap-bestand moet dus **na** de lesbestanden en **voor**
+`vakken.js` laden. Omdat het id niet met `kern` begint, komt er geen
+kopjesbalk. `recap` staat ook in `VOLGORDE` in `vakken.js`, zodat een recap
+die aan een boekhoofdstuk hangt bij samenvoegen op de goede plek komt.
+
+Stand: Society (slides-1, college-2, college-3), Professional Skills
+(college-1, college-2) en Governance (college-1, college-2) hebben een recap.
+De recap van Governance sessie 1 dekt boek en college samen; slides-1 van
+Governance heeft er bewust geen eigen. Nog te doen: Intro, DRM, FAW.
 
 ### Zoeken binnen een les (nieuw in v77, knop sinds v78)
 
@@ -300,6 +325,10 @@ kloppen. Spaties in bestandsnamen hebben al één keer een 404 opgeleverd.
   volgende `LESSTOF[`) en zoek pas daarbinnen, met een controle dat er precies
   één match is. Veiliger nog: laad het bestand in Node, pas het object aan en
   schrijf alleen dat ene `LESSTOF`-blok terug met `JSON.stringify`.
+- **Lijstjes onder een tekstblok.** Tot v81 toonde het bloktype `tekst`
+  het veld `punten` niet. Drie lijstjes in Governance sessie 1 (de vijf
+  regelmatigheden, de drie kenmerken van politiek, de vier soorten besluiten)
+  waren daardoor onzichtbaar. Sinds v82 rendert `tekst` ook `punten`.
 - **Bestandsnamen van pdf's.** Spaties, komma's en een spatie vóór `.pdf`
   geven 404's. Alleen letters, cijfers, underscores en streepjes.
 - **Verkeerd boek bij een sessie.** "H2" van het ene boek is niet "H2" van het
@@ -311,7 +340,28 @@ kloppen. Spaties in bestandsnamen hebben al één keer een 404 opgeleverd.
   Summary een titel; zet bij kaders de kop vetgedrukt als eerste regel in
   `tekst`, en laat tabellen en begrippen zonder titel.
 
-## 10. Nog openstaand
+## 10. Plan: collegeslides verwerken in de sessie (afgesproken, nog niet gebouwd)
+
+Julie uploadt na elk college de slides. Aparte slides-lessen stoppen we
+mee, want dat is dubbel werk. Werkwijze:
+
+1. Julie zegt vak en sessie. Eerst een korte vergelijking in de chat:
+   wat staat al in de les, wat is nieuw, wat spreekt het boek tegen.
+2. Nieuwe stof die bij een bestaande paragraaf hoort, komt in die
+   paragraaf van Core material, als herkenbaar blok "From the lecture"
+   (voorstel: een eigen bloktype `college`, een kader met dat label, zodat
+   het zichtbaar en doorzoekbaar is).
+3. Stof die nergens bij past, krijgt een eigen kopje achteraan Core
+   material: "From the lecture: <onderwerp>". Geen apart tabblad, dat
+   brengt de dubbeling terug.
+4. De recap krijgt bovenaan een blok "What the lecturer emphasised": waar
+   de docent nadruk op legde is een toetssignaal.
+5. Bestaande slides-lessen (Intro, Society en Governance sessie 1) worden
+   stap voor stap in de sessieles opgenomen en uit `SLIDES` gehaald.
+   Society sessie 1 heeft nog geen sessieles; die wordt H1, H2, H4 plus de
+   slides (zie hieronder).
+
+## 10b. Nog openstaand
 
 - **Society & Politics sessie 1** (Macionis H1, H2 en H4). H1 is al
   geschreven (`society-h1.js`, zit in deze repo maar is nog niet bedraad);

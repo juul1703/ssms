@@ -271,3 +271,23 @@ var VOORBEELD_VAK = {
   id: 'voorbeeld', naam: 'Voorbeeldles · zo werkt de template',
   lessen: [{ id: 'les-1', titel: 'Veiligheid als vraagstuk', duur: 90 }]
 };
+
+/* ------------------------------------------------------------
+   Recap-tabblad ("To remember")
+   ------------------------------------------------------------
+   Voegt aan een bestaande les een tabblad toe met de kernprincipes
+   op een rij, direct na de laatste kernstof-tab (kern, kern2, ...).
+   Het id is 'recap'; het begint niet met 'kern', dus er komt geen
+   kopjesbalk en titels zijn gewone koppen. Voor lessen die
+   vakken.js samenvoegt uit hoofdstukken kun je de recap aan het
+   hoofdstuk hangen; 'recap' staat in VOLGORDE in vakken.js.
+   Het bestand met recaps moet na de lesbestanden laden. */
+function voegRecapToe(sleutel, tab){
+  var les = LESSTOF[sleutel];
+  if (!les) { try { console.warn('Recap zonder les: ' + sleutel); } catch (e) {} return; }
+  les = les.filter(function(t){ return t.id !== 'recap'; });
+  var plek = 0;
+  les.forEach(function(t, i){ if (String(t.id).indexOf('kern') === 0) plek = i + 1; });
+  les.splice(plek, 0, tab);
+  LESSTOF[sleutel] = les;
+}

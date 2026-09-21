@@ -140,7 +140,7 @@
     });
     /* Vaste volgorde, zodat 'Core material: chapter 2' naast hoofdstuk 1
        staat en niet achteraan belandt. Onbekende tabbladen blijven achteraan. */
-    var VOLGORDE = ['voor', 'kern', 'kern2', 'kern3', 'kern4', 'toepassen', 'checken', 'kaarten'];
+    var VOLGORDE = ['voor', 'kern', 'kern2', 'kern3', 'kern4', 'recap', 'toepassen', 'checken', 'kaarten'];
     tabs.sort(function(a, b){
       var ia = VOLGORDE.indexOf(a.id), ib = VOLGORDE.indexOf(b.id);
       if (ia < 0) ia = 99;
