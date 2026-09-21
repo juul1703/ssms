@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 19 september 2026, service worker **v79**.
+Stand: 21 september 2026, service worker **v80**.
 
 
 ## 1. Wat het is
@@ -40,10 +40,11 @@ bestanden.
 | `governance-college-2.js` | Governance sessie 2, Buckwalter & Balfour uit Quality of Governance |
 | `society-slides-1.js` | Society & Politics sessie 1, uit de collegeslides |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) |
+| `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
-| `faw-writer-responsible.js` | FAW naslag: writer responsible writing |
+| `faw-writer-responsible.js` | FAW sessie 2: writer responsible writing, de zes technieken (sleutel `college-2`, stond tot v80 onder Naslag) |
 | `sw.js` | Offline-cache, netwerk eerst |
 | `manifest.webmanifest` | Naam en kleur op het beginscherm |
 | `manuals/` | Zes module-pdf's, één per vak |
@@ -69,6 +70,7 @@ drm-conceptlist-2.js
 drm-conceptlist-3.js
 faw-writer-responsible.js
 society-college-2.js
+society-college-3.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
 ```
@@ -204,7 +206,7 @@ drie kolommen gebruik je `tabel`. `bronnen` wil `apa`, niet `titel` + `tekst`.
 
 ## 6. Welke lesstof er nu is
 
-42 lessen, ruim 1.200 blokken.
+43 lessen, ruim 1.240 blokken.
 
 **Engels** (nieuw geschreven of vertaald):
 
@@ -218,7 +220,9 @@ drie kolommen gebruik je `tabel`. `bronnen` wil `apa`, niet `titel` + `tekst`.
   (communicating adverse information)**: twee kernstof-tabs (CAT; kanalen,
   medium en barrières), 76 flashcards
 - DRM conceptlijst, drie delen, onder Extra naslagwerken
-- FAW: writer responsible writing, onder Naslag
+- FAW: writer responsible writing, sinds v80 de les van **sessie 2**
+  (nog in de oude opzet: 15 kopjes, geen begrippenblok)
+- Society & Politics **sessie 3 (Macionis H11)**, 9 kopjes, 75 flashcards
 
 **Nog Nederlands:**
 

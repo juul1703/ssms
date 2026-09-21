@@ -2,9 +2,11 @@
    Fundamentals of Academic Writing
    Writer responsible writing — de zes cohesietechnieken
    Uitgewerkt uit het worksheet (tips 1-6, opdrachten A t/m D)
+   Sinds v80 de les van sessie 2 ("6 tips voor goede alinea's"),
+   niet meer los onder Naslag.
    ============================================================ */
 
-LESSTOF['fundamentals-of-academic-writing/writer-responsible'] = [
+LESSTOF['fundamentals-of-academic-writing/college-2'] = [
 
   {
     id: 'voor', titel: 'Before you start',
