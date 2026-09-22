@@ -468,3 +468,134 @@ voegRecapToe("intro-to-safety-security/h5", {
   ]
 });
 
+voegRecapToe("intro-to-safety-security/h7", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "titel": "H7 Brooks and Coole: two diverging professions",
+      "tekst": "**The research question:** do the knowledge categories of safety and security science demonstrate professional divergence? The answer is found through **bodies of knowledge**, because knowledge is the most stable and testable feature of a profession.\n\n**What is compared:** safety as **OHS** (bounded by the workplace and by law) against security as **corporate security** (a deliberate narrowing, because security runs on a continuum from national to community security)."
+    },
+    {
+      "type": "tabel",
+      "titel": "What makes an occupation a profession",
+      "kop": [
+        "Characteristic",
+        "Meaning"
+      ],
+      "rijen": [
+        [
+          "Codes of conduct",
+          "Agreed and enforced"
+        ],
+        [
+          "Education standards",
+          "Accredited, recognised training"
+        ],
+        [
+          "Professional development",
+          "Keeping competence up to date"
+        ],
+        [
+          "College of peers",
+          "Colleagues who hold each other to the standard"
+        ],
+        [
+          "Body of knowledge",
+          "The most important one: systematic, logically related, predictive. Academic knowledge legitimises professional work (Abbott, 1988)"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "The two bodies of knowledge",
+      "tekst": "**Security** (not yet a profession; the field is fragmented and segmented). Models: **ASIS (2009, 18 categories)**, **Brooks (2009, 13 categories** from 104 courses**)**, the **Enterprise Security Competency Model (2015)** and **Coole et al. (2017)**, which uses the medical structure **diagnosis, inference, treatment**. Synthesis: **five categories**: threats and risks; control; security management; technical and behavioural discipline; professional practice.\n\n**Safety** (also not yet a profession). Models: the **SIA Model of OHS Practice (2012)**, which describes a way of working rather than content, and the **INSHPO Capability Framework (2017)**. Synthesis: **six categories**: hazards and risks; control; safety and health management; role and function; technical and behavioural discipline; management science."
+    },
+    {
+      "type": "tabel",
+      "titel": "Alignment and polarity",
+      "kop": [
+        "Alignment on four points",
+        "Polarity on three points"
+      ],
+      "rijen": [
+        [
+          "Risk management",
+          "Hazards versus threats"
+        ],
+        [
+          "Controls",
+          "Technologies"
+        ],
+        [
+          "Management",
+          "Underlying theories"
+        ],
+        [
+          "Professional practice",
+          "(these are generic capabilities any profession has)"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Where the two really differ",
+      "kop": [
+        "Topic",
+        "Safety",
+        "Security"
+      ],
+      "rijen": [
+        [
+          "Risk concept",
+          "Hazard: a danger exposing someone to injury or loss, accidental drivers",
+          "Threat: the directed intent and capability of an adversary, malicious drivers"
+        ],
+        [
+          "Standard",
+          "ISO 31000:2018",
+          "ISO 31000:2018, same process, different object"
+        ],
+        [
+          "Underlying theory",
+          "Workplace, health effects, accidents (ergonomics, human factors)",
+          "Crime and crime prevention (criminology)"
+        ],
+        [
+          "Controls",
+          "People-oriented: human error and compliance",
+          "Deter and delay through hardening, detect through technology, respond through personnel"
+        ],
+        [
+          "Legislation",
+          "Explicit: a qualified adviser is required by law",
+          "Almost none, apart from a licence in parts of the sector"
+        ],
+        [
+          "Boundedness",
+          "Self-bounding: the workplace",
+          "A continuum from national to community security"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "The conclusion and its nuance",
+      "tekst": "Similarities exist **only at an abstract level**; in practice the differences are explicit. **Merging dilutes** understanding and boundaries. The one place where they meet is **life safety**, which **takes precedence over security requirements**.\n\nThree forces will **increase** the divergence: greater societal risk aversion, higher expectations of professions, and both professions striving for professional status.\n\n**The nuance:** this is a prediction, not advice; \"do not merge\" is not the same as \"do not cooperate\"; and the shared ground (risk management, controls, management, professional practice) is exactly what an SSMS degree builds on."
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "State the research question and explain why it is answered through knowledge.",
+        "Name the five characteristics of a profession, and say which is the most important.",
+        "Give the five security categories and the six OHS categories.",
+        "Explain hazard versus threat, and what it does to the controls.",
+        "Explain why safety is further along the road to professional status than security."
+      ]
+    }
+  ]
+});
+

@@ -65,7 +65,7 @@
         h4:  'H4 Safety versus security in de luchtvaart',
         h5:  'H5 Security- en safetycultuur',
         h6:  'H6 Gebruikerservaring op de luchthaven',
-        h7:  'H7 De divergentie van safety en security',
+        h7:  'H7 Divergence of safety and security',
         h8:  'H8 Voorbereiden om verrast te worden',
         h9:  'H9 Spanningen en synergie in management',
         h10: 'H10 Het snijvlak op de werkplek',

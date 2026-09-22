@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v83**.
+Stand: 21 september 2026, service worker **v84**.
 
 
 ## 1. Wat het is
@@ -44,6 +44,7 @@ bestanden.
 | `recap-society.js` | "To remember"-tabbladen voor Society slides-1, college-2 en college-3 |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
+| `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
@@ -79,6 +80,7 @@ recap-society.js
 recap-professional-skills.js
 recap-governance.js
 recap-intro.js
+intro-h7.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
 ```
@@ -199,8 +201,18 @@ De recap van Governance sessie 1 dekt boek en college samen; slides-1 van
 Governance heeft er bewust geen eigen. Intro: slides-1 (sessie 1),
 H1+H2 (sessie 2) en H3+H5 (sessie 4). Bij Intro hangt de recap aan het
 hoofdstuk; vakken.js voegt ze per sessie samen tot één To remember-tab, met
-de hoofdstuknaam als tussenkop. Nog te doen: Intro sessie 6 (H7+H9) en 8
-(H10), DRM, FAW.
+de hoofdstuknaam als tussenkop. Intro sessie 6: H7 heeft een recap (en is vertaald), H9 volgt. Nog te doen:
+Intro sessie 8 (H10), DRM, FAW.
+
+### Vertalen naar het Engels
+
+Afspraak: alle lesstof wordt Engels, de bedrading blijft Nederlands. Klaar:
+Intro H1, H2, H3, H5 en (sinds v84) H7. Nog Nederlands: Intro slides-1, H4,
+H6, H8, H9, H10, H11, de studiegids, DRM en FAW. Werkwijze bij vertalen: het
+hoofdstuk uit `ssms-inhoud.js` halen, als eigen bestand `intro-h<n>.js`
+opnieuw opbouwen via een builder met JSON.stringify, scripttag toevoegen in
+de drie html-bestanden en in `sw.js`, en de naam in `BOEKEN` in `vakken.js`
+meevertalen.
 
 ### Zoeken binnen een les (nieuw in v77, knop sinds v78)
 
