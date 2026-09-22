@@ -377,6 +377,11 @@
   function zetZoekOpen(open){
     var vak_ = document.getElementById('leszoek');
     var knop = document.getElementById('zoekKnop');
+    var veld_ = document.getElementById('leszoekVeld');
+    /* Het zoekveld schuift open in de bovenbalk zelf; de resultaten
+       komen eronder te staan. */
+    veld_.hidden = !open;
+    document.querySelector('.les-top').classList.toggle('zoekt', open);
     vak_.hidden = !open;
     knop.setAttribute('aria-expanded', open ? 'true' : 'false');
     knop.classList.toggle('nu', open);
@@ -389,7 +394,7 @@
   }
 
   document.getElementById('zoekKnop').addEventListener('click', function(){
-    zetZoekOpen(document.getElementById('leszoek').hidden);
+    zetZoekOpen(document.getElementById('leszoekVeld').hidden);
   });
 
   document.getElementById('zoekVeld').addEventListener('keydown', function(e){

@@ -813,6 +813,30 @@ function zetModus(m){
   render();
   document.getElementById('zoek').addEventListener('input', function(e){ zoek(e.target.value); });
 
+  /* ---- zoekbalk en knoppen in- en uitklappen ---- */
+  var toolsGroep = document.getElementById('toolsGroep');
+  var toolsKnop = document.getElementById('toolsInklap');
+  if (toolsGroep && toolsKnop) {
+    var zetTools = function(open){
+      toolsGroep.classList.toggle('dicht', !open);
+      toolsKnop.classList.toggle('dicht', !open);
+      toolsKnop.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toolsKnop.setAttribute('aria-label', open ? 'Zoeken en knoppen inklappen' : 'Zoeken en knoppen uitklappen');
+      toolsKnop.title = open ? 'Inklappen' : 'Uitklappen';
+      try { localStorage.setItem('ssms-tools', open ? 'open' : 'dicht'); } catch (e) {}
+      if (!open) {
+        var veld = document.getElementById('zoek');
+        if (veld && veld.value) { veld.value = ''; zoek(''); }
+      }
+    };
+    var bewaard = null;
+    try { bewaard = localStorage.getItem('ssms-tools'); } catch (e) {}
+    if (bewaard === 'dicht') zetTools(false);
+    toolsKnop.addEventListener('click', function(){
+      zetTools(toolsGroep.classList.contains('dicht'));
+    });
+  }
+
   /* ---- roosterlink instellen ---- */
   var feedLade = document.getElementById('feedLade');
   var feedVeld = document.getElementById('feedVeld');

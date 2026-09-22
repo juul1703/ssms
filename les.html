@@ -15,6 +15,11 @@
   <div class="les-top">
     <a class="terug" href="index.html">&larr; Terug</a>
     <div class="tools">
+      <div class="leszoek-veld" id="leszoekVeld" hidden>
+        <i class="leszoek-icoon" aria-hidden="true"></i>
+        <input type="search" id="zoekVeld" placeholder="Zoek een begrip in deze les" autocomplete="off" aria-label="Zoek in deze les">
+        <button class="leszoek-wis" id="zoekWis" type="button" aria-label="Zoekveld leegmaken">&times;</button>
+      </div>
       <button class="rond" id="zoekKnop" aria-label="Zoeken in deze les" title="Zoeken in deze les" aria-expanded="false">&#9906;</button>
       <button class="rond" id="menuKnop" aria-label="Menu in- of uitklappen" title="Menu in- of uitklappen">☰</button>
       <button class="rond" id="modus" aria-label="Wissel licht en donker">☾</button>
@@ -31,11 +36,6 @@
   </div>
 
   <div class="leszoek" id="leszoek" hidden>
-    <div class="leszoek-veld">
-      <span class="leszoek-icoon" aria-hidden="true">&#9906;</span>
-      <input type="search" id="zoekVeld" placeholder="Zoek een begrip in deze les" autocomplete="off" aria-label="Zoek in deze les">
-      <button class="leszoek-wis" id="zoekWis" type="button" aria-label="Zoekveld leegmaken">&times;</button>
-    </div>
     <div class="leszoek-uit" id="zoekUit" hidden></div>
   </div>
 

@@ -36,6 +36,11 @@
   .zoek i{width:11px;height:11px;border:1.5px solid var(--muted);border-radius:50%;flex:none;}
   .zoek input{border:none;outline:none;background:none;font:inherit;font-size:13px;color:var(--ink);width:100%;}
   .zoek input::placeholder{color:var(--muted);}
+  /* Groep met zoekbalk en knoppen; de pijlknop klapt hem in. */
+  .tools-groep{display:flex;align-items:center;gap:10px;min-width:0;}
+  .tools-groep.dicht{display:none;}
+  .tools-knop{font-size:15px;line-height:1;transition:transform .2s ease,color .2s ease;}
+  .tools-knop.dicht{transform:rotate(180deg);}
   .rond{width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);cursor:pointer;font-size:13px;box-shadow:var(--shadow);transition:transform .2s ease,color .2s ease;}
   .rond:hover{transform:translateY(-1px);color:var(--accent);}
 
@@ -185,7 +190,8 @@
   @media (max-width:760px){
     .wrap{padding:0 18px 64px;}
     .top{flex-direction:column;align-items:stretch;gap:14px;}
-    .tools{justify-content:space-between;}
+    .tools{justify-content:space-between;gap:10px;}
+    .tools-groep{flex:1;justify-content:space-between;}
     .zoek{width:100%;}
     .hero{grid-template-columns:1fr;gap:28px;padding:34px 0 26px;}
     .ring-blok{justify-self:start;}
@@ -829,14 +835,26 @@ a.notitie:hover .titel{color:var(--accent);}
 .dl .dl-vink-leeg{display:block;width:22px;height:22px;}
 
 /* --- zoeken binnen een les --- */
-.leszoek{margin:12px 0 4px;}
+.leszoek{margin:10px 0 4px;}
+/* Het zoekveld staat in de bovenbalk en schuift open naast de knoppen. */
+.les-top .leszoek-veld{flex:1;min-width:0;}
+.les-top .leszoek-veld[hidden]{display:none;}
+.les-top .tools{min-width:0;}
+.les-top.zoekt .tools{flex:1;}
+.les-top.zoekt{gap:10px;}
+.les-top.zoekt .terug{flex:none;}
+@media (max-width:560px){
+  .les-top.zoekt .terug{display:none;}
+}
 .rond.nu{color:var(--accent);border-color:var(--accent);}
-.leszoek-veld{display:flex;align-items:center;gap:8px;border:1px solid var(--line);
-  border-radius:12px;padding:8px 12px;background:transparent;}
+/* Zelfde vorm als de zoekbalk op het homescreen: pil, eigen vlak, schaduw. */
+.leszoek-veld{display:flex;align-items:center;gap:9px;border:1px solid var(--line);
+  border-radius:999px;padding:9px 16px;background:var(--surface);box-shadow:var(--shadow);}
 .leszoek-veld:focus-within{border-color:var(--sage);}
-.leszoek-icoon{opacity:.5;font-size:14px;}
-.leszoek-veld input{flex:1;border:0;background:transparent;font:inherit;color:inherit;
-  padding:2px 0;outline:none;min-width:0;}
+.leszoek-icoon{width:11px;height:11px;border:1.5px solid var(--muted);border-radius:50%;flex:none;}
+.leszoek-veld input{flex:1;border:0;background:none;font:inherit;font-size:13px;color:var(--ink);
+  padding:0;outline:none;min-width:0;}
+.leszoek-veld input::placeholder{color:var(--muted);}
 .leszoek-wis{border:0;background:transparent;font-size:20px;line-height:1;cursor:pointer;
   color:inherit;opacity:.45;padding:0 2px;}
 .leszoek-wis:hover{opacity:.9;}

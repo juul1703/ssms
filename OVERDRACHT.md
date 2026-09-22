@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v84**.
+Stand: 21 september 2026, service worker **v86**.
 
 
 ## 1. Wat het is
@@ -213,6 +213,18 @@ hoofdstuk uit `ssms-inhoud.js` halen, als eigen bestand `intro-h<n>.js`
 opnieuw opbouwen via een builder met JSON.stringify, scripttag toevoegen in
 de drie html-bestanden en in `sw.js`, en de naam in `BOEKEN` in `vakken.js`
 meevertalen.
+
+### Zoekbalk en inklapknop (v85)
+
+De zoekbalk in de les (`.leszoek-veld`) heeft dezelfde vorm als die op het
+homescreen: pil, eigen vlak, schaduw, rondje als icoon. Hij staat sinds v86
+in de bovenbalk zelf: klikken op het zoekknopje zet `hidden` van
+`#leszoekVeld` uit en geeft `.les-top` de klasse `zoekt`, waarna het veld de
+vrije breedte vult. De resultaten staan eronder in `#zoekUit`. Onder 560px
+verdwijnt de Terug-link zolang er gezocht wordt. Op het homescreen
+zitten de zoekbalk en de twee knoppen in `#toolsGroep`; de pijlknop
+`#toolsInklap` klapt die groep in en uit. De stand wordt bewaard in
+localStorage onder `ssms-tools`, en bij inklappen wordt het zoekveld geleegd.
 
 ### Zoeken binnen een les (nieuw in v77, knop sinds v78)
 
