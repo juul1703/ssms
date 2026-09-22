@@ -2,8 +2,8 @@
    Society & Politics, sessie 1
    Sociologische perspectieven en methoden
    Macionis & Plummer H1, H2 en H4, plus Lecture 1.
-   Deel 2: voorbereiding en kernstof H1 en H2.
-   H4, To remember, Toepassen en Checken volgen.
+   Volledige les: voorbereiding, kernstof H1, H2 en H4, To remember
+   (met wat de docent benadrukt), Toepassen en Checken.
    ============================================================ */
 
 LESSTOF['society-politics/college-1'] = [
@@ -525,6 +525,884 @@ LESSTOF['society-politics/college-1'] = [
             "begrip": "Commodification",
             "definitie": "Turning aspects of life into things for sale. Central to globalisation: music becomes a sellable object, along with the merchandising around it."
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kern3",
+    "titel": "Core material: chapter 4",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "4.1 Changing patterns of society",
+        "toetsstof": true,
+        "tekst": "**The opening case: the Iceman.** In 1991 a German tourist hiking across a glacier in south-west Austria found a human body in the melting ice: the **Iceman**, who died some **5,000 years ago**, before the Great Pyramids were built, and the oldest member of our species found essentially intact. He was about 30, carried an axe, a wood-handled knife and a bow, wore a stitched leather coat and a woven grass cape, and had tattoos that probably marked his standing in his community. Scientists were astonished at **how advanced this \"cave man's\" society was**.\n\n**The concept.** Gerhard and Jean Lenski call their approach **sociocultural evolution**: **the process of change that results from a society's gaining new information, particularly technology**. A sociologist using it watches how societies change over centuries as they gain a greater ability to manipulate their physical environment.\n\nTwo consequences run through the whole chapter:\n- Societies with **rudimentary technology** support only small numbers of people with few choices about how to live. **Technologically complex** societies, not necessarily \"better\" in any absolute sense, develop larger populations with diverse, highly specialised lives.\n- **The more technological information a society has, the faster it changes.** Some of the Iceman's clothing differs only slightly from what shepherds in the same area wore in the early twentieth century, while industrial societies can transform within a lifetime.\n\nTechnology also **ripples**: harnessing the wind with a sail set the stage for kites, sailing ships, windmills and eventually aircraft.\n\n**The definition to keep:** a **society** is people who interact in a defined space and share a culture. Both Europe and a single country such as Norway can be called a society."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture gives this whole chapter one slide, and it is worth knowing exactly what is on it, because that is the level the lecturer expects: **\"society\" is people who interact in a defined space and share a culture**, and **Lenski's sociocultural evolution: societies change as their technology changes, and the more technological information available, the faster the rate of change**.\n\nThen the five types, each with a two-word tag: **hunting and gathering** (simple technology), **horticultural and pastoral** (tools, land and animals), **agrarian** (technology and farming), **industrial** (technology and machinery), **post-industrial** (networks, risk and surveillance).\n\nThat last tag is an addition by the lecturer. The book describes post-industrial society through Bell and the Information Revolution; the slide sums it up as **networks, risk and surveillance**, which are exactly the three themes that return later in the course (session 6 on networks, session 8 on the risk society, session 5 on control and surveillance)."
+      },
+      {
+        "type": "tekst",
+        "titel": "4.2 The five types of society",
+        "toetsstof": true,
+        "tekst": "**1. Hunting and gathering.** **Simple technology for hunting animals and gathering vegetation.** From the emergence of our species until about **12,000 years ago**, all humans lived this way. Estimates suggest some **300 million indigenous peoples** remain, many of whom were or are hunter-gatherers: the Aka and Pygmies of central Africa, the Bushmen of south-western Africa, Aboriginal Australians, the Maori, the Kaska of north-west Canada, the Batek and Semai of Malaysia.\n\nForaging demands a lot of land, so these societies are **small bands of a few dozen people**, **nomadic**, rarely forming permanent settlements. They are based on **kinship**: the family obtains and distributes food, protects members and teaches children. Specialisation follows age and sex: gathering vegetation, the more reliable source, is typically women's work, while men hunt, and most hunter-gatherers probably accorded men and women **comparable social importance**. There are few formal leaders; a **shaman** enjoys prestige but no greater material reward and must help find food like everyone else. Weapons are rarely used for war, but storms, drought, accident and disease make life precarious, which encourages **cooperation and sharing**; many die in childhood and perhaps half before the age of 20. During the twentieth century these societies were closed in on: Brazil alone lost some **87 tribes** in fifty years. There is now a **United Nations charter of rights of indigenous peoples**.\n\n**2. Horticultural and pastoral.** **Horticulture** is technology based on **using hand tools to cultivate plants**: the hoe and the digging stick. It began **10 to 12,000 years ago** in the fertile Middle East and spread by cultural diffusion across most of the world by about 6,000 years ago. **Pastoralism** is technology based on the **domestication of animals**, chosen by people in arid or mountainous regions where horticulture was of little value. Many societies combined the two.\n\nDomestication greatly increased food production, so societies could support hundreds rather than dozens. Pastoralists stayed **nomadic**; horticulturalists formed **settlements**, moving on when they depleted the soil, joined by trade into societies of several thousand. Crucially, domestication generates a **material surplus**: more resources than are needed for day-to-day living, which frees some people from food production to make crafts, trade, or serve as priests. Religion shifts: hunters and gatherers recognise many spirits, horticulturalists practise **ancestor worship** and see God as creator, pastoralists see God as directly involved in the world (\"The Lord is my shepherd\"), which is why Christianity, Islam and Judaism, all Middle Eastern pastoral religions, share that view. Expanding technology also **intensifies inequality**: families that produce more gain power and privilege, alliances make those advantages last over generations, and a rudimentary **government backed by military force** appears. Advancing technology is not purely beneficial: these societies show more inequality and in many cases slavery, protracted warfare and even cannibalism.\n\n**3. Agrarian.** About **5,000 years ago** came **agriculture**: **large-scale farming using ploughs harnessed to animals or more powerful energy sources**, along with irrigation, the wheel, writing, numbers and the expanding use of metals. Ploughs aerate the soil, so the same land can be farmed for decades, which produced humanity's first **permanent settlements**. Surpluses moved on animal-powered wagons let societies expand enormously: the Roman Empire at its height (about 100 CE) had **70 million people** over some 2 million square miles.\n\nMore production meant more **specialisation**, which made barter obsolete and prompted the invention of **money**, which facilitated trade and grew **cities** into economic centres of millions. Agrarian societies show **dramatic inequality**: peasants or slaves labour for elites who, freed from manual work, study philosophy, art and literature. Among hunter-gatherers and horticulturalists women are the primary food providers; agriculture appears to have propelled **men into social dominance**. **Religion reinforces elite power**, teaching that people are morally obliged to perform the tasks that match their place in the order: the Great Wall and the Great Pyramids were possible because emperors and pharaohs could mobilise people to a lifetime of unpaid labour. Elites gain unparalleled power, and to control large empires they need administrators, so the **political system becomes a distinct sphere of life**.\n\n**4. Industrial.** **Industrialism is technology that powers sophisticated machinery with advanced sources of energy.** Until then the major source of energy was the **muscle power** of humans and animals. From the **Industrial Revolution around 1750**, mills and factories used flowing water and then steam. Industrial societies changed more in a century than in the thousands of years before: railways and steamships, steel-framed skyscrapers, the internal combustion engine, electricity, telephone, radio and television, nuclear power, and finally computers ushering in the **Information Revolution**.\n\nWork moves out of the home to **factories**, and close working relationships, kinship ties and many traditional values are lost. Prosperity is unparalleled: health in early industrial cities was poor, but rising living standards and health technology brought infectious disease under control, life expectancy rose and population grew. Where roughly **one in ten** people in agrarian societies lives in a city, **three out of four** do in industrial societies. Occupational specialisation becomes more pronounced than ever, and people size each other up by their **jobs** rather than their kinship. Rapid change and mobility generate anonymity and diversity, and so subcultures and countercultures. The **family** loses its traditional significance as the centre of production, learning and worship, which underlies the trend towards more single people, divorced people, single-parent families, same-sex couples and stepfamilies. Early industrialisation concentrated the benefits on a small segment with the majority in poverty; over time the benefits spread, the standard of living rose about **fivefold**, and inequality declined somewhat, partly because industrial societies need a **literate and skilled labour force**, so they provide state-funded schooling and political rights.\n\n**5. Post-industrial.** In the early 1970s **Daniel Bell** coined **post-industrialism**: **computer-linked technology that supports an information-based economy**. Industrial production focuses on factories and machinery making material goods; post-industrial production focuses on computers and electronics that **create, process, store and apply information**. The same society is also called the information society, the network society, the cyber-society and the postmodern society. Individually, members of industrial societies learn **mechanical** skills, while people in post-industrial societies hone **information-based** skills, and work becomes more mental than physical, fragmented, multi-tasked and non-linear.\n\nThe occupational structure changes: less of the labour force goes into industrial production, while clerical workers, managers and other information processors swell. The Information Revolution is most pronounced in high-income societies, but its reach ties far-flung societies together and fosters **common patterns of global culture**, extending **globalisation**, and bringing what some call a **postmodern** society, where change speeds up and old boundaries break down.\n\nAnd the reminder the chapter closes the list with: **all five types still coexist**."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Table 4.1",
+          "Period",
+          "Productive technology",
+          "Population",
+          "Social organisation"
+        ],
+        "rijen": [
+          [
+            "Hunting and gathering",
+            "Only type until about 12,000 years ago; a few remain, threatened with extinction",
+            "Primitive weapons",
+            "25-40 people",
+            "Family centred; specialisation by age and sex; little inequality"
+          ],
+          [
+            "Horticultural and pastoral",
+            "From about 12,000 years ago, declining after about 3000 BCE",
+            "Hand tools for plants; domesticated animals",
+            "Settlements of several hundred, linked by trade into thousands",
+            "Family centred; religion develops; moderate specialisation; increasing inequality"
+          ],
+          [
+            "Agrarian",
+            "From about 5,000 years ago",
+            "Animal-drawn plough",
+            "Millions",
+            "Family loses ground to distinct religious, political and economic systems; extensive specialisation; high inequality"
+          ],
+          [
+            "Industrial",
+            "From about 1750",
+            "Advanced energy sources; mechanised production",
+            "Millions",
+            "Distinct religious, political, economic, educational and family systems; highly specialised; marked inequality, diminishing somewhat"
+          ],
+          [
+            "Post-industrial (information, network, cyber, postmodern)",
+            "Recent decades",
+            "Computers supporting an information-based economy",
+            "Millions",
+            "Industrial work moves to poorer societies; information and service work replace it; consumption is key"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "4.3 Technological determinism: four cautions",
+        "toetsstof": true,
+        "tekst": "Technology may create the preconditions for kinds of society, but the chapter gives **four warnings** against reading the five types as a ladder.\n\n**1. Technology does not determine societies.** There is no automatic connection between the technology available and the form of a society. **It takes people to decide how to use technologies**, and they use them in very different ways. Nazi Germany used modern technology to exterminate millions; the Incas and the Egyptians had sophisticated technologies that also involved domination and slavery. **Technology is neutral: it is people who shape technology.**\n\n**2. These societies do not simply evolve one into the next.** There is no automatic progress. In the twenty-first century all of them **coexist**. Many indigenous peoples have hunting, pastoral or agrarian societies with highly evolved technologies of their own, and it is a **Eurocentric** view that treats them as earlier or simpler than European culture.\n\n**3. Technology has limits.** It raises productivity, eliminates disease and relieves boredom, but there is **no quick fix** for deeply rooted social problems: poverty remains the plight of billions. It also creates new problems: industrial societies provide more personal freedom, often at the cost of the **sense of community** that characterised agrarian life, and international conflict now poses unimaginable horrors, since even a fraction of present nuclear stockpiles would send human society back to a technologically primitive state.\n\n**4. The environment.** Each stage has introduced more powerful energy sources and accelerated our appetite for the earth's resources faster than the population grows. The question (chapter 24): **can humanity continue to pursue material prosperity without damaging the planet beyond recovery?**\n\nThe conclusion: technology has improved life and brought people closer in a \"global village\", but in its wake are the problems of **peace, justice and a safe environment**, which technology alone can never solve."
+      },
+      {
+        "type": "tekst",
+        "titel": "4.4 Karl Marx: capitalism and conflict",
+        "toetsstof": true,
+        "tekst": "Marx (1818-83) spent most of his adult life in London, the capital of the British Empire, awed by the productive power of the new factories and appalled that the riches were concentrated in a few hands: a handful of aristocrats and industrialists in mansions, while most people worked long hours for low wages, living in slums or sleeping in the streets. His question: **in a society so rich, how could so many be so poor, and how can this be changed?**\n\n**Social conflict** is the key idea: **struggle between segments of society over valued resources**. For Marx the most significant form was conflict between **social classes** arising from the way a society produces material goods.\n\n**Society and production.** Industrial capitalism turned a small part of the population into **capitalists**, who own factories and other productive enterprises and whose goal is **profit**, the surplus of selling a product for more than it costs to produce. It turned most of the population into the **proletariat**, who provide the labour to operate those enterprises and sell their labour for wages. The conflict is built into the productive process: to maximise profits capitalists must **minimise wages**, their greatest expense, while workers want wages as high as possible, and both come from the same pool of funds.\n\n**Infrastructure and superstructure.** All societies are composed of **social institutions**, the major spheres of social life organised to meet basic human needs. Marx argued that **the economy dominates all the others**, a doctrine called **historical materialism**: how humans produce material goods shapes the rest of society. The economy is the **infrastructure** (Latin *infra*, below); the political system, family, religion and education form the **superstructure** (*supra*, above) built on it, extending economic principles into the rest of life. In practice, institutions reinforce the domination of the capitalists, by legally protecting their wealth and by transferring property between generations through the family.\n\n**False consciousness** is the next step: **explanations of social problems grounded in the shortcomings of individuals rather than the flaws of society**. People come to see their rights to private property as natural, to think the affluent have earned their wealth and that the poor lack skills or motivation. Marx rejected that as a capitalist preoccupation with the bottom line that treats human wellbeing as a market commodity. False consciousness **victimises people by obscuring the real cause of their problems**.\n\n**Conflict in history.** Marx read history as a sequence of class relations (Figure 4.3): early hunters and gatherers formed **primitive communism**, where resources were common and work was not specialised, so there was little possibility of conflict; horticulture introduced significant inequality, and in the \"ancient world\" victors in warfare forced captives into servitude, so masters and slaves were locked in conflict; agriculture brought more wealth to elites, and **feudal** serfs were only slightly better off than slaves, with church and state defining the order as God's will, so feudalism amounted to \"exploitation, veiled by religious and political illusions\"; then commerce grew, merchants and skilled crafts workers in the cities formed the **bourgeoisie** (French for \"of the town\"), and after the mid-eighteenth century, with factories at their command, they became true capitalists whose wealth shifted control of European societies to them. Industrialisation also created the **proletariat**, as landowners converted fields into sheep pasture for the textile mills and forced serfs into the cities.\n\n**Class conflict.** \"The history of all hitherto existing society is the history of class struggles\", the opening of the *Manifesto of the Communist Party* (1848, with Engels). **Class conflict** is antagonism between entire classes over the distribution of wealth and power. What distinguishes capitalism is that the conflict has come **into the open**: nobles and serfs were bound by tradition and mutual obligation, while industrial capitalism dissolved those ties and replaced pride and honour with \"naked self-interest\". For change, two things are needed: workers must become **aware** of their shared oppression and see capitalism as its cause, and they must **organise and act**. That means replacing false consciousness with **class consciousness**: the recognition by workers of their unity as a class in opposition to capitalists and to capitalism itself. Marx also saw a weakness in the capitalists' armour: driven by personal gain they fear each other's competition and are reluctant to band together, and by keeping wages low they strengthen the workers' resolve, so in the long run they contribute to their own undoing.\n\n**Alienation.** Marx condemned capitalism for producing **alienation**: **the experience of isolation resulting from powerlessness**. Dominated by capitalists and dehumanised by monotonous work, workers see themselves as a commodity, bought and discarded when no longer needed. The contradiction: as humans devise technology to gain power over the world, the productive process assumes power over humans. **Four kinds of alienation:**\n**1. From the act of working**: capitalism denies workers a say in what they produce or how, and much work is tedious repetition.\n**2. From the products of work**: the product belongs to capitalists, who dispose of it for profit, so the more workers invest of themselves the more they lose.\n**3. From other workers**: work should be the productive affirmation of human community, but capitalism turns it from a cooperative into a competitive venture.\n**4. From human potential**: the worker \"does not fulfil himself in his work but denies himself\", feeling at home only in leisure time and homeless at work.\n\n**Revolution.** The way out was to refashion society deliberately into **socialism**: a more humane and egalitarian productive system that would strengthen rather than undermine social ties. Marx was disappointed that he never saw workers in England overthrow capitalism, but was sure the working majority would in time realise they held the key. \"The proletarians have nothing to lose but their chains. They have a world to win.\""
+      },
+      {
+        "type": "tekst",
+        "titel": "4.5 Max Weber: rationalisation and disenchantment",
+        "toetsstof": true,
+        "tekst": "Weber (1864-1920) understood the power of the economic and the technological, but departed from Marx's materialism: for him **ideas, especially beliefs and values, have transforming power**. Modern society is the product not just of new technology and capitalism but of **a new way of thinking**.\n\n**Tradition and rationality.** Rather than categorising societies by technology or production, Weber highlighted how people **view the world**. Members of pre-industrial societies cling to **tradition**: sentiments and beliefs passed from generation to generation, so actions are right and proper because they have been accepted for so long. People in industrial-capitalist societies embrace **rationality**: **deliberate, matter-of-fact calculation of the most efficient means to accomplish a particular goal**. Sentiment has no place in that view, which treats tradition as just one kind of information; modern people evaluate jobs, schooling and even relationships in terms of what they put in and expect to get back.\n\nHe called the historical change from tradition to rationality the **rationalisation of society**, and concluded that modern society has been **\"disenchanted\"**, with scientific thinking sweeping away sentimental ties to the past. Willingness to adopt the latest technology is one good indicator of how rationalised a society is: inventors in ancient Greece devised elaborate mechanical devices, but since elites were served by slaves they saw them as entertainment, and some communities today oppose modern technology as a threat to tradition.\n\n**Was capitalism rational?** Here Weber and Marx debated. Weber considered industrial capitalism **the essence of rationality**, since capitalists pursue profit in eminently rational ways. Marx considered it the **antithesis** of rationality, because it failed to meet the basic needs of most people.\n\n**Calvinism and the spirit of capitalism.** Weber's answer to where industrial capitalism came from: it is the legacy of **Calvinism**, a movement of the Protestant Reformation. Calvinists approached life in a disciplined and rational way, and central to John Calvin's doctrine was **predestination**: an all-knowing God has preordained some people for salvation and others for damnation, so nothing you do can change your destiny and you cannot know it. Not knowing was intolerable, so Calvinists reasoned that those chosen for glory should see signs of divine favour in this world, and interpreted **worldly prosperity as a sign of God's grace**. They threw themselves into a quest for success with rationality, discipline and hard work. Spending money self-indulgently was sinful, and they were little moved to share wealth with the poor, whose poverty they saw as a sign of God's rejection, so they **reinvested their profits**, practised thrift and embraced technological advance: the foundation of capitalism.\n\nThat distinguished Calvinism from other world religions: **Catholicism**, the traditional religion of most of Europe, gave rise to a passive, otherworldly view with hope of reward in the life to come, and for Catholics material wealth had no such spiritual significance. Industrial capitalism therefore became established primarily where Calvinism had a strong hold. As religious fervour weakened, the success-seeking discipline remained, and the **Protestant ethic became simply a work ethic**, with wealth valued for its own sake. A telling detail: \"accounting\", which to early Calvinists meant keeping a daily record of moral deeds, now means keeping track of money.\n\n**Seven traits of rational social organisation:**\n**1. Distinctive social institutions**, separated out of family life (religion, politics, economy, and later education and health care), as a rational strategy to meet needs more efficiently.\n**2. Large-scale organisations**, from the medieval church with thousands of officials to national governments with millions of employees.\n**3. Specialised tasks**: an enormous range of occupations.\n**4. Personal discipline**, once rooted in religious belief, now encouraged by values of achievement, success and efficiency.\n**5. Awareness of time**: traditional societies measure time by sun and seasons, modern people schedule by the hour and minute. Clocks appeared in European cities some 500 years ago, just as commerce expanded, and soon people thought that \"time is money\".\n**6. Technical competence**: traditional societies evaluate people by **who** they are, by kinship; modern rationality judges people by **what** they are, their skills and abilities.\n**7. Impersonality**: technical competence takes priority over close relationships, and personal feelings tend to be devalued as \"irrational\".\n\n**Bureaucracy.** Weber called the organisational type that expresses rationality most clearly **bureaucracy**, whose offices, duties and policies are intended to achieve specific goals as efficiently as possible; traditional organisation is inefficient because it is hostile to change. **Bureaucracy transformed all of society in the same way that industrialisation transformed the economy**, and it has a special affinity with capitalism, because the capitalist market economy demands that business be discharged precisely, unambiguously, continuously and fast.\n\n**Rationality and alienation.** Weber agreed with Marx that modern society generates widespread alienation, but for a different reason: not economic inequality, but the **stifling regulation and dehumanisation of expanding bureaucracy**, which treats people as a series of cases rather than unique individuals and demands specialised, tedious routines. He portrayed the modern individual as \"only a small cog in a ceaselessly moving mechanism\", and ended his life deeply **pessimistic**, fearing that rationalisation would reduce people to robots: the **iron cage**."
+      },
+      {
+        "type": "tekst",
+        "titel": "4.6 Emile Durkheim: from mechanical to organic solidarity",
+        "toetsstof": true,
+        "tekst": "\"To love society is to love something beyond us and something in ourselves.\" Durkheim's (1858-1917) vision has three parts.\n\n**Structure: society beyond ourselves.** Society is **more than the individuals who compose it**; it has a life of its own that was here before we were born, makes claims on us while we live, and remains after we are gone. Patterns of human behaviour form established structures: **social facts** with an objective reality beyond particular individuals, such as cultural norms, values and religious beliefs. Because society is larger than individual lives it has the power to shape our thoughts and actions, so studying individuals alone, as psychologists or biologists do, can never capture human experience. Once created by people, society takes on a **momentum of its own**.\n\n**Function: society in action.** The significance of any social fact extends beyond individuals to the operation of society itself. His example is **crime**: most people think of it as harm that individuals inflict on others, but only by recognising and responding to acts as criminal do people **construct and defend morality**, which gives shape to collective life. Durkheim therefore rejected the view of crime as pathological: **crime is normal**, for the most basic of reasons, because a society could not exist without it.\n\n**Personality: society in ourselves.** Each of us builds a personality by **internalising social facts**. Society also regulates us through **moral discipline**, which we need because human beings are naturally insatiable: \"the more one has, the more one wants, since satisfactions received only stimulate instead of filling needs\". Having given us life, society must instil restraints. His study of **suicide** shows it: the **least regulated** categories of people have the highest rates, which is why, he would say, rock stars who are young, rich and famous are so vulnerable.\n\n**Modernity and anomie.** Modern societies impose fewer restrictions, and Durkheim valued that freedom but warned of a rise in **anomie**: **a condition in which society provides little moral guidance to individuals**. Sudden fame is an extreme example, tearing people away from families and routines and disrupting society's support and regulation. The desires of the individual must be balanced by the claims and guidance of society, a balance that has become **precarious** in the modern world.\n\n**Evolving societies: the division of labour.** In pre-industrial societies tradition is the social cement, and the **collective conscience** is so strong that the community quickly punishes anyone who challenges conventional ways. Durkheim called this **mechanical solidarity**: **social bonds based on shared morality that unite members of pre-industrial societies**. It springs from **likeness**, and he called it mechanical because belonging feels more or less automatic.\n\nThe decline of mechanical solidarity is the defining trait of modern society, but society does not dissolve: a new type rushes into the void. **Organic solidarity** is **social bonds based on specialisation that unite members of industrial societies**. Where solidarity was rooted in likeness, it now flows from **differences** between people whose specialised pursuits make them rely on one another. The key dimension of change is therefore the expanding **division of labour**, or specialised economic activity: members of modern societies count on tens of thousands of others, most of them strangers, for the goods and services they need every day.\n\nModernity rests less on moral consensus and more on **functional interdependence**: we depend more and more on people we trust less and less. Why put our faith in people we hardly know, whose beliefs may differ radically from ours? Durkheim's answer: **because we cannot live without them**. That is \"Durkheim's dilemma\": the technological power and personal freedom of modern society come at the cost of receding morality and the ever-present danger of anomie. Of the three classics he was the **most optimistic**, hoping we could enjoy greater freedom and privacy while creating for ourselves the regulation that tradition once forced on us."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Table 4.3",
+          "Marx",
+          "Weber",
+          "Durkheim"
+        ],
+        "rijen": [
+          [
+            "Type of society",
+            "Capitalism",
+            "Capitalism, rational and bureaucratic",
+            "Organic solidarity"
+          ],
+          [
+            "Source of change",
+            "Economic conflicts",
+            "Religion and ideas",
+            "Population density and the division of labour"
+          ],
+          [
+            "What holds society together",
+            "Little: class division, unless production becomes truly cooperative",
+            "A shared world-view, and rational large-scale organisations",
+            "Solidarity: mechanical then organic"
+          ],
+          [
+            "The future",
+            "Revolutionary change to communism; optimistic",
+            "The iron cage and the disenchantment of the world; pessimistic",
+            "New forms of association that bind people through their differences; hopeful"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "4.7 Reviewing the theories: four questions",
+        "toetsstof": true,
+        "tekst": "The chapter compares the visions by asking four questions, which is the fastest way to revise them.\n\n**How have societies changed?** The **Lenskis** see societies differing primarily in **technology**, with modern society standing out for its productive power. **Marx** also stressed productive systems but pointed to the persistence of **social conflict** throughout history, with modern society distinctive because it brings conflict into the open. **Weber** traced evolving **modes of thought**, from tradition to rationality, with bureaucracy taking a key role. **Durkheim** contrasted **mechanical** with **organic** solidarity.\n\n**Why do societies change?** Marx's **materialist** approach points to the struggle between classes as the engine of history. Weber's **idealist** view shows that modes of thought contribute too: rational Calvinism bolstered the Industrial Revolution, which reshaped modern society. Durkheim points to the expanding **division of labour**.\n\n**What holds societies together?** Marx spotlighted **division**, not unity: elites may force an uneasy peace, but true unity would come only if production became a cooperative endeavour. Weber: members share a distinctive **world-view**, and modern societies create rational, large-scale organisations with their own cultures. Durkheim made **solidarity** the focus, contrasting morality-based mechanical solidarity with practical organic solidarity.\n\n**Where are societies heading?** For **Marx**, capitalism generates the seeds of its own destruction and revolution should bring a communist order, though twentieth-century attempts in the Soviet Union and China were not successes. **Weber** had a strong pessimistic streak: the world as an **iron cage**, with growing rationality spreading disenchantment. **Durkheim** held out hope for new forms of association that would bind people through their differences and resolve anomie.\n\nThe chapter's own verdict: like a kaleidoscope, each approach shows a different pattern, and **no one approach is right or wrong in an absolute sense**."
+      },
+      {
+        "type": "tekst",
+        "titel": "4.8 The contemporary shape of world societies",
+        "toetsstof": true,
+        "tekst": "The chapter ends with a tour of the present. World population reached **6.7 billion** in mid-2007 and was projected to peak at **9 billion** in 2070.\n\n**Nation states.** There are around **200** well-identified nation states. The end of the Cold War broke up four multi-ethnic states (the USSR, Czechoslovakia, Yugoslavia and Ethiopia) into over 20 new independent states, while other places reunified: East and West Germany, Hong Kong with China, and a more unified Europe through the EU.\n\n**Languages.** There are up to **10,000** spoken languages, and since languages indicate groups they may be a better indicator of the range of societies: around 300 Native American languages, about 250 documented Australian Aboriginal ones.\n\n**First, Second and Third Worlds.** After the Second World War it was traditional to classify societies as **First World** (rich, industrialised), **Second World** (less rich, often socialist) and **Third World** (poor, developing). The model has **lost validity**: it was a product of Cold War politics, the Second World disappeared with the transformation of Eastern Europe and the Soviet Union, and it lumped more than 100 very different countries into the Third World, where the better-off (Chile) have ten times the per-person productivity of the poorest (Ethiopia). Most countries also contain their own **\"fourth worlds\"**, a World Bank term from 1978 for the very poorest countries and the poorest within wealthier ones.\n\n**High-, middle- and low-income societies.** The preferred classification today.\n- **High-income countries** are industrialised nations where most people enjoy material abundance: the US and Canada, most of Western Europe, Israel, Japan, Australia. About **40** societies that generate most of the world's goods and services. The largest and richest are the **G8**: the USA, Japan, Germany, France, the UK, Italy, Canada and Russia. People there live well not because they are brighter or harder working but because they were born in an affluent region.\n- **Middle-income countries**: around **90** nations with limited industrialisation and moderate personal income, including parts of Eastern Europe and most of Latin America. People are more likely to live rurally, to walk or ride rather than drive, and to have only a few years of schooling, with marked social inequality.\n- **Low-income countries**: about **60** nations with little industrialisation where severe poverty is the rule, most of them in Africa and Asia, where about **half the world's people** live with poor housing, unsafe water, too little food and little chance to improve their lives.\n- **Newly industrialising countries (NICs)**: lower-income countries becoming high-income fast, mainly in South-East Asia (Hong Kong, Singapore, South Korea, Thailand, Taiwan), sometimes described as an \"Asian way\" of industrialising.\n\n**The Human Development Index (HDI).** First used in **1990** by the United Nations Development Programme, a composite of three things: **longevity** (life expectancy at birth), **knowledge** (adult literacy and school enrolment) and **a decent standard of living** (adjusted income per head). Of the 177 countries listed, 63 scored high, 82 medium and 32 low. Norway, Iceland, Australia, Sweden and Ireland were the top five; Niger, Sierra Leone, Burkina Faso, Guinea-Bissau and Mali the bottom. The US was eighth, Japan seventh, the UK eighteenth. East Asia and the Pacific have advanced steadily, while South Asia and sub-Saharan Africa lag far behind, with life expectancy there of 48.8 years in 1999 and around 46 per cent living on less than a dollar a day, against about 15 per cent in East Asia, the Pacific and Latin America. Composite figures need careful interpretation, especially across cultures.\n\n**Names for twenty-first-century society.** For 50 years sociologists have claimed we are moving into a new kind of society. The chapter lists the labels, warns that they are usually written **apocalyptically** and should be read as **suggestive rather than conclusive**: the post-industrial society (Bell), the post-history society (Fukuyama), the postmodern society, late modernity (Giddens, Harvey, Habermas), reflexive modernity, the liquid society (Bauman, Urry), late capitalism, the information age or network society (Castells), the risk society (Beck), and the surveillance society (Foucault, Cohen). Others include the global age, the cosmopolitan society and the individualised society.\n\n**Conclusion.** For most of history, world societies were dominated by hunting, gathering, horticultural and agrarian forms. The past few centuries brought a major shift into a capitalist, technological and modern world, which is what Marx, Durkheim and Weber studied. Recently many industrial societies seem to be entering yet another phase, linked to computer technologies and globalisation."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "**The figures in this chapter are old**\n\nChapter 4 was written around 2007-2008. World population is well past 6.7 billion, the EU no longer has 27 members in the same shape, Russia's place in the G8 ended in 2014, and the HDI rankings have moved. The **concepts** (sociocultural evolution, the five types, alienation, rationalisation, anomie, mechanical and organic solidarity, HDI as a composite of three things) are what the midterm is about; the numbers are illustrations of their time.\n\nOne more thing to keep straight, because it is a classic exam trap: **Marx is the materialist, Weber the idealist**. Marx: the economy shapes ideas. Weber: ideas (Calvinism) helped shape the economy. Both agreed that modern society alienates people, but for different reasons: **inequality and powerlessness** for Marx, **bureaucratic regulation and dehumanisation** for Weber."
+      },
+      {
+        "type": "checklist",
+        "titel": "Summary of chapter 4",
+        "toetsstof": true,
+        "items": [
+          "Sociocultural evolution (Lenski): societies change as they gain information, especially technology, and the more they have, the faster they change.",
+          "Five types: hunting and gathering (kinship, nomadic, little inequality), horticultural and pastoral (surplus, specialisation, rising inequality), agrarian (plough, permanent settlements, money, cities, extreme inequality, men dominant), industrial (advanced energy, factories, cities, specialisation, rising living standards), post-industrial (Bell: information-based economy).",
+          "Four cautions: technology does not determine society, the types do not simply evolve and all coexist, technology has limits, and it strains the environment.",
+          "Marx: capitalists and proletariat, infrastructure and superstructure, historical materialism, false consciousness, class consciousness, four kinds of alienation, revolution towards socialism.",
+          "Weber: from tradition to rationality, the rationalisation and disenchantment of the world, Calvinism and predestination as the root of the spirit of capitalism, seven traits of rational organisation, bureaucracy, and the iron cage.",
+          "Durkheim: society beyond us (social facts), in action (even crime has a function), and in ourselves (moral discipline); anomie as the danger of modernity; mechanical to organic solidarity through the division of labour.",
+          "Compare them on four questions: how societies changed, why they change, what holds them together, and where they are heading.",
+          "Today: around 200 nation states, up to 10,000 languages, the outdated three worlds model replaced by high-, middle- and low-income societies plus NICs, and the HDI as a composite of longevity, knowledge and standard of living.",
+          "Many labels compete for twenty-first-century society: post-industrial, postmodern, late modern, liquid, network, risk and surveillance society. Treat them as suggestive, not conclusive."
+        ]
+      },
+      {
+        "type": "begrippen",
+        "items": [
+          {
+            "begrip": "Sociocultural evolution",
+            "definitie": "The Lenskis’ term: the process of change that results from a society gaining new information, particularly technology. More technological information means a faster rate of change."
+          },
+          {
+            "begrip": "Hunting and gathering",
+            "definitie": "Simple technology for hunting animals and gathering vegetation; the only type of society until about 12,000 years ago. Small nomadic bands of 25-40 people, kinship based, with a shaman as spiritual leader and little inequality."
+          },
+          {
+            "begrip": "Horticulture",
+            "definitie": "Technology based on using hand tools (the hoe, the digging stick) to cultivate plants, from 10 to 12,000 years ago. Produces settlements and a material surplus."
+          },
+          {
+            "begrip": "Pastoralism",
+            "definitie": "Technology based on the domestication of animals, chosen in arid or mountainous regions. Pastoralists remain nomadic and see God as directly involved in the world."
+          },
+          {
+            "begrip": "Material surplus",
+            "definitie": "More resources than are necessary for day-to-day living. It frees some people from producing food, which allows craft, trade and priesthood, and it intensifies social inequality."
+          },
+          {
+            "begrip": "Agriculture",
+            "definitie": "The technology of large-scale farming using ploughs harnessed to animals or more powerful energy sources, from about 5,000 years ago, along with irrigation, the wheel, writing, numbers and metals."
+          },
+          {
+            "begrip": "Industrialism",
+            "definitie": "Technology that powers sophisticated machinery with advanced sources of energy, from about 1750. Moves work to factories, grows cities, specialises occupations and weakens the family’s traditional role."
+          },
+          {
+            "begrip": "Post-industrialism",
+            "definitie": "Bell’s term for computer-linked technology supporting an information-based economy: creating, processing, storing and applying information rather than making material goods. Also called the information, network, cyber or postmodern society."
+          },
+          {
+            "begrip": "Technological determinism (and why it fails)",
+            "definitie": "The idea that technology decides the form of a society. The chapter rejects it: technology is neutral and people decide how to use it, as Nazi Germany and the Inca and Egyptian empires show."
+          },
+          {
+            "begrip": "Social conflict",
+            "definitie": "Marx: struggle between segments of society over valued resources. The most significant form is conflict between social classes arising from how a society produces material goods."
+          },
+          {
+            "begrip": "Capitalists and proletariat",
+            "definitie": "Capitalists own productive enterprises and pursue profit; the proletariat provide the labour and sell it for wages. Because wages and profits come from the same funds, conflict is built into production."
+          },
+          {
+            "begrip": "Social institutions",
+            "definitie": "The major spheres of social life, organised to meet basic human needs: economy, politics, family, religion, education. Marx held that the economy steers all the others."
+          },
+          {
+            "begrip": "Historical materialism",
+            "definitie": "The doctrine that how humans produce material goods shapes the rest of society. The basis of Marx’s claim that the economy is the real foundation of social life."
+          },
+          {
+            "begrip": "Infrastructure and superstructure",
+            "definitie": "Marx’s model: the economy is the infrastructure, the foundation; the political system, family, religion and education form the superstructure built on it, extending economic principles into the rest of life."
+          },
+          {
+            "begrip": "False consciousness",
+            "definitie": "Explanations of social problems grounded in the shortcomings of individuals rather than the flaws of society. It victimises people by obscuring the real cause of their problems."
+          },
+          {
+            "begrip": "Class consciousness",
+            "definitie": "The recognition by workers of their unity as a class in opposition to capitalists and, ultimately, to capitalism itself. The condition Marx thought necessary for change."
+          },
+          {
+            "begrip": "Class conflict",
+            "definitie": "Antagonism between entire classes over the distribution of wealth and power. Capitalism brings it into the open, because it dissolved the traditional ties between nobles and serfs."
+          },
+          {
+            "begrip": "Bourgeoisie",
+            "definitie": "French for \"of the town\": the merchants and skilled crafts workers of the medieval cities whose trading wealth grew until, with factories at their command, they became capitalists rivalling the landed nobility."
+          },
+          {
+            "begrip": "Alienation",
+            "definitie": "Marx: the experience of isolation resulting from powerlessness. Four forms: from the act of working, from the products of work, from other workers, and from human potential."
+          },
+          {
+            "begrip": "Tradition (Weber)",
+            "definitie": "Sentiments and beliefs passed from generation to generation. In traditional societies actions are right because they have long been accepted."
+          },
+          {
+            "begrip": "Rationality (Weber)",
+            "definitie": "Deliberate, matter-of-fact calculation of the most efficient means to accomplish a particular goal. The dominant mode of thought in modern society."
+          },
+          {
+            "begrip": "Rationalisation of society",
+            "definitie": "The historical change from tradition to rationality as the dominant mode of human thought, which Weber saw in both the Industrial Revolution and capitalism."
+          },
+          {
+            "begrip": "Disenchantment of the world",
+            "definitie": "Weber’s phrase for what rationalisation does: scientific thinking and technology sweep away sentimental ties to the past and the sense of magic in the world."
+          },
+          {
+            "begrip": "Predestination",
+            "definitie": "Calvin’s doctrine that God has preordained some for salvation and others for damnation, and no one can change or know their fate. The anxiety it produced drove Calvinists to read prosperity as a sign of grace."
+          },
+          {
+            "begrip": "The Protestant ethic",
+            "definitie": "Calvinist discipline, thrift, hard work and reinvestment of profit, which Weber saw as the foundation of industrial capitalism. When religious fervour faded it became simply a work ethic."
+          },
+          {
+            "begrip": "Bureaucracy (Weber)",
+            "definitie": "The organisational form that expresses rationality most clearly, with offices, duties and policies designed to reach goals as efficiently as possible. It has a special affinity with capitalism."
+          },
+          {
+            "begrip": "Iron cage",
+            "definitie": "Weber’s image of modern society as a vast system of rules that regulates everything and threatens to crush the human spirit, reducing the individual to a small cog in a ceaselessly moving mechanism."
+          },
+          {
+            "begrip": "Social facts",
+            "definitie": "Durkheim: patterns of behaviour, norms, values and beliefs that have an objective reality beyond particular individuals, and that shape our thoughts and actions."
+          },
+          {
+            "begrip": "The function of crime",
+            "definitie": "Durkheim’s counter-intuitive point: by recognising and responding to acts as criminal, people construct and defend morality, so crime is normal rather than pathological."
+          },
+          {
+            "begrip": "Anomie",
+            "definitie": "A condition in which society provides little moral guidance to individuals. Durkheim warned that modern freedom raises the risk of it; sudden fame is his extreme example."
+          },
+          {
+            "begrip": "Mechanical solidarity",
+            "definitie": "Social bonds based on shared morality that unite members of pre-industrial societies. It springs from likeness, and belonging feels automatic; the collective conscience punishes deviation quickly."
+          },
+          {
+            "begrip": "Organic solidarity",
+            "definitie": "Social bonds based on specialisation that unite members of industrial societies. Solidarity flows from differences between people whose specialised pursuits make them depend on one another."
+          },
+          {
+            "begrip": "Division of labour",
+            "definitie": "Specialised economic activity. For Durkheim its expansion is the key dimension of social change, producing functional interdependence: we depend on many people we do not know."
+          },
+          {
+            "begrip": "High-, middle- and low-income countries",
+            "definitie": "The classification that replaced the three worlds model: about 40 industrialised high-income countries (including the G8), around 90 middle-income, and about 60 low-income countries where severe poverty is the rule."
+          },
+          {
+            "begrip": "Newly industrialising countries (NICs)",
+            "definitie": "Lower-income countries becoming high-income fast, mainly in South-East Asia: Hong Kong, Singapore, South Korea, Thailand, Taiwan."
+          },
+          {
+            "begrip": "Human Development Index (HDI)",
+            "definitie": "A UNDP composite measure used since 1990, combining longevity (life expectancy), knowledge (literacy and school enrolment) and a decent standard of living (adjusted income per head)."
+          },
+          {
+            "begrip": "Labels for twenty-first-century society",
+            "definitie": "Post-industrial (Bell), postmodern, late modern (Giddens), reflexive modernity, liquid society (Bauman, Urry), late capitalism, network society (Castells), risk society (Beck), surveillance society (Foucault, Cohen). The book warns they are written apocalyptically and should be treated as suggestive."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recap",
+    "titel": "To remember",
+    "blokken": [
+      {
+        "type": "tekst",
+        "tekst": "The core of session 1 on one page: three chapters and the lecture. The details are in the Core material tabs; this tab is for revising and for checking whether you can still explain each idea without looking."
+      },
+      {
+        "type": "uitleg",
+        "titel": "What the lecturer emphasised",
+        "tekst": "Signals from the slides about what matters for the midterm.\n\n**The definition, four ways.** Sociology as a form of consciousness, a way of thinking, a critical way of seeing, a perspective. He wants the phrases, not just \"the study of society\".\n\n**Berger and Mills on separate slides.** Berger: seeing through, looking behind closed doors, seeing the general in the particular, things are not what they seem. Mills: biography and troubles against history and public issues, with student debt as the example.\n\n**The three perspectives get a full slide each, with the same structure**: an image of society (a world of balance, of difference, of meaning), the key names, the core idea, and **a criticism at the bottom**. Expect to be asked for the weakness as well as the content.\n\n**Durkheim on suicide is the example of what a theory is**, and the slide names two types: egoistic and altruistic.\n\n**One slide for the whole of chapter 4**: the definition of society, Lenski's sociocultural evolution, and the five types with two-word tags. Post-industrial gets the tag **networks, risk and surveillance**.\n\n**The last content slide is contemporary perspectives**, with **glocalisation** lifted out and put on its own line.\n\n**Practical:** the exam is on **13 November 2026**, and the reading for each week is listed on slide 3. Session 2 is chapter 7."
+      },
+      {
+        "type": "tekst",
+        "titel": "Chapter 1 in five lines",
+        "tekst": "**Sociology** is the systematic study of human society, and above all a **way of seeing**.\n**Berger**: seeing the general in the particular, and the strange in the familiar. Things are not what they seem.\n**Mills**: the sociological imagination links biography and history, and turns personal troubles into public issues.\n**Durkheim on suicide**: the most personal act follows social patterns, because low social integration means higher suicide rates.\n**Origins**: a child of the Enlightenment, named by **Comte** in 1838, driven by four changes: the industrial economy, the growth of cities, new political ideas, and the loss of community (**Toennies**: Gemeinschaft to Gesellschaft)."
+      },
+      {
+        "type": "tabel",
+        "titel": "The three classical perspectives",
+        "kop": [
+          "",
+          "Functionalism",
+          "Conflict",
+          "Symbolic interaction / action"
+        ],
+        "rijen": [
+          [
+            "Image of society",
+            "A world of balance: a system of parts working together for stability",
+            "A world of difference: an arena of inequality",
+            "A world of meaning: what people create together in interaction"
+          ],
+          [
+            "Level",
+            "Macro",
+            "Macro",
+            "Micro"
+          ],
+          [
+            "Key names",
+            "Comte, Spencer, Durkheim, Parsons, Merton",
+            "Marx, later conflict theorists",
+            "Weber, Mead, Chicago School, Goffman"
+          ],
+          [
+            "Key concepts",
+            "Structure and function; manifest and latent functions; dysfunctions",
+            "Class struggle; inequality by class, gender, race; streaming in schools",
+            "Meaning, symbols, ideal type, presentation of self, social exchange"
+          ],
+          [
+            "The question it asks",
+            "What does this contribute to the whole?",
+            "Who benefits and who loses?",
+            "What does this mean to the people involved?"
+          ],
+          [
+            "Criticism",
+            "Glosses over inequality; conservative",
+            "Glosses over shared values and interdependence; political",
+            "Obscures larger structures and context"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "Newer perspectives, and going global",
+        "tekst": "**Multiple perspectives**: all sociology comes from a standpoint, so be explicit about yours. The classical perspectives were largely by, for and about white, Western, heterosexual men; **other voices** (women, minorities, colonised peoples, LGBTQ people, disabled people) were left out or distorted. **Feminist sociology** is the prime example, and **essentialism**, treating all women as the same, is the trap inside it.\n\n**Postmodern**: Lyotard's **death of the metanarrative**, Giddens's **runaway world**, and Stones's three concerns: a plurality of perspectives, local studies, and disorder, flux and openness.\n\n**Global perspective**, for three reasons: societies are interconnected; many problems are worse or global elsewhere; comparison teaches us about ourselves. **Globalisation** is the increasing interconnectedness of societies, welcomed by transformationalists and doubted by sceptics who call it Americanisation. Seven features: TNCs and shifting economic borders, global communication networks, a global culture, international governance, shared world problems, **Beck's world risk society** with manufactured risks, and transnational actors. **Glocalisation** is the local response: Japanese hip hop."
+      },
+      {
+        "type": "tabel",
+        "titel": "Chapter 4: the five types of society",
+        "kop": [
+          "Type",
+          "Technology",
+          "Size and settlement",
+          "What changes socially"
+        ],
+        "rijen": [
+          [
+            "Hunting and gathering",
+            "Simple weapons; until about 12,000 years ago",
+            "25-40 people, nomadic",
+            "Family centred, specialisation by age and sex, little inequality"
+          ],
+          [
+            "Horticultural and pastoral",
+            "Hand tools for plants; domesticated animals",
+            "Hundreds, settlements or nomadic herding",
+            "Material surplus, first specialists, rising inequality, rudimentary government"
+          ],
+          [
+            "Agrarian",
+            "Animal-drawn plough, irrigation, writing, money",
+            "Millions, permanent settlements and cities",
+            "Extreme inequality, men dominant, religion legitimises elites, politics becomes separate"
+          ],
+          [
+            "Industrial",
+            "Advanced energy, machinery (from about 1750)",
+            "Millions, three out of four in cities",
+            "Work leaves the home, occupational identity, family loses functions, living standards rise"
+          ],
+          [
+            "Post-industrial",
+            "Computers and information technology",
+            "Millions, concentrated in cities, globalised",
+            "Information and service work, consumption, networks, risk and surveillance"
+          ]
+        ]
+      },
+      {
+        "type": "tabel",
+        "titel": "The three classics on modern society",
+        "kop": [
+          "",
+          "Marx",
+          "Weber",
+          "Durkheim"
+        ],
+        "rijen": [
+          [
+            "Modern society is",
+            "Capitalism: capitalists against proletariat",
+            "Rationalisation: a disenchanted, bureaucratic world",
+            "Organic solidarity based on the division of labour"
+          ],
+          [
+            "Its engine",
+            "Class conflict (materialist)",
+            "Ideas, especially Calvinism (idealist)",
+            "The expanding division of labour"
+          ],
+          [
+            "Its cost",
+            "Alienation from work, products, others and human potential; false consciousness",
+            "Alienation through bureaucratic regulation; the iron cage",
+            "Anomie: too little moral guidance"
+          ],
+          [
+            "Its future",
+            "Revolution towards socialism; optimistic",
+            "Deepening disenchantment; pessimistic",
+            "New forms of association; hopeful"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "And the world today",
+        "tekst": "Around **200 nation states** and up to **10,000 languages**. The **three worlds** model is out of date; the usual classification is **high-income** (about 40, including the G8), **middle-income** (about 90) and **low-income** (about 60) countries, plus **newly industrialising countries**. The **Human Development Index** combines longevity, knowledge and standard of living.\n\nMany labels compete for the present: post-industrial, postmodern, late modern, liquid, network, risk and surveillance society. Treat them as suggestive rather than conclusive."
+      },
+      {
+        "type": "hardop",
+        "titel": "Say it out loud",
+        "tekst": "Can you do these without looking?",
+        "stappen": [
+          "Explain in two sentences what makes sociology a perspective rather than a collection of facts.",
+          "Give Berger and Mills, and one example of each from your own life.",
+          "Explain Durkheim’s suicide study and why it was a strong case for sociology.",
+          "Analyse one news item of this week through all three perspectives, and name the weakness of each.",
+          "Give manifest function, latent function and dysfunction with one example.",
+          "Name Lenski’s five types with their technology, and say why the list is not a ladder.",
+          "Compare Marx, Weber and Durkheim on what modern society is, why it changes and what holds it together.",
+          "Define globalisation and glocalisation, and give an example of each."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toepassen",
+    "titel": "Applying it",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "A method for looking at anything sociologically",
+        "items": [
+          {
+            "titel": "State the particular",
+            "tekst": "What is the concrete case: one person, one incident, one figure? Write it down as it is usually told, with the everyday explanation attached."
+          },
+          {
+            "titel": "Find the general in it",
+            "tekst": "Which categories does this person or case fall into (age, class, gender, ethnicity, country, generation)? What patterns show up when you look at the category rather than the individual?"
+          },
+          {
+            "titel": "Separate troubles from issues",
+            "tekst": "Is this a personal trouble or a public issue, in Mills’s terms? Look for the numbers: one person with debt is a trouble, millions is an issue."
+          },
+          {
+            "titel": "Choose a perspective, on purpose",
+            "tekst": "Functionalist: what does this contribute to the whole, and what are the latent functions and dysfunctions? Conflict: who benefits, who loses, whose interests does the current arrangement serve? Interactionist: what does it mean to the people involved, and how do they create that meaning?"
+          },
+          {
+            "titel": "Say what each perspective misses",
+            "tekst": "Functionalism glosses over inequality, conflict theory over shared values, interactionism over structure. Naming the blind spot is what turns a description into an analysis."
+          },
+          {
+            "titel": "Place it in a type of society and a moment in history",
+            "tekst": "Which type of society are you looking at, and what does the technology make possible? Is the change you see driven by production (Marx), by ideas (Weber) or by specialisation (Durkheim)?"
+          },
+          {
+            "titel": "Zoom out to the world",
+            "tekst": "Where does this society sit globally (income level, HDI)? Is the phenomenon local, global, or a local response to something global (glocalisation)?"
+          },
+          {
+            "titel": "State your own standpoint",
+            "tekst": "Which voice are you speaking from, and whose voice is missing from your account? That is the honest version of the newer perspectives."
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-1",
+        "niveau": "basis",
+        "vraag": "A friend says: \"I chose this degree entirely myself. Nobody pushed me.\" Use the sociological perspective to respond, without denying that she made a choice.",
+        "antwoord": "Start with Berger: **seeing the general in the particular**. Her choice is real, and at the same time it sits inside patterns she did not choose.\n\n**Who studies at all.** For most people in most of the world and for most of history, higher education has been out of reach. A century or two ago it was for a tiny elite.\n\n**Who studies now.** Students are typically 18 to 24 because that is the life stage this society attaches to studying. Higher education costs money, so students come disproportionately from better-off families: the book gives a ratio of about **ten to one** between young people from service class families and those from manual working-class families, with significant variation by ethnicity and gender too.\n\n**What to say.** Not \"you had no choice\", but: the options that were visible to you, the ones that felt realistic, and the moment in your life when the choice arose were all shaped by categories you fall into. That is what it means that **society deals the hand and you play the cards**.\n\nA good answer also names the second half of the argument: the perspective is not there to make her feel less in control, but to show what is and is not within her control, which is benefit two in the book."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-2",
+        "niveau": "basis",
+        "vraag": "Take one phenomenon, the police body camera, and analyse it from each of the three classical perspectives. Give at least one manifest function, one latent function and one dysfunction.",
+        "antwoord": "**Functionalist.** Body cameras are part of a structure (policing) with consequences for the whole.\n- **Manifest function:** recording what happens during a stop, to establish the facts afterwards.\n- **Latent functions:** they change how officers and citizens behave when they know they are filmed; they generate evidence that can be used in ways nobody planned, for example for training or research; they give the force a way to show the public it is accountable.\n- **Dysfunction:** constant recording can erode trust between officers and their own supervisors, and the archive becomes a surveillance resource that reaches beyond its original purpose.\n\n**Conflict.** Who benefits and who loses? Cameras are pointed outward, at citizens, not at the organisation. Recordings may be selectively released, and access to the footage is controlled by the organisation, not by the person filmed. Whether the camera protects the citizen or the officer depends on who decides when it is switched on and who may view it. A conflict analyst would also ask which neighbourhoods get the camera-equipped patrols in the first place.\n\n**Symbolic interactionist.** What does the camera mean in the situation? For one officer it is a witness and a protection; for another it is a supervisor on the shoulder. For one citizen it signals a fair procedure; for another it signals suspicion. The stop itself becomes a **performance** for a recording audience, which changes how both parties present themselves.\n\n**What each misses.** The functionalist reading can make the camera look like a neutral improvement and gloss over who controls it. The conflict reading can gloss over the fact that many officers and citizens genuinely want the same thing here. The interactionist reading can lose sight of policy, budget and law, which decide whether the cameras exist at all."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-3",
+        "niveau": "gevorderd",
+        "vraag": "Marx and Weber both say modern society alienates people, yet they mean different things and locate the cause differently. Set out the difference, and say what each would recommend for a large security company where staff report feeling like a number.",
+        "antwoord": "**The difference in cause.**\nMarx is the **materialist**: alienation is produced by the **relations of production**. Workers do not own what they make, have no say over what they produce or how, meet each other as competitors rather than as a community, and are cut off from their human potential. Behind it lies ownership and the drive to minimise wages. The four forms: from the act of working, from the products of work, from other workers, from human potential.\n\nWeber is the **idealist** in the sense that he traces modern society to a way of thinking: alienation comes from **rationalisation** and its organisational form, **bureaucracy**. The problem is not who owns the firm but that the organisation treats people as a series of cases, prescribes specialised and tedious routines, and puts technical competence above relationships. His image is the **iron cage**, and his tone is pessimistic.\n\n**What \"feeling like a number\" would mean to each.**\nFor Marx it is evidence that labour has become a commodity: guards are deployed like equipment, hours are set by the contract with the client, and any surplus goes to the owner. He would predict that the feeling lessens only if workers get **control**, through ownership, representation or a genuine say in how the work is organised.\nFor Weber it is the predictable effect of scale: rosters made by software, an employee number, standard procedures for every situation, and promotion by certificate. He would predict that this will not go away by being nicer about it, because the efficiency that creates the problem is also the reason the organisation works.\n\n**Recommendations, and their limits.**\nFrom Marx: profit sharing, a works council with real power over rostering, teams that decide their own deployment, and permanent contracts instead of flexible pools. Limit: as long as the basic relation of employment stands, he would call these palliatives.\nFrom Weber: reduce the number of rules that serve control rather than the task, give discretion back to the front line, keep a human being rather than a system as the first point of contact, and keep teams small enough that people are known by name. Limit: he would warn that every solution tends to be institutionalised into new procedures, which is the cage closing again.\n\n**A strong answer ends by noting what they share**: both see modern work as turning an activity that should express the best in people into something dulling, and both reject the idea that the cause lies in the individual worker."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-4",
+        "niveau": "gevorderd",
+        "vraag": "A municipality wants to reduce feelings of insecurity in a neighbourhood and proposes more cameras and more lighting. Write a short sociological critique of the proposal, using at least four concepts from this session.",
+        "antwoord": "**1. Objective and subjective safety are two different things.** The proposal targets a feeling, and feelings are not a simple reflection of crime figures: crime can fall while insecurity rises. So the first question is which of the two the measures are meant to change, and how anyone would know whether they worked.\n\n**2. The meaning of the measure is not fixed (symbolic interactionism).** A camera does not carry its meaning in itself; residents **define** it. For one person it means \"we are being looked after\", for another \"this is the kind of place that needs cameras\", which can raise insecurity instead of lowering it. The **Thomas theorem**, which you meet in session 2, makes the point sharply: if residents define the neighbourhood as dangerous, that definition becomes real in its consequences, because they stay indoors, the street empties and it becomes less safe.\n\n**3. Latent functions and dysfunctions (Merton).** The manifest function is deterrence and evidence. The latent functions may be that the municipality shows it is doing something, and that the measure is easier to fund than youth work. The dysfunction may be displacement of crime to the next street, a signal effect that stigmatises the neighbourhood, and the loss of informal social control if people rely on the camera rather than on each other.\n\n**4. Who benefits, who loses (conflict).** Which neighbourhoods get cameras, and who is watched? If the measures land in poorer neighbourhoods with more residents of migrant background, the arrangement reproduces an existing inequality in who is treated as a risk. Ask also who controls the footage and who has access to it.\n\n**5. Gemeinschaft and Gesellschaft.** Toennies describes exactly the loss the proposal tries to compensate for: where people knew each other, informal control did the work; in the anonymous city the camera replaces the neighbour. Technology substitutes for community, which is a solution and an admission at the same time.\n\n**6. Standpoint.** Who was asked? The newer perspectives insist that the voices of residents, and of the young people who will be filmed, belong in the analysis rather than only the council's.\n\n**A recommendation that follows from all this:** measure both objective and subjective safety before and after, combine the technical measure with something that builds contact between residents, and be explicit about who controls the footage."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-5",
+        "niveau": "gevorderd",
+        "vraag": "\"Technology determines what a society looks like.\" Discuss, using Lenski and the four cautions in chapter 4, and give one example where the same technology produced very different societies.",
+        "antwoord": "**The case for the statement.** Lenski's **sociocultural evolution** does tie the form of a society to its technology: the hoe supports hundreds where foraging supports dozens; the plough produces surpluses, permanent settlements, money, cities and elites; machinery moves work into factories and people into cities; computers move work into information. And the **rate** of change follows the amount of technological information available, which is why the Iceman's clothing barely differs from a twentieth-century shepherd's while an industrial society transforms within a lifetime.\n\n**The case against, in four steps from the chapter.**\n1. **Technology does not determine.** There is no automatic connection between the technology available and the form of a society, because **people decide how to use it**. Technology is neutral.\n2. **The types do not evolve in a line.** All five coexist today, and treating others as earlier or simpler versions of European society is **Eurocentric**.\n3. **Technology has limits.** It does not fix deeply rooted problems such as poverty, and it creates new ones, including the loss of community and the capacity for unprecedented destruction.\n4. **The environment.** Each stage consumes more, faster than population grows.\n\n**The example.** The chapter's own: **Nazi Germany used modern technology to exterminate millions**, while the same industrial technology elsewhere raised living standards and life expectancy. The Inca and Egyptian empires had sophisticated technology combined with domination and slavery. A contemporary version: the same internet supports both an open public sphere and a surveillance state, which is exactly why the lecturer tags post-industrial society with **networks, risk and surveillance** rather than with progress.\n\n**Conclusion.** Technology sets the **preconditions**, not the outcome. The sociological question is never only what a technology makes possible, but who controls it, whose interests it serves, and what it means to the people living with it, which is where Marx, Weber and the interactionists come back in."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c1-oef-6",
+        "niveau": "gevorderd",
+        "vraag": "Explain why a global perspective is not an optional extra in sociology, and apply it to one safety and security problem of your choice.",
+        "antwoord": "**Why it is not optional.** Sociology's basic insight is that **where you are placed shapes your experience**. A global perspective simply applies that insight one level up: the **position of your society in the world system** shapes everyone in it. The global village makes the point: 20 of 100 people hold 80 per cent of the income, half cannot read or write, and being born in one place rather than another changes life expectancy by decades. The chapter gives three reasons: societies are increasingly **interconnected**; many problems are **more serious elsewhere** or **global in scope**; and comparison **teaches us about ourselves**.\n\n**Applied to cross-border cybercrime.**\n- **Interconnection.** The infrastructure is global: a phishing campaign runs from one jurisdiction, through servers in a second, against victims in a third, with the money moving through a fourth. National categories do not fit the phenomenon.\n- **Inequality.** Where the work pays better than the legitimate labour market, and where enforcement is weak, there is a supply of skilled operators. That is a structural condition, not a national character.\n- **Global governance.** The response depends on the bodies the chapter names as a feature of globalisation: treaties, mutual legal assistance, Europol and the like. Their weakness is the weakness of the response.\n- **Risk society.** Beck's point fits exactly: this is a **manufactured** risk, produced by our own technology, with consequences nobody fully foresees, and it cannot be escaped by staying home.\n- **Glocalisation.** The tactics are adapted locally: the same fraud arrives in fluent Dutch, with a Dutch bank logo and references to a local payment system.\n- **What it teaches us about ourselves.** The vulnerability is not mainly technical but social: trust, hurry, hierarchy and the wish to be helpful, which is why the countermeasure is as much about organisation and communication as about software.\n\n**The professional conclusion:** a purely national security analysis of this problem would describe the symptoms and miss both the causes and the levers."
+      }
+    ]
+  },
+  {
+    "id": "checken",
+    "titel": "Check yourself",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Sixteen questions on session 1",
+        "vragen": [
+          {
+            "vraag": "What does Berger mean by \"seeing the general in the particular\"?",
+            "opties": [
+              "That general laws of society determine individual behaviour",
+              "That sociologists identify general patterns of social life by looking at concrete individual cases",
+              "That sociology generalises without evidence",
+              "That individuals are all fundamentally the same"
+            ],
+            "juist": 1,
+            "uitleg": "It is a way of looking: the categories you fall into shape your particular experience. Option one overstates it into determinism, which the book explicitly rejects."
+          },
+          {
+            "vraag": "What is \"the first wisdom of sociology\" according to Berger?",
+            "opties": [
+              "Society is more than the sum of its parts",
+              "Things are not what they seem",
+              "Facts speak for themselves",
+              "Man is born free and everywhere he is in chains"
+            ],
+            "juist": 1,
+            "uitleg": "The line appears both in the chapter and on the lecture slide. The last option is Rousseau, quoted in the box on the Enlightenment."
+          },
+          {
+            "vraag": "Durkheim explained differences in suicide rates by:",
+            "opties": [
+              "Mental illness",
+              "The degree of social integration",
+              "Climate and geography",
+              "Levels of poverty alone"
+            ],
+            "juist": 1,
+            "uitleg": "Low integration, high rates: men, Protestants, the wealthy and the unmarried had higher rates. Poverty is tempting because the poor are usually worse off, but Durkheim found the opposite pattern for suicide."
+          },
+          {
+            "vraag": "Which pair is Mills’s?",
+            "opties": [
+              "Gemeinschaft and Gesellschaft",
+              "Personal troubles and public issues",
+              "Manifest and latent functions",
+              "Mechanical and organic solidarity"
+            ],
+            "juist": 1,
+            "uitleg": "Toennies has the first, Merton the third, Durkheim the fourth. All four pairs come from this session, which is why they are easy to mix up."
+          },
+          {
+            "vraag": "Who coined the term sociology, and in which year?",
+            "opties": [
+              "Durkheim, 1895",
+              "Comte, 1838",
+              "Spencer, 1860",
+              "Marx, 1848"
+            ],
+            "juist": 1,
+            "uitleg": "Comte, who also divided the discipline into social statics and social dynamics and argued for positivism. 1848 is the Communist Manifesto, which makes it a plausible-looking distractor."
+          },
+          {
+            "vraag": "Which is NOT one of the four changes that drove the rise of sociology?",
+            "opties": [
+              "A new industrial economy",
+              "The growth of cities",
+              "The spread of mass education",
+              "The loss of community"
+            ],
+            "juist": 2,
+            "uitleg": "The fourth is political change: new ideas of liberty and rights. Education expanded later and is a consequence rather than a driver in the book’s account."
+          },
+          {
+            "vraag": "Toennies’s Gesellschaft describes a world in which people are:",
+            "opties": [
+              "Essentially united in spite of all separating factors",
+              "Essentially separated in spite of uniting factors",
+              "Bound by mechanical solidarity",
+              "Free of social constraint"
+            ],
+            "juist": 1,
+            "uitleg": "The first option is his description of Gemeinschaft. Learning the two phrases as a pair is the safest way to keep them apart."
+          },
+          {
+            "vraag": "A theoretical perspective differs from a theory because it:",
+            "opties": [
+              "Is always correct",
+              "Is a basic image of society that guides thinking and research",
+              "Can be tested directly with data",
+              "Applies only to macro-level phenomena"
+            ],
+            "juist": 1,
+            "uitleg": "A theory states how and why specific facts are related; a perspective is the road map that decides which questions you ask. Option four ignores symbolic interactionism, which is a micro perspective."
+          },
+          {
+            "vraag": "A university is a place to meet a future partner. In Merton’s terms that is a:",
+            "opties": [
+              "Manifest function",
+              "Latent function",
+              "Dysfunction",
+              "Social structure"
+            ],
+            "juist": 1,
+            "uitleg": "Unrecognised and unintended, but a real consequence. The manifest function is providing knowledge and skills for work."
+          },
+          {
+            "vraag": "Which criticism does the book make of the functionalist perspective?",
+            "opties": [
+              "It ignores shared values",
+              "It glosses over inequality and has a conservative character",
+              "It obscures larger structures",
+              "It is too focused on individual meanings"
+            ],
+            "juist": 1,
+            "uitleg": "The other options are the criticisms of conflict theory and of interactionism. The lecturer repeats all three critiques on his slides."
+          },
+          {
+            "vraag": "Weber’s \"ideal type\" is:",
+            "opties": [
+              "A model of the best possible society",
+              "An abstract statement of the essential, often exaggerated, characteristics of a social phenomenon",
+              "A statistical average",
+              "A type of bureaucracy"
+            ],
+            "juist": 1,
+            "uitleg": "Ideal does not mean good: you can build an ideal type of criminals as easily as of priests. That is exactly the trap in this question."
+          },
+          {
+            "vraag": "According to Marx, false consciousness is:",
+            "opties": [
+              "Explaining social problems by the shortcomings of individuals rather than the flaws of society",
+              "Being unaware of your own class",
+              "Believing in religion",
+              "The ideology of the working class"
+            ],
+            "juist": 0,
+            "uitleg": "Its opposite is class consciousness: recognising the unity of workers as a class opposed to capitalism. Option two sounds close but misses the mechanism, which is about where the cause is located."
+          },
+          {
+            "vraag": "Which of these is NOT one of Marx’s four forms of alienation?",
+            "opties": [
+              "Alienation from the act of working",
+              "Alienation from the products of work",
+              "Alienation from the state",
+              "Alienation from human potential"
+            ],
+            "juist": 2,
+            "uitleg": "The fourth is alienation from other workers. The state belongs to the superstructure in Marx’s model, not to the list of alienations."
+          },
+          {
+            "vraag": "Weber traced the spirit of capitalism to:",
+            "opties": [
+              "The Industrial Revolution",
+              "Calvinism and the doctrine of predestination",
+              "The growth of cities",
+              "Roman Catholicism"
+            ],
+            "juist": 1,
+            "uitleg": "Not knowing your fate was intolerable, so worldly prosperity came to be read as a sign of grace, which produced discipline, thrift and reinvestment. Catholicism is the contrast case: otherworldly, with no spiritual significance for wealth."
+          },
+          {
+            "vraag": "Durkheim’s organic solidarity rests on:",
+            "opties": [
+              "Shared morality and likeness",
+              "Specialisation and functional interdependence",
+              "The collective conscience",
+              "Bureaucratic rules"
+            ],
+            "juist": 1,
+            "uitleg": "Mechanical solidarity is the one based on likeness and shared morality. The shift from one to the other is driven by the expanding division of labour."
+          },
+          {
+            "vraag": "Which definition matches glocalisation?",
+            "opties": [
+              "The increasing interconnectedness of societies",
+              "The process by which local communities respond differently to global changes",
+              "The spread of American culture across the world",
+              "The weakening of the nation state"
+            ],
+            "juist": 1,
+            "uitleg": "Option one is globalisation itself, option three is the sceptics’ reading of it, and option four is one of its supposed effects. Japanese hip hop is the book’s example of glocalisation."
+          }
+        ]
+      },
+      {
+        "type": "checklist",
+        "titel": "Can you do this before the midterm?",
+        "tekst": "The midterm on 13 November 2026 covers the sociology half of the course. Session 1 is the foundation, so check these first.",
+        "items": [
+          {
+            "doel": "Define sociology and explain why it is a perspective",
+            "uitleg": "Systematic study of human society; a form of consciousness, a way of thinking, a critical way of seeing."
+          },
+          {
+            "doel": "Give Berger and Mills with an example each",
+            "uitleg": "The general in the particular and the strange in the familiar; biography and history, troubles and issues."
+          },
+          {
+            "doel": "Explain Durkheim’s suicide study, and say what China adds to it",
+            "uitleg": "Social integration explains the rates; in China women outnumber men and rural rates are three times urban ones."
+          },
+          {
+            "doel": "Name the four benefits and three problems of the perspective",
+            "uitleg": "Critical consciousness, opportunities and constraints, active participation, recognising difference; a changing world, being part of what you study, and knowledge feeding back into society."
+          },
+          {
+            "doel": "Explain the origins of sociology in four changes plus Comte",
+            "uitleg": "Industrial economy, cities, political change, loss of community; Comte 1838, three stages, positivism."
+          },
+          {
+            "doel": "Set out the three perspectives with level, names, concepts and criticism",
+            "uitleg": "Use the table in the To remember tab; the criticism is half the answer."
+          },
+          {
+            "doel": "Explain manifest and latent functions and dysfunctions with one example",
+            "uitleg": "Merton; higher education works well as the example."
+          },
+          {
+            "doel": "Explain what newer perspectives add, and what essentialism is",
+            "uitleg": "Multiple standpoints, other voices, feminist sociology; essentialism assumes a pure core shared by all members of a category."
+          },
+          {
+            "doel": "Define globalisation and glocalisation and name the seven features",
+            "uitleg": "Interconnectedness, contested; TNCs, communication, culture, governance, shared problems, risk society, transnational actors."
+          },
+          {
+            "doel": "Name Lenski’s five types and the four cautions",
+            "uitleg": "Technology per type; technology does not determine, no ladder, limits, environment."
+          },
+          {
+            "doel": "Compare Marx, Weber and Durkheim on four questions",
+            "uitleg": "What modern society is, why it changes, what holds it together, where it is heading."
+          },
+          {
+            "doel": "Explain alienation, rationalisation and anomie without mixing them up",
+            "uitleg": "Marx: powerlessness in production, four forms. Weber: bureaucratic regulation, the iron cage. Durkheim: too little moral guidance."
+          },
+          {
+            "doel": "Place countries in income categories and explain the HDI",
+            "uitleg": "High, middle, low income plus NICs; longevity, knowledge, standard of living."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "titel": "Sources for this lesson",
+        "items": [
+          {
+            "apa": "Macionis, J. J., & Plummer, K. (2012). Sociology: A global introduction (5th ed.), chapter 1: The sociological imagination; chapter 2: Thinking sociologically, thinking globally; chapter 4: Societies. Pearson Education."
+          },
+          {
+            "apa": "Lecture 1: Introduction and sociological perspectives [Lecture slides]. Society & Politics, The Hague University of Applied Sciences."
+          },
+          {
+            "apa": "Berger, P. L. (1963). Invitation to sociology: A humanistic perspective. Anchor Books."
+          },
+          {
+            "apa": "Bauman, Z. (1990). Thinking sociologically. Blackwell."
+          },
+          {
+            "apa": "Mills, C. W. (1959). The sociological imagination. Oxford University Press."
+          },
+          {
+            "apa": "Durkheim, E. (1966). Suicide: A study in sociology (J. A. Spaulding & G. Simpson, Trans.). Free Press. (Original work published 1897)"
+          },
+          {
+            "apa": "Toennies, F. (1963). Community and society (C. P. Loomis, Trans.). Harper & Row. (Original work published 1887)"
+          },
+          {
+            "apa": "Merton, R. K. (1968). Social theory and social structure. Free Press."
+          },
+          {
+            "apa": "Marx, K., & Engels, F. (1972). Manifesto of the Communist Party. In R. C. Tucker (Ed.), The Marx-Engels reader. Norton. (Original work published 1848)"
+          },
+          {
+            "apa": "Weber, M. (1978). Economy and society (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1921)"
+          },
+          {
+            "apa": "Lenski, G., Nolan, P., & Lenski, J. (1995). Human societies: An introduction to macrosociology (7th ed.). McGraw-Hill."
+          },
+          {
+            "apa": "Bell, D. (1976). The coming of post-industrial society. Basic Books."
+          },
+          {
+            "apa": "Beck, U. (1992). Risk society: Towards a new modernity. Sage."
+          },
+          {
+            "apa": "Held, D., McGrew, A., Goldblatt, D., & Perraton, J. (1999). Global transformations: Politics, economics and culture. Polity Press."
+          },
+          {
+            "apa": "Condry, I. (2006). Hip-hop Japan: Rap and the paths of cultural globalization. Duke University Press."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "Next: the social construction of everyday life",
+        "tekst": "Session 2 takes the micro perspective from chapter 2 and works it out in full: chapter 7, on how we build reality together in everyday interaction.",
+        "punten": [
+          "The social construction of reality and the Thomas theorem",
+          "Socialisation, Freud and Mead, and the life course",
+          "Goffman’s dramaturgy, ethnomethodology, and the social shaping of identity, the body and emotions"
         ]
       }
     ]

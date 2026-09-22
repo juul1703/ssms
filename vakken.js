@@ -44,9 +44,9 @@
     'intro-to-safety-security': [
       { id: 'slides-1', titel: 'Sessie 1 \u00b7 SSMS & what it\u2019s all about', duur: 45 }
     ],
-    'society-politics': [
-      { id: 'slides-1', titel: 'Sessie 1 \u00b7 Introductie en sociologische perspectieven', duur: 60 }
-    ],
+    /* Society sessie 1 zit sinds v89 in de sessieles zelf (college-1),
+       dus geen losse slides-les meer. Het bestand society-slides-1.js
+       blijft nog staan tot Intro en Governance ook zijn omgezet. */
     'governance-policy': [
       { id: 'slides-1', titel: 'Sessie 1 \u00b7 Governance and Policy: an introduction', duur: 60 }
     ]
