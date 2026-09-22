@@ -841,6 +841,7 @@ a.notitie:hover .titel{color:var(--accent);}
 .les-top .leszoek-veld[hidden]{display:none;}
 .les-top .tools{min-width:0;}
 .les-top.zoekt .tools{flex:1;}
+.les-top.zoekt .tools-groep{flex:1;}
 .les-top.zoekt{gap:10px;}
 .les-top.zoekt .terug{flex:none;}
 @media (max-width:560px){

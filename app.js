@@ -808,11 +808,6 @@ function zetModus(m){
     }
   }
 
-  // Alleen het homescreen heeft deze onderdelen; les.html gebruikt dezelfde data via les.js.
-  if (!document.getElementById('semesters')) return;
-  render();
-  document.getElementById('zoek').addEventListener('input', function(e){ zoek(e.target.value); });
-
   /* ---- zoekbalk en knoppen in- en uitklappen ---- */
   var toolsGroep = document.getElementById('toolsGroep');
   var toolsKnop = document.getElementById('toolsInklap');
@@ -826,7 +821,13 @@ function zetModus(m){
       try { localStorage.setItem('ssms-tools', open ? 'open' : 'dicht'); } catch (e) {}
       if (!open) {
         var veld = document.getElementById('zoek');
-        if (veld && veld.value) { veld.value = ''; zoek(''); }
+        if (veld && veld.value && typeof zoek === 'function') { veld.value = ''; zoek(''); }
+        /* In een les: sluit ook het opengeschoven zoekveld. */
+        var lesVeld = document.getElementById('leszoekVeld');
+        if (lesVeld && !lesVeld.hidden) {
+          var lesKnop = document.getElementById('zoekKnop');
+          if (lesKnop) lesKnop.click();
+        }
       }
     };
     var bewaard = null;
@@ -836,6 +837,11 @@ function zetModus(m){
       zetTools(toolsGroep.classList.contains('dicht'));
     });
   }
+
+  // Alleen het homescreen heeft deze onderdelen; les.html gebruikt dezelfde data via les.js.
+  if (!document.getElementById('semesters')) return;
+  render();
+  document.getElementById('zoek').addEventListener('input', function(e){ zoek(e.target.value); });
 
   /* ---- roosterlink instellen ---- */
   var feedLade = document.getElementById('feedLade');

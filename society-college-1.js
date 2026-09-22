@@ -2,8 +2,8 @@
    Society & Politics, sessie 1
    Sociologische perspectieven en methoden
    Macionis & Plummer H1, H2 en H4, plus Lecture 1.
-   Deel 1: voorbereiding en kernstof hoofdstuk 1.
-   H2, H4, To remember, Toepassen en Checken volgen.
+   Deel 2: voorbereiding en kernstof H1 en H2.
+   H4, To remember, Toepassen en Checken volgen.
    ============================================================ */
 
 LESSTOF['society-politics/college-1'] = [
@@ -281,6 +281,249 @@ LESSTOF['society-politics/college-1'] = [
           {
             "begrip": "Individualisation",
             "definitie": "The contemporary condition in which people get no clear blueprint for life, have to decide what kind of life to lead, and become less committed to common standards and more self-reflective."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kern2",
+    "titel": "Core material: chapter 2",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "2.1 The global village",
+        "toetsstof": true,
+        "tekst": "Chapter 2 opens by shrinking the world's population to a village of **100 people**, to make the shape of world society visible.\n\n**Where they are from:** more than half (**61**) are from Asia, including 21 from China and 17 from India; **13** from Africa, **12** from Europe, 8 from South America, 5 from North America and 1 from Oceania.\n\n**What they believe:** 32 Christian, 19 Muslim, 13 Hindu, 12 folk religions, 6 Buddhist, 2 other religions, 1 Jewish and 15 non-religious. Of some 6,000 languages, over half the village speaks Chinese, 9 English, 8 Hindi, 7 Spanish, 4 Arabic, 4 Bengali, 3 Portuguese and 3 Russian.\n\n**What they have:** the village is rich, but **80 per cent of its income is earned by 20 people**. Half the villagers, including most of the children, go hungry, even though enough food is produced every year. The worst-off 20 residents together have less money than the single richest villager; they lack food, clean water and medicine. Another 50 have no reliable food source. Of 38 school-aged villagers, 31 attend school but only **7.5** reach university, and **half** the village can neither read nor write.\n\nThe sociological point the chapter draws: **life chances differ dramatically according to what kind of society you are born into**. Lives do not unfold by chance, and people do not live isolated lives relying on free will alone. We decide a great deal every day, but always **within a larger arena called society**. The essential wisdom of sociology is that the social world **guides and constrains** our actions and life choices, the way the seasons influence what we do and wear. And many achievements we attribute to personal ability are products of the **privileged position** we occupy in the world system."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecturer uses the same global village, with slightly different and more recent numbers: 61 in Asia, 13 in Africa, 12 in Europe, 14 in the Americas; **20 people hold 80 per cent of global income**; **50** lack regular food security or steady work; **8** attain a college degree.\n\nThe version does not matter for the exam; the question under the slide does. The lecturer writes it out: **what structural forces produce and maintain this distribution?** That is the difference between a striking statistic and a sociological question."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.2 Theory and theoretical perspective",
+        "toetsstof": true,
+        "tekst": "Students are often put off by theory, but theory is what makes sociology different from journalism or a documentary.\n\n**A theory is a statement of how and why specific facts are related.** We all generalise all the time; sociology aims to do it **systematically**. The book's example is the one you already know: Durkheim observed that some categories of people (men, Protestants, the wealthy, the unmarried) had higher suicide rates than others, and he explained the observation with a theory, that a **high risk of suicide stems from a low level of social integration**.\n\n**Linking facts is no guarantee that a theory is correct.** To evaluate a theory, sociologists use critical and logical thinking plus research tools to gather evidence. And facts are themselves a problem: what does a suicide **rate** actually measure? Does it record all suicides? How do you know a death was a suicide? Durkheim did not settle for a plausible cause; he collected data until he found the theory that best squared with the evidence.\n\n**A theoretical perspective is a basic image of society that guides thinking and research.** Where a theory is a specific statement, a perspective is the **road map**: it decides which questions you ask at all. Sociologists disagree about which questions are the most interesting, and even when they agree on the question they can differ on the answer. Some highlight how societies stay the same, others how they change; some look at what joins people, others at how society divides them by gender, race, ethnicity or class; some want to understand society as it is, others actively promote change.\n\nThree perspectives dominated sociological thinking for a long time: **functionalism, conflict theory and action theory**. They are the **classical** perspectives. Newer ones have appeared alongside them (section 2.6), and Figure 2.1, a map of sociological theory by country and date, shows something worth noticing: **a very strong male bias** in the names on it."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.3 The functionalist perspective",
+        "toetsstof": true,
+        "tekst": "**Functionalism is a framework that envisages society as a complex system whose parts work together to promote solidarity and stability.**\n\nIt starts from **social structure**: relatively stable patterns of social behaviour, which give shape to the family, to greetings in the street, to what happens in a classroom. It then asks after **social functions**: the consequences of a structure for the operation of society. Every structure, from family life to a handshake, contributes to society working as it does.\n\n**Where it comes from.** Functionalism owes much to **Comte**, who wanted to promote social integration in a time of upheaval. **Herbert Spencer (1820-1903)** studied both the human body and society and saw that the two have much in common: the skeleton, muscles and organs are interdependent and each contributes to the survival of the organism, and in the same way social structures are interdependent and work to preserve society. So the structural-functional perspective identifies the **structures** of society and investigates the **function** of each.\n\n**Spencer and social Darwinism.** Spencer coined **\"the survival of the fittest\"**, and he used it about **society**, not about living creatures; people often wrongly attribute it to Darwin. His **social Darwinism** held that if people are left to compete, the most intelligent, ambitious and productive win out, and society steadily improves. Society rewards its best members through a free-market economy without government interference, and welfare does the opposite by elevating its weakest members. Nineteenth-century industrialists applauded: John D. Rockefeller recited Spencer's \"social gospel\" to children in Sunday school, casting giant corporations as the naturally ordained survival of the fittest. Social Darwinism fell out of favour among social scientists, though it still surfaces in conservative political thought. The sociological objection: **ability only partly accounts for personal success**, favouring the rich and powerful does not necessarily benefit society as a whole, and the heartlessness of the argument strikes many people as cruel.\n\n**Durkheim** continued the development in France, but did **not** share Spencer's social Darwinism; his concern was **social solidarity**, how societies hang together (chapter 4).\n\n**Parsons and Merton.** In the United States, **Talcott Parsons (1902-79)** treated society as a system and asked what tasks all societies must perform to survive: they must be able to **adapt, achieve their goals, maintain themselves, and have members who are well socialised** into their order. Without that, a society begins to break down.\n\n**Robert K. Merton (1968)** added three refinements that are standard exam material:\n- The consequences of a social pattern **differ for different members** of a society. Conventional families support children's development, but also confer privileges on men while limiting opportunities for women.\n- **Manifest functions** are the recognised and intended consequences of a social pattern; **latent functions** are consequences that are largely unrecognised and unintended. Higher education manifestly gives people knowledge and skills for a job; latently it is a place to meet a partner, and it keeps millions of young people out of a labour market that probably could not employ them, and it reinforces a system of prestige and inequality by excluding those who do not attend.\n- **Social dysfunctions** are a pattern's undesirable consequences for the operation of society. And people **disagree** about what is useful or harmful: some argue that higher education promotes left-wing thinking that threatens traditional values, others that it is dysfunctional because it confers further privileges on the wealthy who disproportionately attend.\n\n**Critical comment.** Functionalism sees society as comprehensible, orderly and stable, and is usually coupled with scientific research methods aimed at learning what makes society tick. It **dominated sociology until the 1960s** and its influence has waned since. Critics ask how we can assume a \"natural\" order when social patterns vary from place to place and change over time, and object that by emphasising integration it **glosses over inequality** of class, race, ethnicity and gender. Its focus on stability at the expense of conflict and change gives it a **conservative character**."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.4 The conflict perspective",
+        "toetsstof": true,
+        "tekst": "**The conflict perspective is a framework that envisages society as an arena of inequality that generates conflict and change.**\n\nIt complements functionalism by highlighting not solidarity but **division based on inequality**. Sociologists using it investigate how class, race, ethnicity, sex and age are linked to the **unequal distribution of money, power, education and prestige**, and they point out that social structure typically **benefits some people while depriving others**. The focus is on ongoing conflict between dominant and disadvantaged categories: those on top strive to protect their privileges, the disadvantaged try to gain more resources.\n\n**The worked example is education.** Schooling reproduces the class structure in every new generation. It starts in primary school and continues as secondary schools **stream** students. From a functional point of view that benefits everyone, because students ideally get training that fits their abilities. Conflict analysis counters that streaming often has less to do with talent than with **social background**: well-off students end up in higher streams, poor students in lower ones. Privileged families gain favoured treatment, their children go on to occupations with prestige and high income, while children of poor families move from secondary school into low-paying jobs. The social standing of one generation is passed to the next, and schools justify it in terms not of privilege but of **individual merit** (Bowles & Gintis, 1976).\n\nConflict extends well beyond schools: the book points to the efforts of working people, women, and racial, ethnic, gay and lesbian minorities to improve their lives, where the perspective shows how inequality and conflict are **rooted in the organisation of society itself**.\n\nMany sociologists in this tradition want not just to understand society but to **reduce inequality**. That was Marx's goal, and his line on his monument in Highgate Cemetery says it: **the philosophers have only interpreted the world in various ways; the point, however, is to change it.**\n\n**Critical comment.** The perspective grew rapidly in the 1960s and 1970s. Because it highlights inequality and division, it **glosses over shared values and interdependence**. Critics add that to the extent it explicitly pursues political goals, it gives up any claim to scientific objectivity; conflict theorists reply that **no** perspective is objective and that all theoretical approaches have political consequences, only different ones. Like functionalism, its language has gone somewhat out of fashion.\n\n**One criticism that hits both macro perspectives:** they see society in very broad terms, so \"society\" becomes a thing in itself, described as a composite of \"the family\", \"social class\" and so on. That is where the third perspective comes in."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.5 The social action perspective",
+        "toetsstof": true,
+        "tekst": "Functionalism and conflict theory share a **macro-level orientation**: a focus on broad structures that characterise society as a whole, like looking at a city from a helicopter. Action theory starts with how people **orient themselves to each other on the basis of meanings**, which gives a **micro-level orientation**: a focus on social interaction in specific situations. The **macro and micro distinction** runs through the whole book.\n\n**Weber.** One founder of the action perspective is **Max Weber (1864-1920)**, who emphasised the need to understand a setting **from the point of view of the people in it**. He understood the power of technology and shared many of Marx's ideas about conflict, but departed from Marx's materialism: societies differ primarily in **how their members think about the world**, and ideas, especially beliefs and values, have **transforming power**. Modern society is the product not only of new technology and capitalism but of a **new way of thinking**. That contrast with Marx's focus on material production is why scholars describe Weber's work as **\"a debate with the ghost of Karl Marx\"**.\n\nTo sharpen comparisons Weber relied on the **ideal type**: an abstract statement of the essential, often exaggerated, characteristics of a social phenomenon. He compared the ideal \"Protestant\" with the ideal \"Jew\", \"Hindu\" and \"Buddhist\", knowing these described no actual person. Note that **\"ideal\" does not mean good**: you can build an ideal type of \"criminals\" as easily as of \"priests\".\n\n**Symbolic interactionism** is the American tradition allied to Weber. It emerges with the philosopher **George Herbert Mead (1863-1931)**, who looked at how we assemble a sense of self over time out of social experience (chapter 7), and is connected to the **Chicago School** (chapter 24), which studied city life this way. **Symbolic interactionism is a framework that envisages society as the product of the everyday interactions of people doing things together.** It calls for close observation of interaction, through tools such as **life stories** and **observation**: sociology should proceed through intimate familiarity with everyday life, not through abstract theory.\n\nHow does society result from the experiences of millions of people? Society arises as a **shared reality that its members construct as they interact**. Through finding meaning in our surroundings we define our identities, bodies and feelings and **socially construct** the world (chapter 7, session 2).\n\nThat process varies from person to person. On a city street one person defines a homeless woman as a \"no-hoper looking for a handout\" and ignores her; another defines her as a \"fellow human being in need\" and offers help. One pedestrian feels secure passing a police officer, another feels anxious. Society is therefore a **mosaic of subjective meanings and variable responses**.\n\n**Built on that foundation:**\n- **Erving Goffman (1922-82)** and **dramaturgical analysis**: we resemble actors on a stage, playing out roles before others (chapter 7).\n- **George Homans and Peter Blau** and **social exchange analysis**: interaction is a negotiation in which individuals are guided by what they stand to gain and lose. In courtship, people typically seek partners who offer at least as much, in attractiveness, intelligence and background, as they provide in return.\n\n**Critical comment.** The action perspective corrects a bias in all macro approaches: without denying the usefulness of abstractions like \"the family\" or \"social class\", society basically amounts to **people interacting**. The trouble is that by focusing on day-to-day interaction it can **obscure larger structures**, and by highlighting what is unique in each scene it risks overlooking the effects of culture, class, gender and race.\n\n**The book's own conclusion:** each perspective is partially helpful for particular kinds of question, **none is more correct than the others**, and the fullest understanding comes from applying all three: functions and dysfunctions, conflict and consensus, actions and meanings."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Table 2.1",
+          "Functionalism",
+          "Conflict",
+          "Symbolic interaction"
+        ],
+        "rijen": [
+          [
+            "Orientation",
+            "Macro-level",
+            "Macro-level",
+            "Micro-level"
+          ],
+          [
+            "Image of society",
+            "A system of interrelated parts, relatively stable, based on widespread consensus about what is morally desirable; each part has functional consequences for the whole",
+            "A system characterised by social inequality; each part benefits some categories more than others; inequality promotes social change",
+            "An ongoing process of interaction in specific settings, based on symbolic communication; perceptions of reality are variable and changing"
+          ],
+          [
+            "Core questions",
+            "How is society integrated? What are its major parts, how are they interrelated, and what are the consequences of each for the whole?",
+            "How is society divided? What are the major patterns of inequality? How do some protect their privileges and others challenge the status quo?",
+            "How is society experienced? How do people interact to create, sustain and change social patterns? How do they shape the reality others perceive?"
+          ],
+          [
+            "Key names",
+            "Comte, Spencer, Durkheim, Parsons, Merton",
+            "Marx, later conflict theorists",
+            "Weber, Mead, Chicago School, Goffman"
+          ],
+          [
+            "Main criticism",
+            "Glosses over inequality; conservative",
+            "Glosses over shared values and interdependence; political",
+            "Obscures larger structures and context"
+          ]
+        ]
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecturer gives each perspective a one-line image, and those lines are the quickest way to hold them apart: functionalism is **a world of balance**, conflict theory **a world of difference**, symbolic interactionism **a world of meaning**.\n\nEach slide also ends with the criticism, in the same words as the book: functionalism **glosses over inequality**, conflict theory **glosses over shared values and interdependence**, interactionism **obscures larger social structures and context**. When a lecturer repeats the same three critiques on three slides, expect a question that asks for the weakness of a perspective, not only its content.\n\nTwo more things the lecture emphasises: Merton's **manifest and latent functions plus dysfunctions**, and that later conflict theorists extended Marx **beyond class** to gender, race and other structured inequality."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.6 Contemporary perspectives: multiple perspectives and other voices",
+        "toetsstof": true,
+        "tekst": "The three classical perspectives are still common, but many others have emerged. Sociology is often described as having **multiple perspectives**: it takes many angles on social life rather than one, and it is a sign of a lively subject that its approaches change as society does.\n\nSome newer approaches are developments of the classics: conversational analysis focuses on language and talk (chapter 7), semiotics on systems of signs (chapter 5), Althusserian Marxism on how the state works (chapter 22).\n\nOthers go deeper and argue that sociology has entered a **crisis** in which its older ideas are too narrowly conceived. They highlight different **perspectives, standpoints, cultures or voices**, and they are self-conscious that **all** sociology comes from a position. We can never grasp the full truth of a society, so we should be open about the partial perspective we adopt. **Weber** said it long ago: there is no absolutely objective scientific analysis of culture or of social phenomena independent of special and one-sided viewpoints.\n\nThe critical version of this: the major perspective of the past has been that of **white, Western, Anglo-American, heterosexual men**. The book summarises the criticism in three points:\n1. Sociology has mainly been **by men, for men and about men**, and for men read white, heterosexual, privileged and relatively affluent, which gives it a limited and even biased approach.\n2. Areas of significance to other groups have been **overlooked**: racism for ethnic groups, patriarchy for women, homophobia for gay people, colonisation for many non-Western groups, disablement for disabled people.\n3. When those areas were included they were often presented in a **distorted** way: sociology has been sexist, racist, homophobic.\n\n**The example: feminist sociology.** The most apparent absence until the 1970s was women's voices. That changed with the **second wave of feminism** (chapter 12), which fostered a feminist sociology and a feminist methodology, placing women or gender at the centre of analysis, with an explicitly **political** aim of reducing women's subordination.\n\nBut there is no single women's voice either. Assuming all women are the same is **essentialism**: the belief in a pure core or essence, here of what it is to be a woman. The experience of a black woman living in poverty in Sierra Leone is very different from that of a white woman studying at a European university. Feminist sociology itself contains conflict perspectives, action perspectives, post-colonial and black perspectives. Bringing the voices together requires recognising that they are **fragmentary and multi-situated**.\n\n**A postmodern drift.** Sociology was born of the modern world, and now finds itself in a world where the features of modernity are **accelerating**: Giddens calls it a **\"runaway world\"**. Some thinkers go further. **Baudrillard** claims it has all been done and all that remains is to play with the pieces, which the book calls an extreme position it does not adopt. **Lyotard**'s **death of the metanarrative** rejects the idea that there is one Big Story of Sociology. **Vattimo** describes postmodernism as the liberation of differences and local elements, in which ethnic, sexual, religious, cultural and aesthetic minorities finally speak for themselves. **Rob Stones** sums up a postmodern sociology in three concerns: **a plurality of perspectives** rather than one truth from a privileged position; **local, contextual studies** instead of grand narratives; and an emphasis on **disorder, flux and openness** rather than order, continuity and restraint.\n\nThe book's own position: these newer approaches **complement and challenge** the classical ones rather than replacing them, and the aim of sociology is still to be objective, even if that is harder than sociologists used to think."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.7 Thinking globally: the global perspective and globalisation",
+        "toetsstof": true,
+        "tekst": "A **global perspective** is the study of the larger world and each society's place in it. It is a logical extension of the sociological perspective: if where you are placed in a society shapes your experience, then the **position of your society in the world system** shapes everyone's.\n\n**Three reasons why global thinking belongs in sociology:**\n**1. Societies are increasingly interconnected.** Over 300 years, through the great explorers, then colonialism, slavery and mass migration, and now high finance, tourism and the electronic world. Jets move people across continents in hours and electronics move pictures and documents in seconds. People share tastes in music, clothing and food; high-income nations cast a **global shadow**; commerce across borders has produced a global economy with financial markets operating around the clock. No trader in London can ignore Tokyo and Hong Kong, and no fisherman in Scotland can ignore the European common fishing policy. And as the West projects its way of life, **the larger world reacts back**.\n**2. Many problems we face in Europe are far more serious elsewhere.** Poverty is more widespread and severe in Latin America, Africa and Asia; the standing of women, children and disabled people is especially low in poor countries; racism takes harsher forms elsewhere, with ethnic cleansing in Bosnia, Islamophobia and hostility to German guest workers as examples (chapter 11). And many problems are **global in scope**: the world is a single ecosystem, so one nation's action or inaction affects all.\n**3. Thinking globally teaches us about ourselves.** Comparison brings unexpected lessons: a squatter settlement in Madras where people thrive in the love and support of family despite a lack of material comfort makes you ask why poverty in Europe so often involves isolation and anger, and whether material things are the best gauge of well-being.\n\n**Globalisation** can be defined simply as **the increasing interconnectedness of societies**, but the term is contested and carries ideological baggage:\n- **Transformationalists or \"hyperglobalisers\"** embrace it: it creates awareness of diversity and hybridisation, stimulates international markets and wealth, and helps towards a more universal humankind through shared environmental awareness and bodies like the United Nations.\n- **Sceptics** reply that there is nothing new: nations have always exploited, colonised and raided other cultures, and \"global\" today mostly means that dominant capitalist societies take over the finances and cultures of others, which for some is **Americanisation** rather than globalisation (Hirst & Thompson).\n- Definitions to know: **Giddens**, globalisation has to do with the thesis that we all now live in one world; **Held et al.**, the widening, deepening and speeding up of worldwide interconnectedness in all aspects of contemporary life, from the cultural to the criminal, the financial to the spiritual; **Beck**, the processes through which sovereign national states are criss-crossed and undermined by transnational actors; **Albrow**, the global age supplants modernity with globality.\n\n**Seven features of globalisation** the chapter lists:\n1. It **shifts the borders of economic transactions**: business, banking and investment cross borders, and **transnational corporations (TNCs)** can have incomes bigger than whole countries, which many argue has increased inequality within and between countries.\n2. It **expands communications into global networks**: satellites, digital media, computers and mobile phones shrink the world and force a rethinking of space and time.\n3. It **fosters a global culture**: urban areas come to look alike, programmes, music and film travel, MTV becomes a global youth form, and there is Bollywood as well as Hollywood.\n4. It **develops new forms of international governance**: the United Nations, the European Court of Human Rights, the World Health Organization, committed to what has been called the democratisation of the world.\n5. It **creates awareness of shared world problems**: crime goes global with drug markets and cyber-crime, the environment is a common problem, and migration, refugees, war and terrorism bring an international focus.\n6. It **fosters a growing sense of risk**: Ulrich Beck's **World Risk Society**. Past societies were dangerous too, but those risks were in nature; the new risks are **manufactured**, produced by humans, with massively unforeseen consequences that may take thousands of years to reverse: nuclear weapons, genetic engineering, pandemics, deforestation, new forms of terrorism.\n7. It leads to **transnational global actors who network**: from Greenpeace to Disneyworld, from the United Nations to tourism, people move in networks that are not bound to a fixed place. They are **global citizens**.\n\n**Glocalisation.** Globalisation is not simply the West flattening everything. **Glocalisation** is the process by which local communities respond differently to global changes. The chapter's case is **hip hop in Japan**: rap, itself a hybrid of African-American music, was remade in Tokyo clubs and studios. Ian Condry attended more than 120 performances and found young Japanese combining the figure of the **samurai** with American rapping techniques, manipulating the Japanese language to achieve rhyme and flow, with self-described \"yellow B-Boys\" expressing devotion to black culture. Musical traditions are rarely pure; they get spliced into **hybrid** forms, often through grassroots connections rather than big media control, even though up to 90 per cent of the global music market is held by five corporations. **Commodification**, turning aspects of life into things for sale, is central to this process."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe last content slide of the lecture is **contemporary perspectives**, and it lists exactly four things: **multiple perspectives and a multidisciplinary approach; different perspectives from women, minorities, colonised peoples, LGBTQ people and children; other voices such as postmodernism and risk consciousness; and global perspectives, meaning interconnectedness**. Under that, one word on its own: **glocalisation**, the local response to global change.\n\nThat last word is worth noticing. The lecturer lifts it out of the middle of chapter 2 and puts it on a slide of its own, which makes it the sort of term you are expected to be able to define and illustrate."
+      },
+      {
+        "type": "checklist",
+        "titel": "Summary of chapter 2",
+        "toetsstof": true,
+        "items": [
+          "The global village of 100 people shows that life chances depend on where in the world system you are born: 20 people hold 80 per cent of the income, half cannot read or write.",
+          "A theory states how and why specific facts are related; a theoretical perspective is a basic image of society that guides thinking and research.",
+          "Functionalism (macro): society as a system of interrelated parts producing stability. Spencer and social Darwinism, Durkheim on solidarity, Parsons on what societies must do, Merton on manifest and latent functions and dysfunctions. Criticised as conservative and blind to inequality.",
+          "Conflict theory (macro): society as an arena of inequality that generates conflict and change; the schooling example; Marx wanted to change the world, not only interpret it. Criticised for ignoring shared values and for being political.",
+          "Action theory and symbolic interactionism (micro): society as the product of everyday interaction. Weber on meanings and the ideal type, Mead and the Chicago School, Goffman on dramaturgy, Homans and Blau on exchange. Criticised for obscuring larger structures.",
+          "No perspective is more correct than the others; the fullest understanding comes from using all three.",
+          "Newer perspectives stress multiple standpoints and the voices left out (women, minorities, colonised peoples, gay people, disabled people); feminist sociology is the prime example, and essentialism is the trap inside it.",
+          "Postmodern sociology: Lyotard’s death of the metanarrative, Giddens’s runaway world, and Stones’s three concerns (plurality of perspectives, local studies, disorder and openness).",
+          "A global perspective is a logical extension of the sociological perspective, for three reasons: interconnection, problems that are worse or global elsewhere, and learning about ourselves.",
+          "Globalisation is the increasing interconnectedness of societies, contested between transformationalists and sceptics, with seven features including TNCs, global networks, global culture, international governance, shared problems, Beck’s world risk society and transnational actors. Glocalisation is the local response."
+        ]
+      },
+      {
+        "type": "begrippen",
+        "items": [
+          {
+            "begrip": "Theory",
+            "definitie": "A statement of how and why specific facts are related. Durkheim’s theory that a high risk of suicide stems from a low level of social integration is the book’s example."
+          },
+          {
+            "begrip": "Theoretical perspective",
+            "definitie": "A basic image of society that guides thinking and research. Broader than a theory: it decides which questions you ask at all."
+          },
+          {
+            "begrip": "Functionalism",
+            "definitie": "A macro-level framework that envisages society as a complex system whose parts work together to promote solidarity and stability. Identifies structures and asks what function each performs."
+          },
+          {
+            "begrip": "Social structure",
+            "definitie": "Relatively stable patterns of social behaviour, from family life to a handshake. The starting point of the functionalist perspective."
+          },
+          {
+            "begrip": "Social function",
+            "definitie": "The consequences of a social structure for the operation of society."
+          },
+          {
+            "begrip": "Social Darwinism",
+            "definitie": "Spencer’s idea that if people compete freely, the fittest survive and society improves, so government should not interfere. Applauded by industrialists, later rejected: ability only partly explains success."
+          },
+          {
+            "begrip": "Survival of the fittest",
+            "definitie": "Spencer’s phrase, about society rather than living creatures, often wrongly attributed to Darwin."
+          },
+          {
+            "begrip": "Manifest function",
+            "definitie": "A recognised and intended consequence of a social pattern, such as higher education giving people knowledge and skills for a job (Merton)."
+          },
+          {
+            "begrip": "Latent function",
+            "definitie": "A largely unrecognised and unintended consequence, such as university being a place to meet a partner, keeping young people out of the labour market, or reinforcing prestige and inequality (Merton)."
+          },
+          {
+            "begrip": "Social dysfunction",
+            "definitie": "An undesirable consequence of a social pattern for the operation of society. People often disagree about what counts as useful or harmful."
+          },
+          {
+            "begrip": "Conflict perspective",
+            "definitie": "A macro-level framework that envisages society as an arena of inequality that generates conflict and change; structures benefit some people while depriving others."
+          },
+          {
+            "begrip": "Streaming (as a conflict example)",
+            "definitie": "Sorting pupils into levels. Functionally it matches training to ability; the conflict reading is that it follows social background and reproduces the class structure, justified in terms of individual merit (Bowles & Gintis)."
+          },
+          {
+            "begrip": "Macro-level and micro-level orientation",
+            "definitie": "Macro: a focus on broad structures characterising society as a whole. Micro: a focus on social interaction in specific situations. Functionalism and conflict theory are macro; action theory is micro."
+          },
+          {
+            "begrip": "Action theory",
+            "definitie": "A micro-theory focusing on how actors assemble social meanings and orient themselves to each other. Founded on Weber’s insistence on understanding a setting from the point of view of the people in it."
+          },
+          {
+            "begrip": "Ideal type",
+            "definitie": "Weber’s tool: an abstract statement of the essential, often exaggerated, characteristics of a social phenomenon, used for comparison. \"Ideal\" does not mean good; you can build one of criminals as easily as of priests."
+          },
+          {
+            "begrip": "Symbolic interactionism",
+            "definitie": "A framework that envisages society as the product of the everyday interactions of people doing things together, studied through close observation and life stories. Mead, the Chicago School, Goffman."
+          },
+          {
+            "begrip": "Social exchange analysis",
+            "definitie": "Homans and Blau: interaction as a negotiation in which individuals are guided by what they stand to gain and lose, as in courtship."
+          },
+          {
+            "begrip": "Multiple perspectives",
+            "definitie": "The view that sociology takes many angles on social life rather than one, and should be explicit about the partial standpoint it adopts."
+          },
+          {
+            "begrip": "Standpoint and other voices",
+            "definitie": "The criticism that classical sociology was by, for and about white, Western, heterosexual men, and that the voices of women, minorities, colonised peoples, gay and disabled people were left out or distorted."
+          },
+          {
+            "begrip": "Feminist sociology",
+            "definitie": "Sociology that places women or gender at the centre of analysis, with an explicitly political aim of reducing women’s subordination. Grew out of the second wave of feminism from the 1970s."
+          },
+          {
+            "begrip": "Essentialism",
+            "definitie": "The belief in a pure core or essence shared by all members of a category, for example assuming all women are the same. The trap inside feminist and other standpoint approaches."
+          },
+          {
+            "begrip": "Death of the metanarrative",
+            "definitie": "Lyotard’s term, used to reject the idea that there is one single Big Story that explains society."
+          },
+          {
+            "begrip": "Postmodern sociology",
+            "definitie": "Stones sums it up in three concerns: a plurality of perspectives instead of one truth; local, contextual studies instead of grand narratives; an emphasis on disorder, flux and openness."
+          },
+          {
+            "begrip": "Runaway world",
+            "definitie": "Giddens’s image of a modernity that is speeding up rather than ending."
+          },
+          {
+            "begrip": "Global perspective",
+            "definitie": "The study of the larger world and each society’s place in it; a logical extension of the sociological perspective, because the position of a society in the world system shapes the lives in it."
+          },
+          {
+            "begrip": "Globalisation",
+            "definitie": "The increasing interconnectedness of societies. Held et al.: the widening, deepening and speeding up of worldwide interconnectedness in all aspects of life. Contested between transformationalists, who welcome it, and sceptics, who see it as Americanisation and nothing new."
+          },
+          {
+            "begrip": "Transnational corporation (TNC)",
+            "definitie": "A company operating across national borders, sometimes with income and expenditure larger than whole countries. Central to the economic side of globalisation."
+          },
+          {
+            "begrip": "World risk society",
+            "definitie": "Ulrich Beck: modern risks are not natural but manufactured, produced by human technology, with unforeseen consequences that may take thousands of years to reverse."
+          },
+          {
+            "begrip": "Glocalisation",
+            "definitie": "The process by which local communities respond differently to global changes, producing hybrid forms. The chapter’s case is Japanese hip hop, where the samurai figure meets American rapping."
+          },
+          {
+            "begrip": "Commodification",
+            "definitie": "Turning aspects of life into things for sale. Central to globalisation: music becomes a sellable object, along with the merchandising around it."
           }
         ]
       }
