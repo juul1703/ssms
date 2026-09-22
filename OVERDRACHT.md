@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v86**.
+Stand: 21 september 2026, service worker **v87**.
 
 
 ## 1. Wat het is
@@ -45,6 +45,7 @@ bestanden.
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
+| `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (in aanbouw: H1 klaar) |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
@@ -80,6 +81,7 @@ recap-society.js
 recap-professional-skills.js
 recap-governance.js
 recap-intro.js
+society-college-1.js
 intro-h7.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
@@ -390,6 +392,18 @@ mee, want dat is dubbel werk. Werkwijze:
    stap voor stap in de sessieles opgenomen en uit `SLIDES` gehaald.
    Society sessie 1 heeft nog geen sessieles; die wordt H1, H2, H4 plus de
    slides (zie hieronder).
+
+## 10a. To-do lijst (geparkeerd, 22 september)
+
+1. **Society sessie 1 afmaken**: kernstof H2 en H4, To remember (met "What the
+   lecturer emphasised"), Toepassen en Checken. H1 is klaar.
+2. **Intro H9 vertalen plus recap** (dan is sessie 6 compleet), daarna **H10**
+   voor sessie 8.
+3. Recaps voor **DRM** (sessies 3, 4, 6, 9, 11 en de conceptlijsten) en **FAW**.
+4. Rest van het vertaalwerk: Intro slides-1, H4, H6, H8, H10, H11, studiegids,
+   DRM, FAW.
+5. Society slides-1 opheffen zodra sessie 1 klaar is: de lecture zit dan in de
+   sessieles. Idem voor Intro en Governance slides-1.
 
 ## 10b. Nog openstaand
 
