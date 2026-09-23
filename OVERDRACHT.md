@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v93**.
+Stand: 21 september 2026, service worker **v94**.
 
 
 ## 1. Wat het is
@@ -411,6 +411,13 @@ mee, want dat is dubbel werk. Werkwijze:
    zijn omgezet.
 2. ~~Intro H9~~ klaar sinds v91: vertaald, eigen kernstof-tab (`kern2`) en een
    recap. Sessie 6 is compleet. Volgende: **H10** voor sessie 8.
+3a. **DRM conceptlijst deel 1** is in v94 uitgebreid: extra kernstof over de
+   vijf ethiekprincipes, de ladder data-informatie-feit-hypothese-theorie, een
+   tabel met alle vijf biases en tien fallacies plus de verwarparen, en hoe je
+   een onderzoeksdoel kiest. Toepassen bevat nu de twintig oefenvragen van het
+   huiswerkblad van workshop 1, gegroepeerd per thema, met per vraag ook
+   waarom de andere opties fout zijn. Plus een To remember-tab en een quiz van
+   zestien vragen. Deel 2 en 3 staan nog op de oude opzet.
 3. ~~FAW~~: sessie 1 en 2 zijn in v92 opnieuw gebouwd uit de slides en
    worksheets, met To remember, en het college is erin verwerkt. Let op: deze
    twee lessen hebben 10 en 14 flashcards, minder dan de norm van dertig,
