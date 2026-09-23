@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v89**.
+Stand: 21 september 2026, service worker **v90**.
 
 
 ## 1. Wat het is
@@ -227,9 +227,12 @@ verdwijnt de Terug-link zolang er gezocht wordt. Op het homescreen
 zitten de zoekbalk en de twee knoppen in `#toolsGroep`; de pijlknop
 `#toolsInklap` klapt die groep in en uit. De stand wordt bewaard in
 localStorage onder `ssms-tools`, en bij inklappen wordt het zoekveld geleegd.
-Sinds v88 staat dezelfde knop ook in de bovenbalk van een les: daar klapt hij
-het zoekveld en de drie ronde knoppen in. De code staat in `app.js` boven de
-regel die de rest van het homescreen afvangt, zodat hij op beide pagina's loopt.
+In een les doet **één** knop dit werk: `#balkKnop`, die `lesextra.js` zelf in
+de balk zet. Sinds v90 klapt die knop niet alleen de bovenbalk in (`.les-top`
+krijgt `ingeklapt`) maar ook `#toolsGroep` met het zoekveld en de drie ronde
+knoppen, en hij sluit een openstaand zoekveld. De stand staat in localStorage
+onder `ssms-balk`. Er staat dus geen aparte inklapknop meer in `les.html`; de
+code in `app.js` is alleen voor het homescreen.
 
 ### Zoeken binnen een les (nieuw in v77, knop sinds v78)
 

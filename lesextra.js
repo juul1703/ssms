@@ -24,16 +24,27 @@
     knop.id = 'balkKnop';
     knop.className = 'balk-knop';
     knop.type = 'button';
-    knop.setAttribute('aria-label', 'Balk in- of uitklappen');
+    knop.setAttribute('aria-label', 'Zoeken en knoppen in- of uitklappen');
+    knop.setAttribute('aria-controls', 'toolsGroep');
     tools.insertBefore(knop, tools.firstChild);
 
     var ingeklapt = false;
     try { ingeklapt = localStorage.getItem('ssms-balk') === 'in'; } catch(e){}
 
+    /* Eén knop voor alles: de balk zelf en de groep met het zoekveld
+       en de drie ronde knoppen. */
+    var groep = document.getElementById('toolsGroep');
     function toon(){
       top.classList.toggle('ingeklapt', ingeklapt);
+      if (groep) groep.classList.toggle('dicht', ingeklapt);
       knop.textContent = ingeklapt ? '\u2304' : '\u2303';
-      knop.title = ingeklapt ? 'Balk uitklappen' : 'Balk inklappen';
+      knop.title = ingeklapt ? 'Zoeken en knoppen uitklappen' : 'Zoeken en knoppen inklappen';
+      knop.setAttribute('aria-expanded', ingeklapt ? 'false' : 'true');
+      if (ingeklapt) {
+        var veld = document.getElementById('leszoekVeld');
+        var zk = document.getElementById('zoekKnop');
+        if (veld && !veld.hidden && zk) zk.click();
+      }
     }
     knop.addEventListener('click', function(){
       ingeklapt = !ingeklapt;

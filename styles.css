@@ -439,7 +439,7 @@ a.notitie:hover .titel{color:var(--accent);}
 .les-top.ingeklapt{padding:4px 0;}
 .les-top.ingeklapt .terug{opacity:0;pointer-events:none;}
 .balk-knop{border:1px solid var(--line);background:transparent;color:var(--muted);
-  width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:13px;line-height:1;
+  width:40px;height:40px;border-radius:50%;cursor:pointer;font-size:13px;line-height:1;
   display:inline-flex;align-items:center;justify-content:center;transition:background .15s,color .15s;}
 .balk-knop:hover{background:var(--paper2);color:var(--ink);}
 

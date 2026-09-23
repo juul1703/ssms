@@ -808,7 +808,8 @@ function zetModus(m){
     }
   }
 
-  /* ---- zoekbalk en knoppen in- en uitklappen ---- */
+  /* ---- zoekbalk en knoppen in- en uitklappen (homescreen; in een les
+     doet de balkknop uit lesextra.js dit, zie OVERDRACHT) ---- */
   var toolsGroep = document.getElementById('toolsGroep');
   var toolsKnop = document.getElementById('toolsInklap');
   if (toolsGroep && toolsKnop) {
@@ -822,12 +823,6 @@ function zetModus(m){
       if (!open) {
         var veld = document.getElementById('zoek');
         if (veld && veld.value && typeof zoek === 'function') { veld.value = ''; zoek(''); }
-        /* In een les: sluit ook het opengeschoven zoekveld. */
-        var lesVeld = document.getElementById('leszoekVeld');
-        if (lesVeld && !lesVeld.hidden) {
-          var lesKnop = document.getElementById('zoekKnop');
-          if (lesKnop) lesKnop.click();
-        }
       }
     };
     var bewaard = null;
