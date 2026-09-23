@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v90**.
+Stand: 21 september 2026, service worker **v92**.
 
 
 ## 1. Wat het is
@@ -44,13 +44,16 @@ bestanden.
 | `recap-society.js` | "To remember"-tabbladen voor Society slides-1, college-2 en college-3 |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
+| `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
-| `faw-writer-responsible.js` | FAW sessie 2: writer responsible writing, de zes technieken (sleutel `college-2`, stond tot v80 onder Naslag) |
+| `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
+| `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
+| ~~`faw-writer-responsible.js`~~ | Vervangen door `faw-college-2.js` in v92; het bestand kan uit de repo |
 | `sw.js` | Offline-cache, netwerk eerst |
 | `manifest.webmanifest` | Naam en kleur op het beginscherm |
 | `manuals/` | Zes module-pdf's, één per vak |
@@ -74,7 +77,8 @@ ps-college-2.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
-faw-writer-responsible.js
+faw-college-1.js
+faw-college-2.js
 society-college-2.js
 society-college-3.js
 recap-society.js
@@ -209,8 +213,8 @@ Intro sessie 8 (H10), DRM, FAW.
 ### Vertalen naar het Engels
 
 Afspraak: alle lesstof wordt Engels, de bedrading blijft Nederlands. Klaar:
-Intro H1, H2, H3, H5 en (sinds v84) H7. Nog Nederlands: Intro slides-1, H4,
-H6, H8, H9, H10, H11, de studiegids, DRM en FAW. Werkwijze bij vertalen: het
+Intro H1, H2, H3, H5, H7 en (sinds v91) H9. Nog Nederlands: Intro slides-1, H4,
+H6, H8, H10, H11, de studiegids, DRM en FAW. Werkwijze bij vertalen: het
 hoofdstuk uit `ssms-inhoud.js` halen, als eigen bestand `intro-h<n>.js`
 opnieuw opbouwen via een builder met JSON.stringify, scripttag toevoegen in
 de drie html-bestanden en in `sw.js`, en de naam in `BOEKEN` in `vakken.js`
@@ -405,9 +409,13 @@ mee, want dat is dubbel werk. Werkwijze:
    lecturer emphasised". De losse slides-les van Society is uit `SLIDES`
    gehaald; `society-slides-1.js` staat er nog tot Intro en Governance ook
    zijn omgezet.
-2. **Intro H9 vertalen plus recap** (dan is sessie 6 compleet), daarna **H10**
-   voor sessie 8.
-3. Recaps voor **DRM** (sessies 3, 4, 6, 9, 11 en de conceptlijsten) en **FAW**.
+2. ~~Intro H9~~ klaar sinds v91: vertaald, eigen kernstof-tab (`kern2`) en een
+   recap. Sessie 6 is compleet. Volgende: **H10** voor sessie 8.
+3. ~~FAW~~: sessie 1 en 2 zijn in v92 opnieuw gebouwd uit de slides en
+   worksheets, met To remember, en het college is erin verwerkt. Let op: deze
+   twee lessen hebben 10 en 14 flashcards, minder dan de norm van dertig,
+   omdat het vak weinig begrippen kent en vooral vaardigheid is. Nog te doen:
+   recaps voor **DRM** (sessies 3, 4, 6, 9, 11 en de conceptlijsten).
 4. Rest van het vertaalwerk: Intro slides-1, H4, H6, H8, H10, H11, studiegids,
    DRM, FAW.
 5. Society slides-1 opheffen zodra sessie 1 klaar is: de lecture zit dan in de
