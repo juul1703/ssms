@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v92**.
+Stand: 21 september 2026, service worker **v93**.
 
 
 ## 1. Wat het is

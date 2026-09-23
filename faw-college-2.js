@@ -160,7 +160,42 @@ LESSTOF['fundamentals-of-academic-writing/college-2'] = [
       },
       {
         "type": "tekst",
-        "titel": "2.7 Academic style: what the rubric calls \"style\"",
+        "titel": "2.7 The shape of a paragraph, sentence by sentence",
+        "toetsstof": true,
+        "tekst": "Section 2.6 said what each paragraph is **about**. This section says what each **sentence inside it** does, because \"write four to six sentences on one point\" is not much help when you are looking at a blank page.\n\nEvery body paragraph in a summary has the same five functions. They can take four sentences or seven, and two functions sometimes share one sentence, but the order almost never changes.\n\n**Sentence 1: the claim.** The topic sentence: topic plus controlling idea. It says what this paragraph is about and what is asserted about it. Nothing else. No date, no name, no example yet.\n\n**Sentence 2: the unpacking.** It explains the claim in one step: what it means, on what grounds, or what the position rests on. This is where a reader who knows nothing gets the footing they need. It usually starts with a repeated key word from sentence 1, which is technique 3 and technique 6 at the same time.\n\n**Sentence 3: the evidence or the specifics.** The concrete part: the figure, the mechanism, the named position, the example. This is what stops a summary from being a string of vague generalities. It often opens with a linking word (\"For example\", \"In practice\").\n\n**Sentence 4: the complication, the second case, or the contrast.** Either the other side of the comparison, or the qualification the source itself makes (\"however\", \"in contrast\", \"although\"). In a summary of a debate, this is where the second voice inside the same theme goes.\n\n**Sentence 5: the closing move.** One sentence that says what the paragraph adds up to, usually with \"this\" or \"these\" plus a summary word. It does not repeat sentence 1 in different words; it states the consequence or the significance of what you just laid out.\n\n**Watch the model paragraphs from the slides do exactly this.**\n\nThe tipping paragraph: custom exists (claim), but it varies by nation (unpacking, with \"however\"), the United States and Iceland, Mexico and Romania (evidence, with \"for example\"), the contrast inside the figures (complication, with \"while\" and \"but\"), and then \"These variations in tipping norms are sources of uncertainty for international travellers\" (closing move, with these plus summary word).\n\nThe gold paragraph: two characteristics (claim), beauty resistant to corrosion (first case), the Macedonian coin (evidence), another characteristic, usefulness to industry (second case with evidence), \"In conclusion, gold is treasured not only for its beauty but also for its utility\" (closing move).\n\nBoth are five moves. That is the shape to copy."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Where in the summary",
+          "What the paragraph does, sentence by sentence"
+        ],
+        "rijen": [
+          [
+            "Opening paragraph",
+            "1. What the subject is and why it is being discussed. 2. The topic sentence for the whole summary: the subject plus the strands you will treat, in the order you will treat them. 3-4. The minimum a reader who knows nothing needs: what kind of claim is at issue, who is involved in general terms, what is at stake. No detail, no figures, no positions yet."
+          ],
+          [
+            "Body paragraph",
+            "1. Claim (topic sentence). 2. Unpacking. 3. Evidence or specifics. 4. Complication, second case or contrast. 5. Closing move with this or these plus a summary word."
+          ],
+          [
+            "Final paragraph",
+            "1. Topic sentence naming the nature of the disagreement, not the topic again. 2. What the first side holds, in one sentence. 3. What the other side holds, in one sentence, with a contrast linker. 4. What exactly separates them: facts, probability, timescale, or what should follow from the same facts. 5. Where that leaves the question, still without your own opinion."
+          ]
+        ]
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**The three joins that hold the whole text together**\n\nBetween paragraphs, not inside them.\n\n**Join 1, from the opening to the body.** The first body paragraph must be the first strand you announced. If your opening said \"the warning, the reasoning behind it, and the objections\", then paragraph 2 is the warning. If it is not, fix the opening, not the body.\n\n**Join 2, between body paragraphs.** Open each body paragraph with a topic sentence that would make sense to someone who skipped the previous one, but add one signal of where you are: \"A second line of argument...\", \"The objections rest on different grounds...\". That is technique 2 working at paragraph level.\n\n**Join 3, from the body to the conclusion.** The conclusion must not begin with \"In conclusion\" or \"To summarise\", because in this assignment it does not summarise. It begins by naming the disagreement itself: \"What separates the two positions is less X than Y.\"\n\n**A test for the whole text.** Read only the first sentence of each paragraph, in order, plus your list of main points. Those two should say the same thing. If reading the topic sentences leaves out a strand that is in your list, or adds one that is not, the structure is off, and that costs you on content and on style at the same time."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "**Four things that go wrong in the middle**\n\n**The paragraph that turns into a list.** Five points, one sentence each, no unpacking and no closing move. It usually means the group has too many points in it. Choose what matters for a reader with no background and drop the rest; a summary is selective by definition.\n\n**The paragraph that is really two paragraphs.** You notice it because your topic sentence needs an \"and\". Split at the \"and\".\n\n**The paragraph that starts with a name or a date.** \"In 2023, researchers at ... said that ...\" That is the evidence sentence in the first position, which means the reader gets a fact before knowing what it is evidence for. Move it to position three and write the claim above it.\n\n**The paragraph that drifts.** Sentence 1 announces one thing and by sentence 5 you are somewhere else, usually because you followed the article's order inside the paragraph too. Fix it by re-reading your own topic sentence after every sentence you write, for the first few paragraphs, until the habit sticks."
+      },
+      {
+        "type": "tekst",
+        "titel": "2.8 Academic style: what the rubric calls \"style\"",
         "toetsstof": true,
         "tekst": "The style criterion is where a good summary quietly loses points, and it is one of the four criteria where a score of 1 fails you outright. The lecturer's style exercise, a text about crime in the United States, contains twelve style mistakes. These are the categories they fall into, and they are the categories to check your own draft against.\n\n**Contractions.** \"isn't\", \"wouldn't\", \"don't\". Write them out: is not, would not, does not.\n\n**Vague quantifiers.** \"a lot of money\", \"very high\", \"lots of\". Academic writing gives a figure or a specific comparison: \"a quarter of the world's prisoners\", \"the highest level since 1990\".\n\n**Conversational openers and connectors.** \"And so the important question remains\", \"Yes. But policing should be reduced.\" Sentences beginning with \"And\", \"But\" or \"So\", and one-word answers, belong to speech.\n\n**Rhetorical questions.** \"Is there any way that law enforcement can be involved?\" Turn it into a statement: \"Whether law enforcement can contribute to prevention remains contested.\"\n\n**Addressing the reader or using I and you.** \"you can see that\", \"in my opinion\". Neither appears in an academic summary.\n\n**Informal vocabulary.** \"picked out for arrest\" rather than \"selected\", \"a good idea\" rather than \"an effective measure\", \"the big cities\" rather than \"large urban areas\".\n\n**Unsupported absolutes.** \"This is also no proof\", \"results have been disappointing\". Hedge what the source hedges: \"little evidence has been found\", \"results have been limited\".\n\n**Punctuation errors that read as informality.** A comma splice joining two full sentences (\"Not much has changed since the 1970s, The primary approach is still ...\"), and an apostrophe in a decade (\"1970's\" should be \"1970s\").\n\n**A useful habit:** read your draft aloud. Anything that sounds like you are telling a friend about the article is a style problem. Anything you would say in a presentation to a client is usually fine."
       },
@@ -291,6 +326,28 @@ LESSTOF['fundamentals-of-academic-writing/college-2'] = [
         "tekst": "**Although** joins clauses **inside** a sentence: *Although the weather was cold, we decided not to wear our jackets.*\n\n**However** connects **two** sentences: *We decided not to wear our jackets. However, the weather was cold.* Or with a semicolon: *...jackets; however, the weather was cold.* A comma alone is a **comma splice**.\n\n**Never a bare \"this\" as a subject.** Add the noun: this uncertainty, this difference, this finding."
       },
       {
+      "type": "tabel",
+      "titel": "The shape of each paragraph",
+      "kop": [
+        "Part",
+        "Sentence by sentence"
+      ],
+      "rijen": [
+        [
+          "Opening paragraph",
+          "Subject and why it is discussed; the topic sentence for the whole summary with the strands in order; the minimum background a reader needs. No figures, no positions yet"
+        ],
+        [
+          "Body paragraph",
+          "1 claim, 2 unpacking, 3 evidence or specifics, 4 complication or contrast, 5 closing move with this or these plus a summary word"
+        ],
+        [
+          "Final paragraph",
+          "Name the disagreement; side one; side two with a contrast linker; what exactly separates them; where that leaves the question"
+        ]
+      ]
+    },
+    {
         "type": "tabel",
         "titel": "The summary in one table",
         "kop": [
