@@ -1,10 +1,11 @@
 /* ============================================================
    DRM concept list, part 1 (Intro to Research Methods)
    Uitgewerkt uit appendix 7 van de course manual.
-   Sinds v94: extra kernstof over ethiek, de feitenladder, biases
-   en fallacies en onderzoeksdoelen; de twintig oefenvragen van het
-   huiswerkblad van workshop 1 in Toepassen; een To remember-tab;
-   en een quiz van zestien vragen.
+   v94: extra kernstof (ethiek, feitenladder, biases en fallacies,
+   onderzoeksdoelen), de twintig oefenvragen van workshop 1, een
+   To remember-tab en een quiz van zestien vragen.
+   v95: de dertig begrippen gegroepeerd in negen kopjes in plaats van
+   dertig, en dertien lijstkaarten toegevoegd aan de flashcards.
    ============================================================ */
 
 LESSTOF['demystifying-research-methods/conceptlist-1'] = [
@@ -67,6 +68,11 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
         "type": "slimmer",
         "titel": "How to use this page",
         "tekst": "CT1 asks you to **apply** concepts (75% of the questions), not to reproduce definitions. So for each entry, force yourself to invent one safety and security example of your own. If you cannot, you do not know the concept well enough yet.\n\nUse the heading bar at the top of Core material to work through eight or ten concepts at a time and tick them off. The Flashcards tab is generated automatically from the term block at the end."
+      },
+      {
+        "type": "slimmer",
+        "titel": "If you are short on time before the quiz",
+        "tekst": "In this order, and stop when you run out of time.\n\n**1. The To remember tab (10 minutes).** The twelve pairs, the five ethics principles and the bias and fallacy lists. That tab is built out of exactly what the questions turn on.\n\n**2. The five grouped exercises in Applying it (40 minutes).** These are the twenty homework questions. Answer each one yourself first, then read why the other three options fail. This is the highest-value thing you can do, because the exam reuses the same distractors.\n\n**3. The quiz in Check yourself (15 minutes).** Sixteen questions, with an explanation per question.\n\n**4. The flashcards, starting with the list cards (15 minutes).** The five principles, the five biases, the ten fallacies and the ladder are all on single cards, so you can rehearse a whole set at once.\n\nOnly after that is it worth reading the thirty concepts in Core material again from the top."
       }
     ]
   },
@@ -81,9 +87,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "1. Informal approach",
+        "titel": "A. What research is (concepts 1-3)",
+        "tekst": "The three concepts that separate everyday conclusions from research: the informal approach, the systematic approach, and research itself."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "Drawing conclusions from **observations in daily life**: what you happen to see, plus your own opinion, rather than standard research methods.\n\nIt is quick, easy and flexible, and for most everyday decisions that is exactly right. The weakness is structural, not accidental: it runs on your **personal frame of reference**, so it is wide open to bias and subjectivity. That is why a systematic approach is recommended whenever the stakes are high.\n\nRead: Verhoeven, 2019, p. 22 (online section 1.1)."
+        "tekst": "**1. Informal approach**\n\nDrawing conclusions from **observations in daily life**: what you happen to see, plus your own opinion, rather than standard research methods.\n\nIt is quick, easy and flexible, and for most everyday decisions that is exactly right. The weakness is structural, not accidental: it runs on your **personal frame of reference**, so it is wide open to bias and subjectivity. That is why a systematic approach is recommended whenever the stakes are high.\n\nRead: Verhoeven, 2019, p. 22 (online section 1.1)."
       },
       {
         "type": "voorbeeld",
@@ -95,9 +105,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "2. Systematic approach",
         "toetsstof": true,
-        "tekst": "Observations **based on adequate research**, following standard research methods according to a fixed, methodological plan. The manual calls it an intentional set of organised activities designed to reach an objective.\n\nThe two words that carry the definition are *fixed* and *plan*. You decide in advance how you will measure, and then you do not change it halfway because the results are inconvenient. Essential in professional and high-stakes situations, where the conclusions need to be unbiased and reliable."
+        "tekst": "**2. Systematic approach**\n\nObservations **based on adequate research**, following standard research methods according to a fixed, methodological plan. The manual calls it an intentional set of organised activities designed to reach an objective.\n\nThe two words that carry the definition are *fixed* and *plan*. You decide in advance how you will measure, and then you do not change it halfway because the results are inconvenient. Essential in professional and high-stakes situations, where the conclusions need to be unbiased and reliable."
       },
       {
         "type": "voorbeeld",
@@ -105,9 +114,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "3. Research",
         "toetsstof": true,
-        "tekst": "A systematic (as far as possible) approach involving an **organised investigation into a topic to establish facts and draw conclusions**. It rests on the **scientific method**: a cyclical process of observing, asking questions, conducting strict research, and sharing the results.\n\nIn applied research the cycle starts by identifying a need (making observations), establishing a theoretical foundation (understanding the *why* from existing research), developing a research question, and designing the study. **Those first steps are this course.** Collecting data, analysing it and reporting come in semester 2."
+        "tekst": "**3. Research**\n\nA systematic (as far as possible) approach involving an **organised investigation into a topic to establish facts and draw conclusions**. It rests on the **scientific method**: a cyclical process of observing, asking questions, conducting strict research, and sharing the results.\n\nIn applied research the cycle starts by identifying a need (making observations), establishing a theoretical foundation (understanding the *why* from existing research), developing a research question, and designing the study. **Those first steps are this course.** Collecting data, analysing it and reporting come in semester 2."
       },
       {
         "type": "tekst",
@@ -158,9 +166,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "4. Fundamental research & theoretical application",
+        "titel": "B. Types of research and methods (concepts 4-6)",
+        "tekst": "Fundamental and applied research, and the methods both of them use. Exam questions here almost always turn on the purpose of the research, not on the method."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "Also called **pure** or **basic** research. Used to explore topics and to build or develop new **theories and hypotheses**. The aim is to produce and improve knowledge **for its own sake**, focusing on understanding basic principles.\n\nRead: Verhoeven, 2019, pp. 23-24 (online 1.2)."
+        "tekst": "**4. Fundamental research & theoretical application**\n\nAlso called **pure** or **basic** research. Used to explore topics and to build or develop new **theories and hypotheses**. The aim is to produce and improve knowledge **for its own sake**, focusing on understanding basic principles.\n\nRead: Verhoeven, 2019, pp. 23-24 (online 1.2)."
       },
       {
         "type": "voorbeeld",
@@ -168,9 +180,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "5. Applied research & practical application",
         "toetsstof": true,
-        "tekst": "Like fundamental research, it is conducted to acquire new knowledge. The difference is the aim: findings are **primarily aimed at resolving a specific, practical problem**.\n\nBecause of that, results are usually valid for a single situation or a limited number of situations with a similar context. Applied research often **follows on from** fundamental research: theory first, application after.\n\nSSMS is an applied sciences programme, so nearly everything you do here is applied research."
+        "tekst": "**5. Applied research & practical application**\n\nLike fundamental research, it is conducted to acquire new knowledge. The difference is the aim: findings are **primarily aimed at resolving a specific, practical problem**.\n\nBecause of that, results are usually valid for a single situation or a limited number of situations with a similar context. Applied research often **follows on from** fundamental research: theory first, application after.\n\nSSMS is an applied sciences programme, so nearly everything you do here is applied research."
       },
       {
         "type": "vergelijking",
@@ -200,15 +211,18 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "6. Research methods",
         "toetsstof": true,
-        "tekst": "The specific **procedures, strategies and techniques** used to systematically collect and analyse data, in both fundamental and applied research. They are the tools that let you uncover new information or build a better understanding.\n\nIn SSMS you will write a **methodology section** in your reports and thesis: which methods you used, and how you used them."
+        "tekst": "**6. Research methods**\n\nThe specific **procedures, strategies and techniques** used to systematically collect and analyse data, in both fundamental and applied research. They are the tools that let you uncover new information or build a better understanding.\n\nIn SSMS you will write a **methodology section** in your reports and thesis: which methods you used, and how you used them."
       },
       {
         "type": "tekst",
-        "titel": "7. Research problem",
+        "titel": "C. Framing a study (concepts 7-10)",
+        "tekst": "From a problem in the world to the questions you will actually answer: research problem, objective, question and sub-questions."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "A **statement about an area of concern, a knowledge gap, or a situation that needs improving**. It points out the need for an investigation and sets the boundaries of your topic.\n\nDeveloping it helps you understand what the problem is, how it affects society, how its elements interact, and what you as a researcher can realistically focus on. A well-defined research problem is the foundation for a focused, manageable objective and question.\n\nRead: van Tulder, 2018, pp. 88-90; Verhoeven, 2019, pp. 55-59 (online 3.1-3.2.1). Discussed in depth in lecture 3, practised in workshop 3."
+        "tekst": "**7. Research problem**\n\nA **statement about an area of concern, a knowledge gap, or a situation that needs improving**. It points out the need for an investigation and sets the boundaries of your topic.\n\nDeveloping it helps you understand what the problem is, how it affects society, how its elements interact, and what you as a researcher can realistically focus on. A well-defined research problem is the foundation for a focused, manageable objective and question.\n\nRead: van Tulder, 2018, pp. 88-90; Verhoeven, 2019, pp. 55-59 (online 3.1-3.2.1). Discussed in depth in lecture 3, practised in workshop 3."
       },
       {
         "type": "voorbeeld",
@@ -216,9 +230,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "8. Research objective",
         "toetsstof": true,
-        "tekst": "A statement or two summarising **what you are trying to achieve**. Practical and action-oriented: a direction that keeps you focused on a clear goal. Sometimes called the research goal.\n\nIt is a key part of your **golden thread**, so it has to align with your research question(s). Use **SMART** (Specific, Measurable, Achievable, Relevant, Timely) when you write it.\n\nRead: Verhoeven, 2019, pp. 73-83 (online 3.2.3)."
+        "tekst": "**8. Research objective**\n\nA statement or two summarising **what you are trying to achieve**. Practical and action-oriented: a direction that keeps you focused on a clear goal. Sometimes called the research goal.\n\nIt is a key part of your **golden thread**, so it has to align with your research question(s). Use **SMART** (Specific, Measurable, Achievable, Relevant, Timely) when you write it.\n\nRead: Verhoeven, 2019, pp. 73-83 (online 3.2.3)."
       },
       {
         "type": "voorbeeld",
@@ -230,9 +243,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "9. Research question",
         "toetsstof": true,
-        "tekst": "Also called the central or main question. The **single question your entire project is designed to answer**. It drives the research and should guide every decision you make, and your results should answer it directly.\n\nOne project, one central question. Not two, not a list."
+        "tekst": "**9. Research question**\n\nAlso called the central or main question. The **single question your entire project is designed to answer**. It drives the research and should guide every decision you make, and your results should answer it directly.\n\nOne project, one central question. Not two, not a list."
       },
       {
         "type": "voorbeeld",
@@ -240,9 +252,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "10. Research sub-questions",
         "toetsstof": true,
-        "tekst": "Secondary questions that explore different aspects of the main question. They break a complex topic into smaller, manageable parts and give your research its structure.\n\nTwo rules: they must all be **related to** the main question, and they must stay **inside its limits**. In SSMS projects you normally use **3 to 5**; on the CT2 you are asked for exactly **two**."
+        "tekst": "**10. Research sub-questions**\n\nSecondary questions that explore different aspects of the main question. They break a complex topic into smaller, manageable parts and give your research its structure.\n\nTwo rules: they must all be **related to** the main question, and they must stay **inside its limits**. In SSMS projects you normally use **3 to 5**; on the CT2 you are asked for exactly **two**."
       },
       {
         "type": "voorbeeld",
@@ -250,9 +261,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "11. Research ethics",
+        "titel": "D. Research ethics (concept 11)",
+        "tekst": "The five principles of the Netherlands Code of Conduct for Research Integrity, and the statements that belong to each."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "The ethical principles guiding all research. In safety and security your work usually involves people, so the standard is high. This course uses the **Netherlands Code of Conduct for Research Integrity (2018, pp. 13-14)** and its five core principles."
+        "tekst": "**11. Research ethics**\n\nThe ethical principles guiding all research. In safety and security your work usually involves people, so the standard is high. This course uses the **Netherlands Code of Conduct for Research Integrity (2018, pp. 13-14)** and its five core principles."
       },
       {
         "type": "tekst",
@@ -342,9 +357,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "12. Data",
+        "titel": "E. Data, information, facts and explanations (concepts 12-17)",
+        "tekst": "The ladder from raw data to verified fact, and the three things people confuse with facts: theory, framework and opinion."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "A collection of **raw facts** which on their own may have no purpose and require processing. Data points can be quantitative (numerical, statistical) or qualitative (descriptive: texts, images).\n\nData looks useless until it is organised and interpreted, which is exactly what turns it into information."
+        "tekst": "**12. Data**\n\nA collection of **raw facts** which on their own may have no purpose and require processing. Data points can be quantitative (numerical, statistical) or qualitative (descriptive: texts, images).\n\nData looks useless until it is organised and interpreted, which is exactly what turns it into information."
       },
       {
         "type": "voorbeeld",
@@ -352,9 +371,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "13. Information",
         "toetsstof": true,
-        "tekst": "The **result of processing** raw data: organising and interpreting it. Information is the perception of data, gained through analysis, which puts data points into a context that has meaning.\n\nSame numbers as above, now with meaning attached."
+        "tekst": "**13. Information**\n\nThe **result of processing** raw data: organising and interpreting it. Information is the perception of data, gained through analysis, which puts data points into a context that has meaning.\n\nSame numbers as above, now with meaning attached."
       },
       {
         "type": "voorbeeld",
@@ -362,9 +380,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "14. Fact (empirical evidence)",
         "toetsstof": true,
-        "tekst": "Information that is **demonstrably true** and can be proven through research methods such as observation or measurement. A factual claim is traceable to reliable evidence and open to checking.\n\nNot all facts are universal. Many are **time- and context-specific**, like recorded crime figures. Facts serve as empirical evidence supporting claims, generalisations and conclusions."
+        "tekst": "**14. Fact (empirical evidence)**\n\nInformation that is **demonstrably true** and can be proven through research methods such as observation or measurement. A factual claim is traceable to reliable evidence and open to checking.\n\nNot all facts are universal. Many are **time- and context-specific**, like recorded crime figures. Facts serve as empirical evidence supporting claims, generalisations and conclusions."
       },
       {
         "type": "checklist",
@@ -436,9 +453,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "15. Theory",
         "toetsstof": true,
-        "tekst": "In daily life a \"theory\" is assumed to be a guess. In research it is the opposite: a **logically consistent explanation** of a specific behaviour or set of events, based on known principles and **validated by empirical evidence**.\n\nA theory explains the process and tries to predict what happens in similar situations. Theories can change as more research is done."
+        "tekst": "**15. Theory**\n\nIn daily life a \"theory\" is assumed to be a guess. In research it is the opposite: a **logically consistent explanation** of a specific behaviour or set of events, based on known principles and **validated by empirical evidence**.\n\nA theory explains the process and tries to predict what happens in similar situations. Theories can change as more research is done."
       },
       {
         "type": "voorbeeld",
@@ -446,9 +462,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "16. Framework",
         "toetsstof": true,
-        "tekst": "A **structure, model or tool** used to investigate a research problem. It offers a specific, often step-by-step approach to analysing information or solving a problem.\n\nFrameworks are practical tools for working on complex issues; a framework often complements a theory, or is complemented by one."
+        "tekst": "**16. Framework**\n\nA **structure, model or tool** used to investigate a research problem. It offers a specific, often step-by-step approach to analysing information or solving a problem.\n\nFrameworks are practical tools for working on complex issues; a framework often complements a theory, or is complemented by one."
       },
       {
         "type": "voorbeeld",
@@ -456,9 +471,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "17. Opinion",
         "toetsstof": true,
-        "tekst": "A **personal view or belief** about a topic, not necessarily based on or supported by empirical evidence.\n\nNote the \"not necessarily\". An opinion is not automatically wrong or unsupported; it simply is not evidence in itself."
+        "tekst": "**17. Opinion**\n\nA **personal view or belief** about a topic, not necessarily based on or supported by empirical evidence.\n\nNote the \"not necessarily\". An opinion is not automatically wrong or unsupported; it simply is not evidence in itself."
       },
       {
         "type": "voorbeeld",
@@ -466,9 +480,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "18. Cognitive biases",
+        "titel": "F. Biases and fallacies (concepts 18-19)",
+        "tekst": "Five cognitive biases and ten logical fallacies, with what distinguishes each of them from its neighbour."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "A pattern of **systematic errors in thinking** resulting in a misperception of reality. They happen **unconsciously**, because of how our brains process information, and they make us vulnerable to manipulation.\n\nThis course focuses on five: **confirmation bias, availability heuristic, cognitive dissonance, social desirability, and the Dunning-Kruger effect**. The manual only works out two of them and says plainly that you have to research the other three yourself."
+        "tekst": "**18. Cognitive biases**\n\nA pattern of **systematic errors in thinking** resulting in a misperception of reality. They happen **unconsciously**, because of how our brains process information, and they make us vulnerable to manipulation.\n\nThis course focuses on five: **confirmation bias, availability heuristic, cognitive dissonance, social desirability, and the Dunning-Kruger effect**. The manual only works out two of them and says plainly that you have to research the other three yourself."
       },
       {
         "type": "voorbeeld",
@@ -476,9 +494,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "19. Logical fallacies",
         "toetsstof": true,
-        "tekst": "**Errors in reasoning** in how you make claims and construct arguments. Like cognitive biases they often happen unconsciously, but unlike biases they can also be committed **on purpose**, to persuade or mislead.\n\nThe ten this course focuses on: **anecdotal** (hasty generalisation), **appeal to authority**, **causal**, **cherry picking**, **ambiguity** (equivocation), **personal incredulity**, **burden of proof**, **slippery slope**, **strawman**, **ad hominem**."
+        "tekst": "**19. Logical fallacies**\n\n**Errors in reasoning** in how you make claims and construct arguments. Like cognitive biases they often happen unconsciously, but unlike biases they can also be committed **on purpose**, to persuade or mislead.\n\nThe ten this course focuses on: **anecdotal** (hasty generalisation), **appeal to authority**, **causal**, **cherry picking**, **ambiguity** (equivocation), **personal incredulity**, **burden of proof**, **slippery slope**, **strawman**, **ad hominem**."
       },
       {
         "type": "voorbeeld",
@@ -631,15 +648,18 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "20. Qualitative research",
-        "toetsstof": true,
-        "tekst": "Gathering **non-numerical data** about lived experiences, emotions or behaviours, and the meanings people attach to them. It gives a deep understanding of complex concepts, social interactions or cultural phenomena.\n\nUseful for exploring **how** or **why** something happened, by interpreting events and describing actions, typically through interviews and literature reviews. It generates meaning through rich description.\n\n**The majority of research in SSMS is qualitative.**"
+        "titel": "G. Qualitative, quantitative and reading (concepts 20-22)",
+        "tekst": "The two research approaches, what each is good for, and the reading techniques you need to work through sources."
       },
       {
         "type": "tekst",
-        "titel": "21. Quantitative research",
         "toetsstof": true,
-        "tekst": "Gathering **numerical and statistical data** that can be ranked, measured or categorised through statistical analysis. Used to uncover patterns or relationships and to make generalisations.\n\nUseful for **how many, how much, how often, to what exact extent**, typically through surveys and questionnaires."
+        "tekst": "**20. Qualitative research**\n\nGathering **non-numerical data** about lived experiences, emotions or behaviours, and the meanings people attach to them. It gives a deep understanding of complex concepts, social interactions or cultural phenomena.\n\nUseful for exploring **how** or **why** something happened, by interpreting events and describing actions, typically through interviews and literature reviews. It generates meaning through rich description.\n\n**The majority of research in SSMS is qualitative.**"
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**21. Quantitative research**\n\nGathering **numerical and statistical data** that can be ranked, measured or categorised through statistical analysis. Used to uncover patterns or relationships and to make generalisations.\n\nUseful for **how many, how much, how often, to what exact extent**, typically through surveys and questionnaires."
       },
       {
         "type": "voorbeeld",
@@ -647,9 +667,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "22. Reading techniques",
         "toetsstof": true,
-        "tekst": "SSMS advises three, plus a fourth you will grow into. The manual’s image: looking at a city map. **Skimming** is glancing at the whole map for the layout. **Scanning** is looking for one street name. **Detail reading** is tracing the exact route from A to B.\n\nIn practice you scan to decide whether a text has what you need, skim to get the overview (go for the spoilers: introductions and conclusions, first and last sentences), and then detail-read only the parts that turned out to matter."
+        "tekst": "**22. Reading techniques**\n\nSSMS advises three, plus a fourth you will grow into. The manual’s image: looking at a city map. **Skimming** is glancing at the whole map for the layout. **Scanning** is looking for one street name. **Detail reading** is tracing the exact route from A to B.\n\nIn practice you scan to decide whether a text has what you need, skim to get the overview (go for the spoilers: introductions and conclusions, first and last sentences), and then detail-read only the parts that turned out to matter."
       },
       {
         "type": "tekst",
@@ -694,9 +713,13 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "23. Deductive thinking",
+        "titel": "H. Deductive and inductive thinking (concepts 23-24)",
+        "tekst": "The two directions of reasoning, and where the certainty sits in each."
+      },
+      {
+        "type": "tekst",
         "toetsstof": true,
-        "tekst": "A systematic, **top-down** approach: start with a general theory or rule, move to a specific conclusion. If the general premises are true, the conclusion **must** also be true.\n\nStrongly associated with **quantitative** research, where a hypothesis derived from a theory is tested against large amounts of data.\n\n(A premise is a statement from which another follows as a conclusion.)"
+        "tekst": "**23. Deductive thinking**\n\nA systematic, **top-down** approach: start with a general theory or rule, move to a specific conclusion. If the general premises are true, the conclusion **must** also be true.\n\nStrongly associated with **quantitative** research, where a hypothesis derived from a theory is tested against large amounts of data.\n\n(A premise is a statement from which another follows as a conclusion.)"
       },
       {
         "type": "voorbeeld",
@@ -704,9 +727,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "24. Inductive thinking",
         "toetsstof": true,
-        "tekst": "A systematic, **bottom-up** approach: start with specific observations, move towards general patterns, conclusions or theories.\n\nThe generalised conclusion is **broader than the data backing it up**. So it is likely given the evidence, but not guaranteed to survive once more data appears. Used in exploratory research to generate hypotheses, and therefore it often comes **before** deductive research."
+        "tekst": "**24. Inductive thinking**\n\nA systematic, **bottom-up** approach: start with specific observations, move towards general patterns, conclusions or theories.\n\nThe generalised conclusion is **broader than the data backing it up**. So it is likely given the evidence, but not guaranteed to survive once more data appears. Used in exploratory research to generate hypotheses, and therefore it often comes **before** deductive research."
       },
       {
         "type": "voorbeeld",
@@ -718,15 +740,18 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "25. Mixed-methods research",
-        "toetsstof": true,
-        "tekst": "Combining **quantitative and qualitative** methods to gather and analyse data. This gives a more holistic understanding: statistical data plus deeper contextual insight.\n\nA typical shape: qualitative interviews first to develop a hypothesis, then a quantitative survey to test it on a larger population."
+        "titel": "I. Combining methods and seeing the whole (concepts 25-28)",
+        "tekst": "Mixed-methods, multi-method, triangulation and holism: four ways of widening a study, and the differences between them."
       },
       {
         "type": "tekst",
-        "titel": "26. Multi-method research",
         "toetsstof": true,
-        "tekst": "Using **two or more methods from the same family**: either multiple qualitative methods, or multiple quantitative methods, in one study.\n\nThe manual’s image: two different screwdrivers, a Phillips and a flathead, to build a cabinet. Multiple tools, same family. Used to understand a topic from several angles within one research paradigm."
+        "tekst": "**25. Mixed-methods research**\n\nCombining **quantitative and qualitative** methods to gather and analyse data. This gives a more holistic understanding: statistical data plus deeper contextual insight.\n\nA typical shape: qualitative interviews first to develop a hypothesis, then a quantitative survey to test it on a larger population."
+      },
+      {
+        "type": "tekst",
+        "toetsstof": true,
+        "tekst": "**26. Multi-method research**\n\nUsing **two or more methods from the same family**: either multiple qualitative methods, or multiple quantitative methods, in one study.\n\nThe manual’s image: two different screwdrivers, a Phillips and a flathead, to build a cabinet. Multiple tools, same family. Used to understand a topic from several angles within one research paradigm."
       },
       {
         "type": "vergelijking",
@@ -754,9 +779,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "27. Triangulation",
         "toetsstof": true,
-        "tekst": "Using **multiple viewpoints** to make findings more reliable, like looking at an object from different angles to see it more clearly. It lets researchers confirm findings by cross-verifying results through various standardised, systematic methods.\n\nTwo main types:\n\n**Data triangulation**: different **sources** of data. Interviewing students, teachers and parents about classroom safety.\n**Methodological triangulation**: different **methods** for the same problem. Surveys and observations of how safety is discussed in the classroom."
+        "tekst": "**27. Triangulation**\n\nUsing **multiple viewpoints** to make findings more reliable, like looking at an object from different angles to see it more clearly. It lets researchers confirm findings by cross-verifying results through various standardised, systematic methods.\n\nTwo main types:\n\n**Data triangulation**: different **sources** of data. Interviewing students, teachers and parents about classroom safety.\n**Methodological triangulation**: different **methods** for the same problem. Surveys and observations of how safety is discussed in the classroom."
       },
       {
         "type": "uitleg",
@@ -764,9 +788,8 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "tekst",
-        "titel": "28. Holism",
         "toetsstof": true,
-        "tekst": "Understanding that a system is **more than the sum of its parts**. To understand it you must look at the whole picture and at the **connections between** the parts. This helps you manage a situation more comprehensively, by taking all related factors into account."
+        "tekst": "**28. Holism**\n\nUnderstanding that a system is **more than the sum of its parts**. To understand it you must look at the whole picture and at the **connections between** the parts. This helps you manage a situation more comprehensively, by taking all related factors into account."
       },
       {
         "type": "voorbeeld",
@@ -779,7 +802,7 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
       },
       {
         "type": "begrippen",
-        "titel": "Part 1 terms",
+        "titel": "Part 1 terms, plus the lists",
         "items": [
           {
             "begrip": "Informal approach",
@@ -892,6 +915,58 @@ LESSTOF['demystifying-research-methods/conceptlist-1'] = [
           {
             "begrip": "Holism",
             "definitie": "Understanding that a system is more than the sum of its parts, so you must look at the whole and at the connections between the parts."
+          },
+          {
+            "begrip": "The five research ethics principles (list)",
+            "definitie": "1. Honesty: report truthfully, cite every source, no plagiarism, no falsification, use reliable and valid sources. 2. Scrupulousness: use proper scientific research methods with a precisely drawn design. 3. Transparency: be open about where the data came from and how it was obtained, including documentation of the design and the participants’ profile. 4. Independence: keep the design and process original and uninfluenced, and do not follow non-scientific considerations such as opinions or a client’s interests. 5. Responsibility: consider the interests of participants, stakeholders and society: informed consent, privacy, and research that is relevant."
+          },
+          {
+            "begrip": "The five cognitive biases (list)",
+            "definitie": "1. Confirmation: focusing on what supports a belief you already hold and overlooking the rest. 2. Availability heuristic: judging likelihood by how easily an example comes to mind. 3. Cognitive dissonance: adjusting a belief to remove the discomfort of a conflict with another belief or with your own behaviour. 4. Social desirability: answering the way that looks socially acceptable. 5. Dunning-Kruger: limited knowledge combined with overestimating your own ability. All five are unconscious."
+          },
+          {
+            "begrip": "The ten logical fallacies (list)",
+            "definitie": "1. Anecdotal (hasty generalisation): one story used as proof. 2. Appeal to authority: true because an authority said so. 3. Causal: cause and effect asserted without evidence. 4. Cherry picking: showing only the supporting part of the available evidence. 5. Ambiguity (equivocation): exploiting vague or double-meaning language. 6. Personal incredulity: rejecting an argument because you find it hard to believe. 7. Burden of proof: making a claim and demanding that others disprove it. 8. Slippery slope: an exaggerated chain of consequences. 9. Strawman: distorting the opponent’s argument to attack it. 10. Ad hominem: attacking the person instead of the argument. Often conscious, sometimes not."
+          },
+          {
+            "begrip": "The ladder: data, information, fact, hypothesis, theory (list)",
+            "definitie": "1. Data: raw, unprocessed numbers (quantitative) or texts and images (descriptive). 2. Information: data organised and interpreted, so it sits in a context with meaning. 3. Fact (empirical evidence): information that is demonstrably true, verifiable, observable and reproducible. 4. Hypothesis: an educated guess made before the research, giving it direction, and open to change. 5. Theory: a well-substantiated explanation supported by facts, explaining what happened, why, and what could happen in similar cases."
+          },
+          {
+            "begrip": "The five tests for a fact (list)",
+            "definitie": "1. Can it be applied to all similar situations? 2. Can it be verified by primary sources? 3. Can it be observed? 4. Can it be duplicated with the same results? 5. Has it been historically recorded? Facts can still be time- and context-specific, such as recorded crime figures."
+          },
+          {
+            "begrip": "The scientific method in applied research (list)",
+            "definitie": "1. Identify a need by making observations. 2. Establish a theoretical foundation: understand the why from existing research. 3. Develop a research question. 4. Design the study. 5. Collect data. 6. Analyse the data. 7. Report and share the results. Steps 1 to 4 are this course; 5 to 7 come in semester 2."
+          },
+          {
+            "begrip": "Framing a study: problem, objective, question, sub-questions (list)",
+            "definitie": "1. Research problem: a statement about an area of concern, a knowledge gap or a situation that needs improvement. 2. Research objective: one or two sentences on what you are trying to achieve, practical and measurable. 3. Research question: the single central question the whole project answers. 4. Research sub-questions: secondary questions that break the main question into workable parts."
+          },
+          {
+            "begrip": "Fundamental versus applied research (list)",
+            "definitie": "1. Purpose: fundamental builds knowledge and theories for their own sake; applied resolves a specific practical problem, usually for a client. 2. Other names: fundamental is also called pure or basic research. 3. Typical setting: fundamental often uses experiments under controlled conditions; applied works in the field. 4. What they share: both rest on empirical arguments, and both can be qualitative, quantitative or mixed. 5. In SSMS you do applied research."
+          },
+          {
+            "begrip": "Qualitative versus quantitative research (list)",
+            "definitie": "1. Qualitative: non-numerical data about experiences, emotions, behaviour and meaning; answers how and why; interviews and literature; produces rich description. 2. Quantitative: numerical and statistical data that can be ranked, measured or categorised; answers how many, how much, how often; surveys and questionnaires; produces patterns and generalisations. 3. Most SSMS research is qualitative."
+          },
+          {
+            "begrip": "Deductive versus inductive thinking (list)",
+            "definitie": "1. Deductive is top-down: general theory or rule, then a specific conclusion; if the premises are true the conclusion must be true; paired with quantitative research and hypothesis testing. 2. Inductive is bottom-up: specific observations, then a general pattern or theory; the conclusion is broader than the data, so it is likely but not guaranteed; paired with exploratory research and hypothesis building, and it usually comes first."
+          },
+          {
+            "begrip": "Mixed-methods, multi-method and triangulation (list)",
+            "definitie": "1. Mixed-methods: methods from different families, so quantitative plus qualitative. 2. Multi-method: two or more methods from the same family, so two qualitative or two quantitative ones. 3. Counting methods tells you nothing; only the families do. 4. Triangulation: using multiple viewpoints so findings can be cross-verified. 5. Data triangulation uses different sources; methodological triangulation uses different methods; mixed-methods research is one way of achieving it."
+          },
+          {
+            "begrip": "Informal versus systematic approach (list)",
+            "definitie": "1. Informal: conclusions from everyday observation plus your own opinion; quick and flexible; runs on your personal frame of reference, so it is open to bias and subjectivity. 2. Systematic: observation based on adequate research, following standard methods and a fixed methodological plan decided in advance. 3. Use systematic whenever the stakes are high and the conclusion must be reliable. 4. Research is systematic; an investigation is not automatically so."
+          },
+          {
+            "begrip": "The four reading techniques (list)",
+            "definitie": "1. Skimming: reading quickly for the general idea. 2. Scanning: searching for specific information. 3. Detailed or intensive reading: reading closely for full understanding. 4. Critical reading: evaluating the argument, the evidence and the source while you read, which is the one you grow into during the degree."
           }
         ]
       }

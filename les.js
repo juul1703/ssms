@@ -288,6 +288,7 @@
 
     laadNotitie();
     laadOefeningen();
+    laadQuiz();
     toonTabs();
     toonVoortgang();
     if (!bewaarPlek) window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -472,6 +473,24 @@
     });
   }
 
+  /* ---- gegeven quizantwoorden bewaren ----
+     Per les, per tabblad en per vraag. Kom je later terug, dan staan je
+     antwoorden er nog, met de uitleg en de score. */
+  function quizSleutel(q, i){
+    return basis + '-' + onderdelen[actief].id + '-quiz' + q + '-v' + i;
+  }
+  function laadQuiz(){
+    document.querySelectorAll('.quiz').forEach(function(quiz, q){
+      quiz.querySelectorAll('.qvraag').forEach(function(vraag, i){
+        var gekozen = null;
+        try { gekozen = localStorage.getItem(quizSleutel(q, i)); } catch(e){}
+        if (gekozen === null) return;
+        var knop = vraag.querySelector('.qoptie[data-optie="' + gekozen + '"]');
+        if (knop) antwoordQuiz(knop, true);
+      });
+    });
+  }
+
   /* ---- kopiëren ---- */
   var meldTimer;
   function meld(tekst){
@@ -635,7 +654,7 @@
   });
 
   /* ---- quiz ---- */
-  function antwoordQuiz(knop){
+  function antwoordQuiz(knop, hersteld){
     var vraag = knop.closest('.qvraag');
     if (vraag.classList.contains('beantwoord')) return;
     var juist = +vraag.getAttribute('data-juist');
@@ -654,6 +673,13 @@
     var score = quiz.querySelector('[data-score]');
     score.textContent = goed + ' / ' + totaal;
     score.classList.add('actief');
+    if (!hersteld) {
+      var alle = Array.prototype.slice.call(document.querySelectorAll('.quiz'));
+      try {
+        localStorage.setItem(quizSleutel(alle.indexOf(quiz),
+          Array.prototype.slice.call(quiz.querySelectorAll('.qvraag')).indexOf(vraag)), gekozen);
+      } catch(e){}
+    }
   }
 
   /* ---- menu in-/uitklappen ---- */

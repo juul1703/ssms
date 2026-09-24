@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v94**.
+Stand: 21 september 2026, service worker **v95**.
 
 
 ## 1. Wat het is
@@ -219,6 +219,22 @@ hoofdstuk uit `ssms-inhoud.js` halen, als eigen bestand `intro-h<n>.js`
 opnieuw opbouwen via een builder met JSON.stringify, scripttag toevoegen in
 de drie html-bestanden en in `sw.js`, en de naam in `BOEKEN` in `vakken.js`
 meevertalen.
+
+### Bewaarde antwoorden (v95)
+
+`les.js` bewaart nu ook de gegeven **quizantwoorden**, naast de notities en de
+eigen antwoorden bij oefeningen. Sleutel: `<basis>-<tabId>-quiz<n>-v<i>`. Bij
+het openen van een tabblad zet `laadQuiz()` de gekozen opties terug, inclusief
+uitleg en score; `antwoordQuiz(knop, hersteld)` slaat alleen op als de klik van
+de gebruiker komt.
+
+### Vaste onderdelen die bij elke les meegenomen worden
+
+- een blok **"If you are short on time"** in Voorbereiding: wat lees en doe je
+  eerst, in volgorde, met een tijdsindicatie;
+- naast begripkaarten ook **lijstkaarten** in de flashcards: genummerde
+  opsommingen met uitleg per punt (de vijf ethiekprincipes, de tien fallacies,
+  enzovoort).
 
 ### Zoekbalk en inklapknop (v85)
 
