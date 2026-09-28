@@ -651,6 +651,28 @@ a.notitie:hover .titel{color:var(--accent);}
   }
 }
 
+/* --- inhaalwerk: achterstand gebundeld en inklapbaar --- */
+.inhaal{border:1px solid var(--line);border-left:3px solid var(--clay,#a8705f);
+  border-radius:12px;background:var(--paper2,transparent);margin-bottom:10px;overflow:hidden;}
+.inhaal-kop{display:flex;align-items:center;gap:8px;width:100%;padding:10px 12px;
+  border:0;background:none;font:inherit;color:inherit;text-align:left;cursor:pointer;}
+.inhaal-kop:hover{background:var(--paper2);}
+.inhaal-titel{font-weight:500;}
+.inhaal-meta{color:var(--muted);font-size:12px;margin-left:auto;text-align:right;}
+.inhaal-pijl{color:var(--muted);font-size:14px;line-height:1;flex:none;
+  transition:transform .2s ease;}
+.inhaal.open .inhaal-pijl{transform:rotate(180deg);}
+.inhaal-tip{padding:0 12px 10px 12px;color:var(--muted);font-size:13px;}
+.inhaal-tip strong{color:var(--ink);font-weight:500;}
+.inhaal-lijst{padding:0 6px 6px 6px;}
+.inhaal-lijst .dl{border-bottom:1px solid var(--line);}
+.inhaal-lijst .dl:last-child{border-bottom:0;}
+@media (max-width:560px){
+  .inhaal-meta{font-size:11px;}
+  .inhaal-kop{flex-wrap:wrap;}
+  .inhaal-meta{margin-left:0;width:100%;text-align:left;}
+}
+
 /* --- deadlines afvinken en archiveren --- */
 .dl-rij .dl-vink{
   flex:none;width:20px;height:20px;border-radius:50%;padding:0;

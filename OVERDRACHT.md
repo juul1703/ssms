@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v95**.
+Stand: 21 september 2026, service worker **v96**.
 
 
 ## 1. Wat het is
@@ -219,6 +219,16 @@ hoofdstuk uit `ssms-inhoud.js` halen, als eigen bestand `intro-h<n>.js`
 opnieuw opbouwen via een builder met JSON.stringify, scripttag toevoegen in
 de drie html-bestanden en in `sw.js`, en de naam in `BOEKEN` in `vakken.js`
 meevertalen.
+
+### Inhaalwerk op het homescreen (v96)
+
+Achterstallige voorbereiding stond tussen de gewone deadlines en verdrong die.
+Sinds v96 splitst `render()` in `app.js` de lijst: alles met `achterstallig`
+gaat in `inhaalBlok()`, de rest blijft een gewone rij via `dlRij()`. Dicht
+toont het blok het aantal, het aantal vakken, hoe oud het oudste item is en
+een regel "Begin bij ...". Open staat de hele lijst erin, met de vinkjes die
+er altijd al waren. De stand staat in localStorage onder `ssms-inhaal`, en de
+teller boven het blok zegt nu "3 open \u00b7 7 in te halen".
 
 ### Bewaarde antwoorden (v95)
 

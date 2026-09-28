@@ -537,9 +537,17 @@ function render(){
   var statusEl = document.getElementById('roosterStatus');
   if (statusEl && typeof statusTekst === 'function') statusEl.textContent = statusTekst();
 
-  document.getElementById('dlTelling').textContent = DL.length ? DL.length + ' open' : 'niets open';
-  document.getElementById('deadlines').innerHTML = DL.length
-    ? DL.map(function(d){
+  /* Achterstand staat apart, in een inklapbaar blok. Anders drukken zes of
+     zeven ingehaalde leesopdrachten alles weg wat deze week echt moet, en
+     dat geeft meer stress dan overzicht. */
+  var inhaal = DL.filter(function(d){ return d.achterstallig; });
+  var rest = DL.filter(function(d){ return !d.achterstallig; });
+
+  document.getElementById('dlTelling').textContent =
+    (rest.length ? rest.length + ' open' : 'niets open') +
+    (inhaal.length ? ' \u00b7 ' + inhaal.length + ' in te halen' : '');
+
+  function dlRij(d){
         var klasse = d.dagen <= 3 ? 'pil nu' : d.dagen >= 10 ? 'pil rustig' : 'pil';
         if (d.dagen > 60) klasse = 'pil rustig';
         var telling = d.dagen === 0 ? 'vandaag' : d.dagen === 1 ? 'morgen' : d.dagen + ' dagen';
@@ -572,8 +580,38 @@ function render(){
           '>' + knop + '<div><div class="titel">' + esc(d.titel) + merk + '</div><div class="vak">' +
           esc(d.vak) + '</div></div><span class="wanneer"><span class="' + klasse + '">' + telling +
           '</span>' + (datum ? '<span class="dl-datum">' + esc(datum) + '</span>' : '') + '</span></div>';
-      }).join('')
-    : '<div class="dl" style="display:block;color:var(--muted);font-size:13px;line-height:1.6;">' +
+  }
+
+  /* Het inhaalblok: dicht toont het alleen hoeveel er ligt en waar je het
+     beste kunt beginnen. Open staat de hele lijst er, met vinkjes. */
+  function inhaalBlok(lijst){
+    if (!lijst.length) return '';
+    var open = false;
+    try { open = localStorage.getItem('ssms-inhaal') === 'open'; } catch(e){}
+    var vakken = [];
+    lijst.forEach(function(d){ if (vakken.indexOf(d.vak) < 0) vakken.push(d.vak); });
+    var oudste = lijst[0];
+    lijst.forEach(function(d){ if (d.teLaat > oudste.teLaat) oudste = d; });
+    var meta = lijst.length + (lijst.length === 1 ? ' leesopdracht' : ' leesopdrachten') +
+      ' \u00b7 ' + vakken.length + (vakken.length === 1 ? ' vak' : ' vakken') +
+      ' \u00b7 oudste ' + oudste.teLaat + (oudste.teLaat === 1 ? ' dag' : ' dagen');
+    /* Begin bij het oudste: dat is meestal ook de stof waar de rest op bouwt. */
+    var tip = '<div class="inhaal-tip">Begin bij <strong>' + esc(oudste.titel) + '</strong>' +
+      (oudste.vak ? ' \u00b7 ' + esc(oudste.vak) : '') + '</div>';
+    return '<div class="inhaal' + (open ? ' open' : '') + '">' +
+      '<button class="inhaal-kop" type="button" data-inhaal aria-expanded="' + (open ? 'true' : 'false') + '">' +
+        '<span class="inhaal-titel">Inhaalwerk</span>' +
+        '<span class="pil te-laat">' + lijst.length + '</span>' +
+        '<span class="inhaal-meta">' + meta + '</span>' +
+        '<span class="inhaal-pijl" aria-hidden="true">\u2304</span>' +
+      '</button>' +
+      (open ? '<div class="inhaal-lijst">' + lijst.map(dlRij).join('') + '</div>' : tip) +
+      '</div>';
+  }
+
+  document.getElementById('deadlines').innerHTML = (DL.length
+    ? inhaalBlok(inhaal) + rest.map(dlRij).join('')
+    : '') || '<div class="dl" style="display:block;color:var(--muted);font-size:13px;line-height:1.6;">' +
       (gekoppeld
         ? 'Niets in zicht. Toetsen uit je rooster komen hier automatisch; eigen deadlines voeg je toe op de pagina van een vak.'
         : 'Zodra je rooster gekoppeld is, verschijnen je toetsen en tentamens hier.') + '</div>';
@@ -887,6 +925,13 @@ function zetModus(m){
   document.addEventListener('click', function(e){
     /* Afvinken op het homescreen. Moet vóór de [data-vak]-afhandeling staan,
        want de deadlineregel zelf opent het vak. */
+    var inh = e.target.closest ? e.target.closest('[data-inhaal]') : null;
+    if (inh) {
+      var nuOpen = inh.getAttribute('aria-expanded') === 'true';
+      try { localStorage.setItem('ssms-inhaal', nuOpen ? 'dicht' : 'open'); } catch(err){}
+      render();
+      return;
+    }
     var dlv = e.target.closest ? e.target.closest('[data-dlvink]') : null;
     if (dlv) {
       e.preventDefault();
