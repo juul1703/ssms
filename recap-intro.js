@@ -232,6 +232,11 @@ voegRecapToe("intro-to-safety-security/h2", {
       "tekst": "**Two misconceptions** the chapter rejects: that risk and safety are opposites (only partly true), and that safety and security are entirely separate fields. There is **no shared semantic basis**: many definitions of safety, almost none of its opposite (Table 2.1 shows how often each term is used). Precise definitions give standardisation, better communication and unambiguous knowledge-sharing."
     },
     {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised (lecture 2)",
+      "tekst": "The lecture on key concepts is built on chapters 1 and 2, and it makes four things explicit that the chapter leaves implicit.\n\n**Semantic against ontological questions get their own slide.** Semantic: what do the words mean, so that we communicate clearly? Ontological: what exists in the phenomenon, which elements must be present for risk, safety or security to exist at all? Your own notes have it as the meaning of words against the study of being.\n\n**Objectives come first.** The lecture puts them at the centre and repeats the question at the end: what are we trying to achieve or protect? Objectives can be conditions, possessions or desired states, they may already exist and need safeguarding, and they may be conscious or unconscious, deliberate or not.\n\n**The three elements of risk are drilled**: objectives, effects, uncertainty. All three must be present, and risk concerns an uncertain future state.\n\n**The campus example is the exam-shaped one.** One objective, students and staff able to study and work without serious harm or disruption. Wet stairs leading to a fall is an unintentional effect, so safety. Deliberate arson is an intentional effect, so security. **Same protected objective, different nature of the negative effect.**\n\nAnd one extra step the chapter does not spell out, from concepts to management in four moves: **identify objectives, identify risk sources, consider effects, set constraints**, where constraints are the limits that must not be exceeded while pursuing or safeguarding the objectives."
+    },
+    {
       "type": "tabel",
       "titel": "The definitions, all built on ISO 31000",
       "kop": [
@@ -594,6 +599,112 @@ voegRecapToe("intro-to-safety-security/h7", {
         "Give the five security categories and the six OHS categories.",
         "Explain hazard versus threat, and what it does to the controls.",
         "Explain why safety is further along the road to professional status than security."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("intro-to-safety-security/h9", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "**Chapter 9 (Schulman)** asks whether one management framework can carry both missions. The answer runs in three steps: how safety is managed in an HRO (the yardstick), why security collides with it on four points, and what still overlaps."
+    },
+    {
+      "type": "tekst",
+      "titel": "The opening and the standard",
+      "tekst": "A utility CEO said that doing safety management well takes care of security too. Schulman calls this a **convenient untruth**.\n\n**High reliability** means that catastrophic failures are precluded **deterministically**, not only probabilistically: a set of **precluded events** that must not happen whatever the probability. Security, he argues, can never meet that standard."
+    },
+    {
+      "type": "tabel",
+      "titel": "How an HRO produces safety",
+      "kop": [
+        "Element",
+        "What it means"
+      ],
+      "rijen": [
+        [
+          "The low variance formula",
+          "Low input variance plus low process variance gives low output variance"
+        ],
+        [
+          "The irony in it",
+          "Not rigid invariance but managing fluctuations within bandwidths, outside unstudied conditions"
+        ],
+        [
+          "Precursors",
+          "Conditions that could lead to a precluded event, found by analysing backwards; technical and organisational (noise, silence, backlogs)"
+        ],
+        [
+          "Precursor resilience",
+          "Pulling back the conditions instead of waiting for the accident"
+        ],
+        [
+          "Lateral communication",
+          "Sideways between departments, to keep the system focus"
+        ],
+        [
+          "Culture",
+          "Managing to worst case, rewarding imagination, distributed responsibility and the authority to stop"
+        ],
+        [
+          "Reliability professionals",
+          "Blend formal and experiential knowledge, see the system as larger than their role, internalise reliability; not defined by diplomas"
+        ],
+        [
+          "The enemies",
+          "Complacency and hubris; and reliability is perishable, so attention and trust must be renewed"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "Why security is different",
+      "tekst": "**Failure versus vulnerability**: managing risks of failure is not the same as managing vulnerability to destructive intent, because hostile strategy targets the vulnerabilities and uses your protections against you.\n\n**Germanwings 9525**: the hardened cockpit door protected against intruders and protected the attacker already inside. That is **reciprocal vulnerability**, and it is the example to know.\n\n**Design-based vulnerability**: exposure we build ourselves, with the internet as the extreme case, attackable from any location and at any scale. It lies **beyond the reach of any single organisation**, so it calls for regulation.\n\n**Symbolic targets** mean even failed attacks work, so preclusion is impossible. And the **risk of risk assessment**: a known vulnerability analysis becomes a map for the attacker."
+    },
+    {
+      "type": "tabel",
+      "titel": "The four tensions",
+      "kop": [
+        "Safety management wants",
+        "Security management wants"
+      ],
+      "rijen": [
+        [
+          "Anticipation and prior analysis",
+          "Adaptability and resilience to the unexpected"
+        ],
+        [
+          "Lateral communication and open information",
+          "Restricted information, to prevent counter-learning"
+        ],
+        [
+          "Accessibility for cooperation and inspection",
+          "Hardening: guns, gates and guards"
+        ],
+        [
+          "Rapid inter-organisational emergency coordination",
+          "Security frameworks around access and information"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "What overlaps, and the conclusion",
+      "tekst": "**Not overlapping**: the deterministic standard, the object of analysis (failure versus vulnerability), open communication, and the precursors themselves, which a perpetrator hides.\n\n**Overlapping**: the management of **representational error**, and the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, pattern recognition, and the authority to stop. Also the consequences, and therefore emergency response, with the caveat that first responders can themselves be targets.\n\n**Integration** demands **higher resolution reliability**: broader scope, longer time horizon, more distributed participation. Teams of reliability professionals can act as first responders for both missions; the example is the air traffic controllers clearing the airspace on 9/11.\n\n**The conclusion**: integration does not resolve the tensions, but separation creates a specific risk, that nobody notices when one mission undermines the other. A shared framework built on error sensitivity can catch exactly that precursor."
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud (chapter 9)",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Explain deterministic versus probabilistic preclusion, and why security cannot reach the first.",
+        "Give the low variance formula and the irony in it.",
+        "Name five precursors, at least two of them organisational.",
+        "Tell the Germanwings story and name the principle it illustrates.",
+        "Name the four tensions, and say what does and does not overlap."
       ]
     }
   ]
