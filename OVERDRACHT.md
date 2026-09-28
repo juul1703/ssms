@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v97**.
+Stand: 21 september 2026, service worker **v98**.
 
 
 ## 1. Wat het is
@@ -44,6 +44,7 @@ bestanden.
 | `recap-society.js` | "To remember"-tabbladen voor Society slides-1, college-2 en college-3 |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
+| `intro-college-1.js` | Intro sessie 1: SSMS & what it's all about, Engelse versie; verving in v98 de Nederlandse slides-les |
 | `intro-college-3.js` | Intro sessie 3: Communication Matters (uit de collegeslides; er was nog geen les) |
 | `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
@@ -452,11 +453,11 @@ mee, want dat is dubbel werk. Werkwijze:
    recaps voor **DRM** (sessies 3, 4, 6, 9, 11 en de conceptlijsten).
 4. Rest van het vertaalwerk: Intro slides-1, H4, H6, H8, H10, H11, studiegids,
    DRM, FAW.
-4a. **Intro collegeslides**: lecture 2 zit sinds v97 in de recap van sessie 2
-   ("What the lecturer emphasised", met de campus-casus en de vier stappen van
-   concepten naar management) en lecture 3 is sessie 3 geworden. **Lecture 1
-   moet nog**: die hoort in sessie 1, waar nu nog de Nederlandse slides-les
-   staat. Dat is meteen het moment om die les te vertalen.
+4a. ~~**Intro collegeslides**~~ klaar: lecture 2 in de recap van sessie 2
+   (v97), lecture 3 als sessie 3 (v97), en lecture 1 als sessie 1 in het
+   Engels (v98). De Nederlandse slides-les is uit `ssms-inhoud.js` gehaald en
+   `SLIDES` van Intro is leeg, dus Intro heeft geen losse slides-lessen meer.
+   Alleen Governance heeft er nog een.
 5. Society slides-1 opheffen zodra sessie 1 klaar is: de lecture zit dan in de
    sessieles. Idem voor Intro en Governance slides-1.
 

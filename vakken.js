@@ -41,9 +41,7 @@
      dan zet je hier een regel erbij en schrijf je de lesstof onder
      LESSTOF['<vakId>/slides-2']. Slides tellen niet mee voor de balk. */
   var SLIDES = {
-    'intro-to-safety-security': [
-      { id: 'slides-1', titel: 'Sessie 1 \u00b7 SSMS & what it\u2019s all about', duur: 45 }
-    ],
+    /* Intro sessie 1 zit sinds v98 in de sessieles zelf (college-1). */
     /* Society sessie 1 zit sinds v89 in de sessieles zelf (college-1),
        dus geen losse slides-les meer. Het bestand society-slides-1.js
        blijft nog staan tot Intro en Governance ook zijn omgezet. */
@@ -67,7 +65,7 @@
         h6:  'H6 Gebruikerservaring op de luchthaven',
         h7:  'H7 Divergence of safety and security',
         h8:  'H8 Voorbereiden om verrast te worden',
-        h9:  'H9 Spanningen en synergie in management',
+        h9:  'H9 Managerial tensions and synergies',
         h10: 'H10 Het snijvlak op de werkplek',
         h11: 'H11 Onderzoeks- en managementuitdagingen'
       }
