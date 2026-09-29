@@ -43,11 +43,10 @@
   var SLIDES = {
     /* Intro sessie 1 zit sinds v98 in de sessieles zelf (college-1). */
     /* Society sessie 1 zit sinds v89 in de sessieles zelf (college-1),
-       dus geen losse slides-les meer. Het bestand society-slides-1.js
-       blijft nog staan tot Intro en Governance ook zijn omgezet. */
-    'governance-policy': [
-      { id: 'slides-1', titel: 'Sessie 1 \u00b7 Governance and Policy: an introduction', duur: 60 }
-    ]
+       dus geen losse slides-les meer. */
+    /* Governance sessie 1 zit sinds v101 in de sessieles zelf (college-1);
+       governance-slides-1.js kan uit de repo. Er zijn nu geen losse
+       slides-lessen meer. */
   };
 
   /* Boekhoofdstukken. De titel is voor de restlijst; de koppeling aan een

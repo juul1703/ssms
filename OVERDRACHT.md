@@ -1,7 +1,14 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 21 september 2026, service worker **v98**.
+Stand: 29 september 2026, service worker **v101**.
+
+> **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
+> hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
+> de to-do lijst in 10a. Lever wijzigingen altijd als zip met alleen de
+> gewijzigde bestanden, verhoog `VERSIE` in `sw.js`, en zet nieuwe bestanden
+> in `BESTANDEN` in `sw.js` én als scripttag in `index.html`, `vak.html` en
+> `les.html`, vóór `vakken.js`.
 
 
 ## 1. Wat het is
@@ -35,15 +42,14 @@ bestanden.
 | `lesstof.js` | Opzoeken van lesstof |
 | `lesextra.js` | Extra's op de lespagina |
 | `ssms-inhoud.js` | Lesstof, `VAK_VOORBEREIDING`, `VAK_MANUAL`, de studiegids (~840 KB) |
-| `governance-college-1.js` | Governance sessie 1, uit McCormick H1 |
-| `governance-slides-1.js` | Governance sessie 1, uit de collegeslides |
-| `governance-college-2.js` | Governance sessie 2, Buckwalter & Balfour uit Quality of Governance |
-| `society-slides-1.js` | Society & Politics sessie 1, uit de collegeslides |
-| `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) |
-| `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) |
-| `recap-society.js` | "To remember"-tabbladen voor Society slides-1, college-2 en college-3 |
+| `governance-college-1.js` | Governance sessie 1, McCormick H1 plus Lecture 1 (de slides-les is er in v101 in opgenomen) |
+| `governance-college-2.js` | Governance sessie 2, Buckwalter & Balfour uit Quality of Governance plus Lecture 2 (v101) |
+| `governance-college-3.js` | Governance sessie 3, McCormick H8 (kern) en H10 (kern2) plus Lecture 3; nieuw in v101 |
+| `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
+| `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
+| `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
-| `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college) en college-2 |
+| `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
 | `intro-college-1.js` | Intro sessie 1: SSMS & what it's all about, Engelse versie; verving in v98 de Nederlandse slides-les |
 | `intro-college-3.js` | Intro sessie 3: Communication Matters (uit de collegeslides; er was nog geen les) |
 | `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
@@ -70,10 +76,13 @@ app.js
 lesblokken.js
 lesstof.js
 ssms-inhoud.js
+intro-college-1.js          <- losse lesbestanden hier
+intro-college-3.js
+intro-h7.js
+intro-h9.js
 governance-college-1.js
-governance-slides-1.js      <- losse lesbestanden hier
 governance-college-2.js
-society-slides-1.js
+governance-college-3.js
 ps-college-1.js
 ps-college-2.js
 drm-conceptlist-1.js
@@ -81,14 +90,13 @@ drm-conceptlist-2.js
 drm-conceptlist-3.js
 faw-college-1.js
 faw-college-2.js
+society-college-1.js
 society-college-2.js
 society-college-3.js
-recap-society.js
+recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
 recap-intro.js
-society-college-1.js
-intro-h7.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
 ```
@@ -203,10 +211,9 @@ bestand (`recap-society.js`, later `recap-intro.js` enzovoort), met per les
 kopjesbalk. `recap` staat ook in `VOLGORDE` in `vakken.js`, zodat een recap
 die aan een boekhoofdstuk hangt bij samenvoegen op de goede plek komt.
 
-Stand: Society (slides-1, college-2, college-3), Professional Skills
+Stand: Society (college-1, college-2, college-3), Professional Skills
 (college-1, college-2) en Governance (college-1, college-2) hebben een recap.
-De recap van Governance sessie 1 dekt boek en college samen; slides-1 van
-Governance heeft er bewust geen eigen. Intro: slides-1 (sessie 1),
+De recap van Governance sessie 1 dekt boek en college samen. Intro: slides-1 (sessie 1),
 H1+H2 (sessie 2) en H3+H5 (sessie 4). Bij Intro hangt de recap aan het
 hoofdstuk; vakken.js voegt ze per sessie samen tot één To remember-tab, met
 de hoofdstuknaam als tussenkop. Intro sessie 6: H7 heeft een recap (en is vertaald), H9 volgt. Nog te doen:
@@ -309,15 +316,15 @@ drie kolommen gebruik je `tabel`. `bronnen` wil `apa`, niet `titel` + `tekst`.
   en sessie 4 (H3+H5), elk met een eigen kernstof-tab per hoofdstuk
 - Governance & Policy sessie 1 (McCormick H1, en de slides)
 - Governance & Policy sessie 2 (Buckwalter & Balfour, Quality of Governance H2)
-- Society & Politics sessie 1 (slides) en **sessie 2 (Macionis H7)**, die
-  laatste met 82 flashcards
+- Society & Politics sessie 1 (H1, H2, H4 plus lecture 1) en **sessie 2
+  (Macionis H7 plus lecture 2)**, die laatste met 92 flashcards
 - Professional Skills sessie 1 (non-verbale communicatie) en **sessie 2
   (communicating adverse information)**: twee kernstof-tabs (CAT; kanalen,
   medium en barrières), 76 flashcards
 - DRM conceptlijst, drie delen, onder Extra naslagwerken
 - FAW: writer responsible writing, sinds v80 de les van **sessie 2**
   (nog in de oude opzet: 15 kopjes, geen begrippenblok)
-- Society & Politics **sessie 3 (Macionis H11)**, 9 kopjes, 75 flashcards
+- Society & Politics **sessie 3 (Macionis H11 plus lecture 3)**, 10 kopjes, 93 flashcards
 
 **Nog Nederlands:**
 
@@ -426,17 +433,66 @@ mee, want dat is dubbel werk. Werkwijze:
    brengt de dubbeling terug.
 4. De recap krijgt bovenaan een blok "What the lecturer emphasised": waar
    de docent nadruk op legde is een toetssignaal.
-5. Bestaande slides-lessen (Intro, Society en Governance sessie 1) worden
-   stap voor stap in de sessieles opgenomen en uit `SLIDES` gehaald.
-   Society sessie 1 heeft nog geen sessieles; die wordt H1, H2, H4 plus de
-   slides (zie hieronder).
+5. Bestaande slides-lessen worden in de sessieles opgenomen en uit `SLIDES`
+   gehaald. Sinds v101 zijn er geen losse slides-lessen meer.
+6. Zo is het bij Society 2 en 3 gedaan (v100), als voorbeeld voor de rest:
+   een uitleg-blok zonder titel met als eerste regel **From the lecture**,
+   achteraan de paragraaf waar het bij hoort (een blok zonder titel hangt
+   onder het kopje erboven, dus de kopjesbalk verandert niet). Verder: een
+   tijdnood-blok in Before you start, Wooclap- of collegevragen als tweede
+   quiz in Check yourself (na de bestaande quiz, zodat opgeslagen
+   antwoorden blijven kloppen), eventuele opdrachten van de docent als
+   oefening, en lijstkaarten als begrippen met "(list)" in de naam. Julie's
+   eigen aantekeningen: wat de docent zei maar niet op de slides stond gaat
+   erin ("your note from class"); fouten in haar aantekeningen worden in de
+   chat genoemd en waar nodig als "Watch out" in de les.
 
-## 10a. To-do lijst (geparkeerd, 22 september)
+## 10a. To-do lijst (bijgewerkt 28 september)
+
+**Nog te doen, in deze volgorde:**
+
+1. **Intro sessie 8 (H10)** vertalen, recap, en op niveau brengen: nu 11
+   flashcards, geen quiz, 2 oefeningen, geen bronnen.
+2. **DRM**: conceptlijst deel 2 en 3 op dezelfde manier als deel 1 (gegroepeerde
+   kopjes, lijstkaarten, To remember, oefenvragen), en de sessies 3, 4, 6, 9 en
+   11 vertalen en op niveau brengen. DRM sessie 1 en 2 hebben nog helemaal geen
+   les; daarvoor zijn de collegeslides nodig.
+3. ~~**Governance sessie 1**~~ klaar in v101: slides-les opgenomen in
+   `governance-college-1.js`, `SLIDES` is leeg (er zijn geen losse slides-lessen
+   meer), kernstof van 33 naar 8 kopjes, 48 flashcards, twee quizzen.
+   `governance-slides-1.js` moet Julie zelf uit de repo verwijderen.
+4. **Professional Skills sessie 1**: 12 flashcards, 4 bronnen, 14 kopjes.
+5. **Collegeslides die nog moeten komen**: Professional Skills 1 en 3,
+   DRM 1 en 2. (Governance 1, 2 en 3 en PS 2 zijn verwerkt.) Julie levert ze per vak aan, met
+   haar Goodnotes-aantekeningen erbij; die zijn vaak net zo bruikbaar.
+6. **Intro sessie 3** bestaat nu wel, maar de andere sessies zonder leeswerk
+   (5, 7, 9 en verder) hebben nog geen les.
+
+**Governance, stand per sessie** (v101):
+
+| Sessie | Literatuur | Slides | Aantekeningen Julie |
+|---|---|---|---|
+| 1 | McCormick H1 | verwerkt, slides-les samengevoegd (v101) | lecture 1 gecheckt: stond al in de slides-les; trias politica en NL head of state/government ook in sessie 3 |
+| 2 | Buckwalter & Balfour H2 | verwerkt (v101) | lecture 2 en literatuur H2 verwerkt (v101) |
+| 3 | McCormick H8 en H10 | verwerkt (v101) | bestaan niet, geen aantekeningen gemaakt |
+
+Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
+
+**Society, stand per sessie** (zodat sessie 1 niet steeds vergeten wordt):
+
+| Sessie | Boek | Slides | Aantekeningen Julie | Wooclap |
+|---|---|---|---|---|
+| 1 | H1, H2, H4 (v89) | verwerkt (v89) | bestaan niet, Julie heeft bij lecture 1 geen aantekeningen gemaakt | geen |
+| 2 | H7 | verwerkt (v100) | verwerkt (v100), ook de literatuurnotities H7 (niets nieuws) | 9 vragen als quiz (v100) |
+| 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
+
+**Klaar sinds de vorige overdracht:** Society sessie 2 en 3 met lecture 2 en 3 (v100); Society sessie 1, 2 en 3; PS 1 en 2;
+Governance 1 en 2 (recaps); Intro sessie 1, 2, 3, 4 en 6; FAW 1 en 2; DRM
+conceptlijst 1.
 
 1. ~~Society sessie 1~~ klaar sinds v89, inclusief To remember met "What the
    lecturer emphasised". De losse slides-les van Society is uit `SLIDES`
-   gehaald; `society-slides-1.js` staat er nog tot Intro en Governance ook
-   zijn omgezet.
+   gehaald en `society-slides-1.js` bestaat niet meer.
 2. ~~Intro H9~~ klaar sinds v91: vertaald, eigen kernstof-tab (`kern2`) en een
    recap. Sessie 6 is compleet. Volgende: **H10** voor sessie 8.
 3a. **DRM conceptlijst deel 1** is in v94 uitgebreid: extra kernstof over de
@@ -457,18 +513,16 @@ mee, want dat is dubbel werk. Werkwijze:
    (v97), lecture 3 als sessie 3 (v97), en lecture 1 als sessie 1 in het
    Engels (v98). De Nederlandse slides-les is uit `ssms-inhoud.js` gehaald en
    `SLIDES` van Intro is leeg, dus Intro heeft geen losse slides-lessen meer.
-   Alleen Governance heeft er nog een.
-5. Society slides-1 opheffen zodra sessie 1 klaar is: de lecture zit dan in de
-   sessieles. Idem voor Intro en Governance slides-1.
+   Sinds v101 heeft ook Governance er geen meer.
+5. ~~Slides-lessen opheffen~~ gedaan voor Society, Intro en Governance (v101).
 
 ## 10b. Nog openstaand
 
-- **Society & Politics sessie 1** (Macionis H1, H2 en H4). H1 is al
-  geschreven (`society-h1.js`, zit in deze repo maar is nog niet bedraad);
-  H2 en H4 volgen. Daarna moeten `lesIds: ['h1','h2','h4']` bij sessie 1 in
-  `VAK_VOORBEREIDING`, moeten de drie hoofdstukken in `BOEKEN` bij
-  `society-politics` komen, dat vak heeft nog geen boekgroep, en moeten de
-  scripttag en `BESTANDEN` worden bijgewerkt.
+- **Society sessie 1** is af: boek en slides verwerkt, aantekeningen van
+  lecture 1 bestaan niet. Niet meer naar vragen.
+- **Society sessie 4**: de slide van lecture 3 zegt H16 p. 563-570, het
+  programma in `VAK_VOORBEREIDING` zegt p. 563-567. Aanhouden: tot 570.
+  Nog niet aangepast in `ssms-inhoud.js`.
 - Vertalen van de resterende Nederlandse lessen, stapje voor stapje.
 - Lesstof voor alle sessies die nu nog "nog leeg" heten.
 - Governance & Policy deel 2 (sessie 9-16) heeft nog geen docentendocument.

@@ -3,6 +3,8 @@
    Per les de echte kernprincipes op een rij. Wordt met
    voegRecapToe() (lesstof.js) direct na de laatste kernstof-tab
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
+   v101: "What the lecturer emphasised" bij college-2 en een nieuwe
+   recap voor college-3 (hoofdstuk 8 en 10 plus lecture 3).
    ============================================================ */
 
 voegRecapToe("governance-policy/college-1", {
@@ -11,7 +13,7 @@ voegRecapToe("governance-policy/college-1", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core ideas of session 1 on one page: McCormick chapter 1 plus the concepts that only appear in the lecture (marked **lecture**). The details are in Core material and in the Lecture slides lesson; this tab is for revising."
+      "tekst": "The core ideas of session 1 on one page: McCormick chapter 1 plus the concepts that only appear in the lecture (marked **lecture**). The details are in Core material, where the lecture sits in From the lecture boxes; this tab is for revising."
     },
     {
       "type": "tabel",
@@ -218,6 +220,11 @@ voegRecapToe("governance-policy/college-2", {
       "tekst": "The core ideas of chapter 2 (Buckwalter & Balfour) on one page. The details are in Core material; this tab is for revising."
     },
     {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "Signals from the slides of lecture 2 about what matters.\n\n**Values and norms get their own slides**, with definitions: values are basic and fundamental beliefs that guide attitudes and actions; norms are shared rules of behaviour, more specific than values (honesty becomes \"do not falsify public records\").\n\n**Three foundations of democratic legitimacy**: rule of law, consent, participation. Necessary, but not sufficient.\n\n**The eight qualities of good governance**: participation, rule of law, transparency, responsiveness, consensus-oriented, equity and inclusiveness, effectiveness and efficiency, accountability. Not in the chapter.\n\n**Waldo's quote on its own slide**: without results, democracy means nothing.\n\n**The yin-yang of values and the balance diagram**: too much democratic process slows decisions; too much bureaucratic control crowds out public voice. The question is how the values are combined, not which side wins.\n\n**Bureaucracy as a means, democracy as the end.** The same machinery can serve any regime.\n\n**Michigan and Flint in four steps**, and the authors' normative conclusion: democratic legitimacy outweighs expertise, especially in a crisis."
+    },
+    {
       "type": "tekst",
       "titel": "Democratic legitimacy: necessary but not sufficient",
       "tekst": "**Formally**, democratic legitimacy means that government policies and actions, **including appointments**, rest on laws made by elected representatives or by referendum, within constitutional limits that protect minority rights.\n\nBut the formal side is **not enough**: policies must also **work**. **Waldo** warned that without results, democracy \"ceases to be alive in the minds and hearts of men\". Legitimacy depends on making policy **and** carrying it out effectively."
@@ -329,6 +336,168 @@ voegRecapToe("governance-policy/college-2", {
         "Name the four democratic and four bureaucratic values.",
         "Explain bureaucratic distortion with a Dutch crisis example (Covid measures, for instance).",
         "Explain the irony of Flint in two sentences."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("governance-policy/college-3", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core ideas of chapters 8 and 10 and lecture 3 on one page. The details are in the two Core material tabs; this tab is for revising and for checking whether you can still explain each idea without looking."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "Signals from the slides of lecture 3.\n\n**The lecture starts with bureaucracies** and ends with executives: the reverse of the book's order.\n\n**Definition of bureaucracy**: rule by officials (bureau plus kratos); all salaried public officials who advise on and apply policy decisions.\n\n**Weber's five principles**: centralisation, hierarchy, formalisation, standardisation, specialisation. A different list from the book's Figure 10.3.\n\n**Organisation versus institution** and **institutionalisation**: not in the book.\n\n**Three views of bureaucracy**: iron cage, machine, red tape, with a right-wing and a left-wing reading.\n\n**The timeline in five stages**, ending with new public management and e-government.\n\n**The executive as the top slice**: governing without a parliament or judiciary is possible, without an executive it is not. Executives are politically accountable; bureaucracies are not.\n\n**Four types of executive with examples**: presidential (USA, Brazil, Mexico), parliamentary (UK, NL, Portugal, Canada, New Zealand, Australia), semi-presidential (France, francophone Africa, Russia), authoritarian (China, DRC, North Korea, Saudi Arabia). The difference between democratic and authoritarian executives: whether executive power is subject to constitutional limits.\n\n**What the lecture skips**: leadership theories, recruitment and the authoritarian bureaucracies of chapter 10. Still in the reading."
+    },
+    {
+      "type": "tabel",
+      "titel": "The four executives",
+      "kop": [
+        "",
+        "Presidential",
+        "Parliamentary",
+        "Semi-presidential",
+        "Authoritarian"
+      ],
+      "rijen": [
+        [
+          "Head of government chosen",
+          "Directly, whole country",
+          "By and from the legislature",
+          "President direct, prime minister indirect",
+          "Unelected or manipulated elections"
+        ],
+        [
+          "Separate head of state?",
+          "No",
+          "Yes",
+          "No",
+          "No"
+        ],
+        [
+          "Sits in legislature?",
+          "No",
+          "Yes",
+          "Prime minister only",
+          "No"
+        ],
+        [
+          "Fixed term?",
+          "Yes",
+          "No",
+          "President only",
+          "Yes, but no real limit"
+        ],
+        [
+          "Removed by",
+          "Election, impeachment",
+          "Lost confidence vote or election",
+          "President: election, impeachment; PM: confidence vote",
+          "Loss of support, death"
+        ],
+        [
+          "Cabinet",
+          "Marginal",
+          "Central, collective",
+          "Marginal",
+          "Marginal"
+        ],
+        [
+          "Examples",
+          "USA, Brazil, Mexico",
+          "UK, NL, Canada",
+          "France, Russia",
+          "China, Saudi Arabia"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "Head of state, head of government",
+      "tekst": "**Head of state**: symbolic, above politics (Bagehot's **dignified** part). **Head of government**: political, partisan (the **efficient** part). Combined in one office in presidential systems, split in parliamentary ones. The Netherlands: King Willem-Alexander and Prime Minister Rob Jetten. Heads of state in parliamentary systems are monarchs (constitutional monarchy) or non-executive presidents (republic)."
+    },
+    {
+      "type": "tekst",
+      "titel": "Parliamentary government in two lists",
+      "tekst": "**Three outcomes**: majority government (UK), coalition government (continental Europe; caretaker during talks; Belgium's 541 days), minority government (Sweden 2014, the Netherlands since 2026).\n\n**Three models**: prime ministerial (Germany's chancellor democracy, UK: ministers are followers), cabinet (Finland: team players), ministerial (Italy, Japan, the Netherlands: ministers are leaders). Plus the trend of **presidentialisation** of prime ministers."
+    },
+    {
+      "type": "tekst",
+      "titel": "Semi-presidentialism and authoritarian executives",
+      "tekst": "**Semi-presidential**: elected president plus prime minister accountable to parliament; **premier-presidential** (France: only parliament dismisses the PM) versus **president-parliamentary** (Russia: PM answers to both). **Cohabitation** when the opposition controls parliament (Chirac and Jospin).\n\n**Authoritarian**: absolute monarchs and presidential monarchs; fewer constraints but fewer guarantees; **personalism** instead of institutions; no secure succession; politics before policy; the price of defeat is exile, prison or death (Gaddafi)."
+    },
+    {
+      "type": "tabel",
+      "titel": "Chapter 10 in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Two roles",
+          "Advice before policy, implementation after"
+        ],
+        [
+          "Weber",
+          "Disciplined hierarchy of salaried, merit-recruited officials applying explicit rules"
+        ],
+        [
+          "Spoils system",
+          "Jobs for supporters; ended in the US by the Pendleton Act (1883)"
+        ],
+        [
+          "Outsourcing",
+          "Private contractors: cheaper and competitive, but less accountable; not for policing"
+        ],
+        [
+          "New public management",
+          "Private-sector methods to raise efficiency and cut spending (Reagan, Thatcher, New Zealand)"
+        ],
+        [
+          "E-government",
+          "Online services: access and savings versus cyberattacks, surveillance, unequal access"
+        ],
+        [
+          "Departments, divisions, NDPBs",
+          "Ministries; their operating units; semi-independent bodies such as regulatory agencies"
+        ],
+        [
+          "Political control",
+          "More appointments and political advisers (France’s ministerial cabinets)"
+        ],
+        [
+          "Unified versus departmental",
+          "Recruitment to the whole service (UK, France’s corps) or to one department (NL, US)"
+        ],
+        [
+          "Accountability",
+          "Indirect; whistleblowing (Snowden); the ombudsman (Sweden 1809)"
+        ],
+        [
+          "Authoritarian bureaucracies",
+          "Indispensable to dictators; developmental state (Japan, China) versus predatory state (Equatorial Guinea); crony capitalism"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Classify the Dutch executive and name its head of state, head of government and model of parliamentary government.",
+        "Give three strengths and two weaknesses of presidential government.",
+        "Explain cohabitation with the French example.",
+        "Give Weber’s five principles from the lecture and the five features from the book.",
+        "Walk through the five stages of the timeline of bureaucracy.",
+        "Give two arguments for and two against outsourcing, and one thing that should never be outsourced.",
+        "Explain why a new minister can struggle to control their own department.",
+        "Explain the difference between a developmental and a predatory state."
       ]
     }
   ]
