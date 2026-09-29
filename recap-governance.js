@@ -5,6 +5,7 @@
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
    v101: "What the lecturer emphasised" bij college-2 en een nieuwe
    recap voor college-3 (hoofdstuk 8 en 10 plus lecture 3).
+   v104: recap voor college-4 (H13 en H15, uit de literatuur).
    ============================================================ */
 
 voegRecapToe("governance-policy/college-1", {
@@ -498,6 +499,99 @@ voegRecapToe("governance-policy/college-3", {
         "Give two arguments for and two against outsourcing, and one thing that should never be outsourced.",
         "Explain why a new minister can struggle to control their own department.",
         "Explain the difference between a developmental and a predatory state."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("governance-policy/college-4", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core of chapters 13 and 15 on one page. After the lecture, What the lecturer emphasised is added here."
+    },
+    {
+      "type": "tabel",
+      "titel": "Chapter 13: participation in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Forms",
+          "Conventional (voting, parties, petitions, clicktivism), unconventional (protest, boycotts), illegal (civil disobedience, hacktivism, violence)"
+        ],
+        [
+          "Who participates",
+          "Gladiators, spectators, apathetics; the active are older, richer, better educated (resources and interest)"
+        ],
+        [
+          "Why (not)",
+          "Paradox of participation (Downs); reasons: idealism, responsibility, being heard, mobilisation, enjoyment; political exclusion"
+        ],
+        [
+          "Voter choice",
+          "Class, the economy, issues, religion"
+        ],
+        [
+          "Public opinion",
+          "Polls and surveys; weighting; yea-saying; prompt or veto; selectively informed citizens"
+        ],
+        [
+          "Authoritarian regimes",
+          "Patronage, clientelism, patron-client networks, mobilised participation, political violence; repression can increase protest"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Chapter 15: parties in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Five roles",
+          "Government, guidance, aggregation, mobilisation, recruitment"
+        ],
+        [
+          "Dealignment",
+          "Weaker party identification; causes: social divisions, education, diversification, convergence, disillusionment"
+        ],
+        [
+          "Types of party",
+          "Cadre, mass, catch-all, niche, cartel"
+        ],
+        [
+          "Party systems",
+          "No-party, single-party, dominant party, two-party, multi-party"
+        ],
+        [
+          "Organisation",
+          "Iron law of oligarchy; choosing leaders and candidates (primaries); public funding"
+        ],
+        [
+          "Authoritarian regimes",
+          "Shield and instrument of power; five support roles (Geddes); rarely outlive the founder; successor parties"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Give an example of conventional, unconventional and illegal participation.",
+        "Explain gladiators, spectators and apathetics, and why the gladiators are not representative.",
+        "Explain the paradox of participation.",
+        "Name the four influences on voter choice.",
+        "Explain the difference between clientelism and mobilised participation.",
+        "Name the five roles of parties and the five party systems with an example each.",
+        "Explain cadre, mass, catch-all and cartel parties in one sentence each."
       ]
     }
   ]
