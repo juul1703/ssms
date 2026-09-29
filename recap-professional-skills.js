@@ -3,6 +3,8 @@
    Per les de echte kernprincipes op een rij. Wordt met
    voegRecapToe() (lesstof.js) direct na de laatste kernstof-tab
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
+   v102: "What the lecturer emphasised" bij college-1 (uit de slides)
+   en een nieuwe recap voor college-3.
    ============================================================ */
 
 voegRecapToe("professional-skills/college-1", {
@@ -12,6 +14,11 @@ voegRecapToe("professional-skills/college-1", {
     {
       "type": "tekst",
       "tekst": "The core ideas of session 1 on nonverbal communication, on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "Signals from the kick-off slides.\n\n**Communication** comes from communicare, \"to share\", and the slides list a whole page of professional situations where you need it.\n\n**Two pairs of types**: formal and informal (by style), verbal and non-verbal (by manner of expression).\n\n**Eight body language signals from Pease and Pease**, each with a fixed meaning: hands clenched, chin stroking, raised index finger, crossed arms, tilted head, sunglasses on head, the raised steeple, briefcase signals. Know them, and read them in clusters.\n\n**Three assignments**: communication analysis (mid-term, 25%), job application (mid-term, 25%), \"Safe & sound for fun\" project (end-term, 50%)."
     },
     {
       "type": "tekst",
@@ -312,6 +319,99 @@ voegRecapToe("professional-skills/college-2", {
         "Explain the nurses study and what it shows.",
         "Explain why convergence can backfire, in three different ways.",
         "Choose a channel for telling a team their shift is being cut, and justify it with McLuhan."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("professional-skills/college-3", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core of session 3 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "**Mehrabian's 7/38/55 rule** gets its own slide, with Amsel's reading calling it an urban legend next to it: know both the rule and its limits.\n\n**Know your audience** in five factors, and **Manning and Reece** with four styles of four traits each.\n\n**The audience receives the presenter first, then the message.**\n\n**The power of visuals**, shown with the Seoul crowd crush map, but \"do not overdo\".\n\n**The last slide is about the mid-term**: apply Manning and Reece, CAT, Mehrabian and Hofstede to short clips, and watch the video muted. The lecturer's final slide: go back and read it again."
+    },
+    {
+      "type": "tabel",
+      "titel": "Mehrabian in one table",
+      "kop": [
+        "",
+        "What it says"
+      ],
+      "rijen": [
+        [
+          "The rule",
+          "7% verbal, 38% vocal, 55% facial"
+        ],
+        [
+          "Where it comes from",
+          "Two small 1967 experiments: single words, tone and faces, judging liking"
+        ],
+        [
+          "When it applies",
+          "Feelings and attitudes, when words and nonverbal signals contradict each other"
+        ],
+        [
+          "What it does not say",
+          "That 93% of communication is nonverbal (the urban legend, Amsel 2019)"
+        ],
+        [
+          "What to take from it",
+          "Keep your tone and body congruent with your words"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Manning and Reece",
+      "kop": [
+        "Style",
+        "Traits",
+        "Present with"
+      ],
+      "rijen": [
+        [
+          "Supportive",
+          "Loyal, steady, reliable, considerate",
+          "Warmth, reassurance, time"
+        ],
+        [
+          "Emotive",
+          "Lively, sociable, impulsive, unstructured",
+          "Energy, stories, interaction"
+        ],
+        [
+          "Reflective",
+          "Serious, distant, precise, questioning",
+          "Facts, logic, detail"
+        ],
+        [
+          "Directive",
+          "Intense, determined, opinionated, goal driven",
+          "The conclusion first, results"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "Presenting in short",
+      "tekst": "**Structure**: easy to follow. **Audience**: stake, demographics, knowledge, size, attitude. **Content**: facts, figures, interesting examples. **Voice**: comfortable speed, tone and inflection, no reading, bullet points not sentences. **Appearance**: professional dress, relevant background, controlled body language. **Visuals**: crucial but not overdone, colour sparingly, consistent style. **Public speaking**: organise, visualise confidence, grab attention, emotional appeal, no filler words. **Q&A**: explain differently, predict questions. **Backup plan**: prepare, practise, relax."
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Explain the 7/38/55 rule and give three reasons it is an urban legend.",
+        "Name the five factors for knowing your audience.",
+        "Give the four Manning and Reece styles with two traits each.",
+        "Explain which model you use for what in the mid-term analysis."
       ]
     }
   ]

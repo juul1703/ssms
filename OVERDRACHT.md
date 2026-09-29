@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v101**.
+Stand: 29 september 2026, service worker **v102**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -56,8 +56,9 @@ bestanden.
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
-| `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie |
+| `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie plus de kick-off slides (v102) |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
+| `ps-college-3.js` | Professional Skills sessie 3, communicatiestijl en presenteren: Mehrabian en Amsel, Manning & Reece, de mid-term (nieuw in v102) |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
@@ -85,6 +86,7 @@ governance-college-2.js
 governance-college-3.js
 ps-college-1.js
 ps-college-2.js
+ps-college-3.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
@@ -460,13 +462,23 @@ mee, want dat is dubbel werk. Werkwijze:
 3. ~~**Governance sessie 1**~~ klaar in v101: slides-les opgenomen in
    `governance-college-1.js`, `SLIDES` is leeg (er zijn geen losse slides-lessen
    meer), kernstof van 33 naar 8 kopjes, 48 flashcards, twee quizzen.
-   `governance-slides-1.js` moet Julie zelf uit de repo verwijderen.
-4. **Professional Skills sessie 1**: 12 flashcards, 4 bronnen, 14 kopjes.
-5. **Collegeslides die nog moeten komen**: Professional Skills 1 en 3,
-   DRM 1 en 2. (Governance 1, 2 en 3 en PS 2 zijn verwerkt.) Julie levert ze per vak aan, met
+   `governance-slides-1.js` wordt niet meer geladen; weghalen mag, hoeft niet.
+4. ~~**Professional Skills sessie 1**~~ klaar in v102: slides verwerkt, 6 kopjes, 31 flashcards.
+5. **Collegeslides die nog moeten komen**:
+   DRM 1 en 2. (Governance 1, 2 en 3 en PS 1, 2 en 3 zijn verwerkt.) Julie levert ze per vak aan, met
    haar Goodnotes-aantekeningen erbij; die zijn vaak net zo bruikbaar.
 6. **Intro sessie 3** bestaat nu wel, maar de andere sessies zonder leeswerk
    (5, 7, 9 en verder) hebben nog geen les.
+
+**Professional Skills, stand per sessie** (v102):
+
+| Sessie | Literatuur | Slides | Aantekeningen Julie |
+|---|---|---|---|
+| 1 | Pease & Pease | verwerkt (v102) | verwerkt (v102): de acht signalen |
+| 2 | Dragojevic e.a., Ohiagu | verwerkt | lecture 2 gecheckt: stond er al in |
+| 3 | Amsel (2019) | verwerkt (v102), nieuwe les | verwerkt (v102) |
+
+Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een urban legend. De les legt beide uit; laat dat zo.
 
 **Governance, stand per sessie** (v101):
 
