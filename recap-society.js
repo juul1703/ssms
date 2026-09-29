@@ -3,149 +3,10 @@
    Per les de echte kernprincipes op een rij. Wordt met
    voegRecapToe() (lesstof.js) direct na de laatste kernstof-tab
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
+   v100: "What the lecturer emphasised" toegevoegd aan sessie 2 en 3,
+   plus lecture-begrippen in de tabellen en extra hardop-stappen.
+   v103: recap voor college-4 (H5 en H16, uit de literatuur).
    ============================================================ */
-
-voegRecapToe("society-politics/slides-1", {
-  "id": "recap",
-  "titel": "To remember",
-  "blokken": [
-    {
-      "type": "tekst",
-      "tekst": "The core ideas of lecture 1 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
-    },
-    {
-      "type": "tekst",
-      "titel": "What sociology is: a way of seeing",
-      "tekst": "**Sociology is the systematic study of human society.** The key word is *systematic*: not having an opinion about how people live together, but investigating it methodically. It is less a subject than a **lens**: a way of looking that moves from the individual to the patterns around them.\n\nA **society** is people who interact in a defined space and share a culture."
-    },
-    {
-      "type": "tabel",
-      "titel": "Berger and Mills: the two founding ideas",
-      "kop": [
-        "",
-        "Peter Berger",
-        "C. Wright Mills"
-      ],
-      "rijen": [
-        [
-          "Key phrase",
-          "Seeing the general in the particular",
-          "The sociological imagination"
-        ],
-        [
-          "What it means",
-          "Recognising a social pattern in a single concrete case; looking beneath the surface",
-          "Seeing the link between your own life (biography) and society and history"
-        ],
-        [
-          "Sentence to remember",
-          "\"Things are not what they seem\"",
-          "Personal troubles versus public issues"
-        ],
-        [
-          "Example",
-          "Why you sit in a lecture hall is also about compulsory education and a labour market that asks for diplomas",
-          "One student with debt is a personal trouble; millions of students with debt is a public issue"
-        ],
-        [
-          "Mnemonic",
-          "Looks down (depth)",
-          "Looks out (scale)"
-        ]
-      ]
-    },
-    {
-      "type": "tekst",
-      "titel": "Theory versus theoretical perspective",
-      "tekst": "A **theory** is a statement of how and why specific facts are related: concrete and testable.\n\nA **theoretical perspective** is a basic image of society that guides thinking and research: much broader, it decides which questions you ask at all.\n\nThe standard example of a theory is **Durkheim's study of suicide**: the degree of social integration explains differences in suicide rates. It ties a social fact to a social cause, not an individual one."
-    },
-    {
-      "type": "tabel",
-      "titel": "The three classical perspectives",
-      "kop": [
-        "",
-        "Functionalism",
-        "Conflict theory",
-        "Symbolic interactionism (social action)"
-      ],
-      "rijen": [
-        [
-          "Image of society",
-          "A world of balance: a system, like a human body",
-          "A world of difference: an arena of inequality",
-          "A world of meaning: what people do together"
-        ],
-        [
-          "What holds society together, or drives it",
-          "Parts working together for stability and solidarity",
-          "Groups competing over scarce resources; conflict drives change",
-          "Everyday interaction in which people create shared meanings"
-        ],
-        [
-          "Level",
-          "Macro",
-          "Macro",
-          "Micro"
-        ],
-        [
-          "Key names",
-          "Durkheim, Spencer, Merton",
-          "Marx, later conflict theorists",
-          "Weber, Goffman"
-        ],
-        [
-          "Key concepts",
-          "Structures and functions; manifest and latent functions; dysfunctions",
-          "Class struggle; later also gender, race and other structured inequality",
-          "Meaning, symbols, presentation of self"
-        ],
-        [
-          "Question it asks",
-          "What does this contribute to the whole?",
-          "Who benefits, and who loses?",
-          "What does this mean to the people involved, and how do they create it?"
-        ],
-        [
-          "Main criticism",
-          "Explains away inequality",
-          "Explains away shared values and mutual dependence",
-          "Loses sight of larger structures"
-        ]
-      ]
-    },
-    {
-      "type": "tekst",
-      "titel": "The three perspectives in a few sentences",
-      "tekst": "**Functionalism** sees society as a system whose parts each contribute to stability, like the organs of a body. **Durkheim** stressed the social bonds and solidarity that hold it together; **Spencer** gave the distinction between structures (how the parts fit) and functions (what each part contributes). **Merton** added the distinction you must know: **manifest functions** are intended consequences, **latent functions** unintended ones, and **dysfunctions** undesirable ones. A university transfers knowledge (manifest), creates friendships (latent) and reproduces inequality (dysfunction).\n\n**Conflict theory** sees society as an arena in which groups compete for scarce resources such as work, money and power. For **Marx** history is the history of class struggle. Later conflict theorists widened this to gender, race and other structured inequality, so conflict theory is broader than Marxism. Conflict is not a fault in the system but the engine of change.\n\n**Symbolic interactionism**, also called the social action perspective, is the only micro perspective: society is what people make of it in everyday interaction. **Weber** argued that human action, ideas and meanings actively shape society, not only the other way round. **Goffman** showed how we present ourselves to others, using symbols like clothing and manner, as if on a stage."
-    },
-    {
-      "type": "voorbeeld",
-      "titel": "One phenomenon, three lenses (own example)",
-      "tekst": "Take **police stops in a neighbourhood**.\n\n\nThe same event yields three different research questions. That is what a perspective does.",
-      "punten": [
-        "**Functionalist:** policing maintains order and reinforces shared norms; a latent function may be that visible stops reassure residents, a dysfunction that they erode trust.",
-        "**Conflict:** who is stopped, and who is not? Stops may reflect and reinforce inequality between groups, and serve the interests of those with power.",
-        "**Symbolic interactionist:** what does a stop mean to the young man being stopped and to the officer? How do both perform their roles, and how does a label like \"suspicious\" get created in the interaction?"
-      ]
-    },
-    {
-      "type": "tekst",
-      "titel": "Lenski and contemporary perspectives",
-      "tekst": "**Lenski's sociocultural evolution**: societies change as their technology changes, and change speeds up as technological information grows. Five types: hunting and gathering, horticultural and pastoral, agrarian, industrial, and post-industrial (networks, risk and surveillance, the bridge to the risk society later in the course).\n\n**Contemporary perspectives** add to the classical three: using several perspectives at once, giving voice to other positions (women, minorities, colonised populations, LGBTQ people, children), postmodernism and risk, and global perspectives including **glocalisation**, the local response to global change."
-    },
-    {
-      "type": "hardop",
-      "titel": "Say it out loud",
-      "tekst": "Can you do these without looking?",
-      "stappen": [
-        "Explain the difference between Berger and Mills in two sentences.",
-        "Name the three perspectives with their image of society, level and one name each.",
-        "Explain manifest function, latent function and dysfunction with one example.",
-        "Analyse one news item of this week through all three perspectives."
-      ]
-    }
-  ]
-});
 
 voegRecapToe("society-politics/college-2", {
   "id": "recap",
@@ -153,7 +14,12 @@ voegRecapToe("society-politics/college-2", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core ideas of chapter 7 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+      "tekst": "The core ideas of chapter 7 and lecture 2 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "Signals from the slides and the Wooclap about what matters for the midterm.\n\n**Three definitions on one slide**: microsociology, the social construction of reality and the Thomas theorem. All three came back in the Wooclap review.\n\n**Socialisation in two versions**: the long definition (personal biography, daily interactional rules, wider patterns) and the short one (learning to become a member of a social group).\n\n**Nature versus nurture as a small table, plus twin studies**, which the book does not have. Sociologists: nurture more important, but the two are not in opposition.\n\n**Freud in three lines** (id: basic drives; ego: balance with the demands of society; superego: culture within the individual) and **Mead's I and Me**, with an asterisk on the comparison: for Freud constant tension, for Mead cooperation.\n\n**Goffman's toolkit in one line**: performances, non-verbal communication, demeanour, use of space, idealisation, embarrassment (spoiled performance), tact (face-saving).\n\n**Garfinkel and social identity close the lecture**: breaking rules reveals people's sense of reality; identity includes and excludes at the same time.\n\n**Tested in class but not on the slides**: the generalised other.\n\n**What the lecture skips**: the life course and the sociologies of the body and emotions. They are in chapter 7, so still exam material, but they got no slide.\n\n**Practical:** the optional assignment (one news article, one perspective, at most 170 words) is in Applying it."
     },
     {
       "type": "tekst",
@@ -275,7 +141,10 @@ voegRecapToe("society-politics/college-2", {
         "Explain the Thomas theorem and give an example from your own life.",
         "Compare Freud and Mead in three sentences.",
         "Describe a job interview in Goffman’s terms: front region, performance, idealisation.",
-        "Explain feeling rules and emotional labour with an example from security work."
+        "Explain feeling rules and emotional labour with an example from security work.",
+        "Explain the twin-study logic in two sentences: what does it mean if identical twins raised apart turn out different?",
+        "Say the asterisk sentence: how do Freud’s id and superego and Mead’s I and Me compare?",
+        "Walk through Goffman’s seven-item toolkit for a job interview."
       ]
     }
   ]
@@ -287,7 +156,12 @@ voegRecapToe("society-politics/college-3", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core ideas of chapter 11 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+      "tekst": "The core ideas of chapter 11 and lecture 3 on one page. The details are in Core material; this tab is for revising and for checking whether you can still explain each idea without looking."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "Signals from the slides about what matters for the midterm.\n\n**One question as the starting point**: how do we make sense of our differences? The answer is a chain: social categorisation, imagined communities, race, racialisation, ethnicity.\n\n**Three concepts on the slides that are not in chapter 11**: imagined communities, social categorisation and intersectionality. Learn them from the slides.\n\n**Race versus ethnicity**: they may overlap, but biology versus cultural heritage. The lecturer states the distinction on the slide.\n\n**Othering and colonialism are defined one below the other.** Keep them apart: defining yourself against \"the other\" versus enriching yourself by controlling another country.\n\n**Racism has cognitive, evaluative and affective aspects.** Also only on the slide.\n\n**Four explanations of racism**: scapegoat, authoritarian personality, cultural theory (social distance) and post-colonial theory. The book's fifth, oppression of minorities, is not on the slide but is in the chapter.\n\n**Discrimination can be positive or negative**, happens in school, work and relationships, and has an institutional form. The vicious cycle in three stages.\n\n**Four patterns of interaction, four models of migration, six trends.** The sixth trend, proliferation of migration transition, is not in the book.\n\n**What the lecture skips**: the UK section, racism in Europe and the big debate. Still in the chapter.\n\n**Practical:** next session is **culture (chapter 5)** and **social movements (chapter 16, pp. 563-570)**. The slide says up to page 570, the programme up to 567: read up to 570."
     },
     {
       "type": "tekst",
@@ -327,6 +201,26 @@ voegRecapToe("society-politics/college-3", {
           "Diaspora",
           "Dispersal of a population from its homeland",
           "The paths along which ethnicities travel"
+        ],
+        [
+          "Imagined communities",
+          "Groups socially constructed and imagined by those who see themselves as part of them",
+          "Lecture only; Anderson on nations"
+        ],
+        [
+          "Social categorisation",
+          "The process of differentiating groups of people",
+          "Lecture only; the step before prejudice"
+        ],
+        [
+          "Othering",
+          "Defining your group through recognising outsiders as \"the other\"",
+          "Not the same as colonialism"
+        ],
+        [
+          "Intersectionality",
+          "The connection between race and other forms of domination and exclusion: class, gender, age",
+          "Lecture only; the forms combine, not add up"
         ]
       ]
     },
@@ -485,8 +379,8 @@ voegRecapToe("society-politics/college-3", {
           "European exodus (52 million left); post-war inflow of colonial and guest workers; decline after 1973"
         ],
         [
-          "Five future trends (Castles & Miller)",
-          "Globalisation, acceleration, differentiation, feminisation, politicisation"
+          "Five future trends (Castles & Miller), six in the lecture",
+          "Globalisation, acceleration, differentiation, feminisation, politicisation; the lecture adds proliferation of migration transition"
         ]
       ]
     },
@@ -503,8 +397,120 @@ voegRecapToe("society-politics/college-3", {
         "Explain why race is a social construction but still has real consequences.",
         "Place a manager in all four of Merton’s types by changing one detail each time.",
         "Explain institutional racism with Macpherson’s key words, and why no racist individual is needed.",
-        "Name the four migration models, the four phases and the five trends.",
-        "Apply Hall’s three responses to a current conflict in the news."
+        "Name the four migration models, the four phases and the six trends (and which one is not in the book).",
+        "Apply Hall’s three responses to a current conflict in the news.",
+        "Explain intersectionality with one example, and why the forms of exclusion combine rather than add up.",
+        "Give the cognitive, evaluative and affective aspect of one prejudice.",
+        "Explain the difference between othering and colonialism in two sentences."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("society-politics/college-4", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core of chapters 5 and 16 on one page. The details are in the two Core material tabs. After the lecture, What the lecturer emphasised is added here."
+    },
+    {
+      "type": "tabel",
+      "titel": "Chapter 5: culture in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Youth cultures",
+          "Post-war (affluence, schooling, consumer market); resistance (cultural studies) or fluid neo-tribes (postmodern)"
+        ],
+        [
+          "Global culture",
+          "Three flows: goods, information, people; three limits: uneven, unaffordable, different meanings"
+        ],
+        [
+          "Cosmopolitan / hybridisation / glocalisation",
+          "Open to other cultures (Hannerz) / cultures recombined (Pieterse) / the global taken up locally"
+        ],
+        [
+          "Functionalism",
+          "Core values, stability, cultural universals (family, funerals, jokes); blind to change, diversity, power"
+        ],
+        [
+          "Conflict approach",
+          "Marx: economy shapes values; Adorno: culture industry; Gramsci: hegemony wins consent"
+        ],
+        [
+          "Cultural studies",
+          "Hoggart, Williams, Thompson; Stuart Hall: popular culture as an arena of consent and resistance"
+        ],
+        [
+          "Circuit of culture",
+          "Production, representation, identity, consumption, regulation"
+        ],
+        [
+          "Culture and freedom",
+          "Constraint (habit, alienation) and freedom (we make and remake our world)"
+        ],
+        [
+          "The big debate",
+          "Eurocentrism versus multiculturalism and postcolonialism (Said, Fanon); criticism: divisiveness; cosmopolitanism"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Chapter 16: social movements in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Social movement",
+          "An organised activity that encourages or discourages social change"
+        ],
+        [
+          "Four types (Aberle)",
+          "Alternative, redemptive (specific people); reformative, revolutionary (everyone); limited versus radical change"
+        ],
+        [
+          "Four stages",
+          "Emergence, coalescence, bureaucratisation, decline"
+        ],
+        [
+          "Decline through",
+          "Success, failure, co-optation, repression, establishment in the mainstream"
+        ],
+        [
+          "New social movements",
+          "Younger, informal, direct, post-materialist, international; countermovements; critics: not so new"
+        ],
+        [
+          "Movements and change",
+          "Social change is both the cause and the consequence of social movements"
+        ],
+        [
+          "Human rights",
+          "Three waves: liberty (1776, 1789), dignity (UDHR 1948), mutuality and participation (after 1990)"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Explain two ways sociologists explain youth cultures.",
+        "Give the three flows and the three limits of the global culture thesis.",
+        "Explain hegemony with one example.",
+        "Name the five moments of the circuit of culture.",
+        "Draw Aberle’s table and give an example in each box.",
+        "Name the four stages and the five ways a movement declines.",
+        "Give four features of new social movements."
       ]
     }
   ]
