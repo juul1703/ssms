@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v105**.
+Stand: 29 september 2026, service worker **v106**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -452,6 +452,30 @@ mee, want dat is dubbel werk. Werkwijze:
    eigen aantekeningen: wat de docent zei maar niet op de slides stond gaat
    erin ("your note from class"); fouten in haar aantekeningen worden in de
    chat genoemd en waar nodig als "Watch out" in de les.
+
+## 9b. Begrippen om overheen te hoveren (v106)
+
+Julie wil dat begrippen in de lopende tekst een pop-up met de definitie
+krijgen, met term en definitie los te kopiëren (zoals de flashcards). Dat
+werkt sinds v106 zo:
+
+- In een tekst schrijf je `[[Term]]` of `[[zichtbare tekst|Term]]`.
+  `rijkeTekst` (lesblokken.js) maakt daar een woord met een stippellijn van;
+  hover of tik toont de pop-up. Kopiëren loopt via de bestaande
+  `data-kopieer`-afhandeling in les.js.
+- De definitie komt uit de begrippenblokken van **dezelfde les**
+  (`zetHoverBegrippen`, aangeroepen in les.js). Staat de term er niet in,
+  dan blijft alleen de zichtbare tekst over, zonder haken.
+- De zoekfunctie haalt de markering weg (`zonderHoverMarkering`).
+- Stijl: onderaan styles.css, in de huisstijl van de app. **Niet** de
+  opmaak van Julie's voorbeeldscreenshot overnemen.
+- Toegepast in: Governance sessie 4 (59 markeringen: per kopje de eerste
+  vermelding van elk begrip, niet in tabellen en lijstkaarten). Het script
+  daarvoor stond in de chat; kort: per kern-tab, per kopje, de eerste
+  hele-woordtreffer (meervoud mag) van elk begrip uit de les, langste
+  begrippen eerst, nooit binnen een bestaande markering.
+- **Nieuwe lessen krijgen deze markering voortaan ook.** Bestaande lessen
+  alleen als Julie erom vraagt.
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 

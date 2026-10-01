@@ -18,12 +18,52 @@ function blokkenHtml(lijst, ctx){
   return lijst.map(function(b){ return blokHtml(b, ctx); }).join('');
 }
 
+/* ---- Begrippen om overheen te hoveren (v106) ----
+   In een tekst schrijf je [[Term]] of [[zichtbare tekst|Term]]. Staat
+   die term in een begrippenblok van dezelfde les, dan wordt hij een
+   woord met een stippellijn; hover (of tik) en je ziet de definitie in
+   een pop-up, waarin term en definitie los te kopieren zijn. Staat de
+   term niet in de les, dan blijft alleen de zichtbare tekst over.
+   les.js vult HOVER_BEGRIPPEN voordat de les wordt getekend. */
+var HOVER_BEGRIPPEN = {};
+function zetHoverBegrippen(tabs){
+  HOVER_BEGRIPPEN = {};
+  (tabs || []).forEach(function(t){
+    (t.blokken || []).forEach(function(b){
+      if ((b.type === 'begrippen' || b.type === 'flashcards') && b.items) {
+        b.items.forEach(function(k){
+          if (k && k.begrip && k.definitie) {
+            var sl = String(k.begrip).toLowerCase().trim();
+            if (!HOVER_BEGRIPPEN[sl]) HOVER_BEGRIPPEN[sl] = k;
+          }
+        });
+      }
+    });
+  });
+}
+var HOVER_RE = /\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g;
+function zonderHoverMarkering(s){
+  return String(s || '').replace(HOVER_RE, function(m, a){ return a; });
+}
+function hoverBegrip(zichtbaar, term){
+  var ont = function(x){ return x.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&'); };
+  var k = HOVER_BEGRIPPEN[ont(term || zichtbaar).toLowerCase().trim()];
+  if (!k) return zichtbaar;
+  return '<span class="begrip-hover" tabindex="0">' + zichtbaar +
+    '<span class="begrip-pop" role="tooltip">' +
+      '<button type="button" class="begrip-pop-term kopieer" data-kopieer="' + esc(k.begrip) + '" title="Kopieer de term">' + esc(k.begrip) + '</button>' +
+      '<button type="button" class="begrip-pop-def kopieer" data-kopieer="' + esc(k.definitie) + '" title="Kopieer de definitie">' + esc(k.definitie) + '</button>' +
+      '<span class="begrip-pop-hint">Tik op de term of de definitie om te kopi\u00ebren</span>' +
+    '</span></span>';
+}
+
 function rijkeTekst(s){
-  // **dik**, *cursief*, `code` en alinea's op lege regels
+  // **dik**, *cursief*, `code`, [[begrip]] en alinea's op lege regels
   var t = esc(s || '');
   t = t.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
        .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>')
-       .replace(/`([^`]+)`/g, '<code>$1</code>');
+       .replace(/`([^`]+)`/g, '<code>$1</code>')
+       .replace(HOVER_RE, function(m, a, b){ return hoverBegrip(a, b); });
   return t.split(/\n\s*\n/).map(function(p){
     return '<p>' + p.replace(/\n/g, '<br>') + '</p>';
   }).join('');

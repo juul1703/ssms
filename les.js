@@ -42,6 +42,7 @@
   var volgende = vak.lessen[index + 1] || null;
   var basis = 'ssms-' + vak.id + '-' + les.id;
   var onderdelen = metFlashcards(lesOnderdelen(vak, les));
+  if (typeof zetHoverBegrippen === 'function') zetHoverBegrippen(onderdelen);
 
   /* Elke les krijgt Flashcards als vijfde tabblad. De kaarten worden
      samengesteld uit alle begrippen- en flashcardblokken in de les, in
@@ -309,7 +310,8 @@
       Object.keys(w).forEach(function(k){ loop(w[k]); });
     })(b);
     /* opmaaktekens weg, anders zoek je door sterretjes heen */
-    return uit.join(' \u00b7 ').replace(/\*\*/g, '').replace(/\s+/g, ' ');
+    var tekst = uit.join(' \u00b7 ').replace(/\*\*/g, '').replace(/\s+/g, ' ');
+    return typeof zonderHoverMarkering === 'function' ? zonderHoverMarkering(tekst) : tekst;
   }
 
   function zoekIndex(){
@@ -511,6 +513,27 @@
       document.body.removeChild(t);
     }
   }
+
+  /* ---- begrip-pop-ups binnen beeld houden (v106) ---- */
+  function plaatsPop(el){
+    var pop = el && el.querySelector('.begrip-pop');
+    if (!pop) return;
+    pop.style.left = '0px';
+    var r = pop.getBoundingClientRect(), marge = 12;
+    var teVer = r.right - (window.innerWidth - marge);
+    if (teVer > 0) pop.style.left = (-Math.min(teVer, r.left - marge)) + 'px';
+  }
+  document.addEventListener('mouseover', function(e){
+    var h = e.target.closest && e.target.closest('.begrip-hover');
+    if (h && !h.contains(e.relatedTarget)) plaatsPop(h);
+  });
+  document.addEventListener('focusin', function(e){
+    var h = e.target.closest && e.target.closest('.begrip-hover');
+    if (h) plaatsPop(h);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && document.activeElement && document.activeElement.closest && document.activeElement.closest('.begrip-hover')) document.activeElement.blur();
+  });
 
   /* ---- klikgedrag ---- */
   document.addEventListener('click', function(e){
