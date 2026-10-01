@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v104**.
+Stand: 29 september 2026, service worker **v105**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -541,8 +541,10 @@ conceptlijst 1.
    twee lessen hebben 10 en 14 flashcards, minder dan de norm van dertig,
    omdat het vak weinig begrippen kent en vooral vaardigheid is. Nog te doen:
    recaps voor **DRM** (sessies 3, 4, 6, 9, 11 en de conceptlijsten).
-4. Rest van het vertaalwerk: Intro slides-1, H4, H6, H8, H10, H11, studiegids,
-   DRM, FAW.
+4. Rest van het vertaalwerk: Intro H10, DRM (ch3, ch4, ch5, ch13), FAW. **Niet** meer: Intro
+   H4, H6, H8 en H11 zijn in v105 uit de app gehaald (niet in het programma; de
+   handleiding noemt voor Intro alleen Bieder H1, 2, 3, 5, 7, 9 en 10), en de
+   **studiegids hoeft niet vertaald** te worden (Julie, 29 september).
 4a. ~~**Intro collegeslides**~~ klaar: lecture 2 in de recap van sessie 2
    (v97), lecture 3 als sessie 3 (v97), en lecture 1 als sessie 1 in het
    Engels (v98). De Nederlandse slides-les is uit `ssms-inhoud.js` gehaald en

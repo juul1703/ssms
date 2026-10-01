@@ -59,14 +59,10 @@
         h1:  'H1 Bringing safety and security together',
         h2:  'H2 Risk, safety and security as concepts',
         h3:  'H3 Twee kanten van dezelfde medaille',
-        h4:  'H4 Safety versus security in de luchtvaart',
         h5:  'H5 Security- en safetycultuur',
-        h6:  'H6 Gebruikerservaring op de luchthaven',
         h7:  'H7 Divergence of safety and security',
-        h8:  'H8 Voorbereiden om verrast te worden',
         h9:  'H9 Managerial tensions and synergies',
-        h10: 'H10 Het snijvlak op de werkplek',
-        h11: 'H11 Onderzoeks- en managementuitdagingen'
+        h10: 'H10 Het snijvlak op de werkplek'
       }
     },
     'demystifying-research-methods': {

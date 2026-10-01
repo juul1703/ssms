@@ -4,6 +4,8 @@
    Engelse versie (tot v83 Nederlands in ssms-inhoud.js).
    Drie afgebroken opsommingen in 7.6 en 7.7 stonden als losse
    stappen-blokken in de tekst; die zijn weer één lijst geworden.
+   v105: de preview wijst nu naar H9; H8 zit niet in het programma en
+   is uit de app gehaald.
    ============================================================ */
 
 LESSTOF['intro-to-safety-security/h7'] = [
@@ -38,7 +40,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
   },
   {
     "id": "kern",
-    "titel": "Core material",
+    "titel": "Core material: chapter 7",
     "blokken": [
       {
         "type": "tekst",
@@ -696,12 +698,13 @@ LESSTOF['intro-to-safety-security/h7'] = [
       },
       {
         "type": "preview",
-        "titel": "From profession to organisation",
-        "tekst": "Brooks and Coole looked at what professionals know. In chapter 8 La Porte looks at what happens when a large technical organisation has to deliver both at once, and which puzzles that creates for whoever leads the organisation.",
+        "titel": "From profession to managerial tensions",
+        "vakId": "intro-to-safety-security",
+        "lesId": "h9",
+        "tekst": "Brooks and Coole looked at what professionals know. In chapter 9 Schulman looks at organisations that must be safe and secure at the same time, such as nuclear plants and air traffic control, and at the tensions and synergies that creates for management.",
         "punten": [
-          "What a large-scale technical organisation is and why it is so distinctive",
-          "Which organisational and operational puzzles arise when safety and security are demanded at the same time",
-          "A guide for empirical research, and what top management should do with it"
+          "Why high reliability organisations are the test case",
+          "Where safety and security reinforce each other, and where they clash"
         ]
       }
     ]
