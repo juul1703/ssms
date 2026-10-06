@@ -7,6 +7,7 @@
    plus lecture-begrippen in de tabellen en extra hardop-stappen.
    v103: recap voor college-4 (H5 en H16, uit de literatuur).
    v108: lecture 4 in de recap van college-4; nieuwe recap voor college-5.
+   v109: hele H5 in de recap van college-4.
    ============================================================ */
 
 voegRecapToe("society-politics/college-2", {
@@ -419,7 +420,7 @@ voegRecapToe("society-politics/college-4", {
     {
       "type": "uitleg",
       "titel": "What the lecturer emphasised",
-      "tekst": "**The building blocks of culture**, from pp. 128-143 (before the assigned pages): culture as \"designs for living\", a toolbox, a bridge to the past and a guide to the future; humans make culture and culture makes us.\n\n**Horace Miner's Nacirema**: American habits described as a strange tribe. A lesson in ethnocentrism and cultural relativism.\n\n**Symbols and language**: semiotics, cultural reproduction, the Sapir-Whorf hypothesis (linguistic determinism versus linguistic relativity).\n\n**Values, beliefs and norms**: the World Values Survey (traditional versus secular-rational, survival versus self-expression); prescriptive and proscriptive norms, sanctions, mores and folkways; material culture.\n\n**Cultural diversity**: high and popular culture, cultural capital, subculture and counterculture, cultural integration and cultural lag, change through invention, discovery and diffusion.\n\n**Questioning culture**: ethnocentrism and cultural relativism, global culture and its limits, hybridisation, hegemony, constraint or freedom.\n\n**Social movements: only the stages** (Figure 16.4). Types, new social movements and human rights are in the reading but not on the slides.\n\n**Practical:** next session is chapter 17 (control, crime and deviance). The Wheel of Justice bike tour along The Hague's international courts ran again on 4 October (\"Hands off the ICC\")."
+      "tekst": "**The building blocks of culture**, the first half of chapter 5: culture as \"designs for living\", a toolbox, a bridge to the past and a guide to the future; humans make culture and culture makes us.\n\n**Horace Miner's Nacirema**: American habits described as a strange tribe. A lesson in ethnocentrism and cultural relativism.\n\n**Symbols and language**: semiotics, cultural reproduction, the Sapir-Whorf hypothesis (linguistic determinism versus linguistic relativity).\n\n**Values, beliefs and norms**: the World Values Survey (traditional versus secular-rational, survival versus self-expression); prescriptive and proscriptive norms, sanctions, mores and folkways; material culture.\n\n**Cultural diversity**: high and popular culture, cultural capital, subculture and counterculture, cultural integration and cultural lag, change through invention, discovery and diffusion.\n\n**Questioning culture**: ethnocentrism and cultural relativism, global culture and its limits, hybridisation, hegemony, constraint or freedom.\n\n**Social movements: only the stages** (Figure 16.4). Types, new social movements and human rights are in the reading but not on the slides.\n\n**Practical:** next session is chapter 17 (control, crime and deviance). The Wheel of Justice bike tour along The Hague's international courts ran again on 4 October (\"Hands off the ICC\")."
     },
     {
       "type": "tabel",
@@ -429,6 +430,22 @@ voegRecapToe("society-politics/college-4", {
         "In one line"
       ],
       "rijen": [
+        [
+          "What culture is",
+          "Designs for living; a toolbox, a bridge to the past, a guide to the future; webs of significance (Geertz); material and non-material; no human nature without culture"
+        ],
+        [
+          "Five components",
+          "Symbols (culture shock, semiotics), language (cultural reproduction, Sapir-Whorf), values and beliefs (World Values Survey), norms (mores and folkways), material culture"
+        ],
+        [
+          "Diversity",
+          "High and popular culture, cultural capital, subculture and counterculture; integration, lag; invention, discovery, diffusion; ethnocentrism versus cultural relativism"
+        ],
+        [
+          "Muslim cultures",
+          "Religion based, very varied; the five pillars; Sunni and Shia; asabiyya"
+        ],
         [
           "Youth cultures",
           "Post-war (affluence, schooling, consumer market); resistance (cultural studies) or fluid neo-tribes (postmodern)"

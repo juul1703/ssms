@@ -542,6 +542,14 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 
+**Society: hoofdstukken, niet paginanummers** (Julie, 6 oktober). De
+paginanummers in het programma komen uit een nieuwere druk; Julie gebruikt
+een oudere, en volgens de docent komen de hoofdstukken inhoudelijk overeen.
+Volg dus het **hoofdstuk** dat het programma noemt, niet de pagina's. Noemt
+het programma een stukje van een hoofdstuk (zoals H16 "sociale bewegingen"),
+neem dan de bijbehorende sectie in Julie's druk. Sessie 4 is hierop in v109
+aangepast: heel H5.
+
 **Society, stand per sessie** (zodat sessie 1 niet steeds vergeten wordt):
 
 | Sessie | Boek | Slides | Aantekeningen Julie | Wooclap |
@@ -549,7 +557,7 @@ Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij 
 | 1 | H1, H2, H4 (v89) | verwerkt (v89) | bestaan niet, Julie heeft bij lecture 1 geen aantekeningen gemaakt | geen |
 | 2 | H7 | verwerkt (v100) | verwerkt (v100), ook de literatuurnotities H7 (niets nieuws) | 9 vragen als quiz (v100) |
 | 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
-| 4 | H5 p. 144-158, H16 p. 525-532 (v103) | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
+| 4 | heel H5 (v109), H16 sociale bewegingen p. 525-532 | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
 | 5 | H17 p. 541-577 (v108) | nog niet | nog niet | nog niet |
 
 Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
