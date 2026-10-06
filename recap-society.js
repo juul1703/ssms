@@ -6,6 +6,7 @@
    v100: "What the lecturer emphasised" toegevoegd aan sessie 2 en 3,
    plus lecture-begrippen in de tabellen en extra hardop-stappen.
    v103: recap voor college-4 (H5 en H16, uit de literatuur).
+   v108: lecture 4 in de recap van college-4; nieuwe recap voor college-5.
    ============================================================ */
 
 voegRecapToe("society-politics/college-2", {
@@ -413,7 +414,12 @@ voegRecapToe("society-politics/college-4", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core of chapters 5 and 16 on one page. The details are in the two Core material tabs. After the lecture, What the lecturer emphasised is added here."
+      "tekst": "The core of chapters 5 and 16 on one page. The details are in the two Core material tabs. Lecture 4 is now included."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "**The building blocks of culture**, from pp. 128-143 (before the assigned pages): culture as \"designs for living\", a toolbox, a bridge to the past and a guide to the future; humans make culture and culture makes us.\n\n**Horace Miner's Nacirema**: American habits described as a strange tribe. A lesson in ethnocentrism and cultural relativism.\n\n**Symbols and language**: semiotics, cultural reproduction, the Sapir-Whorf hypothesis (linguistic determinism versus linguistic relativity).\n\n**Values, beliefs and norms**: the World Values Survey (traditional versus secular-rational, survival versus self-expression); prescriptive and proscriptive norms, sanctions, mores and folkways; material culture.\n\n**Cultural diversity**: high and popular culture, cultural capital, subculture and counterculture, cultural integration and cultural lag, change through invention, discovery and diffusion.\n\n**Questioning culture**: ethnocentrism and cultural relativism, global culture and its limits, hybridisation, hegemony, constraint or freedom.\n\n**Social movements: only the stages** (Figure 16.4). Types, new social movements and human rights are in the reading but not on the slides.\n\n**Practical:** next session is chapter 17 (control, crime and deviance). The Wheel of Justice bike tour along The Hague's international courts ran again on 4 October (\"Hands off the ICC\")."
     },
     {
       "type": "tabel",
@@ -511,6 +517,145 @@ voegRecapToe("society-politics/college-4", {
         "Draw Aberle’s table and give an example in each box.",
         "Name the four stages and the five ways a movement declines.",
         "Give four features of new social movements."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("society-politics/college-5", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core of chapter 17 on one page. After the lecture, What the lecturer emphasised is added here."
+    },
+    {
+      "type": "tabel",
+      "titel": "Ten explanations of crime",
+      "kop": [
+        "Approach",
+        "Key names",
+        "Core idea",
+        "Weak spot"
+      ],
+      "rijen": [
+        [
+          "Classical",
+          "Beccaria; von Hirsch",
+          "Crime is a rational choice; deter with proportional punishment",
+          "Ignores causes; assumes a fair society"
+        ],
+        [
+          "Positivist",
+          "Lombroso, Sheldon; Matza",
+          "A criminal type; crime is determined",
+          "Most offenders are normal; ignores definition and power"
+        ],
+        [
+          "Functionalist",
+          "Durkheim",
+          "Deviance is normal and has four functions",
+          "Explains little about who offends"
+        ],
+        [
+          "Strain",
+          "Merton",
+          "Gap between goals and means: five adaptations",
+          "Fits theft better than passion; success is not only money"
+        ],
+        [
+          "Subcultural",
+          "A. Cohen, Miller, Cloward and Ohlin",
+          "Status frustration; focal concerns; opportunity structures",
+          "Assumes shared standards; focuses on the poor"
+        ],
+        [
+          "Learning",
+          "Sutherland",
+          "Differential association: deviance is learned in groups",
+          "Why some associations, not others?"
+        ],
+        [
+          "Labelling",
+          "Tannenbaum, Becker, Lemert, Goffman",
+          "Deviance lies in the reaction: secondary deviance, stigma",
+          "Weak on serious crime; effects inconclusive"
+        ],
+        [
+          "Conflict",
+          "Quinney, Spitzer; Taylor, Walton and Young",
+          "Law and labels serve the powerful",
+          "Laws also protect workers; all societies have crime"
+        ],
+        [
+          "Left realism",
+          "Jock Young; Ian Taylor",
+          "The square of crime; relative deprivation and marginalisation",
+          "Ambitious policy demands"
+        ],
+        [
+          "Feminist",
+          "Carol Smart; Messerschmidt",
+          "Gender neglected; masculinity and crime; gendered control",
+          "Still developing"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Crime and control in key terms",
+      "kop": [
+        "Term",
+        "In one line"
+      ],
+      "rijen": [
+        [
+          "Deviance / crime",
+          "Recognised violation of norms / of criminal law"
+        ],
+        [
+          "Measuring crime",
+          "A shrinking flow, a hidden figure; victim surveys and self-report studies"
+        ],
+        [
+          "Global crime",
+          "Castells: arms, nuclear, migrants, women and children, body parts, money laundering; drugs"
+        ],
+        [
+          "Penal goals",
+          "Deterrence, rehabilitation, restoration, retribution, incapacitation, non-intervention"
+        ],
+        [
+          "Foucault",
+          "From spectacle on the body to the prison timetable; power through discourse"
+        ],
+        [
+          "Changes in control",
+          "More prisons, informal control grafted on, surveillance; privatisation; bifurcation"
+        ],
+        [
+          "Surveillance society",
+          "Lyon: CCTV, tagging, Neighbourhood Watch, ASBOs; civil liberties concerns"
+        ],
+        [
+          "Race and crime",
+          "Prejudice in policing, inequality, what is counted, low-rate groups"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Explain why crime statistics must be read with caution, with three reporting factors.",
+        "Name the six goals of a penal system.",
+        "Explain the three changes in social control.",
+        "Contrast the classical and the positivist school.",
+        "Name Durkheim’s four functions and Merton’s five adaptations.",
+        "Explain primary and secondary deviance with an example.",
+        "Draw the square of crime."
       ]
     }
   ]

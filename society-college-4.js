@@ -11,6 +11,14 @@
    college. Twee kernstof-tabs (kern: H5, kern2: H16). Na het college
    komen slides en aantekeningen erbij als "From the lecture"-kaders,
    net als bij sessie 2 en 3. Recap in recap-society.js.
+
+   v108 (6 oktober 2026): lecture 4 verwerkt. Vier "From the
+   lecture"-kaders bij sectie 0 (het college draait om p. 128-143:
+   culture, Nacirema, symbolen en taal, values/norms/WVS, diversiteit),
+   een kader na sectie 3 (questioning culture) en een bij de fasen van
+   sociale bewegingen (Figure 16.4 bevestigt de gekozen sectie). Drie
+   video's, 17 extra flashcards, een quiz over het college. Julie heeft
+   bij dit college nauwelijks aantekeningen gemaakt.
    ============================================================ */
 
 LESSTOF['society-politics/college-4'] = [
@@ -35,12 +43,30 @@ LESSTOF['society-politics/college-4'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Macionis & Plummer, chapter 5 (Culture), pp. 144-158**, and **chapter 16 (Power, governance and social movements), the section on social movements.**\n\n**A note on the page numbers of chapter 16.** The programme says pp. 563-567 and the slide of lecture 3 says pp. 563-570, but in the PDF you uploaded chapter 16 runs from p. 502 to p. 539, so those pages do not exist in this edition. The **topic** is clear from the programme (\"culture and social movements\"): in your PDF the social movements section is **pp. 525-528**, followed by human rights on pp. 528-532. This lesson covers both. If the lecture turns out to use a different section, we adjust it afterwards.\n\n**For chapter 5**, the assigned pages start in the middle of the chapter. The basic vocabulary (symbols, values, norms, subculture, ethnocentrism and so on) is on pp. 128-143, which are not assigned. Section 0 of Core material gives you the short version from the chapter summary, because the assigned pages keep using those terms.\n\nThis lesson is written from the literature, as preparation. After the lecture, the slides and your notes are added in From the lecture boxes, as in sessions 2 and 3."
+        "tekst": "Read: **Macionis & Plummer, chapter 5 (Culture), pp. 144-158**, and **chapter 16 (Power, governance and social movements), the section on social movements.**\n\n**A note on the page numbers of chapter 16.** The programme says pp. 563-567 and the slide of lecture 3 says pp. 563-570, but in the PDF you uploaded chapter 16 runs from p. 502 to p. 539, so those pages do not exist in this edition. The **topic** is clear from the programme (\"culture and social movements\"): in your PDF the social movements section is **pp. 525-528**, followed by human rights on pp. 528-532. This lesson covers both. **Lecture 4 confirms this**: its social movements slide shows Figure 16.4, the stages figure from exactly this section.\n\n**For chapter 5**, the assigned pages start in the middle of the chapter. The basic vocabulary (symbols, values, norms, subculture, ethnocentrism and so on) is on pp. 128-143, which are not assigned. **But lecture 4 spends most of its slides on exactly those terms**, so they are exam material after all. Section 0 of Core material covers them, with the lecture boxes.\n\nThis lesson was written from the literature as preparation; since v108 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3."
       },
       {
         "type": "slimmer",
         "titel": "If you are short on time",
-        "tekst": "In this order, and stop when you run out of time.\n\n**1. The To remember tab (15 minutes).**\n\n**2. Chapter 16, sections 2 to 4 (20 minutes).** The four types and four stages of social movements and the features of new social movements: short, list-shaped and easy to test.\n\n**3. Chapter 5, sections 3 to 6 (30 minutes).** Global culture, functionalism versus conflict, and cultural studies.\n\n**4. The quiz in Check yourself (10 minutes).**\n\n**5. The rest (30 minutes).** Youth cultures, culture and freedom, the big debate on Eurocentrism, and human rights."
+        "tekst": "In this order, and stop when you run out of time.\n\n**1. The To remember tab (15 minutes).** Start with What the lecturer emphasised.\n\n**1b. Section 0 of Core material, chapter 5 (20 minutes).** The building blocks of culture: the part the lecture spends most of its slides on.\n\n**2. Chapter 16, sections 2 to 4 (20 minutes).** The four types and four stages of social movements and the features of new social movements: short, list-shaped and easy to test.\n\n**3. Chapter 5, sections 3 to 6 (30 minutes).** Global culture, functionalism versus conflict, and cultural studies.\n\n**4. The quiz in Check yourself (10 minutes).**\n\n**5. The rest (30 minutes).** Youth cultures, culture and freedom, the big debate on Eurocentrism, and human rights."
+      },
+      {
+        "type": "video",
+        "titel": "Videos from lecture 4 (1)",
+        "tekst": "Shown with the slides on symbols and language.",
+        "url": "https://www.youtube.com/watch?v=Ys-KP8oPdvg"
+      },
+      {
+        "type": "video",
+        "titel": "Videos from lecture 4 (2)",
+        "tekst": "Shown with the slides on values, beliefs and norms.",
+        "url": "https://www.youtube.com/watch?v=KldFGgUTqKA"
+      },
+      {
+        "type": "video",
+        "titel": "Videos from lecture 4 (3)",
+        "tekst": "Shown with the slides on values, beliefs and norms.",
+        "url": "https://www.youtube.com/watch?v=dMwtASguRU0"
       },
       {
         "type": "waarschuwing",
@@ -60,8 +86,24 @@ LESSTOF['society-politics/college-4'] = [
     "blokken": [
       {
         "type": "tekst",
-        "titel": "0. The basic vocabulary of culture (pp. 128-143, not assigned)",
-        "tekst": "The assigned pages build on terms from the first half of the chapter. The chapter summary gives them in a few lines:\n\n**Culture** is a \"design for living\", a way of life. It is partly **material** (tangible things, such as telephones or pottery), partly **non-material** (ideas) and it involves **practices**. Several species have a limited capacity for culture, but only humans depend on it to survive. The epigraph by Clifford Geertz makes the point: without culture, humans would be \"unworkable monstrosities\".\n\n**Symbols** are anything that carries a meaning recognised by people who share a culture. **Language** is the system of symbols through which one generation passes culture on to the next.\n\n**Values** are general orientations to the world; **beliefs** are statements people who share a culture hold to be true.\n\n**Norms** guide behaviour. **Mores** are norms of great moral significance; **folkways** guide everyday life and leave more room for individual choice.\n\n**High culture** distinguishes a society's elites; **popular culture** is widespread in a society. A **subculture** is a distinctive set of cultural patterns of one segment of the population; a **counterculture** is strongly at odds with the conventional way of life.\n\n**Cultural change** comes through invention, discovery and diffusion; when parts of a culture change at different speeds, that is **cultural lag**.\n\n**Ethnocentrism** is judging another culture by the standards of your own; **cultural relativism** is judging it by its own standards.\n\nSession 2's norms and values, and session 3's multiculturalism, come back here."
+        "titel": "0. The building blocks of culture (pp. 128-143 and lecture 4)",
+        "tekst": "These terms are on pp. 128-143, before the assigned pages, but **lecture 4 is built almost entirely around them**: treat them as exam material. The chapter summary gives them in a few lines; the boxes below add what the slides say.\n\n**Culture** is a \"design for living\", a way of life. It is partly **material** (tangible things, such as telephones or pottery), partly **non-material** (ideas) and it involves **practices**. Several species have a limited capacity for culture, but only humans depend on it to survive. The epigraph by Clifford Geertz makes the point: without culture, humans would be \"unworkable monstrosities\".\n\n**Symbols** are anything that carries a meaning recognised by people who share a culture. **Language** is the system of symbols through which one generation passes culture on to the next.\n\n**Values** are general orientations to the world; **beliefs** are statements people who share a culture hold to be true.\n\n**Norms** guide behaviour. **Mores** are norms of great moral significance; **folkways** guide everyday life and leave more room for individual choice.\n\n**High culture** distinguishes a society's elites; **popular culture** is widespread in a society. A **subculture** is a distinctive set of cultural patterns of one segment of the population; a **counterculture** is strongly at odds with the conventional way of life.\n\n**Cultural change** comes through invention, discovery and diffusion; when parts of a culture change at different speeds, that is **cultural lag**.\n\n**Ethnocentrism** is judging another culture by the standards of your own; **cultural relativism** is judging it by its own standards.\n\nSession 2's norms and values, and session 3's multiculturalism, come back here."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Why do we do what we do?** The lecture opens with that question. Its answer: **culture**, the \"designs for living\": the values, beliefs, behaviour, practices and material objects that constitute a people's way of life. The slide adds three images:\n\n**A toolbox of solutions to everyday problems**: how to greet, eat, dress, settle a conflict.\n**A bridge to the past and a guide to the future**: culture carries what earlier generations learned and tells us what to expect.\n**Humans make culture, and in turn culture makes us.** We create our way of life, and then grow up inside it as if it were natural.\n\n**Body Ritual among the Nacirema.** The lecture reads extracts from a famous text by the anthropologist **Horace Miner (1956)**, describing a strange tribe: every household has a shrine where people perform secret daily rituals in front of a charm-box filled with potions from medicine men, mingle holy water in a font, and fear the ugliness of their own bodies. \"Nacirema\" is **American** spelled backwards: the shrine is the bathroom, the charm-box the medicine cabinet, the medicine men are doctors and pharmacists. The point: our own everyday habits look bizarre when described from the outside, exactly as other cultures look to us. It is a lesson in **ethnocentrism** and **cultural relativism**, and in making the familiar strange, the sociological perspective of session 1.\n\nThe photos on the next slide (dancers, Dutch bicycle parking, Zwarte Piet, geishas, rice terraces) make the same point: each is ordinary inside its culture and striking from outside."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Components of culture, part 1: symbols and language.**\n\n**Symbol**: anything that carries a meaning recognised by people who share a culture. Meanings are **not inherent in objects but constructed**: a red light, a handshake, a flag only mean something because we agree they do (session 2: the social construction of reality). **Semiotics** is the study of symbols and signs.\n\n**Language**: the system of symbols that allows communication. Through language, culture passes from one generation to the next: **cultural reproduction**.\n\n**The Sapir-Whorf hypothesis**: we perceive the world through our language. It has a strong and a weak version:\n\n**Linguistic determinism** (strong): language **shapes**, even fixes, our thinking; we can only think what our language lets us say.\n**Linguistic relativity** (weak): the **distinctions** languages make differ, and these differences influence how speakers notice and remember things.\n\nMost researchers today accept the weak version and reject the strong one. A Dutch example: Dutch has \"gezellig\", English has no single word for it; English speakers can still understand the idea, which is relativity, not determinism."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Components of culture, part 2: values, beliefs, norms and material culture.**\n\n**Values**: standards of what is good and bad. **Beliefs**: specific statements held to be true.\n\n**The World Values Survey** maps countries on two dimensions (the Inglehart-Welzel map):\n**Traditional versus secular-rational values**: the importance of religion, family, authority and national pride versus a more secular, rational outlook.\n**Survival versus self-expression values**: a focus on economic and physical security versus an emphasis on well-being, tolerance, participation and quality of life (session 4's post-materialist values).\nThe Netherlands sits high on both secular-rational and self-expression values.\n\n**Norms**: the rules and expectations that guide behaviour.\n**Prescriptive** norms say what you **should** do (pay taxes, greet people); **proscriptive** norms what you **should not** do (steal, cut the queue).\n**Sanctions** are the consequences: **positive** for following a norm (praise, reward), **negative** for breaking it (a fine, disapproval).\n**Mores**: standards of proper moral conduct, **strictly enforced** (do not kill).\n**Folkways**: customs for casual interaction, **not strictly enforced** (do not wear pyjamas to class).\n\n**Material culture**: artefacts, the tangible things a people make, such as a house. The slides illustrate values and material culture with rice: rice terraces, a traditional raised granary and a Philippine campaign poster whose slogan says that every grain is life.\n\nSession 2 defined norms and values for Governance; this is the same distinction, now used to describe whole cultures."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Cultural diversity.**\n\n**Monocultural and multicultural** societies: one dominant way of life, or many side by side. Diversity means many ways of life, but also **variety and hierarchy**: some ways of life rank higher than others.\n\n**High culture** (of the elites) and **popular culture** (widespread).\n**Cultural capital**: power and status derived from education, awareness and aesthetic preferences (the term comes from Pierre Bourdieu): knowing which fork to use, which books to mention, which music counts as good taste.\n**Subculture**: patterns distinct from the general population (gamers, surfers, a football supporters' scene).\n**Counterculture**: patterns **opposing** those widely accepted (the 1960s hippies, radical environmentalists).\n**Cultural integration**: the close relationship among the elements of a cultural system: change one element and others change too.\n**Cultural lag**: when elements change at different speeds and disrupt the system (technology races ahead of the norms and laws for it: think of social media and privacy).\n**Cultural change** happens through **invention** (creating new elements: the smartphone), **discovery** (recognising something that already existed: a new medical insight) and **diffusion** (spreading from one culture to another: sushi in Amsterdam)."
       },
       {
         "type": "tekst",
@@ -84,6 +126,10 @@ LESSTOF['society-politics/college-4'] = [
         "titel": "3. A global culture?",
         "toetsstof": true,
         "tekst": "In Seoul, Kuala Lumpur, Chennai, Cairo or Casablanca you see familiar clothes, hear familiar pop music and see adverts for the same products, and English is becoming the world's second language. Are we witnessing a **global culture**? Yet the world is still divided into around 200 states and thousands of cultures, many in conflict.\n\n**Three global flows** have made cultures more alike:\n\n1. **Goods**: the global economy. International trade has never been greater, spreading the same cars, TV shows and T-shirts everywhere.\n2. **Information**: global communications. A century ago messages went by boat, train or telegraph; now satellites let people see events far away as they happen.\n3. **People**: global migration. Knowledge of the world makes people move where they think life is better, and air travel makes it easier; most countries now have many residents born elsewhere, and tourism is a leading industry.\n\nThese links have made cultures more similar, at least on the surface, but also made people aware of deep contrasts.\n\n**The cosmopolitan.** Some people, often poor, stay restricted to a local world. Others develop a flexible, global character. Ulf Hannerz calls this the **cosmopolitan**: \"a willingness to engage with the other\", a stance of **openness** towards divergent cultural experiences, a search for contrasts rather than uniformity (Hannerz, 1990).\n\n**Hybridisation.** As a hybrid in biology crosses two species, **cultural hybridisation** is the way parts of one culture (language, practices, symbols) are recombined with those of another. The Dutch sociologist **Jan Nederveen Pieterse** gives the example of **Thai boxing by Moroccan girls in Amsterdam**, Asian rap in London, Irish bagels and Chinese tacos (Pieterse, 1995).\n\n**Three limitations of the global culture thesis:**\n\n1. **The flows are uneven.** Cities are more connected than villages, and North America and Western Europe influence the rest of the world more than the other way round.\n2. **It assumes people can afford** the new goods and services, while grinding poverty deprives millions of basic necessities.\n3. **The same traits do not carry the same meanings.** Do teenagers in Tokyo understand rap as they do in New York? People everywhere see the world through their own cultural \"lenses\".\n\n**Glocalisation** names that third point: **the ways in which global phenomena are responded to differently in local cultures**. Karaoke spread from Japan, but it takes on different meanings, songs and rituals in Thailand, London or San Francisco."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Understanding and questioning culture**: one slide brings together the critical terms.\n\n**Ethnocentrism**: seeing and judging another culture through your own. **Cultural relativism**: seeing and judging a culture through its own standards and context. (The Nacirema text is the exercise in switching from the first to the second.)\n\n**Global culture**, through the economy, communication and migration: the three flows of this section. Its **limits** are the three of the book: the uneven flow of goods, information and people; unequal access to goods and services; and glocalisation.\n\n**Cultural hybridisation**: ways of combining cultures: languages, practices and symbols.\n\n**Hegemony**: the means by which one group dominates through ideas (section 5).\n\n**Culture as constraint or freedom?** The question of section 7.\n\nThe slide follows the book closely: if you know sections 3, 5 and 7, you know this slide."
       },
       {
         "type": "tekst",
@@ -346,6 +392,74 @@ LESSTOF['society-politics/college-4'] = [
           {
             "begrip": "Fanon’s three phases (list)",
             "definitie": "1. Assimilation to the dominant white culture. 2. The disturbed black writer. 3. Native writers as awakeners of the people."
+          },
+          {
+            "begrip": "Designs for living",
+            "definitie": "The lecture’s phrase for culture: the values, beliefs, behaviour, practices and material objects that constitute a people’s way of life; a toolbox of solutions, a bridge to the past and a guide to the future."
+          },
+          {
+            "begrip": "Body Ritual among the Nacirema",
+            "definitie": "Horace Miner’s 1956 text describing American bathroom and health habits as the strange rituals of a tribe (\"Nacirema\" is American backwards); a lesson in ethnocentrism and cultural relativism."
+          },
+          {
+            "begrip": "Semiotics",
+            "definitie": "The study of symbols and signs, and of how their meanings are constructed."
+          },
+          {
+            "begrip": "Cultural reproduction",
+            "definitie": "The passing on of culture from one generation to the next, above all through language."
+          },
+          {
+            "begrip": "Sapir-Whorf hypothesis",
+            "definitie": "The idea that people perceive the world through the categories of their language."
+          },
+          {
+            "begrip": "Linguistic determinism",
+            "definitie": "The strong version of Sapir-Whorf: language shapes and limits our thinking. Largely rejected today."
+          },
+          {
+            "begrip": "Linguistic relativity",
+            "definitie": "The weak version of Sapir-Whorf: languages make different distinctions, which influence how speakers notice and remember things."
+          },
+          {
+            "begrip": "World Values Survey",
+            "definitie": "A worldwide survey of values that maps countries on two dimensions: traditional versus secular-rational, and survival versus self-expression."
+          },
+          {
+            "begrip": "Prescriptive and proscriptive norms",
+            "definitie": "Prescriptive norms say what people should do; proscriptive norms what they should not do."
+          },
+          {
+            "begrip": "Sanctions",
+            "definitie": "Consequences of following norms (positive sanctions) or breaking them (negative sanctions)."
+          },
+          {
+            "begrip": "Cultural capital",
+            "definitie": "Power and status derived from education, awareness and aesthetic preferences (Bourdieu)."
+          },
+          {
+            "begrip": "Cultural integration",
+            "definitie": "The close relationship among the elements of a cultural system, so that changing one affects the others."
+          },
+          {
+            "begrip": "Monocultural and multicultural",
+            "definitie": "A society with one dominant way of life versus one with many ways of life side by side."
+          },
+          {
+            "begrip": "Three sources of cultural change (list)",
+            "definitie": "1. Invention: creating new cultural elements. 2. Discovery: recognising elements that already existed. 3. Diffusion: spreading from one culture to another."
+          },
+          {
+            "begrip": "Components of culture (list)",
+            "definitie": "1. Symbols (and semiotics). 2. Language (cultural reproduction; Sapir-Whorf). 3. Values and beliefs. 4. Norms: prescriptive and proscriptive, sanctions, mores and folkways. 5. Material culture."
+          },
+          {
+            "begrip": "World Values Survey: two dimensions (list)",
+            "definitie": "1. Traditional versus secular-rational values. 2. Survival versus self-expression values."
+          },
+          {
+            "begrip": "Culture in the lecture’s three images (list)",
+            "definitie": "1. A toolbox of solutions to everyday problems. 2. A bridge to the past and a guide to the future. 3. Humans make culture, and in turn culture makes us."
           }
         ]
       }
@@ -405,6 +519,10 @@ LESSTOF['society-politics/college-4'] = [
       {
         "type": "voorbeeld",
         "tekst": "**An own addition: the Dutch farmers' protests.** When the Dutch government announced plans in 2019 to cut nitrogen emissions, farmers **emerged** as a movement out of widespread dissatisfaction, **coalesced** through tractor blockades and demonstrations in The Hague that drew national media attention, and partly **bureaucratised** into formal organisations; the protest movement also fed into a new political party, BBB. You can argue about which stage-4 outcome fits best: the move into parliament looks like establishment within the mainstream."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nSocial movements get **one slide** in lecture 4: the **stages** diagram, Figure 16.4 from the book. Emergence, coalescence, bureaucratisation and decline, with the five ways a movement declines: success, failure due to organisational weakness or internal strife, co-opting of leaders, repression, and establishment within the mainstream.\n\nSo the lecture singles out the stages. The types (Aberle), new social movements and human rights are not on the slides, but they are in the assigned pages, so learn them too.\n\nThe second slide of the lecture shows photos of the **Wheel of Justice bike tour** through The Hague (27 September), along the international courts and institutions: a reminder that The Hague itself is a city of human rights institutions, section 6 of this chapter in practice."
       },
       {
         "type": "tekst",
@@ -784,6 +902,100 @@ LESSTOF['society-politics/college-4'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Eight questions on lecture 4",
+        "vragen": [
+          {
+            "vraag": "\"Nacirema\" in Miner’s famous text stands for:",
+            "opties": [
+              "A tribe in the Amazon",
+              "American, spelled backwards",
+              "A Native American people",
+              "An invented island"
+            ],
+            "juist": 1,
+            "uitleg": "Miner describes American bathroom and health rituals as if they were those of a strange tribe: a lesson in ethnocentrism."
+          },
+          {
+            "vraag": "The study of symbols and signs is called:",
+            "opties": [
+              "Semantics",
+              "Semiotics",
+              "Syntax",
+              "Sociolinguistics"
+            ],
+            "juist": 1,
+            "uitleg": "Semiotics; meanings are not inherent in objects but constructed."
+          },
+          {
+            "vraag": "The idea that language shapes and limits our thinking is:",
+            "opties": [
+              "Linguistic relativity",
+              "Linguistic determinism",
+              "Cultural relativism",
+              "Cultural lag"
+            ],
+            "juist": 1,
+            "uitleg": "The strong version of Sapir-Whorf. Linguistic relativity is the weak version: languages make different distinctions."
+          },
+          {
+            "vraag": "\"Do not steal\" is an example of a:",
+            "opties": [
+              "Prescriptive norm",
+              "Proscriptive norm",
+              "Folkway",
+              "Value"
+            ],
+            "juist": 1,
+            "uitleg": "Proscriptive: what you should not do. And because it is strictly enforced and morally significant, it is also a more."
+          },
+          {
+            "vraag": "Which pair are the two dimensions of the World Values Survey?",
+            "opties": [
+              "Left versus right; rich versus poor",
+              "Traditional versus secular-rational; survival versus self-expression",
+              "Individual versus collective; high versus low power distance",
+              "Material versus non-material; high versus popular"
+            ],
+            "juist": 1,
+            "uitleg": "The Inglehart-Welzel map. The third option is Hofstede, from Professional Skills."
+          },
+          {
+            "vraag": "Power and status derived from education, awareness and aesthetic preferences is:",
+            "opties": [
+              "Social capital",
+              "Cultural capital",
+              "Hegemony",
+              "High culture"
+            ],
+            "juist": 1,
+            "uitleg": "Cultural capital (Bourdieu)."
+          },
+          {
+            "vraag": "Spreading of cultural traits from one culture to another is:",
+            "opties": [
+              "Invention",
+              "Discovery",
+              "Diffusion",
+              "Cultural lag"
+            ],
+            "juist": 2,
+            "uitleg": "The three sources of cultural change: invention, discovery, diffusion."
+          },
+          {
+            "vraag": "Which part of chapter 16 does lecture 4 put on a slide?",
+            "opties": [
+              "Aberle’s four types",
+              "The stages of social movements",
+              "The three waves of human rights",
+              "The features of new social movements"
+            ],
+            "juist": 1,
+            "uitleg": "Only Figure 16.4, the stages. The rest is in the reading."
+          }
+        ]
+      },
+      {
         "type": "checklist",
         "titel": "Can you do this?",
         "items": [
@@ -816,6 +1028,12 @@ LESSTOF['society-politics/college-4'] = [
           },
           {
             "apa": "Said, E. (1978). Orientalism. Pantheon."
+          },
+          {
+            "apa": "Society & Politics (2026). Lecture 4: Culture and social movements [Lecture slides]. The Hague University of Applied Sciences."
+          },
+          {
+            "apa": "Miner, H. (1956). Body ritual among the Nacirema. American Anthropologist, 58(3), 503-507."
           }
         ]
       }

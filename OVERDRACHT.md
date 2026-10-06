@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v107**.
+Stand: 29 september 2026, service worker **v108**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -48,7 +48,8 @@ bestanden.
 | `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), uit de literatuur; nieuw in v104, collegestof volgt |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
-| `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), uit de literatuur; nieuw in v103, collegestof volgt |
+| `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
+| `society-college-5.js` | Society & Politics sessie 5, Macionis H17 (control, crime and deviance), uit de literatuur; nieuw in v108, collegestof volgt |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -101,6 +102,7 @@ society-college-1.js
 society-college-2.js
 society-college-3.js
 society-college-4.js
+society-college-5.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -492,8 +494,9 @@ werkt sinds v106 zo:
    voorbereiding vóór het college; na het college de **slides en
    aantekeningen** erin verwerken zoals bij Society 2 en 3. Julie uploadt
    de literatuur. Eerstvolgende:
-   - ~~Society sessie 4~~ uit de literatuur klaar (v103); na het college
-     slides en aantekeningen erbij. Daarna sessie 5: H17.
+   - ~~Society sessie 4~~ helemaal klaar (v108). ~~Sessie 5 (H17)~~ uit de
+     literatuur klaar (v108); na het college slides erbij. Daarna sessie 6:
+     Macionis H6.
    - ~~Governance sessie 4~~ uit de literatuur klaar (v104); na het college
      slides en aantekeningen erbij. Daarna
      sessie 5 (9 okt): Levi-Faur (2012), p. 3-18, aanbevolen Sørensen &
@@ -546,9 +549,10 @@ Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij 
 | 1 | H1, H2, H4 (v89) | verwerkt (v89) | bestaan niet, Julie heeft bij lecture 1 geen aantekeningen gemaakt | geen |
 | 2 | H7 | verwerkt (v100) | verwerkt (v100), ook de literatuurnotities H7 (niets nieuws) | 9 vragen als quiz (v100) |
 | 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
-| 4 | H5 p. 144-158, H16 p. 525-532 (v103) | nog niet | nog niet | nog niet |
+| 4 | H5 p. 144-158, H16 p. 525-532 (v103) | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
+| 5 | H17 p. 541-577 (v108) | nog niet | nog niet | nog niet |
 
-Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Controleer na het college of dat klopt met de slides.
+Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
 
 **Klaar sinds de vorige overdracht:** Society sessie 2 en 3 met lecture 2 en 3 (v100); Society sessie 1, 2 en 3; PS 1 en 2;
 Governance 1 en 2 (recaps); Intro sessie 1, 2, 3, 4 en 6; FAW 1 en 2; DRM
