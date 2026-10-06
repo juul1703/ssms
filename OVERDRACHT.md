@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v108**.
+Stand: 29 september 2026, service worker **v110**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -45,7 +45,7 @@ bestanden.
 | `governance-college-1.js` | Governance sessie 1, McCormick H1 plus Lecture 1 (de slides-les is er in v101 in opgenomen) |
 | `governance-college-2.js` | Governance sessie 2, Buckwalter & Balfour uit Quality of Governance plus Lecture 2 (v101) |
 | `governance-college-3.js` | Governance sessie 3, McCormick H8 (kern) en H10 (kern2) plus Lecture 3; nieuw in v101 |
-| `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), uit de literatuur; nieuw in v104, collegestof volgt |
+| `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), plus lecture 4 (v110) |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
@@ -62,6 +62,7 @@ bestanden.
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie plus de kick-off slides (v102) |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `ps-college-3.js` | Professional Skills sessie 3, communicatiestijl en presenteren: Mehrabian en Amsel, Manning & Reece, de mid-term (nieuw in v102) |
+| `ps-college-4.js` | Professional Skills sessie 4, teamwork en conflictmanagement; slides plus de leeslinks uitgewerkt; nieuw in v110 |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
@@ -92,6 +93,7 @@ governance-college-4.js
 ps-college-1.js
 ps-college-2.js
 ps-college-3.js
+ps-college-4.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
@@ -528,6 +530,9 @@ werkt sinds v106 zo:
 | 1 | Pease & Pease | verwerkt (v102) | verwerkt (v102): de acht signalen |
 | 2 | Dragojevic e.a., Ohiagu | verwerkt | lecture 2 gecheckt: stond er al in |
 | 3 | Amsel (2019) | verwerkt (v102), nieuwe les | verwerkt (v102) |
+| 4 | geen boek; leeslinks op de slides | verwerkt (v110), nieuwe les; leeslinks uitgewerkt | niet aangeleverd |
+
+**PS-regel (Julie, 6 oktober):** verwijzen de slides naar leesstof (links), werk die leesstof dan ook uit in de les, niet alleen de slides.
 
 Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een urban legend. De les legt beide uit; laat dat zo.
 
@@ -538,7 +543,7 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 | 1 | McCormick H1 | verwerkt, slides-les samengevoegd (v101) | lecture 1 gecheckt: stond al in de slides-les; trias politica en NL head of state/government ook in sessie 3 |
 | 2 | Buckwalter & Balfour H2 | verwerkt (v101) | lecture 2 en literatuur H2 verwerkt (v101) |
 | 3 | McCormick H8 en H10 | verwerkt (v101) | bestaan niet, geen aantekeningen gemaakt |
-| 4 | McCormick H13 en H15 (v104) | nog niet | nog niet |
+| 4 | McCormick H13 en H15 (v104) | verwerkt (v110) | niet aangeleverd |
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 

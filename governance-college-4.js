@@ -7,6 +7,11 @@
    Nieuw in v104, uit de literatuur, als voorbereiding op het
    college. Na het college komen slides en aantekeningen erbij als
    "From the lecture"-kaders. Recap in recap-governance.js.
+
+   v110 (6 oktober 2026): lecture 4 verwerkt in tien "From the
+   lecture"-kaders (één per sectie), negen extra flashcards en een quiz
+   over het college. Julie heeft bij dit college geen aantekeningen
+   aangeleverd.
    ============================================================ */
 
 LESSTOF['governance-policy/college-4'] = [
@@ -33,7 +38,7 @@ LESSTOF['governance-policy/college-4'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **McCormick, Hague & Harrop, *Comparative Government and Politics*, chapter 13 (Political participation) and chapter 15 (Political parties).** Lecture 4 (De Sousa, 2 October): political participation and political parties.\n\nThis lesson is written from the literature, as preparation. After the lecture, the slides and your notes are added in From the lecture boxes, as in sessions 2 and 3. The two chapters each have their own Core material tab, with the chapter's own sections as headings."
+        "tekst": "Read: **McCormick, Hague & Harrop, *Comparative Government and Politics*, chapter 13 (Political participation) and chapter 15 (Political parties).** Lecture 4 (De Sousa, 2 October): political participation and political parties.\n\nThis lesson was written from the literature as preparation; since v110 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3. The two chapters each have their own Core material tab, with the chapter's own sections as headings."
       },
       {
         "type": "slimmer",
@@ -63,6 +68,10 @@ LESSTOF['governance-policy/college-4'] = [
         "tekst": "**The opening case: Jamaica.** Jamaica scores well on most democratic measures: Free according to Freedom House, a flawed democracy in the Democracy Index, mostly free and fair elections, free expression. But on **[[political participation|Political participation]]** it scores only 5.0 out of 10, as low as Venezuela and Russia. The cause: **organised crime and corruption**. Criminal organisations influence voters in the areas they control, women are under-represented in government, and the LGBTQ community faces harassment and violence. The lesson: a healthy democracy needs not only institutions and rights, but also an environment that **encourages citizens to engage**.\n\n**Definition.** **Political participation** describes the ways in which people try to influence the composition or policies of government, and take part in debates about public issues. In democracies people choose whether, how much and through which channels; in authoritarian regimes there is less choice and more manipulation to create the impression of support.\n\n**Forms of participation** (Table 13.1) run on a scale:\n\n**More conventional** (within formal political processes and the law): voting, joining or donating to parties and interest groups, contacting representatives, signing petitions, **[[clicktivism|Clicktivism]]**, volunteering in campaigns, attending rallies, wearing badges, engaging with social movements, raising money, running for office.\n**More unconventional** (outside formal processes): peaceful demonstrations, protests and walkouts; consumer boycotts.\n**Illegal**: civil disobedience, occupations, sabotage, **[[hacktivism|Hacktivism]]**, politically motivated crime, [[political violence|Political violence]] including terrorism and assassination.\n\nNewer online forms, blogging, tweeting, Facebook debates, flash mobs, have become mainstream. The line between conventional and unconventional is **increasingly blurry**, and Theocharis and van Deth (2018) warn that we may be **expanding the definition too broadly**.\n\n**Disengaged or reallocated?** Grasso (2016) sees a generational shift: young people in Western Europe are becoming **disengaged** from voting, parties and activism. Peters (2018) argues that they have **reallocated** their time to new forms. Peters also asks whether **passive** forms (learning about politics) count, and whether activities aimed at institutions **outside government** (such as business) count. Theocharis and van Deth add that citizens trying to influence **each other** can also be participation. With a broader definition, \"low\" participation may be quite high.\n\n**Why participate? Two perspectives.**\n\n1. **The Greek view**: participation is an **obligation** to the community and an exercise in **personal development**, a political education. Non-participants are **[[free-riders|Free-rider]]** on the efforts of others.\n2. **The realist view**: people are not naturally political, and high participation may signal **tension**, a system that is overheating. In normal times, limited participation can mean the system meets people's demands. What matters is that the **channels are open**, not that they are always in use.\n\nSchudson (1998): inactive citizens may still be **poised for action**, like parents watching their children in a swimming pool. Rosanvallon (2008) calls **[[vigilance|Vigilance]]** \"a mode of action\": being watchful and alert is itself a form of participation."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture's definition follows the book: the ways in which people try to influence the composition and policies of government, and take part in debates about public issues. It adds four points:\n\n**In democracies participation is voluntary**: people choose whether to get involved, and determine its purpose, extent and channels.\n**Quality and quantity vary** across countries, political systems and social groups, and even in democracies they are not constant.\n**Voters' habits and motivations vary considerably**: there are many theories, but **no universal answer**.\nParticipation ranges from **conventional** to **unconventional** to **outright illegal**.\n\nThe three lists on the slides match Table 13.1, with two details worth noting. Under unconventional participation the lecture adds **strikes**. And the lecture defines **clicktivism** precisely: the conventional activities of joining parties and interest groups, raising money, volunteering in campaigns, wearing badges, signing petitions and contacting representatives, but **all online**.\n\n**Two perspectives** are named differently on the slide: the **classical** perspective (participation as a duty; non-participants are free-riders who \"should not complain when an electoral result doesn't please them\") and the **practical** perspective (what matters is that people keep paying attention and participate when necessary; open channels, not constant use; high participation may signal that the system is **overheating**). In the book these are the Greek and the realist view. The lecturer's notes add that turnout and party support are decreasing, people change parties several times in their lives, and digital forms such as clicktivism, hacktivism and **data activism** are increasing."
+      },
+      {
         "type": "tekst",
         "titel": "13.2 Patterns of participation",
         "toetsstof": true,
@@ -73,10 +82,18 @@ LESSTOF['governance-policy/college-4'] = [
         "tekst": "**Using Theory 13: rational choice**\n\n[[Rational choice theory]] assumes that people are rational: given goals and alternative strategies, they choose those that maximise their chances of achieving their goals (Geddes, 2003). Even apparently unselfish acts produce benefits, if only satisfaction.\n\n**Applied to voters**: even if voting is rational, it is not necessarily rational to invest the time needed to become an **informed** voter. One effect is that the wealthy and powerful gain disproportionate influence. Somin (2016) proposes decentralising and limiting government, so that people have stronger incentives to inform themselves.\n\n**It can explain apparently irrational choices.** Brexit and Trump in 2016 went against what many studies said were voters' interests, but later research found both were a **rational form of protest** against the status quo, driven by concerns about immigration, globalisation, sovereignty and elites.\n\n**The weakness**: it assumes a universal model of human behaviour and so says little about **variation between countries**. What is rational for one person or society may not be for another: many young Russians see Putin as the best hope of avoiding a return to Soviet repression."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide on **gladiators, spectators and apathetics** gives figures the book does not:\n\n**Gladiators** \"fighting the political battles\": the top **5 to 7 per cent**, political leaders and influencers who do not represent a cross-section of society: higher-status people with the means and resources as well as the interest.\n**Spectators**: about **60 per cent**; they watch, but their participation does not go much beyond voting. Watching political content online (comments, likes, influencing their networks) can itself count as participation.\n**Apathetics**: about **35 per cent**; they avoid politics and tend not to vote, by **rational choice** (nothing to gain) or through **political exclusion**. The lecturer's examples of the politically excluded: **prisoners, institutionalised people, and migrants** who do not know the language or lack citizenship.\n\n**The law of increasing disproportion**: the higher the level of authority, the greater the representation of high-status groups. They have the resources (education, money, status, communication skills) and the motives, so participation increases as you move up the social ladder and the political bias in favour of elites is significant. The notes add: if voters are wealthier than non-voters, their policy preferences differ, so policy follows the voters.\n\n**Why people engage** is on a slide with the same five reasons as Figure 13.2: idealism (believing democracy works if everyone takes part), responsibility (voting is tied to hard-won citizenship rights), being heard (\"wanting to be counted in\"), mobilisation (by parties or leaders, often to oppose the government) and enjoyment (community, the thrill of competition)."
+      },
+      {
         "type": "tekst",
         "titel": "13.3 Voting",
         "toetsstof": true,
         "tekst": "In democracies **voting** is the single participatory act from which almost all others flow: it is how governments are chosen and held accountable. It is the **most equitable** form, because every vote counts equally, and a relatively **easy** one that only makes periodic demands. In authoritarian regimes fraud and intimidation turn voting into a means of **controlling** voters and co-opting elites and opposition.\n\n**How do voters choose?** Four main factors (Figure 13.4):\n\n**1. [[Social class]].** Since the industrial revolution the working class tended to vote left and the middle class centre or right. Class voting has not disappeared, but changed: many working-class voters now support the **radical right**, which competes both for small business owners and for workers hostile to immigration and globalisation (Oesch and Rennwald, 2018).\n\n**2. The economy.** James Carville's sign in Bill Clinton's 1992 campaign: **\"the economy, stupid\"**. There is strong evidence for **[[economic voting|Economic voting]]** across the world: \"government loses votes when the economy stumbles ... and gains votes when the economy prospers\" (Lewis-Beck and Stegmaier, 2019). **Greece** shows it clearly: the left party Syriza went from 13 seats in 2008 to government in 2015 during austerity, and was heavily defeated in 2019 when problems continued.\n\n*A paradox*: many poorer voters support parties that represent the interests of the wealthy and oppose redistribution that would benefit them (Huber and Stanig, 2009), as with Trump's 2016 support among voters who felt marginalised by elites.\n\n*[[Vote buying]]* is an economic incentive of a different kind, and more widespread than it sounds: cash and goods from cigarettes to coffins and TV sets in poorer societies (Schaffer, 2007), informal networks of favours in **Indonesia** (Aspinall and Berenschot, 2019), and in **Brazil** the 2005 **Mensalão** scandal, in which the ruling Workers' Party paid deputies a monthly stipend for their support. Even a new factory or school brought to a district can be seen as vote buying.\n\n**3. Issues.** Employment, crime, security, the environment, education, taxes. To be an **[[issue voter|Issue voter]]**, you must be aware of the issue, have an opinion on it, believe the parties differ on it, and vote for the closest party. Early studies found only a minority crossed all these barriers; issue voting has since increased, and Franklin (1992) found that its rise matched the decline of voting by social position. But the quality of voter knowledge remains a question, made worse by echo chambers and disinformation.\n\n**4. Religion.** Rose and Urwin (1969): \"religious divisions, not class, are the main social bases of parties in the Western world\". Religiosity still shapes voting in most of Europe (not in Scandinavia and Britain), and its influence is growing in Nigeria and the US. Three angles: **religious versus secular** voters (right versus left), **denominations**, and the **importance of religion** in people's lives. Religious belief is declining (**[[secularisation|Secularisation]]**), but religious voting has **more staying power** than class voting."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe voting slide stresses that voting is the **most common and most equitable** form of participation, convenient and not very demanding, and that most political activity flows from elections. The four factors match the book: **social class** (since the industrial revolution, working classes voting left, middle and upper classes centre or right), **the state of the economy** (\"people tend to vote with their purse, but not always!\"), **specific issues** such as crime, migration and the environment (assuming voters are sufficiently informed), and **religion** (decreased with secularisation, but still present in many parties)."
       },
       {
         "type": "tekst",
@@ -89,6 +106,10 @@ LESSTOF['governance-policy/college-4'] = [
         "tekst": "**Exploring Problems 13: what can we do about uninformed citizens?**\n\nA long line of thinkers doubted the public: **Plato** (government by knowledgeable experts), **Hobbes** (the public's role barely goes beyond forming a government), **Hamilton** (the people \"seldom judge or determine right\"), Machiavelli, Hume and Hegel (participation as a necessary evil), and **John Stuart Mill** (public opinion as \"collective mediocrity\", with extra votes for university graduates).\n\nAgainst that, some argue voters use **shortcuts**: party labels to infer candidates' positions (Downs, 1957), information picked up as a by-product of daily life, with help from media and campaigns (Popkin, 1994), so that badly informed voters can act like well-informed ones (Lupia, 1994). But these arguments pre-date social media, disinformation and the \"post-truth\" world.\n\nThe book's questions: is patchy knowledge a problem? Should we rely on better education, better government, easier participation? Do well-informed citizens offset the poorly informed, or the other way round?"
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture calls public opinion **an arena of political participation**, especially in liberal democracies, measured through opinion polls, **monitoring of social media trends** and sample surveys. Politicians are most sensitive to **structured, organised** opinion expressed through the media or by opinion leaders. Public opinion influences political **agendas** more than the actual **content** of policies. The quote on the slide: **\"While public opinion does not govern, it may set limits on what governments do\"** (Qualter, 1991): compare the book's \"veto\" role. The notes add that observing political events is itself a form of participation, even if it does not lead to action."
+      },
+      {
         "type": "tekst",
         "titel": "13.5 Political participation in authoritarian regimes",
         "toetsstof": true,
@@ -97,6 +118,10 @@ LESSTOF['governance-policy/college-4'] = [
       {
         "type": "voorbeeld",
         "tekst": "**Spotlight 13: Russia**\n\nA federal semi-presidential republic (constitution 1993); a president directly elected for at most two consecutive six-year terms; a 450-member State Duma elected by party-list PR; weak and unstable parties, with **United Russia** as the foundation of Putin's rule.\n\nRussia is **intensely political but participation is shallow**: an educated, interested people, held back by pervasive **cynicism**, government control of the media and manipulated elections. In a 2017 survey **48 per cent** of Russians supported a strong leader who could decide without interference from parliament or courts, against 26 per cent globally and 13 per cent in most of Europe. Trust is placed in personal networks of friends and family, not in organisations; parties are near the bottom. Few people belong to voluntary organisations, and those with foreign links are accused of espionage. With few organisations between citizen and state, Russia is \"a distinctly **uncivil society**\": **\"The Russian people are subjects first and participants second.\"** Protests against the manipulated elections of 2011, 2012 and 2018 by younger, educated city dwellers were answered with a law restricting protest."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture's slide: political authority is usually concentrated in a president; if civil society is weak, participation is **inconsistent and unstructured**, with potential for political violence and repression. **Patron-client networks lead to clientelism**, which works as an **insurance policy**: clients offer political support, patrons offer access to jobs and institutions. These relationships are traditional and personal: \"the glue of political participation\". The notes add that in **totalitarian** states, participation is **mobilised**: mass mobilisation controlled by the elite and not designed to influence the composition or policies of government."
       },
       {
         "type": "checklist",
@@ -265,6 +290,10 @@ LESSTOF['governance-policy/college-4'] = [
         "tekst": "**The opening case: France.** In 2016 economics minister Emmanuel Macron founded a new centrist party, **La République en Marche!**, as the vehicle for his presidential run. With a pro-business, pro-EU platform he won the presidency in 2017, the youngest in French history, and his party won a majority in the National Assembly a month later. Then his promises proved hard to keep and the party's future looked uncertain. In France, parties often exist less to offer programmes than as a **foundation for presidential candidates**.\n\n**Definition.** A **[[political party|Political party]]** is a group identified by name and [[ideology|Ideology]] that fields candidates at elections in order to win public office and control government. Parties are newer than the formal institutions and not formally part of government, yet they have become **central** to most political systems. They are criticised for creating partisan division, but it is hard to imagine what would replace them.\n\n**Five roles** (Figure 15.1):\n\n1. **Government**: providing a foundation for the exercise of power.\n2. **Guidance**: giving voters contrasting sets of policies.\n3. **Aggregation**: combining interests and demands into manageable, prioritised packages.\n4. **Mobilisation**: encouraging citizens to take part by campaigning, raising funds, voting.\n5. **Recruitment**: recruiting and preparing candidates for office.\n\n**[[Party identification]]**: a long-term **attachment** to a party, not enthusiastic support but an **underlying disposition**, a road map through politics. Like buying the same brand of phone, voting for the same party saves you testing the alternatives each time. The **United States** is the strongest case: between 1994 and 2020 the electorate split into three roughly equal groups of Democrats, Republicans and independents (though only 30-40 per cent are strong identifiers).\n\n**[[Partisan dealignment]]**: **the weakening bonds between voters and parties**, visible in fewer voters identifying with any party, weaker loyalty and higher **[[electoral volatility|Electoral volatility]]**. In 17 of 19 advanced democracies both the share and the strength of partisanship fell (Dalton, 2020). In **Britain** party identification fell from 87 to 72 per cent between 1983 and 2012; in **Sweden** strong or weak identification fell from 65 to 24 per cent between 1968 and 2018.\n\n**Five causes of dealignment** (Figure 15.3):\n\n1. **Reduced social divisions**: declining class and religious differences weaken loyalty.\n2. **Improved education**: educated voters need fewer party cues.\n3. **Diversification**: voters move to other channels, such as [[digital activism|Digital activism]].\n4. **Policy convergence**: mainstream parties have become less distinct in their search for votes.\n5. **Disillusionment**: anti-establishment sentiment and lower trust after scandals and corruption.\n\nThe first two are **sociological**, the last three **psychological**."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture's definition: a political party is **a political group identified by an official label that presents candidates at elections and is capable of placing, through elections, candidates for public office**. \"In today's democracies, to win elections you need a political party.\"\n\nNote the order: the lecture calls **recruiting and preparing candidates** the **main** function of parties, with governing (\"steering the ship of state\"), offering choice, mobilising and aggregating as the other functions. The book lists recruitment last of five. For an exam answer: name all five, and say that the lecture treats recruitment as the main one."
+      },
+      {
         "type": "tekst",
         "titel": "15.2 Origins and evolution",
         "toetsstof": true,
@@ -273,6 +302,10 @@ LESSTOF['governance-policy/college-4'] = [
       {
         "type": "uitleg",
         "tekst": "**Using Theory 15: political [[ideology|Ideology]]**\n\nThe term **ideology** was coined by Destutt de Tracy in the 1790s for \"the science of ideas\". Today it means any **system of thought expressing a view on human nature, the proper relationship between state and society, and the individual's place in that order**: a system of connected beliefs, a blueprint for how politics, economics and society should be structured. The era of explicit ideology, from the French Revolution, ended somewhere between 1945 and the fall of communism; environmentalism, feminism and Islamism are stronger, but it is debatable whether they are ideologies in the classical sense.\n\n**[[Left and right]]** come from the French revolutionary assemblies: royalists sat to the **right** of the presiding officer, radicals and commoners to the **left**. Today the left is associated with **equality, human rights and reform**, and sympathy for cultural diversity; the right with **tradition, established authority and the national interest**, accepting natural inequalities and favouring national unity. They are best seen as **containers** of ideas, and today we need several axes: liberal-authoritarian, secular-religious, establishment-anti-establishment, nationalist-multicultural.\n\n**Six ideologies** (Figure 15.4):\n\n**Anarchism**: all governmental authority is unnecessary; society should rest on voluntary cooperation.\n**Communism**: abolishing private property leads to a classless, self-governing society.\n**Socialism**: resources and means of production owned collectively or by government, output shared equally.\n**Liberalism**: individuals are the best judges of their own interests; a tolerant society, maximum personal freedom, limited but freely elected government.\n**Conservatism**: traditional institutions work best, the free market is most efficient, government as decentralised as possible.\n**Fascism**: national unity through strong leadership, mass mobilisation, nationalism and militarism."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Have there always been parties?** In Western democracies there were **no real political parties until the end of the nineteenth century**: they became necessary only with the extension of voting and representative democracy. Universal suffrage produced **mass parties**: well organised, centralised, with a strong ideology and members who fund the party with their contributions. **Cadre parties** are elite parties formed from members of legislatures; **catch-all parties** first represent a group (the Christian Democrats) and later claim to represent society as a whole.\n\n**Decline in party membership** has been going on in Western countries **since 1970**, because of the decreasing importance of class and religion, the weakening bond between trade unions and left-wing parties, and the growing importance of (social) media. A mass of permanent members is no longer needed: **not for funding** (state funding has increased, at least in Western Europe) and **not for mobilising** voters (mass media, the internet and short-term campaigning by volunteers have taken over)."
       },
       {
         "type": "tekst",
@@ -293,16 +326,28 @@ LESSTOF['governance-policy/college-4'] = [
         "tekst": "**Spotlight 15: Mexico**\n\nA federal presidential republic (constitution 1917); a president elected for a **single six-year term**; a Chamber of Deputies of 500 (300 by plurality, 200 by PR) and a Senate of 128; legislators could long not serve consecutive terms. A flawed democracy, downgraded by Freedom House from Free to Partly Free in 2011, with a drug war since 2006 that has cost more than 85,000 lives.\n\n**From dominant party to multi-party.** From 1929 to 2000 the **PRI** won every presidential election and dominated Congress and the states, through **[[patronage|Patronage]]**, incorporating the major social and economic sectors, mobilising voters and overseeing elections. When economic problems hit in the 1990s the PRI could not blame the opposition, and better-educated, more affluent Mexicans wanted more choice. Reforms made elections more competitive: the PRI lost the Chamber in 1997 and the presidency in 2000 to the conservative **PAN**. Today: PAN on the right, PRI in the centre, PRD on the left, and **Morena** (2012), the vehicle of Andrés Manuel López Obrador (AMLO), president from 2018. (Since October 2024 the president is Claudia Sheinbaum, also Morena.) The PRI is also an example of an **[[authoritarian successor party|Authoritarian successor party]]** (section 15.5)."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture's party-system slide lists three types: **dominant party**, **two-party** and **multiparty** systems, and stresses that in multiparty systems you need a **coalition** to govern, decisions are mostly made by **consensus**, and this is typical of Western Europe: Germany, Austria, the Scandinavian countries, Belgium and **the Netherlands**. No-party and single-party systems appear on the slide about authoritarian states (section 15.5)."
+      },
+      {
         "type": "tekst",
         "titel": "15.4 Party organisation",
         "toetsstof": true,
         "tekst": "Large parties are **multi-level organisations**, from leaders and funders through research departments to volunteers. Carty (2004) compares them to **franchises** such as McDonald's: the centre sets priorities, manages the brand and runs campaigns, while local units choose candidates and run local campaigns.\n\n**The [[iron law of oligarchy|Iron law of oligarchy]].** Robert Michels (*Political Parties*, 1911) argued that even organisations with democratic pretensions become dominated by a **ruling clique of leaders and officials**. He wrote about European social democratic parties; applied more widely, its weaknesses show: \"the iron law is actually not so iron at all\" (Diefenbach, 2019). Look at the three main organisational tasks:\n\n**1. Choosing leaders.** It matters because in parliamentary systems the leader of a major party may become prime minister (though in many continental countries the party chair cannot be the candidate for the top post, and in the US the national committee chair and the presidential nominee are different people). Traditionally the **parliamentary party** chooses (Australia, Denmark, New Zealand); increasingly **members** are involved. The British Conservatives let members choose between two candidates picked by MPs, which can put the leader out of step with the country: Boris Johnson was chosen in 2019 by about 160,000 party members, **0.23 per cent** of the population.\n\n**2. Choosing candidates.** From inclusive (an open vote of the whole electorate) to exclusive (selection by the leader). The process is usually **decentralised**, with local parties active and national ratification. Three limits:\n- **Incumbency**: sitting members are hard to remove except by electoral defeat.\n- **Rules on running for office**: citizenship, and in many parties **gender quotas**.\n- **The electoral system**: choosing district candidates in a plurality system is more decentralised than drawing up **party lists** under PR.\n\nThe **US** has opened selection furthest through **[[primary elections|Primary election]]**: a **closed primary** is limited to a party's registered supporters (anyone who declares an affiliation in advance), an **open primary** to any registered voter.\n\n**3. Managing finances.** Falling membership means less income while campaign costs rise. Should members, donors or the state pay? The battle for **public funding** \"has been won\": more than two-thirds of countries with data funded parties in 2020 (exceptions include India, Italy, Nigeria, the Philippines).\n\n**For public funding**: a level playing field and fewer opportunities for corruption.\n**Against**: less incentive to attract members, parties that serve the state rather than voters, and advantages for large, established parties.\n\n**Cartel parties** (Katz and Mair, 1995): leading parties exploit their dominance to set the rules of the game, such as public funding, that reinforce their position: \"colluding parties become agents of the state and employ its resources to ensure their own survival\". The danger: they become part of the establishment, lose their role as agents of social groups, and block new parties."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Who commands the party?** The lecture gives three answers:\n\n**Optimistic**: no one, because most parties have a democratic structure: leaders and candidates are chosen through internal elections.\n**Pessimistic**: \"Every party will inevitably be dominated by a ruling elite of leaders\": Michels's **iron law of oligarchy** (the slide spells him \"Michaels\"). Oligarchy is rule by and for the few.\n**Intermediate**: traditional party officials are increasingly replaced by **professionals** with the political and technical skills to use the media: Angelo **Panebianco's electoral-professional party**. This concept is not in the book.\n\n**Selection of candidates.** \"**Who selects the candidates, owns the party.**\" The fundamental question is who makes \"the choice before the choice\". The slide arranges the options on a line from **decentralised** to **centralised**:\n\nall citizens (**open primary**) → supporters (**closed primary**) → a convention of delegates from local party sections → party members → the party leader.\n\nThe notes add that the US has had open primaries since the 1920s; some European parties recently adopted closed primaries for their leader; but most Western parties still select candidates and leaders through a ballot of members, a party congress or the parliamentary party, and a committee's draft list is often hardly changed.\n\n**Sources of party funding**: **members, donors, the state** and **funding through extra-legal means**. That fourth source is the lecture's addition."
+      },
+      {
         "type": "tekst",
         "titel": "15.5 Political parties in authoritarian regimes",
         "toetsstof": true,
         "tekst": "**The contrast: Afghanistan.** Elections since 1949, but parties only formally recognised from 2001; every election surrounded by fraud charges, the 2018 elections delayed two years, and parties marginal in the face of a powerful presidency, a fragmented society and the Taliban, who returned in 2021.\n\n**A means of control.** In authoritarian regimes parties are usually neither a source of power nor a channel for winning and losing elections. Lawson (2013): \"the party is a **shield and instrument of power**\", carrying out the work of government as directed by the military or the leader. Its national themes (anti-imperialism, unity, development) mostly **legitimise** power.\n\n**Five roles of support parties** (Geddes, 2006; Figure 15.5):\n\n1. **Conflict resolution**: solving intra-regime conflicts and enforcing elite bargains.\n2. **Balancing threats**: a counterweight to other threats, notably the military.\n3. **Managing elections**: overseeing elections, distributing bribes, rewarding loyal members.\n4. **Extending influence**: supporter networks throughout the country.\n5. **Education**: socialising voters into the regime's [[ideology|Ideology]] and economic strategy.\n\nThese parties can prolong the life of leaders and regimes, but Meng (2021) finds that ruling parties **rarely survive the death or departure of the founding leader**. **Zambia**: UNIP ruled from 1964 (and as sole legal party for 17 years) until Kaunda's defeat in 1991, then collapsed, losing its last seats in 2011. **Haiti**: on its 23rd constitution since 1804, with parties that appear around presidential campaigns and rarely outlast their leader.\n\n**Authoritarian successor parties** (Loxton, 2015) are the exception: former ruling parties that thrive in the new democracy, such as Mexico's **PRI**, Brazil's Democratic Social Party, South Korea's Democratic Justice Party and Indonesia's **Golkar**. They inherit a **brand, a territorial organisation, client networks, funding** and cohesive members.\n\n**Why authoritarian parties are weak.** They are rarely based on **cleavages or economic differences**, but on **ethnic, religious and local identities**, or on the **interests of leaders** as a platform to stay in power.\n- **Nigeria**: parties long ran along regional and ethnic lines, contributing to the collapse of civilian governments in 1966 and 1983; the constitution now requires parties to be open to all and bans names or symbols with ethnic or religious connotations.\n- **Russia**: many parties but little permanence; **United Russia** is a **\"[[party of power|Party of power]]\"**, the Kremlin using threats and bribes to secure support from ministers, governors and companies. Parties are the least trusted organisations.\n- **Sub-Saharan Africa**: after independence, nationalist heroes often set up one-party states in the name of unity, which entrenched elites instead. **Tanzania's** CCM (70-75 per cent of seats) and President Magufuli (2015-21), who seemed a reformer but used his double role as head of state and party chair to crack down on opponents.\n- **The Arab world** (Cavatorta and Storm, 2018) is different in three ways: most **no-[[party systems|Party system]]** are there; its **[[party families|Party families]]** differ (left, secular, moderate Islamist, **Salafi**); and **tribalism and [[clientelism|Clientelism]]** dominate where Western parties rest on sociological and psychological factors."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide distinguishes three authoritarian patterns: regimes that allow **no parties at all** (some monarchies of the Arab Gulf), regimes that allow **one party only** (communist states), and regimes that create a **façade of multi-party democracy** while concentrating power in one party. In that last case the party is an instrument in the leader's hands, used to distribute patronage: \"**The party is the vehicle, not the driver**\" (the book uses this phrase for Russia's United Russia)."
       },
       {
         "type": "checklist",
@@ -455,6 +500,42 @@ LESSTOF['governance-policy/college-4'] = [
           {
             "begrip": "Three distinctive features of Arab parties (list)",
             "definitie": "1. Most no-party systems are there. 2. Different families: left, secular, moderate Islamist, Salafi. 3. Tribalism and clientelism dominate."
+          },
+          {
+            "begrip": "Law of increasing disproportion",
+            "definitie": "The higher the level of authority, the greater the representation of high-status groups, because they have both the resources and the motives to participate."
+          },
+          {
+            "begrip": "Data activism",
+            "definitie": "Resisting the gathering and use of personal data, or using data to influence political thought and behaviour; a growing digital form of participation."
+          },
+          {
+            "begrip": "Electoral-professional party",
+            "definitie": "Panebianco: a party in which traditional officials are replaced by professionals with the political and technical skills to use the media."
+          },
+          {
+            "begrip": "Classical and practical perspectives on participation",
+            "definitie": "Classical: participation is a duty and non-participants are free-riders. Practical: open channels and attention matter more than constant use; high participation may mean the system is overheating."
+          },
+          {
+            "begrip": "Gladiators, spectators, apathetics in figures (list)",
+            "definitie": "1. Gladiators: about 5 to 7 per cent, higher-status. 2. Spectators: about 60 per cent, mostly voting and watching. 3. Apathetics: about 35 per cent, not voting, by rational choice or political exclusion."
+          },
+          {
+            "begrip": "Who commands the party? (list)",
+            "definitie": "1. Optimistic: no one, internal democracy. 2. Pessimistic: a ruling elite (Michels’s iron law of oligarchy). 3. Intermediate: media professionals (Panebianco’s electoral-professional party)."
+          },
+          {
+            "begrip": "Candidate selection, decentralised to centralised (list)",
+            "definitie": "1. All citizens: open primary. 2. Supporters: closed primary. 3. Convention of delegates from local sections. 4. Party members. 5. Party leader."
+          },
+          {
+            "begrip": "Sources of party funding (list)",
+            "definitie": "1. Members. 2. Donors. 3. The state. 4. Extra-legal means."
+          },
+          {
+            "begrip": "Why party membership declines (list)",
+            "definitie": "1. Class and religion matter less. 2. Weaker bond between unions and left-wing parties. 3. Growing importance of (social) media. Members are no longer needed for funding (state funding) or for mobilising (media, internet, volunteers)."
           }
         ]
       }
@@ -688,6 +769,100 @@ LESSTOF['governance-policy/college-4'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Eight questions on lecture 4",
+        "vragen": [
+          {
+            "vraag": "According to the lecture, roughly what share of the population are spectators?",
+            "opties": [
+              "5 to 7 per cent",
+              "About 35 per cent",
+              "About 60 per cent",
+              "About 90 per cent"
+            ],
+            "juist": 2,
+            "uitleg": "Gladiators 5 to 7 per cent, spectators about 60, apathetics about 35."
+          },
+          {
+            "vraag": "The \"law of increasing disproportion\" says that:",
+            "opties": [
+              "Turnout falls as education rises",
+              "The higher the level of authority, the greater the representation of high-status groups",
+              "Parties grow as membership falls",
+              "Small parties win disproportionately many seats"
+            ],
+            "juist": 1,
+            "uitleg": "Participation, and power, rise as people move up the social ladder."
+          },
+          {
+            "vraag": "Which form appears on the lecture’s list of unconventional participation but not in the book’s table?",
+            "opties": [
+              "Peaceful demonstrations",
+              "Consumer boycotts",
+              "Strikes",
+              "Hacktivism"
+            ],
+            "juist": 2,
+            "uitleg": "Strikes. Hacktivism is illegal participation."
+          },
+          {
+            "vraag": "\"While public opinion does not govern, it may set limits on what governments do\" is from:",
+            "opties": [
+              "Michels",
+              "Qualter",
+              "Downs",
+              "Panebianco"
+            ],
+            "juist": 1,
+            "uitleg": "Qualter (1991): public opinion shapes agendas more than policy content."
+          },
+          {
+            "vraag": "In the lecture, clientelism works as:",
+            "opties": [
+              "An election law",
+              "An insurance policy: support from clients, access to jobs and institutions from patrons",
+              "A form of digital activism",
+              "A party system"
+            ],
+            "juist": 1,
+            "uitleg": "Personal, traditional relationships: the glue of participation in authoritarian states."
+          },
+          {
+            "vraag": "Which function of parties does the lecture call the main one?",
+            "opties": [
+              "Governing",
+              "Aggregating interests",
+              "Recruiting and preparing candidates for office",
+              "Raising funds"
+            ],
+            "juist": 2,
+            "uitleg": "The book lists recruitment as one of five; the lecture puts it first."
+          },
+          {
+            "vraag": "Panebianco’s electoral-professional party is the lecture’s:",
+            "opties": [
+              "Optimistic answer",
+              "Pessimistic answer",
+              "Intermediate answer to who commands the party",
+              "Example of a cadre party"
+            ],
+            "juist": 2,
+            "uitleg": "Optimistic: internal democracy; pessimistic: the iron law of oligarchy; intermediate: media professionals."
+          },
+          {
+            "vraag": "On the lecture’s scale of candidate selection, the most decentralised option is:",
+            "opties": [
+              "The party leader",
+              "Party members",
+              "A closed primary",
+              "An open primary"
+            ],
+            "juist": 3,
+            "uitleg": "All citizens (open primary), then supporters (closed primary), delegates, members, and finally the leader."
+          }
+        ]
+      },
+      {
         "type": "checklist",
         "titel": "Can you do this before the assessment?",
         "items": [
@@ -725,6 +900,9 @@ LESSTOF['governance-policy/college-4'] = [
           },
           {
             "apa": "Katz, R. S., & Mair, P. (1995). Changing models of party organization and party democracy: The emergence of the cartel party. Party Politics, 1(1), 5-28."
+          },
+          {
+            "apa": "De Sousa (2026). Lecture 4: Political participation and political parties [Lecture slides]. Governance & Policy, SSMS Y1 2026-27, The Hague University of Applied Sciences."
           }
         ]
       }

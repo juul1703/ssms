@@ -6,6 +6,7 @@
    v101: "What the lecturer emphasised" bij college-2 en een nieuwe
    recap voor college-3 (hoofdstuk 8 en 10 plus lecture 3).
    v104: recap voor college-4 (H13 en H15, uit de literatuur).
+   v110: lecture 4 in de recap van college-4.
    ============================================================ */
 
 voegRecapToe("governance-policy/college-1", {
@@ -510,7 +511,12 @@ voegRecapToe("governance-policy/college-4", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core of chapters 13 and 15 on one page. After the lecture, What the lecturer emphasised is added here."
+      "tekst": "The core of chapters 13 and 15 on one page. Lecture 4 is now included."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "**Participation is voluntary in democracies**, varies across countries and groups, and there is no universal theory of why people participate.\n\n**Clicktivism defined precisely**: the conventional activities, but online. **Strikes** added to unconventional participation.\n\n**Classical versus practical perspective**: duty and free-riders, or open channels and an \"overheating\" system.\n\n**Gladiators, spectators, apathetics in figures**: 5 to 7, about 60 and about 35 per cent; the politically excluded include prisoners and migrants without the language or citizenship. **The law of increasing disproportion.**\n\n**Public opinion as an arena of participation**: \"it may set limits on what governments do\" (Qualter).\n\n**Clientelism as an insurance policy** in authoritarian states; mobilised participation in totalitarian ones.\n\n**Parties**: no real parties before the late nineteenth century; recruitment of candidates as the main function; membership declining since 1970.\n\n**Who commands the party?** Optimistic, pessimistic (Michels), intermediate (Panebianco). **\"Who selects the candidates, owns the party\"**, from open primary to party leader. Four sources of funding, including extra-legal means.\n\n**\"The party is the vehicle, not the driver\"** in authoritarian states."
     },
     {
       "type": "tabel",

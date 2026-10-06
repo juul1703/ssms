@@ -5,6 +5,7 @@
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
    v102: "What the lecturer emphasised" bij college-1 (uit de slides)
    en een nieuwe recap voor college-3.
+   v110: nieuwe recap voor college-4.
    ============================================================ */
 
 voegRecapToe("professional-skills/college-1", {
@@ -412,6 +413,110 @@ voegRecapToe("professional-skills/college-3", {
         "Name the five factors for knowing your audience.",
         "Give the four Manning and Reece styles with two traits each.",
         "Explain which model you use for what in the mid-term analysis."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("professional-skills/college-4", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "The core of session 4 on one page."
+    },
+    {
+      "type": "tabel",
+      "titel": "Six types of conflict and their test question",
+      "kop": [
+        "Type",
+        "Test question",
+        "First move"
+      ],
+      "rijen": [
+        [
+          "Fact (readings)",
+          "Can we look it up?",
+          "Check the source"
+        ],
+        [
+          "Pseudo",
+          "Do we really disagree?",
+          "Clarify what each means"
+        ],
+        [
+          "Policy",
+          "Do we disagree on what to do?",
+          "Collaborate, or compromise under time pressure"
+        ],
+        [
+          "Value",
+          "Do we disagree on what matters?",
+          "Agree how to work together despite it"
+        ],
+        [
+          "Ego",
+          "Is someone’s pride at stake?",
+          "Take the heat out, talk privately, let them save face"
+        ],
+        [
+          "Meta (readings)",
+          "Are we fighting about how we fight?",
+          "Address the process first"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "Five styles",
+      "kop": [
+        "Style",
+        "Assertive / cooperative",
+        "Fits"
+      ],
+      "rijen": [
+        [
+          "Competing",
+          "High / low",
+          "Urgent decisions, safety, non-negotiable rules"
+        ],
+        [
+          "Collaborating",
+          "High / high",
+          "Important issues with time"
+        ],
+        [
+          "Compromising",
+          "Medium / medium",
+          "Deadlines, equal power"
+        ],
+        [
+          "Avoiding",
+          "Low / low",
+          "Trivial issues, cooling down"
+        ],
+        [
+          "Accommodating",
+          "Low / high",
+          "When it matters more to the other"
+        ]
+      ]
+    },
+    {
+      "type": "tekst",
+      "titel": "Teamwork and problem solving",
+      "tekst": "**Three elements**: clearly defined goals, clearly defined roles, open communication. **Five reasons for conflict**: different perspectives, unresolved past problems, competition, poor communication, unclear roles. **Four problem-solving steps**: define, find the cause, select an alternative, implement. \"The problem is your attitude about the problem.\""
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Name the three elements of successful teamwork.",
+        "Name the four conflict types on the slides and the two extra ones.",
+        "Place the five styles on the two dimensions.",
+        "Take one team problem through the four steps."
       ]
     }
   ]
