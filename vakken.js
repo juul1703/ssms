@@ -88,6 +88,7 @@
     ],
     'fundamentals-of-academic-writing': [
       { id: 'naslagwerk', groep: 'Naslag',  titel: 'Engels academisch schrijven', duur: 40 },
+      { id: 'summary',    groep: 'Naslag',  titel: 'How to write an academic summary', duur: 90 },
       { id: 'rubric',     groep: 'Naslag',  titel: 'De beoordelingsrubric',       duur: 15 },
       { id: 'oefening-1', groep: 'Oefenen', titel: '"Europe\u2019s cocaine problem"', duur: 30 }
     ]
