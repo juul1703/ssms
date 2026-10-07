@@ -526,6 +526,8 @@ werkt sinds v106 zo:
 6. **Intro sessie 3** bestaat nu wel, maar de andere sessies zonder leeswerk
    (5, 7, 9 en verder) hebben nog geen les.
 
+**Intro to SSMS, slides:** sessie 4 (Bieder H3 en H5) verwerkt in v112: zeven "From the lecture"-kaders in de lessen h3 en h5 in `ssms-inhoud.js`, een quiz over het college bij h5 en "What the lecturer emphasised" in de recap van h5. Andere Intro-slides nog niet ontvangen; sessies zonder leesstof (5, 7, 9 enz.) hebben nog geen les.
+
 **Professional Skills, stand per sessie** (v102):
 
 | Sessie | Literatuur | Slides | Aantekeningen Julie |

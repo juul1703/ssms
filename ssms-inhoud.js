@@ -1426,6 +1426,10 @@ LESSTOF["intro-to-safety-security/h3"] = [
         "tekst": "**Hazard analysis and the goal of safety engineering**\n\n**Hazard analysis is the process of identifying the causal scenarios of hazards.**\n\nHazard analysis usually considers only scenarios made up of unintentional events. Including security merely requires **adding a few extra causal scenarios** to the process. That addition yields all the information you need to prevent losses that are normally seen as security problems.\n\nLeveson gives an example. An operator does the wrong thing because they are accidentally confused about the state of the system, for instance believing a valve is already closed and therefore not closing it. That incorrect information may come from a **sensor failure** delivering wrong information, or from a **hostile actor** deliberately supplying false information.\n\nIn the analysis, that produces **more paths** to the hazardous state, which you have to handle in design or operations. But it does not necessarily change the way the designer or operator tries to prevent that unsafe behaviour.\n\n**The goal of safety engineering is to eliminate or control hazard scenarios in design and operations.**\n\nFinally, Leveson regards the difference between physical security and cybersecurity as irrelevant, except that cybersecurity targets only one aspect of the system design and therefore has a **narrower scope**. Physical system security nowadays almost always involves software components, so cybersecurity is usually a **part** of physical system security."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture is titled **\"Safety, security and culture: two sides of the same coin?\"**, with three key words: **systems, losses, culture**. Its agenda: safety and security as one system problem; why reliability is not enough; safety culture and security culture; where the two cultures overlap, and clash.\n\n**Start with inclusive definitions.** \"Definitions shape the solutions we are able to see.\" With **narrow** definitions, safety and security become separate problems with separate solutions; with **inclusive** definitions, the overlap becomes visible and common approaches become possible. Leveson's question: **which definitions help us prevent losses most effectively?**\n\n**Three key definitions** on the slide (the book has four, including hazard analysis):\n**Safety**: freedom from accidents (losses).\n**Accident or mishap**: any undesired or unplanned event that results in a loss, as defined by system stakeholders.\n**Hazard**: a system state or set of conditions that, together with worst-case environmental conditions, will lead to a loss.\nA **loss** can be injury, property damage, pollution, mission loss, or reputational or business impact.\n\n**Hazard is roughly vulnerability.** Different language, similar system logic: safety speaks of hazards, security of vulnerabilities; both identify **system conditions that can open a path to loss**. The engineering task is to eliminate or control those conditions in design and operations."
+      },
+      {
         "type": "tekst",
         "titel": "3.2 Safety and security are not the same as reliability",
         "toetsstof": true,
@@ -1435,6 +1439,10 @@ LESSTOF["intro-to-safety-security/h3"] = [
         "type": "tekst",
         "toetsstof": true,
         "tekst": "**Why that proxy no longer works**\n\nSince the introduction of computer control and software into critical systems, from roughly **1980** onwards, system complexity has grown **exponentially**.\n\nThe core of the problem: **system design errors, that is, systems engineering errors, cannot be eliminated before use** and are today a major cause of accidents. On top of that there is more recognition that losses can be connected to human factors design, management, operational procedures, regulatory and social factors, and to changes within the system or its environment **over time**. That holds for safety and for security alike.\n\nThe two claims you need to know, both counter-intuitive:\n\n1. System components can be **perfectly reliable**, meaning they meet their stated requirements and therefore do not fail, and accidents still happen. In fact, that happens often.\n2. System components and even the system as a whole can be **unreliable** while the system is nonetheless safe.\n\nDefining safety or security in terms of reliability therefore does not work for the systems we build today. You do not prevent losses simply by preventing system or component failures."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Safety is not reliability**, on one slide. **Reliability**: components perform their stated requirements without failure. **Safety and security**: the system avoids unacceptable losses, **even when components work as designed**. Modern losses arise from design, human factors, management, procedures, regulation and changing environments, not only from component failure."
       },
       {
         "type": "tekst",
@@ -1450,6 +1458,10 @@ LESSTOF["intro-to-safety-security/h3"] = [
       {
         "type": "voorbeeld",
         "tekst": "**Stuxnet, written out in full**\n\nThe Stuxnet worm targeted the Iranian nuclear programme. Leveson dissects the case using her own concepts. Learn this list by heart; it is the model example of the whole chapter.\n\n- **Loss:** damage to the reactor, specifically to the centrifuges.\n- **Hazard / vulnerability:** the centrifuges are damaged by spinning too fast.\n- **Constraint that had to be enforced:** the centrifuges must never spin above a maximum rotation speed.\n- **Hazardous control action that occurred:** issuing an \"increase speed\" command while the centrifuges were already at maximum speed.\n- **Possible causal scenario:** the operator or software controller believed the centrifuges were spinning slower than maximum.\n\nAnd now the punchline. That mistaken belief could be unintentional, a human or software error, or, as in this case, deliberate. But whichever it was, **the most effective control measures are the same in both cases**: for instance a mechanical interlock that makes excessive speed physically impossible, or an analogue tachometer.\n\nLeveson adds a warning: security problems need not start outside the system. Breaches can start **from within** and cause severe damage to the environment."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Intentional or accidental: the path changes, the loss does not.** The slide draws one hazardous **system state** reached by two routes, an **accidental cause** or a **hostile cause**, leading to the **same loss**. For Leveson, intentionality adds **causal scenarios**, but the goal remains preventing the hazardous system state and the loss.\n\n**Security: look beyond keeping intruders out.** Not only protecting information, not only keeping intruders out, but **preventing mission loss**. The question to ask: **what losses matter to the system and its stakeholders?**"
       },
       {
         "type": "tekst",
@@ -1590,6 +1602,10 @@ LESSTOF["intro-to-safety-security/h3"] = [
         "tekst": "**Key concepts from chapter 3**"
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Systems thinking**, the lecture's slide: complex systems create losses through **interactions** between six elements: **technology, people, management, rules, procedures and environment**. Together they produce system behaviour. That is why STAMP and STPA analyse **unsafe control and interactions, not only broken components**.\n\n**Putting chapters 3 and 5 together** (the closing slide): **system** (identify losses, hazards and vulnerabilities), **analysis** (consider accidental and intentional causal paths), **culture** (build shared awareness and resilience). \"Integrated thinking does not mean pretending safety and security are identical.\""
+      },
+      {
         "type": "begrippen",
         "items": [
           {
@@ -1647,6 +1663,22 @@ LESSTOF["intro-to-safety-security/h3"] = [
           {
             "begrip": "V1 point",
             "definitie": "The point during take-off after which braking is dangerous and continuing the take-off is safer than aborting."
+          },
+          {
+            "begrip": "Inclusive versus narrow definitions",
+            "definitie": "Narrow definitions make safety and security separate problems with separate solutions; inclusive definitions make the overlap visible and allow common approaches (lecture 4)."
+          },
+          {
+            "begrip": "Mission loss",
+            "definitie": "The loss of the system’s ability to fulfil its purpose; the lecture says security should focus on preventing it, not only on protecting information or keeping intruders out."
+          },
+          {
+            "begrip": "Six elements of a complex system (list)",
+            "definitie": "From the lecture: 1. Technology. 2. People. 3. Management. 4. Rules. 5. Procedures. 6. Environment. Losses arise from their interactions."
+          },
+          {
+            "begrip": "System, analysis, culture (list)",
+            "definitie": "Putting chapters 3 and 5 together: 1. System: identify losses, hazards and vulnerabilities. 2. Analysis: consider accidental and intentional causal paths. 3. Culture: build shared awareness and resilience."
           }
         ]
       },
@@ -1906,7 +1938,7 @@ LESSTOF["intro-to-safety-security/h3"] = [
         "tekst": "Leveson solves the security problem inside the safety analysis. In chapter 5 Jore takes the question into the organisation: can security culture stand as a concept of its own, next to safety culture?",
         "punten": [
           "What the In Amenas attack showed about security culture",
-          "Gerring\u2019s eight criteria for a sound concept",
+          "Gerring’s eight criteria for a sound concept",
           "Why safety concepts cannot simply be carried over to security"
         ]
       }
@@ -1966,6 +1998,10 @@ LESSTOF["intro-to-safety-security/h5"] = [
         "type": "tekst",
         "toetsstof": true,
         "tekst": "**The questions of the chapter**\n\nSafety and security are both elements of **organisational culture**. How, then, should organisations relate to this new concept of security culture?\n\nJore asks three questions:\n\n1. How **adequate** is the concept of security culture?\n2. What **relationship** exists between safety culture and security culture?\n3. Should the two be seen as a **duality** or as **separate**?\n\nAdequacy is discussed through the way the concept is used in the In Amenas report, with **Gerring’s criteria for conceptual goodness** as the yardstick."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**What do we mean by culture?** The slide's definition: **a common set of beliefs, attitudes, practices and behaviours that are perceived, internalised and shared across an organisation.** Culture makes safety or security a **shared responsibility**, not only a specialist task. But similar definitions also create a problem: **are these really different cultures?**\n\n**Why security culture is attractive**, four reasons on the slide:\n**Shared awareness**: security becomes everyone's concern.\n**Weak signals**: people notice and communicate unusual signs.\n**Mindfulness**: organisations stay attentive to changing threats.\n**Resilience**: organisations prepare for multiple possible threats.\nJore's view: security culture is **promising**, especially in complex, volatile threat environments."
       },
       {
         "type": "tekst",
@@ -2124,6 +2160,10 @@ LESSTOF["intro-to-safety-security/h5"] = [
         "tekst": "**Using a term without changing anything**\n\nThe finding from that Norwegian study is a classic you will meet in any organisation. Half the companies say \"we are working on security culture\". But if you look at how they have arranged their security, it does not differ from the companies that never use the term.\n\nThat means the term functions as a **label**, not as an **instrument**. You stick it on what you were doing anyway. That is a risk with any popular concept: it gives the impression of change without the change itself.\n\nFor you as a future adviser, the question is therefore not \"does this organisation use the concept\" but \"what does this organisation do differently since it started using the concept\". If the answer is \"nothing\", you have your finding."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**But can we simply copy safety culture?** The slide sets the two side by side:\n\n**Safety culture** relies on openness, learning from incidents, a just culture and sharing information.\n**The security challenge**: adversaries hide their intentions, information may be confidential, suspicion may matter, and attackers adapt strategically.\nSo \"practices that strengthen safety can sometimes create tension with security.\"\n\n**The conceptual problem**: security culture is familiar but still difficult to define and measure, on three counts:\n**Overlap**: definitions often resemble safety culture.\n**Boundaries**: is security culture a subculture of safety culture, or of organisational culture?\n**Measurement**: clear indicators and links to performance are limited.\n\"A useful concept needs both **practical relevance** and **clear differentiation** from neighbouring concepts\": Gerring's criteria in one sentence."
+      },
+      {
         "type": "tekst",
         "titel": "5.8 Conclusions",
         "toetsstof": true,
@@ -2132,6 +2172,10 @@ LESSTOF["intro-to-safety-security/h5"] = [
       {
         "type": "waarschuwing",
         "tekst": "**The formula from the abstract, once more**\n\nJore sums it up herself in one sentence, which also appears in the abstract:\n\n**Security and safety culture should be understood separately, but must not be treated as separate in practice.**\n\nBoth halves are supported. Understand separately, because malicious intent, external threat, low probability and the unusability of just culture and weak signals show that this really is something else. Do not treat separately, because an organisation has only one culture, because both kinds of risk influence that culture, and because a separate security culture turns out in practice to be inseparable from safety culture.\n\nThat is not fence-sitting. It is the only position that does justice to both findings."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Key takeaways** of the lecture: \"Think in systems. Think in losses.\"\n1. Safety and security can **share analysis methods**.\n2. **Reliable components do not guarantee a safe system.**\n3. Culture can support **awareness, learning and resilience**.\n4. Safety and security cultures **overlap, but important tensions remain**.\n\n**The final question**, a likely exam question: **when should safety and security be integrated, and when should they remain distinct?** A good answer uses both chapters: integrate the **analysis** (Leveson: one system, one set of losses, accidental and intentional paths), but keep the **culture** partly distinct where security needs confidentiality and suspicion that a safety culture of openness would undermine (Jore)."
       },
       {
         "type": "tekst",
@@ -2191,6 +2235,26 @@ LESSTOF["intro-to-safety-security/h5"] = [
           {
             "begrip": "Petroleum Framework Regulation",
             "definitie": "Norwegian regulation obliging petroleum companies to build a safety culture; if security culture is a subculture of it, that obligation extends to security as well."
+          },
+          {
+            "begrip": "Culture (organisational)",
+            "definitie": "A common set of beliefs, attitudes, practices and behaviours that are perceived, internalised and shared across an organisation (lecture 4)."
+          },
+          {
+            "begrip": "Why security culture is attractive (list)",
+            "definitie": "1. Shared awareness: everyone’s concern. 2. Weak signals: people notice and report unusual signs. 3. Mindfulness: attentive to changing threats. 4. Resilience: prepared for multiple threats."
+          },
+          {
+            "begrip": "Safety culture versus the security challenge (list)",
+            "definitie": "Safety culture: 1. openness, 2. learning from incidents, 3. just culture, 4. sharing information. Security challenge: 1. adversaries hide intentions, 2. confidential information, 3. suspicion may matter, 4. attackers adapt strategically."
+          },
+          {
+            "begrip": "The conceptual problem of security culture (list)",
+            "definitie": "1. Overlap: definitions resemble safety culture. 2. Boundaries: a subculture of what? 3. Measurement: few clear indicators or links to performance."
+          },
+          {
+            "begrip": "Key takeaways of lecture 4 (list)",
+            "definitie": "1. Safety and security can share analysis methods. 2. Reliable components do not guarantee a safe system. 3. Culture supports awareness, learning and resilience. 4. The two cultures overlap, but tensions remain."
           }
         ]
       }
@@ -2407,6 +2471,100 @@ LESSTOF["intro-to-safety-security/h5"] = [
             ],
             "juist": 2,
             "uitleg": "Understood separately because of malicious intent and non-transferable instruments; not treated separately because an organisation has only one culture."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "titel": "Eight questions on lecture 4",
+        "vragen": [
+          {
+            "vraag": "According to the lecture, what do narrow definitions of safety and security lead to?",
+            "opties": [
+              "Common approaches",
+              "Separate problems with separate solutions",
+              "Better measurement",
+              "More resilience"
+            ],
+            "juist": 1,
+            "uitleg": "Inclusive definitions make the overlap visible and common approaches possible."
+          },
+          {
+            "vraag": "In security language, the equivalent of a hazard is a:",
+            "opties": [
+              "Threat",
+              "Vulnerability",
+              "Mishap",
+              "Mission"
+            ],
+            "juist": 1,
+            "uitleg": "Both are system conditions that can open a path to loss."
+          },
+          {
+            "vraag": "For Leveson, what does intentionality add?",
+            "opties": [
+              "A different kind of loss",
+              "Extra causal scenarios, while the goal stays preventing the hazardous state",
+              "A separate analysis method",
+              "Nothing at all"
+            ],
+            "juist": 1,
+            "uitleg": "Accidental and hostile causes lead to the same system state and the same loss."
+          },
+          {
+            "vraag": "Which statement fits \"safety is not reliability\"?",
+            "opties": [
+              "A system is safe when all components work",
+              "Losses can occur even when components work as designed",
+              "Reliability always reduces safety",
+              "Safety is only about component failure"
+            ],
+            "juist": 1,
+            "uitleg": "Modern losses come from design, people, management, procedures, regulation and environment too."
+          },
+          {
+            "vraag": "Security should focus on:",
+            "opties": [
+              "Keeping intruders out",
+              "Protecting information",
+              "Preventing mission loss",
+              "Punishing attackers"
+            ],
+            "juist": 2,
+            "uitleg": "Ask which losses matter to the system and its stakeholders."
+          },
+          {
+            "vraag": "Which is NOT one of the four reasons security culture is attractive?",
+            "opties": [
+              "Weak signals",
+              "Mindfulness",
+              "Resilience",
+              "Confidentiality"
+            ],
+            "juist": 3,
+            "uitleg": "Shared awareness, weak signals, mindfulness, resilience. Confidentiality is part of the security challenge."
+          },
+          {
+            "vraag": "Why can safety culture not simply be copied to security?",
+            "opties": [
+              "Security has no culture",
+              "Openness and information sharing can clash with confidentiality and adversaries who adapt",
+              "Safety culture is outdated",
+              "Security is only technical"
+            ],
+            "juist": 1,
+            "uitleg": "\"Practices that strengthen safety can sometimes create tension with security.\""
+          },
+          {
+            "vraag": "Which three problems make security culture hard to use as a concept?",
+            "opties": [
+              "Cost, time and staff",
+              "Overlap, boundaries and measurement",
+              "Law, ethics and politics",
+              "Size, speed and scope"
+            ],
+            "juist": 1,
+            "uitleg": "Definitions overlap with safety culture, the boundaries are unclear, and measurement is limited."
           }
         ]
       },

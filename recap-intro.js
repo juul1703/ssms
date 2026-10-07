@@ -3,6 +3,7 @@
    Per les de echte kernprincipes op een rij. Wordt met
    voegRecapToe() (lesstof.js) direct na de laatste kernstof-tab
    ingevoegd. Moet dus na de lesbestanden en voor vakken.js laden.
+   v112: lecture 4 (H3 en H5) in de recap van H5.
    ============================================================ */
 
 voegRecapToe("intro-to-safety-security/h1", {
@@ -299,6 +300,11 @@ voegRecapToe("intro-to-safety-security/h5", {
     {
       "type": "tekst",
       "tekst": "**Chapter 5 (Jore)** asks whether \"security culture\" is an adequate concept.\n\n**In Amenas, 16 January 2013**: 32 terrorists attacked an Algerian gas facility with almost 800 workers; a four-day siege; **40 people from 10 countries** killed, five from Statoil. Statoil's investigation named a lacking **security culture** as an explanation and as the solution. Jore asks: how **adequate** is the concept, how does it relate to **safety culture**, and are they a **duality** or separate?"
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised (session 4, chapters 3 and 5)",
+      "tekst": "**\"Two sides of the same coin?\"** Systems, losses, culture.\n\n**Inclusive definitions**: narrow ones split safety and security, inclusive ones show the overlap. Three key definitions: safety, accident, hazard; a loss can be injury, damage, pollution, mission loss or reputational harm. **Hazard ≈ vulnerability.**\n\n**Same state, same loss, two paths**: accidental or hostile. **Safety is not reliability.** **Systems thinking**: technology, people, management, rules, procedures, environment. **Security = preventing mission loss.**\n\n**Culture**: shared beliefs, attitudes, practices and behaviours. Four attractions of security culture: shared awareness, weak signals, mindfulness, resilience. But safety culture cannot simply be copied (openness versus confidentiality), and the concept has problems of overlap, boundaries and measurement.\n\n**Final question**: when should safety and security be integrated, and when should they remain distinct?"
     },
     {
       "type": "tekst",
