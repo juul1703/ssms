@@ -13,6 +13,10 @@
    structuur, zonder naam of studentnummer.
    Komen er slides van de summary-colleges, dan gaan die hier in
    ALS ook in de sessielessen.
+
+   v113: slides van FAW sessie 3 verwerkt: de 16 regels (kader bij stap
+   10), alinea's van 4 tot 12 zinnen, woordtelling onderaan, en het
+   oefenexamen van 15 oktober (14:45-16:45) met een tijdsplan van 2 uur.
    ============================================================ */
 
 LESSTOF['fundamentals-of-academic-writing/summary'] = [
@@ -59,7 +63,7 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
           ],
           [
             "Proper paragraphs",
-            "Three to five paragraphs, each with a topic sentence and at least four sentences (about 110 to 150 words each)."
+            "Three to five paragraphs, each with a topic sentence and 4 to 12 sentences (about 110 to 150 words each)."
           ],
           [
             "Academic style",
@@ -88,6 +92,10 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
           [
             "No AI tools",
             "The exam is written in an internet-restricted environment. Practise without help, so the routine is in your head."
+          ],
+          [
+            "Word count at the bottom",
+            "Write the number of words under the summary (session 3 feedback)."
           ]
         ]
       },
@@ -239,6 +247,10 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
         "tekst": "Style is one of the five criteria, and a 1 here fails you outright. Everything below comes from *Dimensions of Rubric Explained* and session 2's style exercise.\n\n**Impersonal tone.** No \"I\", \"we\", \"our\"; no \"you\" addressing the reader.\n**No contractions.** isn't → is not; won't → will not; it's → it is.\n**Single verbs instead of [[phrasal verbs|Phrasal verb]].** get rid of → eliminate; find out → discover; point out → indicate; set up → establish.\n**No \"get\" expressions.** get tired → tire; get worse → deteriorate.\n**Precise instead of vague.** a big problem → a serious problem; a lot of → numerous / a substantial number of; really important → significant.\n**Few low-content words.** good, bad, interesting, important: say what makes it so.\n**No spoken structures.** \"kind of difficult\", \"gave him a hard time\", \"like Greenpeace\" (use \"such as\").\n**No questions.** No rhetorical questions; turn them into statements.\n**No inflated language.** \"an infinite number of definitions\" → \"numerous definitions\".\n**No filler words.** really, basically, quite, totally.\n**No \"etc.\"** Use \"such as A, B and C\" or \"including\".\n**No clichés.** last but not least, in a nutshell, at the end of the day.\n**Gender-neutral.** \"CEOs ... They\" rather than \"The CEO ... He\".\n**No sentence-initial And, But, Because, So.** And no informal linkers such as **Besides, So, Luckily**.\n**No idioms.** \"would not bat an eye\", \"a drop in the ocean\", \"the tip of the iceberg\".\n**Hedge what the source hedges.** If the article says \"could\" or \"may\", do not write \"will\".\n**Numbers and punctuation.** 1970s, not 1970's; no comma splices joining two full sentences."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture (session 3): the 16 rules**\n\nSession 3 turned the style list into **16 rules**, which overlap with the list above and add four points to watch in a summary:\n\n**Rule 3, what was done, not who did it.** Avoid journalistic \"X said that...\" reporting; state the content. Name people only when they are **key players** (a US Congressman, a CEO warning about his own industry), with who they are.\n**Rule 12, avoid \"people\".** \"A lot of people ignored the warning\" becomes \"The warning was ignored by a significant proportion of the population\".\n**Rule 2, prefer the passive** where the action matters more than the actor.\n**Also not at the start of a sentence**, next to And, But, Because and So; and never \"like\" for \"such as\".\n\nAll 16 rules with the lecturer's examples are in the FAW session 3 lesson."
+      },
+      {
         "type": "tabel",
         "kop": [
           "Informal",
@@ -306,7 +318,7 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
         "type": "tekst",
         "titel": "Step 12. The same routine under exam conditions",
         "toetsstof": true,
-        "tekst": "The exam is written in **Remindo**, on campus, in an **internet-restricted environment**: no dictionary site, no translation tool, no AI. The practice exam is on **15 October**, the real exam (100 per cent of the grade) on **14 December**. Check on Brightspace how much time you get and how long the article will be.\n\n**A time plan as proportions** (fill in the minutes once you know the exam length):\n\n**About 25 per cent: read and plan.** Pass 1 and pass 2 (step 1), keyword notes (step 2), grouping (step 3), and the [[main-points list|Main-points list]] (step 4). Do not skip this to \"save time\": a plan is what makes the writing fast.\n\n**About 55 per cent: write.** Opening first (step 5), then the body paragraphs (step 6), then the final paragraph (step 7). Write from your notes, not from the article: that is your [[paraphrasing|Paraphrasing]] done automatically.\n\n**About 20 per cent: check.** The four rounds of step 11. Leave this time, always; it is where the cheap points are.\n\n**If you run out of time:** a short but complete final paragraph is worth more than a perfect second body paragraph. A summary without the opposing sides loses on content and on structure.\n\n**Practise the routine now** with the full practice article in Applying it, timed, without looking at this guide. The aim is that the steps are in your head, not on your screen."
+        "tekst": "The exam is written in **Remindo**, on campus, in an **internet-restricted environment**: no dictionary site, no translation tool, no AI. The practice exam is on **Thursday 15 October, 14:45 to 16:45 (two hours)**, the real exam (100 per cent of the grade) on **14 December**. Check how long the article will be.\n\n**A time plan for two hours** (the practice exam length):\n\n**About 25 per cent, 30 minutes: read and plan.** Pass 1 and pass 2 (step 1), keyword notes (step 2), grouping (step 3), and the [[main-points list|Main-points list]] (step 4). Do not skip this to \"save time\": a plan is what makes the writing fast.\n\n**About 55 per cent, 65 minutes: write.** Opening first (step 5), then the body paragraphs (step 6), then the final paragraph (step 7). Write from your notes, not from the article: that is your [[paraphrasing|Paraphrasing]] done automatically.\n\n**About 20 per cent, 25 minutes: check.** The four rounds of step 11. Leave this time, always; it is where the cheap points are.\n\n**If you run out of time:** a short but complete final paragraph is worth more than a perfect second body paragraph. A summary without the opposing sides loses on content and on structure.\n\n**Practise the routine now** with the full practice article in Applying it, timed, without looking at this guide. The aim is that the steps are in your head, not on your screen."
       },
       {
         "type": "checklist",

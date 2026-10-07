@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v111**.
+Stand: 29 september 2026, service worker **v113**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -69,6 +69,7 @@ bestanden.
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
 | `faw-summary.js` | FAW naslag: How to write an academic summary (stap voor stap, uitgewerkt voorbeeld, oefenartikel); nieuw in v107 |
+| `faw-college-3.js` | FAW sessie 3, Style of academic writing (Hackett): de 16 regels, feedback task 1; nieuw in v113 |
 | ~~`faw-writer-responsible.js`~~ | Vervangen door `faw-college-2.js` in v92; het bestand kan uit de repo |
 | `sw.js` | Offline-cache, netwerk eerst |
 | `manifest.webmanifest` | Naam en kleur op het beginscherm |
@@ -104,6 +105,7 @@ drm-college-4.js
 faw-college-1.js
 faw-college-2.js
 faw-summary.js
+faw-college-3.js
 society-college-1.js
 society-college-2.js
 society-college-3.js
@@ -491,7 +493,7 @@ werkt sinds v106 zo:
 
 **Nog te doen, in deze volgorde:**
 
-00. **FAW summary-slides** (Julie levert ze nog aan): verwerken in
+00. **FAW-slides** (sessie 3 verwerkt in v113, in de sessieles én in `faw-summary.js`). Nog te ontvangen: de overige FAW-sessies en eventuele summary-slides; verwerken in
     `faw-summary.js` (als From the lecture-kaders bij de stappen) **en** in
     de bijbehorende FAW-sessieles. Dubbel, op Julie's verzoek.
 
