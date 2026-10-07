@@ -58,7 +58,7 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
             "2 · Understanding the problem",
             "14",
             "Quiz 2",
-            "CT2 (50%)"
+            "CT1 (per lecture 2) and CT2 (50%)"
           ],
           [
             "3 · Planning your investigation",

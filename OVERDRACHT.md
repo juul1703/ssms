@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v110**.
+Stand: 29 september 2026, service worker **v111**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -64,6 +64,8 @@ bestanden.
 | `ps-college-3.js` | Professional Skills sessie 3, communicatiestijl en presenteren: Mehrabian en Amsel, Manning & Reece, de mid-term (nieuw in v102) |
 | `ps-college-4.js` | Professional Skills sessie 4, teamwork en conflictmanagement; slides plus de leeslinks uitgewerkt; nieuw in v110 |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
+| `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
+| `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
 | `faw-summary.js` | FAW naslag: How to write an academic summary (stap voor stap, uitgewerkt voorbeeld, oefenartikel); nieuw in v107 |
@@ -97,6 +99,8 @@ ps-college-4.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
+drm-college-2.js
+drm-college-4.js
 faw-college-1.js
 faw-college-2.js
 faw-summary.js
@@ -517,8 +521,7 @@ werkt sinds v106 zo:
    meer), kernstof van 33 naar 8 kopjes, 48 flashcards, twee quizzen.
    `governance-slides-1.js` wordt niet meer geladen; weghalen mag, hoeft niet.
 4. ~~**Professional Skills sessie 1**~~ klaar in v102: slides verwerkt, 6 kopjes, 31 flashcards.
-5. **Collegeslides die nog moeten komen**:
-   DRM 1 en 2. (Governance 1, 2 en 3 en PS 1, 2 en 3 zijn verwerkt.) Julie levert ze per vak aan, met
+5. **Collegeslides die nog moeten komen**: DRM sessie 1 (lecture 1, Julie kan ze niet vinden; stof zit in conceptlijst 1). DRM workshop 1 en lecture 2 zijn verwerkt (v111); lecture 2 hoort bij programmasessie 4, want sessie 3 is quiz 1 thuis. Lecture 2 zegt: CT1 = conceptlijst deel 1 en 2. (Governance 1, 2 en 3 en PS 1, 2 en 3 zijn verwerkt.) Julie levert ze per vak aan, met
    haar Goodnotes-aantekeningen erbij; die zijn vaak net zo bruikbaar.
 6. **Intro sessie 3** bestaat nu wel, maar de andere sessies zonder leeswerk
    (5, 7, 9 en verder) hebben nog geen les.
