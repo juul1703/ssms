@@ -7,6 +7,7 @@
    recap voor college-3 (hoofdstuk 8 en 10 plus lecture 3).
    v104: recap voor college-4 (H13 en H15, uit de literatuur).
    v110: lecture 4 in de recap van college-4.
+   v114: nieuwe recap voor college-5 (Levi-Faur 2012).
    ============================================================ */
 
 voegRecapToe("governance-policy/college-1", {
@@ -598,6 +599,98 @@ voegRecapToe("governance-policy/college-4", {
         "Explain the difference between clientelism and mobilised participation.",
         "Name the five roles of parties and the five party systems with an example each.",
         "Explain cadre, mass, catch-all and cartel parties in one sentence each."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("governance-policy/college-5", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "Levi-Faur (2012) on one page. After the lecture, What the lecturer emphasised is added here."
+    },
+    {
+      "type": "tabel",
+      "titel": "Four perspectives on the state",
+      "kop": [
+        "Perspective",
+        "Key names",
+        "Claim",
+        "The state is..."
+      ],
+      "rijen": [
+        [
+          "Hollowing out",
+          "Rhodes, Jessop, Peters; Sørensen and Torfing",
+          "Power drifts up, down and sideways; networks with no sovereign steering actor",
+          "eroded: a broker or weather-vane"
+        ],
+        [
+          "Degovernancing",
+          "(no consistent school)",
+          "Good governance is minimal governance; markets preferred",
+          "irrelevant: politics itself is hollowed out"
+        ],
+        [
+          "State-centred governance",
+          "Pierre and Peters, Offe, Héritier, Börzel, Bell and Hindmoor",
+          "The state changed but remains central; steering, not rowing; the shadow of hierarchy",
+          "leaner and more capable"
+        ],
+        [
+          "Big Governance",
+          "Levi-Faur, Braithwaite",
+          "Government and governance expand together through regulation; hybrids",
+          "bigger, through regulation"
+        ]
+      ]
+    },
+    {
+      "type": "tabel",
+      "titel": "The other key lists",
+      "kop": [
+        "Topic",
+        "Content"
+      ],
+      "rijen": [
+        [
+          "Origins",
+          "kybernan; Williamson 1979 (markets and hierarchies); networks (Powell, Rhodes 1990)"
+        ],
+        [
+          "Shifts",
+          "upward, downward, horizontally; government is not the same as the state or hierarchy"
+        ],
+        [
+          "Four meanings",
+          "structure, process, mechanism, strategy (governancing)"
+        ],
+        [
+          "Five mechanisms",
+          "monetised exchange, non-monetised exchange, command, persuasion, solidarity"
+        ],
+        [
+          "Not",
+          "a unified approach, a causal theory, or government"
+        ],
+        [
+          "Conclusion",
+          "steering grows, horizontally; rowing stays"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Give Levi-Faur’s definition of governance in your own words.",
+        "Name the four meanings and the five mechanisms.",
+        "Explain the four perspectives on the state, with a key name each.",
+        "Explain steering versus rowing."
       ]
     }
   ]

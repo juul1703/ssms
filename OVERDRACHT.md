@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v113**.
+Stand: 29 september 2026, service worker **v114**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -46,6 +46,7 @@ bestanden.
 | `governance-college-2.js` | Governance sessie 2, Buckwalter & Balfour uit Quality of Governance plus Lecture 2 (v101) |
 | `governance-college-3.js` | Governance sessie 3, McCormick H8 (kern) en H10 (kern2) plus Lecture 3; nieuw in v101 |
 | `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), plus lecture 4 (v110) |
+| `governance-college-5.js` | Governance sessie 5, Levi-Faur (2012), uit de literatuur; nieuw in v114, collegestof volgt |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
@@ -93,6 +94,7 @@ governance-college-1.js
 governance-college-2.js
 governance-college-3.js
 governance-college-4.js
+governance-college-5.js
 ps-college-1.js
 ps-college-2.js
 ps-college-3.js
@@ -489,6 +491,16 @@ werkt sinds v106 zo:
 - **Nieuwe lessen krijgen deze markering voortaan ook.** Bestaande lessen
   alleen als Julie erom vraagt.
 
+## 9c. "In plain words" in elke nieuwe les (v114)
+
+Julie wil voortaan in **elke nieuwe les** per kopje van de kernstof een
+kader "In plain words": drie of vier zinnen in heel eenvoudig Engels (altijd
+Engels, ook als de chat Nederlands is), alsof je het uitlegt aan iemand die er
+nooit van gehoord heeft. Type `slimmer`, zonder titel (anders wordt het een
+kopje), eerste regel `**In plain words**`, direct na het eerste tekstblok van
+het kopje. Eerst toegepast in Governance sessie 5. Bestaande lessen alleen
+als Julie erom vraagt.
+
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
 **Nog te doen, in deze volgorde:**
@@ -551,6 +563,7 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 | 2 | Buckwalter & Balfour H2 | verwerkt (v101) | lecture 2 en literatuur H2 verwerkt (v101) |
 | 3 | McCormick H8 en H10 | verwerkt (v101) | bestaan niet, geen aantekeningen gemaakt |
 | 4 | McCormick H13 en H15 (v104) | verwerkt (v110) | niet aangeleverd |
+| 5 | Levi-Faur 2012 (v114); aanbevolen Sørensen & Torfing ontbreekt | nog niet | nog niet |
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 
