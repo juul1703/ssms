@@ -9,6 +9,10 @@
    verklaringen van criminaliteit (6 tot 9) volgen de nummering van
    het boek. Na het college komen slides en aantekeningen erbij als
    "From the lecture"-kaders. Recap in recap-society.js.
+
+   v117: lecture 5 verwerkt: zeven "From the lecture"-kaders, vier extra
+   flashcards, de opdracht "be deviant in appearance" als oefening en een
+   quiz over het college. Geen aantekeningen aangeleverd.
    ============================================================ */
 
 LESSTOF['society-politics/college-5'] = [
@@ -35,7 +39,7 @@ LESSTOF['society-politics/college-5'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Macionis & Plummer, chapter 17, Control, crime and deviance** (pp. 541-577 in your PDF). The whole chapter.\n\nThis lesson is written from the literature, as preparation. After the lecture, the slides and your notes are added in From the lecture boxes, as in sessions 2 to 4.\n\n**Why this matters for SSMS.** This is the most directly \"safety and security\" chapter of the course: crime statistics, prisons, surveillance and the theories that explain why people offend. You will meet these theories again in criminology and in every policy discussion about crime."
+        "tekst": "Read: **Macionis & Plummer, chapter 17, Control, crime and deviance** (pp. 541-577 in your PDF). The whole chapter.\n\nThis lesson was written from the literature as preparation; since v117 the slides of lecture 5 are added in From the lecture boxes.\n\n**Why this matters for SSMS.** This is the most directly \"safety and security\" chapter of the course: crime statistics, prisons, surveillance and the theories that explain why people offend. You will meet these theories again in criminology and in every policy discussion about crime."
       },
       {
         "type": "slimmer",
@@ -63,6 +67,10 @@ LESSTOF['society-politics/college-5'] = [
         "titel": "1. Deviance, crime and social control",
         "toetsstof": true,
         "tekst": "**The opening case: binge drinking.** On a Saturday night in almost any European city centre you find drunken revellers, and some of the drinking turns into violence. \"Binge drinking\" (roughly five or more drinks in one session) has become a way of life for many young people; European alcohol consumption is about double the world average. City centres have become \"**[[urban nightscapes|Urban nightscapes]]**\": branded, themed bars and clubs where big business has moved in. When England relaxed its licensing hours in 2005, alcohol-related attendances at one London emergency department rose from 2.9 to 8 per cent of overnight visits within a year. The case shows how [[crime|Crime]], culture, consumption and control are tangled together.\n\n**A world gone mad with crime?** Many people feel crime is everywhere: in the news, films and soaps. Fears of crime are rising, penal responses are becoming more repressive, and \"crime control\" has become a central election theme (\"tough on crime and tough on the causes of crime\").\n\n**Three definitions:**\n\n**[[Deviance]]** is the **recognised violation of cultural norms**: the violation plus the recognition and labelling of it. There are many kinds of norm (health, sexual, religious), and people who break them are labelled ill, perverts or heretics.\n**Crime** is the violation of norms a society **formally enacts into criminal law**: from minor traffic offences to murder.\n**[[Social control]]** is the attempt by society to regulate people's thoughts and behaviour; the **[[criminal justice system|Criminal justice system]]** is its formal part (section 4).\n\n**Not all deviance involves action.** Sometimes just existing is enough to provoke condemnation: to some older people the young symbolise trouble, to some white people the presence of black people causes suspicion. What deviant acts and attitudes have in common is an **evaluation of difference** that makes someone an \"**[[outsider|Outsider]]**\" (Becker). So deviance is not just individual choice or failing: how a society defines it, whom it brands and what it does about it are matters of **social organisation**.\n\n**No crime-free society.** Sociologists agree that every society has crime and deviance. Crime may be the price of a certain **freedom** (and non-conformity); it can bring **change** (the political criminals of one generation can become the leaders of the next); and it marks **moral boundaries** (\"if we had no 'bad', could we have any 'good'?\"). A society without crime would have to be extremely rigid and controlled. But levels and \"**social shapes**\" of crime differ greatly between societies.\n\n**A continuum of responses.** We barely notice left-handedness or boastfulness, take a dimmer view of drunk driving or vandalism, and call the police for a burglary."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture opens with two questions: **how can we explain deviance?** and **how do people become deviant?** Its definitions follow the book (**deviance**: the violation of norms; **crime**: the violation of norms enacted into laws), and add three terms:\n\n**Social control system**: \"**planned and programmed responses to expected deviance**\".\n**Control processes**: subject to **bureaucratisation, professionalisation and state funding** (the three developments of section 4).\n**Criminal justice system**: the **societal reaction** to alleged violations, using **police, courts and prison officials**."
       },
       {
         "type": "tabel",
@@ -148,6 +156,10 @@ LESSTOF['society-politics/college-5'] = [
         "tekst": "**European Eye: how to control drugs, Sweden and the Netherlands**\n\n**Sweden** was once seen as a permissive society, with open cannabis smoking in the 1960s. From the 1970s, largely through the campaigning of a national union for a narcotics-free society, it adopted **one of the toughest drug policies in Europe**, criminalising use as well as possession; passing on a joint counts as trafficking. Liberals (\"drogliberal\") became a term of abuse. Yet there is little evidence it works: about 20 per cent of young people in the cities use drugs, organised [[crime|Crime]] has grown, and adult crime in Stockholm rose some 80 per cent since 1975.\n\n**The Netherlands** has followed a policy of **decriminalisation** of soft drugs since 1976: a misdemeanour, not a crime, with sales in coffee shops that may not deal hard drugs. (The book's 30 grams is outdated; see the warning in Before you start.) The aim is **prevention and harm reduction**, built on a sharp distinction between **hard** drugs (prohibited) and **soft** drugs (seen as less harmful than tobacco or alcohol). The Dutch addict rate was 1.6 per thousand against 2.7 in Europe, with few signs that cannabis leads to harder drugs. **Critics abroad** say it weakens international prohibition, encourages drug tourism, oversimplifies the hard-soft distinction and does not drive out organised crime; under that pressure the Netherlands has been reconsidering its policy.\n\nThe box is a natural comparison for an exam question: two opposite **penal goals** ([[deterrence|Deterrence]] and [[incapacitation|Incapacitation]] in Sweden, harm reduction close to radical non-intervention in the Netherlands), and two opposite readings of Durkheim's first social foundation: [[deviance|Deviance]] varies with cultural norms."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe **surveillance society** gets its own slide, with Lyon's definition: \"a society relying on communication and information technologies for administration and control, resulting in close monitoring of everyday life\". The rest of sections 3 to 5 (global crime, penal goals, Foucault, prisons, net-widening) is **not on the slides**, but it is in the chapter."
+      },
+      {
         "type": "tekst",
         "titel": "6. Explaining crime 1: the classical and the positivist school",
         "toetsstof": true,
@@ -175,6 +187,10 @@ LESSTOF['society-politics/college-5'] = [
             "Weakness: most offenders are normal; ignores definition and power"
           ]
         }
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe two schools on one slide, each with its critique:\n**Classical school**: the nature of crime is **rational**: to maximise gains and ensure escaping punishment. *Critique*: it assumes people are **rational, free and self-interested**.\n**Positivist school (deterministic)**: focuses on the **characteristics** (biology, personality) and **causes** of crime. *Critique*: it focuses on **specific types of people** and seeks explanations **outside the control** of the criminal."
       },
       {
         "type": "tekst",
@@ -229,6 +245,10 @@ LESSTOF['society-politics/college-5'] = [
         "tekst": "**Youthful deviant subcultures** build on Merton:\n\n**Albert Cohen (1955): [[status frustration|Status frustration]].** Boys from deprived backgrounds often find school alienating: they want success but lack the skills their families did not give them. Frustrated, they **invert** the school's values (achievement, hard work, planning) into a **[[contraculture|Contraculture]]** of non-achievement and living for the moment. A street reputation lets them \"be somebody\".\n\n**Walter Miller (1958): six focal concerns** of lower-class deviant subcultures:\n1. **Trouble**: frequent conflict with teachers and police.\n2. **Toughness**: physical size, strength, athletic skill, especially among males.\n3. **Smartness**: street smarts, conning others and not being conned.\n4. **Excitement**: thrills, risk and danger to escape a dull routine.\n5. **Fate**: a sense of lacking control over one's life.\n6. **Autonomy**: a desire for freedom, expressed as resentment of authority.\n\n**Cloward and Ohlin (1966): [[opportunity structures|Opportunity structure]].** Crime comes not only from limited **legitimate** opportunity but also from available **illegitimate** opportunity. Where criminal networks exist, **criminal subcultures** form (Capone exploited Prohibition); where there is no opportunity at all, **conflict subcultures** (violence driven by frustration and the wish for respect); and those who fail even at crime may sink into **retreatist subcultures** (alcohol, drugs).\n\n**Critical comment.** Strain theory explains some crimes (theft) far better than others (crimes of passion, mental illness); not everyone measures success in wealth; the subcultural theories assume everyone shares the same standards of right and wrong; and focusing on the poor ignores crimes of the affluent such as stock fraud. All these theories also assume that everyone who breaks a norm gets branded deviant, while **becoming** deviant is a complex process: the next section."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Functionalism**: deviance exists **in relation to a norm**, and **rule-making and rule-breaking involve power** (the three social foundations). The **four functions of crime**: affirmation of values and norms, clarification of boundaries, promotion of unity, encouragement of change or alternatives.\n\n**Strain theories**: **societal goals** set against **institutionalised means**; **conformity** is pursuing goals by approved means; **anomie** is norm breakdown. *Critique on the slide*: strain theories **unfairly focus on poor people** and use **conventional terms of success**. (The subcultural theories of Cohen, Miller and Cloward and Ohlin are not on the slides.)"
+      },
+      {
         "type": "tekst",
         "titel": "8. Explaining crime 3: learning and labelling",
         "toetsstof": true,
@@ -239,10 +259,18 @@ LESSTOF['society-politics/college-5'] = [
         "tekst": "**Speaking Lives: \"The Jack-Roller\"**\n\nIn the 1930s the Chicago sociologist Clifford Shaw recorded the life story of Stanley, a young street robber. In one passage Stanley describes arriving in prison: stripped, bathed, photographed and measured, his head shaved, a number instead of a name. Sitting in his cell, he writes, he realised for the first time that he was a criminal: before, he had been a mischievous lad, a runaway, a petty thief; now he became one \"as I sat there and brooded\". It is the **degradation ceremony** and **secondary deviance** in one moment. Decades later, re-interviewed in his seventies, Stanley had lived an adult life largely free of crime, and had himself been mugged."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Learning theories (differential association)**: deviance depends on **association with others**.\n**Labelling theory**: deviance comes not from people's actions but from the **reactions of others**; the **social construction of reality is variable**. **Primary deviance**: marginal and passing. **Secondary deviance**: repeated violations leading to a **deviant identity**, with the **Thomas theorem** named on the slide. **Stigma**: a negative social label affecting self-concept and identity. **Retrospective labelling**: interpreting the past consistently with present deviance. *Critique*: it is **inconclusive** whether labelling produces further deviance or discourages it."
+      },
+      {
         "type": "tekst",
         "titel": "9. Explaining crime 4: conflict criminologies and left realism",
         "toetsstof": true,
         "tekst": "**Conflict theory**: [[deviance|Deviance]] reflects **inequalities and power** of class, race and gender. Three links:\n\n1. **Norms and laws protect the rich and powerful.** People who threaten their property or advocate equality are tagged \"common thieves\" or \"political radicals\". Richard Quinney: \"Capitalist justice is by the capitalist class, for the capitalist class, and against the working class.\"\n2. **The powerful can resist labels.** Executives who order toxic waste dumped are rarely held accountable; wealthy defendants can afford strong defences.\n3. **Belief that laws are natural and good masks their political character.** We criticise unequal application of the law, but rarely ask whether the laws themselves are fair.\n\n**The [[new criminology|New criminology]]** (Taylor, Walton and Young, 1973), written by Marxists, criticised all earlier theories for ignoring the structural explanation of **control** as well as [[crime|Crime]], and the material conflicts at its root.\n\n**Spitzer (1980)**: deviant labels go to people who **impede capitalism**:\n1. those who threaten **property** (the poor who steal from the rich), while landlords who exploit tenants are \"doing business\";\n2. those who cannot or will not **work**;\n3. those who resist **authority** (truants, uncooperative workers);\n4. those who **challenge** the system (activists, union organisers).\nSociety condemns drugs of escape but promotes drugs of adjustment (alcohol, caffeine). \"Costly but harmless\" groups (Merton's retreatists, the elderly, people with disabilities) are handled by **welfare**; those who challenge capitalism (the \"underclass\", revolutionaries: Merton's innovators and rebels) by the **[[criminal justice system|Criminal justice system]]**. Both blame individuals, not the system.\n\n**[[Left realism]]** (since the mid-1980s), from a conflict background but taking crime seriously as a real problem, especially in inner cities. Its key fact: **victims are overwhelmingly poor, working-class and often ethnically deprived**; much crime is done by the working class **on** the working class. Its tool is **the [[square of crime|Square of crime]]** (Jock Young): every crime must be analysed through four corners:"
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Conflict criminologies**: the link between deviance and power: norms serve the interests of the rich; the powerful have the resources to resist labels; norms and laws mask their political character. In the **Marxist tradition**, deviant labels go to those who **impede capitalism**: who threaten others' property, who cannot or will not work, who resist authorities, who challenge the status quo (Spitzer's four groups).\n\n**Left realism**: **relative deprivation** (a perceived disadvantage arising from comparison), **marginalisation** (on the edge of society, with little stake in it) and **crime in context** (Taylor's job crisis, poverty and inequality, fear of crime and of \"others\", family crisis)."
       },
       {
         "type": "tabel",
@@ -284,6 +312,10 @@ LESSTOF['society-politics/college-5'] = [
       {
         "type": "waarschuwing",
         "tekst": "**The big debate: is crime really decreasing, or increasing?**\n\nDurkheim says crime has always existed, but its rate, the fear of it and awareness of it differ sharply between cultures and periods. Many people feel crime is rising everywhere, while recent statistics suggest it is **falling**. The book lists social changes that **could** push crime up: girls becoming more assertive as they become more equal; mass consumerism and credit-card fraud; casual and insecure labour markets and the informal economy; weakening parental control as families change; the night-time economy and mobility; **new information technologies** (cybercrime, phone theft); unsupervised youth; an ageing population (more elderly victims and offenders); environmental change (**[[green crimes|Green crime]]**); and media full of images of crime.\n\nThe exam-style questions: what problems do you find in measuring crime? Is the evidence for growth or decline? Which crimes grow more than others, and what evidence would you need?"
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Feminist and gendered criminology** questions the established theories, and the slide frames it as questions per theory:\n**Conflict theory**: why do women commit **fewer crimes** than men?\n**Strain theory**: why are women socialised to view **success in terms of relationships** (marriage and motherhood), so that **unmarried and childless women** are seen as problems?\n**Labelling theory**: why are there **different standards** for men and women, with men having the power to escape responsibility?\n**New questions**: why do women **fear crime**? Why are women so often **victims of sexual violence**? Why are women **more socially controlled** than men?\n\n**Race and ethnicity**: a **correlation** between race or ethnicity and victimisation and crime rates, with a **disproportionate** number of arrests and prison terms. The slide links a video (https://www.youtube.com/watch?v=8ABRlWybBqM)."
       },
       {
         "type": "checklist",
@@ -599,6 +631,22 @@ LESSTOF['society-politics/college-5'] = [
           {
             "begrip": "Four explanations of ethnic differences in crime figures (list)",
             "definitie": "1. Prejudice in policing and reporting (stop and search). 2. Inequality and poverty. 3. Official figures exclude white-collar crime. 4. Some groups have low rates through income, education and family solidarity."
+          },
+          {
+            "begrip": "Social control system",
+            "definitie": "The lecture: \"planned and programmed responses to expected deviance\"."
+          },
+          {
+            "begrip": "Control processes",
+            "definitie": "Processes of social control, subject to bureaucratisation, professionalisation and state funding."
+          },
+          {
+            "begrip": "Critiques of the classical and positivist schools (list)",
+            "definitie": "1. Classical: assumes people are rational, free and self-interested. 2. Positivist: focuses on specific types of people and seeks explanations outside the criminal’s control."
+          },
+          {
+            "begrip": "Feminist questions to the theories (list)",
+            "definitie": "1. Conflict: why do women commit fewer crimes? 2. Strain: why are women socialised to define success through relationships? 3. Labelling: why different standards for men and women? New: fear of crime, sexual violence, stronger social control of women."
           }
         ]
       }
@@ -642,6 +690,13 @@ LESSTOF['society-politics/college-5'] = [
         "niveau": "gevorderd",
         "vraag": "Compare the Swedish and the Dutch drug policy from the European Eye box, using the six goals of a penal system, and say what each theory of crime (classical, labelling) would predict about their effects.",
         "antwoord": "**Sweden**: criminalises use and possession, with compulsory prison for passing on a joint. The goals are **deterrence** and partly **incapacitation**, combined with strong moral condemnation (the label \"drogliberal\").\n\n**The Netherlands**: tolerates small amounts of soft drugs and separates them from hard drugs. The goals are **harm reduction** and **rehabilitation**, close to **radical non-intervention** for soft drugs.\n\n**Classical school prediction**: if people are rational, Sweden's certain and severe punishment should **deter** use. The book's evidence (20 per cent of young city dwellers using, growing organised crime) suggests deterrence works less well than assumed.\n\n**Labelling prediction**: criminalising users turns many young people into \"criminals\", with stigma and possible secondary deviance, and drives use underground into criminal networks; Dutch tolerance avoids labelling soft-drug users and separates them from the hard-drug market. Critics of the Dutch model answer that it encourages drug tourism and does not drive out organised crime.\n\n**Durkheim's first social foundation**: the same act is a crime in one country and tolerated in another: deviance varies with cultural norms."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-c5-oef-6",
+        "niveau": "gevorderd",
+        "vraag": "**The lecturer's assignment for next week:** \"Be deviant in appearance. Break the norms (for example in dress style and/or hairstyle). Surprise everyone! Be observant of the reactions of people when they see you.\" Afterwards, write down what you observed, and explain it with at least two theories from this session.",
+        "antwoord": "**A good write-up has three parts:**\n\n**1. What you did and what you saw.** Describe the norm you broke and the reactions (looks, comments, avoidance, jokes, questions), where and from whom. Stay with what you observed.\n\n**2. Theory.** For example: **labelling theory** (others define the behaviour as deviant; was there a hint of a label: \"weird\", \"attention-seeker\"?); **Durkheim's functions** (the reactions show where the moral boundary lies and reaffirm the norm); the **Thomas theorem** (people react to how they define you, not to who you are); **Garfinkel's breaching experiments** (Governance and Society session 2: rule-breaking reveals people's sense of reality); and **gender** (were reactions different than they would be for someone of another gender, as feminist criminology predicts?).\n\n**3. A limit.** One day of unusual clothing is **primary deviance**: passing, with little effect on your self-concept. Secondary deviance would need repeated labelling and a changed identity, which this experiment cannot show."
       }
     ]
   },
@@ -854,6 +909,78 @@ LESSTOF['society-politics/college-5'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Six questions on lecture 5",
+        "vragen": [
+          {
+            "vraag": "The lecture defines the social control system as:",
+            "opties": [
+              "The police and courts only",
+              "Planned and programmed responses to expected deviance",
+              "The norms of a society",
+              "A set of prisons"
+            ],
+            "juist": 1,
+            "uitleg": "Control processes are subject to bureaucratisation, professionalisation and state funding."
+          },
+          {
+            "vraag": "Which critique belongs to the classical school?",
+            "opties": [
+              "It focuses on specific types of people",
+              "It assumes people are rational, free and self-interested",
+              "It ignores power",
+              "It focuses on women"
+            ],
+            "juist": 1,
+            "uitleg": "The positivist school is criticised for focusing on types of people."
+          },
+          {
+            "vraag": "Which critique of strain theories is on the slide?",
+            "opties": [
+              "They ignore biology",
+              "They unfairly focus on poor people and use conventional terms of success",
+              "They ignore the victim",
+              "They are too optimistic"
+            ],
+            "juist": 1,
+            "uitleg": "Success is not only money, and the poor are singled out."
+          },
+          {
+            "vraag": "Which theory is linked to the Thomas theorem on the slides?",
+            "opties": [
+              "Classical school",
+              "Secondary deviance in labelling theory",
+              "Left realism",
+              "Positivism"
+            ],
+            "juist": 1,
+            "uitleg": "Repeated labelling leads to a deviant identity."
+          },
+          {
+            "vraag": "Feminist criminology asks of strain theory:",
+            "opties": [
+              "Why do women commit more crimes?",
+              "Why are women socialised to view success in terms of relationships?",
+              "Why are prisons privatised?",
+              "Why do men fear crime?"
+            ],
+            "juist": 1,
+            "uitleg": "With unmarried and childless women seen as problems."
+          },
+          {
+            "vraag": "What is the topic of the next session?",
+            "opties": [
+              "Culture",
+              "Groups, organisations and network society (chapter 6)",
+              "Social movements",
+              "Religion"
+            ],
+            "juist": 1,
+            "uitleg": "Plus the assignment to be deviant in appearance."
+          }
+        ]
+      },
+      {
         "type": "checklist",
         "titel": "Can you do this?",
         "items": [
@@ -888,6 +1015,9 @@ LESSTOF['society-politics/college-5'] = [
           },
           {
             "apa": "Cohen, S. (1972). Folk devils and moral panics. MacGibbon & Kee."
+          },
+          {
+            "apa": "Society & Politics (2026). Lecture 5: Control, crime and deviance [Lecture slides]. The Hague University of Applied Sciences."
           }
         ]
       }

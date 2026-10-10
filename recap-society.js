@@ -8,6 +8,7 @@
    v103: recap voor college-4 (H5 en H16, uit de literatuur).
    v108: lecture 4 in de recap van college-4; nieuwe recap voor college-5.
    v109: hele H5 in de recap van college-4.
+   v117: lecture 5 in de recap van college-5.
    ============================================================ */
 
 voegRecapToe("society-politics/college-2", {
@@ -545,7 +546,12 @@ voegRecapToe("society-politics/college-5", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "The core of chapter 17 on one page. After the lecture, What the lecturer emphasised is added here."
+      "tekst": "The core of chapter 17 on one page. Lecture 5 is now included."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "**Two questions**: how can we explain deviance, and how do people become deviant?\n\n**Definitions**: deviance, crime, the **social control system** (\"planned and programmed responses to expected deviance\"), control processes and the criminal justice system.\n\n**The surveillance society** (Lyon) gets its own slide.\n\n**The explanations, each with a critique**: classical and positivist; functionalism (four functions) and strain (critique: focus on the poor, conventional success); learning and labelling (primary and secondary deviance, stigma, retrospective labelling, the Thomas theorem; critique: inconclusive); conflict (Spitzer's four groups) and left realism (relative deprivation, marginalisation, crime in context); feminist criminology as questions to the other theories; race and ethnicity.\n\n**Not on the slides**: global crime, the penal goals, Foucault, prisons and net-widening, subcultural theories. Still in the chapter.\n\n**Practical:** next session is **chapter 6** (groups, organisations and network society), and the assignment: **be deviant in appearance** and observe people's reactions."
     },
     {
       "type": "tabel",

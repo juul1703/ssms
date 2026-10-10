@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v116**.
+Stand: 29 september 2026, service worker **v117**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -50,7 +50,7 @@ bestanden.
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
-| `society-college-5.js` | Society & Politics sessie 5, Macionis H17 (control, crime and deviance), uit de literatuur; nieuw in v108, collegestof volgt |
+| `society-college-5.js` | Society & Politics sessie 5, Macionis H17, plus lecture 5 (v117) |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -65,6 +65,7 @@ bestanden.
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
 | `ps-college-3.js` | Professional Skills sessie 3, communicatiestijl en presenteren: Mehrabian en Amsel, Manning & Reece, de mid-term (nieuw in v102) |
 | `ps-college-4.js` | Professional Skills sessie 4, teamwork en conflictmanagement; slides plus de leeslinks uitgewerkt; nieuw in v110 |
+| `ps-college-5.js` | Professional Skills sessie 5, AI and its responsible use (Wisse); nieuw in v117 |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
 | `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
@@ -102,6 +103,7 @@ ps-college-1.js
 ps-college-2.js
 ps-college-3.js
 ps-college-4.js
+ps-college-5.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
@@ -520,7 +522,7 @@ als Julie erom vraagt.
    de literatuur. Eerstvolgende:
    - ~~Society sessie 4~~ helemaal klaar (v108). ~~Sessie 5 (H17)~~ uit de
      literatuur klaar (v108); na het college slides erbij. Daarna sessie 6:
-     Macionis H6.
+     Macionis H6 (groups, organisations and network society; lecture 5 bevestigt dit).
    - ~~Governance sessie 4~~ uit de literatuur klaar (v104); na het college
      slides en aantekeningen erbij. Daarna
      sessie 5 (9 okt): Levi-Faur (2012), p. 3-18, aanbevolen Sørensen &
@@ -587,7 +589,7 @@ aangepast: heel H5.
 | 2 | H7 | verwerkt (v100) | verwerkt (v100), ook de literatuurnotities H7 (niets nieuws) | 9 vragen als quiz (v100) |
 | 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
 | 4 | heel H5 (v109), H16 sociale bewegingen p. 525-532 | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
-| 5 | H17 p. 541-577 (v108) | nog niet | nog niet | nog niet |
+| 5 | H17 p. 541-577 (v108) | verwerkt (v117) | niet aangeleverd | geen |
 
 Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
 

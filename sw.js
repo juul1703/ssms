@@ -10,10 +10,10 @@
 
    VERSIE hoeft nu niet meer per se omhoog bij elke wijziging, maar het
    blijft handig: het ruimt de oude cache op. */
-var VERSIE = 'ssms-v116';
+var VERSIE = 'ssms-v117';
 var BESTANDEN = ['./', './index.html', './les.html', './vak.html', './styles.css', './app.js',
   './rooster.js', './les.js', './lesextra.js', './vak.js', './lesblokken.js', './lesstof.js',
-  './ssms-inhoud.js', './intro-college-1.js', './intro-college-3.js', './intro-college-5.js', './intro-h7.js', './intro-h9.js', './governance-college-1.js', './governance-college-2.js', './governance-college-3.js', './governance-college-4.js', './governance-college-5.js', './ps-college-1.js', './ps-college-2.js', './ps-college-3.js', './ps-college-4.js', './drm-conceptlist-1.js', './drm-conceptlist-2.js', './drm-conceptlist-3.js', './drm-college-2.js', './drm-college-4.js', './drm-college-5.js', './faw-college-1.js', './faw-summary.js', './faw-college-3.js', './faw-college-2.js', './society-college-1.js', './society-college-2.js', './society-college-3.js', './society-college-4.js', './society-college-5.js', './recap-society.js', './recap-professional-skills.js', './recap-governance.js', './recap-intro.js', './vakken.js', './manifest.webmanifest'];
+  './ssms-inhoud.js', './intro-college-1.js', './intro-college-3.js', './intro-college-5.js', './intro-h7.js', './intro-h9.js', './governance-college-1.js', './governance-college-2.js', './governance-college-3.js', './governance-college-4.js', './governance-college-5.js', './ps-college-1.js', './ps-college-2.js', './ps-college-3.js', './ps-college-4.js', './ps-college-5.js', './drm-conceptlist-1.js', './drm-conceptlist-2.js', './drm-conceptlist-3.js', './drm-college-2.js', './drm-college-4.js', './drm-college-5.js', './faw-college-1.js', './faw-summary.js', './faw-college-3.js', './faw-college-2.js', './society-college-1.js', './society-college-2.js', './society-college-3.js', './society-college-4.js', './society-college-5.js', './recap-society.js', './recap-professional-skills.js', './recap-governance.js', './recap-intro.js', './vakken.js', './manifest.webmanifest'];
 
 self.addEventListener('install', function(e){
   /* Elk bestand apart, en een mislukking mag de installatie niet slopen.
