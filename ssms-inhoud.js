@@ -4029,7 +4029,7 @@ var VAK_VOORBEREIDING = {
     2:  { onderwerp: 'Intro research methods 2: workshop kernbegrippen', titel: 'Brightspace checken', lesIds: [] },
     3:  { onderwerp: 'Intro research methods 3: quiz 1', titel: 'Quiz 1 over de kernbegrippen · voorbereiden op CT1', lesIds: ['ch3'] },
     4:  { onderwerp: 'Het probleem begrijpen 1: 6W, begrippen en variabelen', titel: 'Brightspace checken', lesIds: ['ch3', 'ch4'] },
-    5:  { onderwerp: 'Het probleem begrijpen 2: workshop 6W', titel: 'Brightspace checken', lesIds: [] },
+    5:  { onderwerp: 'Het probleem begrijpen 2: workshop 6W (phishing)', titel: 'Quiz 2 volgende week · CT1 op 9 november', lesIds: [] },
     6:  { onderwerp: 'Het probleem begrijpen 3: quiz 2', titel: 'Quiz 2 over het 6W-raamwerk · voorbereiden op CT2', lesIds: ['ch5'] },
     7:  { onderwerp: 'Herkansing quiz 1', titel: 'Alleen als je quiz 1 niet gehaald hebt', leeg: true, lesIds: [] },
     8:  { onderwerp: 'Herkansing quiz 2', titel: 'Alleen als je quiz 2 niet gehaald hebt · daarna CT1', lesIds: [] },
