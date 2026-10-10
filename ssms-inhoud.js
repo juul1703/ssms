@@ -3960,7 +3960,7 @@ var VAK_VOORBEREIDING = {
     2:  { onderwerp: 'Safety- en securityinterventies', titel: 'Bieder H1 en H2 gelezen', lesIds: ['h1', 'h2'] },
     3:  { onderwerp: 'Communication matters', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
     4:  { onderwerp: 'Stakeholders, actoren en cultuur', titel: 'Bieder H3 en H5 gelezen', lesIds: ['h3', 'h5'] },
-    5:  { onderwerp: 'Safety en security managen', titel: 'Geen leeswerk vooraf', leeg: true, lesIds: [] },
+    5:  { onderwerp: 'Safety en security managen (Corr)', titel: 'Geen leeswerk vooraf', lesIds: [] },
     6:  { onderwerp: 'Resilience in safety en security', titel: 'Bieder H7 en H9 gelezen', lesIds: ['h7', 'h9'] },
     7:  { onderwerp: 'Tales from the field (alumnus)', titel: 'Gastcollege: aanwezigheid verplicht', lesIds: [] },
     8:  { onderwerp: 'Recap en tentamenvoorbereiding', titel: 'Bieder H10 gelezen · daarna de midterm', lesIds: ['h10'] },

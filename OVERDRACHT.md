@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v114**.
+Stand: 29 september 2026, service worker **v115**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -56,6 +56,7 @@ bestanden.
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
 | `intro-college-1.js` | Intro sessie 1: SSMS & what it's all about, Engelse versie; verving in v98 de Nederlandse slides-les |
 | `intro-college-3.js` | Intro sessie 3: Communication Matters (uit de collegeslides; er was nog geen les) |
+| `intro-college-5.js` | Intro sessie 5, Managing Safety & Security (Corr), uit slides en sprekersnotities; nieuw in v115 |
 | `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
@@ -88,6 +89,7 @@ lesstof.js
 ssms-inhoud.js
 intro-college-1.js          <- losse lesbestanden hier
 intro-college-3.js
+intro-college-5.js
 intro-h7.js
 intro-h9.js
 governance-college-1.js
@@ -540,7 +542,7 @@ als Julie erom vraagt.
 6. **Intro sessie 3** bestaat nu wel, maar de andere sessies zonder leeswerk
    (5, 7, 9 en verder) hebben nog geen les.
 
-**Intro to SSMS, slides:** sessie 4 (Bieder H3 en H5) verwerkt in v112: zeven "From the lecture"-kaders in de lessen h3 en h5 in `ssms-inhoud.js`, een quiz over het college bij h5 en "What the lecturer emphasised" in de recap van h5. Andere Intro-slides nog niet ontvangen; sessies zonder leesstof (5, 7, 9 enz.) hebben nog geen les.
+**Intro to SSMS, slides:** sessie 4 (Bieder H3 en H5) verwerkt in v112: zeven "From the lecture"-kaders in de lessen h3 en h5 in `ssms-inhoud.js`, een quiz over het college bij h5 en "What the lecturer emphasised" in de recap van h5. Sessie 5 (Managing Safety & Security, Corr) is in v115 een eigen les (`intro-college-5.js`). Andere Intro-slides nog niet ontvangen; sessies 7, 9 enz. zonder leesstof hebben nog geen les.
 
 **Professional Skills, stand per sessie** (v102):
 
