@@ -521,6 +521,38 @@ Op verzoek bijgewerkt (v118): Intro sessie 6 (`intro-h7.js`, `intro-h9.js`) heef
 
 **Werkafspraak (Julie, 12 okt):** controleer bij elke upload of het het juiste bestand is (programma, hoofdstuk, aankondiging), en meld afwijkingen. "Cut the deliverables" betekent: opsplitsen in aparte leveringen, niets weglaten.
 
+## 9d. Alle lessen op standaard brengen (gestart 12 okt, v122)
+
+Julie wil dat **elke** les de nieuwste standaard krijgt, zonder materiaal
+te verwijderen, zonder de opbouw te veranderen en zonder iets in de app
+te breken. De standaard:
+- **"If you are short on time"** in Before you start (als die ontbreekt);
+- **"In plain words"** per kopje van de kernstof (altijd Engels, 3-4 zinnen,
+  type `slimmer`, direct na het eerste tekstblok van het kopje);
+- **hover-begrippen** (`[[Term]]`, eerste vermelding per kopje, script
+  markeer.js; slaat begrippen over die in dat kopje al gemarkeerd zijn);
+- **geen em dashes** in de tekst;
+- een **To remember** (recap) waar die ontbreekt.
+Werkwijze: upgrade-script (alleen bestanden met één LESSTOF-toewijzing;
+lessen in `ssms-inhoud.js` via slice-vervanging zoals bij Intro sessie 4),
+daarna integriteitscheck: elk oud blok moet ongewijzigd terug te vinden zijn
+(op hover-markering en em dashes na), en een browsertest.
+
+**Klaar (v122):** PS sessie 1, 2, 3, 4. (Al op standaard: PS 5, 6, midterm 1
+en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
+
+**Nog te doen, in deze volgorde:**
+1. Governance sessie 1 tot 4 (governance-college-1 t/m 4).
+2. Society sessie 1 tot 5 (society-college-1 t/m 5); sessie 1 mist ook een tijdnood-blok.
+3. FAW sessie 1, 2, 3 en de summary-gids; sessie 2 mist een tijdnood-blok.
+4. Intro: intro-college-1 en -3, en h1, h2, h3, h5, h10 in `ssms-inhoud.js`
+   (tijdnood-blokken ontbreken; em dashes in h1, h2, h3; h10 mist een recap).
+5. DRM: college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 in
+   `ssms-inhoud.js` (tijdnood-blokken en recaps ontbreken; em dashes in ch4).
+   Let op: ch3 t/m ch13 en Intro h10 zijn nog Nederlands (vertalen staat
+   apart op de lijst); de In plain words-kaders wel in het Engels.
+6. Studiegids-pagina's alleen em dashes weghalen (geen kopjes).
+
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
 **Nog te doen, in deze volgorde:**

@@ -8,6 +8,8 @@
    ("From the readings"). Let op het verschil in de definitie van
    pseudo-conflict tussen de slide en de meeste bronnen.
    Recap in recap-professional-skills.js.
+   v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['professional-skills/college-4'] = [
@@ -58,6 +60,10 @@ LESSTOF['professional-skills/college-4'] = [
         "tekst": "**The opening joke.** \"Almost every group project you have ever done\": the familiar picture of one person carrying the work while the others watch. The lecturer then asks two questions to the room: **what is the most annoying thing for you in teamwork?** and **what are the benefits of teamwork?** Both are worth answering for yourself before your next group assignment.\n\n**Three elements of successful teamwork** (the slide):\n\n1. **Clearly defined goals**: everyone knows what the team is trying to achieve and by when.\n2. **Clearly defined roles**: everyone knows who does what, and who decides.\n3. **Open communication**: people share information, problems and disagreements early.\n\n**Tips for effective teamwork** (two slides, from a Business News Daily article on workplace collaboration):\n\n1. **Make sure the goal is common for everyone.**\n2. **Decide on roles, and on solutions if someone faces difficulties**: agree in advance what happens if a member falls behind or gets ill.\n3. **Define clear communication channels**: one group chat, one shared folder, fixed meeting moments.\n4. **Break down barriers**: make it easy to ask questions and admit problems.\n5. **Create a productive work environment.**\n6. **Give everyone a chance to speak**, not only the loudest members.\n7. **Track your team's work and progress**: a simple task list with names and deadlines.\n8. **Foster creativity and innovation**: welcome new ideas before judging them.\n9. **Recognise people's accomplishments.**\n10. **Celebrate your achievements.**\n\nThe first three tips are the three elements again; the rest are about keeping the team motivated and involved."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nTeamwork works when everyone knows the goal, knows who does what, and talks openly. Agree on these things at the start, and also on what happens if someone falls behind."
+      },
+      {
         "type": "uitleg",
         "tekst": "**Applying it to your SSMS group work (own addition)**\n\nAt the first meeting of a group assignment, agree on four things in writing: the **goal** (the assignment's criteria, in your own words), the **roles** (who researches what, who edits, who presents which part, who submits), the **channel** (one app, one folder) and the **plan B** (what happens if someone does not deliver by an agreed date). Late submission fails the whole group in this course, so the plan B is not optional. This is tip 2 and the session's three elements in practice."
       },
@@ -68,6 +74,10 @@ LESSTOF['professional-skills/college-4'] = [
         "tekst": "**[[Interpersonal conflict]]** is any conflict involving two or more people. It is a natural outcome of human interaction; it can be mild or severe, and handled well it can even improve a relationship or a result.\n\nThe slides give **four types**, from an Indeed article:\n\n**1. [[Pseudo-conflicts|Pseudo-conflict]].** In the slide's wording: when two parties want different things and cannot come to an agreement. (See the warning in Before you start: most sources describe it as a conflict that only **seems** to exist, from a misunderstanding.)\n\n**2. [[Policy-related conflicts|Policy-related conflict]].** A disagreement about a **decision or a course of action** that involves both parties. The slide's example: a leader assigns a project to a team, and the members disagree on the best way to complete it. Personality, upbringing and education all shape how people approach problems, so this type is common.\n\n**3. [[Value-related conflicts|Value-related conflict]].** People have **different underlying value systems**. Each tends to see the other as stubborn or disagreeable, while they simply have different values. These are the hardest to resolve, because values do not change through argument: the aim is usually to find a way to work together despite them. A value conflict can also be between a person and the **organisation** (when an employee's values do not match the company's).\n\n**4. [[Ego-related conflicts|Ego-related conflict]].** Here, **losing the argument could damage someone's pride**. They often arise when many small conflicts stay **unresolved**, or when someone is already sensitive, for instance about a manager favouring another employee. In an ego conflict everything is taken personally, the focus shifts from **solving** to **winning**, and comments are heard as insults. Ego conflict often develops on top of another type and makes it harder to resolve."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nConflicts come in different kinds: misunderstandings, disagreements about what to do, clashes of values, and hurt pride. Knowing which kind it is helps you choose how to deal with it."
+      },
+      {
         "type": "uitleg",
         "tekst": "**From the readings**\n\nThe readings list **two more types** that the slides leave out:\n\n**[[Fact conflicts|Fact conflict]]** (simple conflicts): a disagreement about something that can be **checked**: a date, a figure, what the assignment says. These are the easiest to solve: look it up.\n\n**[[Meta conflicts|Meta conflict]]**: a **conflict about how you are having the conflict**: \"you always interrupt me\", \"you never answer my messages\". They usually need to be addressed first, before the original issue can be discussed.\n\n**How to tell the types apart**, with one test question each:\n**Fact**: can we look it up? **Pseudo**: do we actually disagree, or have we misunderstood each other? **Policy**: do we disagree on **what to do**? **Value**: do we disagree on **what matters**? **Ego**: is someone's **face** at stake? **Meta**: are we fighting about **how we fight**?"
       },
@@ -76,6 +86,10 @@ LESSTOF['professional-skills/college-4'] = [
         "titel": "3. Conflict management styles",
         "toetsstof": true,
         "tekst": "**Five common reasons for conflicts** (slide, from an Indeed reading on conflict resolution):\n\n1. **Different personalities or perspectives.**\n2. **Unresolved problems from the past.**\n3. **A feeling of competition** with one another.\n4. **Poor communication skills.**\n5. **Uncertainty about roles or responsibilities.**\n\nNote how the last two connect to section 1: clear roles and open communication **prevent** conflict.\n\n**Five conflict management styles** (slide): **[[competing|Competing]], [[collaborating|Collaborating]], [[compromising|Compromising]], [[avoiding|Avoiding]] and [[accommodating|Accommodating]]**. The slide places them in the familiar diagram of the **[[Thomas-Kilmann model]]** (Thomas and Kilmann, 1974), which arranges the styles on two dimensions:\n\n**[[Assertiveness]]**: how much you try to satisfy **your own** concerns.\n**[[Cooperativeness]]**: how much you try to satisfy **the other person's** concerns."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou can handle a conflict by pushing to win, working together, meeting halfway, avoiding it, or giving in. No style is always right: choose the one that fits the situation."
       },
       {
         "type": "tabel",
@@ -140,6 +154,10 @@ LESSTOF['professional-skills/college-4'] = [
         "titel": "4. Problem-solving steps",
         "toetsstof": true,
         "tekst": "The last part of the session moves from conflict to solving the problem underneath it. The slide's definition, from the ASQ (the American Society for Quality): **[[problem solving|Problem solving]] is the act of**\n\n1. **defining a problem**;\n2. **determining the cause** of the problem;\n3. **identifying, prioritising and selecting alternatives** for a solution;\n4. **and implementing a solution**.\n\n**Step 1, define.** Say exactly what is wrong, with facts, not opinions or blame: \"two sections of our report are missing three days before the deadline\", not \"Sam is lazy\".\n\n**Step 2, find the cause.** Ask why, more than once: was the task unclear, too big, badly planned, or did someone have personal problems? The cause decides the solution.\n\n**Step 3, alternatives.** Brainstorm several options first without judging them, then prioritise and choose: redistribute the work, cut the scope, ask the lecturer for advice.\n\n**Step 4, implement.** Agree who does what by when, and check afterwards whether it worked; if not, go back to step 1 or 2.\n\nThe second reading on the slide (an agricultural extension page from Iowa State University) presents the same idea as a step-by-step action plan.\n\n**The closing slide:** \"The problem is not the problem. The problem is your attitude about the problem.\" \"In case of questions, see the quote on the slide.\""
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nTo solve a problem: say exactly what the problem is, find out what causes it, think of a few solutions and pick the best, then do it and check whether it worked."
       },
       {
         "type": "checklist",
