@@ -671,7 +671,15 @@
   });
 
   document.getElementById('tabVorige').addEventListener('click', function(){ naarTab(actief - 1); });
+  /* "Volgende" onderaan een tabblad vinkt dat tabblad ook af (v126).
+     Alleen aanzetten, nooit uitzetten: wie een tabblad weer open wil,
+     gebruikt de afvinkknop. */
+  function vinkHuidigAf(){
+    var k = tabSleutel(actief);
+    if (!lokaalWaar(k)) { lokaalZet(k, true); toonVoortgang(); }
+  }
   document.getElementById('tabVolgende').addEventListener('click', function(){
+    vinkHuidigAf();
     if (actief < onderdelen.length - 1) return naarTab(actief + 1);
     window.location.href = volgende ? lesUrl(vak, volgende) : 'vak.html?vak=' + encodeURIComponent(vak.id);
   });
