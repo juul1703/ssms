@@ -538,13 +538,13 @@ lessen in `ssms-inhoud.js` via slice-vervanging zoals bij Intro sessie 4),
 daarna integriteitscheck: elk oud blok moet ongewijzigd terug te vinden zijn
 (op hover-markering en em dashes na), en een browsertest.
 
-**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. (Al op standaard: PS 5, 6, midterm 1
+**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. **Klaar (v125):** FAW sessie 1, 2, 3 en de summary-gids. (Al op standaard: PS 5, 6, midterm 1
 en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
 
 **Nog te doen, in deze volgorde:**
 1. ~~Governance sessie 1 tot 4~~ klaar (v123).
 2. ~~Society sessie 1 tot 5~~ klaar (v124).
-3. FAW sessie 1, 2, 3 en de summary-gids; sessie 2 mist een tijdnood-blok.
+3. ~~FAW sessie 1, 2, 3 en de summary-gids~~ klaar (v125).
 4. Intro: intro-college-1 en -3, en h1, h2, h3, h5, h10 in `ssms-inhoud.js`
    (tijdnood-blokken ontbreken; em dashes in h1, h2, h3; h10 mist een recap).
 5. DRM: college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 in

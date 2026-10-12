@@ -5,6 +5,8 @@
 
    Nieuw in v113, uit de slides. De 16 regels staan ook in de
    naslaggids faw-summary.js (stap 10), op Julie's verzoek dubbel.
+   v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['fundamentals-of-academic-writing/college-3'] = [
@@ -50,10 +52,18 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
         "tekst": "As a university student you are expected to use an **[[academic writing style|Academic writing style]]**. It differs from other styles, such as **literary** or **journalistic** writing. Each style corresponds to a specific **goal** and **target group**: academics have to write **accurately and objectively**.\n\n**Four types of academic writing** (slide):\n**Descriptive**: presents facts and details, explains what something is, summarises observations or processes.\n**Analytical**: breaks ideas into parts, compares patterns or relationships, explains how and why.\n**Persuasive**: argues for a position, supports claims with evidence, addresses other viewpoints.\n**Critical**: evaluates strengths and limits, questions assumptions, judges evidence and interpretations.\n\nA summary is mainly **descriptive**: the lecturer's definition: **an [[academic summary|Academic summary]] condenses an original text into a short, objective overview of its core argument, methods and findings, typically using about one-third or less of the original length.**"
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nAcademic writing is precise and objective. There are four kinds: describing, analysing, arguing and evaluating. A summary mainly describes."
+      },
+      {
         "type": "tekst",
         "titel": "2. Feedback on writing task 1",
         "toetsstof": true,
         "tekst": "Find it on Brightspace under **course progress**. \"Please do not be insulted by the comments: we are pointing out what needs to be improved so you succeed and pass the exam!\"\n\n**What the colours mean:**\n**Style**: too informal; journalistic, not academic.\n**Blue (accuracy)**: incomplete sentences, spelling, tense, [[comma splices|Comma splice]].\n**Green (paraphrasing)**: too similar to the original wording, or not paraphrased well: the meaning changed or the vocabulary is inappropriate.\n**Red (paragraphs)**: paragraph too short (it **should have between 4 and 12 sentences**), missing topic sentence, incorrect information.\n\n**How to use it:**\n1. Look at **both** the points per criterion on the rubric **and** the highlighted errors and comments in the document.\n2. If you received a **1** on any criterion, you do not pass: an **automatic 5/10**.\n3. Compare your text with the **model summary on Brightspace**: structure and topic sentences.\n4. Write the **word count** at the bottom of the text.\n5. Write the **list of main points** at the top of the summary.\n\nUsing AI for the practice assignment is \"futile\": the point is to make mistakes and learn from them.\n\n**The lecturer's four key points of the Guardian article:**\n1. Artificial superintelligence is an existential threat to humanity.\n2. AI companies are developing increasingly powerful systems faster than they can make them safe.\n3. International regulation and greater control of advanced AI are needed.\n4. Predictions of human extinction are exaggerated; attention should focus on immediate, more realistic AI risks.\n\nThese match the four-paragraph plan in the summary guide (threat, cause and cure, disagreement), with the last point as the opposing side."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nRead both your rubric scores and the comments in your text. Each colour stands for a type of mistake. Compare your text with the model summary to learn from it."
       },
       {
         "type": "tekst",
@@ -62,10 +72,18 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
         "tekst": "The lecturer showed a student-style paragraph full of errors. Find as many as you can before reading the analysis.\n\n*\"Most people are quite familiar with AI nowadays, which are a big factor to why it probably won't just disappear despite all the negative feedback. It is a useful and handy tool that can be used very easy, so it have become pretty normal for many people. However, there is also people who is scared of AI and what it might become. They are scared that ASI will overpower humanity and that our species will lose their freedom to it without being able to get the control back, or even worse, cause the extinction of our species. AI is already taking over many of our jobs, which aren't exactly ideal for the climate, and it very often spread misinformation, which isn't really helping people with their uncertainties about the near future. At last, we have those who cheers on the domination of ASI. They has no problem with AI taking over and says that technology is the perfect replacement for humanity. They don't fear extinction at all and thinks that humanity could just be replaced by technology.\"*\n\n**Accuracy (blue):** subject-verb agreement (*which are* → is; *it have* → has; *there is people who is* → there are people who are; *it spread* → spreads; *those who cheers*, *they has*, *says*, *thinks*); *very easy* → easily; *At last* (means \"finally, after a long wait\") → *Finally*.\n**Style:** vague and informal words (*quite, pretty, handy, big factor, really, exactly, just*); contractions (*won't, aren't, isn't, don't*); personal language (*our species, our jobs*); \"people\"; [[phrasal verbs|Phrasal verb]] (*get back, taking over*); idiom (*cheers on*); exaggeration (*perfect, at all*); an emotional aside (*or even worse*).\n**Content:** \"taking over our jobs, which aren't ideal for the climate\" mixes two separate points (jobs and environmental impact) into one illogical clause."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThis example text has grammar mistakes, informal words, short forms and personal language. Finding them trains you to spot the same mistakes in your own work."
+      },
+      {
         "type": "tekst",
         "titel": "4. The 16 rules for a formal academic style",
         "toetsstof": true,
         "tekst": "The core of the session. Each rule below has the lecturer's own \"avoid\" and \"correct\" examples. The To remember tab has all 16 in one table."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe 16 rules come down to this: write formally and precisely, without 'I' or 'we', without exaggeration or opinion, and without casual words or short forms."
       },
       {
         "type": "uitleg",
@@ -140,6 +158,10 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
         "titel": "5. Style errors in practice",
         "toetsstof": true,
         "tekst": "The lecturer's examples, from a student text on floods in Pakistan:\n\n**\"Because of these changes, it led to the hot months and monsoon seasons in Pakistan being extreme events.\"** Do not start with *Because* (or So, Also, And, But); \"it led to\" has no clear subject.\n**\"Since the formation of the new government under Sharif, most of the attention has been directed at anything but the preparation for the monsoon season. Even though Khan, the former president, is not in office anymore, he continues to be popular.\"** Empty words: *most, anything*; vague phrasing.\n**\"However, the government acts like it has better things to do than care for its citizens and rather focuses on other things. But what exactly is the problem of why such a natural disaster cannot be managed?\"** Never use *like* for \"such as\" or \"as if\"; empty words (*things*); opinion; a sentence starting with *But*; a rhetorical question.\n**\"This year Pakistan faced a tremendous monsoon season causing floods that hit almost every part of the country in several ways.\"** Exaggerated adjective (*tremendous*); slangy *hit*; empty word (*ways*).\n**\"Political unrest is another big issue in Pakistan which affected the disaster management in a certain way.\"** Imprecise adjectives (*big*: \"a big problem\" is just \"a problem\"); imprecise *way*.\n\n**Resource from the slides:** the Ref-N-Write academic phrasebank (https://www.ref-n-write.com/academic-phrasebank/)."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe lecturer's examples show typical mistakes: starting with 'Because', using 'like' instead of 'such as', vague words like 'things', and exaggerations like 'tremendous'."
       },
       {
         "type": "checklist",
