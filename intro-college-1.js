@@ -3,6 +3,8 @@
    SSMS & what it's all about (college van Corr en Gomez Llata)
    Engelse versie; verving in v98 de Nederlandse slides-les
    'intro-to-safety-security/slides-1' uit ssms-inhoud.js.
+   v127: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['intro-to-safety-security/college-1'] = [
@@ -71,16 +73,28 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "tekst": "**Lecturers.** Jonathan Michael Corr (J.M.Corr@hhs.nl), lecturer and academic advisor, with expertise in safety and security, consultancy, leadership, intelligence collection and analysis, and serious gaming. Enrique Gomez Llata Cazares (E.G.GomezLlataCazares@hhs.nl), lecturer, with expertise in globalisation processes, development studies, culture and politics. Both are available Monday to Friday, or Tuesday to Friday depending on the lecturer.\n\n**Course code:** SSMS-1T1-24, 6 ECTS.\n\n**Reading:** Bieder, C. & Pettersen Gould, K. (eds.) (2020). *The coupling of safety and security: Exploring interrelations in theory and practice.* Cham: Springer Nature. The book is **open access**, so you can download it legally and for free through Springer.\n\n**Assessment:** a midterm on Tuesday 10 November 2026, and an oral end-term exam on 3 or 4 February 2027 in the form of an individual presentation. Both count for 50 per cent."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThis section tells you who your lecturers are, how the course works and how it is tested."
+      },
+      {
         "type": "tekst",
         "titel": "2. The four learning objectives",
         "toetsstof": true,
-        "tekst": "The lecturers put these on the table in the opening lecture, and that is not an accident. They decide exactly what you are judged on in November and February.\n\n**1.** You can **conceptualise** the various domains of safety and security addressed in the SSMS programme.\n\n**2.** You can explain the relevance and importance of various **stakeholder approaches** to safety and security management in different international environments.\n\n**3.** You can summarise the structure and main ideas of the SSMS programme and its **multidisciplinary character**.\n\n**4.** You can explain how selected elements related to **risk management and resilience** can be applied in the context of international safety and security.\n\nNotice that objective 3 is about **the degree programme itself**. That is unusual, and it means this lecture is exam material in its own right: the structure of SSMS described below is something you have to be able to explain."
+        "tekst": "The lecturers put these on the table in the opening lecture, and that is not an accident. They decide exactly what you are judged on in November and February.\n\n**1.** You can **conceptualise** the various domains of safety and security addressed in the SSMS programme.\n\n**2.** You can explain the relevance and importance of various **stakeholder approaches** to safety and security management in different international environments.\n\n**3.** You can summarise the structure and main ideas of the SSMS programme and its **multidisciplinary character**.\n\n**4.** You can explain how selected elements related to **[[risk|Risk]] management and resilience** can be applied in the context of international safety and security.\n\nNotice that objective 3 is about **the degree programme itself**. That is unusual, and it means this lecture is exam material in its own right: the structure of SSMS described below is something you have to be able to explain."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThese four goals say exactly what you must be able to do by the end of the course, so they also tell you what the exams will test."
       },
       {
         "type": "tekst",
         "titel": "3. The three worlds of SSMS",
         "toetsstof": true,
-        "tekst": "The programme positions itself where three worlds meet that in practice are usually kept strictly apart.\n\n**Public safety.** The world of police, fire service, ambulance, municipalities and welfare organisations. The public domain, where government is responsible for the safety of citizens.\n\n**Industrial safety, or corporate security.** The world of companies: the safety of production processes, employees, assets and business continuity. This is also where **SHEQ** sits: safety, health, environment and quality.\n\n**International security.** The world of security services, intelligence services, the military, international organisations and NGOs, consultancy firms and think tanks.\n\nThe message of the lecture is that an SSMS professional stands **in the middle** and can move between these worlds. Someone who understands only policing, or only corporate safety, misses the connections that in practice are exactly where the problem sits."
+        "tekst": "The programme positions itself where three worlds meet that in practice are usually kept strictly apart.\n\n**Public safety.** The world of police, fire service, ambulance, municipalities and welfare organisations. The public domain, where government is responsible for the safety of citizens.\n\n**Industrial safety, or corporate security.** The world of companies: the safety of production processes, employees, assets and business continuity. This is also where **[[SHEQ]]** sits: safety, health, environment and quality.\n\n**International security.** The world of security services, intelligence services, the military, international organisations and NGOs, consultancy firms and think tanks.\n\nThe message of the lecture is that an SSMS professional stands **in the middle** and can move between these worlds. Someone who understands only policing, or only corporate safety, misses the connections that in practice are exactly where the problem sits."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nSSMS sits where three worlds meet that normally work separately: public safety (police, fire service), company safety and security, and the wider world of policy and society."
       },
       {
         "type": "uitleg",
@@ -90,7 +104,11 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "type": "tekst",
         "titel": "4. The core distinction: human intentionality",
         "toetsstof": true,
-        "tekst": "This is the most important idea in the lecture, and probably in the first half of the course.\n\nThe distinction between safety and security lies in **human intentionality**:\n\n**Safety management** counters natural disasters, accidents, human error and similar events. The defining feature: **there is no malicious party**. Nobody wants it to go wrong.\n\n**Security management** counters intentional adversaries, deliberate activities and crime. The defining feature: **there is an actor doing it on purpose**, and that actor adapts to your measures.\n\nThat last point is the sharpest consequence. A flood does not adapt to your dyke. A burglar does adapt to your lock. That difference decides which measures make sense and how often you have to change them."
+        "tekst": "This is the most important idea in the lecture, and probably in the first half of the course.\n\nThe distinction between safety and security lies in **[[human intentionality|Human intentionality]]**:\n\n**Safety management** counters natural disasters, accidents, human error and similar events. The defining feature: **there is no malicious party**. Nobody wants it to go wrong.\n\n**Security management** counters intentional adversaries, deliberate activities and crime. The defining feature: **there is an actor doing it on purpose**, and that actor adapts to your measures.\n\nThat last point is the sharpest consequence. A flood does not adapt to your dyke. A burglar does adapt to your lock. That difference decides which measures make sense and how often you have to change them."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe key difference: safety is about protecting against accidents that nobody wants, security is about protecting against people who cause harm on purpose."
       },
       {
         "type": "vergelijking",
@@ -121,7 +139,11 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "type": "tekst",
         "titel": "5. Four kinds of safety and security, one common denominator",
         "toetsstof": true,
-        "tekst": "The lecturers give four definitions you should know by heart, because they are precisely worded.\n\n**Physical safety.** The extent to which people are protected, **and feel protected**, against personal harm caused by accidents and against calamities of non-human origin.\n\n**Industrial safety.** The prevention or reduction of threats to a business, its employees or its environment, due to natural risks (flooding, for example) and risks connected with production processes or logistics (infrastructure, for example).\n\n**Security** (corporate, international, regional, physical, cyber, and so on). The prevention or reduction of the **malicious infliction of damage** on citizens, employees, and public and private assets.\n\n**Public security.** The extent to which people are protected, **and feel protected**, against personal harm due to crime, offences and harassment by other people.\n\nThe question the lecturers ask immediately afterwards: what do these four have in common? The answer on the next slide: **risk**."
+        "tekst": "The lecturers give four definitions you should know by heart, because they are precisely worded.\n\n**Physical safety.** The extent to which people are protected, **and feel protected**, against personal harm caused by accidents and against calamities of non-human origin.\n\n**Industrial safety.** The prevention or reduction of threats to a business, its employees or its environment, due to natural [[risks|Risk]] (flooding, for example) and risks connected with production processes or logistics (infrastructure, for example).\n\n**Security** (corporate, international, regional, physical, cyber, and so on). The prevention or reduction of the **malicious infliction of damage** on citizens, employees, and public and private assets.\n\n**Public security.** The extent to which people are protected, **and feel protected**, against personal harm due to crime, offences and harassment by other people.\n\nThe question the lecturers ask immediately afterwards: what do these four have in common? The answer on the next slide: **risk**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThere are four kinds: physical safety, social safety, physical security and social security. What they share is protecting people and things that matter."
       },
       {
         "type": "slimmer",
@@ -131,7 +153,11 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "type": "tekst",
         "titel": "6. Risk, and how it changed character",
         "toetsstof": true,
-        "tekst": "The definition to know:\n\n**Risk is uncertainty about a potentially negative outcome (of a decision).** Expressed as **probability times impact**.\n\nTwo things in that definition matter. First, it contains **uncertainty**: with complete certainty you no longer speak of risk. Second, \"of a decision\" sits in brackets, which suggests that risks often follow from choices somebody makes, rather than from pure chance.\n\nThe lecturers then draw a distinction you should be able to explain, between \"old\" and \"modern\" risks."
+        "tekst": "The definition to know:\n\n**[[Risk]] is uncertainty about a potentially negative outcome (of a decision).** Expressed as **probability times impact**.\n\nTwo things in that definition matter. First, it contains **uncertainty**: with complete certainty you no longer speak of risk. Second, \"of a decision\" sits in brackets, which suggests that risks often follow from choices somebody makes, rather than from pure chance.\n\nThe lecturers then draw a distinction you should be able to explain, between \"old\" and \"modern\" risks."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nRisk is uncertainty about a possible bad outcome, often written as chance times impact. Risks have become more complex, global and connected than in the past."
       },
       {
         "type": "tabel",
@@ -166,13 +192,21 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "type": "tekst",
         "titel": "7. What the professional actually does: four core tasks",
         "toetsstof": true,
-        "tekst": "This is the professional cycle the whole degree is built on. Four tasks, in this order.\n\n**1. Identify, analyse and assess risk situations.** In other words: risk analyses. This is where you start, and it is what Demystifying Research Methods gives you the tools for.\n\n**2. Design and recommend feasible safety and security interventions.** Plans, policies, regulations, strategies. Note the word **feasible**: a technically perfect solution that nobody can pay for or carry out is not a recommendation.\n\n**3. Implement and coordinate interventions.** Executing tactics and methods and deploying instruments, based on information.\n\n**4. Evaluate interventions and solutions.** The core question: did it work? This is the step most often skipped in practice.\n\nThe cycle closes: the evaluation in step 4 produces the information for a new analysis in step 1."
+        "tekst": "This is the professional cycle the whole degree is built on. Four tasks, in this order.\n\n**1. Identify, analyse and assess [[risk|Risk]] situations.** In other words: risk analyses. This is where you start, and it is what Demystifying Research Methods gives you the tools for.\n\n**2. Design and recommend feasible safety and security interventions.** Plans, policies, regulations, strategies. Note the word **feasible**: a technically perfect solution that nobody can pay for or carry out is not a recommendation.\n\n**3. Implement and coordinate interventions.** Executing tactics and methods and deploying instruments, based on information.\n\n**4. Evaluate interventions and solutions.** The core question: did it work? This is the step most often skipped in practice.\n\nThe cycle closes: the evaluation in step 4 produces the information for a new analysis in step 1."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA safety and security professional analyses risks, advises on measures, helps carry them out, and checks whether they work."
       },
       {
         "type": "tekst",
         "titel": "8. What you deal with: insecurities, and connecting the dots",
         "toetsstof": true,
-        "tekst": "The lecturers put a deliberately short, open slide here. The professional deals with uncertainties around:\n\n- **people**: behaviour, errors, motives, training\n- **systems**: how organisations and processes are arranged\n- **technology**: what it makes possible and which new vulnerabilities it creates\n- **beliefs**: what people believe about risk and safety\n- **culture**: how an organisation or a country deals with safety\n- **and much more**\n\nThe message of that open list is that your field is not technical but **sociotechnical**: the technology is rarely the hardest part, the people around it are.\n\n**The climate example.** The lecture closes its content with a diagram from research by **Ljungqvist (2017)** into the human and societal dimensions of past climate change. It shows a chain.\n\n**Climate change** (temperature, precipitation, drought) affects **agricultural productivity**, which affects **food supply per capita** (availability and price). From there it runs along three tracks: to **social unrest** and then **armed conflict**; to **migration**, that is, climate refugees; and to **food shortages**, malnutrition and famine, which lead to **epidemics** and poor nutritional status. All of that feeds back into **population**: growth, size, mortality.\n\nWhy that diagram is in the opening lecture: it is the illustration of \"connecting the dots\". A climate phenomenon ends, through a chain of intermediate steps, in an armed conflict. Anyone who looks only at the beginning or only at the end of that chain does not understand what is happening.\n\nThis is also learning objective 4 in action: risk management and resilience applied in an international context."
+        "tekst": "The lecturers put a deliberately short, open slide here. The professional deals with uncertainties around:\n\n- **people**: behaviour, errors, motives, training\n- **systems**: how organisations and processes are arranged\n- **technology**: what it makes possible and which new vulnerabilities it creates\n- **beliefs**: what people believe about [[risk|Risk]] and safety\n- **culture**: how an organisation or a country deals with safety\n- **and much more**\n\nThe message of that open list is that your field is not technical but **[[sociotechnical|Sociotechnical]]**: the technology is rarely the hardest part, the people around it are.\n\n**The climate example.** The lecture closes its content with a diagram from research by **Ljungqvist (2017)** into the human and societal dimensions of past climate change. It shows a chain.\n\n**Climate change** (temperature, precipitation, drought) affects **agricultural productivity**, which affects **food supply per capita** (availability and price). From there it runs along three tracks: to **social unrest** and then **armed conflict**; to **migration**, that is, climate refugees; and to **food shortages**, malnutrition and famine, which lead to **epidemics** and poor nutritional status. All of that feeds back into **population**: growth, size, mortality.\n\nWhy that diagram is in the opening lecture: it is the illustration of \"[[connecting the dots|Connecting the dots]]\". A climate phenomenon ends, through a chain of intermediate steps, in an armed conflict. Anyone who looks only at the beginning or only at the end of that chain does not understand what is happening.\n\nThis is also learning objective 4 in action: risk management and resilience applied in an international context."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe work is about uncertainties around people, systems and organisations. The skill is to connect small pieces of information into a bigger picture."
       },
       {
         "type": "begrippen",

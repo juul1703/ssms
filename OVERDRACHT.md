@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v121**.
+Stand: 29 september 2026, service worker **v126**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -533,25 +533,33 @@ te breken. De standaard:
   markeer.js; slaat begrippen over die in dat kopje al gemarkeerd zijn);
 - **geen em dashes** in de tekst;
 - een **To remember** (recap) waar die ontbreekt.
+**Let op (12 okt):** de werkmap van Claude is tussendoor gewist; de scripts zijn opnieuw gemaakt en de live repo op GitHub is de basis. Haal bij een nieuwe sessie altijd eerst de repo op via codeload.github.com/juul1703/ssms/zip/refs/heads/main.
 Werkwijze: upgrade-script (alleen bestanden met één LESSTOF-toewijzing;
 lessen in `ssms-inhoud.js` via slice-vervanging zoals bij Intro sessie 4),
 daarna integriteitscheck: elk oud blok moet ongewijzigd terug te vinden zijn
 (op hover-markering en em dashes na), en een browsertest.
 
-**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. **Klaar (v125):** FAW sessie 1, 2, 3 en de summary-gids. (Al op standaard: PS 5, 6, midterm 1
+**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. **Klaar (v125):** FAW sessie 1, 2, 3 en de summary-gids. **Klaar (v127):** Intro intro-college-1 en -3. (Al op standaard: PS 5, 6, midterm 1
 en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
 
 **Nog te doen, in deze volgorde:**
 1. ~~Governance sessie 1 tot 4~~ klaar (v123).
 2. ~~Society sessie 1 tot 5~~ klaar (v124).
 3. ~~FAW sessie 1, 2, 3 en de summary-gids~~ klaar (v125).
-4. Intro: intro-college-1 en -3, en h1, h2, h3, h5, h10 in `ssms-inhoud.js`
+4. Intro: ~~intro-college-1 en -3~~ klaar (v127); nog h1, h2, h3, h5, h10 in `ssms-inhoud.js`
    (tijdnood-blokken ontbreken; em dashes in h1, h2, h3; h10 mist een recap).
 5. DRM: college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 in
    `ssms-inhoud.js` (tijdnood-blokken en recaps ontbreken; em dashes in ch4).
    Let op: ch3 t/m ch13 en Intro h10 zijn nog Nederlands (vertalen staat
    apart op de lijst); de In plain words-kaders wel in het Engels.
 6. Studiegids-pagina's alleen em dashes weghalen (geen kopjes).
+
+## 9e. Volgende-knop vinkt af (v126)
+
+Op verzoek van Julie: de knop **Volgende** onderaan een tabblad vinkt dat
+tabblad nu ook af (alleen aanzetten, nooit uitzetten). Eén wijziging in
+`les.js` (functie `vinkHuidigAf`), geldt voor alle lessen. De knop
+"Onderdeel afvinken" werkt zoals voorheen (aan/uit).
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
