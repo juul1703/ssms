@@ -3751,102 +3751,302 @@ LESSTOF['studiegids/regels'] = [
 
 LESSTOF['demystifying-research-methods/ch3'] = [
   {
-    id: 'voor', titel: 'Voorbereiding',
-    blokken: [
-      { type: 'leerdoelen', items: [
-        'De aanleiding (reden) van een onderzoek herkennen en opschrijven',
-        'De 6W-methode toepassen om die aanleiding uit te werken',
-        'Het verschil uitleggen tussen vooronderzoek en hoofdonderzoek',
-        'Weten waar je informatie zoekt tijdens het vooronderzoek'
-      ]},
-      { type: 'uitleg', titel: 'Waar dit hoofdstuk over gaat',
-        tekst: 'Toegepast onderzoek doe je nooit zomaar. Er is altijd een **aanleiding**: een verschil tussen de situatie die je aantreft en de situatie die gewenst is. Dat hoeft niet negatief te zijn, maar er is wel altijd iets dat om een analyse of om maatregelen vraagt.\n\nDit hoofdstuk (Verhoeven, hoofdstuk 3) leert je hoe je die aanleiding **opschrijft** met behulp van de 6W-methode, en hoe je in de fase daarna, het **vooronderzoek**, op zoek gaat naar wat er al bekend is over je onderwerp.' }
+    "id": "voor",
+    "titel": "Voorbereiding",
+    "blokken": [
+      {
+        "type": "leerdoelen",
+        "items": [
+          "De aanleiding (reden) van een onderzoek herkennen en opschrijven",
+          "De 6W-methode toepassen om die aanleiding uit te werken",
+          "Het verschil uitleggen tussen vooronderzoek en hoofdonderzoek",
+          "Weten waar je informatie zoekt tijdens het vooronderzoek"
+        ]
+      },
+      {
+        "type": "slimmer",
+        "titel": "If you are short on time",
+        "tekst": "**1.** Section 3.2: describing the background with the 6W method (10 minutes). **2.** Section 3.3: preliminary research (10 minutes). **3.** Section 3.1: recognising the reason for research (5 minutes). **4.** The quiz and the flashcards (10 minutes)."
+      },
+      {
+        "type": "uitleg",
+        "titel": "Waar dit hoofdstuk over gaat",
+        "tekst": "Toegepast onderzoek doe je nooit zomaar. Er is altijd een **aanleiding**: een verschil tussen de situatie die je aantreft en de situatie die gewenst is. Dat hoeft niet negatief te zijn, maar er is wel altijd iets dat om een analyse of om maatregelen vraagt.\n\nDit hoofdstuk (Verhoeven, hoofdstuk 3) leert je hoe je die aanleiding **opschrijft** met behulp van de 6W-methode, en hoe je in de fase daarna, het **vooronderzoek**, op zoek gaat naar wat er al bekend is over je onderwerp."
+      }
     ]
   },
   {
-    id: 'kern', titel: 'Kernstof',
-    blokken: [
-      { type: 'tekst', titel: '3.1 De aanleiding herkennen', toetsstof: true,
-        tekst: 'De aanleiding is de achtergrond, oftewel de reden om onderzoek te starten naar een bepaalde situatie. Is er geen aanleiding, dan heeft onderzoeken geen zin.\n\nEen aanleiding kan leiden tot zowel een **kennisvraag** (fundamenteel onderzoek) als een **praktijkvraag** (toegepast onderzoek). Onderzoek kan zelfs allebei tegelijk zijn: het beantwoorden van een praktische vraag terwijl je tegelijk een bestaand model of een bestaande theorie toetst.' },
-      { type: 'voorbeeld', titel: 'Twee aanleidingen',
-        tekst: 'Zorg voor ouderen: een hoogleraar signaleert dat de huidige zorg voor ouderen met dementie aan een herziening toe is. Onderzoek kan worden gebruikt om nieuwe vormen van dementiezorg te introduceren.\n\nInterne communicatie: het management merkt dat medewerkers steeds minder e-mail gebruiken en overstappen op sociale media en clouddiensten. Is dat waar, en wat betekent het voor wie nog wél veel e-mail gebruikt?' },
-      { type: 'tekst', titel: 'Hoe je een aanleiding herkent', toetsstof: true,
-        tekst: 'Een aanleiding is niet altijd meteen duidelijk. Een goede **eerste briefing** helpt je op weg. Laat de opdrachtgever eerst zijn verhaal vertellen: wat is er gebeurd, met wie, wanneer, waarom? De aanleiding zit in de antwoorden op die vragen. Is hij niet duidelijk, vraag er dan gericht naar, maar pas nadat je de opdrachtgever hebt laten uitpraten.' },
-      { type: 'begrippen', titel: 'Kernbegrip', items: [
-        { begrip: 'Aanleiding van onderzoek', definitie: 'De reden(en) waarom je een onderzoeksproject start.' }
-      ]},
-      { type: 'tekst', titel: '3.2 De aanleiding uitschrijven met de 6W-methode', toetsstof: true,
-        tekst: 'Een handig hulpmiddel bij het schrijven van de aanleiding is de **6W-methode**. In hoofdstuk 4 kom je deze methode opnieuw tegen bij het opstellen van de centrale vraag. De methode bestaat uit zes vragen die je als onderzoeker over het project stelt. Migchelbrink (2002) introduceerde de formule als de 5xW+H-formule: vijf vragen beginnen met een W, en één met een H.' },
-      { type: 'stappen', titel: 'De 6W-methode', items: [
-        { titel: 'Wat is het probleem?', tekst: 'Hoe is het gedefinieerd? Is duidelijk wat het inhoudt? Ontbreekt er iets, en zo ja, wat?' },
-        { titel: 'Van wie is het probleem?', tekst: 'Of: wie is er verantwoordelijk? Je onderzoekt wie de spelers zijn, oftewel wie erbij betrokken is.' },
-        { titel: 'Wanneer is het probleem ontstaan?', tekst: 'Bepaal het tijdstip waarop het probleem voor het eerst optrad.' },
-        { titel: 'Waarom is het een probleem?', tekst: 'Probeer de werkelijke reden achter het probleem vast te stellen. Dat betekent bijbedoelingen en verborgen agenda\u2019s uitsluiten.' },
-        { titel: 'Waar doet het probleem zich voor?', tekst: 'Zijn sommige aspecten van het probleem belangrijker dan andere? Kun je specifieke probleemgebieden afbakenen?' },
-        { titel: 'Wat is de oorzaak van het probleem?', tekst: 'Wat is de reden? Waarom is het onderzoek nodig?' }
-      ]},
-      { type: 'voorbeeld', titel: 'De 6W-methode toegepast: patiënttevredenheid Mercy Hospital',
-        tekst: 'Een groot ziekenhuis laat onderzoek doen naar de tevredenheid van patiënten in de polikliniek, na een aantal klachten in het voorjaar van 2015.\n\n**1. Wat is het probleem?** In hoeverre zijn de patiënten van de polikliniek van Mercy Hospital tevreden over de zorg die ze daar krijgen, en welke suggesties voor verbetering hebben zij?\n**2. Van wie is het probleem?** De patiënten zijn het onderwerp van onderzoek. De aanbevelingen gaan naar het ziekenhuis: de zorgverleners. Zij zijn misschien niet het onderwerp, maar wel geïnteresseerd in de resultaten.\n**3. Wanneer ontstond het probleem?** In het voorjaar van 2015.\n**4. Waarom is het een probleem?** Klachten over de service tasten de kwaliteit van de zorg aan, waardoor patiënten elders hulp zoeken. Het ziekenhuis wil zijn klantenbestand niet verliezen.\n**5. Waar doet het probleem zich voor?** In de polikliniek.\n**6. Wat is de oorzaak?** De klachten over de service in de polikliniek.' },
-      { type: 'begrippen', titel: 'Kernbegrip', items: [
-        { begrip: '6W-methode', definitie: 'Methode om de aanleiding van je onderzoek te bepalen aan de hand van zes vragen: wat, van wie, wanneer, waarom, waar, wat is de oorzaak.' }
-      ]},
-      { type: 'tekst', titel: '3.3 Gegevens verzamelen tijdens het vooronderzoek', toetsstof: true,
-        tekst: 'Centrale vragen worden meestal breed geformuleerd: "onderzoek naar ziekteverzuim", "klanttevredenheidsonderzoek", "onderzoek naar interne communicatie van een bedrijf". De eerste stap is dat je jezelf inleest in het onderwerp en de vraaggebieden zo goed mogelijk afbakent. Je checkt ook of er al iets over is gepubliceerd, en of er modellen zijn die mogelijk oplossingen bieden (zie hoofdstuk 4 en 5). Kortom: je verzamelt informatie. Deze fase heet **vooronderzoek**.' },
-      { type: 'tekst', titel: 'Vooronderzoek is probleemanalyse', toetsstof: true,
-        tekst: 'Er bestaat veel verwarring over de term "vooronderzoek". Wanneer is er sprake van vooronderzoek, en is het nodig? Wanneer eindigt het en begint het hoofdonderzoek? Vooronderzoek vindt uiteraard plaats vóór het hoofdonderzoek. Hoe doe je vooronderzoek?\n\n- Je zoekt achtergrondinformatie over je onderwerp.\n- Je zoekt literatuur over eerder gepresenteerde onderzoeksresultaten.\n- Je verzamelt materiaal door met een paar mensen te praten.\n\nKortom, je verdiept je in het onderwerp en je bakent het af. Vooronderzoek heet daarom ook wel **probleemanalyse**. Soms blijkt tijdens de probleemanalyse dat het probleem (en de aanleiding ervoor) enigszins anders is dan aanvankelijk gedacht. Dat is geen ramp: het probleem kan tijdens de probleemanalyse alsnog helder worden gedefinieerd.' },
-      { type: 'voorbeeld', titel: 'Percepties van gezond voedsel',
-        tekst: 'In 2009 deed Wageningen Universiteit onderzoek naar de associaties die consumenten hebben tussen gezondheid en biologisch voedsel. Tijdens het vooronderzoek werd duidelijk dat mensen voor biologisch voedsel kiezen omdat ze het als een gezond alternatief beschouwen. Wat uit dit vooronderzoek niet duidelijk werd, is **waarom** mensen het precies gezond vinden en welke associaties zij daarbij hebben. Eten ze biologisch omdat ze het schoner vinden, of omdat ze denken dat het gezonde stoffen bevat zoals antioxidanten en vitamines? Dat werd de eigenlijke reden voor het onderzoek, waaraan ruim 500 consumenten van biologisch voedsel deelnamen.' },
-      { type: 'begrippen', titel: 'Kernbegrip', items: [
-        { begrip: 'Vooronderzoek', definitie: 'Onderzoeksfase waarin je informatie verzamelt over het onderzoeksonderwerp. Ook wel probleemanalyse genoemd.' }
-      ]},
-      { type: 'tekst', titel: 'Waar zoek je informatie?', toetsstof: true,
-        tekst: 'Informatie wordt gedurende het hele onderzoeksproject verzameld: als onderdeel van je vooronderzoek als je literatuuronderzoek doet, en steevast tijdens de tweede fase van je onderzoek.\n\nDe eerste plek om te zoeken is het **archief of documentatiecentrum van de opdrachtgever**. Daar vind je documenten die de reden voor het onderzoek verduidelijken, zoals notulen van vergaderingen, financiële overzichten, organogrammen en beleidsplannen.' }
+    "id": "kern",
+    "titel": "Kernstof",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "3.1 De aanleiding herkennen",
+        "toetsstof": true,
+        "tekst": "De aanleiding is de achtergrond, oftewel de reden om onderzoek te starten naar een bepaalde situatie. Is er geen aanleiding, dan heeft onderzoeken geen zin.\n\nEen aanleiding kan leiden tot zowel een **kennisvraag** (fundamenteel onderzoek) als een **praktijkvraag** (toegepast onderzoek). Onderzoek kan zelfs allebei tegelijk zijn: het beantwoorden van een praktische vraag terwijl je tegelijk een bestaand model of een bestaande theorie toetst."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe background (aanleiding) is the reason to start research about a situation. Without a clear reason, there is no research."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Twee aanleidingen",
+        "tekst": "Zorg voor ouderen: een hoogleraar signaleert dat de huidige zorg voor ouderen met dementie aan een herziening toe is. Onderzoek kan worden gebruikt om nieuwe vormen van dementiezorg te introduceren.\n\nInterne communicatie: het management merkt dat medewerkers steeds minder e-mail gebruiken en overstappen op sociale media en clouddiensten. Is dat waar, en wat betekent het voor wie nog wél veel e-mail gebruikt?"
+      },
+      {
+        "type": "tekst",
+        "titel": "Hoe je een aanleiding herkent",
+        "toetsstof": true,
+        "tekst": "Een aanleiding is niet altijd meteen duidelijk. Een goede **eerste briefing** helpt je op weg. Laat de opdrachtgever eerst zijn verhaal vertellen: wat is er gebeurd, met wie, wanneer, waarom? De aanleiding zit in de antwoorden op die vragen. Is hij niet duidelijk, vraag er dan gericht naar, maar pas nadat je de opdrachtgever hebt laten uitpraten."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe reason for research is not always clear at first. A good first meeting with the client helps: let them tell their story and ask questions."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrip",
+        "items": [
+          {
+            "begrip": "Aanleiding van onderzoek",
+            "definitie": "De reden(en) waarom je een onderzoeksproject start."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "3.2 De aanleiding uitschrijven met de 6W-methode",
+        "toetsstof": true,
+        "tekst": "Een handig hulpmiddel bij het schrijven van de aanleiding is de **[[6W-methode]]**. In hoofdstuk 4 kom je deze methode opnieuw tegen bij het opstellen van de centrale vraag. De methode bestaat uit zes vragen die je als onderzoeker over het project stelt. Migchelbrink (2002) introduceerde de formule als de 5xW+H-formule: vijf vragen beginnen met een W, en één met een H."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe 6W method (what, why, who, where, when, which/how) helps you write down the background of a problem in an organised way."
+      },
+      {
+        "type": "stappen",
+        "titel": "De 6W-methode",
+        "items": [
+          {
+            "titel": "Wat is het probleem?",
+            "tekst": "Hoe is het gedefinieerd? Is duidelijk wat het inhoudt? Ontbreekt er iets, en zo ja, wat?"
+          },
+          {
+            "titel": "Van wie is het probleem?",
+            "tekst": "Of: wie is er verantwoordelijk? Je onderzoekt wie de spelers zijn, oftewel wie erbij betrokken is."
+          },
+          {
+            "titel": "Wanneer is het probleem ontstaan?",
+            "tekst": "Bepaal het tijdstip waarop het probleem voor het eerst optrad."
+          },
+          {
+            "titel": "Waarom is het een probleem?",
+            "tekst": "Probeer de werkelijke reden achter het probleem vast te stellen. Dat betekent bijbedoelingen en verborgen agenda’s uitsluiten."
+          },
+          {
+            "titel": "Waar doet het probleem zich voor?",
+            "tekst": "Zijn sommige aspecten van het probleem belangrijker dan andere? Kun je specifieke probleemgebieden afbakenen?"
+          },
+          {
+            "titel": "Wat is de oorzaak van het probleem?",
+            "tekst": "Wat is de reden? Waarom is het onderzoek nodig?"
+          }
+        ]
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "De 6W-methode toegepast: patiënttevredenheid Mercy Hospital",
+        "tekst": "Een groot ziekenhuis laat onderzoek doen naar de tevredenheid van patiënten in de polikliniek, na een aantal klachten in het voorjaar van 2015.\n\n**1. Wat is het probleem?** In hoeverre zijn de patiënten van de polikliniek van Mercy Hospital tevreden over de zorg die ze daar krijgen, en welke suggesties voor verbetering hebben zij?\n**2. Van wie is het probleem?** De patiënten zijn het onderwerp van onderzoek. De aanbevelingen gaan naar het ziekenhuis: de zorgverleners. Zij zijn misschien niet het onderwerp, maar wel geïnteresseerd in de resultaten.\n**3. Wanneer ontstond het probleem?** In het voorjaar van 2015.\n**4. Waarom is het een probleem?** Klachten over de service tasten de kwaliteit van de zorg aan, waardoor patiënten elders hulp zoeken. Het ziekenhuis wil zijn klantenbestand niet verliezen.\n**5. Waar doet het probleem zich voor?** In de polikliniek.\n**6. Wat is de oorzaak?** De klachten over de service in de polikliniek."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrip",
+        "items": [
+          {
+            "begrip": "6W-methode",
+            "definitie": "Methode om de aanleiding van je onderzoek te bepalen aan de hand van zes vragen: wat, van wie, wanneer, waarom, waar, wat is de oorzaak."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "3.3 Gegevens verzamelen tijdens het vooronderzoek",
+        "toetsstof": true,
+        "tekst": "Centrale vragen worden meestal breed geformuleerd: \"onderzoek naar ziekteverzuim\", \"klanttevredenheidsonderzoek\", \"onderzoek naar interne communicatie van een bedrijf\". De eerste stap is dat je jezelf inleest in het onderwerp en de vraaggebieden zo goed mogelijk afbakent. Je checkt ook of er al iets over is gepubliceerd, en of er modellen zijn die mogelijk oplossingen bieden (zie hoofdstuk 4 en 5). Kortom: je verzamelt informatie. Deze fase heet **[[vooronderzoek|Vooronderzoek]]**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nResearch questions often start broad. Preliminary research helps you find out what exactly the problem is before you narrow your question down."
+      },
+      {
+        "type": "tekst",
+        "titel": "Vooronderzoek is probleemanalyse",
+        "toetsstof": true,
+        "tekst": "Er bestaat veel verwarring over de term \"[[vooronderzoek|Vooronderzoek]]\". Wanneer is er sprake van vooronderzoek, en is het nodig? Wanneer eindigt het en begint het hoofdonderzoek? Vooronderzoek vindt uiteraard plaats vóór het hoofdonderzoek. Hoe doe je vooronderzoek?\n\n- Je zoekt achtergrondinformatie over je onderwerp.\n- Je zoekt literatuur over eerder gepresenteerde onderzoeksresultaten.\n- Je verzamelt materiaal door met een paar mensen te praten.\n\nKortom, je verdiept je in het onderwerp en je bakent het af. Vooronderzoek heet daarom ook wel **probleemanalyse**. Soms blijkt tijdens de probleemanalyse dat het probleem (en de aanleiding ervoor) enigszins anders is dan aanvankelijk gedacht. Dat is geen ramp: het probleem kan tijdens de probleemanalyse alsnog helder worden gedefinieerd."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPreliminary research is really problem analysis: you explore the situation so that you understand the problem well enough to design your study."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Percepties van gezond voedsel",
+        "tekst": "In 2009 deed Wageningen Universiteit onderzoek naar de associaties die consumenten hebben tussen gezondheid en biologisch voedsel. Tijdens het [[vooronderzoek|Vooronderzoek]] werd duidelijk dat mensen voor biologisch voedsel kiezen omdat ze het als een gezond alternatief beschouwen. Wat uit dit vooronderzoek niet duidelijk werd, is **waarom** mensen het precies gezond vinden en welke associaties zij daarbij hebben. Eten ze biologisch omdat ze het schoner vinden, of omdat ze denken dat het gezonde stoffen bevat zoals antioxidanten en vitamines? Dat werd de eigenlijke reden voor het onderzoek, waaraan ruim 500 consumenten van biologisch voedsel deelnamen."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrip",
+        "items": [
+          {
+            "begrip": "Vooronderzoek",
+            "definitie": "Onderzoeksfase waarin je informatie verzamelt over het onderzoeksonderwerp. Ook wel probleemanalyse genoemd."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "Waar zoek je informatie?",
+        "toetsstof": true,
+        "tekst": "Informatie wordt gedurende het hele onderzoeksproject verzameld: als onderdeel van je [[vooronderzoek|Vooronderzoek]] als je literatuuronderzoek doet, en steevast tijdens de tweede fase van je onderzoek.\n\nDe eerste plek om te zoeken is het **archief of documentatiecentrum van de opdrachtgever**. Daar vind je documenten die de reden voor het onderzoek verduidelijken, zoals notulen van vergaderingen, financiële overzichten, organogrammen en beleidsplannen."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou collect information throughout the project: from people involved, documents, earlier research and the literature."
+      }
     ]
   },
   {
-    id: 'toepassen', titel: 'Toepassen',
-    blokken: [
-      { type: 'stappen', titel: 'Van signaal naar onderzoekbare aanleiding', items: [
-        { titel: 'Laat de opdrachtgever vertellen', tekst: 'Vraag niet meteen door. Laat eerst het hele verhaal komen: wat is er gebeurd, met wie, wanneer, waarom.' },
-        { titel: 'Loop de 6W-vragen langs', tekst: 'Wat, van wie, wanneer, waarom, waar, wat is de oorzaak. Schrijf bij elke vraag een kort antwoord op, ook als je het antwoord nog voorlopig vindt.' },
-        { titel: 'Bepaal of het kennis- of praktijkvraag is (of beide)', tekst: 'Wil de opdrachtgever vooral weten hoe iets werkt, of vooral wat hij eraan kan doen? Vaak is het allebei.' },
-        { titel: 'Start het vooronderzoek', tekst: 'Zoek in het archief van de opdrachtgever, zoek naar bestaande literatuur en modellen, en spreek een paar mensen. Doel: het probleem scherper krijgen, niet meteen de vragenlijst schrijven.' },
-        { titel: 'Herzie de aanleiding zo nodig', tekst: 'Blijkt tijdens het vooronderzoek dat het probleem anders ligt dan gedacht? Pas de aanleiding aan. Dat hoort bij een goede probleemanalyse.' }
-      ]},
-      { type: 'oefening', id: 'ch3-oef-1', niveau: 'basis',
-        vraag: 'Een gemeente merkt dat het aantal meldingen van overlast in het centrum sinds de zomer flink is gestegen. Beantwoord de 6W-vragen voor deze casus.',
-        antwoord: '1. Wat is het probleem? Een toename van meldingen van overlast in het centrum sinds de zomer. 2. Van wie is het probleem? Bewoners en ondernemers in het centrum als melders; de gemeente als verantwoordelijke voor de openbare orde. 3. Wanneer is het ontstaan? Sinds de zomer van dit jaar. 4. Waarom is het een probleem? Overlast tast de leefbaarheid en het ondernemersklimaat aan, en de gemeente wil escalatie voorkomen. 5. Waar doet het zich voor? In het centrum, mogelijk op specifieke pleinen of straten. 6. Wat is de oorzaak? Nog niet bekend; dat is precies waarom onderzoek nodig is.' },
-      { type: 'oefening', id: 'ch3-oef-2', niveau: 'gevorderd',
-        vraag: 'Leg uit waarom vooronderzoek ook wel probleemanalyse wordt genoemd, en waarom het geen probleem is als de aanleiding tijdens het vooronderzoek verandert.',
-        antwoord: 'Vooronderzoek bestaat uit het zoeken naar achtergrondinformatie, literatuur en gesprekken met betrokkenen. Al die activiteiten zijn erop gericht het probleem scherper te krijgen: je analyseert het probleem voordat je het hoofdonderzoek start. Daarom heet deze fase ook probleemanalyse. Het is geen probleem als de aanleiding tijdens die analyse verandert, omdat het hele doel van vooronderzoek is om je eerste, vaak grove beeld van de situatie te toetsen en aan te scherpen. Het voorbeeld van het onderzoek naar biologisch voedsel laat dat zien: pas tijdens het vooronderzoek werd duidelijk dat niet de vraag óf mensen het gezond vinden interessant was, maar waaróm. Een aanleiding bijstellen op basis van vooronderzoek is dus een teken dat de probleemanalyse goed werkt, niet dat er iets misging.' }
+    "id": "toepassen",
+    "titel": "Toepassen",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "Van signaal naar onderzoekbare aanleiding",
+        "items": [
+          {
+            "titel": "Laat de opdrachtgever vertellen",
+            "tekst": "Vraag niet meteen door. Laat eerst het hele verhaal komen: wat is er gebeurd, met wie, wanneer, waarom."
+          },
+          {
+            "titel": "Loop de 6W-vragen langs",
+            "tekst": "Wat, van wie, wanneer, waarom, waar, wat is de oorzaak. Schrijf bij elke vraag een kort antwoord op, ook als je het antwoord nog voorlopig vindt."
+          },
+          {
+            "titel": "Bepaal of het kennis- of praktijkvraag is (of beide)",
+            "tekst": "Wil de opdrachtgever vooral weten hoe iets werkt, of vooral wat hij eraan kan doen? Vaak is het allebei."
+          },
+          {
+            "titel": "Start het vooronderzoek",
+            "tekst": "Zoek in het archief van de opdrachtgever, zoek naar bestaande literatuur en modellen, en spreek een paar mensen. Doel: het probleem scherper krijgen, niet meteen de vragenlijst schrijven."
+          },
+          {
+            "titel": "Herzie de aanleiding zo nodig",
+            "tekst": "Blijkt tijdens het vooronderzoek dat het probleem anders ligt dan gedacht? Pas de aanleiding aan. Dat hoort bij een goede probleemanalyse."
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "ch3-oef-1",
+        "niveau": "basis",
+        "vraag": "Een gemeente merkt dat het aantal meldingen van overlast in het centrum sinds de zomer flink is gestegen. Beantwoord de 6W-vragen voor deze casus.",
+        "antwoord": "1. Wat is het probleem? Een toename van meldingen van overlast in het centrum sinds de zomer. 2. Van wie is het probleem? Bewoners en ondernemers in het centrum als melders; de gemeente als verantwoordelijke voor de openbare orde. 3. Wanneer is het ontstaan? Sinds de zomer van dit jaar. 4. Waarom is het een probleem? Overlast tast de leefbaarheid en het ondernemersklimaat aan, en de gemeente wil escalatie voorkomen. 5. Waar doet het zich voor? In het centrum, mogelijk op specifieke pleinen of straten. 6. Wat is de oorzaak? Nog niet bekend; dat is precies waarom onderzoek nodig is."
+      },
+      {
+        "type": "oefening",
+        "id": "ch3-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "Leg uit waarom vooronderzoek ook wel probleemanalyse wordt genoemd, en waarom het geen probleem is als de aanleiding tijdens het vooronderzoek verandert.",
+        "antwoord": "Vooronderzoek bestaat uit het zoeken naar achtergrondinformatie, literatuur en gesprekken met betrokkenen. Al die activiteiten zijn erop gericht het probleem scherper te krijgen: je analyseert het probleem voordat je het hoofdonderzoek start. Daarom heet deze fase ook probleemanalyse. Het is geen probleem als de aanleiding tijdens die analyse verandert, omdat het hele doel van vooronderzoek is om je eerste, vaak grove beeld van de situatie te toetsen en aan te scherpen. Het voorbeeld van het onderzoek naar biologisch voedsel laat dat zien: pas tijdens het vooronderzoek werd duidelijk dat niet de vraag óf mensen het gezond vinden interessant was, maar waaróm. Een aanleiding bijstellen op basis van vooronderzoek is dus een teken dat de probleemanalyse goed werkt, niet dat er iets misging."
+      }
     ]
   },
   {
-    id: 'checken', titel: 'Checken',
-    blokken: [
-      { type: 'quiz', titel: 'Check jezelf', vragen: [
-        { vraag: 'Wat is de aanleiding van onderzoek?',
-          opties: ['De onderzoeksvraag', 'De reden(en) om een onderzoeksproject te starten', 'Het antwoord op het onderzoek', 'De doelgroep van het onderzoek'],
-          juist: 1, uitleg: 'Zonder aanleiding heeft onderzoek geen zin: er moet een verschil zijn tussen de aangetroffen en de gewenste situatie.' },
-        { vraag: 'Wie introduceerde de 5xW+H-formule waarop de 6W-methode is gebaseerd?',
-          opties: ['Verhoeven', 'Migchelbrink', 'Verschuren en Doorewaard', 'Kahneman'],
-          juist: 1, uitleg: 'Migchelbrink (2002) gebruikte deze formule bij probleemanalyse en -afbakening.' },
-        { vraag: 'Welke vraag hoort niet bij de 6W-methode?',
-          opties: ['Wat is het probleem?', 'Van wie is het probleem?', 'Hoe meet ik het probleem?', 'Wat is de oorzaak van het probleem?'],
-          juist: 2, uitleg: 'De 6W-methode gaat over het probleem zelf begrijpen, niet over meten. Dat laatste heet operationaliseren en komt later aan bod.' },
-        { vraag: 'Hoe wordt vooronderzoek ook wel genoemd?',
-          opties: ['Hoofdonderzoek', 'Probleemanalyse', 'Operationalisering', 'Datacollectie'],
-          juist: 1, uitleg: 'Tijdens het vooronderzoek verdiep je je in het onderwerp en bepaal je de afbakening ervan.' },
-        { vraag: 'Waar zoek je als eerste naar informatie tijdens het vooronderzoek?',
-          opties: ['Op sociale media', 'In het archief of documentatiecentrum van de opdrachtgever', 'Bij de concurrent', 'In de krant'],
-          juist: 1, uitleg: 'Daar vind je bijvoorbeeld notulen, financiële overzichten, organogrammen en beleidsplannen die de aanleiding verduidelijken.' }
-      ]},
-      { type: 'bronnen', items: [
-        { apa: 'Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 3). Boom uitgevers.' }
-      ]},
-      { type: 'preview', titel: 'Van aanleiding naar centrale vraag', vakId: 'demystifying-research-methods', lesId: 'ch4',
-        tekst: 'Nu je weet hoe je een aanleiding herkent en uitschrijft, is de volgende stap het formuleren van een goede centrale vraag en doelstelling.',
-        punten: ['De 6W-methode opnieuw gebruiken, nu om de vraag te formuleren', 'Tien criteria voor een goede centrale vraag', 'Deelvragen: nuttig of noodzakelijk?'] }
+    "id": "checken",
+    "titel": "Checken",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Check jezelf",
+        "vragen": [
+          {
+            "vraag": "Wat is de aanleiding van onderzoek?",
+            "opties": [
+              "De onderzoeksvraag",
+              "De reden(en) om een onderzoeksproject te starten",
+              "Het antwoord op het onderzoek",
+              "De doelgroep van het onderzoek"
+            ],
+            "juist": 1,
+            "uitleg": "Zonder aanleiding heeft onderzoek geen zin: er moet een verschil zijn tussen de aangetroffen en de gewenste situatie."
+          },
+          {
+            "vraag": "Wie introduceerde de 5xW+H-formule waarop de 6W-methode is gebaseerd?",
+            "opties": [
+              "Verhoeven",
+              "Migchelbrink",
+              "Verschuren en Doorewaard",
+              "Kahneman"
+            ],
+            "juist": 1,
+            "uitleg": "Migchelbrink (2002) gebruikte deze formule bij probleemanalyse en -afbakening."
+          },
+          {
+            "vraag": "Welke vraag hoort niet bij de 6W-methode?",
+            "opties": [
+              "Wat is het probleem?",
+              "Van wie is het probleem?",
+              "Hoe meet ik het probleem?",
+              "Wat is de oorzaak van het probleem?"
+            ],
+            "juist": 2,
+            "uitleg": "De 6W-methode gaat over het probleem zelf begrijpen, niet over meten. Dat laatste heet operationaliseren en komt later aan bod."
+          },
+          {
+            "vraag": "Hoe wordt vooronderzoek ook wel genoemd?",
+            "opties": [
+              "Hoofdonderzoek",
+              "Probleemanalyse",
+              "Operationalisering",
+              "Datacollectie"
+            ],
+            "juist": 1,
+            "uitleg": "Tijdens het vooronderzoek verdiep je je in het onderwerp en bepaal je de afbakening ervan."
+          },
+          {
+            "vraag": "Waar zoek je als eerste naar informatie tijdens het vooronderzoek?",
+            "opties": [
+              "Op sociale media",
+              "In het archief of documentatiecentrum van de opdrachtgever",
+              "Bij de concurrent",
+              "In de krant"
+            ],
+            "juist": 1,
+            "uitleg": "Daar vind je bijvoorbeeld notulen, financiële overzichten, organogrammen en beleidsplannen die de aanleiding verduidelijken."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 3). Boom uitgevers."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "Van aanleiding naar centrale vraag",
+        "vakId": "demystifying-research-methods",
+        "lesId": "ch4",
+        "tekst": "Nu je weet hoe je een aanleiding herkent en uitschrijft, is de volgende stap het formuleren van een goede centrale vraag en doelstelling.",
+        "punten": [
+          "De 6W-methode opnieuw gebruiken, nu om de vraag te formuleren",
+          "Tien criteria voor een goede centrale vraag",
+          "Deelvragen: nuttig of noodzakelijk?"
+        ]
+      }
     ]
   }
 ];
@@ -3857,168 +4057,550 @@ LESSTOF['demystifying-research-methods/ch3'] = [
 
 LESSTOF['demystifying-research-methods/ch4'] = [
   {
-    id: 'voor', titel: 'Voorbereiding',
-    blokken: [
-      { type: 'leerdoelen', items: [
-        'Een goede centrale vraag formuleren met behulp van de juiste vragen en (mogelijke) deelvragen',
-        'Een goede doelstelling formuleren',
-        'De tien criteria voor een goede centrale vraag toepassen',
-        'Uitleggen wanneer je kiest voor een vraag en wanneer voor een hypothese',
-        'De valkuil van substitutie van Kahneman herkennen bij het formuleren van vragen'
-      ]},
-      { type: 'uitleg', titel: 'Waar dit hoofdstuk over gaat',
-        tekst: 'Zodra je de aanleiding voor je onderzoek hebt geformuleerd, weet je waarom onderzoek nodig is. Maar je hebt nog geen helder beeld van de **hoofdvraag** en het **doel** van je onderzoek. Dat is waar dit hoofdstuk (Verhoeven, hoofdstuk 4) over gaat, aangevuld met twee skill sheets van Van Tulder (A14 en A15) die specifiek over het kiezen en formuleren van de juiste onderzoeksvraag gaan.\n\nDe centrale vraag en de doelstelling worden samen ook wel de **probleemstelling** genoemd.' }
+    "id": "voor",
+    "titel": "Voorbereiding",
+    "blokken": [
+      {
+        "type": "leerdoelen",
+        "items": [
+          "Een goede centrale vraag formuleren met behulp van de juiste vragen en (mogelijke) deelvragen",
+          "Een goede doelstelling formuleren",
+          "De tien criteria voor een goede centrale vraag toepassen",
+          "Uitleggen wanneer je kiest voor een vraag en wanneer voor een hypothese",
+          "De valkuil van substitutie van Kahneman herkennen bij het formuleren van vragen"
+        ]
+      },
+      {
+        "type": "slimmer",
+        "titel": "If you are short on time",
+        "tekst": "**1.** Section 4.1.2 and the criteria for a central question (10 minutes). **2.** Section 4.2: sub-questions and their criteria (10 minutes). **3.** Section 4.3: the objective (5 minutes). **4.** The quiz and the flashcards (10 minutes), then the skill sheets A14 and A15."
+      },
+      {
+        "type": "uitleg",
+        "titel": "Waar dit hoofdstuk over gaat",
+        "tekst": "Zodra je de aanleiding voor je onderzoek hebt geformuleerd, weet je waarom onderzoek nodig is. Maar je hebt nog geen helder beeld van de **hoofdvraag** en het **doel** van je onderzoek. Dat is waar dit hoofdstuk (Verhoeven, hoofdstuk 4) over gaat, aangevuld met twee skill sheets van Van Tulder (A14 en A15) die specifiek over het kiezen en formuleren van de juiste onderzoeksvraag gaan.\n\nDe centrale vraag en de doelstelling worden samen ook wel de **probleemstelling** genoemd."
+      }
     ]
   },
   {
-    id: 'kern', titel: 'Kernstof',
-    blokken: [
-      { type: 'tekst', titel: '4.1 De centrale vraag stellen', toetsstof: true,
-        tekst: 'Het formuleren van de centrale vraag is het belangrijkste aspect van een onderzoeksproject. Zonder een goede probleemstelling is je onderzoeksproject een **"ongeleid projectiel"**: je hebt geen idee welke richting het op moet. Je kunt geen deugdelijke conclusies trekken, laat staan de juiste aanbevelingen doen.\n\nGoed onderzoek gaat niet zozeer over het geven van de juiste antwoorden, maar vooral over het stellen van de **juiste vragen**. Daarom moet je veel aandacht besteden aan het formuleren van de centrale vraag.\n\nJe bedenkt de centrale vraag niet altijd zelf: in toegepast onderzoek presenteert de opdrachtgever hem vaak al. Maar jij kunt hem helpen die vraag correct te formuleren, zodat je hem ook goed kunt beantwoorden.' },
-      { type: 'tekst', titel: 'Terminologie', toetsstof: true,
-        tekst: 'Bij het definiëren van de kernvraag gebruiken onderzoekers verschillende termen: centrale vraag, probleemstelling, research question, hoofdvraag. Dit boek werkt met:\n\n**Centrale vraag** — de hoofdvraag die je met je onderzoek wilt beantwoorden.\n**Doelstelling** — het doel, de functie van het onderzoek, voor jou als onderzoeker en voor de organisatie of opdrachtgever.\n\n**Centrale vraag + Doelstelling = Probleemstelling.**\n\nDe probleemstelling is de kernvraag (of hoofdvraag) waar het onderzoek antwoord op geeft. Tijdens het onderzoek stel je meer vragen dan alleen de hoofdvraag: vragen over de inhoud, het ontwerp, de analyse en de rapportage. Voor die laatste vragen gebruik je niet de term "centrale vraag". Een centrale vraag kan verschillende **deelvragen** bevatten die het probleem verduidelijken. Dat zijn een tussenstap richting het onderzoek. Vragen die je tijdens de analyse beantwoordt, heten **analysevragen**.' },
-      { type: 'begrippen', titel: 'Kernbegrippen', items: [
-        { begrip: 'Centrale vraag', definitie: 'De hoofdvraag die je met je onderzoek beoogt te beantwoorden.' },
-        { begrip: 'Doelstelling', definitie: 'Het doel, de functie van het onderzoek, voor de onderzoeker en de organisatie of opdrachtgever.' },
-        { begrip: 'Deelvragen', definitie: 'Vragen die je gebruikt om de centrale vraag uit te werken.' },
-        { begrip: 'Analysevragen', definitie: 'Specifieke beoordelingsvragen die je beantwoordt tijdens je analyse.' }
-      ]},
-      { type: 'tekst', titel: '4.1.1 De 6W-methode herhaald', toetsstof: true,
-        tekst: 'Het klinkt zo simpel: formuleer de centrale vraag, oftewel de hoofdvraag van je onderzoek. Maar zo eenvoudig is het niet. Die vraag moet alles omvatten, je onderzoek moet hem kunnen beantwoorden, de opdrachtgever moet hem kunnen onderschrijven, en hij moet aan de eisen van je studie voldoen.\n\nDe 6W-methode uit hoofdstuk 3 kun je hier opnieuw gebruiken, nu voor het formuleren van de centrale vraag:\n\n1. Begin met vraag 6: het antwoord is de reden voor je onderzoek.\n2. Ga dan naar vraag 1: daar vind je het antwoord op de vraag wat precies de situatie is die je onderzoekt. Dit is waar je de basis voor je centrale vraag vindt.\n3. Beantwoord daarna vraag 2 tot en met 5: die helpen je het probleem compleet te maken.' },
-      { type: 'voorbeeld', titel: 'De 6W-methode uitgewerkt: excellentie op middelbare scholen',
-        tekst: 'Momenteel gaat veel aandacht uit naar excellente leerlingen op middelbare scholen, die steeds vaker apart worden onderwezen. Stel je doet onderzoek naar deze excellente leerlingen.\n\n1. **Wat:** achterhalen wat excellente leerlingen motiveert om te studeren.\n2. **Wie:** excellente leerlingen op middelbare scholen.\n3. **Wanneer:** sinds de invoering van speciale programma\u2019s op middelbare scholen.\n4. **Waarom:** zonder de juiste motivatie hebben leerlingen de verkeerde houding en missen ze creativiteit, wat tot lagere cijfers leidt.\n5. **Waar:** beperkt tot de speciale excellentieprogramma\u2019s.\n6. **Wat is de reden:** de programma\u2019s draaien al een paar jaar; het is tijd voor evaluatieonderzoek naar de impact op motivatie, via houding en creativiteit.\n\nDe centrale vraag wordt dan: welk effect hebben excellentieprogramma\u2019s op studiemotivatie, creativiteit en leerhouding, en daarmee op de studieresultaten van excellente leerlingen in het voortgezet onderwijs?' },
-      { type: 'waarschuwing', titel: 'Deelvragen zijn geen enquêtevragen',
-        tekst: 'Deelvragen kun je niet direct gebruiken in een vragenlijst of interview; ze zijn daar te abstract of te breed voor. Om dat wel te kunnen, moet je abstracte begrippen omzetten naar meetbare begrippen, oftewel naar vragen voor een enquête. Dat heet **operationalisering** en komt in een later hoofdstuk aan bod.' },
-      { type: 'tekst', titel: '4.1.2 Kenmerken van de centrale vraag', toetsstof: true,
-        tekst: 'Of je nu theoretische vragen oplost met fundamenteel onderzoek of praktijkvragen aanpakt met toegepast onderzoek: de centrale vraag omvat altijd de belangrijkste vraag die je als onderzoeker uiteindelijk wilt weten en kunnen beantwoorden aan het eind van je onderzoek.' },
-      { type: 'tabel', titel: 'Tabel: soorten centrale vragen', toetsstof: true,
-        kop: ['Type vraag', 'Voorbeeld'],
-        rijen: [
-          ['Beschrijvend', 'Welke stages kiezen technische studenten aan hogescholen? Zijn er verschillen tussen instellingen?'],
-          ['Definiërend', 'Wat is het profiel van bezoekers aan de Hermitage in Sint-Petersburg?'],
-          ['Verklarend', 'Waarom lezen middelbare scholieren minder boeken?'],
-          ['Voorspellend', 'Welke ontwikkelingen op het gebied van drones worden de komende vijf jaar verwacht?'],
-          ['Vergelijkend', 'Wat is het verband tussen eetgewoonten en gezondheid? Is er een verschil tussen lager en hoger opgeleiden?'],
-          ['Evaluerend', 'Hoe beoordelen burgers de dienstverlening van de gemeente?'],
-          ['Voorschrijvend', 'Welke verbetervoorstellen kunnen de kwaliteit van de dienstverlening bij een café verbeteren?'],
-          ['Trends volgend', 'Welke trends zijn te zien in koopgedrag bij webshops sinds 2000?'],
-          ['Ontwerpend', 'Hoe kan een gebouw worden aangepast aan de voorwaarden voor een gezonde werkomgeving?']
+    "id": "kern",
+    "titel": "Kernstof",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "4.1 De centrale vraag stellen",
+        "toetsstof": true,
+        "tekst": "Het formuleren van de [[centrale vraag|Centrale vraag]] is het belangrijkste aspect van een onderzoeksproject. Zonder een goede probleemstelling is je onderzoeksproject een **\"ongeleid projectiel\"**: je hebt geen idee welke richting het op moet. Je kunt geen deugdelijke conclusies trekken, laat staan de juiste aanbevelingen doen.\n\nGoed onderzoek gaat niet zozeer over het geven van de juiste antwoorden, maar vooral over het stellen van de **juiste vragen**. Daarom moet je veel aandacht besteden aan het formuleren van de centrale vraag.\n\nJe bedenkt de centrale vraag niet altijd zelf: in toegepast onderzoek presenteert de opdrachtgever hem vaak al. Maar jij kunt hem helpen die vraag correct te formuleren, zodat je hem ook goed kunt beantwoorden."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe central question is the most important part of a research project. Without a good question, the research has no clear direction."
+      },
+      {
+        "type": "tekst",
+        "titel": "Terminologie",
+        "toetsstof": true,
+        "tekst": "Bij het definiëren van de kernvraag gebruiken onderzoekers verschillende termen: [[centrale vraag|Centrale vraag]], probleemstelling, research question, hoofdvraag. Dit boek werkt met:\n\n**Centrale vraag**, de hoofdvraag die je met je onderzoek wilt beantwoorden.\n**[[Doelstelling]]**, het doel, de functie van het onderzoek, voor jou als onderzoeker en voor de organisatie of opdrachtgever.\n\n**Centrale vraag + Doelstelling = Probleemstelling.**\n\nDe probleemstelling is de kernvraag (of hoofdvraag) waar het onderzoek antwoord op geeft. Tijdens het onderzoek stel je meer vragen dan alleen de hoofdvraag: vragen over de inhoud, het ontwerp, de analyse en de rapportage. Voor die laatste vragen gebruik je niet de term \"centrale vraag\". Een centrale vraag kan verschillende **[[deelvragen|Deelvragen]]** bevatten die het probleem verduidelijken. Dat zijn een tussenstap richting het onderzoek. Vragen die je tijdens de analyse beantwoordt, heten **[[analysevragen|Analysevragen]]**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nResearchers use different words for the main question, such as central question, problem statement or research question. They mean roughly the same."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrippen",
+        "items": [
+          {
+            "begrip": "Centrale vraag",
+            "definitie": "De hoofdvraag die je met je onderzoek beoogt te beantwoorden."
+          },
+          {
+            "begrip": "Doelstelling",
+            "definitie": "Het doel, de functie van het onderzoek, voor de onderzoeker en de organisatie of opdrachtgever."
+          },
+          {
+            "begrip": "Deelvragen",
+            "definitie": "Vragen die je gebruikt om de centrale vraag uit te werken."
+          },
+          {
+            "begrip": "Analysevragen",
+            "definitie": "Specifieke beoordelingsvragen die je beantwoordt tijdens je analyse."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "4.1.1 De 6W-methode herhaald",
+        "toetsstof": true,
+        "tekst": "Het klinkt zo simpel: formuleer de [[centrale vraag|Centrale vraag]], oftewel de hoofdvraag van je onderzoek. Maar zo eenvoudig is het niet. Die vraag moet alles omvatten, je onderzoek moet hem kunnen beantwoorden, de opdrachtgever moet hem kunnen onderschrijven, en hij moet aan de eisen van je studie voldoen.\n\nDe 6W-methode uit hoofdstuk 3 kun je hier opnieuw gebruiken, nu voor het formuleren van de centrale vraag:\n\n1. Begin met vraag 6: het antwoord is de reden voor je onderzoek.\n2. Ga dan naar vraag 1: daar vind je het antwoord op de vraag wat precies de situatie is die je onderzoekt. Dit is waar je de basis voor je centrale vraag vindt.\n3. Beantwoord daarna vraag 2 tot en met 5: die helpen je het probleem compleet te maken."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe 6W method helps again here: it gives you the elements you need to turn a broad topic into a precise central question."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "De 6W-methode uitgewerkt: excellentie op middelbare scholen",
+        "tekst": "Momenteel gaat veel aandacht uit naar excellente leerlingen op middelbare scholen, die steeds vaker apart worden onderwezen. Stel je doet onderzoek naar deze excellente leerlingen.\n\n1. **Wat:** achterhalen wat excellente leerlingen motiveert om te studeren.\n2. **Wie:** excellente leerlingen op middelbare scholen.\n3. **Wanneer:** sinds de invoering van speciale programma’s op middelbare scholen.\n4. **Waarom:** zonder de juiste motivatie hebben leerlingen de verkeerde houding en missen ze creativiteit, wat tot lagere cijfers leidt.\n5. **Waar:** beperkt tot de speciale excellentieprogramma’s.\n6. **Wat is de reden:** de programma’s draaien al een paar jaar; het is tijd voor evaluatieonderzoek naar de impact op motivatie, via houding en creativiteit.\n\nDe [[centrale vraag|Centrale vraag]] wordt dan: welk effect hebben excellentieprogramma’s op studiemotivatie, creativiteit en leerhouding, en daarmee op de studieresultaten van excellente leerlingen in het voortgezet onderwijs?"
+      },
+      {
+        "type": "waarschuwing",
+        "titel": "Deelvragen zijn geen enquêtevragen",
+        "tekst": "[[Deelvragen]] kun je niet direct gebruiken in een vragenlijst of interview; ze zijn daar te abstract of te breed voor. Om dat wel te kunnen, moet je abstracte begrippen omzetten naar meetbare begrippen, oftewel naar vragen voor een enquête. Dat heet **operationalisering** en komt in een later hoofdstuk aan bod."
+      },
+      {
+        "type": "tekst",
+        "titel": "4.1.2 Kenmerken van de centrale vraag",
+        "toetsstof": true,
+        "tekst": "Of je nu theoretische vragen oplost met fundamenteel onderzoek of praktijkvragen aanpakt met toegepast onderzoek: de [[centrale vraag|Centrale vraag]] omvat altijd de belangrijkste vraag die je als onderzoeker uiteindelijk wilt weten en kunnen beantwoorden aan het eind van je onderzoek."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA good central question is clear, specific, researchable and relevant, whether the research is fundamental or applied."
+      },
+      {
+        "type": "tabel",
+        "titel": "Tabel: soorten centrale vragen",
+        "toetsstof": true,
+        "kop": [
+          "Type vraag",
+          "Voorbeeld"
         ],
-        noot: 'Het type centrale vraag bepaalt vaak grotendeels hoe je je data gaat verzamelen.' },
-      { type: 'tekst', titel: 'Criteria voor de centrale vraag', toetsstof: true,
-        tekst: 'Een goede centrale vraag voldoet aan meerdere criteria. Hieronder staat een checklist die je helpt bij het formuleren van je centrale vraag.' },
-      { type: 'stappen', titel: 'Tien criteria voor een goede centrale vraag', items: [
-        { titel: '1. Is het een heldere vraag met een vraagteken?', tekst: 'Formuleer hem echt als vraag, niet als onderwerp of stelling.' },
-        { titel: '2. Is hij verbonden met de doelstelling?', tekst: 'Vraag en doel horen onlosmakelijk samen. "Hoe tevreden zijn klanten van supermarkt X met het assortiment?" hoort bij het doel om op basis van de bevindingen aanbevelingen te doen over uitbreiding of aanpassing van het assortiment.' },
-        { titel: '3. Is helder welke kennis nodig is?', tekst: 'Welke aspecten zijn belangrijk: gedrag, motieven, feiten, meningen of percepties van mensen? En vraagt dat om kwalitatieve of kwantitatieve methoden?' },
-        { titel: '4. Is helder over wie het gaat?', tekst: 'Van wie heeft de onderzoeker informatie nodig, oftewel welk domein dekt de centrale vraag?' },
-        { titel: '5. Is de tijdsperiode duidelijk?', tekst: 'Soms ontbreekt een specifieke periode, en dat is niet per se een gebrek. Als het onderzoek in het heden plaatsvindt en niet wordt herhaald, is dat cross-sectioneel onderzoek en hoeft er geen periode genoemd te worden.' },
-        { titel: '6. Zijn er deelvragen gesteld?', tekst: 'Deelvragen splitsen de centrale vraag in behapbare stukken.' },
-        { titel: '7. Is specificatie in analysevragen mogelijk?', tekst: 'Kun je uit de centrale vraag (en deelvragen) analysevragen afleiden die je via analyse kunt beantwoorden?' },
-        { titel: '8. Is er een relatie met de aannames over de resultaten?', tekst: 'De centrale vraag is een vraag over een specifieke situatie of bijvoorbeeld een effect. De aanname is dat je de vraag alleen stelt als je een verwachting hebt over de uitkomst.' },
-        { titel: '9. Is de centrale vraag compleet?', tekst: 'Een veelgemaakte fout: de formulering is onvolledig. "Wat zijn de redenen voor het hoge ziekteverzuim bij personeel van Ludlow College in Hartford?" kun je pas beantwoorden nadat je eerst hebt onderzocht of er wel sprake is van hoog verzuim door ziekte. Dan pas kun je onderzoeken waarom. Er is dan een deelvraag nodig.' },
-        { titel: '10. Zijn vraag en doelstelling onafhankelijk en objectief?', tekst: 'Formuleer als onafhankelijke, objectieve onderzoeker, los van de motieven van de opdrachtgever. Als een bank onderzoek naar interne communicatie laat doen met als eigenlijk doel het ontslaan van lastige medewerkers, dan loopt je onderzoek het risico voor dat doel te worden misbruikt. Een onbevooroordeelde centrale vraag kan dat voorkomen.' }
-      ]},
-      { type: 'voorbeeld', titel: 'Communicatie in het ziekenhuis',
-        tekst: 'Communicatie in een ziekenhuis is cruciaal. Patiënten en hun familie moeten begrijpen wat de stand van hun gezondheid is en welke behandeling wordt voorgesteld. Dat is nog uitdagender als patiënten niet dezelfde taal spreken als hun behandelaars, zoals vaak het geval is bij migranten. In 2010 onderzocht de Universiteit Utrecht hoe de communicatie met anderstaligen verloopt. De centrale vraag was: welke communicatie-interventies gebruiken Nederlandse verpleegkundigen in hun contact met patiënten uit etnische minderheden die slecht Nederlands spreken, en wat zijn hun motieven daarvoor?' },
-      { type: 'tekst', titel: '4.2 Deelvragen: nuttig of noodzakelijk?', toetsstof: true,
-        tekst: 'Vaak bestaat de centrale vraag uit één hoofdzin. Maar soms wil je eerst trends vaststellen en daarna de redenen ervoor achterhalen, waardoor je vraag lastig leesbaar wordt als je alles in één zin probeert te vangen.\n\nEen oplossing is meerdere vragen stellen in plaats van één lange. Een andere oplossing: een brede, algemene centrale vraag met daarna een aantal deelvragen die aspecten verduidelijken (doelgroep, eenheden, onderwerpen, tijdschema).\n\nDeelvragen helpen je het probleem uit te werken, geven je een centrale vraag die goed te onderzoeken is, en bakenen het onderzoek verder af, wat de haalbaarheid verhoogt. Je kunt elke deelvraag apart beantwoorden, bijvoorbeeld door een deelstudie op te zetten.' },
-      { type: 'tekst', titel: 'Twee manieren om tot deelvragen te komen', toetsstof: true,
-        tekst: '**Ontrafelen en hergroeperen** (Verschuren & Doorewaard). Je splitst je centrale vraag in een aantal eenvoudige begrippen. Die begrippen zijn het onderwerp van de deelvragen die je moet formuleren. Een handig instrument daarvoor is een **boomdiagram**: je splitst het te ontleden begrip in stappen op basis van een aantal vragen over de aard van de centrale vraag, bijvoorbeeld: onder wie, waarom, waarover, wanneer, hoe.\n\n**De 6W-methode.** Ook hier kun je de zes vragen gebruiken om tot goede deelvragen te komen.' },
-      { type: 'tekst', titel: 'Criteria voor deelvragen', toetsstof: true,
-        tekst: 'Ongeacht de gebruikte methode moeten deelvragen aan een paar criteria voldoen:\n\n- deelvragen zijn **relevant**, dus geen gewauwel;\n- deelvragen **overlappen niet**, maar vullen elkaar aan;\n- deelvragen **specificeren de begrippen** in de centrale vraag, bijvoorbeeld als vergelijking of als effect.' },
-      { type: 'voorbeeld', titel: 'Twee voorbeelden van deelvragen',
-        tekst: '**De mooie kanalen van Venetië.** Centrale vraag: hoe beoordelen buitenlandse toeristen de Venetiaanse kanalen als toeristische attractie? Deelvragen: wat weten bezoekers van Venetië over de Venetiaanse kanalen? Welke soorten toeristen bezoeken Venetië het vaakst? Hoe beoordelen buitenlandse toeristen de sfeer van de Venetiaanse kanalen?\n\n**Voortijdig schoolverlaten.** Een onderwijsbestuur onderscheidt traditionele risicofactoren (cognitieve aspecten, thuisproblemen, leerproblemen) en verborgen risicofactoren (motivatieproblemen, verkeerde studiekeuze). Centrale vraag: wat is bekend over de verborgen factoren die voortijdig schoolverlaten beïnvloeden? Deelvragen: hoe kan de groep die gevoelig is voor verborgen factoren worden herkend? Wat doen leerlingen die gevoelig zijn voor verborgen factoren? Welke maatregelen zijn genomen om voortijdig schoolverlaten te voorkomen, en wat zijn de belangrijkste knelpunten bij die maatregelen?' },
-      { type: 'tekst', titel: '4.3 De doelstelling formuleren', toetsstof: true,
-        tekst: 'Wat is het doel van je onderzoek? Waar dient het voor? Wat hoop je te bereiken met de onderzoeksresultaten? Naast die overwegingen heeft onderzoek ook heel praktische doelen, meestal geformuleerd vanuit het perspectief van de opdrachtgever. Een goed geformuleerde doelstelling herken je aan de volgende kenmerken:\n\n- heeft een **kerndefinitie** (niet te specifiek);\n- vertelt je welk **type onderzoek** het is: kwalitatief of kwantitatief;\n- geeft de **praktijkrelevantie** aan;\n- vermeldt de **doelen en eisen van de opdrachtgever**.' },
-      { type: 'voorbeeld', titel: 'De Atlantische kustlijn',
-        tekst: 'Er liggen veel plannen klaar om toeristische voorzieningen langs de Atlantische kustlijn te ontwikkelen, zoals vakantiehuizen en pretparken voor gezinnen. Niet iedereen is het daarmee eens: voor- en tegenstanders botsen voortdurend. Stel dat de autoriteiten in Maine je vragen de haalbaarheid van het HomeAway-clusterproject te onderzoeken. Je doelstelling zou kunnen zijn: door middel van kwalitatief onderzoek de kansen en beperkingen van de plannen voor de HomeAway-clusterontwikkeling vanuit verschillende perspectieven (bewoners, bedrijfsleven, natuurbehoud, de economie van Maine en de politiek) onderzoeken, zodat je aanbevelingen kunt doen over de haalbaarheid van de plannen. Geen sinecure.\n\nSoms is de doelstelling al duidelijk vanuit de centrale vraag zelf. Vraag je bijvoorbeeld om aanbevelingen, zoals "hoe kan de service in het bedrijfsrestaurant worden verbeterd?", dan zit het doel al in de vraag: de service verbeteren.' },
-      { type: 'tekst', titel: 'A15 — Vraag of hypothese kiezen', toetsstof: true,
-        tekst: 'Van Tulder (skill sheet A15) legt uit dat je bij het ontwerpen van een onderzoeksvraag twee beslissingen moet nemen: (A) formuleer je een vraag of een hypothese, en (B) stel je één enkele vraag of meerdere (deel)vragen?\n\n**Vraag versus hypothese.** Vragen zijn vaak flexibel en nodigen uit tot algemene antwoorden, terwijl hypotheses restrictiever zijn en je dwingen preciezer te antwoorden. Vragen zijn geschikter in de vroegere fasen van je onderzoek, of als je nog niet veel over een onderwerp weet. Hypotheses zijn vooral nuttig in latere fasen van een onderzoeksproject, nadat je je theoretisch kader hebt afgerond en beter bekend bent met het onderwerp.\n\nVermijd algemene en beschrijvende vragen of hypotheses. De vraag "Welke halfgeleiderstrategie voert het management van Philips?" specificeert het onderzoeksdoel maar vaag en nodigt uit tot een "interpretatieve beschrijving": zoveel mogelijk informatie opschrijven die je over een onderwerp kunt vinden. Een betere vraag: "Hoe verhoudt de strategie van Philips op het gebied van halfgeleiders zich tot de strategie van zijn belangrijkste concurrenten?" Nog specifieker: "Halfgeleiders gelden als de kerntechnologie van microelektronica. Waarom verkocht Philips zijn halfgeleiderdivisie in 2006?"' },
-      { type: 'citaat',
-        tekst: 'Keep it as simple as possible, but not simpler.',
-        bron: 'Albert Einstein, geciteerd in Van Tulder, skill sheet A15' },
-      { type: 'tekst', titel: 'De valkuil van falsificatie en de onderzoeksparadox', toetsstof: true,
-        tekst: 'Hypotheses kunnen ook worden geformuleerd om **falsificatie** te vergemakkelijken: een principe uit vooral de natuurwetenschappen, waarbij je een theorie verwerpt zodra je één voorbeeld vindt dat de hypothese weerlegt. In de sociale wetenschappen is dit principe niet altijd toepasbaar. Je krijgt te maken met een paradox door het gebrek aan afstand tussen onderzoeksobject en onderzoekssubject: hoe overtuigender je een voorspelling presenteert, hoe groter de kans dat je klanten erop reageren en zo de loop van de gebeurtenissen veranderen, waardoor de voorspelling juist niet uitkomt. Paradoxaal genoeg wordt het succes van een sociaal wetenschapper soms afgemeten aan de beperkte voorspellende waarde van zijn of haar theorieën.' },
-      { type: 'tekst', titel: 'Tip 1 en tip 2 bij het formuleren van je vraag', toetsstof: true,
-        tekst: '**Tip 1:** lees je onderzoeksvraag of hypothese hardop, en vraag jezelf af of je dat in het openbaar zou durven doen. Denk je dat je meteen een antwoord zou kunnen geven? Ben je zelf geïnteresseerd in het antwoord? Twijfel je: heroverweeg dan je vraag of herformuleer hem.\n\n**Tip 2:** gebruik geen lange zinnen in je onderzoeksvraag. Probeer niet alles in één zin te proppen. Maak meerdere zinnen. Gebruik directe, actieve formuleringen. Specificeer: koppel het probleem aan de regio, het land, het bedrijf, de persoon of de tijd waar je onderzoek naar doet. Lees het opnieuw hardop, en als de vraag niet "loopt", splits hem dan in ten minste twee zinnen.' },
-      { type: 'tekst', titel: 'De functie van een vragenhiërarchie', toetsstof: true,
-        tekst: 'Als je kortere zinnen gebruikt en je onderwerp specificeert in je onderzoeksvraag, eindig je vaak met meerdere vragen in plaats van één enkele. Je eerste vraag moet altijd het basisprobleem benoemen dat tot je onderzoeksproject heeft geleid. Daarna formuleer je subsidiaire vragen die de oorspronkelijke vraag in specifiekere vragen opdelen. Dit heet een **vragenhiërarchie** (Emory & Cooper, 1991). Zo’n hiërarchie loopt doorgaans:\n\n- van algemeen naar specifiek;\n- van meer theoretische naar meer empirische vragen;\n- van vragen die uit secundaire bronnen te beantwoorden zijn naar vragen die primaire data nodig hebben.' },
-      { type: 'tekst', titel: 'Tip 3 en tip 4', toetsstof: true,
-        tekst: '**Tip 3:** als je je onderzoek baseert op een vragenhiërarchie, stel de vragen dan in een logische volgorde. Kijk als vaste regel eerst naar de theoretische en conceptuele uitwerking van het probleem. Pas daarna kun je verdere beschrijving en analyse afronden. Als je weet welke functie conceptuele en theoretische verheldering heeft vóórdat je met empirisch testen begint, reflecteer dat dan ook in de opbouw van je verslag of scriptie. De volgorde van je vragenhiërarchie is ook de volgorde van je onderzoeksrapport.\n\n**Tip 4:** bedenk een "pakkende titel" die je basisvraag dekt. Dat helpt je aandacht te richten op de kernvraag en motiveert je om het project af te maken. Je onderzoeksvraag en titel moeten minstens één persoon motiveren: jezelf. En als jij gemotiveerd bent door de vraag, motiveert dat waarschijnlijk ook anderen. Maak je leidende vraag zo helder en simpel dat je hem makkelijk kunt reproduceren wanneer dat nodig is.' },
-      { type: 'tekst', titel: 'A14 — Zes suggesties om verdwaling te voorkomen', toetsstof: true,
-        tekst: 'Van Tulder (skill sheet A14) waarschuwt: als je zonder heldere vraag begint, vooral wanneer je een vast model toepast in de praktijk, loop je het risico een **"oplossing op zoek naar een probleem"** te formuleren. Consultants en econometristen krijgen dat verwijt vaak: ze vertrekken vanuit geïdealiseerde of sterk geformaliseerde modellen. Als de echte wereld niet volgens het model gedraagt, wordt dat behandeld als een afwijking van het ideaal in plaats van als een teken van de werkelijkheid. Om die valkuil te vermijden, geeft hij zes suggesties.' },
-      { type: 'stappen', titel: 'Zes suggesties bij het kiezen van een goede vraag', items: [
-        { titel: '1. Wat wil ik weten versus wat kan ik weten', tekst: 'Je zit altijd tussen twee uitersten. Begin als vuistregel met de meer kwalitatieve vraag: wat wil ik weten? Pas als dat helder is, overweeg je welke (kwantitatieve) data je kunnen helpen de hoofdvraag te beantwoorden.' },
-        { titel: '2. Houd rekening met je tijdsbestek', tekst: 'Hoe korter de tijd die je hebt: hoe meer je eerste vraag ook je laatste vraag moet zijn; hoe bescheidener je onderzoeksvraag moet zijn; hoe meer je moet voortbouwen op wat anderen als "goede vragen voor verder onderzoek" hebben aangedragen.' },
-        { titel: '3. Zorg dat je kritisch en creatief kunt zijn', tekst: 'Een onderzoeksproject dat niet de moeite waard is om goed te doen, lijdt altijd aan een gebrek aan maatschappelijke relevantie. Doorloop daarbij vijf kritische W-vragen: wat is het probleem (met oorzaken en gevolgen); waarom is dit een relevant probleem; wie heeft er iets mee te maken; waar bestaat het probleem; wanneer doet het probleem zich specifiek voor.' },
-        { titel: '4. Stel een lijst kernwoorden op', tekst: 'De meeste kernwoorden komen terug in je onderzoeksvraag. Ze helpen je te focussen op de belangrijkste onderwerpen en maken het makkelijker relevante bronnen te vinden in bibliotheken en databases.' },
-        { titel: '5. Bepaal vooraf je toegevoegde waarde', tekst: 'De praktische relevantie van een onderzoeksproject zit vaak in één samenvatting, één tabel, één figuur of één redeneerlijn. Wees bescheiden, en specificeer vooraf wat je in elk geval wilt opleveren: een overzicht, een tabel, een grafiek, een redeneerlijn, of iets anders. Dat voorkomt intellectuele overstretch.' },
-        { titel: '6. Bedenk wat voor onderzoeksvraag jij zelf graag leest', tekst: 'Kijk naar ander onderzoek. Welke vraag sprak je aan: een die je aan het denken zette, een die je zelf al kon beantwoorden, een die aan een theoretisch probleem raakte, of een die een praktisch probleem van individuele actoren raakte?' }
-      ]},
-      { type: 'waarschuwing', titel: 'Pas op voor substitutie (Kahneman)',
-        tekst: 'Nobelprijswinnaar Daniel Kahneman (2011) waarschuwt voor een verraderlijke denkfout: het **substitutieprincipe**. Als er niet snel een bevredigend antwoord op een moeilijke vraag wordt gevonden, zoekt je snelle, intuïtieve brein (systeem 1) een verwante vraag die makkelijker is, en beantwoordt die in plaats daarvan. Die vervangende vraag vraagt minder diep nadenken (systeem 2), maar kan volledig irrelevant zijn voor de eigenlijke vraag.\n\nMakkelijke vragen zijn niet per se zinloos, maar kunnen volstrekt ontoereikend zijn, zeker vanuit onderzoeksoogpunt.' },
-      { type: 'tabel', titel: 'Voorbeelden van substitutie (Kahneman)',
-        kop: ['Doelvraag', 'Wordt vervangen door'],
-        rijen: [
-          ['Hoe tevreden ben je tegenwoordig met je leven?', 'Wat is mijn stemming op dit moment?'],
-          ['Hoe populair zal de president over zes maanden zijn?', 'Hoe populair is de president op dit moment?'],
-          ['Hoe zouden financiële adviseurs die ouderen misleiden gestraft moeten worden?', 'Hoeveel boosheid voel ik als ik denk aan financiële roofdieren?'],
-          ['Deze vrouw doet mee aan de voorverkiezing. Hoe ver zal ze komen in de politiek?', 'Ziet deze vrouw eruit als een politieke winnaar?']
-        ] }
+        "rijen": [
+          [
+            "Beschrijvend",
+            "Welke stages kiezen technische studenten aan hogescholen? Zijn er verschillen tussen instellingen?"
+          ],
+          [
+            "Definiërend",
+            "Wat is het profiel van bezoekers aan de Hermitage in Sint-Petersburg?"
+          ],
+          [
+            "Verklarend",
+            "Waarom lezen middelbare scholieren minder boeken?"
+          ],
+          [
+            "Voorspellend",
+            "Welke ontwikkelingen op het gebied van drones worden de komende vijf jaar verwacht?"
+          ],
+          [
+            "Vergelijkend",
+            "Wat is het verband tussen eetgewoonten en gezondheid? Is er een verschil tussen lager en hoger opgeleiden?"
+          ],
+          [
+            "Evaluerend",
+            "Hoe beoordelen burgers de dienstverlening van de gemeente?"
+          ],
+          [
+            "Voorschrijvend",
+            "Welke verbetervoorstellen kunnen de kwaliteit van de dienstverlening bij een café verbeteren?"
+          ],
+          [
+            "Trends volgend",
+            "Welke trends zijn te zien in koopgedrag bij webshops sinds 2000?"
+          ],
+          [
+            "Ontwerpend",
+            "Hoe kan een gebouw worden aangepast aan de voorwaarden voor een gezonde werkomgeving?"
+          ]
+        ],
+        "noot": "Het type centrale vraag bepaalt vaak grotendeels hoe je je data gaat verzamelen."
+      },
+      {
+        "type": "tekst",
+        "titel": "Criteria voor de centrale vraag",
+        "toetsstof": true,
+        "tekst": "Een goede [[centrale vraag|Centrale vraag]] voldoet aan meerdere criteria. Hieronder staat een checklist die je helpt bij het formuleren van je centrale vraag."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nUse the checklist: is the question clear, focused, open, answerable with research, and useful for the client?"
+      },
+      {
+        "type": "stappen",
+        "titel": "Tien criteria voor een goede centrale vraag",
+        "items": [
+          {
+            "titel": "1. Is het een heldere vraag met een vraagteken?",
+            "tekst": "Formuleer hem echt als vraag, niet als onderwerp of stelling."
+          },
+          {
+            "titel": "2. Is hij verbonden met de doelstelling?",
+            "tekst": "Vraag en doel horen onlosmakelijk samen. \"Hoe tevreden zijn klanten van supermarkt X met het assortiment?\" hoort bij het doel om op basis van de bevindingen aanbevelingen te doen over uitbreiding of aanpassing van het assortiment."
+          },
+          {
+            "titel": "3. Is helder welke kennis nodig is?",
+            "tekst": "Welke aspecten zijn belangrijk: gedrag, motieven, feiten, meningen of percepties van mensen? En vraagt dat om kwalitatieve of kwantitatieve methoden?"
+          },
+          {
+            "titel": "4. Is helder over wie het gaat?",
+            "tekst": "Van wie heeft de onderzoeker informatie nodig, oftewel welk domein dekt de centrale vraag?"
+          },
+          {
+            "titel": "5. Is de tijdsperiode duidelijk?",
+            "tekst": "Soms ontbreekt een specifieke periode, en dat is niet per se een gebrek. Als het onderzoek in het heden plaatsvindt en niet wordt herhaald, is dat cross-sectioneel onderzoek en hoeft er geen periode genoemd te worden."
+          },
+          {
+            "titel": "6. Zijn er deelvragen gesteld?",
+            "tekst": "Deelvragen splitsen de centrale vraag in behapbare stukken."
+          },
+          {
+            "titel": "7. Is specificatie in analysevragen mogelijk?",
+            "tekst": "Kun je uit de centrale vraag (en deelvragen) analysevragen afleiden die je via analyse kunt beantwoorden?"
+          },
+          {
+            "titel": "8. Is er een relatie met de aannames over de resultaten?",
+            "tekst": "De centrale vraag is een vraag over een specifieke situatie of bijvoorbeeld een effect. De aanname is dat je de vraag alleen stelt als je een verwachting hebt over de uitkomst."
+          },
+          {
+            "titel": "9. Is de centrale vraag compleet?",
+            "tekst": "Een veelgemaakte fout: de formulering is onvolledig. \"Wat zijn de redenen voor het hoge ziekteverzuim bij personeel van Ludlow College in Hartford?\" kun je pas beantwoorden nadat je eerst hebt onderzocht of er wel sprake is van hoog verzuim door ziekte. Dan pas kun je onderzoeken waarom. Er is dan een deelvraag nodig."
+          },
+          {
+            "titel": "10. Zijn vraag en doelstelling onafhankelijk en objectief?",
+            "tekst": "Formuleer als onafhankelijke, objectieve onderzoeker, los van de motieven van de opdrachtgever. Als een bank onderzoek naar interne communicatie laat doen met als eigenlijk doel het ontslaan van lastige medewerkers, dan loopt je onderzoek het risico voor dat doel te worden misbruikt. Een onbevooroordeelde centrale vraag kan dat voorkomen."
+          }
+        ]
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Communicatie in het ziekenhuis",
+        "tekst": "Communicatie in een ziekenhuis is cruciaal. Patiënten en hun familie moeten begrijpen wat de stand van hun gezondheid is en welke behandeling wordt voorgesteld. Dat is nog uitdagender als patiënten niet dezelfde taal spreken als hun behandelaars, zoals vaak het geval is bij migranten. In 2010 onderzocht de Universiteit Utrecht hoe de communicatie met anderstaligen verloopt. De [[centrale vraag|Centrale vraag]] was: welke communicatie-interventies gebruiken Nederlandse verpleegkundigen in hun contact met patiënten uit etnische minderheden die slecht Nederlands spreken, en wat zijn hun motieven daarvoor?"
+      },
+      {
+        "type": "tekst",
+        "titel": "4.2 Deelvragen: nuttig of noodzakelijk?",
+        "toetsstof": true,
+        "tekst": "Vaak bestaat de [[centrale vraag|Centrale vraag]] uit één hoofdzin. Maar soms wil je eerst trends vaststellen en daarna de redenen ervoor achterhalen, waardoor je vraag lastig leesbaar wordt als je alles in één zin probeert te vangen.\n\nEen oplossing is meerdere vragen stellen in plaats van één lange. Een andere oplossing: een brede, algemene centrale vraag met daarna een aantal [[deelvragen|Deelvragen]] die aspecten verduidelijken (doelgroep, eenheden, onderwerpen, tijdschema).\n\nDeelvragen helpen je het probleem uit te werken, geven je een centrale vraag die goed te onderzoeken is, en bakenen het onderzoek verder af, wat de haalbaarheid verhoogt. Je kunt elke deelvraag apart beantwoorden, bijvoorbeeld door een deelstudie op te zetten."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nSub-questions split the central question into smaller parts. Together they should answer the main question."
+      },
+      {
+        "type": "tekst",
+        "titel": "Twee manieren om tot deelvragen te komen",
+        "toetsstof": true,
+        "tekst": "**Ontrafelen en hergroeperen** (Verschuren & Doorewaard). Je splitst je [[centrale vraag|Centrale vraag]] in een aantal eenvoudige begrippen. Die begrippen zijn het onderwerp van de [[deelvragen|Deelvragen]] die je moet formuleren. Een handig instrument daarvoor is een **boomdiagram**: je splitst het te ontleden begrip in stappen op basis van een aantal vragen over de aard van de centrale vraag, bijvoorbeeld: onder wie, waarom, waarover, wanneer, hoe.\n\n**De 6W-methode.** Ook hier kun je de zes vragen gebruiken om tot goede deelvragen te komen."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou can get sub-questions by splitting the central question into its concepts, or by following the steps of the research."
+      },
+      {
+        "type": "tekst",
+        "titel": "Criteria voor deelvragen",
+        "toetsstof": true,
+        "tekst": "Ongeacht de gebruikte methode moeten [[deelvragen|Deelvragen]] aan een paar criteria voldoen:\n\n- deelvragen zijn **relevant**, dus geen gewauwel;\n- deelvragen **overlappen niet**, maar vullen elkaar aan;\n- deelvragen **specificeren de begrippen** in de [[centrale vraag|Centrale vraag]], bijvoorbeeld als vergelijking of als effect."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nSub-questions must be relevant, help answer the central question, and together cover it completely."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Twee voorbeelden van deelvragen",
+        "tekst": "**De mooie kanalen van Venetië.** [[Centrale vraag]]: hoe beoordelen buitenlandse toeristen de Venetiaanse kanalen als toeristische attractie? [[Deelvragen]]: wat weten bezoekers van Venetië over de Venetiaanse kanalen? Welke soorten toeristen bezoeken Venetië het vaakst? Hoe beoordelen buitenlandse toeristen de sfeer van de Venetiaanse kanalen?\n\n**Voortijdig schoolverlaten.** Een onderwijsbestuur onderscheidt traditionele risicofactoren (cognitieve aspecten, thuisproblemen, leerproblemen) en verborgen risicofactoren (motivatieproblemen, verkeerde studiekeuze). Centrale vraag: wat is bekend over de verborgen factoren die voortijdig schoolverlaten beïnvloeden? Deelvragen: hoe kan de groep die gevoelig is voor verborgen factoren worden herkend? Wat doen leerlingen die gevoelig zijn voor verborgen factoren? Welke maatregelen zijn genomen om voortijdig schoolverlaten te voorkomen, en wat zijn de belangrijkste knelpunten bij die maatregelen?"
+      },
+      {
+        "type": "tekst",
+        "titel": "4.3 De doelstelling formuleren",
+        "toetsstof": true,
+        "tekst": "Wat is het doel van je onderzoek? Waar dient het voor? Wat hoop je te bereiken met de onderzoeksresultaten? Naast die overwegingen heeft onderzoek ook heel praktische doelen, meestal geformuleerd vanuit het perspectief van de opdrachtgever. Een goed geformuleerde [[doelstelling|Doelstelling]] herken je aan de volgende kenmerken:\n\n- heeft een **kerndefinitie** (niet te specifiek);\n- vertelt je welk **type onderzoek** het is: kwalitatief of kwantitatief;\n- geeft de **praktijkrelevantie** aan;\n- vermeldt de **doelen en eisen van de opdrachtgever**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe objective says what the research is for and what you hope to achieve with the results."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "De Atlantische kustlijn",
+        "tekst": "Er liggen veel plannen klaar om toeristische voorzieningen langs de Atlantische kustlijn te ontwikkelen, zoals vakantiehuizen en pretparken voor gezinnen. Niet iedereen is het daarmee eens: voor- en tegenstanders botsen voortdurend. Stel dat de autoriteiten in Maine je vragen de haalbaarheid van het HomeAway-clusterproject te onderzoeken. Je [[doelstelling|Doelstelling]] zou kunnen zijn: door middel van kwalitatief onderzoek de kansen en beperkingen van de plannen voor de HomeAway-clusterontwikkeling vanuit verschillende perspectieven (bewoners, bedrijfsleven, natuurbehoud, de economie van Maine en de politiek) onderzoeken, zodat je aanbevelingen kunt doen over de haalbaarheid van de plannen. Geen sinecure.\n\nSoms is de doelstelling al duidelijk vanuit de [[centrale vraag|Centrale vraag]] zelf. Vraag je bijvoorbeeld om aanbevelingen, zoals \"hoe kan de service in het bedrijfsrestaurant worden verbeterd?\", dan zit het doel al in de vraag: de service verbeteren."
+      },
+      {
+        "type": "tekst",
+        "titel": "A15, Vraag of hypothese kiezen",
+        "toetsstof": true,
+        "tekst": "Van Tulder (skill sheet A15) legt uit dat je bij het ontwerpen van een onderzoeksvraag twee beslissingen moet nemen: (A) formuleer je een vraag of een hypothese, en (B) stel je één enkele vraag of meerdere (deel)vragen?\n\n**Vraag versus hypothese.** Vragen zijn vaak flexibel en nodigen uit tot algemene antwoorden, terwijl hypotheses restrictiever zijn en je dwingen preciezer te antwoorden. Vragen zijn geschikter in de vroegere fasen van je onderzoek, of als je nog niet veel over een onderwerp weet. Hypotheses zijn vooral nuttig in latere fasen van een onderzoeksproject, nadat je je theoretisch kader hebt afgerond en beter bekend bent met het onderwerp.\n\nVermijd algemene en beschrijvende vragen of hypotheses. De vraag \"Welke halfgeleiderstrategie voert het management van Philips?\" specificeert het onderzoeksdoel maar vaag en nodigt uit tot een \"interpretatieve beschrijving\": zoveel mogelijk informatie opschrijven die je over een onderwerp kunt vinden. Een betere vraag: \"Hoe verhoudt de strategie van Philips op het gebied van halfgeleiders zich tot de strategie van zijn belangrijkste concurrenten?\" Nog specifieker: \"Halfgeleiders gelden als de kerntechnologie van microelektronica. Waarom verkocht Philips zijn halfgeleiderdivisie in 2006?\""
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou can start your research with an open question or with a hypothesis, an expected answer you test. The choice depends on what you already know."
+      },
+      {
+        "type": "citaat",
+        "tekst": "Keep it as simple as possible, but not simpler.",
+        "bron": "Albert Einstein, geciteerd in Van Tulder, skill sheet A15"
+      },
+      {
+        "type": "tekst",
+        "titel": "De valkuil van falsificatie en de onderzoeksparadox",
+        "toetsstof": true,
+        "tekst": "Hypotheses kunnen ook worden geformuleerd om **falsificatie** te vergemakkelijken: een principe uit vooral de natuurwetenschappen, waarbij je een theorie verwerpt zodra je één voorbeeld vindt dat de hypothese weerlegt. In de sociale wetenschappen is dit principe niet altijd toepasbaar. Je krijgt te maken met een paradox door het gebrek aan afstand tussen onderzoeksobject en onderzoekssubject: hoe overtuigender je een voorspelling presenteert, hoe groter de kans dat je klanten erop reageren en zo de loop van de gebeurtenissen veranderen, waardoor de voorspelling juist niet uitkomt. Paradoxaal genoeg wordt het succes van een sociaal wetenschapper soms afgemeten aan de beperkte voorspellende waarde van zijn of haar theorieën."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA hypothesis can be designed so that it can be proven wrong. But aiming only to disprove can make research narrow; it is a trade-off."
+      },
+      {
+        "type": "tekst",
+        "titel": "Tip 1 en tip 2 bij het formuleren van je vraag",
+        "toetsstof": true,
+        "tekst": "**Tip 1:** lees je onderzoeksvraag of hypothese hardop, en vraag jezelf af of je dat in het openbaar zou durven doen. Denk je dat je meteen een antwoord zou kunnen geven? Ben je zelf geïnteresseerd in het antwoord? Twijfel je: heroverweeg dan je vraag of herformuleer hem.\n\n**Tip 2:** gebruik geen lange zinnen in je onderzoeksvraag. Probeer niet alles in één zin te proppen. Maak meerdere zinnen. Gebruik directe, actieve formuleringen. Specificeer: koppel het probleem aan de regio, het land, het bedrijf, de persoon of de tijd waar je onderzoek naar doet. Lees het opnieuw hardop, en als de vraag niet \"loopt\", splits hem dan in ten minste twee zinnen."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nRead your question out loud: would you dare to say it in public? And make sure it is clear to someone outside your field."
+      },
+      {
+        "type": "tekst",
+        "titel": "De functie van een vragenhiërarchie",
+        "toetsstof": true,
+        "tekst": "Als je kortere zinnen gebruikt en je onderwerp specificeert in je onderzoeksvraag, eindig je vaak met meerdere vragen in plaats van één enkele. Je eerste vraag moet altijd het basisprobleem benoemen dat tot je onderzoeksproject heeft geleid. Daarna formuleer je subsidiaire vragen die de oorspronkelijke vraag in specifiekere vragen opdelen. Dit heet een **vragenhiërarchie** (Emory & Cooper, 1991). Zo’n hiërarchie loopt doorgaans:\n\n- van algemeen naar specifiek;\n- van meer theoretische naar meer empirische vragen;\n- van vragen die uit secundaire bronnen te beantwoorden zijn naar vragen die primaire data nodig hebben."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nShorter, more specific questions often lead to a set of linked questions. A hierarchy shows which question comes first and how they connect."
+      },
+      {
+        "type": "tekst",
+        "titel": "Tip 3 en tip 4",
+        "toetsstof": true,
+        "tekst": "**Tip 3:** als je je onderzoek baseert op een vragenhiërarchie, stel de vragen dan in een logische volgorde. Kijk als vaste regel eerst naar de theoretische en conceptuele uitwerking van het probleem. Pas daarna kun je verdere beschrijving en analyse afronden. Als je weet welke functie conceptuele en theoretische verheldering heeft vóórdat je met empirisch testen begint, reflecteer dat dan ook in de opbouw van je verslag of scriptie. De volgorde van je vragenhiërarchie is ook de volgorde van je onderzoeksrapport.\n\n**Tip 4:** bedenk een \"pakkende titel\" die je basisvraag dekt. Dat helpt je aandacht te richten op de kernvraag en motiveert je om het project af te maken. Je onderzoeksvraag en titel moeten minstens één persoon motiveren: jezelf. En als jij gemotiveerd bent door de vraag, motiveert dat waarschijnlijk ook anderen. Maak je leidende vraag zo helder en simpel dat je hem makkelijk kunt reproduceren wanneer dat nodig is."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPut your questions in a logical order, and check that each one really helps answer the main question."
+      },
+      {
+        "type": "tekst",
+        "titel": "A14, Zes suggesties om verdwaling te voorkomen",
+        "toetsstof": true,
+        "tekst": "Van Tulder (skill sheet A14) waarschuwt: als je zonder heldere vraag begint, vooral wanneer je een vast model toepast in de praktijk, loop je het risico een **\"oplossing op zoek naar een probleem\"** te formuleren. Consultants en econometristen krijgen dat verwijt vaak: ze vertrekken vanuit geïdealiseerde of sterk geformaliseerde modellen. Als de echte wereld niet volgens het model gedraagt, wordt dat behandeld als een afwijking van het ideaal in plaats van als een teken van de werkelijkheid. Om die valkuil te vermijden, geeft hij zes suggesties."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nWithout a clear question it is easy to get lost in your research. Van Tulder gives six tips to keep focus, such as defining your concepts and checking your scope."
+      },
+      {
+        "type": "stappen",
+        "titel": "Zes suggesties bij het kiezen van een goede vraag",
+        "items": [
+          {
+            "titel": "1. Wat wil ik weten versus wat kan ik weten",
+            "tekst": "Je zit altijd tussen twee uitersten. Begin als vuistregel met de meer kwalitatieve vraag: wat wil ik weten? Pas als dat helder is, overweeg je welke (kwantitatieve) data je kunnen helpen de hoofdvraag te beantwoorden."
+          },
+          {
+            "titel": "2. Houd rekening met je tijdsbestek",
+            "tekst": "Hoe korter de tijd die je hebt: hoe meer je eerste vraag ook je laatste vraag moet zijn; hoe bescheidener je onderzoeksvraag moet zijn; hoe meer je moet voortbouwen op wat anderen als \"goede vragen voor verder onderzoek\" hebben aangedragen."
+          },
+          {
+            "titel": "3. Zorg dat je kritisch en creatief kunt zijn",
+            "tekst": "Een onderzoeksproject dat niet de moeite waard is om goed te doen, lijdt altijd aan een gebrek aan maatschappelijke relevantie. Doorloop daarbij vijf kritische W-vragen: wat is het probleem (met oorzaken en gevolgen); waarom is dit een relevant probleem; wie heeft er iets mee te maken; waar bestaat het probleem; wanneer doet het probleem zich specifiek voor."
+          },
+          {
+            "titel": "4. Stel een lijst kernwoorden op",
+            "tekst": "De meeste kernwoorden komen terug in je onderzoeksvraag. Ze helpen je te focussen op de belangrijkste onderwerpen en maken het makkelijker relevante bronnen te vinden in bibliotheken en databases."
+          },
+          {
+            "titel": "5. Bepaal vooraf je toegevoegde waarde",
+            "tekst": "De praktische relevantie van een onderzoeksproject zit vaak in één samenvatting, één tabel, één figuur of één redeneerlijn. Wees bescheiden, en specificeer vooraf wat je in elk geval wilt opleveren: een overzicht, een tabel, een grafiek, een redeneerlijn, of iets anders. Dat voorkomt intellectuele overstretch."
+          },
+          {
+            "titel": "6. Bedenk wat voor onderzoeksvraag jij zelf graag leest",
+            "tekst": "Kijk naar ander onderzoek. Welke vraag sprak je aan: een die je aan het denken zette, een die je zelf al kon beantwoorden, een die aan een theoretisch probleem raakte, of een die een praktisch probleem van individuele actoren raakte?"
+          }
+        ]
+      },
+      {
+        "type": "waarschuwing",
+        "titel": "Pas op voor substitutie (Kahneman)",
+        "tekst": "Nobelprijswinnaar Daniel Kahneman (2011) waarschuwt voor een verraderlijke denkfout: het **substitutieprincipe**. Als er niet snel een bevredigend antwoord op een moeilijke vraag wordt gevonden, zoekt je snelle, intuïtieve brein (systeem 1) een verwante vraag die makkelijker is, en beantwoordt die in plaats daarvan. Die vervangende vraag vraagt minder diep nadenken (systeem 2), maar kan volledig irrelevant zijn voor de eigenlijke vraag.\n\nMakkelijke vragen zijn niet per se zinloos, maar kunnen volstrekt ontoereikend zijn, zeker vanuit onderzoeksoogpunt."
+      },
+      {
+        "type": "tabel",
+        "titel": "Voorbeelden van substitutie (Kahneman)",
+        "kop": [
+          "Doelvraag",
+          "Wordt vervangen door"
+        ],
+        "rijen": [
+          [
+            "Hoe tevreden ben je tegenwoordig met je leven?",
+            "Wat is mijn stemming op dit moment?"
+          ],
+          [
+            "Hoe populair zal de president over zes maanden zijn?",
+            "Hoe populair is de president op dit moment?"
+          ],
+          [
+            "Hoe zouden financiële adviseurs die ouderen misleiden gestraft moeten worden?",
+            "Hoeveel boosheid voel ik als ik denk aan financiële roofdieren?"
+          ],
+          [
+            "Deze vrouw doet mee aan de voorverkiezing. Hoe ver zal ze komen in de politiek?",
+            "Ziet deze vrouw eruit als een politieke winnaar?"
+          ]
+        ]
+      }
     ]
   },
   {
-    id: 'toepassen', titel: 'Toepassen',
-    blokken: [
-      { type: 'stappen', titel: 'Een centrale vraag opstellen en toetsen', items: [
-        { titel: 'Formuleer een eerste versie met de 6W-methode', tekst: 'Begin bij vraag 6 (de reden), ga dan naar vraag 1 (wat is de situatie), en werk vraag 2 tot en met 5 verder uit.' },
-        { titel: 'Kies vraag of hypothese', tekst: 'Weet je nog weinig van het onderwerp of ben je in een vroege onderzoeksfase? Kies een vraag. Heb je al een theoretisch kader en een goed onderbouwde verwachting? Overweeg een hypothese.' },
-        { titel: 'Loop de tien criteria van Verhoeven langs', tekst: 'Vraagteken, doelstelling, benodigde kennis, doelgroep, tijdsperiode, deelvragen, analysevragen, aannames, volledigheid, onafhankelijkheid.' },
-        { titel: 'Lees hem hardop (tip 1 en 2 van Van Tulder)', tekst: 'Zou je hem in het openbaar durven stellen? Loopt de zin? Is hij kort genoeg? Splits zo nodig in meerdere zinnen.' },
-        { titel: 'Check op substitutie', tekst: 'Heb je de echte, moeilijke vraag beantwoord, of ben je stiekem overgestapt op een makkelijker verwante vraag?' },
-        { titel: 'Formuleer pas daarna de deelvragen', tekst: 'Gebruik ontrafelen-en-hergroeperen of de 6W-methode. Zorg dat ze relevant zijn, niet overlappen, en de centrale vraag specificeren.' },
-        { titel: 'Formuleer de doelstelling', tekst: 'Kerndefinitie, type onderzoek, praktijkrelevantie, doelen van de opdrachtgever.' }
-      ]},
-      { type: 'oefening', id: 'ch4-oef-1', niveau: 'basis',
-        vraag: 'Een gemeente wil weten "hoe het zit met de jeugdwerkloosheid". Leg aan de hand van de tien criteria uit waarom dit nog geen goede centrale vraag is, en herschrijf hem.',
-        antwoord: 'De vraag voldoet op meerdere punten niet. Er staat geen vraagteken en geen scherp geformuleerde vraag (criterium 1). Onduidelijk is welke kennis nodig is: gaat het om cijfers (kwantitatief) of om ervaringen van jongeren (kwalitatief)? (criterium 3). Ook is niet duidelijk over wie het precies gaat: alle jongeren in de gemeente, een bepaalde leeftijdsgroep, of een specifieke wijk? (criterium 4), en ontbreekt een tijdsperiode (criterium 5). Een betere centrale vraag, gekoppeld aan een doelstelling: "Hoe heeft de jeugdwerkloosheid onder 16- tot 27-jarigen in gemeente X zich de afgelopen vijf jaar ontwikkeld, en welke factoren verklaren deze ontwikkeling?" met als doelstelling: door middel van kwantitatief onderzoek de ontwikkeling van jeugdwerkloosheid in kaart brengen, zodat de gemeente gerichte maatregelen kan nemen.' },
-      { type: 'oefening', id: 'ch4-oef-2', niveau: 'gevorderd',
-        vraag: 'Leg met het substitutieprincipe van Kahneman uit waarom de vraag "Hoe tevreden zijn medewerkers over hun leidinggevende?" risico loopt op een vertekend antwoord, en hoe je dat risico met een goede centrale vraag kunt beperken.',
-        antwoord: 'Volgens Kahneman vervangt het snelle, intuïtieve brein een moeilijke vraag vaak door een makkelijkere verwante vraag als er niet snel een goed antwoord voorhanden is. "Hoe tevreden ben ik over mijn leidinggevende" is een complexe, samengestelde vraag die nadenken over meerdere aspecten vergt: communicatie, aansturing, waardering, eerlijkheid. Een respondent kan die vraag onbewust vervangen door de veel makkelijkere vraag "Hoe voel ik me nu, op dit moment, over mijn werk?", waardoor het antwoord meer over actuele stemming gaat dan over een doordacht oordeel over leiderschap. Je beperkt dit risico door de centrale vraag te specificeren in concrete deelvragen die telkens één aspect bevragen, bijvoorbeeld: hoe beoordelen medewerkers de communicatie van hun leidinggevende, hoe beoordelen zij de erkenning die zij krijgen, en hoe beoordelen zij de besluitvorming? Specifieke, concrete vragen laten minder ruimte voor onbewuste substitutie dan één brede, abstracte vraag.' }
+    "id": "toepassen",
+    "titel": "Toepassen",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "Een centrale vraag opstellen en toetsen",
+        "items": [
+          {
+            "titel": "Formuleer een eerste versie met de 6W-methode",
+            "tekst": "Begin bij vraag 6 (de reden), ga dan naar vraag 1 (wat is de situatie), en werk vraag 2 tot en met 5 verder uit."
+          },
+          {
+            "titel": "Kies vraag of hypothese",
+            "tekst": "Weet je nog weinig van het onderwerp of ben je in een vroege onderzoeksfase? Kies een vraag. Heb je al een theoretisch kader en een goed onderbouwde verwachting? Overweeg een hypothese."
+          },
+          {
+            "titel": "Loop de tien criteria van Verhoeven langs",
+            "tekst": "Vraagteken, doelstelling, benodigde kennis, doelgroep, tijdsperiode, deelvragen, analysevragen, aannames, volledigheid, onafhankelijkheid."
+          },
+          {
+            "titel": "Lees hem hardop (tip 1 en 2 van Van Tulder)",
+            "tekst": "Zou je hem in het openbaar durven stellen? Loopt de zin? Is hij kort genoeg? Splits zo nodig in meerdere zinnen."
+          },
+          {
+            "titel": "Check op substitutie",
+            "tekst": "Heb je de echte, moeilijke vraag beantwoord, of ben je stiekem overgestapt op een makkelijker verwante vraag?"
+          },
+          {
+            "titel": "Formuleer pas daarna de deelvragen",
+            "tekst": "Gebruik ontrafelen-en-hergroeperen of de 6W-methode. Zorg dat ze relevant zijn, niet overlappen, en de centrale vraag specificeren."
+          },
+          {
+            "titel": "Formuleer de doelstelling",
+            "tekst": "Kerndefinitie, type onderzoek, praktijkrelevantie, doelen van de opdrachtgever."
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "ch4-oef-1",
+        "niveau": "basis",
+        "vraag": "Een gemeente wil weten \"hoe het zit met de jeugdwerkloosheid\". Leg aan de hand van de tien criteria uit waarom dit nog geen goede centrale vraag is, en herschrijf hem.",
+        "antwoord": "De vraag voldoet op meerdere punten niet. Er staat geen vraagteken en geen scherp geformuleerde vraag (criterium 1). Onduidelijk is welke kennis nodig is: gaat het om cijfers (kwantitatief) of om ervaringen van jongeren (kwalitatief)? (criterium 3). Ook is niet duidelijk over wie het precies gaat: alle jongeren in de gemeente, een bepaalde leeftijdsgroep, of een specifieke wijk? (criterium 4), en ontbreekt een tijdsperiode (criterium 5). Een betere centrale vraag, gekoppeld aan een doelstelling: \"Hoe heeft de jeugdwerkloosheid onder 16- tot 27-jarigen in gemeente X zich de afgelopen vijf jaar ontwikkeld, en welke factoren verklaren deze ontwikkeling?\" met als doelstelling: door middel van kwantitatief onderzoek de ontwikkeling van jeugdwerkloosheid in kaart brengen, zodat de gemeente gerichte maatregelen kan nemen."
+      },
+      {
+        "type": "oefening",
+        "id": "ch4-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "Leg met het substitutieprincipe van Kahneman uit waarom de vraag \"Hoe tevreden zijn medewerkers over hun leidinggevende?\" risico loopt op een vertekend antwoord, en hoe je dat risico met een goede centrale vraag kunt beperken.",
+        "antwoord": "Volgens Kahneman vervangt het snelle, intuïtieve brein een moeilijke vraag vaak door een makkelijkere verwante vraag als er niet snel een goed antwoord voorhanden is. \"Hoe tevreden ben ik over mijn leidinggevende\" is een complexe, samengestelde vraag die nadenken over meerdere aspecten vergt: communicatie, aansturing, waardering, eerlijkheid. Een respondent kan die vraag onbewust vervangen door de veel makkelijkere vraag \"Hoe voel ik me nu, op dit moment, over mijn werk?\", waardoor het antwoord meer over actuele stemming gaat dan over een doordacht oordeel over leiderschap. Je beperkt dit risico door de centrale vraag te specificeren in concrete deelvragen die telkens één aspect bevragen, bijvoorbeeld: hoe beoordelen medewerkers de communicatie van hun leidinggevende, hoe beoordelen zij de erkenning die zij krijgen, en hoe beoordelen zij de besluitvorming? Specifieke, concrete vragen laten minder ruimte voor onbewuste substitutie dan één brede, abstracte vraag."
+      }
     ]
   },
   {
-    id: 'checken', titel: 'Checken',
-    blokken: [
-      { type: 'quiz', titel: 'Check jezelf', vragen: [
-        { vraag: 'Wat is de probleemstelling volgens Verhoeven?',
-          opties: ['Alleen de centrale vraag', 'Alleen de doelstelling', 'De centrale vraag plus de doelstelling', 'De aanleiding van het onderzoek'],
-          juist: 2, uitleg: 'Centrale vraag + doelstelling = probleemstelling. Dit is de kernvraag die het hele onderzoek beantwoordt.' },
-        { vraag: 'Wanneer gebruik je volgens Van Tulder eerder een hypothese dan een vraag?',
-          opties: ['Bij een heel nieuw, onbekend onderwerp', 'In een latere onderzoeksfase, na afronding van het theoretisch kader', 'Alleen bij kwalitatief onderzoek', 'Nooit; hypotheses horen niet bij onderzoek'],
-          juist: 1, uitleg: 'Vragen passen bij vroege fasen of onbekende onderwerpen; hypotheses zijn preciezer en passen bij een verdere onderzoeksfase.' },
-        { vraag: 'Wat is het substitutieprincipe van Kahneman?',
-          opties: ['Het vervangen van kwalitatief door kwantitatief onderzoek', 'Het onbewust vervangen van een moeilijke vraag door een makkelijkere, verwante vraag', 'Het vervangen van de centrale vraag door deelvragen', 'Het vervangen van een hypothese door een vraag'],
-          juist: 1, uitleg: 'Systeem 1 (snel, intuïtief) grijpt naar een makkelijkere vraag als er niet snel een bevredigend antwoord op de echte vraag is.' },
-        { vraag: 'Welke van deze centrale vraag-typen hoort bij "welke ontwikkelingen op het gebied van drones worden de komende vijf jaar verwacht"?',
-          opties: ['Beschrijvend', 'Vergelijkend', 'Voorspellend', 'Ontwerpend'],
-          juist: 2, uitleg: 'Deze vraag gaat over toekomstige ontwikkelingen en is daarmee voorspellend van aard.' },
-        { vraag: 'Waarom moeten deelvragen elkaar aanvullen in plaats van overlappen?',
-          opties: ['Om het onderzoek langer te maken', 'Om ervoor te zorgen dat je met de deelvragen samen de centrale vraag dekt zonder onnodig dubbel werk', 'Omdat overlappende vragen verboden zijn door de opdrachtgever', 'Om de doelstelling te kunnen schrappen'],
-          juist: 1, uitleg: 'Overlappende deelvragen leveren dubbel werk op zonder extra inzicht; aanvullende deelvragen dekken samen het hele probleem.' },
-        { vraag: 'Wat is een vragenhiërarchie (Emory & Cooper)?',
-          opties: ['Een lijst met verboden vragen', 'Een opeenvolging van vragen van algemeen naar specifiek en van theoretisch naar empirisch', 'De volgorde waarin je respondenten interviewt', 'Een ranglijst van de belangrijkste onderzoekers'], 
-          juist: 1, uitleg: 'De hiërarchie loopt van algemeen naar specifiek, van theoretisch naar empirisch, en van secundaire naar primaire bronnen.' }
-      ]},
-      { type: 'bronnen', items: [
-        { apa: 'Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 4). Boom uitgevers.' },
-        { apa: 'Tulder, R. van (2018). Skill Sheets A14 (Choosing Appropriate Questions) & A15 (Formulating the Research Question). Routledge.' },
-        { apa: 'Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.' }
-      ]},
-      { type: 'preview', titel: 'Van vraag naar model', vakId: 'demystifying-research-methods', lesId: 'ch5',
-        tekst: 'Nu je een goede centrale vraag kunt formuleren, is de volgende stap het afbakenen van de begrippen daarin en het bouwen van een conceptueel model.',
-        punten: ['Concept-as-intended en stipulatieve definities', 'Het conceptueel model in drie onderdelen', 'Causale versus wederkerige relaties'] }
+    "id": "checken",
+    "titel": "Checken",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Check jezelf",
+        "vragen": [
+          {
+            "vraag": "Wat is de probleemstelling volgens Verhoeven?",
+            "opties": [
+              "Alleen de centrale vraag",
+              "Alleen de doelstelling",
+              "De centrale vraag plus de doelstelling",
+              "De aanleiding van het onderzoek"
+            ],
+            "juist": 2,
+            "uitleg": "Centrale vraag + doelstelling = probleemstelling. Dit is de kernvraag die het hele onderzoek beantwoordt."
+          },
+          {
+            "vraag": "Wanneer gebruik je volgens Van Tulder eerder een hypothese dan een vraag?",
+            "opties": [
+              "Bij een heel nieuw, onbekend onderwerp",
+              "In een latere onderzoeksfase, na afronding van het theoretisch kader",
+              "Alleen bij kwalitatief onderzoek",
+              "Nooit; hypotheses horen niet bij onderzoek"
+            ],
+            "juist": 1,
+            "uitleg": "Vragen passen bij vroege fasen of onbekende onderwerpen; hypotheses zijn preciezer en passen bij een verdere onderzoeksfase."
+          },
+          {
+            "vraag": "Wat is het substitutieprincipe van Kahneman?",
+            "opties": [
+              "Het vervangen van kwalitatief door kwantitatief onderzoek",
+              "Het onbewust vervangen van een moeilijke vraag door een makkelijkere, verwante vraag",
+              "Het vervangen van de centrale vraag door deelvragen",
+              "Het vervangen van een hypothese door een vraag"
+            ],
+            "juist": 1,
+            "uitleg": "Systeem 1 (snel, intuïtief) grijpt naar een makkelijkere vraag als er niet snel een bevredigend antwoord op de echte vraag is."
+          },
+          {
+            "vraag": "Welke van deze centrale vraag-typen hoort bij \"welke ontwikkelingen op het gebied van drones worden de komende vijf jaar verwacht\"?",
+            "opties": [
+              "Beschrijvend",
+              "Vergelijkend",
+              "Voorspellend",
+              "Ontwerpend"
+            ],
+            "juist": 2,
+            "uitleg": "Deze vraag gaat over toekomstige ontwikkelingen en is daarmee voorspellend van aard."
+          },
+          {
+            "vraag": "Waarom moeten deelvragen elkaar aanvullen in plaats van overlappen?",
+            "opties": [
+              "Om het onderzoek langer te maken",
+              "Om ervoor te zorgen dat je met de deelvragen samen de centrale vraag dekt zonder onnodig dubbel werk",
+              "Omdat overlappende vragen verboden zijn door de opdrachtgever",
+              "Om de doelstelling te kunnen schrappen"
+            ],
+            "juist": 1,
+            "uitleg": "Overlappende deelvragen leveren dubbel werk op zonder extra inzicht; aanvullende deelvragen dekken samen het hele probleem."
+          },
+          {
+            "vraag": "Wat is een vragenhiërarchie (Emory & Cooper)?",
+            "opties": [
+              "Een lijst met verboden vragen",
+              "Een opeenvolging van vragen van algemeen naar specifiek en van theoretisch naar empirisch",
+              "De volgorde waarin je respondenten interviewt",
+              "Een ranglijst van de belangrijkste onderzoekers"
+            ],
+            "juist": 1,
+            "uitleg": "De hiërarchie loopt van algemeen naar specifiek, van theoretisch naar empirisch, en van secundaire naar primaire bronnen."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 4). Boom uitgevers."
+          },
+          {
+            "apa": "Tulder, R. van (2018). Skill Sheets A14 (Choosing Appropriate Questions) & A15 (Formulating the Research Question). Routledge."
+          },
+          {
+            "apa": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "Van vraag naar model",
+        "vakId": "demystifying-research-methods",
+        "lesId": "ch5",
+        "tekst": "Nu je een goede centrale vraag kunt formuleren, is de volgende stap het afbakenen van de begrippen daarin en het bouwen van een conceptueel model.",
+        "punten": [
+          "Concept-as-intended en stipulatieve definities",
+          "Het conceptueel model in drie onderdelen",
+          "Causale versus wederkerige relaties"
+        ]
+      }
     ]
   }
 ];
@@ -4029,115 +4611,350 @@ LESSTOF['demystifying-research-methods/ch4'] = [
 
 LESSTOF['demystifying-research-methods/ch5'] = [
   {
-    id: 'voor', titel: 'Voorbereiding',
-    blokken: [
-      { type: 'leerdoelen', items: [
-        'De begrippen in je centrale vraag definiëren (5.1)',
-        'Aannames formuleren over de verwachte resultaten van je onderzoek (5.2)',
-        'Die aannames structureren in een conceptueel model (5.2)',
-        'Argumenten voor je aannames onderbouwen met theorieën en modellen uit je vooronderzoek (5.2)'
-      ]},
-      { type: 'uitleg', titel: 'Waar dit hoofdstuk over gaat',
-        tekst: 'In toegepast onderzoek los je vraagstukken op die in de wereld om je heen spelen. Je begint niet bij nul: je kunt goed gebruikmaken van (bestaande) modellen en theorieën en je onderzoek daarop inrichten. Dat is een effectieve en betrouwbare manier van werken.\n\nMaar voordat je dat doet, moet je eerst de **begrippen** in je centrale vraag goed afbakenen. Dat geeft je onderzoeksproject structuur en helderheid. Het laat ook je omgeving, oftewel de stakeholders, zien waar je onderzoek over gaat, en, minstens zo belangrijk, waar het **niet** over gaat.' }
+    "id": "voor",
+    "titel": "Voorbereiding",
+    "blokken": [
+      {
+        "type": "leerdoelen",
+        "items": [
+          "De begrippen in je centrale vraag definiëren (5.1)",
+          "Aannames formuleren over de verwachte resultaten van je onderzoek (5.2)",
+          "Die aannames structureren in een conceptueel model (5.2)",
+          "Argumenten voor je aannames onderbouwen met theorieën en modellen uit je vooronderzoek (5.2)"
+        ]
+      },
+      {
+        "type": "slimmer",
+        "titel": "If you are short on time",
+        "tekst": "**1.** Section 5.1 and the stipulative definition (10 minutes). **2.** Section 5.2 and the conceptual model (10 minutes). **3.** Causal and reciprocal relations (5 minutes). **4.** The quiz and the flashcards (10 minutes)."
+      },
+      {
+        "type": "uitleg",
+        "titel": "Waar dit hoofdstuk over gaat",
+        "tekst": "In toegepast onderzoek los je vraagstukken op die in de wereld om je heen spelen. Je begint niet bij nul: je kunt goed gebruikmaken van (bestaande) modellen en theorieën en je onderzoek daarop inrichten. Dat is een effectieve en betrouwbare manier van werken.\n\nMaar voordat je dat doet, moet je eerst de **begrippen** in je centrale vraag goed afbakenen. Dat geeft je onderzoeksproject structuur en helderheid. Het laat ook je omgeving, oftewel de stakeholders, zien waar je onderzoek over gaat, en, minstens zo belangrijk, waar het **niet** over gaat."
+      }
     ]
   },
   {
-    id: 'kern', titel: 'Kernstof',
-    blokken: [
-      { type: 'voorbeeld', titel: 'Eetgewoonten (dieetonderzoek Motivaction)',
-        tekst: 'In 2015 onderzocht Motivaction in opdracht van het Voedingscentrum de eetgewoonten van de Nederlandse bevolking (Keuchenius & Van der Lelij, 2015). De nadruk lag op duurzaamheid van eetgewoonten en op voedselverspilling in verschillende sociale klassen. Ze baseerden hun onderzoeksontwerp op het **Mentality Model**, dat is gebaseerd op verschillende typen sociale klassen en groepen in de Nederlandse samenleving. Elke groep heeft eigen waarden, waaraan bepaalde aannames zijn gekoppeld. Specifieke eetgewoonten worden geassocieerd met die waarden.' },
-      { type: 'tekst', titel: '5.1 Begripsafbakening', toetsstof: true,
-        tekst: 'Zodra het doel en de vraaggebieden van je onderzoek helder zijn, kun je de volgende stap zetten: je verheldert de begrippen die in je centrale vraag worden gebruikt. Je kunt niet zomaar van vraag naar vragenlijst springen! Doe je dat wel, dan loop je het risico op onnauwkeurigheden bij het verzamelen van informatie.\n\nGa je bijvoorbeeld onderzoek doen naar de "lifestyle" van jongeren, dan moet je eerst definiëren wat je met lifestyle bedoelt.' },
-      { type: 'voorbeeld', titel: 'Ziekteverzuim (1)',
-        tekst: 'Stel je doet onderzoek in een bedrijf naar de vraag: "Hoe kan ziekteverzuim succesvol worden teruggedrongen?" Vanzelfsprekend stel je eerst vast of er een probleem is: hoe hoog is het ziekteverzuim? Vervolgens ga je mensen interviewen met een vragenlijst. Je benadert alle medewerkers die verzuimd hebben: mensen die thuis zijn met griep, net uit het ziekenhuis komen, lijden aan een burn-out, ernstig ziek zijn, of op weg naar een arbeidsongeschiktheidsuitkering. Is dat de juiste aanpak?\n\nHet voorbeeld laat zien dat je respondenten kunt verwarren als je de termen in je vraag niet duidelijk definieert. Die begrippen kunnen op zeer verschillende manieren worden beschreven, vanuit het perspectief van de organisatie én vanuit het perspectief van het personeel.\n\nVanuit de organisatie kun je ziekteverzuim beschrijven als: het totaal aantal ziektedagen per organisatie per jaar; de gemiddelde duur van verzuim per jaar; het totaal aantal werkdagen van personeel gedeeld door al het verzuim; of het percentage van de totale werktijd dat de medewerker afwezig was door ziekte.\n\nVanuit het personeel kun je ziekteverzuim beschrijven als: ziekte door gezondheidsproblemen; ziekte door psychosociale problemen; of ziekte door emotionele problemen.' },
-      { type: 'tekst', titel: 'Subjectiviteit en het gevaar van verkeerde vragen', toetsstof: true,
-        tekst: 'Een ander aspect is de **subjectiviteit** van de respondenten, omdat sommige mensen sneller geneigd zijn zich ziek te voelen en thuis te blijven dan anderen. Definieer je de begrippen niet goed, dan kom je nergens: je stelt een grote kans op de verkeerde vragen, zoals in het voorbeeld. Je zou niet aan iemand die op het punt staat arbeidsongeschikt te worden verklaard vragen: "Wanneer hoop je weer aan het werk te gaan?"\n\nLet op: je definieert de begrippen, je werkt hier nog geen vragen voor je vragenlijst uit. Je zorgt op dit punt nog niet dat de begrippen "onderzoekbaar" zijn. Dat aspect, **operationalisering**, wordt later behandeld.' },
-      { type: 'tekst', titel: 'Concept-as-intended', toetsstof: true,
-        tekst: 'Het eerste dat je doet is vaststellen wat je bedoelt wanneer je een specifiek begrip gebruikt (**concept-as-intended**). Het begrip "lifestyle" in jongerenonderzoek wordt bijvoorbeeld beschreven als "de groep waartoe jongeren zichzelf rekenen op het gebied van kleding en muziek" (De Volkskrant, 24 november 2005).\n\nEr zijn meerdere redenen waarom het definiëren van het begrip noodzakelijk is:\n\n- De betekenis van het begrip ligt **vast** en is helder gedurende het hele onderzoek.\n- Je bakent duidelijk de **grenzen** van je onderzoek af: wat je wel en wat je niet van plan bent te onderzoeken (Van Buuren & Hummel, 1997).\n- De afbakening van het begrip bepaalt welke informatie tijdens de dataverzameling moet worden verzameld.\n\nKortom, je bakent het domein van je onderzoeksproject af.' },
-      { type: 'begrippen', titel: 'Kernbegrip', items: [
-        { begrip: 'Begripsafbakening (concept-as-intended)', definitie: 'Vaststellen wat je bedoelt wanneer je een specifiek begrip gebruikt.' }
-      ]},
-      { type: 'tekst', titel: 'Stipulatieve definitie', toetsstof: true,
-        tekst: 'Hoe kom je tot de juiste definitie, oftewel de meest werkbare definitie voor jouw onderzoek? Bij theoretisch onderzoek zoeken onderzoekers meestal in de wetenschappelijke literatuur. Die definities zijn voor toegepast onderzoek meestal ongeschikt omdat ze te breed zijn. Verschuren en Doorewaard (2010) bevelen daarom zogenoemde **stipulatieve definities** aan: definities die specifiek voor jouw onderzoeksproject gelden. De definitie begint dan met: "In de context van dit onderzoek betekent [begrip] ...".\n\nBelangrijk is dat de definities werkbaar zijn: houd rekening met de drie eerder genoemde redenen om te definiëren. Bedenk ook dat definities niet alleen aangeven wat binnen het begrip valt, maar ook wat erbuiten valt. Met andere woorden: wat valt binnen en wat valt buiten de grenzen van je onderzoek?' },
-      { type: 'voorbeeld', titel: 'Ziekteverzuim (2), stipulatief gedefinieerd',
-        tekst: 'Ziekteverzuim is een begrip dat voor interpretatie vatbaar is: het is ambigu. Mensen bepalen zelf of ze ziek zijn of niet. Soms zijn ze niet ziek in de strikte zin van het woord (fysiek lijden aan een ziekte). Emotionele en psychologische factoren kunnen een rol spelen bij verzuim. Daarom moet onderscheid worden gemaakt tussen fysieke en psychologische redenen om zich ziek te melden. Hopstaken (1994) verdeelt ziekteverzuim in haar onderzoek in drie typen:\n\n- **wit**: er zijn aantoonbare gezondheidsproblemen;\n- **grijs**: het is niet duidelijk of er aantoonbare gezondheidsproblemen zijn, maar zo voelt het wel;\n- **zwart**: gezondheidsproblemen zijn niet de oorzaak van het verzuim.\n\nOp deze manier geeft Hopstaken op stipulatieve wijze aan wat zij bedoelt met "ziekteverzuim" en "hoog ziekteverzuim".' },
-      { type: 'begrippen', titel: 'Kernbegrip', items: [
-        { begrip: 'Stipulatieve definitie', definitie: 'Een definitie van een begrip die specifiek voor een bepaald onderzoek geldt.' }
-      ]},
-      { type: 'tekst', titel: '5.2 Modellen en aannames', toetsstof: true,
-        tekst: 'Nadat je de begrippen hebt gedefinieerd, formuleer je de aannames die je hebt over de resultaten van je onderzoek, onderbouwd met uitspraken en bevindingen uit eerder onderzoek. Je kunt een model gebruiken om die aannames te structureren. Je presenteert je model in een vereenvoudigde **diagramstijl**, ook wel een **onderzoeksmodel** of **conceptueel model** genoemd. Daarin laat je zien welke factoren een rol spelen in je onderzoek en welke relatie je tussen die factoren verwacht.' },
-      { type: 'tekst', titel: 'Het conceptueel model', toetsstof: true,
-        tekst: 'Een model is een vereenvoudigde weergave van de werkelijkheid (of een deel daarvan); erin laat je zien wat je verwacht dat je onderzoeksbevindingen zullen laten zien.\n\nEr zijn veel manieren om een model te maken, maar belangrijk is dat het alle aspecten toont die in je begripsdefinities zijn opgenomen. Daarom wordt het vaak een **conceptueel model** genoemd, bestaand uit drie onderdelen:\n\n1. de **elementen** van het afgebakende domein;\n2. **bouwstenen**: alle belangrijke begrippen en/of factoren die een rol spelen in de centrale vraag;\n3. alle mogelijke **relaties** die je tussen deze factoren verwacht te vinden.' },
-      { type: 'voorbeeld', titel: 'Het Social Impact Model',
-        tekst: 'Een voorbeeld van zo\u2019n model is het Social Impact Model (Van der Kooi, 2014). Het domein is de impact van sociale media. Het bestaat uit vijf elementen, van "reach" tot "impact": **reach, influence, engagement, action, impact**. Deze elementen bestaan op hun beurt uit bouwstenen, die per element zijn uitgewerkt. De onderlinge relaties worden weergegeven door een piramide in oplopende mate van invloed.' },
-      { type: 'tekst', titel: 'Causale en wederkerige relaties', toetsstof: true,
-        tekst: 'In sommige gevallen weerspiegelt het model **causale relaties**. Causale relaties zijn een bijzonder type relatie: het verband tussen oorzaak en effect. In andere gevallen kan het gaan om **wederkerige relaties** (two-way relationships) (Swanborn, 2010; Verschuren & Doorewaard, 2015).\n\nBij een wederkerige relatie heeft de pijl twee pijlpunten: dit toont dat de onderzoeker verwacht een tweerichtingsrelatie (of correlatie) te vinden tussen twee bouwstenen. Bijvoorbeeld tussen opleidingsniveau en inkomen: hoe hoger de opleiding, hoe hoger het inkomen, en andersom, hoe hoger het inkomen, hoe hoger de opleiding. De aanname is dan: "Er is een relatie tussen opleidingsniveau en inkomen."\n\nHeeft de pijl slechts één pijlpunt, dan wordt een **effect** op het inkomensniveau verwacht: als iemand een hoger opleidingsniveau heeft, dan zal hij of zij een hoger inkomen hebben. De relatie heeft dan een **richting**: een causale relatie, of oorzaak-gevolgrelatie.' },
-      { type: 'begrippen', titel: 'Kernbegrippen', items: [
-        { begrip: 'Conceptueel model', definitie: 'Vereenvoudigde weergave van de werkelijkheid waarin (binnen het domein) de belangrijkste begrippen van het onderzoek en de verwachte relaties daartussen worden getoond.' },
-        { begrip: 'Wederkerige relatie', definitie: 'Correlatie tussen twee bouwstenen/factoren in een model, weergegeven met een pijl met twee pijlpunten.' },
-        { begrip: 'Causale relatie', definitie: 'Oorzaak-gevolgrelatie, weergegeven met een pijl met één pijlpunt.' }
-      ]},
-      { type: 'voorbeeld', titel: 'Een conceptueel model van inkomensniveau',
-        tekst: 'Een model kan aannames weergeven over de effecten op inkomensniveau. Het model is niet uitputtend, het is slechts een voorbeeld. De aanname is dat leeftijd, opleidingsniveau, functieniveau en werkervaring allemaal invloed hebben op inkomen. De pijlen met één pijlpunt geven aan dat deze kenmerken niet alleen correleren met inkomen, maar dat de onderzoeker ook een richting in die correlatie verwacht, dus een effect:\n\n- opleidingsniveau heeft een **positief effect** op inkomensniveau: wie hoger is opgeleid, verdient naar verwachting ook meer;\n- werkervaring heeft een **positieve invloed** op inkomensniveau: meer werkervaring leidt naar verwachting tot een hoger inkomen;\n- functieniveau heeft een **positief effect** op inkomen;\n- leeftijd heeft een **positieve invloed** op inkomensniveau.\n\nEr zijn ook pijlen die in beide richtingen lopen tussen de verschillende factoren onderling, bijvoorbeeld tussen opleidingsniveau, functieniveau en werkervaring. Dat betekent dat de onderzoeker verwacht dat er ook een relatie tussen die factoren bestaat die niet puur toevallig is: een wederkerige relatie.' },
-      { type: 'tekst', titel: 'Aannames formuleren op basis van je model', toetsstof: true,
-        tekst: 'De relaties in je model geven aan wat je verwachtingen of aannames zijn over de bevindingen, in elk geval bij een **deductieve** (theorietoetsende) onderzoeksstrategie. Je aanname is uiteraard geen slag in de lucht: je moet die kunnen onderbouwen met degelijke argumenten. Daarvoor gebruik je de theorieën en modellen uit je vooronderzoek.' },
-      { type: 'voorbeeld', titel: 'Onderzoek naar ziekteverzuim (3): de theorie van gepland gedrag',
-        tekst: 'Om een model te maken voor haar onderzoek naar ziekteverzuim gebruikte Hopstaken de **theorie van gepland gedrag** (Ajzen, 1987; Ajzen & Fishbein, 1980; Hopstaken, 1994). Dit model laat zien hoe je kunt vaststellen of mensen zich op een bepaalde manier zullen gedragen, bijvoorbeeld door ziekteverzuim, door hen te vragen of ze van plan zijn zich op een bepaalde manier te gedragen. Die "intentie" wordt op haar beurt bepaald door **attitude** (wat is je mening? wat is je houding?) en **sociale normen** (wat denken mensen om je heen?) ten aanzien van het gedrag. Een andere beïnvloedende factor is **zelfcontrole** (ga ik het echt doen?). Ook eventuele "barrières" die het gedrag kunnen beïnvloeden worden meegenomen. Dit is een lastig wetenschappelijk model dat vaak wordt gebruikt om gedrag te verklaren. Dit gedragsmodel is een **causaal conceptueel model**, omdat het model wordt gebruikt om aan te geven wat gedrag veroorzaakt en wat de gevolgen zijn.\n\nHet **Mentality Model** werd gebruikt voor onderzoek naar eetgewoonten in sociale klassen in Nederland (Keuchenius & Van der Lelij, 2015). In dit model bestaat een set aannames over eetgewoonten per sociale klasse. Tijdens het onderzoek is bekeken in hoeverre de door Motivaction gevonden eetgewoonten met die verwachtingen overeenkwamen. Een voorbeeld van het dieet van de traditionele burgerij is: "Behoudende burgers eten van oudsher aardappelen, zuivelproducten en veel fruit. Ze houden helemaal niet van buitenlandse gerechten en alternatieve vleesvervangers: wat ze niet kennen, dat willen ze niet. Hun eetgewoonten zijn vaak duurzaam omdat ze zuinig zijn en niets weggooien."' },
-      { type: 'tekst', titel: 'Wanneer bouw je een model?', toetsstof: true,
-        tekst: 'Modelbouw gebeurt vooral bij kwantitatief, fundamenteel onderzoek. Onderzoekers die toegepast onderzoek doen, gebruiken modellen veel minder vaak. Toch zijn ze nuttige instrumenten om de factoren die een rol spelen in je onderzoek en de relaties die je daartussen verwacht te visualiseren. Zelfs als het model niet op een bestaande theorie is gebaseerd, of als je een praktisch probleem onderzoekt, is het nog steeds een goed idee om je onderzoek op deze manier te structureren.' }
+    "id": "kern",
+    "titel": "Kernstof",
+    "blokken": [
+      {
+        "type": "voorbeeld",
+        "titel": "Eetgewoonten (dieetonderzoek Motivaction)",
+        "tekst": "In 2015 onderzocht Motivaction in opdracht van het Voedingscentrum de eetgewoonten van de Nederlandse bevolking (Keuchenius & Van der Lelij, 2015). De nadruk lag op duurzaamheid van eetgewoonten en op voedselverspilling in verschillende sociale klassen. Ze baseerden hun onderzoeksontwerp op het **Mentality Model**, dat is gebaseerd op verschillende typen sociale klassen en groepen in de Nederlandse samenleving. Elke groep heeft eigen waarden, waaraan bepaalde aannames zijn gekoppeld. Specifieke eetgewoonten worden geassocieerd met die waarden."
+      },
+      {
+        "type": "tekst",
+        "titel": "5.1 Begripsafbakening",
+        "toetsstof": true,
+        "tekst": "Zodra het doel en de vraaggebieden van je onderzoek helder zijn, kun je de volgende stap zetten: je verheldert de begrippen die in je centrale vraag worden gebruikt. Je kunt niet zomaar van vraag naar vragenlijst springen! Doe je dat wel, dan loop je het risico op onnauwkeurigheden bij het verzamelen van informatie.\n\nGa je bijvoorbeeld onderzoek doen naar de \"lifestyle\" van jongeren, dan moet je eerst definiëren wat je met lifestyle bedoelt."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nOnce your goal and questions are clear, you define your key concepts precisely, so everyone knows exactly what you mean."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Ziekteverzuim (1)",
+        "tekst": "Stel je doet onderzoek in een bedrijf naar de vraag: \"Hoe kan ziekteverzuim succesvol worden teruggedrongen?\" Vanzelfsprekend stel je eerst vast of er een probleem is: hoe hoog is het ziekteverzuim? Vervolgens ga je mensen interviewen met een vragenlijst. Je benadert alle medewerkers die verzuimd hebben: mensen die thuis zijn met griep, net uit het ziekenhuis komen, lijden aan een burn-out, ernstig ziek zijn, of op weg naar een arbeidsongeschiktheidsuitkering. Is dat de juiste aanpak?\n\nHet voorbeeld laat zien dat je respondenten kunt verwarren als je de termen in je vraag niet duidelijk definieert. Die begrippen kunnen op zeer verschillende manieren worden beschreven, vanuit het perspectief van de organisatie én vanuit het perspectief van het personeel.\n\nVanuit de organisatie kun je ziekteverzuim beschrijven als: het totaal aantal ziektedagen per organisatie per jaar; de gemiddelde duur van verzuim per jaar; het totaal aantal werkdagen van personeel gedeeld door al het verzuim; of het percentage van de totale werktijd dat de medewerker afwezig was door ziekte.\n\nVanuit het personeel kun je ziekteverzuim beschrijven als: ziekte door gezondheidsproblemen; ziekte door psychosociale problemen; of ziekte door emotionele problemen."
+      },
+      {
+        "type": "tekst",
+        "titel": "Subjectiviteit en het gevaar van verkeerde vragen",
+        "toetsstof": true,
+        "tekst": "Een ander aspect is de **subjectiviteit** van de respondenten, omdat sommige mensen sneller geneigd zijn zich ziek te voelen en thuis te blijven dan anderen. Definieer je de begrippen niet goed, dan kom je nergens: je stelt een grote kans op de verkeerde vragen, zoals in het voorbeeld. Je zou niet aan iemand die op het punt staat arbeidsongeschikt te worden verklaard vragen: \"Wanneer hoop je weer aan het werk te gaan?\"\n\nLet op: je definieert de begrippen, je werkt hier nog geen vragen voor je vragenlijst uit. Je zorgt op dit punt nog niet dat de begrippen \"onderzoekbaar\" zijn. Dat aspect, **operationalisering**, wordt later behandeld."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPeople interpret words differently, for example what 'being ill' means. Unclear concepts lead to the wrong questions and unreliable answers."
+      },
+      {
+        "type": "tekst",
+        "titel": "Concept-as-intended",
+        "toetsstof": true,
+        "tekst": "Het eerste dat je doet is vaststellen wat je bedoelt wanneer je een specifiek begrip gebruikt (**concept-as-intended**). Het begrip \"lifestyle\" in jongerenonderzoek wordt bijvoorbeeld beschreven als \"de groep waartoe jongeren zichzelf rekenen op het gebied van kleding en muziek\" (De Volkskrant, 24 november 2005).\n\nEr zijn meerdere redenen waarom het definiëren van het begrip noodzakelijk is:\n\n- De betekenis van het begrip ligt **vast** en is helder gedurende het hele onderzoek.\n- Je bakent duidelijk de **grenzen** van je onderzoek af: wat je wel en wat je niet van plan bent te onderzoeken (Van Buuren & Hummel, 1997).\n- De afbakening van het begrip bepaalt welke informatie tijdens de dataverzameling moet worden verzameld.\n\nKortom, je bakent het domein van je onderzoeksproject af."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nFirst decide what you mean by a concept: the concept as intended. Later you turn it into something you can measure."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrip",
+        "items": [
+          {
+            "begrip": "Begripsafbakening (concept-as-intended)",
+            "definitie": "Vaststellen wat je bedoelt wanneer je een specifiek begrip gebruikt."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "Stipulatieve definitie",
+        "toetsstof": true,
+        "tekst": "Hoe kom je tot de juiste definitie, oftewel de meest werkbare definitie voor jouw onderzoek? Bij theoretisch onderzoek zoeken onderzoekers meestal in de wetenschappelijke literatuur. Die definities zijn voor toegepast onderzoek meestal ongeschikt omdat ze te breed zijn. Verschuren en Doorewaard (2010) bevelen daarom zogenoemde **[[stipulatieve definities|Stipulatieve definitie]]** aan: definities die specifiek voor jouw onderzoeksproject gelden. De definitie begint dan met: \"In de context van dit onderzoek betekent [begrip] ...\".\n\nBelangrijk is dat de definities werkbaar zijn: houd rekening met de drie eerder genoemde redenen om te definiëren. Bedenk ook dat definities niet alleen aangeven wat binnen het begrip valt, maar ook wat erbuiten valt. Met andere woorden: wat valt binnen en wat valt buiten de grenzen van je onderzoek?"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA stipulative definition is the definition you choose to use in your research, so that the concept is clear and workable."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Ziekteverzuim (2), stipulatief gedefinieerd",
+        "tekst": "Ziekteverzuim is een begrip dat voor interpretatie vatbaar is: het is ambigu. Mensen bepalen zelf of ze ziek zijn of niet. Soms zijn ze niet ziek in de strikte zin van het woord (fysiek lijden aan een ziekte). Emotionele en psychologische factoren kunnen een rol spelen bij verzuim. Daarom moet onderscheid worden gemaakt tussen fysieke en psychologische redenen om zich ziek te melden. Hopstaken (1994) verdeelt ziekteverzuim in haar onderzoek in drie typen:\n\n- **wit**: er zijn aantoonbare gezondheidsproblemen;\n- **grijs**: het is niet duidelijk of er aantoonbare gezondheidsproblemen zijn, maar zo voelt het wel;\n- **zwart**: gezondheidsproblemen zijn niet de oorzaak van het verzuim.\n\nOp deze manier geeft Hopstaken op stipulatieve wijze aan wat zij bedoelt met \"ziekteverzuim\" en \"hoog ziekteverzuim\"."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrip",
+        "items": [
+          {
+            "begrip": "Stipulatieve definitie",
+            "definitie": "Een definitie van een begrip die specifiek voor een bepaald onderzoek geldt."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "5.2 Modellen en aannames",
+        "toetsstof": true,
+        "tekst": "Nadat je de begrippen hebt gedefinieerd, formuleer je de aannames die je hebt over de resultaten van je onderzoek, onderbouwd met uitspraken en bevindingen uit eerder onderzoek. Je kunt een model gebruiken om die aannames te structureren. Je presenteert je model in een vereenvoudigde **diagramstijl**, ook wel een **onderzoeksmodel** of **[[conceptueel model|Conceptueel model]]** genoemd. Daarin laat je zien welke factoren een rol spelen in je onderzoek en welke relatie je tussen die factoren verwacht."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nAfter defining the concepts, you write down what you expect to find: your assumptions about how the concepts relate."
+      },
+      {
+        "type": "tekst",
+        "titel": "Het conceptueel model",
+        "toetsstof": true,
+        "tekst": "Een model is een vereenvoudigde weergave van de werkelijkheid (of een deel daarvan); erin laat je zien wat je verwacht dat je onderzoeksbevindingen zullen laten zien.\n\nEr zijn veel manieren om een model te maken, maar belangrijk is dat het alle aspecten toont die in je begripsdefinities zijn opgenomen. Daarom wordt het vaak een **[[conceptueel model|Conceptueel model]]** genoemd, bestaand uit drie onderdelen:\n\n1. de **elementen** van het afgebakende domein;\n2. **bouwstenen**: alle belangrijke begrippen en/of factoren die een rol spelen in de centrale vraag;\n3. alle mogelijke **relaties** die je tussen deze factoren verwacht te vinden."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA conceptual model is a simple drawing of reality, with boxes for concepts and arrows for the relations you expect."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Het Social Impact Model",
+        "tekst": "Een voorbeeld van zo’n model is het Social Impact Model (Van der Kooi, 2014). Het domein is de impact van sociale media. Het bestaat uit vijf elementen, van \"reach\" tot \"impact\": **reach, influence, engagement, action, impact**. Deze elementen bestaan op hun beurt uit bouwstenen, die per element zijn uitgewerkt. De onderlinge relaties worden weergegeven door een piramide in oplopende mate van invloed."
+      },
+      {
+        "type": "tekst",
+        "titel": "Causale en wederkerige relaties",
+        "toetsstof": true,
+        "tekst": "In sommige gevallen weerspiegelt het model **[[causale relaties|Causale relatie]]**. Causale relaties zijn een bijzonder type relatie: het verband tussen oorzaak en effect. In andere gevallen kan het gaan om **[[wederkerige relaties|Wederkerige relatie]]** (two-way relationships) (Swanborn, 2010; Verschuren & Doorewaard, 2015).\n\nBij een wederkerige relatie heeft de pijl twee pijlpunten: dit toont dat de onderzoeker verwacht een tweerichtingsrelatie (of correlatie) te vinden tussen twee bouwstenen. Bijvoorbeeld tussen opleidingsniveau en inkomen: hoe hoger de opleiding, hoe hoger het inkomen, en andersom, hoe hoger het inkomen, hoe hoger de opleiding. De aanname is dan: \"Er is een relatie tussen opleidingsniveau en inkomen.\"\n\nHeeft de pijl slechts één pijlpunt, dan wordt een **effect** op het inkomensniveau verwacht: als iemand een hoger opleidingsniveau heeft, dan zal hij of zij een hoger inkomen hebben. De relatie heeft dan een **richting**: een causale relatie, of oorzaak-gevolgrelatie."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nIn a causal relation one thing causes another. In a reciprocal relation two things influence each other in both directions."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrippen",
+        "items": [
+          {
+            "begrip": "Conceptueel model",
+            "definitie": "Vereenvoudigde weergave van de werkelijkheid waarin (binnen het domein) de belangrijkste begrippen van het onderzoek en de verwachte relaties daartussen worden getoond."
+          },
+          {
+            "begrip": "Wederkerige relatie",
+            "definitie": "Correlatie tussen twee bouwstenen/factoren in een model, weergegeven met een pijl met twee pijlpunten."
+          },
+          {
+            "begrip": "Causale relatie",
+            "definitie": "Oorzaak-gevolgrelatie, weergegeven met een pijl met één pijlpunt."
+          }
+        ]
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Een conceptueel model van inkomensniveau",
+        "tekst": "Een model kan aannames weergeven over de effecten op inkomensniveau. Het model is niet uitputtend, het is slechts een voorbeeld. De aanname is dat leeftijd, opleidingsniveau, functieniveau en werkervaring allemaal invloed hebben op inkomen. De pijlen met één pijlpunt geven aan dat deze kenmerken niet alleen correleren met inkomen, maar dat de onderzoeker ook een richting in die correlatie verwacht, dus een effect:\n\n- opleidingsniveau heeft een **positief effect** op inkomensniveau: wie hoger is opgeleid, verdient naar verwachting ook meer;\n- werkervaring heeft een **positieve invloed** op inkomensniveau: meer werkervaring leidt naar verwachting tot een hoger inkomen;\n- functieniveau heeft een **positief effect** op inkomen;\n- leeftijd heeft een **positieve invloed** op inkomensniveau.\n\nEr zijn ook pijlen die in beide richtingen lopen tussen de verschillende factoren onderling, bijvoorbeeld tussen opleidingsniveau, functieniveau en werkervaring. Dat betekent dat de onderzoeker verwacht dat er ook een relatie tussen die factoren bestaat die niet puur toevallig is: een [[wederkerige relatie|Wederkerige relatie]]."
+      },
+      {
+        "type": "tekst",
+        "titel": "Aannames formuleren op basis van je model",
+        "toetsstof": true,
+        "tekst": "De relaties in je model geven aan wat je verwachtingen of aannames zijn over de bevindingen, in elk geval bij een **deductieve** (theorietoetsende) onderzoeksstrategie. Je aanname is uiteraard geen slag in de lucht: je moet die kunnen onderbouwen met degelijke argumenten. Daarvoor gebruik je de theorieën en modellen uit je vooronderzoek."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe arrows in your model show your expectations, which you can test as assumptions or hypotheses."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Onderzoek naar ziekteverzuim (3): de theorie van gepland gedrag",
+        "tekst": "Om een model te maken voor haar onderzoek naar ziekteverzuim gebruikte Hopstaken de **theorie van gepland gedrag** (Ajzen, 1987; Ajzen & Fishbein, 1980; Hopstaken, 1994). Dit model laat zien hoe je kunt vaststellen of mensen zich op een bepaalde manier zullen gedragen, bijvoorbeeld door ziekteverzuim, door hen te vragen of ze van plan zijn zich op een bepaalde manier te gedragen. Die \"intentie\" wordt op haar beurt bepaald door **attitude** (wat is je mening? wat is je houding?) en **sociale normen** (wat denken mensen om je heen?) ten aanzien van het gedrag. Een andere beïnvloedende factor is **zelfcontrole** (ga ik het echt doen?). Ook eventuele \"barrières\" die het gedrag kunnen beïnvloeden worden meegenomen. Dit is een lastig wetenschappelijk model dat vaak wordt gebruikt om gedrag te verklaren. Dit gedragsmodel is een **causaal [[conceptueel model|Conceptueel model]]**, omdat het model wordt gebruikt om aan te geven wat gedrag veroorzaakt en wat de gevolgen zijn.\n\nHet **Mentality Model** werd gebruikt voor onderzoek naar eetgewoonten in sociale klassen in Nederland (Keuchenius & Van der Lelij, 2015). In dit model bestaat een set aannames over eetgewoonten per sociale klasse. Tijdens het onderzoek is bekeken in hoeverre de door Motivaction gevonden eetgewoonten met die verwachtingen overeenkwamen. Een voorbeeld van het dieet van de traditionele burgerij is: \"Behoudende burgers eten van oudsher aardappelen, zuivelproducten en veel fruit. Ze houden helemaal niet van buitenlandse gerechten en alternatieve vleesvervangers: wat ze niet kennen, dat willen ze niet. Hun eetgewoonten zijn vaak duurzaam omdat ze zuinig zijn en niets weggooien.\""
+      },
+      {
+        "type": "tekst",
+        "titel": "Wanneer bouw je een model?",
+        "toetsstof": true,
+        "tekst": "Modelbouw gebeurt vooral bij kwantitatief, fundamenteel onderzoek. Onderzoekers die toegepast onderzoek doen, gebruiken modellen veel minder vaak. Toch zijn ze nuttige instrumenten om de factoren die een rol spelen in je onderzoek en de relaties die je daartussen verwacht te visualiseren. Zelfs als het model niet op een bestaande theorie is gebaseerd, of als je een praktisch probleem onderzoekt, is het nog steeds een goed idee om je onderzoek op deze manier te structureren."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nModels are used mostly in quantitative, fundamental research. In applied research they are used less often, but they still help to organise your thinking."
+      }
     ]
   },
   {
-    id: 'toepassen', titel: 'Toepassen',
-    blokken: [
-      { type: 'stappen', titel: 'Van vraag naar conceptueel model', items: [
-        { titel: 'Onderstreep de kernbegrippen in je centrale vraag', tekst: 'Elk begrip dat voor meerdere uitleg vatbaar is, moet je afbakenen.' },
-        { titel: 'Formuleer per begrip het concept-as-intended', tekst: 'Wat bedoel jij ermee, in de context van dit specifieke onderzoek?' },
-        { titel: 'Maak er een stipulatieve definitie van', tekst: 'Begin met "In de context van dit onderzoek betekent ... " en benoem expliciet wat wel en wat niet binnen het begrip valt.' },
-        { titel: 'Zoek een bestaand model of bouw er zelf een', tekst: 'Kijk in je vooronderzoek naar theorieën en modellen die al bestaan voor jouw onderwerp.' },
-        { titel: 'Benoem de elementen, bouwstenen en relaties', tekst: 'Welke factoren spelen een rol? Welke relaties verwacht je daartussen: causaal (één pijlpunt) of wederkerig (twee pijlpunten)?' },
-        { titel: 'Formuleer de aannames in woorden', tekst: 'Vertaal elke pijl in het model naar een zin: "X heeft een positief effect op Y" of "Er is een relatie tussen X en Y."' },
-        { titel: 'Onderbouw elke aanname', tekst: 'Met welke theorie, welk eerder onderzoek of welk model uit je vooronderzoek onderbouw je deze verwachting?' }
-      ]},
-      { type: 'oefening', id: 'ch5-oef-1', niveau: 'basis',
-        vraag: 'Waarom moet je bij het onderzoeken van "werkstress" eerst het begrip afbakenen voordat je een vragenlijst maakt?',
-        antwoord: 'Werkstress is, net als ziekteverzuim, een ambigu begrip dat vanuit verschillende perspectieven anders kan worden ingevuld: vanuit de organisatie (bijvoorbeeld gemeten in verzuimdagen of productiviteitsverlies) en vanuit het personeel (bijvoorbeeld gevoelens van overbelasting, spanning in het privéleven, of lichamelijke klachten). Zonder een concept-as-intended en een stipulatieve definitie loop je het risico dat respondenten allemaal iets anders onder werkstress verstaan, waardoor je vragenlijst mensen verkeerde of onduidelijke vragen stelt en je data niet goed vergelijkbaar zijn. Door eerst te definiëren wat je in dit specifieke onderzoek onder werkstress verstaat, en wat daarbuiten valt, bepaal je tegelijk welke informatie je tijdens de dataverzameling nodig hebt, en voorkom je dat je de verkeerde mensen de verkeerde vragen stelt.' },
-      { type: 'oefening', id: 'ch5-oef-2', niveau: 'gevorderd',
-        vraag: 'Teken in woorden een conceptueel model voor de centrale vraag "In hoeverre beïnvloeden leiderschapsstijl en werkdruk het verloop onder personeel?" Benoem de elementen, de bouwstenen en het type relatie, en onderbouw één aanname.',
-        antwoord: 'Het domein is personeelsverloop binnen een organisatie. De elementen van het model zijn leiderschapsstijl, werkdruk en personeelsverloop, met verloop als de bouwsteen die uiteindelijk verklaard moet worden. Leiderschapsstijl en werkdruk zijn de verklarende bouwstenen. Tussen leiderschapsstijl en verloop teken je een pijl met één pijlpunt: een causale relatie, met de aanname dat een sturende, weinig ondersteunende leiderschapsstijl een positief effect heeft op verloop (dus: meer verloop veroorzaakt). Tussen werkdruk en verloop teken je eveneens een pijl met één pijlpunt: hogere werkdruk heeft een positief effect op verloop. Tussen leiderschapsstijl en werkdruk kun je een pijl met twee pijlpunten tekenen, een wederkerige relatie, omdat je verwacht dat een bepaalde leiderschapsstijl samenhangt met een hogere of lagere werkdruk zonder dat je vooraf een duidelijke richting vaststelt. De aanname "werkdruk heeft een positief effect op verloop" onderbouw je met bestaande theorie uit je vooronderzoek, bijvoorbeeld onderzoek naar burn-out en de theorie van gepland gedrag: hoge werkdruk beïnvloedt de attitude van medewerkers ten opzichte van hun baan negatief, wat de intentie om te vertrekken vergroot, wat weer samenhangt met daadwerkelijk verloop.' }
+    "id": "toepassen",
+    "titel": "Toepassen",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "Van vraag naar conceptueel model",
+        "items": [
+          {
+            "titel": "Onderstreep de kernbegrippen in je centrale vraag",
+            "tekst": "Elk begrip dat voor meerdere uitleg vatbaar is, moet je afbakenen."
+          },
+          {
+            "titel": "Formuleer per begrip het concept-as-intended",
+            "tekst": "Wat bedoel jij ermee, in de context van dit specifieke onderzoek?"
+          },
+          {
+            "titel": "Maak er een stipulatieve definitie van",
+            "tekst": "Begin met \"In de context van dit onderzoek betekent ... \" en benoem expliciet wat wel en wat niet binnen het begrip valt."
+          },
+          {
+            "titel": "Zoek een bestaand model of bouw er zelf een",
+            "tekst": "Kijk in je vooronderzoek naar theorieën en modellen die al bestaan voor jouw onderwerp."
+          },
+          {
+            "titel": "Benoem de elementen, bouwstenen en relaties",
+            "tekst": "Welke factoren spelen een rol? Welke relaties verwacht je daartussen: causaal (één pijlpunt) of wederkerig (twee pijlpunten)?"
+          },
+          {
+            "titel": "Formuleer de aannames in woorden",
+            "tekst": "Vertaal elke pijl in het model naar een zin: \"X heeft een positief effect op Y\" of \"Er is een relatie tussen X en Y.\""
+          },
+          {
+            "titel": "Onderbouw elke aanname",
+            "tekst": "Met welke theorie, welk eerder onderzoek of welk model uit je vooronderzoek onderbouw je deze verwachting?"
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "ch5-oef-1",
+        "niveau": "basis",
+        "vraag": "Waarom moet je bij het onderzoeken van \"werkstress\" eerst het begrip afbakenen voordat je een vragenlijst maakt?",
+        "antwoord": "Werkstress is, net als ziekteverzuim, een ambigu begrip dat vanuit verschillende perspectieven anders kan worden ingevuld: vanuit de organisatie (bijvoorbeeld gemeten in verzuimdagen of productiviteitsverlies) en vanuit het personeel (bijvoorbeeld gevoelens van overbelasting, spanning in het privéleven, of lichamelijke klachten). Zonder een concept-as-intended en een stipulatieve definitie loop je het risico dat respondenten allemaal iets anders onder werkstress verstaan, waardoor je vragenlijst mensen verkeerde of onduidelijke vragen stelt en je data niet goed vergelijkbaar zijn. Door eerst te definiëren wat je in dit specifieke onderzoek onder werkstress verstaat, en wat daarbuiten valt, bepaal je tegelijk welke informatie je tijdens de dataverzameling nodig hebt, en voorkom je dat je de verkeerde mensen de verkeerde vragen stelt."
+      },
+      {
+        "type": "oefening",
+        "id": "ch5-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "Teken in woorden een conceptueel model voor de centrale vraag \"In hoeverre beïnvloeden leiderschapsstijl en werkdruk het verloop onder personeel?\" Benoem de elementen, de bouwstenen en het type relatie, en onderbouw één aanname.",
+        "antwoord": "Het domein is personeelsverloop binnen een organisatie. De elementen van het model zijn leiderschapsstijl, werkdruk en personeelsverloop, met verloop als de bouwsteen die uiteindelijk verklaard moet worden. Leiderschapsstijl en werkdruk zijn de verklarende bouwstenen. Tussen leiderschapsstijl en verloop teken je een pijl met één pijlpunt: een causale relatie, met de aanname dat een sturende, weinig ondersteunende leiderschapsstijl een positief effect heeft op verloop (dus: meer verloop veroorzaakt). Tussen werkdruk en verloop teken je eveneens een pijl met één pijlpunt: hogere werkdruk heeft een positief effect op verloop. Tussen leiderschapsstijl en werkdruk kun je een pijl met twee pijlpunten tekenen, een wederkerige relatie, omdat je verwacht dat een bepaalde leiderschapsstijl samenhangt met een hogere of lagere werkdruk zonder dat je vooraf een duidelijke richting vaststelt. De aanname \"werkdruk heeft een positief effect op verloop\" onderbouw je met bestaande theorie uit je vooronderzoek, bijvoorbeeld onderzoek naar burn-out en de theorie van gepland gedrag: hoge werkdruk beïnvloedt de attitude van medewerkers ten opzichte van hun baan negatief, wat de intentie om te vertrekken vergroot, wat weer samenhangt met daadwerkelijk verloop."
+      }
     ]
   },
   {
-    id: 'checken', titel: 'Checken',
-    blokken: [
-      { type: 'quiz', titel: 'Check jezelf', vragen: [
-        { vraag: 'Wat is concept-as-intended?',
-          opties: ['Een vragenlijstitem', 'Wat je bedoelt wanneer je een specifiek begrip gebruikt', 'Een statistische toets', 'Een type conceptueel model'],
-          juist: 1, uitleg: 'Dit is de eerste stap in begripsafbakening: vaststellen wat je precies bedoelt met een begrip in je centrale vraag.' },
-        { vraag: 'Waarom raden Verschuren en Doorewaard stipulatieve definities aan voor toegepast onderzoek?',
-          opties: ['Omdat wetenschappelijke definities meestal te breed zijn voor toegepast onderzoek', 'Omdat stipulatieve definities korter zijn', 'Omdat de opdrachtgever dat altijd eist', 'Omdat ze verplicht zijn volgens de wet'],
-          juist: 0, uitleg: 'Wetenschappelijke definities uit de literatuur zijn vaak te algemeen; een stipulatieve definitie is toegesneden op jouw specifieke onderzoek.' },
-        { vraag: 'Uit welke drie onderdelen bestaat een conceptueel model?',
-          opties: ['Vraag, hypothese, conclusie', 'Elementen, bouwstenen, relaties', 'Steekproef, methode, resultaat', 'Inleiding, kern, slot'],
-          juist: 1, uitleg: 'De elementen van het afgebakende domein, de bouwstenen (begrippen/factoren) en de verwachte relaties daartussen.' },
-        { vraag: 'Wat geeft een pijl met twee pijlpunten in een conceptueel model aan?',
-          opties: ['Een causale relatie', 'Een wederkerige relatie (correlatie zonder vastgestelde richting)', 'Geen enkele relatie', 'Een verplicht verband volgens de wet'],
-          juist: 1, uitleg: 'Een pijl met één pijlpunt duidt op een causale (oorzaak-gevolg) relatie; twee pijlpunten duiden op een wederkerige relatie.' },
-        { vraag: 'Welk model gebruikte Hopstaken om ziekteverzuim te verklaren?',
-          opties: ['Het Social Impact Model', 'Het Mentality Model', 'De theorie van gepland gedrag', 'Het 6W-model'],
-          juist: 2, uitleg: 'Ze gebruikte de theorie van gepland gedrag van Ajzen en Fishbein, waarin attitude, sociale normen en zelfcontrole de intentie tot gedrag bepalen.' },
-        { vraag: 'In welk type onderzoek wordt modelbouw het vaakst toegepast?',
-          opties: ['Kwalitatief, toegepast onderzoek', 'Kwantitatief, fundamenteel onderzoek', 'Alleen bij casestudies', 'Nooit bij toegepast onderzoek'],
-          juist: 1, uitleg: 'Onderzoekers die toegepast onderzoek doen gebruiken modellen minder vaak, maar ze blijven nuttig om factoren en relaties te visualiseren.' }
-      ]},
-      { type: 'bronnen', items: [
-        { apa: 'Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 5). Boom uitgevers.' },
-        { apa: 'Ajzen, I., & Fishbein, M. (1980). Understanding attitudes and predicting social behavior. Prentice-Hall.' },
-        { apa: 'Verschuren, P., & Doorewaard, H. (2015). Het ontwerpen van een onderzoek. Boom Lemma.' }
-      ]},
-      { type: 'preview', titel: 'Van model naar variabelen', vakId: 'demystifying-research-methods', lesId: 'ch13',
-        tekst: 'Je conceptueel model bestaat uit factoren met relaties ertussen. Zodra je data hebt verzameld, worden die factoren variabelen die je moet klaarmaken voor analyse.',
-        punten: ['Wat een variabele precies is', 'Onafhankelijke versus afhankelijke variabelen', 'Software voor kwantitatieve analyse'] }
+    "id": "checken",
+    "titel": "Checken",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Check jezelf",
+        "vragen": [
+          {
+            "vraag": "Wat is concept-as-intended?",
+            "opties": [
+              "Een vragenlijstitem",
+              "Wat je bedoelt wanneer je een specifiek begrip gebruikt",
+              "Een statistische toets",
+              "Een type conceptueel model"
+            ],
+            "juist": 1,
+            "uitleg": "Dit is de eerste stap in begripsafbakening: vaststellen wat je precies bedoelt met een begrip in je centrale vraag."
+          },
+          {
+            "vraag": "Waarom raden Verschuren en Doorewaard stipulatieve definities aan voor toegepast onderzoek?",
+            "opties": [
+              "Omdat wetenschappelijke definities meestal te breed zijn voor toegepast onderzoek",
+              "Omdat stipulatieve definities korter zijn",
+              "Omdat de opdrachtgever dat altijd eist",
+              "Omdat ze verplicht zijn volgens de wet"
+            ],
+            "juist": 0,
+            "uitleg": "Wetenschappelijke definities uit de literatuur zijn vaak te algemeen; een stipulatieve definitie is toegesneden op jouw specifieke onderzoek."
+          },
+          {
+            "vraag": "Uit welke drie onderdelen bestaat een conceptueel model?",
+            "opties": [
+              "Vraag, hypothese, conclusie",
+              "Elementen, bouwstenen, relaties",
+              "Steekproef, methode, resultaat",
+              "Inleiding, kern, slot"
+            ],
+            "juist": 1,
+            "uitleg": "De elementen van het afgebakende domein, de bouwstenen (begrippen/factoren) en de verwachte relaties daartussen."
+          },
+          {
+            "vraag": "Wat geeft een pijl met twee pijlpunten in een conceptueel model aan?",
+            "opties": [
+              "Een causale relatie",
+              "Een wederkerige relatie (correlatie zonder vastgestelde richting)",
+              "Geen enkele relatie",
+              "Een verplicht verband volgens de wet"
+            ],
+            "juist": 1,
+            "uitleg": "Een pijl met één pijlpunt duidt op een causale (oorzaak-gevolg) relatie; twee pijlpunten duiden op een wederkerige relatie."
+          },
+          {
+            "vraag": "Welk model gebruikte Hopstaken om ziekteverzuim te verklaren?",
+            "opties": [
+              "Het Social Impact Model",
+              "Het Mentality Model",
+              "De theorie van gepland gedrag",
+              "Het 6W-model"
+            ],
+            "juist": 2,
+            "uitleg": "Ze gebruikte de theorie van gepland gedrag van Ajzen en Fishbein, waarin attitude, sociale normen en zelfcontrole de intentie tot gedrag bepalen."
+          },
+          {
+            "vraag": "In welk type onderzoek wordt modelbouw het vaakst toegepast?",
+            "opties": [
+              "Kwalitatief, toegepast onderzoek",
+              "Kwantitatief, fundamenteel onderzoek",
+              "Alleen bij casestudies",
+              "Nooit bij toegepast onderzoek"
+            ],
+            "juist": 1,
+            "uitleg": "Onderzoekers die toegepast onderzoek doen gebruiken modellen minder vaak, maar ze blijven nuttig om factoren en relaties te visualiseren."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 5). Boom uitgevers."
+          },
+          {
+            "apa": "Ajzen, I., & Fishbein, M. (1980). Understanding attitudes and predicting social behavior. Prentice-Hall."
+          },
+          {
+            "apa": "Verschuren, P., & Doorewaard, H. (2015). Het ontwerpen van een onderzoek. Boom Lemma."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "Van model naar variabelen",
+        "vakId": "demystifying-research-methods",
+        "lesId": "ch13",
+        "tekst": "Je conceptueel model bestaat uit factoren met relaties ertussen. Zodra je data hebt verzameld, worden die factoren variabelen die je moet klaarmaken voor analyse.",
+        "punten": [
+          "Wat een variabele precies is",
+          "Onafhankelijke versus afhankelijke variabelen",
+          "Software voor kwantitatieve analyse"
+        ]
+      }
     ]
   }
 ];
@@ -4148,91 +4965,262 @@ LESSTOF['demystifying-research-methods/ch5'] = [
 
 LESSTOF['demystifying-research-methods/ch13'] = [
   {
-    id: 'voor', titel: 'Voorbereiding',
-    blokken: [
-      { type: 'leerdoelen', items: [
-        'Uitleggen wat variabelen zijn en hoe je ze kunt gebruiken',
-        'Het verschil tussen onafhankelijke en afhankelijke variabelen benoemen',
-        'Welke software je kunt gebruiken voor kwantitatieve analyse'
-      ]},
-      { type: 'uitleg', titel: 'Waar dit hoofdstuk over gaat',
-        tekst: 'Dit hoofdstuk gaat over hoe je de kwantitatieve analyse voorbereidt. Deze fase begint zodra je het veldwerk, oftewel de dataverzameling, hebt afgerond. Voordat je begint aan de analyse, moet je weten wat je met je informatie kunt doen, en vooral wat je er **niet** mee kunt doen. Dat begint bij het begrijpen van het begrip **variabele**, dat je in dit hoofdstuk leert kennen.' }
+    "id": "voor",
+    "titel": "Voorbereiding",
+    "blokken": [
+      {
+        "type": "leerdoelen",
+        "items": [
+          "Uitleggen wat variabelen zijn en hoe je ze kunt gebruiken",
+          "Het verschil tussen onafhankelijke en afhankelijke variabelen benoemen",
+          "Welke software je kunt gebruiken voor kwantitatieve analyse"
+        ]
+      },
+      {
+        "type": "slimmer",
+        "titel": "If you are short on time",
+        "tekst": "**1.** Independent and dependent variables, and why the difference matters (10 minutes). **2.** Section 13.1.1: variables and categories (10 minutes). **3.** The quiz and the flashcards (10 minutes)."
+      },
+      {
+        "type": "uitleg",
+        "titel": "Waar dit hoofdstuk over gaat",
+        "tekst": "Dit hoofdstuk gaat over hoe je de kwantitatieve analyse voorbereidt. Deze fase begint zodra je het veldwerk, oftewel de dataverzameling, hebt afgerond. Voordat je begint aan de analyse, moet je weten wat je met je informatie kunt doen, en vooral wat je er **niet** mee kunt doen. Dat begint bij het begrijpen van het begrip **variabele**, dat je in dit hoofdstuk leert kennen."
+      }
     ]
   },
   {
-    id: 'kern', titel: 'Kernstof',
-    blokken: [
-      { type: 'tekst', titel: '13.1.1 Variabelen', toetsstof: true,
-        tekst: 'Zodra je je analyse gaat voorbereiden, kom je vaktaal tegen die gangbaar is in de statistiek. Een van de meest gebruikte termen is het werkwoord **variabele**.\n\nTen eerste is een variabele een **kenmerk (attribuut)** van een object, een geval, of van een persoon die aan je onderzoek deelneemt. Deze variabele kan veranderen in termen van zijn waarde. "Leeftijd" (van de respondent) is bijvoorbeeld een variabele: de ene persoon kan 49 zijn, een ander 12 jaar oud. "Geslacht" (man of vrouw) is een andere variabele. Deze kenmerken, of demografische gegevens, maken deel uit van de vragenlijst. Hun antwoorden zijn de variabele.\n\nDaarnaast kunnen variabelen ook een weergave zijn van gedrag, een mening of een beoordeling van bepaalde zaken en onderwerpen in het onderzoek. Je kunt bijvoorbeeld onderzoek doen naar buurtvoorzieningen. Ook die kwesties worden met vragenlijsten onderzocht. "Mening over de buurtbus" (eens, neutraal of oneens) is dan een variabele.\n\nTot slot kan een variabele bestaan uit een set **items**, namelijk alle mogelijke waarden die de variabele kan hebben. De variabele leeftijd loopt van "0" tot "100". Meningen lopen van "helemaal mee eens" tot "helemaal mee oneens". Voor geslacht zou dat "man" en "vrouw" zijn.' },
-      { type: 'tekst', titel: 'Categorieën', toetsstof: true,
-        tekst: 'Ten slotte kan een variabele bestaan uit een set **categorieën**, namelijk alle mogelijke waarden die de variabele kan hebben. Categorieën worden uitgedrukt als cijfers. Voor de variabele "geslacht" krijgen mannen bijvoorbeeld een "0" en vrouwen een "1". Voor "opleidingsniveau" zou je basisonderwijs een "1" geven, voortgezet onderwijs een "2", hbo een "3", wo-bachelor een "4", master een "5", en promotie (PhD) een "6". Voor "leeftijd" geldt: als iemand 39 is, voer je "39" in.\n\nWat betekenen deze variabelen? Het betekent dat je een nummer, een cijfer, toekent aan een observatie, een meting. Voor leeftijd is dat vrij duidelijk: iemand van 40 is twee keer zo oud als iemand van 20. Met andere woorden, je kunt deze waarden gebruiken om dingen te berekenen. Datzelfde geldt echter niet zomaar voor "opleidingsniveau". Is iemand met een universitaire graad twee keer zo hoog opgeleid als iemand die de middelbare school heeft afgerond? Nee, zo werkt het niet. Sommige variabelen kunnen worden gebruikt voor berekeningen, andere niet. In een later hoofdstuk (13.2 van het originele boek) wordt uitgelegd hoe dat precies werkt via **meetniveaus**.' },
-      { type: 'begrippen', titel: 'Kernbegrippen', items: [
-        { begrip: 'Variabele', definitie: 'Een kenmerk (attribuut) van een object, geval of persoon dat kan variëren in waarde. Kan bestaan uit een set items of categorieën.' },
-        { begrip: 'Categorie', definitie: 'Een mogelijke waarde van een variabele, uitgedrukt als een cijfer.' }
-      ]},
-      { type: 'tekst', titel: 'Onafhankelijke of afhankelijke variabelen?', toetsstof: true,
-        tekst: 'Grofweg zijn er twee groepen variabelen:\n\n**Onafhankelijke variabelen.** Ook wel **oorzaakvariabelen** (of predictors) genoemd, omdat ze situaties manipuleren; de onafhankelijke variabele zelf staat vast, maar veroorzaakt een verandering.\n\n**Afhankelijke variabelen:** dit zijn variabelen die veranderen onder invloed van onafhankelijke variabelen. Een andere term die voor dit type variabele wordt gebruikt is **effectvariabele**.\n\nIn een diagram ziet dat er zo uit:\n\nOnafhankelijke variabele = Oorzaakvariabele = Predictor\nAfhankelijke variabele = Effectvariabele = Consequence variable' },
-      { type: 'tabel', titel: 'De twee soorten variabelen op een rij',
-        kop: ['Term', 'Synoniemen'],
-        rijen: [
-          ['Onafhankelijke variabele', 'Oorzaakvariabele, predictor'],
-          ['Afhankelijke variabele', 'Effectvariabele, consequence variable']
-        ] },
-      { type: 'tekst', titel: 'Waarom dit onderscheid zo belangrijk is', toetsstof: true,
-        tekst: 'Het onderscheid tussen onafhankelijke en afhankelijke variabelen is zeer belangrijk. Het bepaalt onder meer de **structuur van je analyse**. Wil je bijvoorbeeld het effect van opleidingsniveau op inkomen voorspellen, dan is opleidingsniveau de onafhankelijke variabele (oorzaak) en inkomen de afhankelijke variabele (effect). De pijl in het bijbehorende model is het effect dat opleidingsniveau heeft op inkomen, dus een causale relatie.' },
-      { type: 'begrippen', titel: 'Kernbegrippen', items: [
-        { begrip: 'Onafhankelijke variabele', definitie: 'Ook wel oorzaakvariabele of predictor. Manipuleert situaties; staat zelf vast, maar veroorzaakt verandering.' },
-        { begrip: 'Afhankelijke variabele', definitie: 'Ook wel effectvariabele. Verandert onder invloed van onafhankelijke variabelen.' }
-      ]},
-      { type: 'tekst', titel: '13.1.2 Software voor kwantitatieve analyse', toetsstof: true,
-        tekst: 'Softwareprogramma\u2019s zoals **SPSS, Excel, STATA, R, S-plus, SAS, AMOS en LISREL** worden allemaal gebruikt voor kwantitatieve analyse.\n\n**SPSS** is de methode die doorgaans wordt gebruikt in Doing Research. IBM, de softwarefabrikant, brengt jaarlijks een nieuwe versie uit. Nieuwere versies verschillen vooral qua vormgeving, minder qua programma-inhoud. Studenten kunnen via een licentie voor ongeveer 15 dollar per jaar met SPSS werken, met de mogelijkheid de licentie voor een paar dollar extra te verlengen.\n\nDaarnaast wordt **R** genoemd als alternatief, met groeiende belangstelling vanuit universiteiten.' },
-      { type: 'voorbeeld', titel: 'Effect van opleiding op inkomen',
-        tekst: 'Figuur 13.1 uit het boek illustreert het onderscheid: een pijl loopt van "Education" naar "Income". De pijl representeert het effect dat opleidingsniveau heeft op inkomen, dus een causale relatie. Opleiding is hier de onafhankelijke variabele (oorzaak), inkomen de afhankelijke variabele (effect).' }
+    "id": "kern",
+    "titel": "Kernstof",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "13.1.1 Variabelen",
+        "toetsstof": true,
+        "tekst": "Zodra je je analyse gaat voorbereiden, kom je vaktaal tegen die gangbaar is in de statistiek. Een van de meest gebruikte termen is het werkwoord **[[variabele|Variabele]]**.\n\nTen eerste is een variabele een **kenmerk (attribuut)** van een object, een geval, of van een persoon die aan je onderzoek deelneemt. Deze variabele kan veranderen in termen van zijn waarde. \"Leeftijd\" (van de respondent) is bijvoorbeeld een variabele: de ene persoon kan 49 zijn, een ander 12 jaar oud. \"Geslacht\" (man of vrouw) is een andere variabele. Deze kenmerken, of demografische gegevens, maken deel uit van de vragenlijst. Hun antwoorden zijn de variabele.\n\nDaarnaast kunnen variabelen ook een weergave zijn van gedrag, een mening of een beoordeling van bepaalde zaken en onderwerpen in het onderzoek. Je kunt bijvoorbeeld onderzoek doen naar buurtvoorzieningen. Ook die kwesties worden met vragenlijsten onderzocht. \"Mening over de buurtbus\" (eens, neutraal of oneens) is dan een variabele.\n\nTot slot kan een variabele bestaan uit een set **items**, namelijk alle mogelijke waarden die de variabele kan hebben. De variabele leeftijd loopt van \"0\" tot \"100\". Meningen lopen van \"helemaal mee eens\" tot \"helemaal mee oneens\". Voor geslacht zou dat \"man\" en \"vrouw\" zijn."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA variable is a characteristic that can have different values, such as age or the number of incidents. It is basic language in statistics."
+      },
+      {
+        "type": "tekst",
+        "titel": "Categorieën",
+        "toetsstof": true,
+        "tekst": "Ten slotte kan een [[variabele|Variabele]] bestaan uit een set **[[categorie|Categorie]]ën**, namelijk alle mogelijke waarden die de variabele kan hebben. Categorieën worden uitgedrukt als cijfers. Voor de variabele \"geslacht\" krijgen mannen bijvoorbeeld een \"0\" en vrouwen een \"1\". Voor \"opleidingsniveau\" zou je basisonderwijs een \"1\" geven, voortgezet onderwijs een \"2\", hbo een \"3\", wo-bachelor een \"4\", master een \"5\", en promotie (PhD) een \"6\". Voor \"leeftijd\" geldt: als iemand 39 is, voer je \"39\" in.\n\nWat betekenen deze variabelen? Het betekent dat je een nummer, een cijfer, toekent aan een observatie, een meting. Voor leeftijd is dat vrij duidelijk: iemand van 40 is twee keer zo oud als iemand van 20. Met andere woorden, je kunt deze waarden gebruiken om dingen te berekenen. Datzelfde geldt echter niet zomaar voor \"opleidingsniveau\". Is iemand met een universitaire graad twee keer zo hoog opgeleid als iemand die de middelbare school heeft afgerond? Nee, zo werkt het niet. Sommige variabelen kunnen worden gebruikt voor berekeningen, andere niet. In een later hoofdstuk (13.2 van het originele boek) wordt uitgelegd hoe dat precies werkt via **meetniveaus**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA variable has categories: all the possible values it can take, such as 'yes' and 'no', or age groups."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrippen",
+        "items": [
+          {
+            "begrip": "Variabele",
+            "definitie": "Een kenmerk (attribuut) van een object, geval of persoon dat kan variëren in waarde. Kan bestaan uit een set items of categorieën."
+          },
+          {
+            "begrip": "Categorie",
+            "definitie": "Een mogelijke waarde van een variabele, uitgedrukt als een cijfer."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "Onafhankelijke of afhankelijke variabelen?",
+        "toetsstof": true,
+        "tekst": "Grofweg zijn er twee groepen variabelen:\n\n**Onafhankelijke variabelen.** Ook wel **oorzaakvariabelen** (of predictors) genoemd, omdat ze situaties manipuleren; de [[onafhankelijke variabele|Onafhankelijke variabele]] zelf staat vast, maar veroorzaakt een verandering.\n\n**Afhankelijke variabelen:** dit zijn variabelen die veranderen onder invloed van onafhankelijke variabelen. Een andere term die voor dit type [[variabele|Variabele]] wordt gebruikt is **effectvariabele**.\n\nIn een diagram ziet dat er zo uit:\n\nOnafhankelijke variabele = Oorzaakvariabele = Predictor\n[[Afhankelijke variabele]] = Effectvariabele = Consequence variable"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nAn independent variable is the cause or predictor; a dependent variable is the effect you want to explain."
+      },
+      {
+        "type": "tabel",
+        "titel": "De twee soorten variabelen op een rij",
+        "kop": [
+          "Term",
+          "Synoniemen"
+        ],
+        "rijen": [
+          [
+            "Onafhankelijke variabele",
+            "Oorzaakvariabele, predictor"
+          ],
+          [
+            "Afhankelijke variabele",
+            "Effectvariabele, consequence variable"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "Waarom dit onderscheid zo belangrijk is",
+        "toetsstof": true,
+        "tekst": "Het onderscheid tussen onafhankelijke en afhankelijke variabelen is zeer belangrijk. Het bepaalt onder meer de **structuur van je analyse**. Wil je bijvoorbeeld het effect van opleidingsniveau op inkomen voorspellen, dan is opleidingsniveau de [[onafhankelijke variabele|Onafhankelijke variabele]] (oorzaak) en inkomen de [[afhankelijke variabele|Afhankelijke variabele]] (effect). De pijl in het bijbehorende model is het effect dat opleidingsniveau heeft op inkomen, dus een causale relatie."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nWhether a variable is independent or dependent decides how you build your analysis and which statistics you use."
+      },
+      {
+        "type": "begrippen",
+        "titel": "Kernbegrippen",
+        "items": [
+          {
+            "begrip": "Onafhankelijke variabele",
+            "definitie": "Ook wel oorzaakvariabele of predictor. Manipuleert situaties; staat zelf vast, maar veroorzaakt verandering."
+          },
+          {
+            "begrip": "Afhankelijke variabele",
+            "definitie": "Ook wel effectvariabele. Verandert onder invloed van onafhankelijke variabelen."
+          }
+        ]
+      },
+      {
+        "type": "tekst",
+        "titel": "13.1.2 Software voor kwantitatieve analyse",
+        "toetsstof": true,
+        "tekst": "Softwareprogramma’s zoals **SPSS, Excel, STATA, R, S-plus, SAS, AMOS en LISREL** worden allemaal gebruikt voor kwantitatieve analyse.\n\n**SPSS** is de methode die doorgaans wordt gebruikt in Doing Research. IBM, de softwarefabrikant, brengt jaarlijks een nieuwe versie uit. Nieuwere versies verschillen vooral qua vormgeving, minder qua programma-inhoud. Studenten kunnen via een licentie voor ongeveer 15 dollar per jaar met SPSS werken, met de mogelijkheid de licentie voor een paar dollar extra te verlengen.\n\nDaarnaast wordt **R** genoemd als alternatief, met groeiende belangstelling vanuit universiteiten."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPrograms like SPSS, Excel and R help you analyse numbers. They do the calculations, but you still have to know what you are doing."
+      },
+      {
+        "type": "voorbeeld",
+        "titel": "Effect van opleiding op inkomen",
+        "tekst": "Figuur 13.1 uit het boek illustreert het onderscheid: een pijl loopt van \"Education\" naar \"Income\". De pijl representeert het effect dat opleidingsniveau heeft op inkomen, dus een causale relatie. Opleiding is hier de [[onafhankelijke variabele|Onafhankelijke variabele]] (oorzaak), inkomen de [[afhankelijke variabele|Afhankelijke variabele]] (effect)."
+      }
     ]
   },
   {
-    id: 'toepassen', titel: 'Toepassen',
-    blokken: [
-      { type: 'stappen', titel: 'Variabelen herkennen en indelen', items: [
-        { titel: 'Bepaal wat het kenmerk is', tekst: 'Is het een demografisch gegeven (leeftijd, geslacht), een gedraging, een mening, of een beoordeling?' },
-        { titel: 'Bepaal het meetniveau in gewone taal', tekst: 'Kun je met de waarden rekenen, zoals bij leeftijd, of zijn het alleen categorieën zonder rekenkundige betekenis, zoals opleidingsniveau of geslacht?' },
-        { titel: 'Bepaal of het een oorzaak- of een effectvariabele is', tekst: 'Kijk naar je conceptueel model uit hoofdstuk 5: welke pijl wijst naar welke variabele? Waar de pijl vandaan komt is onafhankelijk (oorzaak); waar hij naartoe wijst is afhankelijk (effect).' },
-        { titel: 'Kies je software', tekst: 'SPSS is de standaard in dit vak; R is een groeiend alternatief. Voor eenvoudige beschrijvende analyses volstaat soms Excel of Google Forms.' }
-      ]},
-      { type: 'oefening', id: 'ch13-oef-1', niveau: 'basis',
-        vraag: 'Je onderzoekt of het aantal uren slaap invloed heeft op de concentratie van studenten tijdens college. Benoem de onafhankelijke en de afhankelijke variabele, en leg uit waarom.',
-        antwoord: 'De onafhankelijke variabele (de oorzaak, predictor) is het aantal uren slaap: dit is de variabele waarvan je het effect wilt onderzoeken en die je (in een experiment) zou kunnen manipuleren. De afhankelijke variabele (het effect, consequence variable) is de concentratie tijdens college: dit is de variabele die naar verwachting verandert onder invloed van het aantal uren slaap. In een conceptueel model zou je dit weergeven met een pijl van "uren slaap" naar "concentratie", wat een causale relatie aangeeft: meer slaap zou dan een positief effect hebben op concentratie.' },
-      { type: 'oefening', id: 'ch13-oef-2', niveau: 'gevorderd',
-        vraag: 'Leg uit waarom je met de variabele "leeftijd" wel rekenkundig kunt werken, maar met de variabele "opleidingsniveau" (gecodeerd van 1 tot 6) niet zomaar, ook al zijn het allebei variabelen met cijfermatige categorieën.',
-        antwoord: 'Bij leeftijd hebben de cijfers een echte, betekenisvolle rekenkundige verhouding: iemand van 40 is werkelijk twee keer zo oud als iemand van 20, en het verschil tussen 20 en 30 jaar is even groot als tussen 30 en 40 jaar. De cijfers weerspiegelen de onderliggende werkelijkheid op een schaal met gelijke afstanden en een betekenisvol nulpunt. Bij opleidingsniveau zijn de cijfers 1 tot en met 6 alleen labels voor categorieën in een bepaalde volgorde: ze geven aan dat wo-master (5) hoger is dan hbo (3), maar niet dat iemand met een master twee keer zo hoog opgeleid is als iemand met een mbo-diploma, en het verschil tussen categorie 1 en 2 hoeft inhoudelijk niet gelijk te zijn aan het verschil tussen categorie 5 en 6. Het cijfer is hier een ordening, geen meeteenheid. Dit onderscheid heet het meetniveau van een variabele, en het bepaalt welke rekenkundige bewerkingen en welke statistische toetsen je wel en niet mag gebruiken: bij leeftijd mag je bijvoorbeeld een gemiddelde berekenen dat inhoudelijk klopt, bij opleidingsniveau is een gemiddelde cijfer minder zinvol te interpreteren dan bijvoorbeeld de meest voorkomende categorie.' }
+    "id": "toepassen",
+    "titel": "Toepassen",
+    "blokken": [
+      {
+        "type": "stappen",
+        "titel": "Variabelen herkennen en indelen",
+        "items": [
+          {
+            "titel": "Bepaal wat het kenmerk is",
+            "tekst": "Is het een demografisch gegeven (leeftijd, geslacht), een gedraging, een mening, of een beoordeling?"
+          },
+          {
+            "titel": "Bepaal het meetniveau in gewone taal",
+            "tekst": "Kun je met de waarden rekenen, zoals bij leeftijd, of zijn het alleen categorieën zonder rekenkundige betekenis, zoals opleidingsniveau of geslacht?"
+          },
+          {
+            "titel": "Bepaal of het een oorzaak- of een effectvariabele is",
+            "tekst": "Kijk naar je conceptueel model uit hoofdstuk 5: welke pijl wijst naar welke variabele? Waar de pijl vandaan komt is onafhankelijk (oorzaak); waar hij naartoe wijst is afhankelijk (effect)."
+          },
+          {
+            "titel": "Kies je software",
+            "tekst": "SPSS is de standaard in dit vak; R is een groeiend alternatief. Voor eenvoudige beschrijvende analyses volstaat soms Excel of Google Forms."
+          }
+        ]
+      },
+      {
+        "type": "oefening",
+        "id": "ch13-oef-1",
+        "niveau": "basis",
+        "vraag": "Je onderzoekt of het aantal uren slaap invloed heeft op de concentratie van studenten tijdens college. Benoem de onafhankelijke en de afhankelijke variabele, en leg uit waarom.",
+        "antwoord": "De onafhankelijke variabele (de oorzaak, predictor) is het aantal uren slaap: dit is de variabele waarvan je het effect wilt onderzoeken en die je (in een experiment) zou kunnen manipuleren. De afhankelijke variabele (het effect, consequence variable) is de concentratie tijdens college: dit is de variabele die naar verwachting verandert onder invloed van het aantal uren slaap. In een conceptueel model zou je dit weergeven met een pijl van \"uren slaap\" naar \"concentratie\", wat een causale relatie aangeeft: meer slaap zou dan een positief effect hebben op concentratie."
+      },
+      {
+        "type": "oefening",
+        "id": "ch13-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "Leg uit waarom je met de variabele \"leeftijd\" wel rekenkundig kunt werken, maar met de variabele \"opleidingsniveau\" (gecodeerd van 1 tot 6) niet zomaar, ook al zijn het allebei variabelen met cijfermatige categorieën.",
+        "antwoord": "Bij leeftijd hebben de cijfers een echte, betekenisvolle rekenkundige verhouding: iemand van 40 is werkelijk twee keer zo oud als iemand van 20, en het verschil tussen 20 en 30 jaar is even groot als tussen 30 en 40 jaar. De cijfers weerspiegelen de onderliggende werkelijkheid op een schaal met gelijke afstanden en een betekenisvol nulpunt. Bij opleidingsniveau zijn de cijfers 1 tot en met 6 alleen labels voor categorieën in een bepaalde volgorde: ze geven aan dat wo-master (5) hoger is dan hbo (3), maar niet dat iemand met een master twee keer zo hoog opgeleid is als iemand met een mbo-diploma, en het verschil tussen categorie 1 en 2 hoeft inhoudelijk niet gelijk te zijn aan het verschil tussen categorie 5 en 6. Het cijfer is hier een ordening, geen meeteenheid. Dit onderscheid heet het meetniveau van een variabele, en het bepaalt welke rekenkundige bewerkingen en welke statistische toetsen je wel en niet mag gebruiken: bij leeftijd mag je bijvoorbeeld een gemiddelde berekenen dat inhoudelijk klopt, bij opleidingsniveau is een gemiddelde cijfer minder zinvol te interpreteren dan bijvoorbeeld de meest voorkomende categorie."
+      }
     ]
   },
   {
-    id: 'checken', titel: 'Checken',
-    blokken: [
-      { type: 'quiz', titel: 'Check jezelf', vragen: [
-        { vraag: 'Wat is een variabele?',
-          opties: ['Een vaste waarde die nooit verandert', 'Een kenmerk van een object, geval of persoon dat kan variëren in waarde', 'Een synoniem voor centrale vraag', 'Een type conceptueel model'],
-          juist: 1, uitleg: 'Denk aan leeftijd, geslacht, of een mening: allemaal kenmerken die per respondent kunnen verschillen.' },
-        { vraag: 'Hoe wordt een onafhankelijke variabele ook wel genoemd?',
-          opties: ['Effectvariabele', 'Oorzaakvariabele of predictor', 'Consequence variable', 'Stipulatieve variabele'],
-          juist: 1, uitleg: 'De onafhankelijke variabele manipuleert situaties en veroorzaakt een verandering in de afhankelijke variabele.' },
-        { vraag: 'Wat is de afhankelijke variabele in het model "opleiding → inkomen"?',
-          opties: ['Opleiding', 'Inkomen', 'Beide', 'Geen van beide'],
-          juist: 1, uitleg: 'Inkomen is de variabele die verandert onder invloed van opleiding (de oorzaak), en is dus de afhankelijke of effectvariabele.' },
-        { vraag: 'Waarom kun je met de categorieën van "opleidingsniveau" niet zomaar rekenen zoals met leeftijd?',
-          opties: ['Omdat opleidingsniveau geen variabele is', 'Omdat de cijfers alleen een volgorde van categorieën aangeven, geen betekenisvolle afstand of verhouding', 'Omdat opleidingsniveau altijd tekstueel wordt ingevoerd', 'Omdat SPSS dat niet toestaat'],
-          juist: 1, uitleg: 'De cijfers bij opleidingsniveau zijn labels voor een volgorde, geen meeteenheid met gelijke afstanden, zoals bij leeftijd wel het geval is.' },
-        { vraag: 'Welk softwareprogramma noemt Verhoeven als de standaardmethode in Doing Research?',
-          opties: ['Excel', 'SPSS', 'Python', 'Google Forms'],
-          juist: 1, uitleg: 'SPSS is de in dit boek gebruikte methode; R wordt genoemd als groeiend alternatief.' }
-      ]},
-      { type: 'bronnen', items: [
-        { apa: 'Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 13). Boom uitgevers.' }
-      ]},
-      { type: 'preview', titel: 'Terug naar het overzicht', vakId: 'demystifying-research-methods', lesId: 'ch3',
-        tekst: 'Je hebt nu de hele lijn doorlopen: van aanleiding, via centrale vraag en conceptueel model, naar het klaarmaken van je data voor analyse.',
-        punten: ['Ga terug naar hoofdstuk 3 om de hele redenering nog eens door te lopen', 'Gebruik het stappenplan uit hoofdstuk 5 bij je eigen onderzoeksproject'] }
+    "id": "checken",
+    "titel": "Checken",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Check jezelf",
+        "vragen": [
+          {
+            "vraag": "Wat is een variabele?",
+            "opties": [
+              "Een vaste waarde die nooit verandert",
+              "Een kenmerk van een object, geval of persoon dat kan variëren in waarde",
+              "Een synoniem voor centrale vraag",
+              "Een type conceptueel model"
+            ],
+            "juist": 1,
+            "uitleg": "Denk aan leeftijd, geslacht, of een mening: allemaal kenmerken die per respondent kunnen verschillen."
+          },
+          {
+            "vraag": "Hoe wordt een onafhankelijke variabele ook wel genoemd?",
+            "opties": [
+              "Effectvariabele",
+              "Oorzaakvariabele of predictor",
+              "Consequence variable",
+              "Stipulatieve variabele"
+            ],
+            "juist": 1,
+            "uitleg": "De onafhankelijke variabele manipuleert situaties en veroorzaakt een verandering in de afhankelijke variabele."
+          },
+          {
+            "vraag": "Wat is de afhankelijke variabele in het model \"opleiding → inkomen\"?",
+            "opties": [
+              "Opleiding",
+              "Inkomen",
+              "Beide",
+              "Geen van beide"
+            ],
+            "juist": 1,
+            "uitleg": "Inkomen is de variabele die verandert onder invloed van opleiding (de oorzaak), en is dus de afhankelijke of effectvariabele."
+          },
+          {
+            "vraag": "Waarom kun je met de categorieën van \"opleidingsniveau\" niet zomaar rekenen zoals met leeftijd?",
+            "opties": [
+              "Omdat opleidingsniveau geen variabele is",
+              "Omdat de cijfers alleen een volgorde van categorieën aangeven, geen betekenisvolle afstand of verhouding",
+              "Omdat opleidingsniveau altijd tekstueel wordt ingevoerd",
+              "Omdat SPSS dat niet toestaat"
+            ],
+            "juist": 1,
+            "uitleg": "De cijfers bij opleidingsniveau zijn labels voor een volgorde, geen meeteenheid met gelijke afstanden, zoals bij leeftijd wel het geval is."
+          },
+          {
+            "vraag": "Welk softwareprogramma noemt Verhoeven als de standaardmethode in Doing Research?",
+            "opties": [
+              "Excel",
+              "SPSS",
+              "Python",
+              "Google Forms"
+            ],
+            "juist": 1,
+            "uitleg": "SPSS is de in dit boek gebruikte methode; R wordt genoemd als groeiend alternatief."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Verhoeven, N. (2019). Doing Research: The Hows and Whys of Applied Research (Ch. 13). Boom uitgevers."
+          }
+        ]
+      },
+      {
+        "type": "preview",
+        "titel": "Terug naar het overzicht",
+        "vakId": "demystifying-research-methods",
+        "lesId": "ch3",
+        "tekst": "Je hebt nu de hele lijn doorlopen: van aanleiding, via centrale vraag en conceptueel model, naar het klaarmaken van je data voor analyse.",
+        "punten": [
+          "Ga terug naar hoofdstuk 3 om de hele redenering nog eens door te lopen",
+          "Gebruik het stappenplan uit hoofdstuk 5 bij je eigen onderzoeksproject"
+        ]
+      }
     ]
   }
 ];

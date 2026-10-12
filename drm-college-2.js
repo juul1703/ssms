@@ -5,6 +5,8 @@
 
    Nieuw in v111, uit de slides. Sessie 1 (lecture 1) heeft geen
    slides; die stof zit in Concept list part 1.
+   v129: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['demystifying-research-methods/college-2'] = [
@@ -44,10 +46,18 @@ LESSTOF['demystifying-research-methods/college-2'] = [
         "tekst": "Every DRM workshop follows the same rhythm:\n\n**Start together**: one example question, worked through to show how to use the concept list.\n**Group work**: you work through the questions in your assigned group (at most three people, 30 minutes).\n**Break**: announced, 10 minutes.\n**Check and continue**: review the first [[answer key|Answer key]] together; finish the remaining questions at home if needed.\n\nYou hand in **one answer sheet per group** with all names on it. It is **not graded**; it is used for feedback and statistics. Every exercise is **direct preparation for the quiz and the exam**."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nEach workshop starts with an example, then you work in small groups on practice questions, and afterwards you check the answer key. It is practice, not a grade."
+      },
+      {
         "type": "tekst",
         "titel": "2. Answering a question in four steps",
         "toetsstof": true,
         "tekst": "**Step 1: Read the exercise properly.** \"This is still the most common mistake people make.\" Underline the important details. Ask: **what is happening** in this scenario?\n\n**Step 2: Find terms in the concept list and choose the most correct one.** Several options can look plausible; the task is to find the **most** correct, and to **underline the words in the scenario that support your answer**.\n\n**Step 3: Explain your choice.** Give a short reason why it is correct, and **explain briefly, in a few words, why each of the other options is not**. This is what turns guessing into understanding.\n\n**Step 4: Review your work.** In the workshop you can make mistakes and understand why they happen; at home, check the [[answer key|Answer key]] and see what can be improved.\n\n\"Learning research methods can be very confusing and difficult at first. Stay focused and put in the work. Speak up if you don't understand something.\""
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nRead the question carefully, find the right term in the concept list, explain why it is right and the other options are wrong, and check your work afterwards."
       },
       {
         "type": "uitleg",
@@ -60,10 +70,18 @@ LESSTOF['demystifying-research-methods/college-2'] = [
         "tekst": "In the group you use and **switch** three roles, one per exercise, so everyone practises each step:\n\n**Reader**: reads the case and the question aloud, and makes sure the group answers **the exact question that is asked**.\n**Concept finder**: uses the concept list to locate possible terms, and makes sure the concepts are **understood**.\n**Writer / checker**: writes the answer and, most importantly, **checks that the reason is supported by the scenario**.\n\n\"In the exam you have to do all three on your own.\" So the roles are also a checklist for yourself: read the exact question, find and understand the terms, and check your reason against the text."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nIn the group, one person reads the question, one finds the concepts and one writes and checks the answer. In the exam you do all three yourself."
+      },
+      {
         "type": "tekst",
         "titel": "4. Preparing for quiz 1 and CT1",
         "toetsstof": true,
         "tekst": "**Quiz 1** is **open book** and **individual**, done at home. The **homework** is \"a rare opportunity to truly find gaps in your understanding before the quiz and exam\".\n\n**CT1** is a **closed-book** exam moment, **at the university**: no concept list, no colleagues, no AI. (Practical tip from the slide: it can get cold, so bring comfortable layers.)\n\n**How to prepare:**\n- **Know the concept list by heart**: \"it is the language of research. There is no way around it.\"\n- Practise justifying why one answer is correct **and** why the others are not.\n- Practise explaining the terms **in your own words**, individually: someone else's notes can be hard to understand.\n- When checking the [[answer key|Answer key]] at home, review all your work again and **read the concept-list definition** after checking each answer.\n- **Practice, practice**: for example with Quizlet, or the flashcards in Concept list part 1.\n\nThe reflection questions on the slide are worth answering honestly: were you able to justify **all** your answers? How would you do if you had to answer all questions on your own in the available time?"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nQuiz 1 is open book at home; CT1 is closed book at the university. Learn the concept list well and practise explaining the terms in your own words."
       },
       {
         "type": "checklist",

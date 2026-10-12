@@ -539,7 +539,7 @@ lessen in `ssms-inhoud.js` via slice-vervanging zoals bij Intro sessie 4),
 daarna integriteitscheck: elk oud blok moet ongewijzigd terug te vinden zijn
 (op hover-markering en em dashes na), en een browsertest.
 
-**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. **Klaar (v125):** FAW sessie 1, 2, 3 en de summary-gids. **Klaar (v127):** Intro intro-college-1 en -3. **Klaar (v128):** Intro H1, H2, H3, H5, H10 (in `ssms-inhoud.js`; rest van het bestand byte-voor-byte gelijk). H10 is nog Nederlands en heeft nog geen recap: komt mee met de vertaling. (Al op standaard: PS 5, 6, midterm 1
+**Klaar (v122):** PS sessie 1, 2, 3, 4. **Klaar (v123):** Governance sessie 1, 2, 3, 4. **Klaar (v124):** Society sessie 1 tot 5. **Klaar (v125):** FAW sessie 1, 2, 3 en de summary-gids. **Klaar (v127):** Intro intro-college-1 en -3. **Klaar (v128):** Intro H1, H2, H3, H5, H10 (in `ssms-inhoud.js`; rest van het bestand byte-voor-byte gelijk). H10 is nog Nederlands en heeft nog geen recap: komt mee met de vertaling. **Klaar (v129):** DRM college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 (ch-lessen nog Nederlands, nog geen recap: komt mee met de vertaling). (Al op standaard: PS 5, 6, midterm 1
 en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
 
 **Nog te doen, in deze volgorde:**
@@ -548,11 +548,12 @@ en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
 3. ~~FAW sessie 1, 2, 3 en de summary-gids~~ klaar (v125).
 4. ~~Intro~~ klaar (v127, v128), behalve de recap van H10 (bij de vertaling).
    (tijdnood-blokken ontbreken; em dashes in h1, h2, h3; h10 mist een recap).
-5. DRM: college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 in
+5. ~~DRM~~ klaar (v129), behalve de recaps van ch3-ch13 (bij de vertaling). Oorspronkelijk: college-2, college-4, conceptlist-1/2/3, en ch3, ch4, ch5, ch13 in
    `ssms-inhoud.js` (tijdnood-blokken en recaps ontbreken; em dashes in ch4).
    Let op: ch3 t/m ch13 en Intro h10 zijn nog Nederlands (vertalen staat
    apart op de lijst); de In plain words-kaders wel in het Engels.
-6. Studiegids-pagina's alleen em dashes weghalen (geen kopjes).
+6. ~~Studiegids em dashes~~ niet nodig (Julie, 12 okt).
+7. **Volgende:** Intro H10 vertalen naar het Engels en op standaard brengen (recap erbij). Daarna de DRM-hoofdstukken ch3, ch4, ch5, ch13 vertalen, met recaps.
 
 ## 9e. Volgende-knop vinkt af (v126)
 

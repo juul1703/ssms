@@ -15,6 +15,8 @@
    de tabel met de drie delen, een To remember-tab, negen lijstkaarten,
    drie oefeningen en acht quizvragen (nu veertien), en de leesstof en
    video's uit de manual.
+   v129: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['demystifying-research-methods/conceptlist-3'] = [
@@ -125,14 +127,22 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "Eighteen concepts on building the design itself, plus the variable vocabulary. This is quiz 3, and together with part 2 it carries the CT2 open questions where you write a complete applied research design of about 250 words."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPart 3 is about planning the research itself: the design, the people you study, the variables and the quality of your measurements."
+      },
+      {
         "type": "tekst",
         "titel": "A. The applied research design (concepts 43-45)",
-        "tekst": "The blueprint itself: four components that must be aligned (the golden thread), the checklist that keeps them focused (demarcation), and the eight kinds of question you can ask."
+        "tekst": "The blueprint itself: four components that must be aligned (the golden thread), the checklist that keeps them focused ([[demarcation|Demarcation]]), and the eight kinds of question you can ask."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe design has four parts that must fit together: the problem, the goal, the main question and the sub-questions. There are eight [[types of research questions|Types of research questions]]."
       },
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**43. Applied research design (ARD)**\n\nThe **strategic blueprint** for a research project aimed at solving a specific, practical problem. The manual’s image: the route you plan in your GPS before a journey, so you know where you are going and how to get there.\n\nFour core components, which must be **perfectly aligned**:\n\n**Research problem** · your starting point. The specific, real-world issue or knowledge gap.\n**Research objective** · your destination. The concrete goal, deliverable or outcome.\n**Research question** · the main route. The single overarching question.\n**Sub-questions** · the step-by-step directions. Answering them all together answers the main question."
+        "tekst": "**43. [[Applied research design (ARD)]]**\n\nThe **strategic blueprint** for a research project aimed at solving a specific, practical problem. The manual’s image: the route you plan in your GPS before a journey, so you know where you are going and how to get there.\n\nFour core components, which must be **perfectly aligned**:\n\n**Research problem** · your starting point. The specific, real-world issue or knowledge gap.\n**Research objective** · your destination. The concrete goal, deliverable or outcome.\n**Research question** · the main route. The single overarching question.\n**Sub-questions** · the step-by-step directions. Answering them all together answers the main question."
       },
       {
         "type": "uitleg",
@@ -237,9 +247,13 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "What can weaken your results, how openly you must say so, and how far your findings reach beyond your own study. Two limitations with their justification are worth 6 of the CT2 points."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nEvery study has weak points, such as a small sample or little time, and you must say so honestly. [[Generalisability]] is how far your results apply beyond your own study."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**46. Research limitations**\n\nEvery project has limitations: **constraints or challenges that might affect the results**. They are an accepted part of research and must be disclosed in full transparency.\n\nSo you identify them, explain their **potential impact on your specific project**, and where possible describe how you will avoid, minimise or address them. If a limitation cannot be minimised, you must still be transparent about it.\n\nThis is worth 6 points of the CT2 open questions: two limitations at 1 point each, and 2 points per justification. The justification is worth twice the identification, so naming a limitation without explaining its impact throws away most of the marks."
+        "tekst": "**46. [[Research limitations]]**\n\nEvery project has limitations: **constraints or challenges that might affect the results**. They are an accepted part of research and must be disclosed in full transparency.\n\nSo you identify them, explain their **potential impact on your specific project**, and where possible describe how you will avoid, minimise or address them. If a limitation cannot be minimised, you must still be transparent about it.\n\nThis is worth 6 points of the CT2 open questions: two limitations at 1 point each, and 2 points per justification. The justification is worth twice the identification, so naming a limitation without explaining its impact throws away most of the marks."
       },
       {
         "type": "tekst",
@@ -299,6 +313,10 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "The people in your research: what to call them, which group you draw conclusions about, and whether your sample looks like that group."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe population is the whole group you want to say something about; the sample is the part you actually study. The sample should look like the population."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
         "tekst": "**48. Participant versus respondent**\n\nBoth terms refer to people providing data, and they are sometimes used interchangeably. Being precise clarifies your method.\n\n**Respondent**: someone who answers specific, often **closed-ended** questions, as in a survey. Input usually feeds **quantitative** analysis.\n**Participant**: someone who **actively takes part** in the research process, in interviews, focus groups, experiments or ethnographic observation. Input usually feeds **qualitative** analysis."
@@ -343,9 +361,13 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "The five kinds of variable, all worked out on one running example from the manual: a safety training programme in a manufacturing plant."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA variable is something that can change. The cause is the [[independent variable|Independent variable]], the effect the dependent one; other variables can be kept the same, get in the way, or explain how and for whom an effect works."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**51. Independent versus dependent variables**\n\nA **variable** is a characteristic or aspect that can be measured, manipulated or counted. Age, political beliefs, gender, education level, income, exposure to an intervention. Essentially anything that can vary between people or situations, or for one person or situation over time.\n\n**Independent variable (IV)**: the one you change during your research. Also called the manipulated, input or **cause** variable.\n**Dependent variable (DV)**: the one you measure. Also called the responding, output or **effect** variable. Its value changes depending on the value of the IV(s)."
+        "tekst": "**51. Independent versus [[dependent variables|Dependent variable]]**\n\nA **variable** is a characteristic or aspect that can be measured, manipulated or counted. Age, political beliefs, gender, education level, income, exposure to an intervention. Essentially anything that can vary between people or situations, or for one person or situation over time.\n\n**Independent variable (IV)**: the one you change during your research. Also called the manipulated, input or **cause** variable.\n**Dependent variable (DV)**: the one you measure. Also called the responding, output or **effect** variable. Its value changes depending on the value of the IV(s)."
       },
       {
         "type": "voorbeeld",
@@ -354,7 +376,7 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**52. Control variables**\n\nAlso called the **constant** variable. When you test whether A causes B, you must make sure nothing else interferes. Control variables are kept **unchanged** throughout the study, so you can be sure the DV is not being affected by them.\n\nIf you do not intentionally control these, you cannot be sure your results are valid."
+        "tekst": "**52. [[Control variables|Control variable]]**\n\nAlso called the **constant** variable. When you test whether A causes B, you must make sure nothing else interferes. Control variables are kept **unchanged** throughout the study, so you can be sure the DV is not being affected by them.\n\nIf you do not intentionally control these, you cannot be sure your results are valid."
       },
       {
         "type": "voorbeeld",
@@ -363,7 +385,7 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**53. Confounding variables**\n\nAn **external, often hidden** factor that affects **both** the independent and the dependent variable, without you being aware of it. It distorts the cause-and-effect relationship and leads to misleading conclusions, because you cannot tell whether the effect came from your IV or from the confounder.\n\nThe difference from a control variable is awareness: a control variable is one you spotted and held constant. A confounding variable is one you did not spot."
+        "tekst": "**53. [[Confounding variables|Confounding variable]]**\n\nAn **external, often hidden** factor that affects **both** the independent and the dependent variable, without you being aware of it. It distorts the cause-and-effect relationship and leads to misleading conclusions, because you cannot tell whether the effect came from your IV or from the confounder.\n\nThe difference from a control variable is awareness: a control variable is one you spotted and held constant. A confounding variable is one you did not spot."
       },
       {
         "type": "voorbeeld",
@@ -372,7 +394,7 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**54. Mediating variables**\n\nAlso called intermediary or intervening. It shows that the connection between IV and DV is **not direct**, but runs **via** another variable in between. A stepping stone that explains **how** or **why** the relationship happens."
+        "tekst": "**54. [[Mediating variables|Mediating variable]]**\n\nAlso called intermediary or intervening. It shows that the connection between IV and DV is **not direct**, but runs **via** another variable in between. A stepping stone that explains **how** or **why** the relationship happens."
       },
       {
         "type": "voorbeeld",
@@ -381,7 +403,7 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**55. Moderating variables**\n\nAlso called interfering. It affects the **strength or direction** of the relationship between IV and DV, making the effect more or less substantial. It explains **for whom** or **under what conditions** the relationship holds, and why the cause-effect link is strong for one group and weak for another."
+        "tekst": "**55. [[Moderating variables|Moderating variable]]**\n\nAlso called interfering. It affects the **strength or direction** of the relationship between IV and DV, making the effect more or less substantial. It explains **for whom** or **under what conditions** the relationship holds, and why the cause-effect link is strong for one group and weak for another."
       },
       {
         "type": "voorbeeld",
@@ -397,13 +419,17 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "Why correlation is not causation, and how to state the answer you expect to find."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nTwo things happening together does not mean one causes the other. A [[hypothesis|Hypothesis]] is the answer you expect to find."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**56. Relationships between variables**\n\nUnderstanding relationships between variables helps predict what could happen and reflect on why things happened. **Correlation** is a statistical analysis measuring the degree of relationship between variables in a sample.\n\nBut two variables moving together does not mean one caused the other. If IV \"A\" correlates with DV \"B\", there are four possibilities:\n\n**(1) A causes B** · a causal relationship, if there is proof that a change in A and nothing else directly creates a change in B. This usually needs a strictly controlled experiment.\n**(2) B causes A** · reverse causality.\n**(3) A confounding variable C causes both** · A and B are not directly related.\n**(4) No relationship at all** · a coincidence, known as a **spurious correlation**."
+        "tekst": "**56. [[Relationships between variables]]**\n\nUnderstanding relationships between variables helps predict what could happen and reflect on why things happened. **Correlation** is a statistical analysis measuring the degree of relationship between variables in a sample.\n\nBut two variables moving together does not mean one caused the other. If IV \"A\" correlates with DV \"B\", there are four possibilities:\n\n**(1) A causes B** · a causal relationship, if there is proof that a change in A and nothing else directly creates a change in B. This usually needs a strictly controlled experiment.\n**(2) B causes A** · reverse causality.\n**(3) A [[confounding variable|Confounding variable]] C causes both** · A and B are not directly related.\n**(4) No relationship at all** · a coincidence, known as a **spurious correlation**."
       },
       {
         "type": "voorbeeld",
-        "tekst": "**(1) Causal**: a fire department systematically improves response times (IV) while keeping equipment and team size constant (control variables) and observes a consistent 25% reduction in property damage (DV). Controlled for other factors, so they can claim causation.\n\n**(2) Reverse**: \"firefighters cause damage\", because more of them turn up at more damaged buildings. Actually the severity of the fire causes both the damage and the dispatcher sending more firefighters. The arrow points backwards.\n\n**(3) Confounded**: ice cream sales at the station correlate with brush fires. Summer heat is driving both.\n\n**(4) Spurious**: the fire chief’s age and the national price of water both rose steadily over 20 years. Time and inflation. Pure coincidence."
+        "tekst": "**(1) Causal**: a fire department systematically improves response times (IV) while keeping equipment and team size constant ([[control variables|Control variable]]) and observes a consistent 25% reduction in property damage (DV). Controlled for other factors, so they can claim causation.\n\n**(2) Reverse**: \"firefighters cause damage\", because more of them turn up at more damaged buildings. Actually the severity of the fire causes both the damage and the dispatcher sending more firefighters. The arrow points backwards.\n\n**(3) Confounded**: ice cream sales at the station correlate with brush fires. Summer heat is driving both.\n\n**(4) Spurious**: the fire chief’s age and the national price of water both rose steadily over 20 years. Time and inflation. Pure coincidence."
       },
       {
         "type": "tekst",
@@ -420,9 +446,13 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "tekst": "Consistency and accuracy: the two quality tests for any measurement or study."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nReliable means you get the same result when you measure again. Valid means you really measure what you want to measure."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**58. Reliability**\n\n**Reliability is about consistency.** The degree to which a study, measure, method or variable produces the **same results** when applied to similar scenarios over and over.\n\nAsk: does it measure in a consistent and stable way? A reliable instrument gives similar results when repeated with similar groups.\n\nReliability is a **prerequisite for validity**. If your tool is broken, it cannot give you the correct answer."
+        "tekst": "**58. [[Reliability]]**\n\n**Reliability is about consistency.** The degree to which a study, measure, method or variable produces the **same results** when applied to similar scenarios over and over.\n\nAsk: does it measure in a consistent and stable way? A reliable instrument gives similar results when repeated with similar groups.\n\nReliability is a **prerequisite for [[validity|Validity]]**. If your tool is broken, it cannot give you the correct answer."
       },
       {
         "type": "voorbeeld",
@@ -435,7 +465,7 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
       },
       {
         "type": "voorbeeld",
-        "tekst": "**External**: an emergency response training programme for first responders in one urban area. If its effectiveness generalises to other urban areas, populations or times, external validity is high.\n\n**Internal**: a cybersecurity team investigating a breach proves a specific malware caused it and rules out human error and insider threats (confounding variables). High internal validity: high accuracy within its own context, which comes from controlling variables and avoiding confounders."
+        "tekst": "**External**: an emergency response training programme for first responders in one urban area. If its effectiveness generalises to other urban areas, populations or times, external validity is high.\n\n**Internal**: a cybersecurity team investigating a breach proves a specific malware caused it and rules out human error and insider threats ([[confounding variables|Confounding variable]]). High internal validity: high accuracy within its own context, which comes from controlling variables and avoiding confounders."
       },
       {
         "type": "slimmer",
@@ -445,6 +475,10 @@ LESSTOF['demystifying-research-methods/conceptlist-3'] = [
         "type": "tekst",
         "titel": "G. Conceptual framework and conceptual model (concept 60)",
         "tekst": "From a vague concept to things you can measure: the written argument (framework) and the diagram of boxes and arrows (model)."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA [[conceptual framework|Conceptual framework]] explains in words how your concepts fit together; a [[conceptual model|Conceptual model]] shows it as a diagram with boxes and arrows."
       },
       {
         "type": "tekst",

@@ -14,6 +14,8 @@
    toegevoegd; nieuw zijn een tijdnood-blok, de tabel met de drie
    delen, een To remember-tab, zeven lijstkaarten, drie oefeningen en
    zeven quizvragen (nu twaalf), en de leesstof en video's uit de manual.
+   v129: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['demystifying-research-methods/conceptlist-2'] = [
@@ -92,12 +94,20 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "titel": "Part 2 · Understanding the problem",
-        "tekst": "Fourteen concepts about the first real phase of a project: finding out what is actually going on, with which framework, using which sources. This is quiz 2 territory and it feeds directly into the CT2 open questions, where you analyse four short academic texts."
+        "tekst": "Fourteen concepts about the first real phase of a project: finding out what is actually going on, with which framework, using which [[sources|Sources]]. This is quiz 2 territory and it feeds directly into the CT2 open questions, where you analyse four short academic texts."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPart 2 is about the first phase of a project: finding out what is really going on, using good sources."
       },
       {
         "type": "tekst",
         "titel": "A. The research project and its first phases (concepts 29-31)",
-        "tekst": "What a research project is, and the two kinds of research you do before and after you have a design. The order matters: preliminary first, then the design, then background research."
+        "tekst": "What a [[research project|Research project]] is, and the two kinds of research you do before and after you have a design. The order matters: preliminary first, then the design, then [[background research|Background research]]."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nFirst you do quick [[preliminary research|Preliminary research]] to understand the topic, then you make your research design, and then you dig deeper with background research."
       },
       {
         "type": "tekst",
@@ -115,7 +125,7 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**30. Preliminary research**\n\nThe **initial phase** of any project, where you find basic information about your topic: **who, what, when, where**.\n\nIt also shows you the controversies attached to your topic, and whether enough sources exist to cover it properly. It is recommended to follow a framework, such as **6W**, so you get a rich overview rather than a scattered one.\n\nRead: van Tulder, 2018, pp. 88-90; Verhoeven, 2019, pp. 55-59 (online 3.1)."
+        "tekst": "**30. Preliminary research**\n\nThe **initial phase** of any project, where you find basic information about your topic: **who, what, when, where**.\n\nIt also shows you the controversies attached to your topic, and whether enough [[sources|Sources]] exist to cover it properly. It is recommended to follow a framework, such as **6W**, so you get a rich overview rather than a scattered one.\n\nRead: van Tulder, 2018, pp. 88-90; Verhoeven, 2019, pp. 55-59 (online 3.1)."
       },
       {
         "type": "tekst",
@@ -157,7 +167,11 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "titel": "B. Analysing the problem: 6W, proposal and case study (concepts 32-34)",
-        "tekst": "The tool you use to understand a problem (6W), the document in which a design is eventually presented (proposal), and one common way of zooming in on a problem (case study)."
+        "tekst": "The tool you use to understand a problem (6W), the document in which a design is eventually presented (proposal), and one common way of zooming in on a problem ([[case study|Case study]])."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe 6W help you understand a problem. A [[research proposal|Research proposal]] presents your plan. A case study looks closely at one specific case."
       },
       {
         "type": "tekst",
@@ -227,9 +241,13 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
         "tekst": "Where information comes from, how you give credit, and the first of the two axes on which every source can be placed: first-hand or second-hand."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA source is where information comes from, and you must always say which source you used. [[Primary sources]] are first-hand; [[secondary sources|Secondary sources]] explain or interpret them."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**35. Sources**\n\nSimply **where information comes from**. Sources can be articles, books, websites, videos, people or data that provide evidence for your ideas.\n\nNot all sources are equally reliable. They can be **primary or secondary**, and they fall into categories such as **white or grey** literature. Those are two separate distinctions, and a source has a position on both."
+        "tekst": "**35. [[Sources]]**\n\nSimply **where information comes from**. Sources can be articles, books, websites, videos, people or data that provide evidence for your ideas.\n\nNot all sources are equally reliable. They can be **primary or secondary**, and they fall into categories such as **white or grey** literature. Those are two separate distinctions, and a source has a position on both."
       },
       {
         "type": "voorbeeld",
@@ -238,7 +256,7 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**36. Citing (a source)**\n\nHow you **give credit** to the sources you used. It shows you did proper research, justifies your arguments, and acknowledges the researchers who analysed your topic before you. Citing properly is central to being a responsible researcher and to avoiding plagiarism.\n\nSSMS uses **APA** style: author’s last name and year of publication in the text."
+        "tekst": "**36. [[Citing]] (a source)**\n\nHow you **give credit** to the sources you used. It shows you did proper research, justifies your arguments, and acknowledges the researchers who analysed your topic before you. Citing properly is central to being a responsible researcher and to avoiding plagiarism.\n\nSSMS uses **APA** style: author’s last name and year of publication in the text."
       },
       {
         "type": "tekst",
@@ -263,7 +281,7 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**37. Primary sources**\n\n**Raw data and first-hand evidence** that has not been interpreted by someone else.\n\nIncludes: interview transcripts, documented observations, raw statistical data, equipment logs, some (research-based) academic articles, and some (research-based) government reports.\n\nNote the \"some\". An academic article is primary when it reports the researchers’ own study, and secondary when it reviews other people’s work."
+        "tekst": "**37. Primary sources**\n\n**Raw data and first-hand evidence** that has not been interpreted by someone else.\n\nIncludes: interview transcripts, documented observations, raw statistical data, equipment logs, some (research-based) [[academic articles|Academic articles]], and some (research-based) government reports.\n\nNote the \"some\". An academic article is primary when it reports the researchers’ own study, and secondary when it reviews other people’s work."
       },
       {
         "type": "voorbeeld",
@@ -288,6 +306,10 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
         "tekst": "The second axis: how a source was published. Traditionally published academic work (white, with peer review) versus everything produced outside academic publishing (grey)."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\n[[White literature]] is published in academic journals and checked by experts (peer review). [[Grey literature]], like government reports, is not checked that way."
+      },
+      {
         "type": "tekst",
         "toetsstof": true,
         "tekst": "**39. White literature**\n\nAn umbrella term for **traditionally published, peer-reviewed academic work**. Scholarly articles in academic journals, and books published by academic presses.\n\nThe manual adds a caveat worth remembering: **not all books are white literature.**\n\nThe name is historical: the traditionally published academic literature that was printed on white paper."
@@ -299,7 +321,7 @@ LESSTOF['demystifying-research-methods/conceptlist-2'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**40. Academic articles**\n\nFormal texts, also called scholarly articles, studies or papers, **written by experts and published in academic journals after a rigorous peer-review process**. They share new knowledge.\n\nStandard structure: **abstract, introduction, methodology (including the applied research design), results, conclusion**, plus citations and references to earlier work.\n\nThe excerpts you get in preparation for CT2 are all parts of academic articles."
+        "tekst": "**40. [[Academic articles]]**\n\nFormal texts, also called scholarly articles, studies or papers, **written by experts and published in academic journals after a rigorous [[peer-review|Peer-review]] process**. They share new knowledge.\n\nStandard structure: **abstract, introduction, methodology (including the applied research design), results, conclusion**, plus citations and references to earlier work.\n\nThe excerpts you get in preparation for CT2 are all parts of academic articles."
       },
       {
         "type": "tekst",

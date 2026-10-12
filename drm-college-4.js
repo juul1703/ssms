@@ -7,6 +7,8 @@
    college; in het programma is sessie 3 quiz 1 (thuis), dus dit is
    sessie 4 ("Het probleem begrijpen 1"). De 6W-begrippen staan ook in
    Concept list part 2.
+   v129: op standaard gebracht (In plain words per kopje, tijdnood-blok
+   waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    ============================================================ */
 
 LESSTOF['demystifying-research-methods/college-4'] = [
@@ -53,10 +55,18 @@ LESSTOF['demystifying-research-methods/college-4'] = [
         "tekst": "**Quizzes**: at home, individual, open book. You need to **pass 3 quizzes** to pass the course, and you have **3 resits**: six opportunities in total, \"use them to practise for the exams\".\n**CT1**: at the university, individual, closed book: **20 multiple-choice questions** like workshop 1 and quiz 1 (and the quiz 1 resit). Study **concept list part 1 and 2**."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou must pass three quizzes, and you have three resits. CT1 is a test of 20 multiple-choice questions on concept lists 1 and 2."
+      },
+      {
         "type": "tekst",
         "titel": "2. Understanding the problem, and why",
         "toetsstof": true,
         "tekst": "**The opening case.** People say they feel unsafe near a train station: \"I saw groups of young people there twice.\" **First things first: do not jump to conclusions.** What information would you need before making recommendations? The lecture's questions:\n\n- **What** is the problem? **Why** is it a problem?\n- **Which factors** have contributed to it?\n- **When** does it usually happen, and when did it start?\n- **Where** does it usually happen?\n- **Who** is affected, and who is responsible for solving it? How are these groups connected?\n\n\"This is called the **[[6W problem analysis framework]]**. Only then decide.\" A better understanding helps you choose a more suitable and effective action.\n\n**Preliminary and background research.** **Preliminary research** is the first exploration of a topic: you familiarise yourself with it and find basic information (what, why, which factors, when, where, who); a framework such as the 6W helps, and you practise this in this course. **Background research** is a more detailed study of what is already known about a **focused** topic, done once you have a clearer idea of your topic; you practise it next semester in your first research group project. (Concept list part 2, concepts 30 and 31.)\n\n**Why this is needed, three reasons:**\n1. **Every SSMS job needs it**: you need to know how to think through a problem; the more information, the stronger your analysis.\n2. **It justifies the resources**: the information shows why the problem is relevant and worth time and money; look for controversies, recent developments and gaps.\n3. **It supports the decisions**: a better understanding helps you, or your clients, choose a suitable action, \"based on the best of your knowledge\"."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nBefore you suggest a solution, first find out exactly what the problem is, why it matters, what causes it, when and where it happens, and who is involved."
       },
       {
         "type": "uitleg",
@@ -67,6 +77,10 @@ LESSTOF['demystifying-research-methods/college-4'] = [
         "titel": "3. The 6W framework: six connected angles",
         "toetsstof": true,
         "tekst": "The 6W framework helps you **organise evidence** about a practical problem. Each question has a precise focus:"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe 6W are six questions: what, why, which factors, when, where and who. Each has its own focus, and together they give a full picture of the problem."
       },
       {
         "type": "tabel",
@@ -119,16 +133,28 @@ LESSTOF['demystifying-research-methods/college-4'] = [
         "tekst": "**Evidence-based.** In your own words, write information that is **clearly stated or strongly supported** by the provided texts.\n**No external evidence or opinions.** Do not add personal experience or outside knowledge. \"If it's not in the text, it will be considered assumptions and **incorrect**.\"\n**Length.** A good answer is usually around the **number of words stated in the question** (for example ~70 words for WHAT, ~45 for WHERE).\n**Cite** every piece of information, with the paragraph: (NOS, 2023, paras. 3-5).\n\n**Reading efficiently, three techniques:**\n**Skim**: read quickly for the general topic: titles, headings, introductions, conclusions.\n**Scan**: search for a specific element: a word, number, name, place or date, to **locate evidence**.\n**Detail read**: read the relevant sentence or paragraph carefully, before writing your answer.\n\n**How workshop 2 works, three steps:**\n1. **Read the texts and the questions**: which 6W question are you answering, and what exactly must you find? Do not answer a different question.\n2. **Find evidence**: scan for key words, then detail-read; note **where** it appears, because you must **cite** it.\n3. **Write carefully**: in your own words, a few short sentences; no fancy words you are not sure of; stay close to the text, no assumptions."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nOnly use what is in the texts you are given, in your own words, with the source and paragraph. Anything else counts as an assumption and is wrong."
+      },
+      {
         "type": "tekst",
         "titel": "5. Worked example: hooliganism in the Netherlands",
         "toetsstof": true,
         "tekst": "The homework case, with the lecturers' model answers summarised per question. Look at **what** each answer contains and **how** it cites.\n\n**WHAT (~70 words): definition + example.** Hooliganism is disruptive or unlawful behaviour, often during football matches in stadiums, committed by mostly young fans in the Netherlands, who during or after a match throw objects (lighters, smoke bombs), storm the field, commit arson, riot, or assault players, referees or other fans (NOS, 2023, paras. 3-5; MacInnes, 2023, para. 2; van der Plicht, 2023, para. 1).\n\n**WHY (~80 words): societal impact + negative consequences.** Violent incidents with injured players and citizens, fines for clubs, effects on other fans; arrests; matches halted or played without an audience; and stricter legislation and licensing: higher fines, long stadium bans, prison sentences, changed conditions for ticket and alcohol sales.\n\n**WHICH FACTORS (~80 words): development + causes.** During the lockdown the police **lost contact** with fan groups and with it insight into their changing attitudes; a **younger group of fans became dominant**, seeking status among peers without guidance, which created anarchy; and young fans **lacked knowledge** of the legal consequences.\n\n**WHERE (~45 words): location + local conditions.** Dutch cities with stadiums, such as Almere, Groningen, Maastricht and Rotterdam; but the Netherlands is not the only country: UEFA reported similar incidents elsewhere.\n\n**WHEN (~45 words): timeline + key changes.** Before, during or after matches; hooliganism has existed for a long time, but violent incidents **increased after the COVID-19 restrictions were lifted**.\n\n**WHO (~80 words): stakeholders + connections.** The whole football community (players, referees, security officials, fans, their families, neighbourhoods); clubs, stadiums and municipalities, who are also responsible for solving it; some municipalities work with the KNVB, the Ministry of Justice, the Public Prosecution Service and the clubs to tighten conditions for matches.\n\n**Notice:** every answer contains only what the texts say, uses the slide's focus for that W, and cites source plus paragraph."
       },
       {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nThe model answers on football violence show what a good answer to each W looks like: short, on focus, and always with a source."
+      },
+      {
         "type": "tekst",
         "titel": "6. Sources",
         "toetsstof": true,
         "tekst": "Where does information come from? (Concept list part 2, concepts 35 to 42.)\n\n**Primary source**: first-hand evidence or raw data: an interview transcript, an incident record, an observation, a camera log.\n**Secondary source**: an explanation or interpretation of other evidence: a textbook, a review article, a history book.\n**Academic literature**: articles in academic journals that are **peer reviewed** (checked by experts).\n**Grey literature**: reports from governments or organisations.\n\nBoth primary and secondary sources can be useful, but check their purpose and limits. **All sources must be cited** in the text."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nA primary source is first-hand evidence, a secondary source is someone's interpretation. Academic articles are checked by experts; reports from governments are grey literature."
       },
       {
         "type": "checklist",
