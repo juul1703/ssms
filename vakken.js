@@ -84,7 +84,9 @@
       { id: 'conceptlist-3', groep: 'Extra naslagwerken', titel: 'Concept list deel 3 \u00b7 Planning your investigation', duur: 50 }
     ],
     'professional-skills': [
-      { id: 'opdrachten', groep: 'Opdrachten', titel: 'De drie opdrachten \u00b7 aanpak per opdracht', duur: 30 }
+      { id: 'opdrachten', groep: 'Opdrachten', titel: 'De drie opdrachten \u00b7 aanpak per opdracht', duur: 30 },
+      { id: 'midterm-1',  groep: 'Opdrachten', titel: 'How to: mid-term #1, communication analysis', duur: 45 },
+      { id: 'midterm-2',  groep: 'Opdrachten', titel: 'How to: mid-term #2, job application', duur: 45 }
     ],
     'fundamentals-of-academic-writing': [
       { id: 'naslagwerk', groep: 'Naslag',  titel: 'Engels academisch schrijven', duur: 40 },

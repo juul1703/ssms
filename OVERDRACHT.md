@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v120**.
+Stand: 29 september 2026, service worker **v121**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -69,6 +69,8 @@ bestanden.
 | `ps-college-4.js` | Professional Skills sessie 4, teamwork en conflictmanagement; slides plus de leeslinks uitgewerkt; nieuw in v110 |
 | `ps-college-5.js` | Professional Skills sessie 5, AI and its responsible use (Wisse); nieuw in v117 |
 | `ps-college-6.js` | PS sessie 6, Hofstede (Żemojtel-Piotrowska & Piotrowski, 2023), uit de literatuur; nieuw in v119 |
+| `ps-midterm-1.js` | PS naslag (Opdrachten): how to mid-term #1, communication analysis; alleen de stof uit manual Table 1; nieuw in v121 |
+| `ps-midterm-2.js` | PS naslag (Opdrachten): how to mid-term #2, job application; nieuw in v121. Personal branding (sessie 6) volgt met de slides |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
 | `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
@@ -109,6 +111,8 @@ ps-college-3.js
 ps-college-4.js
 ps-college-5.js
 ps-college-6.js
+ps-midterm-1.js
+ps-midterm-2.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
