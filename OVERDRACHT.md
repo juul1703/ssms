@@ -553,7 +553,8 @@ en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
    Let op: ch3 t/m ch13 en Intro h10 zijn nog Nederlands (vertalen staat
    apart op de lijst); de In plain words-kaders wel in het Engels.
 6. ~~Studiegids em dashes~~ niet nodig (Julie, 12 okt).
-7. **Volgende:** Intro H10 vertalen naar het Engels en op standaard brengen (recap erbij). Daarna de DRM-hoofdstukken ch3, ch4, ch5, ch13 vertalen, met recaps.
+7. ~~Intro H10 vertalen~~ klaar (v130): volledig Engels, recap-tab, quiz van 8 vragen, bronnen, 2 lijstkaarten erbij; titel in vakken.js nu Engels.
+8. **Volgende:** de DRM-hoofdstukken ch3, ch4, ch5, ch13 vertalen naar het Engels, met recaps (zelfde aanpak als H10).
 
 ## 9e. Volgende-knop vinkt af (v126)
 

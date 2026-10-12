@@ -2736,38 +2736,38 @@ LESSTOF["intro-to-safety-security/h5"] = [
 LESSTOF["intro-to-safety-security/h10"] = [
   {
     "id": "voor",
-    "titel": "Voorbereiding",
+    "titel": "Before you start",
     "blokken": [
       {
         "type": "uitleg",
-        "titel": "Over dit hoofdstuk",
-        "tekst": "**Auteur:** George Boustras, CERIDES (Excellence in Innovation and Technology), European University Cyprus, Nicosia.\n\n**Kern in één zin:** cyberdreiging, radicalisering en de economische crisis komen alle drie samen bij de individuele werknemer, en daarmee ontstaat een nieuw vakgebied op het snijvlak van safety en security."
+        "titel": "About this chapter",
+        "tekst": "**Author:** George Boustras, CERIDES (Excellence in Innovation and Technology), European University Cyprus, Nicosia.\n\n**The core in one sentence:** cyber threats, radicalisation and the economic crisis all come together at the level of the individual employee, and that creates a new field at the intersection of safety and security."
       },
       {
         "type": "leerdoelen",
         "items": [
-          "Uitleggen waarom Boustras stelt dat safety steeds afhankelijker wordt van security",
-          "De vier verbindende factoren benoemen en per factor het mechanisme beschrijven",
-          "De korte- en langetermijneffecten van securityincidenten op de werkplek onderscheiden",
-          "Uitleggen wat sociale uitsluiting als gemeenschappelijke route betekent",
-          "Het slotverschil tussen safety en security in termen van juridische verantwoordelijkheid reproduceren"
+          "Explain why Boustras argues that safety increasingly depends on security",
+          "Name the connecting factors and describe the mechanism behind each",
+          "Distinguish the short-term and long-term effects of security incidents on the workplace",
+          "Explain what social exclusion as a common route means",
+          "Reproduce the final difference between safety and security in terms of legal responsibility"
         ]
       },
       {
         "type": "slimmer",
         "titel": "If you are short on time",
-        "tekst": "**1.** Section 10.2: the effects of security incidents on the workplace (15 minutes). **2.** Sections 10.3 and 10.4: cyber and radicalisation (15 minutes). **3.** Section 10.6: the conclusions (5 minutes). **4.** The flashcards (10 minutes)."
+        "tekst": "**1.** Section 10.2: the effects of security incidents on the workplace (15 minutes). **2.** Sections 10.3 and 10.4: cyber and radicalisation (15 minutes). **3.** Section 10.6: the conclusions (5 minutes). **4.** The To remember tab and the flashcards (10 minutes)."
       }
     ]
   },
   {
     "id": "kern",
-    "titel": "Kernstof",
+    "titel": "Core material",
     "blokken": [
       {
         "type": "tekst",
-        "titel": "10.1 Inleiding: een nieuw verhaal voor werkplekveiligheid",
-        "tekst": "Sinds de eeuwwisseling hebben zich veel securitykwesties met grote impact voorgedaan. Grootschalig, zoals de aanslagen in **Parijs, Brussel, Nice, Londen en Madrid**, en kleinschalig, zoals mesaanvallen in Israël en eenlingen (lone wolves).\n\nBoustras maakt een observatie die je moet onthouden: als categorie gebeurtenissen worden de zeldzame episodes van begin deze eeuw, 9/11, 7/7 in Londen, Atocha in Madrid, **steeds \"gewoner\"**. Episodes van geweld rond [[radicalisering|Radicalisering]], cyberaanvallen en toegenomen angst voor een **[[CBRN]]-aanval** (chemisch, biologisch, radiologisch, nucleair, bijvoorbeeld een vuile bom) creëren ook voor werkplekken een complexe securityomgeving.\n\nTwee opkomende thema's krijgen de hoofdrol:\n\n**Radicalisering** is een opkomend vraagstuk voor arbeidsveiligheid en -gezondheid, en illustreert de moeilijkheid van westerse samenlevingen om een mechanisme te verklaren dat voorheen onbekende vormen van maatschappelijke onrust aan de oppervlakte brengt.\n\n**Cybercriminaliteit**, een product van de grootschalige ontwikkeling van informatietechnologie, kan leiden tot nieuwe en onvoorziene interacties tussen werkplekken die voorheen niets met elkaar te maken hadden. De afhankelijkheid van moderne samenlevingen en werkomgevingen van digitale systemen laat de mogelijke impact van zulke aanvallen zien.\n\nWat beide gemeen hebben, en dit is de rode draad van het hoofdstuk: **ze worden gedreven door de menselijke factor**."
+        "titel": "10.1 Introduction: a new narrative for workplace safety",
+        "tekst": "Since the turn of the century, many security issues with a major impact have occurred. Large-scale ones, such as the attacks in **Paris, Brussels, Nice, London and Madrid**, and small-scale ones, such as knife attacks in Israel and lone wolves.\n\nBoustras makes an observation you need to remember: as a category of events, the rare episodes of the start of this century (9/11, 7/7 in London, Atocha in Madrid) are becoming **increasingly \"ordinary\"**. Episodes of violence related to [[radicalisation|Radicalisation]], cyberattacks and a growing fear of a **[[CBRN]] attack** (chemical, biological, radiological, nuclear, for example a dirty bomb) also create a complex security environment for workplaces.\n\nTwo emerging themes take centre stage:\n\n**Radicalisation** is an emerging issue for occupational safety and health, and it illustrates how difficult it is for Western societies to explain a mechanism that brings previously unknown forms of social unrest to the surface.\n\n**Cybercrime**, a product of the large-scale development of information technology, can lead to new and unforeseen interactions between workplaces that previously had nothing to do with each other. The dependence of modern societies and workplaces on digital systems shows the possible impact of such attacks.\n\nWhat both have in common, and this is the thread running through the chapter: **they are driven by the human factor**."
       },
       {
         "type": "slimmer",
@@ -2775,17 +2775,17 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "uitleg",
-        "titel": "waarom dit hoofdstuk het boek afmaakt",
-        "tekst": "Tot nu toe ging het boek over installaties, systemen, organisaties en beroepen. Boustras brengt het terug naar de plek waar de meeste mensen werken: een kantoor, een school, een ziekenhuis, een fabriekshal.\n\nZijn punt is dat de grote securitythema's daar aankomen in een vorm die geen enkele beveiliger herkent. Niet als een aanval, maar als een collega die zich uitgesloten voelt, als een medewerker die na een aanslag in het nieuws niet meer durft te reizen, als een systeem dat plat ligt en mensen thuis houdt.\n\nDaarmee is dit het hoofdstuk dat het dichtst bij jouw toekomstige praktijk staat. De meeste SSMS'ers gaan niet bij een kernwapenlab werken."
+        "titel": "Why this chapter completes the book",
+        "tekst": "Until now the book was about installations, systems, organisations and professions. Boustras brings it back to the place where most people work: an office, a school, a hospital, a factory floor.\n\nHis point is that the big security themes arrive there in a form that no security officer recognises. Not as an attack, but as a colleague who feels excluded, as an employee who no longer dares to travel after an attack in the news, as a system that is down and keeps people at home.\n\nThat makes this the chapter closest to your future practice. Most SSMS graduates will not work at a nuclear weapons lab."
       },
       {
         "type": "tekst",
-        "tekst": "Verder is de gecombineerde inspanning rond **bescherming van kritieke infrastructuur** een \"test bed\" dat de onderlinge verbondenheid van deze nieuwe securitydreigingen bewijst. Die opkomende risico's raken de infrastructuur, de werkomgeving én de werknemer.\n\nTegelijkertijd zijn safetykwesties sterk beïnvloed door de nog altijd doorwerkende **economische neergang** en de bijproducten daarvan, namelijk toegenomen [[psychosociale problemen|Psychosociale problemen]] op het werk. Veiligheid in de werkomgeving, veiligheidssystemen en bevoegde autoriteiten zijn **slachtoffer van bezuinigingsmaatregelen** die met de financiële crisis samenhangen. Financiële onzekerheid en toegenomen mediahysterie rond security leiden tot nóg meer psychosociale problemen.\n\nBoustras verwijst naar **Ulrich Beck** en diens *Risk Society*: er is een nieuwe set maatschappelijke condities ontstaan, cyberdreiging, [[radicalisering|Radicalisering]], economische crisis, die de werkplek en de werknemer raken. Die condities brengen safety en security dichter bij elkaar en creëren een complexere en dynamischer omgeving dan voorheen.\n\nDat is volgens hem een **nieuw verhaal (narrative) voor werkplekveiligheid**, waarin een causale verbinding wordt geconstrueerd: securitygerelateerde episodes raken safety, zowel op het niveau van het werk als van de samenleving. Er moet dus een nieuw type risico worden meegewogen, een type dat **per definitie een grote onzekerheid erft**. Die onzekerheid is inherent doordat het risico afhankelijk is van **menselijk gedrag**."
+        "tekst": "Furthermore, the combined effort around **critical infrastructure protection** is a \"test bed\" that proves how these new security threats are interconnected. These emerging risks affect the infrastructure, the work environment and the employee.\n\nAt the same time, safety issues have been strongly influenced by the still lingering **economic downturn** and its by-products, namely increased **[[psychosocial problems|Psychosocial problems]]** at work. Safety in the work environment, safety systems and competent authorities have fallen **victim to austerity measures** linked to the financial crisis. Financial insecurity and increased media hysteria around security lead to even more psychosocial problems.\n\nBoustras refers to **Ulrich Beck** and his *Risk Society*: a new set of social conditions has emerged (cyber threats, [[radicalisation|Radicalisation]], economic crisis) that affects the workplace and the employee. These conditions bring safety and security closer together and create a more complex and dynamic environment than before.\n\nAccording to him, this is a **new narrative for workplace safety**, in which a causal connection is constructed: security-related episodes affect safety, both at the level of work and of society. A new type of risk therefore has to be taken into account, a type that **by definition inherits great uncertainty**. That uncertainty is inherent because the risk depends on **human behaviour**."
       },
       {
         "type": "tekst",
-        "titel": "10.2 Veranderingen in de fysieke werkomgeving",
-        "tekst": "Securityincidenten hebben dramatische korte- en langetermijneffecten op de werkplek. Boustras onderscheidt ze consequent, en dat onderscheid is toetsstof.\n\n**Direct en zichtbaar:** fysiek letsel en verlies van levens hebben een directe, onmiddellijke impact op de dagelijkse operatie van de organisatie.\n\n**Traag en onzichtbaar:** [[psychosociale problemen|Psychosociale problemen]] hebben zowel korte- als langetermijnimpact. **PTSS**, depressie en andere stressgerelateerde ziekten raken de werkplek organisatorisch én financieel. Stressgerelateerde ziekten op het werk hebben directe kosten voor het sociale verzekeringsstelsel."
+        "titel": "10.2 Changes in the physical work environment",
+        "tekst": "Security incidents have dramatic short-term and long-term effects on the workplace. Boustras distinguishes them consistently, and that distinction is exam material.\n\n**Direct and visible:** physical injury and loss of life have a direct, immediate impact on the daily operation of the organisation.\n\n**Slow and invisible:** **[[psychosocial problems|Psychosocial problems]]** have both short-term and long-term impact. **PTSD**, depression and other stress-related illnesses affect the workplace organisationally and financially. Stress-related illness at work has direct costs for the social insurance system."
       },
       {
         "type": "slimmer",
@@ -2793,8 +2793,8 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "tekst",
-        "titel": "Het voorbeeld van de eerste responders na 9/11",
-        "tekst": "Na de instorting van de Twin Towers in New York in 2001 bedekte een **giftige wolk**, met daarin onder meer asbest, de wijde omgeving. De effecten op de ruim **40.000 eerste responders en hulpverleners** waren zowel kort- als langdurig. Er is gerapporteerd dat ten minste **vier sterfgevallen** onder eerste responders zijn gekoppeld aan aandoeningen van de bovenste luchtwegen, en dat **honderden brandweerlieden** met pensioen zijn gegaan vanwege gezondheidseffecten."
+        "titel": "The example of the first responders after 9/11",
+        "tekst": "After the collapse of the Twin Towers in New York in 2001, a **toxic cloud**, containing asbestos among other things, covered the wider area. The effects on the more than **40,000 first responders and rescue workers** were both short-term and long-term. It has been reported that at least **four deaths** among first responders have been linked to upper respiratory conditions, and that **hundreds of firefighters** retired because of health effects."
       },
       {
         "type": "slimmer",
@@ -2802,13 +2802,13 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "waarschuwing",
-        "titel": "dit is de kern van het hoofdstuk in één voorbeeld",
-        "tekst": "9/11 wordt in het hele boek behandeld als het securityincident bij uitstek: de aanslag die het vakgebied veranderde, de reden dat de TSA bestaat, het moment waarop de cockpitdeur werd verstevigd.\n\nBoustras kijkt naar dezelfde gebeurtenis en ziet iets anders: **een arbeidsveiligheidsprobleem**. Asbest, luchtwegaandoeningen, vervroegde pensionering. Dat zijn klassieke OHS-thema's, veroorzaakt door een securityincident, en ze speelden zich jaren later af.\n\nDat is precies wat hij bedoelt met het snijvlak. Niet dat safety en security hetzelfde zijn, maar dat een securityincident zich vertaalt in safetygevolgen bij individuele werknemers, met een vertraging van jaren."
+        "titel": "The core of the chapter in one example",
+        "tekst": "Throughout the book, 9/11 is treated as the security incident par excellence: the attack that changed the field, the reason the TSA exists, the moment the cockpit door was reinforced.\n\nBoustras looks at the same event and sees something else: **an occupational safety problem**. Asbestos, respiratory illness, early retirement. These are classic OHS themes, caused by a security incident, and they played out years later.\n\nThat is exactly what he means by the intersection. Not that safety and security are the same, but that a security incident translates into safety consequences for individual employees, with a delay of years."
       },
       {
         "type": "tekst",
-        "titel": "Gevolgen op organisatieniveau",
-        "tekst": "Securityincidenten kunnen grootschalig zijn (9/11, 7/7) of kleinschalig (een mogelijke inbreuk op het terrein van de organisatie). De **risicobeoordeling wordt hervormd** om ook securityaspecten mee te nemen, vooral de aspecten die direct met safety samenhangen. Een voorbeeld is de ontwikkeling van een securitybeleid of het opzetten van een registratiemechanisme, handmatig of automatisch, bemand of elektronisch, om een poging tot brandstichting te voorkomen of erop te reageren.\n\nEn dan een concrete organisatieontwikkeling die je moet kennen: **laagrisicobedrijven, zoals kantooromgevingen, proberen steeds vaker de taken van de security officer en de safety officer samen te voegen.** Dat is precies de vraag uit hoofdstuk 1, hier beantwoord door de praktijk: waar de risico's laag zijn, wordt geïntegreerd, meestal om kosten te besparen."
+        "titel": "Consequences at the organisational level",
+        "tekst": "Security incidents can be large-scale (9/11, 7/7) or small-scale (a possible intrusion onto the organisation's premises). **Risk assessment is being reshaped** to include security aspects as well, especially those directly linked to safety. An example is the development of a security policy or the set-up of a registration mechanism, manual or automatic, staffed or electronic, to prevent or respond to an attempted arson.\n\nAnd then a concrete organisational development you need to know: **low-risk companies, such as office environments, increasingly try to combine the tasks of the security officer and the safety officer.** That is exactly the question from chapter 1, answered here by practice: where risks are low, the functions are integrated, usually to save costs."
       },
       {
         "type": "slimmer",
@@ -2816,8 +2816,8 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "tekst",
-        "titel": "Vertrouwen als beschadigd goed",
-        "tekst": "Naast de eerder beschreven effecten hebben aanvallen op de werkplek nóg een gevolg. Hoewel een securityincident een kwaadwillende, meestal vooraf geplande handeling is, laten studies zien dat securityincidenten op de werkplek invloed hebben op de manier waarop **werknemers vertrouwen ervaren tegenover hun werkgever**.\n\nDe belangrijkste verworvenheid van de werknemer, namelijk de verantwoordelijkheid van de eigenaar of manager om een veilige en gezonde werkplek te bieden, wordt **in twijfel getrokken**. Het is daarom cruciaal om het belang van **integratie van security in de arbo-planning** van de organisatie te benadrukken. De rol van de leiding vóór, tijdens en na een crisis is cruciaal voor het vermogen van een organisatie om te reageren en terug te keren naar een functionele toestand.\n\nTerroristen kiezen doorgaans **emblematische werkgevers en werkplekken** om mediadekking te bereiken, ook om ideologische redenen. De literatuur suggereert dat **persoonlijke voorbereiding nog steeds laag is**, zelfs in landen die al emblematische securityincidenten en terreuraanslagen hebben meegemaakt: minder dan de helft van de bevolking heeft voorbereidende maatregelen genomen.\n\nSecurityincidenten op de werkplek creëren directe problemen met langdurige effecten, maar tegelijkertijd creëert de samenleving een **\"mechanisme\" waarin die gebeurtenissen niet lang na hun optreden worden weggepoetst**. Daarom wordt de opkomst van de behoefte aan een **security culture**, vergelijkbaar met de vermeende vestiging van een safety culture op individueel, organisatorisch en nationaal niveau, belangrijk.\n\nBoustras voegt daar een argument aan toe dat direct aansluit op Jore in hoofdstuk 5: je zou kunnen stellen dat **security- en safetycultuur elkaar ontmoeten omdat ze allebei in de eerste plaats op het individu zijn gericht**. Hij onderbouwt dat met drie verwijzingen: Guldenmund (de meeste empirische studies van safety culture richten zich op individuele houdingen, percepties en gedragspatronen), Mearns en Yule (safety als centrale waarde is het bepalende moment voor elke organisatie die aan een positieve safety culture begint, ongeacht de nationale context), en Smith (de verschuiving van security na de Koude Oorlog van het nationale niveau naar het niveau van gemeenschap en individu)."
+        "titel": "Trust as a damaged asset",
+        "tekst": "Besides the effects described earlier, attacks on the workplace have yet another consequence. Although a security incident is a malicious, usually premeditated act, studies show that security incidents at the workplace affect the way **employees experience trust towards their employer**.\n\nThe employee's most important acquired right, the responsibility of the owner or manager to provide a safe and healthy workplace, is **called into question**. It is therefore crucial to stress the importance of **integrating security into the organisation's occupational health and safety planning**. The role of management before, during and after a crisis is crucial for an organisation's ability to respond and return to a functional state.\n\nTerrorists usually choose **emblematic employers and workplaces** to gain media coverage, also for ideological reasons. The literature suggests that **personal preparedness is still low**, even in countries that have already experienced emblematic security incidents and terrorist attacks: less than half of the population has taken preparatory measures.\n\nSecurity incidents at the workplace create direct problems with long-lasting effects, but at the same time society creates a **\"mechanism\" in which these events are glossed over not long after they happen**. That is why the rise of the need for a **security culture**, comparable to the supposed establishment of a safety culture at individual, organisational and national level, becomes important.\n\nBoustras adds an argument that links directly to Jore in chapter 5: it could be argued that **security culture and safety culture meet because both are primarily focused on the individual**. He supports this with three references: Guldenmund (most empirical studies of safety culture focus on individual attitudes, perceptions and behavioural patterns), Mearns and Yule (safety as a central value is the defining moment for any organisation starting a positive safety culture, regardless of national context), and Smith (the post-Cold War shift of security from the national level to the level of the community and the individual)."
       },
       {
         "type": "slimmer",
@@ -2825,8 +2825,8 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "tekst",
-        "titel": "10.3 Cyber en de veiligheid op de werkplek",
-        "tekst": "Cyberaanvallen komen steeds vaker voor en kunnen aanzienlijke impact hebben op de werkplek en op het welzijn van de werknemer.\n\n**Op organisatieniveau.** Een aanval kan betekenen: verlies van gevoelige data, wat kan leiden tot **tijdelijke of permanente sluiting** van het bedrijf. Hoogrisico-operaties kunnen worden geraakt met de mogelijkheid van **operationele of fysieke schade**. Boustras verwijst naar berichtgeving na de aanslagen in Brussel in 2016 over voorbereidend werk voor een mogelijke terroristische operatie in een of meer van de **nucleaire installaties in België**.\n\n**Op maatschappelijk niveau.** Bijzondere aandacht verdient de relatie tussen cybersecurity op de werkplek en de veiligheid en betrouwbaarheid van **kritieke infrastructuur**. Energie-infrastructuur is de belangrijkste dragende pijler van nationale en internationale economische activiteit. Onderbrekingen kunnen ernstige schade veroorzaken aan de bredere werkplek.\n\n**Domino-effecten** van onderbrekingen in kritieke infrastructuur kunnen onder meer ernstige financiële schade veroorzaken. Boustras citeert een krantenbericht: honderden winkels in het zuidoosten van Londen en Noord-Kent moesten sluiten, en forenzen spraken van uiterst beangstigende omstandigheden op de weg toen de verkeerslichten uitvielen.\n\nModerne infrastructuren functioneren als een **\"[[system of systems|System of systems]]\"** met veel interacties, verbindingen en onderlinge afhankelijkheden. Schade door een cyberaanval op de werkplek van één infrastructuursysteem kan dus **cascaderen** en leiden tot storingen in alle verwante en afhankelijke infrastructuren, wat uiteindelijk de bredere economie en samenleving raakt. Die onderlinge verbindingen en afhankelijkheden kunnen **digitaal, fysiek, geografisch of logisch** zijn."
+        "titel": "10.3 Cyber and safety at the workplace",
+        "tekst": "Cyberattacks are becoming more frequent and can have a considerable impact on the workplace and on employee well-being.\n\n**At the organisational level.** An attack can mean the loss of sensitive data, which can lead to the **temporary or permanent closure** of the business. High-risk operations can be hit, with the possibility of **operational or physical damage**. Boustras refers to reports after the 2016 Brussels attacks of preparatory work for a possible terrorist operation at one or more of the **nuclear installations in Belgium**.\n\n**At the societal level.** Special attention should go to the relation between cybersecurity at the workplace and the safety and reliability of **critical infrastructure**. Energy infrastructure is the most important supporting pillar of national and international economic activity. Interruptions can cause serious damage to the wider workplace.\n\n**Domino effects** of interruptions in critical infrastructure can cause serious financial damage, among other things. Boustras quotes a newspaper report: hundreds of shops in south-east London and north Kent had to close, and commuters spoke of extremely frightening conditions on the road when the traffic lights failed.\n\nModern infrastructures function as a **\"[[system of systems|System of systems]]\"** with many interactions, connections and interdependencies. Damage from a cyberattack on the workplace of one infrastructure system can therefore **cascade** and lead to failures in all related and dependent infrastructures, eventually affecting the wider economy and society. These interconnections and interdependencies can be **digital, physical, geographical or logical**."
       },
       {
         "type": "slimmer",
@@ -2834,13 +2834,13 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "uitleg",
-        "titel": "onthoud die vier soorten afhankelijkheid",
-        "tekst": "De indeling komt van Rinaldi en collega's en is standaardstof in kritieke-infrastructuurstudies.\n\n**Digitaal:** systeem A stuurt data naar systeem B. Valt A uit, dan blindvliegt B.\n**Fysiek:** systeem A levert een product aan B. Geen stroom, geen pompstation.\n**Geografisch:** A en B liggen toevallig op dezelfde plek. Eén brand in één tunnel raakt stroom, glasvezel en water tegelijk.\n**Logisch:** A en B hangen samen via menselijk gedrag of markten. Geen betaalverkeer, dus mensen gaan hamsteren, dus de winkelketen loopt vast.\n\nDie vierde is de lastigste, en de meest onderschatte. Hij loopt via mensen, niet via kabels."
+        "titel": "Remember the four kinds of interdependency",
+        "tekst": "The classification comes from Rinaldi and colleagues and is standard material in critical infrastructure studies.\n\n**Digital:** system A sends data to system B. If A fails, B is flying blind.\n**Physical:** system A supplies a product to B. No electricity, no pumping station.\n**Geographical:** A and B happen to be in the same place. One fire in one tunnel hits power, fibre and water at the same time.\n**Logical:** A and B are connected through human behaviour or markets. No payment system, so people start hoarding, so the supermarket chain grinds to a halt.\n\nThe fourth is the hardest and the most underestimated. It runs through people, not through cables."
       },
       {
         "type": "tekst",
-        "titel": "10.4 Radicalisering en de werkplek",
-        "tekst": "Een opkomend risico voor safety en security op de werkplek is **[[radicalisering|Radicalisering]]**: een proces waarbij individuen worden blootgesteld aan extremistisch materiaal met direct effect op hun sociale gedrag en hun opvattingen over samenleving en rechtvaardigheid. Mechanismen zoals **persoonlijk onrecht of wraak** en bestaande of zich ontwikkelende psychologische problemen verklaren de overgang van geradicaliseerd individu naar terrorist.\n\nBoustras signaleert een gat in de literatuur: ondanks mediaberichten dat de daders van de meeste recente aanslagen \"homegrown, geradicaliseerde jongeren\" waren, is er **geen literatuur** die de relatie tussen radicalisering en de werkomgeving belicht. Dit hoofdstuk probeert die parameters te benoemen.\n\nDe redenering verloopt in stappen:\n\n**Stap 1.** De relatie tussen menselijk gedrag en veiligheid op de werkplek is rechtstreeks: rationeel of irrationeel gedrag leidt tot het ontstaan van ongevallen.\n\n**Stap 2.** Rapportages van aangehouden terroristen noemen als oorzakelijke factoren voor radicalisering verschillende vormen van **discriminatie** (vooral rond religieuze of politieke kwesties) en **pesten** als gevolg van die discriminatie.\n\n**Stap 3.** Discriminatie op de werkplek heeft een lange geschiedenis. Boustras citeert Huang en Kleiner: in de jaren zestig en zeventig vochten zwarte mensen en vrouwen voor hun rechten, in de jaren tachtig en negentig homoseksuelen en lesbiennes, en nu gaat het tussen werkgevers en werknemers met **religie op de werkplek** als strijdtoneel.\n\n**Stap 4.** Religieuze discriminatie op de werkplek kan **formeel en informeel** voorkomen. Religieuze grappen, uitsluiting op religieuze gronden en het bagatelliseren van religieuze overtuigingen kunnen een omgeving creëren waarin **persoonlijk onrecht en wraakzucht** worden gekweekt.\n\n**Stap 5.** En dan het scherpste punt: ongeacht de intensiteit van de opmerkingen of gedragingen kan **[[waargenomen discriminatie|Waargenomen discriminatie]]** (perceived discrimination) verschillende effecten hebben. Of de discriminatie nu breed of verhuld is, **wat het meest telt is hoe de werknemer haar ervaart**.\n\nDe resultaten van waargenomen uitsluiting zijn voelbaar op de werkplek en in de samenleving. Verkuyten benadrukt de rol van discriminatie als leidende factor naar radicalisering. De populaire pers beschrijft terroristen als \"normale\" mensen tot een bepaalde leeftijd, met informele, precaire of formele arbeidsrelaties.\n\nPesten en discriminatie hebben dus **dubbele effecten**: op de werkplek (ziekteverzuim, met sociale en economische gevolgen) en op het slachtoffer ([[psychosociale problemen|Psychosociale problemen]])."
+        "titel": "10.4 Radicalisation and the workplace",
+        "tekst": "An emerging risk for safety and security at the workplace is **[[radicalisation|Radicalisation]]**: a process in which individuals are exposed to extremist material with a direct effect on their social behaviour and their views of society and justice. Mechanisms such as **personal injustice or revenge**, and existing or developing psychological problems, explain the transition from radicalised individual to terrorist.\n\nBoustras points to a gap in the literature: despite media reports that the perpetrators of most recent attacks were \"home-grown, radicalised young people\", there is **no literature** on the relation between radicalisation and the work environment. This chapter tries to name those parameters.\n\nThe reasoning proceeds in steps:\n\n**Step 1.** The relation between human behaviour and safety at the workplace is direct: rational or irrational behaviour leads to accidents.\n\n**Step 2.** Reports on arrested terrorists name various forms of **discrimination** (especially on religious or political issues) and the **bullying** that results from it as causal factors in radicalisation.\n\n**Step 3.** Discrimination at the workplace has a long history. Boustras quotes Huang and Kleiner: in the 1960s and 1970s black people and women fought for their rights, in the 1980s and 1990s gay men and lesbians, and now the struggle is between employers and employees with **religion at the workplace** as the battleground.\n\n**Step 4.** Religious discrimination at the workplace can occur **formally and informally**. Religious jokes, exclusion on religious grounds and belittling religious beliefs can create an environment in which **personal injustice and vengefulness** are cultivated.\n\n**Step 5.** And then the sharpest point: regardless of the intensity of the remarks or behaviour, **[[perceived discrimination|Perceived discrimination]]** can have various effects. Whether the discrimination is widespread or hidden, **what counts most is how the employee experiences it**.\n\nThe results of perceived exclusion are felt at the workplace and in society. Verkuyten stresses the role of discrimination as a leading factor towards radicalisation. The popular press describes terrorists as \"normal\" people up to a certain age, with informal, precarious or formal employment relations.\n\nBullying and discrimination therefore have **double effects**: on the workplace (absenteeism, with social and economic consequences) and on the victim ([[psychosocial problems|Psychosocial problems]])."
       },
       {
         "type": "slimmer",
@@ -2848,13 +2848,13 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "waarschuwing",
-        "titel": "de subtiliteit van \"perceived discrimination\"",
-        "tekst": "Dit is het punt waar veel studenten te snel overheen lezen. Boustras zegt niet dat elke werkplek discrimineert. Hij zegt dat de **waarneming** van de werknemer bepalend is, niet de intentie van de collega die de grap maakte.\n\nDat is voor jouw beroep belangrijk om twee redenen. Ten eerste kun je perceptie niet wegnemen door te zeggen \"zo was het niet bedoeld\". Ten tweede is perceptie wél meetbaar, met dezelfde instrumenten waarmee je subjectieve veiligheid meet: enquêtes, gesprekken, meldingen.\n\nDaarmee wordt [[radicalisering|Radicalisering]] een thema dat via arbeidsveiligheid benaderbaar is. Niet met een securityaanpak van opsporing en verdenking, maar met een safetyaanpak van klimaatmeting en meldstructuren. Dat is de brug die Boustras slaat."
+        "titel": "The subtlety of \"perceived discrimination\"",
+        "tekst": "This is the point many students read past too quickly. Boustras does not say that every workplace discriminates. He says that the employee's **perception** is decisive, not the intention of the colleague who made the joke.\n\nThat matters for your profession for two reasons. First, you cannot remove a perception by saying \"that is not what was meant\". Second, perception **can** be measured, with the same instruments you use to measure subjective safety: surveys, conversations, reports.\n\nThat makes [[radicalisation|Radicalisation]] a theme that can be approached through occupational safety. Not with a security approach of detection and suspicion, but with a safety approach of climate measurement and reporting structures. That is the bridge Boustras builds."
       },
       {
         "type": "tekst",
-        "titel": "10.5 De financiële crisis en psychosociale problemen",
-        "tekst": "De economische crisis die in 2008 begon met de val van **Lehman Brothers** heeft in delen van de westerse wereld sporen achtergelaten. **Zuid-Europese landen** droegen het grootste deel van de gevolgen; voor sommige landen werd de economische crisis ook een sociale crisis.\n\nBoustras betoogt dat de effecten van de financiële crisis een **verbindende factor** tussen safety en security kunnen zijn. De crisis had impact op de arbeidsmarkt en op de volksgezondheid. Veranderingen op de arbeidsmarkt betekenden een toename van **werkloosheid, tijdelijk en zwart werk**. Lagere lonen, onzekerheid en informele werktijden schetsen een dramatisch beeld met duidelijke gevolgen voor gezondheid en veiligheid van werknemers.\n\nEen direct gevolg is de toename van **[[psychosociale problemen|Psychosociale problemen]]** op de werkplek. Die hebben directe effecten op de organisatie en het personeel: **angst, pesten, mobbing en depressie** leiden onder meer tot een toename van arbeidsongevallen.\n\nDan volgt de kernredenering van de paragraaf:\n\n**Onzekerheid en wanhoop leiden tot verschillende vormen van extreem gedrag, wat de achtergrond creëert voor potentiële aanvallen en agressie, wat op zijn beurt leidt tot [[sociale uitsluiting|Sociale uitsluiting]].**\n\nEn Boustras merkt op: hier zijn **overeenkomsten met het proces dat naar [[radicalisering|Radicalisering]] leidt**, zoals in 10.4 beschreven.\n\nHistorische analyse toont dat financiële crises **politieke ontwrichting en politieke radicalisering** veroorzaken. De economische crisis is de drijvende kracht geweest achter de opkomst van extremistische politieke partijen in Europa, die anti-globalisering, anti-immigratie en anti-buitenlander-retoriek verkochten.\n\nDe conclusie van de paragraaf, en het scharnier van het hele hoofdstuk:\n\n**Sociale uitsluiting komt naar voren als de verbindende factor tussen de mechanismen die tot safety- en tot securityincidenten kunnen leiden.**"
+        "titel": "10.5 The financial crisis and psychosocial problems",
+        "tekst": "The economic crisis that began in 2008 with the collapse of **Lehman Brothers** left its mark on parts of the Western world. **Southern European countries** bore most of the consequences; for some countries the economic crisis also became a social crisis.\n\nBoustras argues that the effects of the financial crisis can be a **connecting factor** between safety and security. The crisis affected the labour market and public health. Changes in the labour market meant an increase in **unemployment, temporary work and undeclared work**. Lower wages, insecurity and informal working hours paint a dramatic picture, with clear consequences for the health and safety of workers.\n\nA direct consequence is the rise of **[[psychosocial problems|Psychosocial problems]]** at the workplace. These have direct effects on the organisation and its staff: **anxiety, bullying, mobbing and depression** lead, among other things, to an increase in occupational accidents.\n\nThen comes the core reasoning of the section:\n\n**Insecurity and despair lead to various forms of extreme behaviour, which creates the background for potential attacks and aggression, which in turn leads to [[social exclusion|Social exclusion]].**\n\nAnd Boustras notes that there are **similarities with the process that leads to [[radicalisation|Radicalisation]]**, as described in 10.4.\n\nHistorical analysis shows that financial crises cause **political disruption and political radicalisation**. The economic crisis was the driving force behind the rise of extremist political parties in Europe, which sold anti-globalisation, anti-immigration and anti-foreigner rhetoric.\n\nThe conclusion of the section, and the hinge of the whole chapter:\n\n**Social exclusion emerges as the connecting factor between the mechanisms that can lead to safety incidents and to security incidents.**"
       },
       {
         "type": "slimmer",
@@ -2862,8 +2862,8 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "tekst",
-        "titel": "10.6 Conclusies",
-        "tekst": "Het doel van het hoofdstuk was factoren te beschrijven die veiligheid op de werkplek herdefiniëren: het [[snijvlak van safety en security|Snijvlak van safety en security]]. Het hoofdstuk heeft laten zien hoe specifieke factoren en casussen, cybersecurity, bescherming van kritieke infrastructuur, [[radicalisering|Radicalisering]], de **\"verbindende punten\"** kunnen zijn tussen security en safety.\n\nBoustras is expliciet over de status van zijn betoog: **zonder de empirische analyse die nodig is om causale verbanden vast te stellen**, geven de verkende factoren wel aan hoe safety en security elkaar steeds meer ontmoeten **op het niveau van de individuele werknemer**, met zowel causale verbindingen naar als gevolgen voor de organisatie.\n\nIn dat perspectief moeten veel werkplekrisico's worden gezien als sterk afhankelijk van **menselijk gedrag** en als uitkomst van psychologische processen. [[Psychosociale problemen]] hangen samen met securityincidenten en de bijbehorende mediahysterie, die werknemers verontrusten en langdurige gevoelens van angst creëren. Politieke radicalisering en de financiële crisis hebben **[[sociale uitsluiting|Sociale uitsluiting]] als gemeenschappelijke route** die tot securityincidenten kan leiden.\n\nDaaruit volgt een concreet voorstel. We moeten nadenken over de **participatie van werknemers** in safety én security, terwijl werknemers tot nu toe vooral als onderdeel van safetyinspanningen werden gezien. Formele vormen van werknemersparticipatie in de ontwikkeling van safetybeleid, via de **wettelijk verplichte instelling van arbo-commissies**, zouden kunnen worden nagevolgd voor het vestigen van een security culture op de werkplek. **Training, risicobeoordeling en het aannemen van beleid zouden voor beide culturen standaard moeten zijn.**\n\nEn dan de slotzin van het hoofdstuk, die je uit je hoofd moet kennen:\n\n**Een fundamenteel verschil tussen safety en security is dat er bij safety een wettelijke verplichting rust op de eigenaar of manager, waarmee de verantwoordelijkheid is gepersonaliseerd. Bij security is dat niet het geval, omdat de staatsautoriteiten de ruggengraat vormen. Dat heeft opnieuw gevolgen voor strategische prioriteiten en de ontwikkeling van prikkels.**"
+        "titel": "10.6 Conclusions",
+        "tekst": "The aim of the chapter was to describe factors that redefine workplace safety: the **[[intersection of safety and security|Intersection of safety and security]]**. The chapter showed how specific factors and cases (cybersecurity, critical infrastructure protection, [[radicalisation|Radicalisation]]) can be the **\"connecting points\"** between security and safety.\n\nBoustras is explicit about the status of his argument: **without the empirical analysis needed to establish causal relations**, the factors explored do show how safety and security increasingly meet **at the level of the individual employee**, with both causal links to and consequences for the organisation.\n\nFrom that perspective, many workplace risks have to be seen as highly dependent on **human behaviour** and as the outcome of psychological processes. [[Psychosocial problems]] are linked to security incidents and the media hysteria around them, which unsettle employees and create long-lasting feelings of fear. Political radicalisation and the financial crisis have **[[social exclusion|Social exclusion]] as a common route** that can lead to security incidents.\n\nFrom this follows a concrete proposal. We need to think about the **participation of employees** in safety and in security, whereas employees have so far been seen mainly as part of safety efforts. Formal forms of employee participation in developing safety policy, through the **legally required health and safety committees**, could be followed for establishing a security culture at the workplace. **Training, risk assessment and the adoption of policy should be standard for both cultures.**\n\nAnd then the final sentence of the chapter, which you need to know by heart:\n\n**A fundamental difference between safety and security is that in safety there is a legal obligation on the owner or manager, so that responsibility is personalised. In security that is not the case, because the state authorities form the backbone. That again has consequences for strategic priorities and the development of incentives.**"
       },
       {
         "type": "slimmer",
@@ -2871,88 +2871,266 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "uitleg",
-        "titel": "waarom die slotzin zoveel verklaart",
-        "tekst": "Hier komt alles samen. Brooks en Coole zeiden in hoofdstuk 7 dat safety wetgeving heeft en security niet. Boustras legt uit wat dat doet met **prikkels**.\n\nBij safety is er één persoon aanwijsbaar verantwoordelijk: de werkgever. Die kan worden aangesproken, beboet en vervolgd. Daardoor is er een directe reden om te investeren, ook als er niets gebeurt.\n\nBij security is de staat de ruggengraat. De werkgever kan denken: terrorisme is een taak van de politie en de inlichtingendiensten, niet van mij. Dat is juridisch grotendeels waar, en het is precies de reden dat security op de gemiddelde werkplek onderbelicht blijft.\n\nVoor jou als adviseur betekent dat: als je een organisatie wilt bewegen tot securityinvesteringen, kun je niet leunen op de wet zoals bij safety. Je moet een ander argument vinden: continuïteit, reputatie, vertrouwen van werknemers, of de safetygevolgen die Boustras beschrijft."
+        "titel": "Why that final sentence explains so much",
+        "tekst": "This is where everything comes together. Brooks and Coole said in chapter 7 that safety has legislation and security does not. Boustras explains what that does to **incentives**.\n\nIn safety, one person is clearly responsible: the employer. They can be held to account, fined and prosecuted. That gives a direct reason to invest, even when nothing happens.\n\nIn security, the state is the backbone. The employer may think: terrorism is a task for the police and the intelligence services, not for me. Legally that is largely true, and it is exactly why security remains underexposed at the average workplace.\n\nFor you as an adviser, this means: if you want to move an organisation to invest in security, you cannot rely on the law as you can for safety. You need a different argument: continuity, reputation, employee trust, or the safety consequences that Boustras describes."
       },
       {
         "type": "begrippen",
-        "titel": "Kernbegrippen uit hoofdstuk 10",
+        "titel": "Key terms from chapter 10",
         "items": [
           {
-            "begrip": "Snijvlak van safety en security",
-            "definitie": "het nieuwe aandachtsgebied binnen arbeidsveiligheid waar securitydreigingen zich vertalen in safetygevolgen voor de individuele werknemer."
+            "begrip": "Intersection of safety and security",
+            "definitie": "The new field within occupational safety where security threats translate into safety consequences for the individual employee."
           },
           {
             "begrip": "CBRN",
-            "definitie": "chemisch, biologisch, radiologisch en nucleair; het dreigingstype waarvan de angst, bijvoorbeeld voor een vuile bom, bijdraagt aan de complexe securityomgeving van werkplekken."
+            "definitie": "Chemical, biological, radiological and nuclear; the type of threat whose fear, for example of a dirty bomb, adds to the complex security environment of workplaces."
           },
           {
-            "begrip": "Psychosociale problemen",
-            "definitie": "PTSS, depressie, angst, pesten en mobbing; de traag werkende gevolgen van securityincidenten en economische onzekerheid, met directe kosten voor organisatie en sociale zekerheid."
+            "begrip": "Psychosocial problems",
+            "definitie": "PTSD, depression, anxiety, bullying and mobbing; the slow-acting consequences of security incidents and economic insecurity, with direct costs for organisations and social security."
           },
           {
-            "begrip": "Radicalisering",
-            "definitie": "proces waarbij individuen door blootstelling aan extremistisch materiaal hun sociale gedrag en hun opvattingen over samenleving en rechtvaardigheid zien veranderen."
+            "begrip": "Radicalisation",
+            "definitie": "A process in which exposure to extremist material changes individuals’ social behaviour and their views of society and justice."
           },
           {
-            "begrip": "Waargenomen discriminatie",
-            "definitie": "de ervaring van uitsluiting door de werknemer, ongeacht de intensiteit of intentie van het gedrag; volgens Boustras bepalender dan de discriminatie zelf."
+            "begrip": "Perceived discrimination",
+            "definitie": "The employee’s experience of exclusion, regardless of the intensity or intention of the behaviour; according to Boustras more decisive than the discrimination itself."
           },
           {
-            "begrip": "Sociale uitsluiting",
-            "definitie": "de gemeenschappelijke route die zowel vanuit radicalisering als vanuit economische crisis naar securityincidenten kan leiden."
+            "begrip": "Social exclusion",
+            "definitie": "The common route that can lead to security incidents both from radicalisation and from economic crisis."
           },
           {
             "begrip": "System of systems",
-            "definitie": "moderne infrastructuur als geheel van systemen met interacties en onderlinge afhankelijkheden, waardoor schade kan cascaderen."
+            "definitie": "Modern infrastructure as a whole of systems with interactions and interdependencies, so that damage can cascade."
           },
           {
-            "begrip": "Vier soorten afhankelijkheid",
-            "definitie": "digitaal, fysiek, geografisch en logisch; de manieren waarop infrastructuren met elkaar verbonden zijn."
+            "begrip": "Four kinds of interdependency (list)",
+            "definitie": "1. Digital: data. 2. Physical: products. 3. Geographical: the same location. 4. Logical: through human behaviour or markets (Rinaldi and colleagues)."
           },
           {
-            "begrip": "Emblematisch doelwit",
-            "definitie": "werkgever of werkplek die door terroristen wordt gekozen vanwege mediadekking en ideologische betekenis."
+            "begrip": "Emblematic target",
+            "definitie": "An employer or workplace chosen by terrorists for media coverage and ideological meaning."
           },
           {
-            "begrip": "Arbo-commissie als model",
-            "definitie": "de wettelijk verplichte werknemersparticipatie in safetybeleid, die volgens Boustras kan worden nagevolgd voor security culture."
+            "begrip": "Health and safety committee as a model",
+            "definitie": "The legally required employee participation in safety policy, which according to Boustras could be followed for security culture."
           },
           {
-            "begrip": "Gepersonaliseerde verantwoordelijkheid",
-            "definitie": "bij safety rust de wettelijke plicht op de eigenaar of manager; bij security vormen staatsautoriteiten de ruggengraat, met andere prikkels als gevolg."
+            "begrip": "Personalised responsibility",
+            "definitie": "In safety the legal duty rests on the owner or manager; in security state authorities form the backbone, with different incentives as a result."
+          },
+          {
+            "begrip": "Short- and long-term effects of security incidents (list)",
+            "definitie": "1. Direct and visible: physical injury and loss of life. 2. Slow and invisible: psychosocial problems such as PTSD and depression, with organisational and financial costs."
+          },
+          {
+            "begrip": "Two routes to social exclusion (list)",
+            "definitie": "1. Radicalisation: perceived discrimination and bullying lead to injustice and revenge. 2. Financial crisis: insecurity and despair lead to extreme behaviour, aggression and political radicalisation."
           }
         ]
       }
     ]
   },
   {
+    "id": "recap",
+    "titel": "To remember",
+    "blokken": [
+      {
+        "type": "tabel",
+        "titel": "Chapter 10 on one page",
+        "kop": [
+          "Topic",
+          "Remember"
+        ],
+        "rijen": [
+          [
+            "The claim",
+            "Safety increasingly depends on security; they meet at the level of the individual employee"
+          ],
+          [
+            "Effects of incidents",
+            "Direct and visible (injury, death) and slow and invisible (psychosocial problems, PTSD)"
+          ],
+          [
+            "9/11 as a safety problem",
+            "Toxic dust, 40,000 first responders, illness and early retirement years later"
+          ],
+          [
+            "Organisations",
+            "Risk assessment includes security; low-risk firms combine the safety and security officer"
+          ],
+          [
+            "Trust",
+            "Attacks damage employees’ trust in the employer’s duty of care; personal preparedness is low"
+          ],
+          [
+            "Cyber",
+            "System of systems; cascading failures; four interdependencies: digital, physical, geographical, logical"
+          ],
+          [
+            "Radicalisation",
+            "Perceived discrimination and bullying as possible routes; a safety approach (climate, reporting) rather than suspicion"
+          ],
+          [
+            "Financial crisis",
+            "Unemployment and insecurity lead to psychosocial problems, extreme behaviour and political radicalisation"
+          ],
+          [
+            "Hinge",
+            "Social exclusion as the common route to safety and security incidents (not yet empirically proven)"
+          ],
+          [
+            "Final difference",
+            "Safety: legal duty on the employer (personalised). Security: the state is the backbone. Different incentives"
+          ]
+        ]
+      },
+      {
+        "type": "hardop",
+        "titel": "Say it out loud",
+        "tekst": "Can you do these without looking?",
+        "stappen": [
+          "Explain why 9/11 is also a safety problem.",
+          "Name the four kinds of interdependency with an example.",
+          "Explain why perceived discrimination matters more than intention.",
+          "Explain the two routes to social exclusion.",
+          "Reproduce the final sentence of the chapter."
+        ]
+      }
+    ]
+  },
+  {
     "id": "toepassen",
-    "titel": "Toepassen",
+    "titel": "Applying it",
     "blokken": [
       {
         "type": "oefening",
         "id": "h10-oef-1",
         "niveau": "basis",
-        "vraag": "Leg uit waarom Boustras 9/11 gebruikt als voorbeeld van een safetyprobleem en niet alleen van een securityprobleem.",
-        "antwoord": "Na de instorting van de Twin Towers bedekte een giftige wolk met onder meer asbest de omgeving. Ruim 40.000 eerste responders en hulpverleners werden blootgesteld, met korte- en langetermijneffecten: ten minste vier sterfgevallen zijn gekoppeld aan aandoeningen van de bovenste luchtwegen en honderden brandweerlieden gingen vervroegd met pensioen vanwege gezondheidseffecten. Dat zijn klassieke arbeidsveiligheids- en arbeidsgezondheidsthema's, veroorzaakt door een securityincident, en met een vertraging van jaren. Het voorbeeld illustreert de kernstelling van het hoofdstuk: safety en security zijn niet hetzelfde, maar securityincidenten vertalen zich op het niveau van de individuele werknemer in safetygevolgen, zowel fysiek als psychosociaal, en die gevolgen verschijnen vaak pas lang nadat de aandacht voor het incident is weggeëbd."
+        "vraag": "Explain why Boustras uses 9/11 as an example of a safety problem and not only of a security problem.",
+        "antwoord": "After the collapse of the Twin Towers a toxic cloud, containing asbestos among other things, covered the area. More than 40,000 first responders and rescue workers were exposed, with short-term and long-term effects: at least four deaths have been linked to upper respiratory conditions, and hundreds of firefighters retired early because of health effects. These are classic occupational safety and health issues, caused by a security incident, and with a delay of years. The example illustrates the core claim of the chapter: safety and security are not the same, but security incidents translate into safety consequences at the level of the individual employee, both physical and psychosocial, and those consequences often appear long after attention for the incident has faded."
       },
       {
         "type": "oefening",
         "id": "h10-oef-2",
         "niveau": "gevorderd",
-        "vraag": "Boustras noemt sociale uitsluiting de verbindende factor tussen safety en security. Werk uit hoe hij daar via twee verschillende routes op uitkomt, en beoordeel hoe sterk dat argument is.",
-        "antwoord": "De eerste route loopt via radicalisering. Aangehouden terroristen noemen discriminatie, vooral religieus of politiek, en het daaruit voortvloeiende pesten als oorzakelijke factoren. Op de werkplek kan religieuze discriminatie formeel of informeel optreden, via grappen, uitsluiting of het bagatelliseren van overtuigingen, en daarbij is niet de intensiteit maar de waarneming van de werknemer bepalend. Waargenomen uitsluiting kweekt persoonlijk onrecht en wraakzucht, en Verkuyten benoemt discriminatie als leidende factor naar radicalisering. De tweede route loopt via de financiële crisis. Die leidde tot werkloosheid, tijdelijk en zwart werk, lagere lonen en onzekerheid, en daarmee tot psychosociale problemen als angst, pesten en depressie. Onzekerheid en wanhoop leiden tot extreem gedrag, dat de achtergrond vormt voor aanvallen en agressie, wat op zijn beurt tot sociale uitsluiting leidt; historisch veroorzaken financiële crises bovendien politieke radicalisering en de opkomst van extremistische partijen. Beide routes eindigen dus bij hetzelfde punt. Het argument is sterk als hypothese omdat het twee losstaande maatschappelijke ontwikkelingen aan één mechanisme koppelt dat op de werkplek meetbaar en beïnvloedbaar is, via werkklimaat, meldstructuren en participatie. Het is zwak als bewijs, en Boustras erkent dat zelf: zonder empirische analyse zijn de causale verbanden niet vastgesteld, en het gaat om een exploratieve benadering. Bovendien is sociale uitsluiting zo'n breed begrip dat het risico bestaat dat het alles verklaart en daarmee niets, precies het bezwaar dat Jore in hoofdstuk 5 tegen security culture inbracht op het criterium differentiation."
+        "vraag": "Boustras calls social exclusion the connecting factor between safety and security. Work out how he arrives there through two different routes, and assess how strong the argument is.",
+        "antwoord": "**The first route runs through radicalisation.** Arrested terrorists name discrimination, especially religious or political, and the resulting bullying as causal factors. At the workplace religious discrimination can occur formally or informally, through jokes, exclusion or belittling beliefs, and what counts is not the intensity but the employee’s perception. Perceived exclusion breeds personal injustice and vengefulness, and Verkuyten names discrimination as a leading factor towards radicalisation.\n\n**The second route runs through the financial crisis.** It led to unemployment, temporary and undeclared work, lower wages and insecurity, and so to psychosocial problems such as anxiety, bullying and depression. Insecurity and despair lead to extreme behaviour, which forms the background for attacks and aggression, which in turn leads to social exclusion; historically, financial crises also cause political radicalisation and the rise of extremist parties.\n\n**Both routes end at the same point.** The argument is strong as a hypothesis because it links two separate social developments to one mechanism that can be measured and influenced at the workplace, through work climate, reporting structures and participation. It is weak as proof, and Boustras admits this himself: without empirical analysis the causal relations are not established, and the approach is exploratory. Moreover, social exclusion is such a broad concept that it risks explaining everything and therefore nothing, exactly the objection Jore raised against security culture in chapter 5 on the criterion of differentiation."
       }
     ]
   },
   {
     "id": "checken",
-    "titel": "Checken",
+    "titel": "Check yourself",
     "blokken": [
       {
         "type": "tekst",
-        "tekst": "Dit hoofdstuk sluit af met de kernbegrippen en oefeningen in de vorige tabbladen. Loop ze na en kijk of je ze zonder aantekeningen kunt navertellen."
+        "tekst": "This chapter closes with the key terms and exercises in the previous tabs. Go through them and check whether you can explain them without notes."
+      },
+      {
+        "type": "quiz",
+        "titel": "Eight questions on chapter 10",
+        "vragen": [
+          {
+            "vraag": "What does Boustras see as the thread running through the new workplace risks?",
+            "opties": [
+              "Technology",
+              "The human factor",
+              "Legislation",
+              "Economic growth"
+            ],
+            "juist": 1,
+            "uitleg": "Both radicalisation and cybercrime are driven by the human factor."
+          },
+          {
+            "vraag": "Which is a slow and invisible effect of a security incident?",
+            "opties": [
+              "Loss of life",
+              "Physical injury",
+              "PTSD and depression",
+              "A damaged building"
+            ],
+            "juist": 2,
+            "uitleg": "Psychosocial problems, with organisational and financial costs."
+          },
+          {
+            "vraag": "Why is 9/11 also a safety problem for Boustras?",
+            "opties": [
+              "Because of the cockpit doors",
+              "Because the toxic dust made thousands of first responders ill for years",
+              "Because the TSA was created",
+              "Because of the stock market"
+            ],
+            "juist": 1,
+            "uitleg": "Asbestos, respiratory illness and early retirement: classic OHS themes."
+          },
+          {
+            "vraag": "What do low-risk companies such as offices increasingly do?",
+            "opties": [
+              "Abolish safety officers",
+              "Combine the safety officer and security officer roles",
+              "Hire more guards",
+              "Outsource all safety"
+            ],
+            "juist": 1,
+            "uitleg": "Usually to save costs: integration where risks are low."
+          },
+          {
+            "vraag": "\"No payment system, so people hoard, so the supermarket chain stalls\" is which interdependency?",
+            "opties": [
+              "Digital",
+              "Physical",
+              "Geographical",
+              "Logical"
+            ],
+            "juist": 3,
+            "uitleg": "Logical interdependency runs through human behaviour or markets."
+          },
+          {
+            "vraag": "According to Boustras, what counts most in discrimination at the workplace?",
+            "opties": [
+              "The intention of the colleague",
+              "How the employee experiences it",
+              "Whether it is formal",
+              "Whether it is reported"
+            ],
+            "juist": 1,
+            "uitleg": "Perceived discrimination."
+          },
+          {
+            "vraag": "What is the connecting factor between safety and security incidents?",
+            "opties": [
+              "Technology",
+              "Social exclusion",
+              "Legislation",
+              "Media"
+            ],
+            "juist": 1,
+            "uitleg": "Reached through radicalisation and through the financial crisis."
+          },
+          {
+            "vraag": "What is the fundamental difference in the final sentence?",
+            "opties": [
+              "Safety is cheaper",
+              "In safety the legal duty is on the employer; in security the state is the backbone",
+              "Security has more laws",
+              "Safety is only physical"
+            ],
+            "juist": 1,
+            "uitleg": "Personalised responsibility, with different incentives."
+          }
+        ]
+      },
+      {
+        "type": "bronnen",
+        "items": [
+          {
+            "apa": "Boustras, G. (2020). Chapter 10. In C. Bieder & K. Pettersen Gould (Eds.), The coupling of safety and security: Exploring interrelations in theory and practice. Springer."
+          }
+        ]
       }
     ]
   }
