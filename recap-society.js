@@ -9,6 +9,7 @@
    v108: lecture 4 in de recap van college-4; nieuwe recap voor college-5.
    v109: hele H5 in de recap van college-4.
    v117: lecture 5 in de recap van college-5.
+   v120: nieuwe recap voor college-6 (H6).
    ============================================================ */
 
 voegRecapToe("society-politics/college-2", {
@@ -679,6 +680,90 @@ voegRecapToe("society-politics/college-5", {
         "Name Durkheim’s four functions and Merton’s five adaptations.",
         "Explain primary and secondary deviance with an example.",
         "Draw the square of crime."
+      ]
+    }
+  ]
+});
+
+voegRecapToe("society-politics/college-6", {
+  "id": "recap",
+  "titel": "To remember",
+  "blokken": [
+    {
+      "type": "tekst",
+      "tekst": "Chapter 6 on one page. After the lecture, What the lecturer emphasised is added here."
+    },
+    {
+      "type": "tabel",
+      "titel": "From groups to networks",
+      "kop": [
+        "Topic",
+        "Key names",
+        "Core idea"
+      ],
+      "rijen": [
+        [
+          "Primary and secondary groups",
+          "Cooley",
+          "Personal and enduring versus impersonal and goal-oriented"
+        ],
+        [
+          "Conformity",
+          "Asch, Milgram, Zimbardo",
+          "One-third conform to the group; two-thirds obey to 450 volts; roles make people abusive"
+        ],
+        [
+          "Reference groups",
+          "Stouffer",
+          "We judge ourselves relative to a group"
+        ],
+        [
+          "Group size",
+          "Simmel, Blau",
+          "Dyad intense but unstable; triad mediates or forms coalitions; four factors of intergroup contact"
+        ],
+        [
+          "Organisation types",
+          "Etzioni",
+          "Utilitarian, normative, coercive"
+        ],
+        [
+          "Bureaucracy",
+          "Weber; Bauman",
+          "Six elements; the Holocaust as bureaucratic murder"
+        ],
+        [
+          "Problems",
+          "Weber, Merton, Michels, Goffman, Parkinson, Peter",
+          "Alienation, ritualism, inertia, oligarchy; total institutions; two \"laws\""
+        ],
+        [
+          "McDonaldisation",
+          "Ritzer",
+          "Efficiency, calculability, predictability, control through automation"
+        ],
+        [
+          "New forms",
+          "Kanter, Ouchi, Clegg",
+          "Humanising, Japanese organisations, the postmodern firm; the audit culture"
+        ],
+        [
+          "Networks",
+          "Granovetter, Wellman, Castells",
+          "Weak ties; network communities; the network society"
+        ]
+      ]
+    },
+    {
+      "type": "hardop",
+      "titel": "Say it out loud",
+      "tekst": "Can you do these without looking?",
+      "stappen": [
+        "Explain primary and secondary groups with examples.",
+        "Describe the three conformity studies in one sentence each.",
+        "Name Weber’s six elements and four problems of bureaucracy.",
+        "Name Ritzer’s four principles.",
+        "Explain weak ties and the network society."
       ]
     }
   ]

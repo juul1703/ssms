@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v119**.
+Stand: 29 september 2026, service worker **v120**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -52,6 +52,7 @@ bestanden.
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
 | `society-college-5.js` | Society & Politics sessie 5, Macionis H17, plus lecture 5 (v117) |
+| `society-college-6.js` | Society & Politics sessie 6, Macionis H6 (groepen, organisaties, netwerksamenleving), uit de literatuur; nieuw in v120 |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -123,6 +124,7 @@ society-college-2.js
 society-college-3.js
 society-college-4.js
 society-college-5.js
+society-college-6.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -599,6 +601,7 @@ aangepast: heel H5.
 | 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
 | 4 | heel H5 (v109), H16 sociale bewegingen p. 525-532 | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
 | 5 | H17 p. 541-577 (v108) | verwerkt (v117) | niet aangeleverd | geen |
+| 6 | H6 heel hoofdstuk (v120) | nog niet | nog niet | nog niet |
 
 Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
 
