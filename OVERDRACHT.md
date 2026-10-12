@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v117**.
+Stand: 29 september 2026, service worker **v119**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -47,6 +47,7 @@ bestanden.
 | `governance-college-3.js` | Governance sessie 3, McCormick H8 (kern) en H10 (kern2) plus Lecture 3; nieuw in v101 |
 | `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), plus lecture 4 (v110) |
 | `governance-college-5.js` | Governance sessie 5, Levi-Faur (2012), uit de literatuur; nieuw in v114, collegestof volgt |
+| `governance-college-6.js` | Governance sessie 6: Huberts e.a. 2022 (programma, kern) en Maia 2020 over de Veiligheidsraad (op Brightspace aangekondigd, kern2); nieuw in v119 |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
@@ -66,6 +67,7 @@ bestanden.
 | `ps-college-3.js` | Professional Skills sessie 3, communicatiestijl en presenteren: Mehrabian en Amsel, Manning & Reece, de mid-term (nieuw in v102) |
 | `ps-college-4.js` | Professional Skills sessie 4, teamwork en conflictmanagement; slides plus de leeslinks uitgewerkt; nieuw in v110 |
 | `ps-college-5.js` | Professional Skills sessie 5, AI and its responsible use (Wisse); nieuw in v117 |
+| `ps-college-6.js` | PS sessie 6, Hofstede (Żemojtel-Piotrowska & Piotrowski, 2023), uit de literatuur; nieuw in v119 |
 | `drm-conceptlist-1/2/3.js` | DRM conceptlijst, drie delen, onder Extra naslagwerken |
 | `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
 | `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
@@ -99,11 +101,13 @@ governance-college-2.js
 governance-college-3.js
 governance-college-4.js
 governance-college-5.js
+governance-college-6.js
 ps-college-1.js
 ps-college-2.js
 ps-college-3.js
 ps-college-4.js
 ps-college-5.js
+ps-college-6.js
 drm-conceptlist-1.js
 drm-conceptlist-2.js
 drm-conceptlist-3.js
@@ -509,6 +513,8 @@ als Julie erom vraagt.
 
 Op verzoek bijgewerkt (v118): Intro sessie 6 (`intro-h7.js`, `intro-h9.js`) heeft nu ook een tijdnood-blok, In plain words per kopje en hover-begrippen.
 
+**Werkafspraak (Julie, 12 okt):** controleer bij elke upload of het het juiste bestand is (programma, hoofdstuk, aankondiging), en meld afwijkingen. "Cut the deliverables" betekent: opsplitsen in aparte leveringen, niets weglaten.
+
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
 **Nog te doen, in deze volgorde:**
@@ -572,6 +578,7 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 | 3 | McCormick H8 en H10 | verwerkt (v101) | bestaan niet, geen aantekeningen gemaakt |
 | 4 | McCormick H13 en H15 (v104) | verwerkt (v110) | niet aangeleverd |
 | 5 | Levi-Faur 2012 (v114); aanbevolen Sørensen & Torfing ontbreekt | nog niet | nog niet |
+| 6 | Huberts e.a. 2022 + Maia 2020 (v119) | nog niet | nog niet |
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 
