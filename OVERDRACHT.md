@@ -507,6 +507,8 @@ kopje), eerste regel `**In plain words**`, direct na het eerste tekstblok van
 het kopje. Eerst toegepast in Governance sessie 5. Bestaande lessen alleen
 als Julie erom vraagt.
 
+Op verzoek bijgewerkt (v118): Intro sessie 6 (`intro-h7.js`, `intro-h9.js`) heeft nu ook een tijdnood-blok, In plain words per kopje en hover-begrippen.
+
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
 **Nog te doen, in deze volgorde:**
