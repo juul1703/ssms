@@ -3,6 +3,10 @@
    Huberts, Kaptein & De Koning (2022) (programma, kern) en
    Maia (2020) over de Veiligheidsraad (aangekondigd op Brightspace,
    kern2). Nieuw in v119, uit de literatuur.
+
+   v131 (proef): nieuw tabblad "Quick recap" (id 'overview') met een
+   verhalend overzicht in heel makkelijke taal. Alleen bij deze les,
+   als proef op verzoek van Julie.
    ============================================================ */
 
 LESSTOF['governance-policy/college-6'] = [
@@ -352,6 +356,83 @@ LESSTOF['governance-policy/college-6'] = [
             "definitie": "1. Putin’s external pragmatism and cooperation with China. 2. The National Security Strategy and Foreign Policy Concept. 3. The Libya lesson: no regime change in Syria. 4. Military, economic and status interests."
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nThe whole session in normal-people language, start to finish. Read it like a story: first the integrity scandals, then the global governance case, then how they connect. Everything here is in the Core material too, in full academic mode; this is the version you can actually remember on the bus."
+      },
+      {
+        "type": "tekst",
+        "titel": "The vibe of this session",
+        "tekst": "Two texts, one big idea: **power only works as long as people trust it.**\n\nText 1 (Huberts, Kaptein and De Koning) is about Dutch politicians getting caught doing sketchy stuff, and how often that happens. Text 2 (Maia) is about the UN Security Council getting stuck because Russia keeps blocking it. Different scale, same problem: once people stop trusting you, your authority starts leaking."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 1: what even is integrity?",
+        "tekst": "Researchers can't agree on one definition, but there are **four main takes**:\n\n1. **Be consistent**: do what you say, say what you think.\n2. **Have the \"good\" values**: honest, reliable, not bribeable.\n3. **Follow the law**: legal = fine.\n4. **Act in line with the moral values and rules your community actually cares about.**\n\nThe authors go with **number 4**. So integrity is not just \"is it legal?\", it's \"does this match what people here think is right?\"\n\nImportant nuance: **a mistake is not automatically an integrity problem.** Messing up a budget or being bad at your job is not the same as being corrupt. If you call everything an integrity issue, you get what they call **\"integritism\"**: overreacting to every little thing.\n\nAnd corruption, the classic one, is defined by Transparency International as **\"the abuse of entrusted power for private gain\"**: you got power to serve the public, and you use it for yourself."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 1: the ten ways to mess up",
+        "tekst": "The researchers use a list of **ten types of integrity violations**. Quick versions, with an example each:\n\n1. **Bribery**: taking money or favours to decide something. *A councillor accepts cash to approve a permit.*\n2. **Favouritism**: helping your people. Family is **nepotism**, friends is **cronyism**, your party is **patronage**. *Getting your nephew a job at the town hall.*\n3. **Fraud and theft**: taking stuff from your own organisation. *Fake expense claims.*\n4. **Conflict of interest through gifts**: accepting gifts that could influence you. *A \"free\" holiday from a company that wants a contract.*\n5. **Conflict of interest through side jobs**: a second job that clashes with your public role. *Voting on a project of a company you own shares in.*\n6. **Improper use of authority**: using wrong or illegal methods, even for a good cause.\n7. **Misuse of information**: leaking secrets, hiding info, cheating. *Leaking the names of mayor candidates.*\n8. **Waste and abuse of resources**: being lazy, absent, wasting public money.\n9. **Inappropriate behaviour**: bullying, discrimination, harassment at work.\n10. **Misconduct in your private life**: bad behaviour outside work that makes people doubt you. *Drunk driving, domestic violence, nasty tweets.*\n\nNumber 10 is the surprise winner later on, so remember it."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 1: when does it become a scandal?",
+        "tekst": "A violation is not a scandal yet. It only becomes one when it **goes public and people get mad**. Thompson (2000) gives the recipe, three ingredients:\n\n1. Someone **breaks a norm or value**.\n2. Other people **publicly call it out**.\n3. It **damages the reputation** of whoever did it.\n\nHe also says scandals come in three flavours: **sex**, **money** and **power**.\n\nAre scandals bad? Mostly, yes: they hurt the politician and can lower trust in the whole system (Bowler and Karp). But Brenton (2012) has a hot take: scandals are actually a **healthy sign of democracy**. They show the press is free, politics is competitive, and society is still checking what's acceptable.\n\nIn the **Nordic countries** researchers counted 101 scandals in 2010 to 2016 and called it **\"the new normal\"**: way more scandals than before, but **fewer politicians actually resign** over them."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 1: the Dutch scandal counter (PI-Index)",
+        "tekst": "The authors built a **Political Integrity Index**: since 2013 they track every public integrity accusation against Dutch politicians, by searching newspapers (LexisNexis) and Google for things like \"integrity\", \"corruption\", \"resignation\". Being in the index does **not** mean someone is guilty: it means there was a credible public accusation.\n\n**The results for 2013 to 2019:**\n- **355 scandals**, so about **one a week**.\n- **79% at the local level** (municipalities). Makes sense: about 92% of all Dutch politicians work locally.\n- **VVD** had the most (90), then CDA (39) and PvdA (35). Partly because they have a lot of local politicians, but the VVD scores higher than its size explains. Former VVD minister Frank de Grave's guess: power plus self-confidence, close ties with business, and jobs that easily lead to conflicts of interest.\n- The **most common type**: **misconduct in private life** (30%). Social media makes your private life very public.\n- **Bribery** was actually rare (5 cases).\n\n**How to read \"one a week\"?** Two ways: either the Netherlands is doing fine (it's in the top 10 least corrupt countries), or perception rankings miss a lot and this is only what got caught. The authors leave both open."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 1 in one breath**\n\nIntegrity = acting in line with the values your community cares about. There are ten ways to mess up. It only becomes a scandal when it goes public, people call it out, and your reputation takes a hit. In the Netherlands that happens about once a week, mostly in local politics, and mostly over private-life behaviour."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 2: global governance, aka nobody is the boss",
+        "tekst": "Some problems are too big for one country: war, climate, pandemics. **Global governance** is all the stuff countries and organisations do together to deal with them: treaties, rules, organisations, money. The funny part: **there is no world government.** As the authors Maia quotes put it: \"global governance is something that happens; no one apparently, actually does it.\"\n\nThe **UN** is the centre of it all, the only organisation where almost every country is a member.\n\n**Global governors** are the actors that actually exercise power across borders: they put issues on the agenda, make rules, carry them out and judge the results.\n\nAnd here's the key idea: **authority = the ability to make others defer to you.** Deference means people go along with you, even if they don't love you. The moment they stop going along, your authority is gone. It's like being class representative: you only have power as long as the class takes you seriously."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 2: five ways to get authority",
+        "tekst": "Where does a global governor's authority come from? **Five sources**:\n\n1. **Institutional**: you hold an official position. *The UN Secretary-General.*\n2. **Delegated**: states gave you a task. *The UN Security Council, via the UN Charter.*\n3. **Expert**: you know the most about something. *The WHO on health.*\n4. **Principled**: people see you as serving good values. *Human rights NGOs.*\n5. **Capacity-based**: you actually get things done.\n\nNow the Security Council: it clearly has **institutional** and **delegated** authority (it's in the Charter). It does **not** have expert authority. And it only keeps its **principled** and **capacity-based** authority **as long as it actually manages to keep the peace.** Remember that, because that's exactly what goes wrong."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 2: the Security Council and the veto",
+        "tekst": "The Security Council is responsible for **international peace and security**. It has **15 members**: **5 permanent ones** (China, France, Russia, the UK and the US, the \"P5\") and 10 that rotate every two years. It can decide on sanctions and even military action, and all UN members must follow its decisions.\n\nTo pass a decision you need **9 votes and no \"no\" from any of the P5**. That's the **veto**: one permanent member saying no blocks everything. An **abstention** (not voting) is **not** a veto, so a decision can still pass.\n\nWhy does the veto exist? After World War II the big powers wanted a system they controlled. The goal was \"performance, unity and control, not equity\": not fairness, but making sure the big powers stayed on board. It's a **double-edged sword**: it keeps the big powers in, but any one of them can freeze the whole thing."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 2: Libya, and why Russia felt played",
+        "tekst": "**R2P (Responsibility to Protect)**, adopted by the UN in 2005: if a government lets mass atrocities happen to its own people, the international community has a responsibility to step in.\n\n**Libya, 2011.** Gaddafi's regime threatened to massacre civilians. The Council passed **Resolution 1973**: \"all necessary measures\" to protect civilians, including a no-fly zone. Vote: **10 yes, 0 no, 5 abstentions**: Brazil, Germany, India, China and Russia.\n\nWhy did those five abstain instead of voting no? Germany didn't want another Western intervention but also didn't want to go against its NATO allies. Brazil and India wanted to look independent but not annoy the big powers. China and Russia care a lot about **sovereignty** (don't mess with other countries' internal affairs) but didn't want to be the only ones blocking it.\n\nThen the plot twist: the NATO-led intervention **took sides** and ended with **Gaddafi being overthrown**. Russia and China felt R2P had been used as a cover for **regime change**. Lesson learned, from their side: never again."
+      },
+      {
+        "type": "tekst",
+        "titel": "Part 2: Syria, and the Council \"freezing\"",
+        "tekst": "When the war in **Syria** started (2011), the West wanted Council action against Assad. Russia, usually backed by China, **vetoed almost every attempt** (four Syria vetoes by 2014). The goal: **no \"second Libya.\"**\n\nWhy Russia did this, according to Maia:\n1. **Putin's pragmatic, \"Russia is back\" foreign policy**, plus closer ties with China.\n2. **Official strategy**: the UN as the centre, but sovereignty and non-intervention first.\n3. **The Libya lesson**: block anything that could lead to regime change.\n4. **Its own interests** in Syria: a naval base at **Tartus**, gas pipeline competition, and being seen as a **great power equal to the US**.\n\nThe result: the Council couldn't act anymore. It stopped bringing \"predictability, stability and order.\" That's what Maia calls the **\"freezing\" of global governance**. Fun twist: Russia didn't stop doing global governance, it just did it **its own way**: it negotiated the removal of Syria's chemical weapons (2013) and used other forums like the G8 and ASEAN.\n\n**Heads up:** the article is from 2020 with data up to about 2014. Russia has vetoed a lot more since, including on its own invasion of Ukraine in 2022."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 2 in one breath**\n\nNobody is the boss of the world, so global governance depends on others going along with you. The Security Council's authority comes from the UN Charter, but it only stays credible if it actually works. The veto lets one big power block everything. After Libya turned into regime change, Russia blocked the Council on Syria, and global governance \"froze.\""
+      },
+      {
+        "type": "tekst",
+        "titel": "How the two texts connect",
+        "tekst": "Both texts are secretly about the same thing: **authority depends on trust and deference.**\n\nAt home: integrity scandals damage trust in politicians, and in the end in the whole political system. People defer less.\n\nGlobally: when the Security Council keeps getting blocked, countries stop seeing it as the place that solves things. They defer less and go around it.\n\n**One big difference:** a scandal is someone breaking moral norms. A veto is **completely legal**: it's in the Charter. So a veto is not an integrity violation, but it can still damage the Council's legitimacy. That nuance is a great point to make in an exam answer."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**If you only remember 7 things**\n\n1. Integrity = acting in line with the moral values and rules your community cares about (Huberts). A mistake is not automatically a violation.\n2. Corruption = the abuse of entrusted power for private gain.\n3. A scandal needs a broken norm, public call-out, and reputational damage (Thompson).\n4. Dutch PI-Index 2013 to 2019: 355 scandals, 79% local, VVD most, private misconduct the biggest category.\n5. Authority = the ability to make others defer to you; five sources: institutional, delegated, expert, principled, capacity-based.\n6. The veto: one \"no\" from the P5 blocks everything; an abstention does not.\n7. Libya (R2P, regime change) led Russia to block the Council on Syria: the \"freezing\" of global governance."
       }
     ]
   },
