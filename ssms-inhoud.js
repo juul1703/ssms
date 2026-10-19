@@ -5519,7 +5519,7 @@ var VAK_VOORBEREIDING = {
     1: { onderwerp: 'Wat is een alinea? Wat is een topic sentence?', titel: 'Brightspace checken', lesIds: ['naslagwerk'] },
     2: { onderwerp: '6 tips voor goede alinea\u2019s', titel: 'Task 1 inleveren op Brightspace', lesIds: [] },
     3: { onderwerp: '16 regels voor formele, academische stijl', titel: 'Brightspace checken', lesIds: ['naslagwerk', 'summary'] },
-    4: { onderwerp: '5 tips voor goede zinnen', titel: 'Brightspace checken', lesIds: [] },
+    4: { onderwerp: 'Academische stijl in de praktijk: worksheets, passive voice, parafraseren', titel: 'Brightspace checken', lesIds: [] },
     5: { onderwerp: 'Oefenexamen in Remindo, op de campus (15 oktober, 14:45-16:45)', titel: 'Task 2 inleveren · oefenexamen 15 oktober', lesIds: ['rubric', 'summary'] },
     6: { onderwerp: 'Technieken om zinnen te combineren', titel: 'Task 3 inleveren', lesIds: ['oefening-1'] },
     7: { onderwerp: 'Hoe je parafraseert', titel: 'Brightspace checken', lesIds: [] },

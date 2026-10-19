@@ -19,6 +19,8 @@
    oefenexamen van 15 oktober (14:45-16:45) met een tijdsplan van 2 uur.
    v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
    waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
+
+   v132: twee kaders uit FAW sessie 4 (zinnen van 20-30 woorden; de definitie van parafraseren).
    ============================================================ */
 
 LESSTOF['fundamentals-of-academic-writing/summary'] = [
@@ -273,6 +275,10 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
         "tekst": "**In plain words**\n\nDo not just swap words. Read a part, look away, say what it means in your own way, and write that down. Keep the professional terms."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture (session 4): the lecturer's definition**\n\nA good paraphrase uses **different vocabulary and sentence structure**, keeps the **meaning accurate**, is **shorter and clearer** when possible, and normally **credits the source**. In the summary, that last point does not apply: you never refer to the article or its authors. Session 4 has five practice sentences on event safety with model paraphrases."
+      },
+      {
         "type": "tekst",
         "titel": "Step 9. Connect: the cohesion devices",
         "toetsstof": true,
@@ -353,6 +359,10 @@ LESSTOF['fundamentals-of-academic-writing/summary'] = [
           ]
         ],
         "noot": "The last four rows come from your own first summary: small, easy wins."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture (session 4): avoid choppy sentences**\n\nA text can follow every rule and still lose points on style if the sentences are **short and disconnected**. The lecturer's rule of thumb: academic sentences are typically **20 to 30 words** and **link ideas smoothly**. Combine related short sentences with linking words and clauses (which, because, although, as a result), and vary sentence length. The worked example in FAW session 4 (worksheet 8) shows how."
       },
       {
         "type": "tekst",

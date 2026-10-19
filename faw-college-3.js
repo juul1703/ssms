@@ -7,6 +7,8 @@
    naslaggids faw-summary.js (stap 10), op Julie's verzoek dubbel.
    v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
    waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
+
+   v132: aangevuld met de twee stijl-handouts (een kader met de extra do’s en don’ts, en de drie oefeningen van de handout met modelantwoorden).
    ============================================================ */
 
 LESSTOF['fundamentals-of-academic-writing/college-3'] = [
@@ -162,6 +164,10 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nThe lecturer's examples show typical mistakes: starting with 'Because', using 'like' instead of 'such as', vague words like 'things', and exaggerations like 'tremendous'."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the handouts: the one-page do's and don'ts**\n\nThe handout \"Rules of Academic Style of Writing\" sums up the academic **register** in a few extra points that are not separate rules in the 16:\n\n**Technical terms:** use the language of your field, but keep it accessible to academics outside your field.\n**Spoken structures:** \"gave the minister a hard time\", \"kind of difficult\", \"a lot of different definitions\", \"groups **like** Greenpeace\" (use \"such as\").\n**Inflated language:** \"an infinite number of definitions\" (use \"numerous definitions\").\n**Low-content words:** good/bad, interesting, important: they usually express a vague value judgement, not reasoning. \"Good\" is fine only as part of a technical phrase (\"good fit\").\n**Filler words:** really, basically, quite, totally (\"a totally new organisational structure\").\n**No \"etc.\" at the end of a sentence:** \"flavours such as vanilla, chocolate, strawberry etc.\" becomes \"numerous flavours, including vanilla, chocolate and strawberry\".\n**Informal linkers:** Besides, So, Luckily. And the handout \"Rules for Writing in a Formal Academic Style\" adds two pairs: **plus** becomes furthermore, **good/bad** becomes effective/ineffective."
       },
       {
         "type": "checklist",
@@ -342,6 +348,27 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
         "niveau": "gevorderd",
         "vraag": "**The lecturer’s exercise:** identify the style error in each sentence and rewrite it in formal academic language.\n\n1. There is no clear agreement on when superintelligent AI could exist. Some believe it may happen within the next few years, while others think it could take more than a decade.\n2. Some experts think such a system could become difficult to control and might cause serious harm.\n3. Some of the strongest warnings come from people who work in the AI industry.\n4. The rapid development of artificial intelligence is causing a huge debate worldwide about the potential risks to humanity.\n5. The arrival of superintelligent AI could be incredibly dangerous.\n6. The main problem is that computers might eventually become much smarter than humans, which means we could completely lose control over technology.\n7. Inside big tech companies,\n8. There is a growing fear that there is currently no good plan to make sure superintelligent AI behaves safely.\n9. Because of the intense market competition, companies are locked in a race to build the best AI first.\n10. In Western countries like the United Kingdom and the United States, politicians are looking into how to handle the most powerful AI models.\n11. These include things like the spread of misinformation,\n12. The negative environmental impacts from the power used by data centers, software bugs, and the fact that many people are losing their jobs.\n13. People have started speculating about the risks of Artificial intelligence.",
         "antwoord": "**1.** *Error:* Vague \"Some\" and informal \"think\". *Rewrite:* There is no consensus on when superintelligent AI could emerge: estimates range from a few years to more than a decade.\n\n**2.** *Error:* Vague \"Some\", informal \"think\". *Rewrite:* Several experts argue that such a system could become difficult to control and might cause serious harm.\n\n**3.** *Error:* \"people\"; vague \"Some\". *Rewrite:* Several of the strongest warnings come from employees of the AI industry itself.\n\n**4.** *Error:* Exaggerated adjective \"huge\". *Rewrite:* The rapid development of artificial intelligence has prompted an extensive international debate about its potential risks to humanity.\n\n**5.** *Error:* Exaggerated adverb \"incredibly\". *Rewrite:* The arrival of superintelligent AI could pose a serious danger.\n\n**6.** *Error:* Personal \"we\"; informal \"smarter\"; \"completely\". *Rewrite:* The central concern is that computer systems might eventually surpass human intelligence, which could result in a loss of human control over technology.\n\n**7.** *Error:* Imprecise \"big\"; informal \"tech\"; an incomplete sentence (accuracy). *Rewrite:* Within major technology companies, [complete the sentence with a verb].\n\n**8.** *Error:* Vague \"good\"; phrasal \"make sure\". *Rewrite:* There is growing concern that no adequate strategy currently exists to ensure that superintelligent AI behaves safely.\n\n**9.** *Error:* Starts with \"Because\"; idiomatic \"locked in a race\"; vague \"best\". *Rewrite:* Intense market competition has led companies to compete to develop the most advanced AI systems first.\n\n**10.** *Error:* \"like\" for \"such as\"; phrasal \"looking into\"; informal \"handle\". *Rewrite:* In Western countries such as the United Kingdom and the United States, policymakers are examining how to regulate the most powerful AI models.\n\n**11.** *Error:* Empty \"things\"; \"like\"; incomplete sentence. *Rewrite:* These include risks such as the spread of misinformation, [continue the list].\n\n**12.** *Error:* No main verb (incomplete); \"people\"; informal \"bugs\". *Rewrite:* Other concerns include the environmental impact of data centres’ energy consumption, software errors and job losses.\n\n**13.** *Error:* \"People\"; capitalisation of \"artificial intelligence\". *Rewrite:* Speculation about the risks of artificial intelligence has increased.\n\nThese are model rewrites; other formal versions are equally correct as long as the meaning stays the same."
+      },
+      {
+        "type": "oefening",
+        "id": "faw-c3-oef-3",
+        "niveau": "basis",
+        "vraag": "**Handout, practice exercise 1.** Rewrite each sentence in a formal academic style.\n\n1. A lot of people think this is a bad idea.\n2. We looked at the data and found some stuff that was interesting.\n3. How can we fix this problem?\n4. The government is gonna make a new law.\n5. I think this solution isn’t very good.",
+        "antwoord": "**Model answers** (the handout gives no answers):\n\n1. A significant proportion of the population considers this approach ineffective.\n2. The analysis of the data revealed several notable findings.\n3. This problem can be addressed through three measures.\n4. The government intends to introduce new legislation.\n5. This solution appears to be ineffective.\n\nRules applied: formal vocabulary, no \"people\", no \"I/we\", no rhetorical questions, no contractions, precise words."
+      },
+      {
+        "type": "oefening",
+        "id": "faw-c3-oef-4",
+        "niveau": "basis",
+        "vraag": "**Handout, practice exercise 2.** Rewrite this informal text in a more formal academic style:\n\n*\"A lot of people don’t trust this policy. It’s not a good one because it causes lots of problems. Also, the government didn’t think about the kids who might be affected. So, we should try to change it.\"*",
+        "antwoord": "**A model answer:** Public trust in this policy is limited, since it has created a number of significant problems. Moreover, the government failed to consider the children who might be affected. Consequently, the policy should be reconsidered.\n\nRules applied: no \"a lot of people\", no contractions, no \"good\", precise wording instead of \"lots of problems\", formal linkers (\"Moreover\", \"Consequently\") instead of \"Also\" and \"So\" at the start, \"children\" instead of \"kids\", no \"we\"."
+      },
+      {
+        "type": "oefening",
+        "id": "faw-c3-oef-5",
+        "niveau": "basis",
+        "vraag": "**Handout, practice exercise 3.** Rewrite each sentence so that it avoids gender-specific language and subjective adverbs.\n\n1. Obviously, every student must hand in his essay by Friday.\n2. Unfortunately, the manager failed to do his job.\n3. Each employee must submit his report before he goes on holiday.\n4. Clearly, the researcher believed that his results were correct.",
+        "antwoord": "**Model answers:**\n\n1. All students must hand in their essays by Friday.\n2. The manager did not fulfil the responsibilities of the position.\n3. All employees must submit their reports before going on holiday.\n4. The researcher considered the results to be correct."
       }
     ]
   },
@@ -473,6 +500,12 @@ LESSTOF['fundamentals-of-academic-writing/college-3'] = [
           },
           {
             "apa": "Ref-N-Write. Academic phrasebank. https://www.ref-n-write.com/academic-phrasebank/"
+          },
+          {
+            "apa": "Fundamentals of Academic Writing (2026). Rules for writing in a formal academic style (+ exercises) [Handout, week 3]."
+          },
+          {
+            "apa": "Fundamentals of Academic Writing. Rules of academic style of writing: the do’s and don’ts [Handout]."
           }
         ]
       }
