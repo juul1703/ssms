@@ -4,6 +4,8 @@
 
    Nieuw in v121. Alleen de stof die voor deze opdracht nodig is
    (manual Table 1), met de eisen, de aanpak en de beoordeling.
+
+   v134: personal branding en organisational culture uit sessie 6 toegevoegd (sectie 4 van de theorie).
    ============================================================ */
 
 LESSTOF['professional-skills/midterm-2'] = [
@@ -85,9 +87,9 @@ LESSTOF['professional-skills/midterm-2'] = [
         "tekst": "Do steps 1 to 3 in Core material: how to (vacancy, research, the requirements list), then use the resume checklist and the paragraph plan of the letter. Check the formal requirements before you upload: if one box is unchecked, the submission is rejected."
       },
       {
-        "type": "waarschuwing",
-        "titel": "Personal branding: slides to follow",
-        "tekst": "The manual says your knowledge of **communication skills, organisational culture and personal branding** should help with this assignment. Personal branding is the topic of **session 6**; its slides will be added to this lesson after the session."
+        "type": "slimmer",
+        "titel": "Personal branding and organisational culture (session 6)",
+        "tekst": "The manual says communication skills, **organisational culture** and **personal branding** should help you with this assignment. Session 6 covered both: see **Core material: the theories**, section 4, and the session 6 lesson. And go to the **guest lecture** by Ally Bliss on applications and interviews: Friday 30 October, 11:15, OVk.61."
       }
     ]
   },
@@ -212,6 +214,16 @@ LESSTOF['professional-skills/midterm-2'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nOn paper, your design and words have to do all the work, because the reader cannot see or hear you. Keep it neat, consistent and backed up with proof."
+      },
+      {
+        "type": "tekst",
+        "titel": "4. Personal branding and organisational culture (session 6)",
+        "toetsstof": true,
+        "tekst": "**Personal brand**: the unique combination of skills and experiences that make you you and differentiate you from other professionals. In your application:\n- **Have a focus**: one clear profile line that fits this vacancy (\"a safety and security student focused on event safety\").\n- **Be consistent**: the same story, photo and tone on your CV, in your letter and on LinkedIn (employers check).\n- **Let others tell your story**: concrete results, references and recommendations instead of adjectives.\n\n**Organisational culture**: \"the way things are done around here\" (Deal and Kennedy): vision, values, norms, symbols, language and habits (Needle). Research it (step 2 of the how-to) and show in your letter that you understand it: that is **criterion 10**.\n\n**Professional** (Wilson et al.): specialist knowledge with judgement, belonging to a professional community, responsibility. Show these three in your examples: what you know, which community you are part of (SSMS, a volunteer organisation), and where you took responsibility."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nMake your application tell one clear story about who you are and what you are good at, the same everywhere. Show you understand how the organisation works and what it values, and give examples where you used your knowledge and took responsibility."
       },
       {
         "type": "begrippen",

@@ -571,8 +571,8 @@ taal, uitgebreider dan To remember, afgesloten met "If you only remember ...".
 Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
 in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
-die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 6, Society 6,
-Intro 6 (H7 en H9).
+die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5 en 6, Society 6,
+Intro 6 (H7 en H9), PS 6.
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
@@ -636,8 +636,8 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 | 2 | Buckwalter & Balfour H2 | verwerkt (v101) | lecture 2 en literatuur H2 verwerkt (v101) |
 | 3 | McCormick H8 en H10 | verwerkt (v101) | bestaan niet, geen aantekeningen gemaakt |
 | 4 | McCormick H13 en H15 (v104) | verwerkt (v110) | niet aangeleverd |
-| 5 | Levi-Faur 2012 (v114); aanbevolen Sørensen & Torfing ontbreekt | nog niet | nog niet |
-| 6 | Huberts e.a. 2022 + Maia 2020 (v119) | nog niet | nog niet |
+| 5 | Levi-Faur 2012 (v114); Sørensen & Torfing via de slides | verwerkt (v134) | n.v.t. |
+| 6 | Huberts e.a. 2022 + Maia 2020 (v119) | verwerkt (v134) | verwerkt (v134, aantekeningen van een medestudent) |
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 

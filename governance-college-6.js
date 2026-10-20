@@ -7,6 +7,8 @@
    v131 (proef): nieuw tabblad "Quick recap" (id 'overview') met een
    verhalend overzicht in heel makkelijke taal. Alleen bij deze les,
    als proef op verzoek van Julie.
+
+   v134: lecture 6 en aantekeningen verwerkt (UN-organen, vijf vormen van autoriteit met voorbeelden als examenstof, Russische veto in drie periodes).
    ============================================================ */
 
 LESSTOF['governance-policy/college-6'] = [
@@ -256,6 +258,10 @@ LESSTOF['governance-policy/college-6'] = [
         "tekst": "**In plain words**\n\nSome problems are too big for one country, so countries, organisations and rules work on them together: that is global governance. The UN is at the centre. A \"global governor\" has authority only as long as others are willing to follow it."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture links session 5 and 6: it recaps **Levi-Faur's four perspectives** and the **8 qualities of good governance**, and calls **metagovernance** \"the **governancing of governance**\".\n\n**The main bodies of the UN** (slide and notes): the **General Assembly** (the recognised governments or states), the **Security Council** (the **highest authority in the UN**; your notes mark this as **exam**), the **Economic and Social Council**, the **International Court of Justice** and the **Secretariat**. (Formally there is a sixth main organ, the Trusteeship Council, but it has been inactive since 1994.)\n\n**Global governance and metagovernance in Maia's article**: the UN as the organisation that represents global governance (to maintain peace and security); the Security Council as the highest authority on peace and security; the **veto privilege** of the permanent members; and the UN as **\"the central site for multilateral diplomacy\"** (p. 717)."
+      },
+      {
         "type": "tekst",
         "titel": "2. Five bases of authority, and the Security Council",
         "toetsstof": true,
@@ -264,6 +270,10 @@ LESSTOF['governance-policy/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nAuthority can come from your position, from being given a task, from knowledge, from good principles, or from getting things done. The Security Council has authority because its position and its task are in the UN Charter. But if it cannot act, it loses the trust that it serves peace and gets results. The five permanent members can each block any decision."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Exam topic (your notes: \"examples asked in exam\").** Learn each base of authority with an example:\n- **Institutional**: authority from **the office**, not the person; it is associated with the institution and where it sits. *Example: the White House, the office of the US president.*\n- **Delegated**: being a **representative** acting on behalf of others. *Example: an ambassador.*\n- **Expert**: authority explained by **expertise**. *Example: health experts and the WHO during Covid-19.*\n- **Principled**: their **own** authority, apart from any institution, really **embodied by people** through the values they stand for. *Examples: Nelson Mandela; also religious leaders.*\n- **Capacity-based**: a person or group that has the **capacity to lead groups**, usually **without an office or institution**. *Example (own addition): a crisis organisation or NGO trusted because it gets things done on the ground.*\n\n**The five permanent members with veto power** (your notes): **Russia, the UK, China, the US and France**."
       },
       {
         "type": "tekst",
@@ -288,6 +298,10 @@ LESSTOF['governance-policy/college-6'] = [
       {
         "type": "waarschuwing",
         "tekst": "**Read the case critically**\n\nThe article is from **2020** and its data stop around **2014**: since then Russia has used its veto many more times, including on Syria and on its own invasion of Ukraine (2022). Its English is sometimes unclear (\"hardly vetoed\" means \"rarely vetoed\"), and its hypothesis comes mainly from one side of the debate. For the exam, know the **concepts** (global governance, [[global governors|Global governors]], the five bases of authority, the veto, R2P) and use the case as an example of how authority depends on [[deference|Deference]]."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**The Russian role in the [[Security Council]]**, the slide's timeline:\n1. **Veto use during the USSR period.** Your notes say \"look up at home\". In short: in the early decades of the UN, the Soviet Union was by far the most frequent user of the veto (often on the admission of new member states during the **Cold War**, when the Soviet bloc and the Western bloc, both nuclear powers, threatened each other).\n2. **Veto use from the early 1990s to 2004.** After the Soviet Union collapsed (1991), Russia used the veto **only rarely**: the period of cooperation in the Council.\n3. **Veto use from 2004 to 2014** (the **Syria and Libya** conflicts): the veto comes back, above all on Syria.\n4. **As a result: the [[freezing of global governance|Freezing of global governance]].**\n5. **Current events and the Security Council**: since then, Russia has also vetoed resolutions on its own invasion of Ukraine (2022).\nYour notes read \"90s Soviet collapses, use veto more\"; according to the slide and the article it is the period **after 2004** in which Russia used the veto more again."
       },
       {
         "type": "checklist",
@@ -354,6 +368,26 @@ LESSTOF['governance-policy/college-6'] = [
           {
             "begrip": "Why Russian vetoes increased (list)",
             "definitie": "1. Putin’s external pragmatism and cooperation with China. 2. The National Security Strategy and Foreign Policy Concept. 3. The Libya lesson: no regime change in Syria. 4. Military, economic and status interests."
+          },
+          {
+            "begrip": "Main bodies of the UN (list)",
+            "definitie": "1. General Assembly. 2. Security Council (the highest authority). 3. Economic and Social Council. 4. International Court of Justice. 5. Secretariat. (The Trusteeship Council is inactive since 1994.)"
+          },
+          {
+            "begrip": "Five bases of authority with examples (list)",
+            "definitie": "1. Institutional: the office, e.g. the White House. 2. Delegated: a representative, e.g. an ambassador. 3. Expert: expertise, e.g. Covid experts. 4. Principled: values embodied by a person, e.g. Nelson Mandela, religious leaders. 5. Capacity-based: the capacity to lead groups without an office."
+          },
+          {
+            "begrip": "P5 with veto power (list)",
+            "definitie": "Russia, the United Kingdom, China, the United States and France."
+          },
+          {
+            "begrip": "Russia’s veto use in three periods (list)",
+            "definitie": "1. The USSR period: frequent vetoes in the Cold War. 2. Early 1990s to 2004: rare. 3. 2004 to 2014: more again (Syria, Libya), leading to the freezing of global governance."
+          },
+          {
+            "begrip": "Metagovernance (lecture)",
+            "definitie": "\"The governancing of governance\": steering how governance itself is organised."
           }
         ]
       }
@@ -454,6 +488,10 @@ LESSTOF['governance-policy/college-6'] = [
         "type": "tekst",
         "titel": "Part 2: five ways to get authority",
         "tekst": "Where does a global governor's authority come from? **Five sources**:\n\n1. **Institutional**: you hold an official position. *The UN Secretary-General.*\n2. **Delegated**: states gave you a task. *The UN Security Council, via the UN Charter.*\n3. **Expert**: you know the most about something. *The WHO on health.*\n4. **Principled**: people see you as serving good values. *Human rights NGOs.*\n5. **Capacity-based**: you actually get things done.\n\nNow the Security Council: it clearly has **institutional** and **delegated** authority (it's in the Charter). It does **not** have expert authority. And it only keeps its **principled** and **capacity-based** authority **as long as it actually manages to keep the peace.** Remember that, because that's exactly what goes wrong."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Exam alert from the lecture: know an example for each**\n\nInstitutional = the **office** (the White House). Delegated = a **representative** (an ambassador). Expert = **knowledge** (Covid experts). Principled = a person who **embodies values** (Nelson Mandela, religious leaders). Capacity-based = someone who can **lead groups without an office**."
       },
       {
         "type": "tekst",
@@ -655,6 +693,78 @@ LESSTOF['governance-policy/college-6'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Six exam-style questions from lecture 6",
+        "vragen": [
+          {
+            "vraag": "Which UN body is the highest authority on peace and security?",
+            "opties": [
+              "General Assembly",
+              "Security Council",
+              "Secretariat",
+              "International Court of Justice"
+            ],
+            "juist": 1,
+            "uitleg": "Marked as an exam topic in the notes."
+          },
+          {
+            "vraag": "An ambassador speaking on behalf of a country has which base of authority?",
+            "opties": [
+              "Institutional",
+              "Delegated",
+              "Principled",
+              "Capacity-based"
+            ],
+            "juist": 1,
+            "uitleg": "Delegated: being a representative."
+          },
+          {
+            "vraag": "Nelson Mandela’s authority is an example of:",
+            "opties": [
+              "Institutional authority",
+              "Expert authority",
+              "Principled authority",
+              "Delegated authority"
+            ],
+            "juist": 2,
+            "uitleg": "His own authority, embodied by the person, apart from any institution."
+          },
+          {
+            "vraag": "The authority of \"the White House\" is:",
+            "opties": [
+              "Institutional",
+              "Principled",
+              "Expert",
+              "Capacity-based"
+            ],
+            "juist": 0,
+            "uitleg": "Authority of the office, not the person."
+          },
+          {
+            "vraag": "Which period does the lecture link to the \"freezing\" of global governance?",
+            "opties": [
+              "The USSR period",
+              "Early 1990s to 2004",
+              "2004 to 2014 (Syria, Libya)",
+              "1945 to 1950"
+            ],
+            "juist": 2,
+            "uitleg": "Russia’s vetoes after Libya."
+          },
+          {
+            "vraag": "Which is NOT one of the 8 qualities of good governance?",
+            "opties": [
+              "Transparency",
+              "Accountability",
+              "Profitability",
+              "Participation"
+            ],
+            "juist": 2,
+            "uitleg": "The eight: rule of law, transparency, consensus oriented, accountability, effectiveness and efficiency, equity and inclusiveness, responsiveness, participation."
+          }
+        ]
+      },
+      {
         "type": "bronnen",
         "items": [
           {
@@ -662,6 +772,9 @@ LESSTOF['governance-policy/college-6'] = [
           },
           {
             "apa": "Maia, E. A. F. de S. (2020). A freezing in global governance? An analysis of Russia’s actions in the Security Council with emphasis in the post Libya intervention. Brazilian Journal of International Relations, 9(3), 713-737. https://doi.org/10.36311/2237-7743.2020.v9n3.p713-737"
+          },
+          {
+            "apa": "Gomez Llata, E. (2026). Lecture 6: Global governance [Lecture slides]. Governance & Policy, The Hague University of Applied Sciences."
           }
         ]
       }

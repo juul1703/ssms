@@ -4,6 +4,8 @@
    ============================================================
 
    Nieuw in v119, uit de literatuur. Slides volgen na het college.
+
+   v134: sessie 6-slides als eigen kernstof-tab (met leeslinks), Quick recap en quiz.
    ============================================================ */
 
 LESSTOF['professional-skills/college-6'] = [
@@ -24,7 +26,7 @@ LESSTOF['professional-skills/college-6'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Żemojtel-Piotrowska, M., & Piotrowski, J. (2023). Hofstede's cultural dimensions theory.** In T. K. Shackelford (Ed.), *Encyclopedia of Sexual Psychology and Behavior*. Springer. A short encyclopedia entry (4 pages). Session 6 (programme): personal branding as a safety and security professional, plus Hofstede.\n\n**Why now:** Hofstede is one of the theories you must apply in the **mid-term communication analysis** (part 6 of your group's plan of approach: adjusting to the audience). After the session, the slides are added here."
+        "tekst": "Read: **Żemojtel-Piotrowska, M., & Piotrowski, J. (2023). Hofstede's cultural dimensions theory.** In T. K. Shackelford (Ed.), *Encyclopedia of Sexual Psychology and Behavior*. Springer. A short encyclopedia entry (4 pages). Session 6 (programme): personal branding as a safety and security professional, plus Hofstede.\n\n**Why now:** Hofstede is one of the theories you must apply in the **mid-term communication analysis** (part 6 of your group's plan of approach: adjusting to the audience). Since v134 the lecture is in its own tab, **Core material: the lecture** (professionalism, personal branding, cross-cultural communication, organisational culture, the first-week survival guide and dress code), with the linked readings worked out, and there is a Quick recap tab."
       },
       {
         "type": "slimmer",
@@ -217,6 +219,179 @@ LESSTOF['professional-skills/college-6'] = [
     ]
   },
   {
+    "id": "kern2",
+    "titel": "Core material: the lecture",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "1. What makes a professional",
+        "tekst": "\"A professional is **not a label you give yourself**. It is a description you hope **others** will apply to you.\"\n\n**Wilson et al.'s definition**: a professional is a person\n1. **exercising specialist knowledge and skills with judgement**;\n2. **identifying as a member of a community** based on shared practices and values, where the norms of acceptable practice and values are **determined within the community**;\n3. **having a sense of responsibility and service**.\n\n**Besides knowledge, skills and experience**, three qualities:\n- **Responsibility**: always take responsibility for whatever you do; people must trust you and be confident about you.\n- **High quality**: always aim for the highest quality; never agree to anything of low or poor quality. \"Quality is not an act, it is a habit\" (attributed to Aristotle).\n- **Reliability**: keep your personal problems, emotions and preferences separate from your professional duties.",
+        "toetsstof": true
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYou are a professional when others see you as one, not when you call yourself one. That takes specialist knowledge used with good judgement, belonging to a professional community with shared values, and a sense of responsibility. On top of that: take responsibility, deliver quality and keep your private feelings out of your work."
+      },
+      {
+        "type": "tekst",
+        "titel": "2. Personal branding",
+        "tekst": "**[[Personal brand]]**: \"the unique combination of **skills and experiences** that make you YOU and **differentiate you** from other professionals in your field.\"\n\n**Benefits**: a strong personal brand can lead to effective **interviews and job placements**, **promotions** and **partnerships**.\n\n**Brand yourself as a professional** (slide): have a **focus**; be **consistent**; be **ready to fail**; create a **positive impact**; **let others tell your story**; **follow a successful example**.",
+        "toetsstof": true
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the readings**\n\n**The linked guide (BrandYourself, \"the definitive guide to personal branding\")** works these points out in practical steps, which fit your mid-term #2 application:\n- **Define your focus**: what do you want to be known for? For an SSMS student, for example \"event safety\" or \"crisis communication\", not \"everything\".\n- **Be consistent across channels**: your LinkedIn profile, CV, cover letter and the way you present yourself should tell the same story with the same photo, title and tone.\n- **Show, don't claim**: projects, results and recommendations (\"let others tell your story\") are more convincing than adjectives about yourself.\n- **Check your online footprint**: employers search your name; make sure what they find supports your brand.\n- **Learn from role models**: look at how respected professionals in your field present themselves."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nYour personal brand is what makes you stand out: your mix of skills and experience. Choose what you want to be known for, tell the same story everywhere (CV, LinkedIn, how you introduce yourself), and let your work and other people speak for you."
+      },
+      {
+        "type": "tekst",
+        "titel": "3. Cross-cultural communication",
+        "tekst": "**Culture**: \"a way of life of a group of people: the behaviours, beliefs, values and symbols that they accept, **generally without thinking about them**, and that are passed along by communication and imitation from one generation to the next.\" **Culture is symbolic communication.** (The lecture opened with: what was your biggest culture shock?)\n\n**Low-context versus [[high-context cultures|High-context culture]]** (Hall; suggested reading Nam, 2015):",
+        "toetsstof": true
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "Low context",
+          "High context"
+        ],
+        "rijen": [
+          [
+            "Relationships begin and end quickly",
+            "Relationships build slowly and depend on trust"
+          ],
+          [
+            "Non-verbal elements are not significant",
+            "Non-verbal elements are significant"
+          ],
+          [
+            "Verbal messages are explicit",
+            "Verbal messages are indirect"
+          ],
+          [
+            "Privacy is important",
+            "People stand close to each other"
+          ],
+          [
+            "Events and tasks are scheduled",
+            "Time is not easily scheduled"
+          ],
+          [
+            "One source of information is used",
+            "Multiple sources of information are used"
+          ],
+          [
+            "Thinking proceeds from specific to general",
+            "Thinking proceeds from general to specific"
+          ]
+        ],
+        "noot": "From the slide. Typical low-context cultures: the Netherlands, Germany, Scandinavia, the US; typical high-context cultures: Japan, China, Arab countries, much of Latin America and Africa (own addition)."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the readings**\n\n**The [[Lewis model]]** (Richard D. Lewis; linked on the slide) sorts cultures into three types:\n- **Linear-active**: task-oriented, plan step by step, value facts, punctuality and direct talk; one thing at a time. *Typical: Germany, Switzerland, the Netherlands, the UK, the US.*\n- **Multi-active**: people-oriented, emotional and talkative, do several things at once, relationships and flexibility come before schedules. *Typical: Italy, Spain, Latin America, the Middle East.*\n- **Reactive**: listeners, courteous and respectful, avoid confrontation and loss of face, value harmony. *Typical: Japan, China, Finland.*\nMost countries sit somewhere between the three corners of the triangle. **Use it like Hofstede**: as a tendency of groups, not a description of an individual."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nSome cultures say things directly and rely on the words (low context, like the Dutch); others say things indirectly and rely on relationships and body language (high context, like Japan). The Lewis model adds three types: planners who stick to facts, warm multitaskers, and careful listeners. These are tendencies, not rules for every person."
+      },
+      {
+        "type": "tekst",
+        "titel": "4. Organisational culture",
+        "tekst": "**[[Organisational culture]]** includes the organisation's **vision, values, norms, systems, symbols, language, assumptions, beliefs and habits** (Needle, 2004). Simply stated: **\"the way things are done around here\"** (Deal and Kennedy, 2000). Reading on the slide: Gutterman (2025).\n\n**For you this means:** every organisation (a municipality, a security firm, the police, a festival organiser) has its own unwritten rules: how formal people are, how decisions are made, how mistakes are treated. Researching that culture is exactly what mid-term #2 asks you to do before you write your application.",
+        "toetsstof": true
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nEvery organisation has its own way of doing things: its values, habits, language and unwritten rules. Find out what that is before you apply or start, so you know how to fit in."
+      },
+      {
+        "type": "tekst",
+        "titel": "5. Survival guide for your first working week",
+        "tekst": "**Your first working days** (slide):\n- **Get there on time.**\n- **Dress up properly.**\n- **Smile**, be kind and courteous to everyone.\n- **Have an [[elevator pitch|Elevator pitch]] ready**: who you are and what you do in about 30 seconds.\n- **Put your phone away.**\n- **Say \"yes\" to the lunch invite.**\n- **Ask, listen, observe and learn.**\n- **Make friends with a veteran**: someone who knows how things work.",
+        "toetsstof": true
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nIn your first week: be on time, look neat, be friendly to everyone, have a short introduction of yourself ready, keep your phone away, join lunch, ask and listen a lot, and find an experienced colleague to learn from."
+      },
+      {
+        "type": "tekst",
+        "titel": "6. Dress to impress",
+        "tekst": "\"Dress for the job you want, not the job you have.\"\n\n**Types of business attire** (reading: Indeed), from most to least formal:\n1. **Business formal**: a dark suit, tie or formal dress; for formal events, board meetings, ceremonies.\n2. **Business professional**: a suit or blazer with trousers or skirt, neat shoes; for client meetings, interviews and **your exam presentations**.\n3. **Business casual**: smart trousers or skirt with a shirt or blouse, no tie needed.\n4. **Smart casual**: neat, stylish but relaxed (a blazer with a plain T-shirt or dark jeans).\n5. **Casual**: everyday clothes; not for professional settings.\n\n**Tips from the slide**: a business-casual look, or a **semi-business look with a white T-shirt**; affordable options at H&M, C&A, Primark, Zara pre-owned and Uniqlo. The slide also shows examples of what **can be considered inappropriate**.\n\n**Reminder:** \"professional business attire\" is **criterion 11** of your mid-term #1 presentation.",
+        "toetsstof": true
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nFor your presentation and job interviews, dress business professional or at least business casual: neat trousers or skirt, a shirt or blazer, clean shoes. It counts on the assessment form, and it doesn't have to be expensive."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**Practical from the slides**\n\n**Guest lecture**: Ally Bliss, Head of Executive Search and Market Intelligence (EU, HSEQ and Sustainability), on **job market trends, applications and interviews**: **Friday 30 October, 11:15, room OVk.61**. Useful for your mid-term #2 job application.\n\nThe closing quote: \"If people are doubting how far you can go, go as far as you can't hear them anymore\" (Michele Ruiz)."
+      },
+      {
+        "type": "begrippen",
+        "items": [
+          {
+            "begrip": "Professional (Wilson et al.)",
+            "definitie": "A person exercising specialist knowledge and skills with judgement, identifying with a community of shared practices and values, and having a sense of responsibility and service."
+          },
+          {
+            "begrip": "Personal brand",
+            "definitie": "The unique combination of skills and experiences that make you you and differentiate you from other professionals in your field."
+          },
+          {
+            "begrip": "Culture (lecture)",
+            "definitie": "The way of life of a group: behaviours, beliefs, values and symbols accepted without thinking and passed on by communication and imitation. Culture is symbolic communication."
+          },
+          {
+            "begrip": "Low-context culture",
+            "definitie": "Explicit verbal messages, little weight on non-verbal cues, quick relationships, scheduled time, privacy, thinking from specific to general."
+          },
+          {
+            "begrip": "High-context culture",
+            "definitie": "Indirect messages, important non-verbal cues, slow trust-based relationships, flexible time, closeness, thinking from general to specific."
+          },
+          {
+            "begrip": "Lewis model",
+            "definitie": "Richard D. Lewis’s model of three cultural types: linear-active, multi-active and reactive."
+          },
+          {
+            "begrip": "Organisational culture",
+            "definitie": "The organisation’s vision, values, norms, systems, symbols, language, assumptions, beliefs and habits (Needle, 2004): \"the way things are done around here\" (Deal and Kennedy, 2000)."
+          },
+          {
+            "begrip": "Elevator pitch",
+            "definitie": "A short introduction of who you are and what you do, about 30 seconds long."
+          },
+          {
+            "begrip": "Three qualities of a professional (list)",
+            "definitie": "Besides knowledge, skills and experience: 1. Responsibility. 2. High quality. 3. Reliability."
+          },
+          {
+            "begrip": "Brand yourself as a professional (list)",
+            "definitie": "1. Have a focus. 2. Be consistent. 3. Be ready to fail. 4. Create a positive impact. 5. Let others tell your story. 6. Follow a successful example."
+          },
+          {
+            "begrip": "Lewis model: three types (list)",
+            "definitie": "1. Linear-active: task, plans, facts (Germany, the Netherlands). 2. Multi-active: people, emotion, multitasking (Italy, Latin America). 3. Reactive: listening, harmony, face (Japan, Finland)."
+          },
+          {
+            "begrip": "First-week survival guide (list)",
+            "definitie": "1. Be on time. 2. Dress properly. 3. Smile and be courteous. 4. Have an elevator pitch. 5. Phone away. 6. Say yes to lunch. 7. Ask, listen, observe. 8. Befriend a veteran."
+          },
+          {
+            "begrip": "Types of business attire (list)",
+            "definitie": "1. Business formal. 2. Business professional. 3. Business casual. 4. Smart casual. 5. Casual."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "recap",
     "titel": "To remember",
     "blokken": [
@@ -278,6 +453,45 @@ LESSTOF['professional-skills/college-6'] = [
           "Give the three criticisms.",
           "Name the two dimensions that replicate."
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nThe whole of session 6 (Hofstede plus the lecture on branding and culture) as one easy story."
+      },
+      {
+        "type": "tekst",
+        "titel": "Being a pro",
+        "tekst": "Being a professional isn't something you call yourself, it's something **others** see in you. You need specialist knowledge used with good judgement, you belong to a community with shared values, and you feel responsible. Plus: own your mistakes, deliver quality (\"quality is a habit\"), and don't let your bad day leak into your work."
+      },
+      {
+        "type": "tekst",
+        "titel": "Your personal brand",
+        "tekst": "Your brand = **the mix of skills and experience that makes you you**. A good one gets you jobs, promotions and partnerships. How: pick a **focus**, be **consistent** (CV, LinkedIn, how you introduce yourself all tell the same story), don't be scared to fail, make a positive impact, let **others** vouch for you, and learn from people you look up to. Super relevant for your CV and cover letter (mid-term #2)."
+      },
+      {
+        "type": "tekst",
+        "titel": "Culture: what you do without thinking",
+        "tekst": "Culture is the stuff a group does and believes **without thinking about it**, passed on from generation to generation. Three ways to compare cultures:\n- **Hofstede**: six scales, like how much people accept a powerful boss or whether they think \"I\" or \"we\" (the literature for this session).\n- **Low vs high context**: low context (like the Dutch) says it straight and puts it in writing; high context (like Japan) says it indirectly, and body language and trust matter way more.\n- **The Lewis model**: **linear-active** planners (Germans, Dutch), **multi-active** chatty multitaskers (Italians, Latin Americans), and **reactive** listeners who avoid conflict (Japanese, Finns).\nAlways remember: these are country tendencies, not facts about one person."
+      },
+      {
+        "type": "tekst",
+        "titel": "Organisational culture",
+        "tekst": "Every organisation has its own vibe: values, habits, language, unwritten rules. In short: **\"the way things are done around here.\"** Figure it out before you apply, and adapt to it once you start."
+      },
+      {
+        "type": "tekst",
+        "titel": "First week and dress code",
+        "tekst": "First week checklist: be on time, dress well, be nice to everyone, have your **elevator pitch** ready, phone away, say yes to lunch, ask and listen a lot, and befriend a veteran.\n\nDress code, from most to least formal: business formal, **business professional** (what you wear for your exam presentation), business casual, smart casual, casual. \"Dress for the job you want.\" Cheap options exist (H&M, C&A, Primark, Uniqlo).\n\nDon't forget the **guest lecture** by Ally Bliss on job applications and interviews: Friday 30 October, 11:15."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**If you only remember 6 things**\n\n1. A professional = specialist knowledge with judgement, a community with shared values, responsibility.\n2. Personal brand = your unique mix of skills and experience; be focused and consistent.\n3. Hofstede's six dimensions describe country tendencies, not individuals.\n4. Low context = explicit and direct; high context = indirect, non-verbal, trust.\n5. Lewis: linear-active, multi-active, reactive.\n6. Organisational culture = \"the way things are done around here\"."
       }
     ]
   },
@@ -400,6 +614,100 @@ LESSTOF['professional-skills/college-6'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Eight questions on the lecture",
+        "vragen": [
+          {
+            "vraag": "According to the lecture, being a professional is:",
+            "opties": [
+              "A label you give yourself",
+              "A description you hope others apply to you",
+              "A diploma",
+              "A job title"
+            ],
+            "juist": 1,
+            "uitleg": "Plus Wilson et al.’s three elements."
+          },
+          {
+            "vraag": "Which is NOT one of the three qualities besides knowledge, skills and experience?",
+            "opties": [
+              "Responsibility",
+              "High quality",
+              "Reliability",
+              "Popularity"
+            ],
+            "juist": 3,
+            "uitleg": "Responsibility, high quality, reliability."
+          },
+          {
+            "vraag": "A personal brand is:",
+            "opties": [
+              "Your logo",
+              "The unique combination of skills and experiences that differentiates you",
+              "Your clothing style",
+              "Your social media followers"
+            ],
+            "juist": 1,
+            "uitleg": "It leads to interviews, promotions and partnerships."
+          },
+          {
+            "vraag": "In a high-context culture:",
+            "opties": [
+              "Messages are explicit",
+              "Non-verbal elements are significant and relationships build slowly",
+              "Privacy is most important",
+              "One source of information is used"
+            ],
+            "juist": 1,
+            "uitleg": "Low-context cultures are explicit, scheduled and private."
+          },
+          {
+            "vraag": "Thinking from specific to general is typical of:",
+            "opties": [
+              "High-context cultures",
+              "Low-context cultures",
+              "Reactive cultures",
+              "Multi-active cultures"
+            ],
+            "juist": 1,
+            "uitleg": "High-context thinking goes from general to specific."
+          },
+          {
+            "vraag": "In the Lewis model, a culture that values harmony, listening and avoiding loss of face is:",
+            "opties": [
+              "Linear-active",
+              "Multi-active",
+              "Reactive",
+              "Low-context"
+            ],
+            "juist": 2,
+            "uitleg": "Typical: Japan, Finland."
+          },
+          {
+            "vraag": "\"The way things are done around here\" defines:",
+            "opties": [
+              "Personal branding",
+              "Organisational culture",
+              "Business attire",
+              "Cross-cultural communication"
+            ],
+            "juist": 1,
+            "uitleg": "Deal and Kennedy (2000)."
+          },
+          {
+            "vraag": "Which attire fits your exam presentation?",
+            "opties": [
+              "Casual",
+              "Business professional (or at least business casual)",
+              "Sportswear",
+              "Anything"
+            ],
+            "juist": 1,
+            "uitleg": "Criterion 11 of mid-term #1: professional business attire."
+          }
+        ]
+      },
+      {
         "type": "bronnen",
         "items": [
           {
@@ -407,6 +715,21 @@ LESSTOF['professional-skills/college-6'] = [
           },
           {
             "apa": "Hofstede, G. (2011). Dimensionalizing cultures: The Hofstede model in context. Online Readings in Psychology and Culture, 2(1). https://doi.org/10.9707/2307-0919.1014"
+          },
+          {
+            "apa": "Professional Skills Course (2026). Session 6: Branding safety & security professional [Lecture slides]. The Hague University of Applied Sciences."
+          },
+          {
+            "apa": "Nam, K. A. (2015). High-context and low-context communication. In J. M. Bennett (Ed.), The SAGE encyclopedia of intercultural competence. SAGE."
+          },
+          {
+            "apa": "Lewis, R. D. The Lewis model. https://www.crossculture.com/about-us/the-model/"
+          },
+          {
+            "apa": "BrandYourself. The definitive guide to personal branding. https://brandyourself.com/definitive-guide-to-personal-branding"
+          },
+          {
+            "apa": "Indeed. Guide to business attire. https://www.indeed.com/career-advice/starting-new-job/guide-to-business-attire"
           }
         ]
       }

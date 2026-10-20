@@ -15,6 +15,8 @@
    tijdnood-blok en negen extra flashcards waarvan zes lijstkaarten.
    v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
    waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
+
+   v134: geüpdatete slides (2026) nagelopen; nieuw daarin: de definities van values en norms, toegevoegd als kader.
    ============================================================ */
 
 LESSTOF['governance-policy/college-2'] = [
@@ -141,6 +143,10 @@ LESSTOF['governance-policy/college-2'] = [
       {
         "type": "uitleg",
         "tekst": "**From the lecture**\n\nThe slide **what happens when the balance shifts?** turns the model into a simple picture, and your own notes copy it exactly:\n\n**Too much democratic process**: participation can slow decisions and reduce efficiency.\n**Balance**: a compromise, in which neither side is fully optimised.\n**Too much bureaucratic control**: experts and efficiency can crowd out public voice.\n\nThe slide's closing line is the one to remember: **the question is not \"democracy or bureaucracy?\" but how their values are combined.**\n\nA second slide, **bureaucracy: a means, not the democratic end**, draws the chain political will, then bureaucracy, then policy results. In a democratic state the authors treat democracy as an **intrinsic end**, and bureaucracy as the instrument that carries political will forward. That is also why the same administrative machinery can serve democratic and authoritarian regimes alike, a point that returns in session 3 (bureaucracies in authoritarian regimes)."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**From the updated slides (2026): values and norms.** The lecture starts from two definitions:\n**Values**: \"basic and fundamental beliefs that guide or motivate attitudes or actions.\" They help us judge what matters and what is desirable (honesty, equality, freedom, responsibility). In governance, values shape what we expect from institutions and public officials. **Cultural values** are values accepted by religions or societies.\n**Norms**: \"a rule or standard of behaviour shared by members of a social group.\" Norms are **more specific than values**: honesty is a value; \"do not falsify public records\" is a norm. Norms can be **internalised** (conformity without external rewards or punishments) or **enforced by positive or negative sanctions**. \"Values tell us what matters; norms guide conduct in concrete situations.\"\n\nThe updated slides also show the **8 qualities of good governance** (see Governance session 5) and end with the **key takeaway**: democratic legitimacy is **more than legal authority**; it also depends on participation, public values and the capacity to produce effective government. Governance is a **continuing balance between democracy and bureaucracy**."
       },
       {
         "type": "tekst",

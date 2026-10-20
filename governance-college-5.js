@@ -9,6 +9,8 @@
 
    v114b: per kopje een "In plain words"-kader in eenvoudig Engels
    (Julie wil dit voortaan in elke nieuwe les).
+
+   v134: lecture 5 verwerkt (zes kaders, 8 qualities of good governance, Sørensen & Torfing via de slides), Quick recap-tab.
    ============================================================ */
 
 LESSTOF['governance-policy/college-5'] = [
@@ -31,7 +33,7 @@ LESSTOF['governance-policy/college-5'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Levi-Faur, D. (2012). From \"Big Government\" to \"Big Governance\"?** Chapter 1 of *The Oxford Handbook of Governance*, pp. 3-18. Lecture 5 (Gomez Llata, 9 October): *The development of a paradigm: from government to governance*.\n\nThe recommended reading (Sørensen and Torfing, 2018, pp. 350-359) could not be found, so it is not in this lesson; if you find it, it can be added. Levi-Faur quotes Sørensen and Torfing once, in section 5.\n\nThis lesson is written from the literature, as preparation. After the lecture, the slides and your notes are added in From the lecture boxes."
+        "tekst": "Read: **Levi-Faur, D. (2012). From \"Big Government\" to \"Big Governance\"?** Chapter 1 of *The Oxford Handbook of Governance*, pp. 3-18. Lecture 5 (Gomez Llata, 9 October): *The development of a paradigm: from government to governance*.\n\nThe recommended reading (Sørensen and Torfing, 2018, pp. 350-359) is not in this lesson as a full text, but the lecture slides quote its two key passages: see the box under section 6.\n\nSince v134 the lecture slides are added in From the lecture boxes, and there is a Quick recap tab."
       },
       {
         "type": "slimmer",
@@ -63,6 +65,10 @@ LESSTOF['governance-policy/college-5'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nGovernance is a popular word that people use in many different ways. Levi-Faur uses it for one big question: how is order created in a society, not only by the government but also by companies, organisations and international bodies? The idea is that governing is less about having power and more about steering, like piloting a ship."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture tells **two stories**: how world politics and power changed after **1945 and 1989**, and the **fuzzy notion** of governance.\n\n**How governance came about**, in three periods:\n1. **Strong state apparatuses** (the Cold War period): **Keynes** and institutionalism (government spending to steer the economy); **Marxist** approaches (the state controls the means of production and distribution).\n2. **Globalisation** (from **1989**): the market economy as \"the only alternative\" (**Francis Fukuyama**, **Milton Friedman**); government seen as **inefficient, expensive and corrupt**; the **denationalisation** of the nation state.\n3. **Governance now**: the decline of the market economy and new world paradigms: **terrorism, climate change, populism, new wars, new work conditions** (entrepreneurship). The open question: the **consolidation of civil society actors** in political decision-making?\n\n**The recap definition of public governance** (also on the slides of session 1): the relationship between **government** (the three branches plus political parties) and other social actors: **economic actors** (companies, transnational corporations, business) and **civil society actors** (NGOs, CSOs, social movements, activism). **Why do they relate?** To collectively identify, address and implement policies that solve social problems (public health, climate change, minority rights, infrastructure)."
       },
       {
         "type": "tekst",
@@ -111,6 +117,10 @@ LESSTOF['governance-policy/college-5'] = [
         "tekst": "**In plain words**\n\nPeople use governance to say that the way we are governed is changing. Power moves in three directions: up to the EU or the UN, down to cities and regions, and sideways to companies and organisations. But be careful: if the government does less, that does not automatically mean the state or the rules have become weaker."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide quotes Levi-Faur directly: one reason governance became so important is that **\"it carries images and meanings of change\"** (p. 7), and the shifts go in **three directions: upward, downward and horizontal** (p. 7). The lecturer's questions to think about: **what does this mean?** And **do these shifts affect the state and the government equally?** (Section 3: not necessarily; a shift away from government is not automatically a shift away from the state.)"
+      },
+      {
         "type": "tekst",
         "titel": "4. Four meanings: structure, process, mechanism, strategy",
         "toetsstof": true,
@@ -125,6 +135,10 @@ LESSTOF['governance-policy/college-5'] = [
         "tekst": "**The five mechanisms in one Dutch safety example (own addition)**\n\nTo reduce violence in a city's nightlife area, a municipality can use **command** (an alcohol ban and a closing-time rule), **monetised exchange** (paying a private security firm), **non-monetised exchange** (giving a bar owners' association a say in policy in return for their cooperation), **persuasion** (a campaign and round-table talks with bar owners about responsible serving) and **solidarity** (appealing to the pride and loyalty of the neighbourhood). Real governance is usually a **hybrid** of several of these, which is exactly Levi-Faur's point in section 6."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe four meanings, in the lecturer's words: **structure** (systems of rule, regimes of laws or administrative practices by institutions); **process** (not the institutions themselves but the institutional **capacity to steer and coordinate**, as in the practices of governing); **mechanism** (the institutionalisation and naturalisation of procedures of decision-making: the five mechanisms); **strategy** or **governancing** (the design, creation and adaptation of governance systems, that is, of power relations). The lecturer's example to apply them to: **democracy**.\n\n**The 8 qualities of good governance (in liberal democracies)**, on the lecturer's slide:\n1. **Rule of law**\n2. **Transparency**\n3. **Consensus oriented**\n4. **Accountability**\n5. **Effectiveness and efficiency**\n6. **Equity and inclusiveness**\n7. **Responsiveness**\n8. **Participation**\nThese are the eight characteristics of good governance as used by the UN (UNESCAP). Memory aid: **R-T-C-A-E-E-R-P**, or \"the rule of law makes things transparent, consensual and accountable; effective, equitable, responsive and participatory\"."
+      },
+      {
         "type": "tekst",
         "titel": "5. Governance and the state: three perspectives",
         "toetsstof": true,
@@ -133,6 +147,10 @@ LESSTOF['governance-policy/college-5'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nSome experts say the government is losing control to companies, cities and the EU (hollowing out). Some say the market should do most of the work and the government should step back (degovernancing). Others say the government is still the boss: it decides the direction and lets others do the practical work (steering, not rowing). And it can always step in if things go wrong."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe four perspectives in one slide each line:\n- **Hollowing out of the state**: no sovereign state that is able to steer or regulate relations; this gives way to the **strongest groups in society**.\n- **Degovernancing**: deregulation and debureaucratisation; the preferred mode of control is **the market**.\n- **State-centred governance**: the state plays a leading role; **in line with metagovernance** arguments.\n- **[[Big Governance]]** as the co-expansion of government and governance: it is about **regulation** towards **standards, best practices, ranking and shaming**."
       },
       {
         "type": "tekst",
@@ -149,6 +167,10 @@ LESSTOF['governance-policy/college-5'] = [
         "tekst": "**Big Governance in Dutch safety and security (own addition)**\n\nThink of food safety. The state regulates through the **NVWA** (the Dutch food and consumer product safety authority, a regulatory agency: session 3); supermarkets impose their own **private standards** on suppliers; certification bodies audit them; EU rules sit above national law; and consumer organisations rank and shame. None of this replaced the state: the state's regulatory role grew, **and** the private and international layers grew alongside it. That is co-expansion and hybridisation: Big Governance."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**The recommended reading, as quoted on the slides** (Sørensen and Torfing, 2018, *Governance on a bumpy road from enfant terrible to mature paradigm*, Critical Policy Studies, 12(3), 350-359):\n- Over the past three decades governance researchers have gradually moved towards a **common understanding**: the need to study the complex processes through which **a plethora of public and private actors interact** to define problems, set goals, design solutions and implement them.\n- Governance is **\"a complex, decentred, fluid and potentially chaotic process\"** that involves different public and private actors in formal and informal settings, subject to **ongoing institutionalisation and deinstitutionalisation**.\nThe title says it all: governance started as an **\"enfant terrible\"** (a provocative newcomer) and has become a **mature paradigm**."
+      },
+      {
         "type": "tekst",
         "titel": "7. Conclusions: steering versus rowing",
         "toetsstof": true,
@@ -157,6 +179,10 @@ LESSTOF['governance-policy/college-5'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nGovernments still do the practical work, such as collecting taxes and providing services. But more and more, their main job is to set the direction, make rules and check that others follow them. And they do that by working together with others, not only by giving orders."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**The lecturer's conclusion**: as the Oxford Handbook shows, governance is becoming a broad concept, **central to the study of political, economic, spatial and social order**, and to understanding the dynamics of change of **capitalist democracies**.\n\n**Further issues to consider**, all about the quality of the information governance depends on:\n- **Information**.\n- **[[Misinformation]]**: false information spread without the intention to deceive.\n- **[[Disinformation]]**: false information spread deliberately to deceive.\n- **[[Paltering]]**: deceiving by telling the truth (selectively true statements that create a false impression).\n- **Persuasion and propaganda**."
       },
       {
         "type": "checklist",
@@ -281,8 +307,81 @@ LESSTOF['governance-policy/college-5'] = [
           {
             "begrip": "Three classic modes of governance (list)",
             "definitie": "1. Market: price and exchange. 2. Hierarchy: command and authority. 3. Network: interdependence, negotiation and trust."
+          },
+          {
+            "begrip": "Eight qualities of good governance (list)",
+            "definitie": "1. Rule of law. 2. Transparency. 3. Consensus oriented. 4. Accountability. 5. Effectiveness and efficiency. 6. Equity and inclusiveness. 7. Responsiveness. 8. Participation."
+          },
+          {
+            "begrip": "Three periods of governance (list)",
+            "definitie": "1. Strong state apparatuses in the Cold War (Keynes, Marxist approaches). 2. Globalisation from 1989: the market as the only alternative (Fukuyama, Friedman). 3. Governance now: terrorism, climate change, populism, new wars; civil society in decision-making."
+          },
+          {
+            "begrip": "Misinformation",
+            "definitie": "False information spread without the intention to deceive."
+          },
+          {
+            "begrip": "Disinformation",
+            "definitie": "False information spread deliberately to deceive."
+          },
+          {
+            "begrip": "Paltering",
+            "definitie": "Deceiving by telling the truth: using selectively true statements to create a false impression."
+          },
+          {
+            "begrip": "Governance on a bumpy road (Sørensen and Torfing, 2018)",
+            "definitie": "Governance as a complex, decentred, fluid and potentially chaotic process involving public and private actors; it grew from an \"enfant terrible\" into a mature paradigm."
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nSession 5 (Levi-Faur plus the lecture) as one easy story."
+      },
+      {
+        "type": "tekst",
+        "titel": "The vibe of this session",
+        "tekst": "One question: **has governing moved away from the government?** Levi-Faur's answer: yes, it's spread out in all directions, **but the government didn't shrink**: it just governs more and more by making rules. That's \"Big Governance\"."
+      },
+      {
+        "type": "tekst",
+        "titel": "How we got here: three periods",
+        "tekst": "The lecture tells the backstory:\n1. **Cold War**: big, strong states that steered the economy (Keynes) or owned it (Marxism).\n2. **From 1989**: the market wins. Government is seen as slow, expensive and corrupt, so: privatise, deregulate, let the market do it (Fukuyama, Friedman).\n3. **Now**: the market can't fix everything either. Terrorism, climate change, populism, new wars. So governments, companies and civil society have to work together. That's **governance**."
+      },
+      {
+        "type": "tekst",
+        "titel": "What governance even means",
+        "tekst": "It's a buzzword with a million meanings. Levi-Faur makes it a research question: **how is order created, within, by, without and beyond the state?** The key word is **steering**, like steering a ship, rather than raw power.\n\nThe lecture's simple definition of **public governance**: the government working together with **companies** and **civil society** (NGOs, activists) to solve shared problems.\n\n**Four meanings**: the rules and institutions (**structure**), the ongoing steering (**process**), the decision-making tools (**mechanism**: paying, trading favours, ordering, convincing, loyalty), and designing new ways to govern (**strategy**, or \"governancing\")."
+      },
+      {
+        "type": "tekst",
+        "titel": "Power moves in three directions",
+        "tekst": "Power shifts **up** (EU, UN), **down** (cities, regions) and **sideways** (companies, NGOs). Careful though: if the government does less itself, that doesn't automatically mean the state got weaker."
+      },
+      {
+        "type": "tekst",
+        "titel": "The four perspectives on the state",
+        "tekst": "- **Hollowing out**: the state is losing control, and the strongest groups take over.\n- **Degovernancing**: let the market do it, less rules.\n- **State-centred governance**: the state is still the boss, it just **steers** and lets others **row** (do the practical work). Fits with **metagovernance**: governing the governance.\n- **Big Governance** (Levi-Faur): government AND everyone else are making more rules, through standards, best practices, rankings and naming-and-shaming."
+      },
+      {
+        "type": "tekst",
+        "titel": "Good governance: the 8 qualities",
+        "tekst": "The lecture's checklist for good governance in a democracy: **rule of law, transparency, consensus, accountability, effectiveness and efficiency, equity and inclusiveness, responsiveness, participation.** Learn all eight."
+      },
+      {
+        "type": "tekst",
+        "titel": "Bonus: the info problem",
+        "tekst": "The lecture ends with a warning: governance only works with good information. Watch out for **misinformation** (false by accident), **disinformation** (false on purpose), **paltering** (lying by telling only the true bits), and **propaganda**."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**If you only remember 6 things**\n\n1. Governance = order created within, by, without and beyond the state; steering, not just power.\n2. Three periods: strong state, market (1989), governance now.\n3. Shifts go up, down and sideways.\n4. Four meanings: structure, process, mechanism, strategy.\n5. Four perspectives: hollowing out, degovernancing, state-centred, Big Governance.\n6. Eight qualities of good governance."
       }
     ]
   },
@@ -463,6 +562,12 @@ LESSTOF['governance-policy/college-5'] = [
           },
           {
             "apa": "Recommended, not yet available: Sørensen, E., & Torfing, J. (2018), pp. 350-359."
+          },
+          {
+            "apa": "Gomez Llata, E. (2026). Lecture 5: Levi-Faur [Lecture slides]. Governance & Policy, The Hague University of Applied Sciences."
+          },
+          {
+            "apa": "Sørensen, E., & Torfing, J. (2018). Governance on a bumpy road from enfant terrible to mature paradigm. Critical Policy Studies, 12(3), 350-359."
           }
         ]
       }
