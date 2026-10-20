@@ -15,6 +15,8 @@
    quiz over het college. Geen aantekeningen aangeleverd.
    v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
    waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
+
+   v133: de Wooclap-quiz uit lecture 6 (8 examenvragen over H17) toegevoegd.
    ============================================================ */
 
 LESSTOF['society-politics/college-5'] = [
@@ -746,6 +748,100 @@ LESSTOF['society-politics/college-5'] = [
     "id": "checken",
     "titel": "Check yourself",
     "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Wooclap quiz from lecture 6 (exam-style)",
+        "vragen": [
+          {
+            "vraag": "It refers to a violation of norms that are enacted into laws.",
+            "opties": [
+              "Constitution",
+              "Ordinance",
+              "Crime",
+              "Fine"
+            ],
+            "juist": 2,
+            "uitleg": "Crime is the violation of norms a society formally enacts into criminal law. (Deviance is the broader recognised violation of norms.)"
+          },
+          {
+            "vraag": "Which system involves planned and programmed responses to expected deviance?",
+            "opties": [
+              "Criminal justice system",
+              "Social benefit system",
+              "Social control system",
+              "Deviant solar system"
+            ],
+            "juist": 2,
+            "uitleg": "The criminal justice system is the formal part: police, courts and prison officials responding to alleged violations."
+          },
+          {
+            "vraag": "Which society relies on communication and information for control and close monitoring of everyday life?",
+            "opties": [
+              "Network society",
+              "Surveillance society",
+              "Open society",
+              "Risk society"
+            ],
+            "juist": 1,
+            "uitleg": "Lyon’s surveillance society. The network society (Castells, session 6) is about networks and flows, not control as such."
+          },
+          {
+            "vraag": "Which explanation of crime and deviance states that the nature of crime is rational, to maximise gains and ensure escape?",
+            "opties": [
+              "Labelling theory",
+              "Classical school",
+              "Conflict criminology",
+              "Learning theory"
+            ],
+            "juist": 1,
+            "uitleg": "The classical school (Beccaria): crime as a rational choice, hence deterrence."
+          },
+          {
+            "vraag": "Which explanation of crime and deviance claims that deviance depends on association with others?",
+            "opties": [
+              "Strain theory",
+              "Learning theory",
+              "Labelling theory",
+              "Left realism"
+            ],
+            "juist": 1,
+            "uitleg": "Learning theory: Sutherland’s differential association."
+          },
+          {
+            "vraag": "Which explanation of crime and deviance claims that deviance is not due to people’s actions, but to others’ reactions?",
+            "opties": [
+              "Strain theory",
+              "Labelling theory",
+              "Conflict criminology",
+              "Left realism"
+            ],
+            "juist": 1,
+            "uitleg": "Labelling theory (Becker, Lemert)."
+          },
+          {
+            "vraag": "Which explanation of crime and deviance holds that the causes of deviance are linked to inequalities and power?",
+            "opties": [
+              "Left realism",
+              "Strain theory",
+              "Feminist criminology",
+              "Conflict criminology"
+            ],
+            "juist": 3,
+            "uitleg": "Conflict criminology. Feminist criminology focuses on gender specifically; left realism on the square of crime."
+          },
+          {
+            "vraag": "Which explanation of crime and deviance has the square of crime as an organising framework for understanding crime?",
+            "opties": [
+              "Feminist criminology",
+              "Strain theory",
+              "Left realism",
+              "Race and ethnicity"
+            ],
+            "juist": 2,
+            "uitleg": "Left realism (Jock Young): the state, informal control, the offender and the victim."
+          }
+        ]
+      },
       {
         "type": "quiz",
         "titel": "Eighteen questions on chapter 17",

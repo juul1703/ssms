@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v132**.
+Stand: 29 september 2026, service worker **v126**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -79,7 +79,6 @@ bestanden.
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
 | `faw-summary.js` | FAW naslag: How to write an academic summary (stap voor stap, uitgewerkt voorbeeld, oefenartikel); nieuw in v107 |
 | `faw-college-3.js` | FAW sessie 3, Style of academic writing (Hackett): de 16 regels, feedback task 1; nieuw in v113 |
-| `faw-college-4.js` | FAW sessie 4, style in practice (Hackett): alle worksheets met antwoorden, passive voice, parafraseren; nieuw in v132 |
 | ~~`faw-writer-responsible.js`~~ | Vervangen door `faw-college-2.js` in v92; het bestand kan uit de repo |
 | `sw.js` | Offline-cache, netwerk eerst |
 | `manifest.webmanifest` | Naam en kleur op het beginscherm |
@@ -124,7 +123,6 @@ faw-college-1.js
 faw-college-2.js
 faw-summary.js
 faw-college-3.js
-faw-college-4.js
 society-college-1.js
 society-college-2.js
 society-college-3.js
@@ -565,11 +563,22 @@ tabblad nu ook af (alleen aanzetten, nooit uitzetten). Eén wijziging in
 `les.js` (functie `vinkHuidigAf`), geldt voor alle lessen. De knop
 "Onderdeel afvinken" werkt zoals voorheen (aan/uit).
 
+## 9f. Quick recap per sessie (v131 proef, v133 standaard)
+
+Julie wil bij **elke sessie** een tabblad **Quick recap** (id `overview`): het hele
+college als verhaal in heel makkelijke, licht Gen Z-achtige maar nauwkeurige
+taal, uitgebreider dan To remember, afgesloten met "If you only remember ...".
+Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
+in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
+Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
+die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 6, Society 6,
+Intro 6 (H7 en H9).
+
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
 **Nog te doen, in deze volgorde:**
 
-00. **FAW-slides** (sessie 3 verwerkt in v113, in de sessieles én in `faw-summary.js`). Sessie 4 en de twee stijl-handouts verwerkt in v132 (sessie 3 en de summary-gids aangevuld). Nog te ontvangen: FAW sessie 5 en verder; verwerken in
+00. **FAW-slides** (sessie 3 verwerkt in v113, in de sessieles én in `faw-summary.js`). Nog te ontvangen: de overige FAW-sessies en eventuele summary-slides; verwerken in
     `faw-summary.js` (als From the lecture-kaders bij de stappen) **en** in
     de bijbehorende FAW-sessieles. Dubbel, op Julie's verzoek.
 
@@ -649,7 +658,7 @@ aangepast: heel H5.
 | 3 | H11 | verwerkt (v100) | verwerkt (v100), Goodnotes en papier | geen |
 | 4 | heel H5 (v109), H16 sociale bewegingen p. 525-532 | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
 | 5 | H17 p. 541-577 (v108) | verwerkt (v117) | niet aangeleverd | geen |
-| 6 | H6 heel hoofdstuk (v120) | nog niet | nog niet | nog niet |
+| 6 | H6 heel hoofdstuk (v120) | verwerkt (v133) | verwerkt (v133) | Wooclap (over H17) bij sessie 5 |
 
 Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
 

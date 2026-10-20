@@ -7,6 +7,8 @@
 
    v118: op het niveau van de nieuwste lessen gebracht: tijdnood-blok,
    "In plain words" per kopje en hover-begrippen.
+
+   v133: lecture 6 (delen 2-4, Delta Water Works) verwerkt; Quick recap-tab voor H9; quiz over het college.
    ============================================================ */
 
 LESSTOF['intro-to-safety-security/h9'] = [
@@ -115,6 +117,10 @@ LESSTOF['intro-to-safety-security/h9'] = [
         "tekst": "**In plain words**\n\nHigh-reliability organisations, such as nuclear plants and air traffic control, run systems where one big failure could be a disaster. So they do not just try to make accidents unlikely: they try to make sure certain accidents can never happen."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**High-reliability organisations (HROs)**: nuclear power plants, electricity grids, aviation and air traffic control. Your notes: their **aim is to preclude catastrophic failures, not just make them unlikely**; they are **robust by design** (redundancy, backups, **automatic or safe shut-downs**: when risk escalates, stopping beats carrying on). They are also **critical infrastructure**, and so potential targets.\n\n**The recipe: keep the wobble small.** Low input variance (stable resources, demands and conditions) + low process variance (procedures, prior analysis, planning) = low output variance (predictable, reliable performance), within an **[[acceptable bandwidth|Acceptable bandwidth]]**. Outside the band are dangerous or **unstudied conditions**. The **perishable ingredients**: attention, trust between departments and shared sense-making fade under pressure and must be renewed.\n\n**Precursors: weak signals before the failure.** HROs start from the events they cannot accept and work backwards to what could lead there. Examples: equipment nearing its maximum allowed conditions; too much noise or too many people in the control room; an operator who is very quiet or edgy; a backlog of unresolved corrective-action reports; work moving into \"unstudied conditions\". **Precursor resilience**: spot the drift early and step back, while still delivering.\n\n**Culture and the \"reliability professional\".** The culture plans for the worst case, respects imaginative worst-case thinking, lets everyone speak up and \"own\" the procedures, and treats **complacency as the enemy**. Reliability professionals need **no degree or job title**, are found **at every level** from operators to CEOs, see the whole system, and watch for precursors and **\"[[practical drift|Practical drift]]\"**. \"Resilience here is a people thing, not just a technology thing.\""
+      },
+      {
         "type": "tekst",
         "titel": "9.2 Security: failure versus vulnerability",
         "toetsstof": true,
@@ -167,6 +173,10 @@ LESSTOF['intro-to-safety-security/h9'] = [
         "tekst": "**In plain words**\n\nSafety deals with things breaking by accident; security deals with someone trying to break them on purpose. An attacker learns and adapts, and can even be an insider. That makes security harder for these organisations than safety."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**[[Failure versus vulnerability]].** Safety: there are always more ways for a complex system to fail than to work as designed. Security adds: hostile intent turns weak points into **strategic targets**; **attackers don't have to survive**; the threat can be **on the inside**. \"Reliability against nature is hard. Against someone who adapts, it's harder.\"\n\n**Case: the cockpit door** (Germanwings 9525, 2015). After 9/11 cockpit doors were hardened to keep intruders out; the fix created a weakness for someone already inside; a crew member locked the pilot out and crashed the plane. Lesson: **protecting against one threat can open a weakness somewhere else.**\n\n**Vulnerability by design**: homes on a flood plain, tall buildings on an earthquake fault, houses in wildfire-prone forest, and **the internet**, designed so everything can connect to everything: every new element adds new ways in, attackable from anywhere, and too big for one organisation (it needs wider regulation). \"What did you connect this month?\"\n\n**Security can't manage everything**: no organisation can thwart every plot or lone attacker, so the safety standard of **precluding events is out of reach**; assessments can backfire (a known list of vulnerabilities may attract attackers, or push them to the least-defended targets); attackers **conceal or fake signals**, so precursors are harder to read. And crisis plans only help if they are **tested** and people know their roles.\n\n**Three tugs-of-war** (safety wants versus security needs):\n1. **Planned versus adaptable**: anticipation and prior analysis (stability) versus flexibility to meet an unexpected attack.\n2. **Share versus contain**: open communication across departments versus keeping key information from attackers.\n3. **Open versus locked**: easy access for teamwork and fast decisions versus hardened targets (guns, gates, guards). Security rules can also slow emergency coordination between organisations."
+      },
+      {
         "type": "tekst",
         "titel": "9.3 The ground for overlap: managing error",
         "toetsstof": true,
@@ -191,6 +201,10 @@ LESSTOF['intro-to-safety-security/h9'] = [
         "tekst": "**In plain words**\n\nStill, both safety and security depend on the same habits: hunting for errors, noticing small warning signs early, and people who dare to speak up. Those habits help against accidents and against attacks."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Where they help each other**, four synergies:\n1. **Error-sensitivity**: question assumptions and accept surprise; it fights complacency and hubris on both sides.\n2. **Weak signals**: people who spot a failing pump can spot an attack taking shape; \"uncharted territory\" gets taken seriously.\n3. **Teams as first responders**: experienced teams recognise patterns fast. On 9/11, US air traffic controllers cleared the skies quickly.\n4. **Higher-resolution anticipation**: look wider and further ahead, across organisations and borders, with more people detecting errors."
+      },
+      {
         "type": "tekst",
         "titel": "9.4 Conclusion",
         "toetsstof": true,
@@ -199,6 +213,10 @@ LESSTOF['intro-to-safety-security/h9'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nIf organisations manage safety and security with the same careful attention to errors and warning signs, both can get stronger, and one is less likely to undermine the other. But managers must watch the points where they clash, such as secrecy versus openness."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Two chapters, two answers?** Ch. 7 (Brooks and Coole): distinct professions with different knowledge, law and goals that will keep diverging. Ch. 9 (Schulman): shared reliability management can strengthen both and stop one undermining the other. The lecturer's way to square them (his reading, not the authors'): **different expertise, shared habits**.\n\n**The activity: Delta Water Works** (fictional; drinking water for 400,000 people; critical infrastructure and a possible target). Roles: safety lead, security lead, [[reliability professional|Reliability professional]], briefer. The lecturer's reading of the eight signals: (1) 47 corrective-action reports open for over three months: **safety precursor**; (2) crowded, loud control room and a normally chatty operator gone quiet: **safety precursor**; (3) a new remote-access tool for chlorine dosing from home: **both**; (4) an unmarked USB stick labelled \"Payroll\" by the staff entrance: **threat**; (5) a fire door propped open to ventilate the pump hall: **both**; (6) unannounced \"ministry\" visitors asking about night-shift staffing: **threat**; (7) incident reports now visible only to security: **both**; (8) a drone near the intake building two Fridays in a row: **ambiguous**. The breaking update (an operator \"in uncharted territory\", a supervisor saying \"just do it\") is a classic precursor: the HRO answer is to **pause, investigate and protect the person who spoke up**.\n\n**Five things to take with you:** hazards don't plan, threats do (intent changes the controls); two toolkits, different professions (ch. 7); resilience = weak signals (spot drift early and step back); fixes can open new gaps (the cockpit door); shared habits (question assumptions, speak up, join the dots). Further reading on the slide: Roe and Schulman, *High Reliability Management* (2008); Pettersen and Bjørnskau (2015) on organisational contradictions between safety and security."
       },
       {
         "type": "begrippen",
@@ -295,8 +313,68 @@ LESSTOF['intro-to-safety-security/h9'] = [
           {
             "begrip": "Higher resolution reliability",
             "definitie": "What integration demands: a broader scope and longer time horizon of anticipation, more imagination in analysing internal and external threats, and more distributed participation in error detection."
+          },
+          {
+            "begrip": "Acceptable bandwidth",
+            "definitie": "The range of stable conditions within which an HRO can perform reliably; outside it are dangerous or unstudied conditions (\"keep the wobble small\")."
+          },
+          {
+            "begrip": "Practical drift",
+            "definitie": "The gradual shift of everyday work away from the designed procedures, which reliability professionals watch for."
+          },
+          {
+            "begrip": "Three tugs-of-war (list)",
+            "definitie": "1. Planned versus adaptable. 2. Share versus contain. 3. Open versus locked."
+          },
+          {
+            "begrip": "Four synergies of safety and security (list)",
+            "definitie": "1. Error-sensitivity. 2. Weak signals. 3. Teams as first responders. 4. Higher-resolution anticipation."
+          },
+          {
+            "begrip": "Five takeaways of lecture 6 (list)",
+            "definitie": "1. Hazards don’t plan, threats do. 2. Two toolkits. 3. Resilience = weak signals. 4. Fixes can open new gaps. 5. Shared habits."
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "tekst",
+        "titel": "Chapter 9 in one story: the super-reliable organisations",
+        "tekst": "**HROs** (high-reliability organisations) are places where one big mistake could be a disaster: nuclear plants, power grids, air traffic control. Their goal isn't \"make accidents unlikely\", it's \"**this can never happen**\". So they build in backups and automatic shut-downs: when things get risky, they stop instead of pushing on.\n\nTheir recipe: **keep the wobble small.** Stable conditions, good procedures, careful planning, so everything stays inside a safe \"bandwidth\". The tricky part: attention, trust and shared understanding wear off under pressure, so you have to keep refreshing them."
+      },
+      {
+        "type": "tekst",
+        "titel": "Weak signals and the people who notice them",
+        "tekst": "HROs look for **precursors**: little warning signs before things go wrong. A machine running near its limit, a packed and noisy control room, an operator who suddenly goes quiet, a pile of unfixed problems, work drifting into territory nobody has studied.\n\nThe heroes are **reliability professionals**: people at any level, no fancy title needed, who see the bigger picture and **speak up**. Complacency is the enemy. Resilience is a **people thing**, not just tech."
+      },
+      {
+        "type": "tekst",
+        "titel": "Plot twist: the enemy thinks back",
+        "tekst": "All of this works great against **nature and accidents**. Against an **attacker** it gets harder:\n- An attacker looks for your weak spots on purpose, may not care about surviving, and can even be **inside**.\n- **Fixes can backfire**: after 9/11 cockpit doors were locked tight against hijackers, and in 2015 a Germanwings co-pilot used that same door to lock the pilot out and crash the plane.\n- Some things are **vulnerable by design**, like the internet: everything connects to everything, so every new device is a new way in.\n- You can't stop every plot, a list of your weak points can attract attackers, and attackers can **hide or fake** the warning signs."
+      },
+      {
+        "type": "tekst",
+        "titel": "The three tugs-of-war",
+        "tekst": "Safety and security pull in opposite directions in three ways:\n1. **Planned vs adaptable**: safety likes stable plans, security needs flexibility for surprise attacks.\n2. **Share vs contain**: safety wants everyone to see the incident reports, security wants to keep info away from attackers.\n3. **Open vs locked**: safety wants easy access and quick teamwork, security wants gates, guards and locks."
+      },
+      {
+        "type": "tekst",
+        "titel": "But they also help each other",
+        "tekst": "Four ways they're on the same team: **being alert to errors** (question your assumptions), **noticing weak signals** (the person who spots a failing pump can spot an attack too), **experienced teams responding fast** (like US air traffic control on 9/11), and **looking further ahead**, together and across borders.\n\nSo who's right? Chapter 7 says: two different professions. Chapter 9 says: shared habits make both stronger. The lecturer's combo: **different expertise, shared habits.**"
+      },
+      {
+        "type": "tekst",
+        "titel": "Delta Water Works (the class exercise)",
+        "tekst": "You played the resilience team of a water company for 400,000 people. Some signals were **safety precursors** (47 unfixed reports, a quiet operator in a crowded room), some were **threats** (a random \"Payroll\" USB stick, fake \"ministry\" visitors), some were **both** (remote access from home, a propped-open fire door, reports hidden from staff), and one was **ambiguous** (a drone). The big lesson: when an operator says \"I'm in uncharted territory\", you **pause, investigate and protect the person who spoke up**, even if you're behind schedule."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**The 5 takeaways of lecture 6**\n\n1. Hazards don't plan, threats do: intent changes the controls.\n2. Two toolkits: different professions (ch. 7).\n3. Resilience = weak signals: spot drift early and step back.\n4. Fixes can open new gaps: remember the cockpit door.\n5. Shared habits: question assumptions, speak up, join the dots."
       }
     ]
   },
@@ -537,6 +615,100 @@ LESSTOF['intro-to-safety-security/h9'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Eight questions on lecture 6",
+        "vragen": [
+          {
+            "vraag": "A former employee who still has a working keycard is a:",
+            "opties": [
+              "Hazard",
+              "Threat",
+              "Precursor of a safety failure only",
+              "Neither"
+            ],
+            "juist": 1,
+            "uitleg": "Intent and capability of a possible adversary."
+          },
+          {
+            "vraag": "Which is the security control logic from the lecture?",
+            "opties": [
+              "Plan, do, check, act",
+              "Deter, delay, detect, respond",
+              "Prevent, prepare, repress, recover",
+              "Train, comply, design"
+            ],
+            "juist": 1,
+            "uitleg": "Harden to deter and delay, technology to detect, people to respond."
+          },
+          {
+            "vraag": "What is the aim of an HRO?",
+            "opties": [
+              "To make failures unlikely",
+              "To preclude catastrophic failures",
+              "To maximise output",
+              "To avoid regulation"
+            ],
+            "juist": 1,
+            "uitleg": "Not just unlikely: they must never happen."
+          },
+          {
+            "vraag": "\"Keep the wobble small\" refers to:",
+            "opties": [
+              "Low variance in inputs, processes and outputs within an acceptable bandwidth",
+              "Small teams",
+              "Short shifts",
+              "Low budgets"
+            ],
+            "juist": 0,
+            "uitleg": "Stable inputs + procedures = predictable performance."
+          },
+          {
+            "vraag": "An operator who suddenly goes very quiet in a crowded control room is an example of:",
+            "opties": [
+              "A threat",
+              "A precursor (weak signal)",
+              "Practical drift only",
+              "A security control"
+            ],
+            "juist": 1,
+            "uitleg": "One of the lecturer’s examples of weak signals."
+          },
+          {
+            "vraag": "The Germanwings case shows that:",
+            "opties": [
+              "Locked doors are always safer",
+              "Protecting against one threat can open a weakness elsewhere",
+              "Pilots should not have keys",
+              "Safety and security never conflict"
+            ],
+            "juist": 1,
+            "uitleg": "The hardened door shielded an insider."
+          },
+          {
+            "vraag": "\"Share versus contain\" is one of the three tugs-of-war. What does security need?",
+            "opties": [
+              "Open communication across departments",
+              "Keeping key information from attackers",
+              "Faster decisions",
+              "More procedures"
+            ],
+            "juist": 1,
+            "uitleg": "Safety wants sharing; security wants containment."
+          },
+          {
+            "vraag": "How does the lecturer reconcile chapters 7 and 9?",
+            "opties": [
+              "Merge the professions",
+              "Different expertise, shared habits",
+              "Security first",
+              "Safety first"
+            ],
+            "juist": 1,
+            "uitleg": "His own reading, not the authors’."
+          }
+        ]
+      },
+      {
         "type": "bronnen",
         "items": [
           {
@@ -565,6 +737,9 @@ LESSTOF['intro-to-safety-security/h9'] = [
           },
           {
             "apa": "Pettersen, K. A., & Bjørnskau, T. (2015). Organizational contradictions between safety and security. Safety Science, 71, 167-177."
+          },
+          {
+            "apa": "Corr, J. (2026). Resilience in safety & security [Lecture slides, session 6]. Introduction to Safety & Security, SSMS, The Hague University of Applied Sciences."
           }
         ]
       },

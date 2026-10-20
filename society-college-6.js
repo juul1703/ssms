@@ -6,6 +6,8 @@
 
    Nieuw in v120, uit de literatuur. Met In plain words, tijdnood-blok
    en hover-begrippen. Slides volgen na het college.
+
+   v133: lecture 6 en aantekeningen verwerkt (Dunbar, social capital, abuse of power), Quick recap-tab, quiz over het college.
    ============================================================ */
 
 LESSTOF['society-politics/college-6'] = [
@@ -29,7 +31,7 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Macionis & Plummer, chapter 6: Groups, organisations and the rise of the network society** (the whole chapter; programme session 6, \"Stratification 1\"). Lecture 5 confirmed this as the next topic. After the lecture, the slides are added here.\n\n**Also due for this session:** the lecturer's assignment from lecture 5: **be deviant in appearance** and observe people's reactions (Society session 5, Applying it)."
+        "tekst": "Read: **Macionis & Plummer, chapter 6: Groups, organisations and the rise of the network society** (the whole chapter; programme session 6, \"Stratification 1\"). Lecture 5 confirmed this as the next topic. Since v133 the slides of lecture 6 and your notes are added in From the lecture boxes, and there is a Quick recap tab.\n\n**Also due for this session:** the lecturer's assignment from lecture 5: **be deviant in appearance** and observe people's reactions (Society session 5, Applying it)."
       },
       {
         "type": "slimmer",
@@ -61,6 +63,10 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nThe story of McDonald's shows how life has changed: from small groups where everyone knows each other, to big organisations that run by rules, and now to networks where we stay in touch with many people far away through phones and the internet."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe lecture (outline: arise deviants!, review, groups, organisations, bureaucracy, McDonaldisation, [[social networks|Social network]] and the [[network society|Network society]]) opens with the review of session 5 and the **\"be deviant in appearance\"** assignment, plus a video (https://www.youtube.com/watch?v=-KkLu5zFJlI). Its guiding questions: **how do groups influence our behaviour, and how is social life changing?**"
       },
       {
         "type": "tekst",
@@ -109,6 +115,10 @@ LESSTOF['society-politics/college-6'] = [
         "tekst": "**In plain words**\n\nA primary group is a small, warm group like your family or close friends, where people care about you for who you are. A secondary group is bigger and more businesslike, like colleagues or classmates, where people are together to get something done."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide uses the book's definitions word for word: a **primary group** is a small group with personal, enduring relationships; a **secondary group** is a large and impersonal group pursuing a specific interest or activity."
+      },
+      {
         "type": "tekst",
         "titel": "3. Group conformity: Asch, Milgram and Zimbardo",
         "toetsstof": true,
@@ -117,6 +127,10 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nPeople tend to go along with the group, even when the group is clearly wrong. In famous experiments, many people gave what they thought were dangerous electric shocks just because an authority told them to, and students playing guards in a fake prison quickly became cruel. The lesson: the situation can make ordinary people do bad things."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide sums the experiments up in one line: **the power of group pressure to shape behaviour.** (The names Asch, Milgram and Zimbardo are not on the slide, but they are the experiments meant.)"
       },
       {
         "type": "tekst",
@@ -139,6 +153,10 @@ LESSTOF['society-politics/college-6'] = [
         "tekst": "**In plain words**\n\nThe more people in a group, the more possible relationships, and the less personal it gets. A couple is intense but fragile; with three, someone can mediate, or be left out. Big groups mix less with outsiders; diverse groups, equal groups and groups that share spaces mix more."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Group size** in your notes: a **dyad** \"needs to sustain\" (it collapses if one member leaves); a **triad** is more stable.\n\n**New in the lecture, not in the book: Dunbar's number.** The typical number of people we can maintain stable relationships with is about **150** (the slide gives a range of **100 to 250**). Your notes show the layers of Dunbar's circles: **5, 15, 35 (Dunbar: about 50), 150, 500 and 1,500**, getting looser as they get bigger. The idea comes from the anthropologist **Robin Dunbar**: our brains can only keep track of a limited number of relationships.\n\n**Group dynamics:** social diversity affects groups in four ways (Blau): large groups turn inwards, heterogeneous groups turn outwards, **social parity** (gelijkheid) promotes contact, and physical boundaries foster social boundaries."
+      },
+      {
         "type": "tekst",
         "titel": "6. Formal organisations",
         "toetsstof": true,
@@ -147,6 +165,10 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nFormal organisations are big groups set up to do a job efficiently. People join them for money (a company), because they believe in the cause (a charity or party), or because they are forced to (a prison)."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nEtzioni's three types as on the slide: **utilitarian** (provides material rewards), **normative** or voluntary (pursuing worthwhile goals) and **coercive** or involuntary (a form of punishment or treatment)."
       },
       {
         "type": "tekst",
@@ -231,6 +253,10 @@ LESSTOF['society-politics/college-6'] = [
         "tekst": "**In plain words**\n\nIn practice people bend the rules, gossip and protect each other. Bureaucracies also have big problems: people feel like a number, rules become more important than the goal, organisations refuse to die, and a few leaders grab power. In places like prisons, the organisation controls your whole life. And jokingly: work takes as long as you have, and people get promoted until they are bad at their job."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide lists **four problems of bureaucracy** with a slightly different fourth one than the book:\n1. **Bureaucratic alienation**: its dehumanising potential.\n2. **Bureaucratic inefficiency and ritualism**: a preoccupation with rules.\n3. **Bureaucratic inertia**: the tendency to perpetuate itself.\n4. **[[Bureaucratic abuse of power]]**: self-interest, and being above accountability. (The book calls this **oligarchy**, Michels's iron law. Learn both names.)\n\n**[[Humanising bureaucracy]]** (Kanter): a more democratic atmosphere through **social inclusiveness**, **sharing responsibilities** and **expanding opportunities for advancement**."
+      },
+      {
         "type": "tekst",
         "titel": "9. McDonaldisation: Weber revisited",
         "toetsstof": true,
@@ -239,6 +265,10 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nRitzer says more and more of life works like McDonald's: fast, measured, the same everywhere, and run by machines instead of people. That is efficient, but it can take away creativity and humanity, and in the end the system may control us instead of the other way round."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nRitzer's four principles, as the slide words them: **efficiency** (minimising time), **calculability** (quantifiable and deliberately planned), **predictability** (uniformity and standardisation) and **control** (automation)."
       },
       {
         "type": "tekst",
@@ -263,6 +293,10 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nA network is a loose web of people you are connected to, near and far. Even people you hardly know (weak ties) can help you, for example to find a job. Mobile phones mean we are always reachable, which changes how we behave in public and private."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\nThe slide adds one term: **[[social capital|Social capital]]**, the connections among individuals over time that create social bonds. And: in the 21st century, **networking replaces older patterns** of group life and communication. The most extensive networks belong to people who are **young, educated and urban**. Mobile phones shift patterns of contact: the **split between home and street breaks down**, and calls are **intrusive**.\n\n**Next meeting:** read **chapter 8, Social divisions and social stratification**; and the **Wheel of Justice bike tour** on Sunday at 9 AM from Den Haag Centraal."
       },
       {
         "type": "tekst",
@@ -475,8 +509,83 @@ LESSTOF['society-politics/college-6'] = [
           {
             "begrip": "Castells: five features of information technology (list)",
             "definitie": "1. Information as raw material. 2. Pervasiveness. 3. Network logic. 4. Flexibility. 5. Convergence of technologies."
+          },
+          {
+            "begrip": "Dunbar’s number",
+            "definitie": "About 150 (range 100-250): the number of stable relationships a person can maintain, in layers of roughly 5, 15, 50, 150, 500 and 1,500 (Robin Dunbar; from the lecture)."
+          },
+          {
+            "begrip": "Social capital",
+            "definitie": "The connections among individuals over time that create social bonds (lecture 6)."
+          },
+          {
+            "begrip": "Bureaucratic abuse of power",
+            "definitie": "The lecture’s fourth problem of bureaucracy: self-interest and being above accountability; the book calls it oligarchy."
+          },
+          {
+            "begrip": "Four problems of bureaucracy, lecture version (list)",
+            "definitie": "1. Alienation. 2. Inefficiency and ritualism. 3. Inertia. 4. Abuse of power (the book: oligarchy)."
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nThe whole session as one easy story: from your family group chat to McDonald's to your phone. Same content as the Core material, just in normal-people language."
+      },
+      {
+        "type": "tekst",
+        "titel": "The vibe of this session",
+        "tekst": "The big question: **how do groups shape us, and how is social life changing?** The story goes from **small groups** (family, friends), to **big organisations** that run on rules (companies, governments, McDonald's), to **networks** where you're connected to loads of people you might never meet in person. Basically: from the village, to the office, to your phone."
+      },
+      {
+        "type": "tekst",
+        "titel": "Groups: your people versus your task people",
+        "tekst": "A **social group** is two or more people who identify with and interact with each other: there's a \"we\".\n\n**Primary group**: small, personal, long-term. Your family, your best friends. They care about *you*, not about what you can do for them. You can just be yourself.\n\n**Secondary group**: bigger, more businesslike, often short-term. Your project group, your colleagues, a course. You're there for a shared task. \"How are you?\" is small talk, not a real question.\n\nReal groups sit somewhere in between: your project group can turn into real friends."
+      },
+      {
+        "type": "tekst",
+        "titel": "Peer pressure is real (the experiments)",
+        "tekst": "Three famous experiments show how strong group pressure is:\n\n- **Asch**: a \"vision test\" with lines. Everyone else (secretly in on it) gave the wrong answer, and about **one in three** real participants went along with the group.\n- **Milgram**: people were told by an authority figure to give electric shocks (fake, but they didn't know). Almost **two-thirds** went all the way to the maximum 450 volts.\n- **Zimbardo**: students played guards and prisoners in a fake prison. The guards got so cruel that it had to be stopped early.\n\nLesson: **the situation can make normal people do bad things.** Heads up: Milgram and especially Zimbardo get a lot of criticism today for how they were done.\n\n**Reference group**: the group you compare yourself to. Stouffer's soldiers felt worse about their chances when lots of people around them got promoted. It's not how you're doing, it's how you're doing *compared to others*."
+      },
+      {
+        "type": "tekst",
+        "titel": "Size matters: dyads, triads and Dunbar",
+        "tekst": "**Dyad** (two people): super intense but fragile. If one person leaves, it's over.\n**Triad** (three people): more stable, because the third can mediate. But also: \"two's company, three's a crowd\", and two can team up against one.\n\nThe more people, the more relationships: with 6 people there are already **15** connections.\n\n**Dunbar's number** (from the lecture): you can only keep about **150** real relationships (somewhere between 100 and 250). They come in circles: about 5 super close people, then 15, then about 50, then 150, and looser circles of 500 and 1,500.\n\n**Blau's four rules** for how groups mix: big groups stick to themselves, diverse groups reach out more, groups that are roughly equal mix more easily, and physical separation (different buildings, different canteens) creates social separation."
+      },
+      {
+        "type": "tekst",
+        "titel": "Organisations: why you’re in them",
+        "tekst": "A **formal organisation** is a big secondary group set up to get stuff done efficiently. Etzioni says people join for three reasons:\n\n- **Utilitarian**: for money. A job.\n- **Normative**: because you believe in the goal. A charity, a political party, a club.\n- **Coercive**: you're forced. A prison, a closed psychiatric ward.\n\nSame place, different type depending on who you are: a prison is coercive for an inmate but utilitarian for the guard."
+      },
+      {
+        "type": "tekst",
+        "titel": "Bureaucracy: the good, the bad, the Holocaust",
+        "tekst": "**Weber's bureaucracy** is the rulebook way of organising, with six features: everyone has a specialised task, there's a clear chain of command, everything follows written rules, you're hired for your skills, everyone gets treated the same (impersonal), and everything is written down.\n\nIt's efficient, but it has problems:\n1. **Alienation**: you feel like a number, not a person.\n2. **Ritualism**: following the rules becomes more important than the actual goal (red tape).\n3. **Inertia**: organisations refuse to die and invent new goals to keep existing.\n4. **Abuse of power / oligarchy**: a small group at the top takes over and avoids accountability (Michels's iron law).\n\nThe dark side, taken to the extreme: **Bauman** shows how bureaucracy made the **Holocaust** possible, because everyone only did their small part of the job and nobody felt responsible.\n\n**Total institutions** (Goffman): places that control your whole life, like prisons. And two joke-but-true laws: **Parkinson's law** (work takes as long as the time you have) and the **Peter principle** (people get promoted until they're bad at their job).\n\nThe fix: **humanising bureaucracy** (Kanter): include everyone, share responsibility, give people chances to grow."
+      },
+      {
+        "type": "tekst",
+        "titel": "McDonaldisation: everything is fast food now",
+        "tekst": "**Ritzer**: the principles of McDonald's are taking over everything, from universities to holidays. Four principles:\n- **Efficiency**: as fast as possible.\n- **Calculability**: everything measured and counted.\n- **Predictability**: the same everywhere.\n- **Control**: machines instead of people.\n\nSounds handy, but the catch is the **irrationality of rationality**: the system becomes dehumanising, and in the end it controls us instead of the other way around."
+      },
+      {
+        "type": "tekst",
+        "titel": "New ways of organising",
+        "tekst": "Organisations try to be less rigid: **self-managed teams**, **humanising bureaucracy** (Kanter), the **Japanese model** where the company is almost like a family (Ouchi), and the flexible **postmodern firm** (Clegg). At the same time the **audit culture** (measuring and checking everything) creates a whole new kind of bureaucracy."
+      },
+      {
+        "type": "tekst",
+        "titel": "Networks: the phone era",
+        "tekst": "A **social network** is a loose web of people you're connected to, without clear borders. In the 21st century, **networking is replacing the old ways** of group life.\n\n- **Weak ties** (Granovetter): people you barely know can be super useful, for example for finding a job. Who you know matters as much as what you know.\n- **Social capital** (from the lecture): the connections you build over time that create bonds.\n- The biggest networks belong to people who are **young, educated and live in cities**.\n- **Mobile phones**: you're always reachable (**perpetual contact**), the line between home and street disappears, and calls can be intrusive.\n\n**Castells' network society**: computers and the internet create a world of **networks and flows** of information, money and people. Power moves away from the state into those networks."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**If you only remember 7 things**\n\n1. Primary group = personal and lasting; secondary group = businesslike and task-focused.\n2. Asch, Milgram, Zimbardo: group pressure and authority can make normal people go along with wrong things.\n3. Dyad is intense but fragile, triad is more stable; Dunbar's number is about 150.\n4. Etzioni: utilitarian (money), normative (belief), coercive (forced).\n5. Weber's bureaucracy has six features and four problems: alienation, ritualism, inertia, abuse of power (oligarchy).\n6. McDonaldisation (Ritzer): efficiency, calculability, predictability, control.\n7. Networks, weak ties and social capital; Castells' network society."
       }
     ]
   },
@@ -690,6 +799,67 @@ LESSTOF['society-politics/college-6'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Five questions on lecture 6",
+        "vragen": [
+          {
+            "vraag": "According to the lecture, Dunbar’s number is about:",
+            "opties": [
+              "15",
+              "50",
+              "150",
+              "1,500"
+            ],
+            "juist": 2,
+            "uitleg": "About 150, with a range of 100-250 stable relationships."
+          },
+          {
+            "vraag": "Which is the lecture’s fourth problem of bureaucracy?",
+            "opties": [
+              "Bureaucratic abuse of power",
+              "Bureaucratic growth",
+              "Bureaucratic democracy",
+              "Bureaucratic networking"
+            ],
+            "juist": 0,
+            "uitleg": "Self-interest and being above accountability; the book calls it oligarchy."
+          },
+          {
+            "vraag": "Social capital is:",
+            "opties": [
+              "Money invested in a company",
+              "Connections among individuals over time that create social bonds",
+              "The capital city of a network",
+              "A coercive organisation"
+            ],
+            "juist": 1,
+            "uitleg": "From the lecture’s slide on social networks."
+          },
+          {
+            "vraag": "\"Social parity promotes contact\" belongs to:",
+            "opties": [
+              "Weber’s bureaucracy",
+              "Blau’s four ways social diversity affects groups",
+              "Ritzer’s McDonaldisation",
+              "Etzioni’s types"
+            ],
+            "juist": 1,
+            "uitleg": "Parity means equality (gelijkheid)."
+          },
+          {
+            "vraag": "What should you read for the next session?",
+            "opties": [
+              "Chapter 5",
+              "Chapter 8: social divisions and social stratification",
+              "Chapter 17",
+              "Chapter 23"
+            ],
+            "juist": 1,
+            "uitleg": "Plus the Wheel of Justice bike tour on Sunday."
+          }
+        ]
+      },
+      {
         "type": "bronnen",
         "items": [
           {
@@ -703,6 +873,9 @@ LESSTOF['society-politics/college-6'] = [
           },
           {
             "apa": "Granovetter, M. (1973). The strength of weak ties. American Journal of Sociology, 78(6), 1360-1380."
+          },
+          {
+            "apa": "Society & Politics (2026). Lecture 6: Groups, organisations and rise of network society [Lecture slides]. The Hague University of Applied Sciences."
           }
         ]
       }

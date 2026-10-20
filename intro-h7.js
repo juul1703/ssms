@@ -9,6 +9,8 @@
 
    v118: op het niveau van de nieuwste lessen gebracht: tijdnood-blok,
    "In plain words" per kopje en hover-begrippen.
+
+   v133: lecture 6 (deel 1) en aantekeningen verwerkt; Quick recap-tab voor H7.
    ============================================================ */
 
 LESSTOF['intro-to-safety-security/h7'] = [
@@ -68,6 +70,10 @@ LESSTOF['intro-to-safety-security/h7'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nSafety and security want the same thing: keeping people well by managing risks. But the people who do the work learn different things and stand in a different place in society. So the goal is shared, the job is not."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Lecture 6: Resilience in Safety & Security** (Jonathan Corr), based on chapters 7 and 9. The big question: **can the same approach make us resilient against accidents and against attackers?** Four parts: two worlds, one goal (ch. 7); resilience in HROs (ch. 9); when the enemy thinks back (ch. 9); and the Delta Water Works activity.\n\n**The opening poll: open or locked?** (1) a nightclub fire exit: locked against gatecrashers and theft, or unlocked so people can escape a fire? (2) incident reports: share them with all staff so everyone learns, or restrict them so attackers cannot learn? (3) remote access: let engineers monitor a water plant from home for faster fixes, or keep it offline so there are fewer ways in? No right answer: notice that **safety pulls towards open, security towards closed**.\n\n**Same goal, different starting points**, as in your notes: the shared goal is **social wellness by managing foreseeable risks**. **Safety** looks at **[[hazards|Hazard]]**, typical cause **accidents**, typical harm **injury and ill health**, home turf **the workplace (OHS)**. **Security** looks at **[[threats|Threat]]**, typical cause **malicious intent**, typical harm **crime and its effects**, home turf **corporate to national security**. Both apply the same risk-management standard (**[[ISO 31000:2018]]**), but in different ways."
       },
       {
         "type": "tekst",
@@ -390,6 +396,10 @@ LESSTOF['intro-to-safety-security/h7'] = [
         "tekst": "**In plain words**\n\nBoth jobs use risk management, controls, management and professional practice. But safety deals with hazards and accidents, security with threats and crime; they use different technologies and different theories, and the law treats them differently."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Hazard versus threat**, the definitions from the slides and your notes:\n**Hazard**: something that can expose someone to injury or loss, with **no intent** behind it (a wet floor, metal fatigue, a storm): safety.\n**Threat**: the **intent and capability of an adversary** to cause harm (a phishing email, a saboteur, an arsonist): security. Security's objective is **to minimise the risk of malicious acts**.\n\nThe class exercise: a wet floor (hazard), a phishing email (threat), metal fatigue in a bridge cable (hazard), a former employee with a working keycard (threat), a storm flooding the server room (hazard), a fire whose cause is unknown (can't tell yet).\n\n**Why intent changes the controls.** Safety controls are **people-focused**: human error, compliance and procedures, plus process and workplace design (training, procedures, workplace design). Security controls follow **deter, delay, detect, respond**: harden to deter and delay, use technology to detect, send people to respond. \"**A hazard doesn't read your safety plan. An adversary might.**\"\n\n**Two professions, two toolkits.** OHS: a clear context (the workplace), a fairly well-defined body of knowledge, university accreditation, explicit safety law. Corporate security: multidimensional (national to community security), fragmented knowledge, little professional regulation, hard to define without context. The study behind ch. 7 looked at **104 security courses**, found **13 knowledge categories** and still no firm consensus; the evidence is mainly **Australian**."
+      },
+      {
         "type": "tekst",
         "titel": "7.7 The divergence",
         "toetsstof": true,
@@ -416,6 +426,10 @@ LESSTOF['intro-to-safety-security/h7'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nSafety and security look alike from far away, but up close they are different jobs with different knowledge. So it makes sense to keep the professions separate, even if they work together."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n**Chapter 7's verdict: alike only in the abstract**, the slide your notes copy:\n**Shared**: risk management (ISO 31000); generic professional skills; control ideas (design, physical, personnel, procedures); **[[life safety|Life safety]] comes first**.\n**Different**: hazards versus threats; accidents versus crime; law and regulation; underlying theories.\n**The claim**: merging them would **blur both**; they will **keep diverging** as each seeks professional standing."
       },
       {
         "type": "begrippen",
@@ -488,8 +502,49 @@ LESSTOF['intro-to-safety-security/h7'] = [
           {
             "begrip": "Security continuum",
             "definitie": "The range from national security to community security on which security sits, which makes security undefinable without explicit context."
+          },
+          {
+            "begrip": "Hazard (lecture)",
+            "definitie": "Something that can expose someone to injury or loss, with no intent behind it."
+          },
+          {
+            "begrip": "Threat (lecture)",
+            "definitie": "The intent and capability of an adversary to cause harm."
+          },
+          {
+            "begrip": "Deter, delay, detect, respond (list)",
+            "definitie": "The security control logic: 1. Deter and 2. delay by hardening. 3. Detect with technology. 4. Respond with people."
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "overview",
+    "titel": "Quick recap",
+    "blokken": [
+      {
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nChapter 7 and part 1 of lecture 6 in easy language. The chapter 9 part of the session has its own Quick recap right below (when you open session 6)."
+      },
+      {
+        "type": "tekst",
+        "titel": "Chapter 7 in one story: same goal, different jobs",
+        "tekst": "Safety and security want the **same thing**: people being OK, by managing risks you can see coming. But they start from different places:\n\n- **Safety** is about **hazards**: stuff that can hurt you **without anyone wanting it**. A wet floor, a rusty cable, a storm. Think: accidents at work.\n- **Security** is about **threats**: someone who **wants to and can** hurt you. A hacker, a saboteur, an arsonist. Think: crime.\n\nThat one difference, **intent**, changes everything. A wet floor doesn't adapt to your safety plan. An attacker reads your plan and goes around it. So safety mostly uses **people stuff** (training, procedures, a smart workplace design), and security uses **deter, delay, detect, respond** (locks, cameras, guards)."
+      },
+      {
+        "type": "tekst",
+        "titel": "Two professions, not one",
+        "tekst": "Brooks and Coole compared what safety people and security people actually learn. Result:\n- **Safety** (workplace health and safety) is a pretty clear profession: clear workplace focus, clear knowledge, university courses, and actual **laws**.\n- **Security** is messier: it goes from company security to national security, the knowledge is all over the place (104 courses, 13 knowledge areas, still no agreement), and there's little regulation.\n\n**Their verdict:** the two only look alike **from far away**. Both use risk management (ISO 31000), both put **life safety first**. But up close they differ in hazards versus threats, accidents versus crime, laws and theories. **Merging them would blur both**, and they'll keep growing apart as each tries to become its own respected profession."
+      },
+      {
+        "type": "tekst",
+        "titel": "The open-or-locked game",
+        "tekst": "The lecture started with a poll that sums it all up: a fire exit, incident reports, remote access to a water plant. **Safety wants it open** (escape, learn, fix fast). **Security wants it locked** (keep out, keep secret, fewer ways in). There's no right answer, just a trade-off you have to make on purpose."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**Chapter 7 in 4 lines**\n\n1. Hazard = no intent (safety); threat = intent plus capability (security).\n2. Intent changes the controls: people-focused versus deter, delay, detect, respond.\n3. Shared: ISO 31000, professional skills, control ideas, life safety first.\n4. Brooks and Coole: two professions that will keep diverging."
       }
     ]
   },

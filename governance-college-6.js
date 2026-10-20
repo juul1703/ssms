@@ -360,6 +360,55 @@ LESSTOF['governance-policy/college-6'] = [
     ]
   },
   {
+    "id": "recap",
+    "titel": "To remember",
+    "blokken": [
+      {
+        "type": "tabel",
+        "titel": "Two texts on one page",
+        "kop": [
+          "",
+          "Huberts, Kaptein and De Koning (2022)",
+          "Maia (2020)"
+        ],
+        "rijen": [
+          [
+            "Topic",
+            "Integrity scandals of Dutch politicians",
+            "Russia’s vetoes in the UN Security Council"
+          ],
+          [
+            "Key concepts",
+            "Integrity, ten violation types, scandal (Thompson), PI-Index",
+            "Global governance, global governors, five bases of authority, veto, R2P"
+          ],
+          [
+            "Key findings",
+            "355 scandals 2013-2019, 79% local, VVD most, private misconduct 30%",
+            "After Libya (2011), Russia vetoes Syria resolutions: a freezing of global governance"
+          ],
+          [
+            "Link to trust",
+            "Scandals erode trust in politicians and institutions",
+            "The Council’s authority depends on deference and effective action"
+          ]
+        ]
+      },
+      {
+        "type": "hardop",
+        "titel": "Say it out loud",
+        "tekst": "Can you do these without looking?",
+        "stappen": [
+          "Name the four views of integrity and the ten types of violations.",
+          "Give Thompson’s three features of a scandal.",
+          "Give three PI-Index findings.",
+          "Name the five bases of authority and which apply to the Security Council.",
+          "Explain why Russia abstained on Libya but vetoed on Syria."
+        ]
+      }
+    ]
+  },
+  {
     "id": "overview",
     "titel": "Quick recap",
     "blokken": [
@@ -433,55 +482,6 @@ LESSTOF['governance-policy/college-6'] = [
       {
         "type": "uitleg",
         "tekst": "**If you only remember 7 things**\n\n1. Integrity = acting in line with the moral values and rules your community cares about (Huberts). A mistake is not automatically a violation.\n2. Corruption = the abuse of entrusted power for private gain.\n3. A scandal needs a broken norm, public call-out, and reputational damage (Thompson).\n4. Dutch PI-Index 2013 to 2019: 355 scandals, 79% local, VVD most, private misconduct the biggest category.\n5. Authority = the ability to make others defer to you; five sources: institutional, delegated, expert, principled, capacity-based.\n6. The veto: one \"no\" from the P5 blocks everything; an abstention does not.\n7. Libya (R2P, regime change) led Russia to block the Council on Syria: the \"freezing\" of global governance."
-      }
-    ]
-  },
-  {
-    "id": "recap",
-    "titel": "To remember",
-    "blokken": [
-      {
-        "type": "tabel",
-        "titel": "Two texts on one page",
-        "kop": [
-          "",
-          "Huberts, Kaptein and De Koning (2022)",
-          "Maia (2020)"
-        ],
-        "rijen": [
-          [
-            "Topic",
-            "Integrity scandals of Dutch politicians",
-            "Russia’s vetoes in the UN Security Council"
-          ],
-          [
-            "Key concepts",
-            "Integrity, ten violation types, scandal (Thompson), PI-Index",
-            "Global governance, global governors, five bases of authority, veto, R2P"
-          ],
-          [
-            "Key findings",
-            "355 scandals 2013-2019, 79% local, VVD most, private misconduct 30%",
-            "After Libya (2011), Russia vetoes Syria resolutions: a freezing of global governance"
-          ],
-          [
-            "Link to trust",
-            "Scandals erode trust in politicians and institutions",
-            "The Council’s authority depends on deference and effective action"
-          ]
-        ]
-      },
-      {
-        "type": "hardop",
-        "titel": "Say it out loud",
-        "tekst": "Can you do these without looking?",
-        "stappen": [
-          "Name the four views of integrity and the ten types of violations.",
-          "Give Thompson’s three features of a scandal.",
-          "Give three PI-Index findings.",
-          "Name the five bases of authority and which apply to the Security Council.",
-          "Explain why Russia abstained on Libya but vetoed on Syria."
-        ]
       }
     ]
   },

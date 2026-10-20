@@ -10,6 +10,7 @@
    v109: hele H5 in de recap van college-4.
    v117: lecture 5 in de recap van college-5.
    v120: nieuwe recap voor college-6 (H6).
+   v133: lecture 6 in de recap van college-6.
    ============================================================ */
 
 voegRecapToe("society-politics/college-2", {
@@ -691,7 +692,12 @@ voegRecapToe("society-politics/college-6", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "Chapter 6 on one page. After the lecture, What the lecturer emphasised is added here."
+      "tekst": "Chapter 6 on one page. Lecture 6 is now included."
+    },
+    {
+      "type": "uitleg",
+      "titel": "What the lecturer emphasised",
+      "tekst": "**Groups**: primary and secondary; group pressure (the experiments); reference groups; **dyad** (needs to sustain) and **triad** (more stable); **Dunbar's number** (about 150, range 100-250); Blau's four effects of social diversity.\n\n**Organisations**: utilitarian, normative, coercive. **Bureaucracy**: six elements; four problems (alienation, inefficiency and ritualism, inertia, **abuse of power**); humanising bureaucracy.\n\n**McDonaldisation** (Ritzer): efficiency, calculability, predictability, control.\n\n**Networks**: social networks replace older patterns of group life; **social capital**; young, educated urbanites have the most extensive networks; mobile phones break down the home-street split.\n\n**Practical:** next session is **chapter 8** (social divisions and stratification). The lecture also reviewed session 5 with a Wooclap quiz: it is in Check yourself of session 5."
     },
     {
       "type": "tabel",
