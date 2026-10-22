@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v126**.
+Stand: 29 september 2026, service worker **v135**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -48,6 +48,7 @@ bestanden.
 | `governance-college-4.js` | Governance sessie 4, McCormick H13 (kern) en H15 (kern2), plus lecture 4 (v110) |
 | `governance-college-5.js` | Governance sessie 5, Levi-Faur (2012), uit de literatuur; nieuw in v114, collegestof volgt |
 | `governance-college-6.js` | Governance sessie 6: Huberts e.a. 2022 (programma, kern) en Maia 2020 over de Veiligheidsraad (op Brightspace aangekondigd, kern2); nieuw in v119 |
+| `governance-college-7.js` | Governance sessie 7, McCormick H16 (interest groups) en H17 (public policy), uit de literatuur volgens de standaard; nieuw in v135 |
 | `society-college-2.js` | Society & Politics sessie 2, Macionis H7 (micro-sociologie) plus Lecture 2 (v100) |
 | `society-college-3.js` | Society & Politics sessie 3, Macionis H11 (racism, ethnicities and migration) plus Lecture 3 (v100) |
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
@@ -105,6 +106,7 @@ governance-college-3.js
 governance-college-4.js
 governance-college-5.js
 governance-college-6.js
+governance-college-7.js
 ps-college-1.js
 ps-college-2.js
 ps-college-3.js
@@ -571,7 +573,7 @@ taal, uitgebreider dan To remember, afgesloten met "If you only remember ...".
 Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
 in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
-die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5 en 6, Society 6,
+die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6,
 Intro 6 (H7 en H9), PS 6.
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
