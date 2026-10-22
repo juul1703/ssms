@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v137**.
+Stand: 23 oktober 2026, service worker **v138**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -409,7 +409,8 @@ kloppen. Spaties in bestandsnamen hebben al één keer een 404 opgeleverd.
 
 - Levering altijd als zip, met **alleen de gewijzigde en nieuwe bestanden**.
   Ze voegt ze toe aan de bestaande repo.
-- **Noem de zip naar de aanpassing**, niet naar het versienummer.
+- **Noem de zip naar versie en aanpassing**, bijvoorbeeld
+  `v138-mid-term-en-end-term-op-vakpagina.zip` (Julie, 23 oktober).
 - Zeg expliciet welke bestanden erin zitten.
 - Uitleg in gewone taal, geen jargon zonder toelichting.
 - Zeg meteen als iets volgens jou niet klopt, in plaats van het gewoon uit te
@@ -593,6 +594,28 @@ springt naar de treffer zelf en laat die ongeveer 5 seconden oplichten
 hoofdstuk dus niet werd samengevoegd. Daardoor was DRM H4 (Verhoeven) nergens
 zichtbaar. Nu alleen 'gebruikt' als het echt is samengevoegd; H4 staat onder
 Boek op de vakpagina van DRM.
+
+## 9h. Mid-term en end-term op de vakpagina (v138)
+
+Julie koos optie B: op de vakpagina staan de sessies onder Colleges per toets
+onder een eigen kopje. Configuratie in `TOETSBLOKKEN` bovenaan `vakken.js`
+(globale variabele, buiten de IIFE), weergave in `toetsBlokkenHtml()` in
+`vak.js`, opmaak `.toetsblok` achteraan `styles.css`.
+
+- Intro, Governance, Society: Mid-term (sessie 1-8) en End-term (9-16).
+- DRM: CT1 (1-8), CT2 (9-11), CT3 (12-13), want de toets is cumulatief in drie delen.
+- PS: Mid-term (1-7, opdrachten week 10) en End-term (8-11, presentatie week 20).
+- FAW: één examen, dus geen blokken.
+
+Regel: het blok waarvan `einde` (de vrijdag van de toetsweek) nog niet voorbij
+is, is het huidige blok. Dat blok en alle eerdere staan open,
+latere blokken zijn ingeklapt. Geen labels als "nu" of "later" (Julie): de
+kopjes heten gewoon Mid-term en End-term (bij DRM CT1, CT2, CT3). Na de toetsweek schuift het
+vanzelf door, en omdat eerdere blokken open blijven, staat bij de end-term
+alles open. Zelf open- of dichtklappen wordt onthouden in localStorage
+(`ssms-toetsblok-<vak>-<blok>`), samen met het huidige blok; begint een nieuw
+blok, dan gelden de standaarden weer. Datums: Y1 manual, DRM manual, PS manual
+(week 10 = 9-13 nov 2026, week 15 = 14-18 dec, week 20 = 1-5 feb 2027).
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 

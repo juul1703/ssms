@@ -916,3 +916,14 @@ a.notitie:hover .titel{color:var(--accent);}
 mark.zoek-hl{background:var(--sage);color:var(--paper);border-radius:3px;padding:0 2px;transition:background-color 1.8s ease,color 1.8s ease;
   box-shadow:0 0 0 3px rgba(120,140,110,.35);}
 mark.zoek-hl.weg{background:transparent;color:inherit;box-shadow:none;}
+
+/* ---- toetsblokken op de vakpagina (v138) ---- */
+.toetsblok{margin:6px 0 10px;border:1px solid var(--line);border-radius:14px;background:var(--paper);}
+.bron-groep .toetsblok summary{padding:11px 14px;align-items:flex-start;}
+.toetsblok-kop{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;min-width:0;}
+.toetsblok-naam{font-family:var(--serif);font-size:15px;color:var(--ink);}
+.toetsblok[open] .toetsblok-naam{color:var(--accent);}
+  padding:2px 8px;border-radius:999px;background:var(--paper2);color:var(--muted);}
+.toetsblok-sub{flex-basis:100%;font-size:12px;color:var(--muted);line-height:1.4;}
+.toetsblok .bron-telling{padding-top:2px;}
+.toetsblok-inhoud{padding:0 14px 6px;border-top:1px solid var(--line);}

@@ -234,6 +234,77 @@
       (delen ? '<div class="man-delen"><span class="label">Per onderdeel</span>' + delen + '</div>' : '');
   }
 
+  /* ---------- toetsblokken (v138) ----------
+     De sessies onder Colleges staan per toets onder een eigen kopje
+     (TOETSBLOKKEN in vakken.js). Het huidige blok en alles daarvoor staat
+     open, wat nog komt is ingeklapt: zo houd je focus, en voor de end-term
+     blijft de mid-term-stof gewoon open staan. Klap je zelf iets open of
+     dicht, dan onthoudt de app dat, maar alleen tot het volgende blok
+     begint; dan gelden de standaarden weer. */
+  function blokkenVanVak(){
+    return (typeof TOETSBLOKKEN !== 'undefined' && TOETSBLOKKEN[vakParam]) || null;
+  }
+  function huidigBlok(blokken){
+    var vandaag = new Date(); vandaag.setHours(0,0,0,0);
+    for (var i = 0; i < blokken.length; i++) {
+      var einde = new Date(blokken[i].einde + 'T23:59:59');
+      if (vandaag <= einde) return i;
+    }
+    return blokken.length;   // alles geweest: alles open
+  }
+  function blokSleutel(b){ return 'ssms-toetsblok-' + vakParam + '-' + b.id; }
+  function blokOpen(b, i, nu, blokken){
+    var standaard = i <= nu;
+    try {
+      var ruw = JSON.parse(localStorage.getItem(blokSleutel(b)) || 'null');
+      var fase = nu < blokken.length ? blokken[nu].id : 'klaar';
+      if (ruw && ruw.fase === fase) return !!ruw.open;
+    } catch(e){}
+    return standaard;
+  }
+  function onthoudBlok(id, open){
+    var blokken = blokkenVanVak(); if (!blokken) return;
+    var b = blokken.filter(function(x){ return x.id === id; })[0]; if (!b) return;
+    var nu = huidigBlok(blokken);
+    var fase = nu < blokken.length ? blokken[nu].id : 'klaar';
+    try { localStorage.setItem(blokSleutel(b), JSON.stringify({ fase: fase, open: open })); } catch(e){}
+  }
+  function sessieNr(les){
+    var m = /^college-(\d+)$/.exec(les.id || '');
+    return m ? parseInt(m[1], 10) : null;
+  }
+  function toetsBlokkenHtml(items, rijenVan){
+    var blokken = blokkenVanVak();
+    if (!blokken) return rijenVan(items);
+    var nu = huidigBlok(blokken);
+    var gebruikt = {};
+    var html = blokken.map(function(b, i){
+      var eigen = items.filter(function(x){
+        var n = sessieNr(x.les);
+        return n !== null && n >= b.van && n <= b.tot;
+      });
+      eigen.forEach(function(x){ gebruikt[x.les.id] = true; });
+      if (!eigen.length) return '';
+      var afg = eigen.filter(function(x){ return isAf(vak, x.les); }).length;
+      return '<details class="toetsblok" data-toetsblok="' + esc(b.id) + '"' +
+        (blokOpen(b, i, nu, blokken) ? ' open' : '') + '>' +
+        '<summary><span class="toetsblok-kop"><span class="toetsblok-naam">' + esc(b.naam) + '</span>' +
+        '<span class="toetsblok-sub">Sessie ' + b.van + '-' + b.tot + ' \u00b7 ' + esc(b.toets) + '</span></span>' +
+        '<span class="bron-telling">' + afg + ' / ' + eigen.length + '</span></summary>' +
+        '<div class="toetsblok-inhoud">' + rijenVan(eigen) + '</div></details>';
+    }).join('');
+    /* Sessies die in geen blok vallen, blijven gewoon zichtbaar. */
+    var rest = items.filter(function(x){ return !gebruikt[x.les.id]; });
+    return html + (rest.length ? rijenVan(rest) : '');
+  }
+  /* 'toggle' bubbelt niet; daarom vangen we hem in de capture-fase. */
+  document.addEventListener('toggle', function(e){
+    var d = e.target;
+    if (d && d.matches && d.matches('details.toetsblok')) {
+      onthoudBlok(d.getAttribute('data-toetsblok'), d.open);
+    }
+  }, true);
+
   /* ---------- hoofdstukken ---------- */
   function toonHoofdstukken(){
     var el = document.getElementById('hoofdstukken');
@@ -255,7 +326,7 @@
 
     el.innerHTML = groepen.map(function(g, gi){
       var afg = g.items.filter(function(x){ return isAf(vak, x.les); }).length;
-      var rijen = g.items.map(function(x){
+      function rijenVan(items){ return items.map(function(x){
         var isafg = isAf(vak, x.les);
         var uit = typeof lesUitgewerkt === 'function' ? lesUitgewerkt(vak, x.les) : true;
         /* Het vinkje staat naast de link, niet erin. Binnen een link wint
@@ -269,7 +340,8 @@
           (uit ? '' : ' <span class="niet-uit">nog leeg</span>') +
           (x.les.voorbereiding ? '<span class="hfd-voor">' + esc(x.les.voorbereiding) + '</span>' : '') +
           '</a></div>';
-      }).join('');
+      }).join(''); }
+      var rijen = (g.bron === 'Colleges') ? toetsBlokkenHtml(g.items, rijenVan) : rijenVan(g.items);
       return '<details class="bron-groep"' + (gi === 0 ? ' open' : '') + '>' +
         '<summary><span class="bron-naam">' + esc(g.bron) + '</span>' +
         '<span class="bron-telling">' + afg + ' / ' + g.items.length + '</span></summary>' +

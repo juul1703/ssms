@@ -23,6 +23,39 @@
         H1 en H2 bij sessie 2 van Intro to Safety & Security.
    ============================================================ */
 
+/* ---------- toetsblokken (v138) ----------
+   Op de vakpagina staan de sessies onder een kopje per toets, bijvoorbeeld
+   Mid-term en End-term. Het blok waar je nu voor leert en alle blokken
+   daarvoor staan open; blokken die nog komen zijn ingeklapt. Dat schuift
+   vanzelf op zodra 'einde' (de vrijdag van de toetsweek) voorbij is.
+   Bronnen: Y1 Semester 1 Manual (Mid-Term Examination & POP Week na sessie 8,
+   PS na sessie 7), DRM course manual (CT1 week 10, CT2 week 15, CT3 week 20)
+   en de PS manual (week 10 = 9-13 november, week 20 = 1-5 februari).
+   FAW heeft één examen en dus geen blokken. */
+var TOETSBLOKKEN = {
+  'intro-to-safety-security': [
+    { id: 'mid', naam: 'Mid-term', van: 1, tot: 8,  toets: 'Mid-term exam, week 10 (9-13 nov)', einde: '2026-11-13' },
+    { id: 'end', naam: 'End-term', van: 9, tot: 16, toets: 'End-term exam, week 20 (1-5 feb)', einde: '2027-02-05' }
+  ],
+  'governance-policy': [
+    { id: 'mid', naam: 'Mid-term', van: 1, tot: 8,  toets: 'Mid-term exam, week 10 (9-13 nov)', einde: '2026-11-13' },
+    { id: 'end', naam: 'End-term', van: 9, tot: 16, toets: 'End-term exam, week 20 (1-5 feb)', einde: '2027-02-05' }
+  ],
+  'society-politics': [
+    { id: 'mid', naam: 'Mid-term', van: 1, tot: 8,  toets: 'Mid-term exam, week 10 (9-13 nov)', einde: '2026-11-13' },
+    { id: 'end', naam: 'End-term', van: 9, tot: 16, toets: 'End-term exam, week 20 (1-5 feb)', einde: '2027-02-05' }
+  ],
+  'demystifying-research-methods': [
+    { id: 'ct1', naam: 'CT1', van: 1,  tot: 8,  toets: 'CT1 (20%), week 10 (9 nov)', einde: '2026-11-13' },
+    { id: 'ct2', naam: 'CT2', van: 9,  tot: 11, toets: 'CT2 (50%), week 15 (dec)',   einde: '2026-12-18' },
+    { id: 'ct3', naam: 'CT3', van: 12, tot: 13, toets: 'CT3 (30%), week 20 (feb)',   einde: '2027-02-05' }
+  ],
+  'professional-skills': [
+    { id: 'mid', naam: 'Mid-term', van: 1, tot: 7,  toets: 'Mid-term assignments, week 10 (9-12 nov)', einde: '2026-11-13' },
+    { id: 'end', naam: 'End-term', van: 8, tot: 11, toets: 'End-term presentation, week 20 (1-3 feb)', einde: '2027-02-05' }
+  ]
+};
+
 (function(){
   if (typeof DATA === 'undefined' || typeof VAK_VOORBEREIDING === 'undefined') return;
 
