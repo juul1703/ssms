@@ -370,7 +370,7 @@
       top.map(function(t){
         var r = t.r;
         return '<button class="zoek-rij" data-ztab="' + r.tab + '" data-zstuk="' +
-          (r.stuk === null ? '' : r.stuk) + '">' +
+          (r.stuk === null ? '' : r.stuk) + '" data-zi="' + t.i + '">' +
           '<span class="zoek-plek">' + esc(r.tabTitel) + (r.kop ? ' \u00b7 ' + esc(r.kop) : '') + '</span>' +
           '<span class="zoek-frag">' + fragment(r.tekst, term) + '</span></button>';
       }).join('');
@@ -388,13 +388,28 @@
     vak_.hidden = !open;
     knop.setAttribute('aria-expanded', open ? 'true' : 'false');
     knop.classList.toggle('nu', open);
-    if (open) document.getElementById('zoekVeld').focus();
+    if (open) { plaatsZoekUit(); document.getElementById('zoekVeld').focus(); }
     else {
       document.getElementById('zoekVeld').value = '';
       var uit = document.getElementById('zoekUit');
       uit.hidden = true; uit.innerHTML = '';
     }
   }
+
+  /* v136: de resultaten hangen direct onder de zoekbalk (vast in beeld),
+     zodat je niet terug naar boven hoeft te scrollen. */
+  function plaatsZoekUit(){
+    var vak_ = document.getElementById('leszoek');
+    var top = document.querySelector('.les-top');
+    var wrap = document.querySelector('.wrap');
+    if (!vak_ || !top || vak_.hidden) return;
+    var rt = top.getBoundingClientRect(), rw = (wrap || top).getBoundingClientRect();
+    vak_.style.top = Math.max(0, rt.bottom) + 'px';
+    vak_.style.left = rw.left + 'px';
+    vak_.style.width = rw.width + 'px';
+  }
+  window.addEventListener('scroll', plaatsZoekUit, { passive: true });
+  window.addEventListener('resize', plaatsZoekUit);
 
   document.getElementById('zoekKnop').addEventListener('click', function(){
     zetZoekOpen(document.getElementById('leszoekVeld').hidden);
@@ -404,7 +419,7 @@
     if (e.key === 'Escape') zetZoekOpen(false);
   });
 
-  document.getElementById('zoekVeld').addEventListener('input', toonZoek);
+  document.getElementById('zoekVeld').addEventListener('input', function(){ toonZoek(); plaatsZoekUit(); });
   document.getElementById('zoekWis').addEventListener('click', function(){
     var veld = document.getElementById('zoekVeld');
     veld.value = '';
@@ -417,11 +432,62 @@
     if (!rij) return;
     var ti = +rij.getAttribute('data-ztab');
     var zs = rij.getAttribute('data-zstuk');
+    var term = (document.getElementById('zoekVeld').value || '').trim().toLowerCase();
+    var rij_ = index && index[+rij.getAttribute('data-zi')];
     if (zs !== '') zetKeuze(onderdelen[ti].id, +zs);
     naarTab(ti);
     zetZoekOpen(false);
-    document.getElementById('inhoud').scrollIntoView({ block: 'start' });
+    /* v136: spring naar de treffer zelf en laat hem even oplichten,
+       in plaats van naar het begin van het tabblad. */
+    if (!markeerTreffer(term, rij_ ? rij_.tekst : '')) {
+      document.getElementById('inhoud').scrollIntoView({ block: 'start' });
+    }
   });
+
+  function normTekst(t){ return (t || '').toLowerCase().replace(/[\s\u00a0]+/g, ' ').trim(); }
+
+  function markeerTreffer(term, bron){
+    if (!term) return false;
+    var inh = document.getElementById('inhoud');
+    if (!inh) return false;
+    /* een stukje rond de term uit de index, om de juiste plek te vinden
+       als de term vaker op de pagina staat */
+    var b = normTekst(bron), p = b.indexOf(term), stukje = '';
+    if (p >= 0) stukje = b.slice(Math.max(0, p - 18), p + term.length + 18).replace(/\s\u00b7\s/g, ' ');
+    var walker = document.createTreeWalker(inh, NodeFilter.SHOW_TEXT, null);
+    var kandidaten = [], n;
+    while ((n = walker.nextNode())) {
+      if (n.nodeValue && n.nodeValue.toLowerCase().indexOf(term) >= 0) kandidaten.push(n);
+    }
+    if (!kandidaten.length) return false;
+    function zichtbaar(node){ var el = node.parentElement; return !!(el && (el.offsetParent || el.getClientRects().length)); }
+    function blokVan(node){ var el = node.parentElement; return (el && el.closest('p, li, td, th, h2, h3, h4, blockquote, .blok, div')) || el; }
+    var keuze = null;
+    if (stukje) {
+      for (var i = 0; i < kandidaten.length && !keuze; i++) {
+        if (zichtbaar(kandidaten[i]) && normTekst(blokVan(kandidaten[i]).textContent).indexOf(stukje.slice(0, 30)) >= 0) keuze = kandidaten[i];
+      }
+    }
+    if (!keuze) for (var j = 0; j < kandidaten.length && !keuze; j++) if (zichtbaar(kandidaten[j])) keuze = kandidaten[j];
+    if (!keuze) return false;
+    var pos = keuze.nodeValue.toLowerCase().indexOf(term);
+    var rest = keuze.splitText(pos);
+    rest.splitText(term.length);
+    var mark = document.createElement('mark');
+    mark.className = 'zoek-hl';
+    rest.parentNode.replaceChild(mark, rest);
+    mark.appendChild(rest);
+    mark.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    setTimeout(function(){ mark.classList.add('weg'); }, 4500);
+    setTimeout(function(){
+      if (!mark.parentNode) return;
+      var ouder = mark.parentNode;
+      while (mark.firstChild) ouder.insertBefore(mark.firstChild, mark);
+      ouder.removeChild(mark);
+      ouder.normalize && ouder.normalize();
+    }, 6500);
+    return true;
+  }
 
   function naarTab(i){
     if (i < 0 || i >= onderdelen.length) return;

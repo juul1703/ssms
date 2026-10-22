@@ -164,8 +164,11 @@
         if (ids.length && !LESSTOF[vakId + '/college-' + n]) {
           var samen = voegSamen(vakId, ids, namen);
           if (samen) LESSTOF[vakId + '/college-' + n] = samen;
+          /* v136: alleen als 'gebruikt' markeren als het hoofdstuk echt in
+             deze sessie is samengevoegd. Had de sessie al een eigen les
+             (zoals DRM sessie 4), dan bleef een hoofdstuk anders onzichtbaar. */
+          ids.forEach(function(id){ gebruikt[id] = true; });
         }
-        ids.forEach(function(id){ gebruikt[id] = true; });
 
         return {
           id: 'college-' + n,

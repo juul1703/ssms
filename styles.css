@@ -908,3 +908,11 @@ a.notitie:hover .titel{color:var(--accent);}
 .begrip-pop .begrip-pop-def{font-family:var(--sans);font-size:13.5px;line-height:1.55;color:var(--ink);}
 .begrip-pop-hint{font-size:11px;color:var(--muted);}
 @media print{.begrip-pop{display:none!important;}.begrip-hover{border-bottom:none;background:none;}}
+
+/* v136: zoekresultaten vast onder de zoekbalk, en de treffer laten oplichten */
+.lespagina .leszoek{position:fixed;z-index:39;margin:0;padding:0 0 6px;max-height:min(65vh,520px);overflow:auto;
+  background:var(--paper);box-shadow:0 10px 24px rgba(0,0,0,.12);border-radius:0 0 12px 12px;}
+.lespagina .leszoek .leszoek-uit{margin-top:6px;background:var(--paper);}
+mark.zoek-hl{background:var(--sage);color:var(--paper);border-radius:3px;padding:0 2px;transition:background-color 1.8s ease,color 1.8s ease;
+  box-shadow:0 0 0 3px rgba(120,140,110,.35);}
+mark.zoek-hl.weg{background:transparent;color:inherit;box-shadow:none;}

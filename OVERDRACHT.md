@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v135**.
+Stand: 29 september 2026, service worker **v136**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -54,6 +54,7 @@ bestanden.
 | `society-college-4.js` | Society & Politics sessie 4, Macionis H5 (kern) en H16 sociale bewegingen (kern2), plus lecture 4 (v108) |
 | `society-college-5.js` | Society & Politics sessie 5, Macionis H17, plus lecture 5 (v117) |
 | `society-college-6.js` | Society & Politics sessie 6, Macionis H6 (groepen, organisaties, netwerksamenleving), uit de literatuur; nieuw in v120 |
+| `society-college-7.js` | Society sessie 7, Macionis H8 (social divisions and stratification), uit de literatuur volgens de standaard; nieuw in v136 |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -131,6 +132,7 @@ society-college-3.js
 society-college-4.js
 society-college-5.js
 society-college-6.js
+society-college-7.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -575,6 +577,20 @@ in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
 die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6,
 Intro 6 (H7 en H9), PS 6.
+
+## 9g. Zoeken in een les en verborgen hoofdstukken (v136)
+
+**Zoeken:** de resultaten hangen nu vast onder de zoekbalk (`#leszoek` is
+`position:fixed`, geplaatst door `plaatsZoekUit()` in `les.js`), dus je hoeft
+niet terug te scrollen. Een klik op een treffer opent het tabblad en kopje,
+springt naar de treffer zelf en laat die ongeveer 5 seconden oplichten
+(`markeerTreffer()`, CSS `mark.zoek-hl`).
+
+**Hoofdstukken:** in `vakken.js` werd een hoofdstuk uit `lesIds` als
+'gebruikt' gemarkeerd, ook als de sessie al een eigen les had en het
+hoofdstuk dus niet werd samengevoegd. Daardoor was DRM H4 (Verhoeven) nergens
+zichtbaar. Nu alleen 'gebruikt' als het echt is samengevoegd; H4 staat onder
+Boek op de vakpagina van DRM.
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 
