@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 29 september 2026, service worker **v136**.
+Stand: 23 oktober 2026, service worker **v137**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -55,6 +55,7 @@ bestanden.
 | `society-college-5.js` | Society & Politics sessie 5, Macionis H17, plus lecture 5 (v117) |
 | `society-college-6.js` | Society & Politics sessie 6, Macionis H6 (groepen, organisaties, netwerksamenleving), uit de literatuur; nieuw in v120 |
 | `society-college-7.js` | Society sessie 7, Macionis H8 (social divisions and stratification), uit de literatuur volgens de standaard; nieuw in v136 |
+| `society-college-8.js` | Society sessie 8, Macionis H23 (science, cyberspace and the risk society) en H24 (populations, cities and the space of things to come), beide heel, uit de literatuur volgens de standaard; nieuw in v137 |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -133,6 +134,7 @@ society-college-4.js
 society-college-5.js
 society-college-6.js
 society-college-7.js
+society-college-8.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -575,7 +577,7 @@ taal, uitgebreider dan To remember, afgesloten met "If you only remember ...".
 Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
 in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
-die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6,
+die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6, 7 en 8,
 Intro 6 (H7 en H9), PS 6.
 
 ## 9g. Zoeken in een les en verborgen hoofdstukken (v136)
@@ -659,6 +661,14 @@ Let op bij PS 3: de slides tonen 7/38/55 als regel, de leesstof noemt het een ur
 
 Let op bij Governance sessie 3: de slide met de vier typen executives lijkt bij tekst-extractie uit de pptx verkeerd gekoppeld (Frankrijk onder authoritarian), maar gerenderd klopt hij. Altijd de slide renderen voordat je een "fout op de slide" meldt.
 
+**Society: altijd hele hoofdstukken** (Julie, 23 oktober). Julie gebruikt
+**editie 4** van Macionis & Plummer (toegestaan door de docent); het programma
+gaat uit van editie 5. De inhoud per hoofdstuk is gelijk, de paginanummers
+niet. Werk daarom altijd het **hele hoofdstuk** uit, ook als het programma
+maar een paar pagina's noemt: liever te veel dan te weinig. Dit vervangt de
+afspraak hieronder over 'de bijbehorende sectie'. Let op: sessie 4 gebruikt
+van H16 nog alleen de sectie over sociale bewegingen.
+
 **Society: hoofdstukken, niet paginanummers** (Julie, 6 oktober). De
 paginanummers in het programma komen uit een nieuwere druk; Julie gebruikt
 een oudere, en volgens de docent komen de hoofdstukken inhoudelijk overeen.
@@ -677,6 +687,8 @@ aangepast: heel H5.
 | 4 | heel H5 (v109), H16 sociale bewegingen p. 525-532 | verwerkt (v108); het college draait vooral om H5 p. 128-143 | nauwelijks gemaakt, niet nodig | geen |
 | 5 | H17 p. 541-577 (v108) | verwerkt (v117) | niet aangeleverd | geen |
 | 6 | H6 heel hoofdstuk (v120) | verwerkt (v133) | verwerkt (v133) | Wooclap (over H17) bij sessie 5 |
+| 7 | H8 heel hoofdstuk (v136) | nog niet | nog niet | nog niet |
+| 8 | H23 en H24 heel (v137); programma noemt p. 795-797 en p. 830, 841-849, 855 uit editie 5 | nog niet | nog niet | nog niet |
 
 Let op bij sessie 4: het programma zegt H16 p. 563-567 en de slide van lecture 3 p. 563-570, maar in Julie's PDF loopt H16 van p. 502 tot 539. De les gebruikt de sectie over sociale bewegingen (p. 525-528) plus human rights (p. 528-532). Lecture 4 bevestigt dit: de slide over sociale bewegingen toont Figure 16.4 uit die sectie.
 
