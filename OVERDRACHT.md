@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v141**.
+Stand: 23 oktober 2026, service worker **v142**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -65,7 +65,7 @@ bestanden.
 | `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
-| `overview-intro.js` | Quick recaps (tab `overview`) voor Intro-lessen die er nog geen in hun eigen bestand hebben, via `voegOverviewToe()` (lesstof.js); laadt na `recap-intro.js`. v141: college-1, h1, h2, college-3 |
+| `overview-intro.js` | Quick recaps (tab `overview`) voor Intro-lessen die er nog geen in hun eigen bestand hebben, via `voegOverviewToe()` (lesstof.js); laadt na `recap-intro.js`. v141: college-1, h1, h2, college-3; v142: h3, h5, college-5, h10 (alle Intro-sessies 1-8 met les hebben nu een Quick recap) |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie plus de kick-off slides (v102) |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
@@ -415,6 +415,7 @@ kloppen. Spaties in bestandsnamen hebben al één keer een 404 opgeleverd.
 
 - Levering altijd als zip, met **alleen de gewijzigde en nieuwe bestanden**.
   Ze voegt ze toe aan de bestaande repo.
+- **Zip alleen de bestanden van die versie** (Julie houdt zelf bij wat online staat; cumulatief hoeft niet).
 - **Noem de zip naar versie en aanpassing**, bijvoorbeeld
   `v138-mid-term-en-end-term-op-vakpagina.zip` (Julie, 23 oktober).
 - Zeg expliciet welke bestanden erin zitten.
@@ -585,7 +586,7 @@ Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
 in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
 die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6, 7 en 8,
-Intro 1, 2 (H1 en H2), 3 en 6 (H7 en H9), PS 6, DRM H3 en H4.
+Intro 1 t/m 6 en 8 (alles met een les), PS 6, DRM H3 en H4.
 Sinds v141 bestaat `voegOverviewToe(sleutel, tab)` in `lesstof.js`: zet een
 Quick recap direct na To remember (of na de laatste kernstof-tab). Voor lessen
 die nog geen Quick recap hebben, komt die per vak in een eigen bestand
@@ -668,8 +669,8 @@ lesvragen). Volgorde, per vak op toetsdatum:
 Bijgesteld door Julie (23 oktober): **DRM gaat onderaan** (de quizzen gingen
 makkelijk). Eerst Intro nalopen op bugs en ontbrekingen, dan de mid-term-les.
 
-1. Intro: v141 bugfixes en Quick recaps sessie 1, 2, 3; v142 Quick recaps
-   sessie 4 (H3, H5), 5 en 8 (H10); daarna de Intro-mid-term-les.
+1. Intro: ~~v141 bugfixes en Quick recaps sessie 1, 2, 3; v142 Quick recaps
+   sessie 4 (H3, H5), 5 en 8 (H10)~~ klaar; volgende: de Intro-mid-term-les.
 2. (DRM, onderaan: ch5 en ch13 vertalen, Quick recaps, CT1-les.)
 3. Governance: Quick recaps bij sessie 1-4; mid-term-les (na de recap-slides
    van sessie 8 op 6 november).

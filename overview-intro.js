@@ -5,6 +5,7 @@
    direct na To remember ingevoegd. Moet dus na de lesbestanden en
    recap-intro.js laden, en voor vakken.js.
    v141: sessie 1 (college-1), sessie 2 (h1, h2), sessie 3 (college-3).
+   v142: sessie 4 (h3, h5), sessie 5 (college-5), sessie 8 (h10).
    (Sessie 6, h7 en h9, heeft de Quick recap in het eigen lesbestand.)
    ============================================================ */
 
@@ -149,6 +150,136 @@ voegOverviewToe("intro-to-safety-security/college-3", {
     {
       "type": "uitleg",
       "tekst": "**If you only remember 5 things**\n\n1. The safety chain: proaction, prevention, preparation, repression, recovery.\n2. Five intervention challenges and nine information criteria.\n3. The security paradox: openness versus containment (the cockpit door).\n4. Risk communication (before) versus crisis communication (during and after); Lasswell’s five questions.\n5. Avianca, Korean Air, Manila: mitigated speech, hierarchy, information without control."
+    }
+  ]
+});
+
+voegOverviewToe("intro-to-safety-security/h3", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nChapter 3 (Leveson) as one easy story, in a few minutes."
+    },
+    {
+      "type": "tekst",
+      "titel": "One coin, two sides",
+      "tekst": "Leveson’s big claim: safety and security are **two sides of the same coin**. It starts with definitions: there is no right or wrong one, only the one you choose, and a **narrow** definition hides the overlap and limits your solutions. Her definitions: **safety** is freedom from **accidents (losses)**, whatever the cause. An **accident** is any unplanned event that leads to a loss the stakeholders care about. A **hazard** is a **state of the system** that, together with bad conditions, leads to a loss: the mountain isn’t the hazard, flying too close to it is. In security the same thing is called a **vulnerability**."
+    },
+    {
+      "type": "tekst",
+      "titel": "Two myths she busts",
+      "tekst": "**Safety is not reliability.** Since software entered critical systems (around 1980), you can’t test every design error away. Every part can work perfectly and you still get an accident, and an unreliable system can still be safe. So preventing failures is not the same as preventing losses.\n\n**Security is not just about information.** Losing **mission assurance** (a power plant that stops producing, a space mission that fails) matters just as much as leaked data."
+    },
+    {
+      "type": "tekst",
+      "titel": "Stuxnet and the systems view",
+      "tekst": "Intent differs, but it barely matters for the **solution** when the loss is the same. **Stuxnet**: the loss is damaged centrifuges, the hazard is spinning too fast, the constraint is ‘never above max speed’, the unsafe control action is ‘speed up’ at max, and the cause is a controller that wrongly thought the speed was lower, by mistake or by attack. Same fix either way: a mechanical interlock.\n\nInstead of the old **chain of events** (dominoes, Swiss cheese), Leveson uses **systems theory**: accidents are a **control problem**. **STAMP** is the model; **CAST** analyses losses that already happened; **STPA** analyses losses that haven’t happened yet. STPA first finds unsafe control actions and their scenarios, and only then asks how an attacker could inject, spoof, tamper with, intercept or leak information. Her conclusion: one integrated process can handle both."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 4 things**\n\n1. Safety = freedom from losses; a hazard is a system state (≈ vulnerability).\n2. Safety is not reliability; security is more than information (mission assurance).\n3. Stuxnet: same loss, same control, whatever the intent.\n4. Systems theory instead of chains: STAMP (model), CAST (past losses), STPA (future losses)."
+    }
+  ]
+});
+
+voegOverviewToe("intro-to-safety-security/h5", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nChapter 5 (Jore) and lecture 4 as one easy story."
+    },
+    {
+      "type": "tekst",
+      "titel": "In Amenas",
+      "tekst": "On **16 January 2013**, 32 terrorists attacked the **In Amenas** gas facility in Algeria, with almost 800 workers on site. After a four-day siege, **40 people from 10 countries** were dead, five of them from **Statoil**. Statoil’s investigation said a lacking **security culture** was part of the explanation and building one was the solution. Jore asks: is that even a good concept?"
+    },
+    {
+      "type": "tekst",
+      "titel": "Malicious intent, not just intent",
+      "tekst": "Jore draws the line at **malicious intent**, not intentionality. Why? Because intent also exists in safety: a worker who deliberately skips their goggles is still a safety issue. Security means someone who **really wants to cause harm**. Security threats are also often **external**, not tied to profit and production, and **rare**, so a culture gets little feedback to learn from."
+    },
+    {
+      "type": "tekst",
+      "titel": "Testing the concept",
+      "tekst": "Jore uses **Gerring’s eight criteria** for a good concept. **Familiarity and resonance: high**, because it leans on the well-known idea of safety culture (used since Chernobyl, 1986). **Parsimony, coherence, differentiation and depth: low**: thin literature, one culture can’t cover phishing, sabotage and armed attacks, and it’s hard to tell apart from safety or organisational culture. **Theoretical and field utility: mixed**: the security field has little theory, and companies use the label without changing how they work.\n\nSome safety ideas don’t transfer: **just culture** assumes nobody meant harm, ‘**everyone committed**’ could turn into suspicion of colleagues, and **weak signals** are hidden on purpose by smart attackers."
+    },
+    {
+      "type": "tekst",
+      "titel": "The verdict",
+      "tekst": "Four conclusions: the concept is **needed**; it’s **poorly demarcated** (but so is safety culture); in practice it’s a **duality** with safety culture; and it’ll matter **more** with digitalisation. Jore’s formula: **understand them separately, but don’t treat them as separate in practice**.\n\nThe lecture (session 4) framed chapters 3 and 5 together: ‘two sides of the same coin?’ Inclusive definitions show the overlap, a hazard is roughly a vulnerability, and the big question is **when to integrate and when to keep things apart**."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 4 things**\n\n1. In Amenas 2013: 40 dead, and ‘security culture’ named as the cause and the cure.\n2. Malicious intent, not intentionality, separates security from safety.\n3. Gerring’s criteria: familiarity high, depth low, utility mixed.\n4. Understand separately, don’t treat separately in practice."
+    }
+  ]
+});
+
+voegOverviewToe("intro-to-safety-security/college-5", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nLecture 5, Managing safety and security, as one easy story. This lecture pulls the whole book together, so it’s great revision."
+    },
+    {
+      "type": "tekst",
+      "titel": "Copenhagen, and the first question",
+      "tekst": "In September 2025 Copenhagen Airport closed for almost four hours because of large drones nearby. Safety problem, security problem, or both? The lecture’s answer comes in layers. Two ways to tell them apart: **malicious intent** (someone wants harm) and the **direction of harm** (does the system harm its surroundings, or do outsiders harm the system?). With ISO 31000 you can describe both as **risk**, but security has an **opponent who adapts**, so the past is a weak guide. Fun detail: police didn’t shoot the drones down because of the risk to passengers and fuel depots, a **safety judgement inside a security response**."
+    },
+    {
+      "type": "tekst",
+      "titel": "Three positions",
+      "tekst": "**One coin** (Leveson): same losses, same controls, whatever the cause; STAMP and STPA. **Two professions** (Brooks and Coole): different knowledge, different tools, and opposite habits about sharing (‘in safety we trust, in security we distrust’). **Count the players** (Wipf): no opponent means safety, an opponent means security, and then you need **game theory**. GNSS example: **jamming** blocks the signal, **meaconing** rebroadcasts a delayed signal, **spoofing** fakes it, and spoofing is worst because you don’t notice."
+    },
+    {
+      "type": "tekst",
+      "titel": "Tensions and people",
+      "tekst": "Fixes can create holes: the reinforced cockpit door let the **Germanwings** co-pilot lock the pilot out (Schulman). Security culture is attractive but slippery (Jore, In Amenas). HROs make both stronger but they can also collide, and whichever came first in an organisation shapes how the other gets added (**path dependence**, La Porte).\n\nIt’s also about people: **workers** get psychosocial scars and lose trust (Boustras), **users** experience the same check very differently (Bongiovanni), and **society** keeps asking what is safe and secure enough, and who decides."
+    },
+    {
+      "type": "tekst",
+      "titel": "The toolkit",
+      "tekst": "Six lenses for any case: who wants what, what must never happen, which professions are involved, what must be shared or kept secret, who came first, and what’s outside the organisation’s control. Four take-aways: **definitions shape solutions**, **analyse together but organise carefully**, **management means holding tensions**, and **zoom out**. Likely exam question: merge them, or keep them apart?"
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 5 things**\n\n1. Two distinctions: malicious intent, and the direction of harm.\n2. Three positions: one coin (Leveson), two professions (Brooks and Coole), count the players (Wipf).\n3. Jamming, meaconing, spoofing: spoofing is worst.\n4. Germanwings: a security fix that created a new hole.\n5. Six lenses and four take-aways."
+    }
+  ]
+});
+
+voegOverviewToe("intro-to-safety-security/h10", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nChapter 10 (Boustras) as one easy story, in a few minutes."
+    },
+    {
+      "type": "tekst",
+      "titel": "Where safety and security meet: the worker",
+      "tekst": "Boustras’ claim: workplace safety increasingly depends on **security**, and the two meet at the level of the **individual employee**. Attacks like 9/11, 7/7 and Madrid are becoming more ‘ordinary’, and they hit workplaces in two ways: **direct and visible** (injury, death) and **slow and invisible** (psychosocial problems like PTSD and depression).\n\nPerfect example: after **9/11** a toxic cloud with asbestos covered the area, and of the **40,000 first responders** many got ill years later and hundreds of firefighters retired early. A security incident became a long-term **safety** problem."
+    },
+    {
+      "type": "tekst",
+      "titel": "Organisations, trust and cyber",
+      "tekst": "Organisations now include security in their **risk assessments**, and in low-risk firms one person often does both the safety and the security job. Attacks also damage something less visible: employees’ **trust** that their employer can keep them safe.\n\nCyberattacks spread through ‘**systems of systems**’: one failure cascades into other infrastructures. Remember the **four interdependencies**: digital, physical, geographical and logical."
+    },
+    {
+      "type": "tekst",
+      "titel": "Radicalisation, the crisis and the final point",
+      "tekst": "**Radicalisation** at work is a new risk. **Perceived** discrimination and bullying may be a route, so Boustras prefers a safety approach (a good climate, reporting) over suspicion. The **2008 financial crisis** brought unemployment, insecurity and psychosocial problems, which can lead to extreme behaviour. The hinge: **social exclusion** may be the common route to both safety and security incidents, but that’s **not empirically proven yet**.\n\nThe final difference: for safety the **legal duty lies with the employer** (personal), while for security the **state** is the backbone. Different incentives, so security gets less attention at work."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 4 things**\n\n1. Safety and security meet at the level of the individual worker.\n2. Effects: direct and visible versus slow and invisible (9/11 first responders).\n3. Cyber: systems of systems and four interdependencies (digital, physical, geographical, logical).\n4. Safety duty on the employer, security on the state; social exclusion as a possible (unproven) common route."
     }
   ]
 });
