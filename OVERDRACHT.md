@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v140**.
+Stand: 23 oktober 2026, service worker **v141**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -65,6 +65,7 @@ bestanden.
 | `intro-h9.js` | Bieder H9 (Schulman), Engelse versie; tabblad-id `kern2`, zodat sessie 6 twee kernstof-tabs heeft |
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
+| `overview-intro.js` | Quick recaps (tab `overview`) voor Intro-lessen die er nog geen in hun eigen bestand hebben, via `voegOverviewToe()` (lesstof.js); laadt na `recap-intro.js`. v141: college-1, h1, h2, college-3 |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie plus de kick-off slides (v102) |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
@@ -143,6 +144,7 @@ recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
 recap-intro.js
+overview-intro.js
 vakken.js
 vak.js of les.js            <- deze tekenen METEEN bij het laden
 ```
@@ -583,7 +585,12 @@ Geleidelijk toevoegen, niet alles in een keer. In `vakken.js` staat `overview`
 in VOLGORDE direct na `recap`: volgorde Core material, To remember, Quick recap.
 Bij samengevoegde sessies (Intro) krijgt elk hoofdstuk een eigen `overview`-tab;
 die worden samengevoegd met hoofdstukkopjes. Klaar: Governance 5, 6 en 7, Society 6, 7 en 8,
-Intro 6 (H7 en H9), PS 6.
+Intro 1, 2 (H1 en H2), 3 en 6 (H7 en H9), PS 6, DRM H3 en H4.
+Sinds v141 bestaat `voegOverviewToe(sleutel, tab)` in `lesstof.js`: zet een
+Quick recap direct na To remember (of na de laatste kernstof-tab). Voor lessen
+die nog geen Quick recap hebben, komt die per vak in een eigen bestand
+(`overview-intro.js`, later ook voor Governance en Society), geladen na de
+recap-bestanden en voor `vakken.js`.
 
 ## 9g. Zoeken in een les en verborgen hoofdstukken (v136)
 
@@ -621,6 +628,29 @@ alles open. Zelf open- of dichtklappen wordt onthouden in localStorage
 blok, dan gelden de standaarden weer. Datums: Y1 manual, DRM manual, PS manual
 (week 10 = 9-13 nov 2026, week 15 = 14-18 dec, week 20 = 1-5 feb 2027).
 
+## 9j. Intro-controle (v141)
+
+Automatische controle van Intro sessie 1-8 (dubbele tabs en begrippen,
+hover zonder begrip, quiz-antwoorden, lege oefeningen, em dashes,
+Nederlandse resten, zichtbare `**` of `[[` op het scherm, JavaScript-fouten).
+Gevonden en hersteld:
+
+- **Drie sterretjes** (`***`, vet met cursief erin) worden niet goed weergegeven:
+  je zag losse `**`. Hersteld in `intro-college-5.js`, `governance-college-2.js`
+  en `governance-college-6.js` (cursieve titel nu buiten het vette deel). Elders
+  komt het niet voor; schrijf voortaan `**Auteur (jaar)**, *Titel*`.
+- **Onjuiste In plain words**: sommige samenvattingen uit de standaardronde
+  (v122-v127) klopten inhoudelijk niet met de tekst erboven. Hersteld:
+  sessie 1 (drie werelden, de vier definities, oude en moderne risico's,
+  onzekerheden), sessie 3 (de vijf intervention challenges, de negen
+  informatiecriteria, de vier conclusiepunten), H1 1.5 en H2 2.4. De rest van
+  Intro is nagelopen en klopt. **Let op bij andere vakken: dit kan daar ook
+  spelen.**
+- **H1 en H2 hadden geen lijstkaarten**: tien toegevoegd (via
+  slice-vervanging in `ssms-inhoud.js`; de rest van het bestand blijft gelijk).
+- Lege `tekst`-blokken in samengevoegde sessies zijn de hoofdstukkopjes van
+  `voegSamen()`: geen fout. "TBD" in H3 komt uit het boek (STPA-voorbeeld).
+
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
 Toetsen: ma 9 nov DRM CT1 (20 meerkeuzevragen, 30 min, Remindo: 15 begrippen
@@ -635,10 +665,12 @@ maar een samenvatting van alle mid-term-stof, met een oefentoets op
 examenniveau met nieuwe, vakoverstijgende vragen (geen herhaling van
 lesvragen). Volgorde, per vak op toetsdatum:
 
-1. DRM: ch3 (v139), ch4 (v140), ch5 (v141) in het Engels met recaps;
-   Quick recaps bij college-2, college-4, college-5 en conceptlist-1/2 (v142);
-   mid-term-les met CT1-oefentoets volgens de toetsmatrijs (v143).
-2. Intro: Quick recaps bij sessie 1-5 en 8; mid-term-les.
+Bijgesteld door Julie (23 oktober): **DRM gaat onderaan** (de quizzen gingen
+makkelijk). Eerst Intro nalopen op bugs en ontbrekingen, dan de mid-term-les.
+
+1. Intro: v141 bugfixes en Quick recaps sessie 1, 2, 3; v142 Quick recaps
+   sessie 4 (H3, H5), 5 en 8 (H10); daarna de Intro-mid-term-les.
+2. (DRM, onderaan: ch5 en ch13 vertalen, Quick recaps, CT1-les.)
 3. Governance: Quick recaps bij sessie 1-4; mid-term-les (na de recap-slides
    van sessie 8 op 6 november).
 4. Society: Quick recaps bij sessie 1-5; H16 compleet bij sessie 4 (PDF

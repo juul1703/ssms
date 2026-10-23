@@ -27,7 +27,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
       {
         "type": "uitleg",
         "titel": "What this session was",
-        "tekst": "**Lecture 5: Managing Safety & Security** (Jonathan Corr, 7 October 2026). No reading beforehand, but the lecture is built on the whole book, **Bieder and Pettersen Gould (2020), *The Coupling of Safety and Security***: it brings together the chapters you read (1, 2, 3, 5, 7, 9, 10) and several you did not (4, 6, 8, 11). \"The authors generally do not agree with each other. My aim today is that you leave knowing **why** they disagree, and **which side** you find more convincing.\"\n\nThis lesson follows the lecture's five parts and uses the slides **and the lecturer's speaker notes**, which contain most of the explanation."
+        "tekst": "**Lecture 5: Managing Safety & Security** (Jonathan Corr, 7 October 2026). No reading beforehand, but the lecture is built on the whole book, **Bieder and Pettersen Gould (2020)**, *The Coupling of Safety and Security*: it brings together the chapters you read (1, 2, 3, 5, 7, 9, 10) and several you did not (4, 6, 8, 11). \"The authors generally do not agree with each other. My aim today is that you leave knowing **why** they disagree, and **which side** you find more convincing.\"\n\nThis lesson follows the lecture's five parts and uses the slides **and the lecturer's speaker notes**, which contain most of the explanation."
       },
       {
         "type": "waarschuwing",

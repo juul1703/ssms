@@ -345,6 +345,26 @@ LESSTOF["intro-to-safety-security/h1"] = [
           {
             "begrip": "Vantage point",
             "definitie": "The position from which the convergence of safety and security is viewed: conceptual, technical-methodological, or management and practice."
+          },
+          {
+            "begrip": "Four consequences of the post-9/11 interface (list)",
+            "definitie": "1. A new category of threats to understand. 2. New collaborations and domains. 3. Doubt about the effectiveness of existing protection. 4. Interactions that are far from obvious, especially in normal situations."
+          },
+          {
+            "begrip": "Two ways to distinguish safety from security (list)",
+            "definitie": "1. Intentionality: was it done on purpose (security) or not (safety)? 2. The system-environment axis: safety means the system does not harm its environment, security means the environment does not harm the system (SEMA adds the system harming itself)."
+          },
+          {
+            "begrip": "Three vantage points of the book (list)",
+            "definitie": "1. Conceptual (Blokland & Reniers, Jore). 2. Technical and methodological (Leveson, Wipf, Bongiovanni). 3. Management and practice (Brooks & Coole, La Porte, Schulman, Boustras)."
+          },
+          {
+            "begrip": "Three questions of chapter 1 (list)",
+            "definitie": "1. What is safe and secure enough? 2. What do new demands mean for people? 3. Who gains, and who gets the strain (La Porte)?"
+          },
+          {
+            "begrip": "Four tensions of chapter 1 (list)",
+            "definitie": "1. Merge or keep separate: no proven answer. 2. Regulators get security tasks without a knowledge base (EASA). 3. Transparency collides: safety learns through openness, security needs confidentiality. 4. Research is lopsided: mostly engineering, little on management in practice."
           }
         ]
       },
@@ -366,7 +386,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nThe book moves from ideas and definitions, through methods, to research in practice and finally to the people involved."
+        "tekst": "**In plain words**\n\nThe book moves from ideas and definitions (conceptual), through technical methods, to research on management and practice, and ends with a chapter on the main challenges and a shared research agenda."
       },
       {
         "type": "tekst",
@@ -1030,7 +1050,7 @@ LESSTOF["intro-to-safety-security/h2"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSafety and security can be compared on three levels. The real difference is whether someone is deliberately trying to cause harm."
+        "tekst": "**In plain words**\n\nSafety and security can be compared on three levels: the effects (unintentional or intentional), the objectives (one party, or parties whose objectives clash) and the uncertainty (events that repeat, or an adversary who keeps changing tactics)."
       },
       {
         "type": "tekst",
@@ -1173,6 +1193,26 @@ LESSTOF["intro-to-safety-security/h2"] = [
           {
             "begrip": "Safety-I and Safety-II",
             "definitie": "Hollnagel’s distinction: protection against loss versus the condition of performing excellently in achieving objectives."
+          },
+          {
+            "begrip": "Two misconceptions of chapter 2 (list)",
+            "definitie": "1. Risk and safety are opposites (only partly true). 2. Safety and security are entirely separate fields."
+          },
+          {
+            "begrip": "Three elements of risk (list)",
+            "definitie": "1. Objectives. 2. Effects that can touch them. 3. Uncertainty. All three must be present; risk concerns an uncertain future state."
+          },
+          {
+            "begrip": "Three levels of distinction between safety and security (list)",
+            "definitie": "1. Effects: unintentional (safety) versus intentional (security). 2. Objectives: one party versus at least two parties with non-aligned objectives (more than 90 degrees apart). 3. Uncertainty: events that repeat versus an adversary who keeps renewing tactics."
+          },
+          {
+            "begrip": "From concepts to management in four moves (list)",
+            "definitie": "Lecture 2: 1. Identify objectives. 2. Identify risk sources. 3. Consider effects. 4. Set constraints (limits that must not be exceeded)."
+          },
+          {
+            "begrip": "Three traps of chapter 2 (list)",
+            "definitie": "1. Risk is not the opposite of safety. 2. Intentional refers to the effect on objectives, not to the act itself. 3. Unsecurity is not just no security: it needs low alignment and a high likelihood of intentional harm."
           }
         ]
       },

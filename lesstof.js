@@ -291,3 +291,23 @@ function voegRecapToe(sleutel, tab){
   les.splice(plek, 0, tab);
   LESSTOF[sleutel] = les;
 }
+
+/* ------------------------------------------------------------
+   Quick recap-tabblad (v141)
+   ------------------------------------------------------------
+   Zelfde idee als voegRecapToe, maar voor het tabblad 'overview'
+   (Quick recap). Komt direct na To remember, of na de laatste
+   kernstof-tab als er geen To remember is. Een bestaande Quick recap
+   wordt vervangen. Het bestand met Quick recaps moet na de
+   lesbestanden en de recap-bestanden laden, en voor vakken.js. */
+function voegOverviewToe(sleutel, tab){
+  var les = LESSTOF[sleutel];
+  if (!les) { try { console.warn('Quick recap zonder les: ' + sleutel); } catch (e) {} return; }
+  les = les.filter(function(t){ return t.id !== 'overview'; });
+  var plek = 0;
+  les.forEach(function(t, i){
+    if (String(t.id).indexOf('kern') === 0 || t.id === 'recap') plek = i + 1;
+  });
+  les.splice(plek, 0, tab);
+  LESSTOF[sleutel] = les;
+}

@@ -80,7 +80,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nWhen organisations work together in a crisis, they run into five problems, such as different goals, different language and unclear responsibilities."
+        "tekst": "**In plain words**\n\nWhen organisations work together in a crisis, they run into five problems: stress and uncertainty, different working styles, different kinds of staff and levels of professionalism, different ideas of time, and language and jargon."
       },
       {
         "type": "tekst",
@@ -90,7 +90,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nGood decisions need good information: accurate, complete, clear and on time. In a crisis that is often missing."
+        "tekst": "**In plain words**\n\nGood decisions need good information, and the lecture gives nine criteria for it: accurate, concise, believable, complete, clear, valid, objective, redundant (more than one route, as a safeguard) and up to date. In a crisis that is often missing."
       },
       {
         "type": "tekst",
@@ -144,7 +144,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nCommunication works when people trust the sender, the message is clear, it reaches the right people through the right channel, and it is checked that they understood."
+        "tekst": "**In plain words**\n\nThe lecture ends with four things that make communication work: trust that comes from openly sharing information, communication skills you show in practice (listening, interviewing, asking questions, negotiating), gathering information on the ground, and involving the stakeholders."
       },
       {
         "type": "begrippen",

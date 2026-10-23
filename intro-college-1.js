@@ -94,7 +94,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSSMS sits where three worlds meet that normally work separately: public safety (police, fire service), company safety and security, and the wider world of policy and society."
+        "tekst": "**In plain words**\n\nSSMS sits where three worlds meet that normally work separately: public safety (police, fire service, ambulance, municipalities), industrial safety and corporate security (companies), and international security (intelligence services, the military, international organisations and NGOs)."
       },
       {
         "type": "uitleg",
@@ -143,7 +143,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nThere are four kinds: physical safety, social safety, physical security and social security. What they share is protecting people and things that matter."
+        "tekst": "**In plain words**\n\nThere are four definitions to know: physical safety, industrial safety, security and public security. Two of them (physical safety and public security) are about being protected **and feeling protected**. What all four have in common is risk."
       },
       {
         "type": "slimmer",
@@ -157,7 +157,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nRisk is uncertainty about a possible bad outcome, often written as chance times impact. Risks have become more complex, global and connected than in the past."
+        "tekst": "**In plain words**\n\nRisk is uncertainty about a possible bad outcome of a decision, often written as probability times impact. Old risks were natural, small-scale and unequally spread; modern risks are man-made, large-scale and (according to Beck, though this is contested) more equally spread."
       },
       {
         "type": "tabel",
@@ -206,7 +206,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nThe work is about uncertainties around people, systems and organisations. The skill is to connect small pieces of information into a bigger picture."
+        "tekst": "**In plain words**\n\nThe work is about uncertainties around people, systems, technology, beliefs and culture: the hard part is usually the people, not the technology. The skill is to connect small pieces of information into a bigger picture."
       },
       {
         "type": "begrippen",
