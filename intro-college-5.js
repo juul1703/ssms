@@ -140,6 +140,10 @@ LESSTOF['intro-to-safety-security/college-5'] = [
         "noot": "\"In safety we trust, in security we distrust.\" The insider problem: the same employee is trusted for safety and potentially distrusted as a threat. Professions will diverge further as each seeks recognition."
       },
       {
+        "type": "waarschuwing",
+        "tekst": "**Watch out: the slides and the book attribute two points differently**\n\n**1.** \"In safety we trust, in security we distrust\" is on the slide with **position 2** (Brooks and Coole). In the book it is not Brooks and Coole's line: it is the heading of **section 11.2.3** by the editors, **Bieder and Pettersen Gould**, where they discuss openness versus secrecy and the insider (Germanwings). Brooks and Coole themselves argue from bodies of knowledge, risk drivers and professional practice.\n\n**2.** \"Safety can learn from statistics, an adversary keeps inventing new tactics\" is on the slide with **Wipf, ch. 4**. In the book that point is made by **Blokland and Reniers (ch. 2, section 2.4.3)**; Wipf supplies the game theory.\n\nIn an essay, name the chapter you mean. If a question asks who wrote it, go with the book."
+      },
+      {
         "type": "tekst",
         "tekst": "**Position 3: count the players (Wipf, ch. 4).** **Zero or one player: safety**: nature and machines do not react to your strategy, so statistics and optimisation work. **Two or more players: security**: an opponent with their own objectives and strategy, so **game theory** applies. Safety and security become different subsets of **one game-theoretic framework**, differing in the number of players.\n\n**Wipf's case: attacking satellite navigation** for helicopter emergency medical flights in bad weather:\n**Jamming** (blocking the signal): about **€1,000**, low knowledge, **easy** to detect.\n**Meaconing** (re-broadcasting a delayed signal): about **€10,000**, medium knowledge, hard to detect.\n**Spoofing** (sending convincing false signals): about **€100,000**, high knowledge, hard to detect.\nThe **attacker's trade-off**: more power means more impact, and more risk of being detected.\n\n**The theory meets 2026.** Wipf (2020) expected such attacks to stay rare, since attackers need the shared channel too. \"Reality moved.\" Since **2022**, EASA and the FAA report a notable rise in **GNSS jamming and spoofing** near conflict zones (the Baltic, Eastern Europe, the Black Sea, the Mediterranean, the Middle East). On **26 March 2026** EASA and EUROCONTROL published a joint action plan; on **3 July 2026** EASA issued **Revision 4** of its Safety Information Bulletin (phraseology, training, ATC capacity). Notice that the **safety** regulator is handling a partly **security** problem. **Spoofing is worse than jamming**: the receiver keeps working, with a believable but false position. And **pilots must respond the same way whether interference is accidental or deliberate**: Leveson's point in practice."
       },
@@ -386,7 +390,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
           [
             "1 and 11",
             "Bieder and Pettersen Gould",
-            "What is safe and secure enough, and who decides? Two professions, shared sites"
+            "What is safe and secure enough, and who decides? Two professions, shared sites; \"in safety we trust, in security we distrust\" (11.2.3)"
           ],
           [
             "2",
@@ -416,7 +420,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
           [
             "7",
             "Brooks and Coole",
-            "Diverging professions; \"in safety we trust, in security we distrust\""
+            "Diverging professions: different knowledge, controls and practice; alike only at the abstract level"
           ],
           [
             "8",
@@ -463,21 +467,21 @@ LESSTOF['intro-to-safety-security/college-5'] = [
         "id": "intro-c5-oef-1",
         "niveau": "basis",
         "vraag": "**Activity 2 from the lecture.** Choose Schiphol, a hospital, your university or a municipality. (a) Place it in La Porte’s matrix. (b) Which came first, safety or security? (c) Name one likely tension if the missing function is ramped up, and one workable compromise.",
-        "antwoord": "**Example: a hospital.** (a) La Porte places hospitals in \"**both need work**\", although safety (patient safety, fire, hygiene) is usually more developed. (b) **Safety came first**: hospitals grew up around patient safety, with openness and incident reporting. (c) **Tension**: ramping up security against **ransomware** means restricting access to systems and data, while doctors and nurses need **fast access** in emergencies; or locking doors against intruders versus **fire exits** and visitors. **Compromise**: role-based access with an emergency override that is logged and reviewed afterwards; or doors that lock from outside but open freely from inside. The general lesson: the new function has to fit the culture of the one that came first (path dependence)."
+        "antwoord": "**Example: a hospital.** (a) La Porte places hospitals in \"**both need work**\" (ch. 8, Fig. 8.1, on the slide of La Porte's matrix). (b) Neither La Porte nor the slides say which came first in a hospital, so this part is **your own argument**, and you should present it as one. A defensible answer: **safety came first**, because a hospital is built around patient care, and patient safety, fire safety and hygiene shaped its routines long before ransomware and access control became issues. (c) **Tension**: ramping up security against **ransomware** means restricting access to systems and data, while doctors and nurses need **fast access** in emergencies; or locking doors against intruders versus **fire exits** and visitors. **Compromise**: role-based access with an emergency override that is logged and reviewed afterwards; or doors that lock from outside but open freely from inside. The general lesson: the new function has to fit the culture of the one that came first (path dependence)."
       },
       {
         "type": "oefening",
         "id": "intro-c5-oef-2",
         "niveau": "gevorderd",
         "vraag": "**Discuss (from the lecture):** a pilot’s GPS signal is disrupted over the Baltic. Does it matter whether the interference is deliberate, to the pilot, to the airline, and to the state?",
-        "antwoord": "**To the pilot: hardly.** Following **Leveson**, the immediate control response is the same: switch to other navigation sources, follow the procedures in EASA’s bulletin, inform air traffic control. The constraint \"never trust a false position\" holds whatever the cause.\n\n**To the airline: partly.** For training, route planning, reporting and insurance it helps to know whether interference is a recurring deliberate pattern in certain regions (Wipf: an adapting opponent makes past data a weaker guide).\n\n**To the state: very much.** Attribution decides the response: investigation, diplomacy, sanctions or military measures. That is the security side: an opponent with objectives that conflict with yours.\n\n**Conclusion:** analyse together, organise carefully: the same analysis, different responsibilities at different levels."
+        "antwoord": "**To the pilot: hardly.** Following **Leveson**, the immediate control response is the same: switch to other navigation sources, follow the procedures in EASA’s bulletin, inform air traffic control. The constraint \"never trust a false position\" holds whatever the cause.\n\n**To the airline: partly.** For training, route planning, reporting and insurance it helps to know whether interference is a recurring deliberate pattern in certain regions (the slides put it under Wipf, ch. 4; in the book this point is Blokland and Reniers, ch. 2: an opponent keeps inventing new tactics, so past data is a weaker guide).\n\n**To the state: very much.** Attribution decides the response: investigation, diplomacy, sanctions or military measures. That is the security side: an opponent with objectives that conflict with yours.\n\n**Conclusion:** analyse together, organise carefully: the same analysis, different responsibilities at different levels."
       },
       {
         "type": "oefening",
         "id": "intro-c5-oef-3",
         "niveau": "gevorderd",
         "vraag": "**The lecturer’s exam-style question:** \"Should an organisation merge its safety and security functions, or keep them apart?\" Write a plan for a 400-word answer that uses at least two chapters and states which definition you work with.",
-        "antwoord": "**A plan that would score well:**\n\n**1. Definition (state it):** for example Blokland and Reniers: security as a subset of safety (intentional negative effects on objectives); or Leveson: safety as freedom from losses whatever the cause. Say that your definition influences your answer (\"definitions shape solutions\").\n\n**2. Arguments for merging:** Leveson (ch. 3): the same losses and constraints, one analysis (STPA) with extra causal scenarios; shared precursors and reliability professionals (Schulman, ch. 9); one risk-management framework (ch. 2).\n\n**3. Arguments for keeping apart:** Brooks and Coole (ch. 7): different bodies of knowledge, controls and professions; \"in safety we trust, in security we distrust\"; the insider problem; information sharing versus need-to-know (Schulman); different legal duties (Boustras, ch. 10).\n\n**4. Your position, nuanced:** for example Jore’s line: **analyse and coordinate together, but keep distinct expertise** (\"separate in theory, not managed as separate in practice\"). Add La Porte: the answer depends on which function came first.\n\n**5. A short example:** Germanwings (a security fix creating a safety hole) or Copenhagen (a safety judgement inside a security response).\n\n**6. One cautious sentence:** some claims are exploratory (Boustras on radicalisation; Bongiovanni’s untested model)."
+        "antwoord": "**A plan that would score well:**\n\n**1. Definition (state it):** for example Blokland and Reniers: security as a subset of safety (intentional negative effects on objectives); or Leveson: safety as freedom from losses whatever the cause. Say that your definition influences your answer (\"definitions shape solutions\").\n\n**2. Arguments for merging:** Leveson (ch. 3): the same losses and constraints, one analysis (STPA) with extra causal scenarios; shared precursors and reliability professionals (Schulman, ch. 9); one risk-management framework (ch. 2).\n\n**3. Arguments for keeping apart:** Brooks and Coole (ch. 7): different bodies of knowledge, controls and professions, with common ground only at the abstract level; \"in safety we trust, in security we distrust\" (on the slide with position 2; in the book it is the editors' heading, ch. 11) and the insider problem; information sharing versus need-to-know (Schulman); different legal duties (Boustras, ch. 10).\n\n**4. Your position, nuanced:** for example the lecture's take-away **analyse together, organise carefully**, backed by Jore's conclusion (ch. 5) that safety and security culture \"should be understood separately, but in practical reality should not be treated as distinct\" (the slide: keep them conceptually separate, but do not manage them as separate in practice). Add La Porte: the answer depends on which function came first.\n\n**5. A short example:** Germanwings (a security fix creating a safety hole) or Copenhagen (a safety judgement inside a security response).\n\n**6. One cautious sentence:** some claims are exploratory (Boustras on radicalisation; Bongiovanni’s untested model)."
       }
     ]
   },
@@ -564,7 +568,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
               "Big Governance"
             ],
             "juist": 1,
-            "uitleg": "Brooks and Coole, ch. 7."
+            "uitleg": "On the slides it sits with position 2 (diverging professions, Brooks and Coole). In the book, the phrase itself is the editors' heading in ch. 11 (11.2.3), about openness versus secrecy and the insider. If an exam question asks who wrote it, the answer is Bieder and Pettersen Gould."
           },
           {
             "vraag": "According to Wipf, which GNSS attack is cheapest and easiest to detect?",

@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v144**.
+Stand: 23 oktober 2026, service worker **v145**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -696,6 +696,27 @@ letterlijke citaten na, hersteld: 'eternal killjoys' (H1, was spoilsports),
 'cursory alignment' tussen aanhalingstekens). Voorbeelden die niet uit het boek
 komen (nooddeur, klep in de waterzuivering) staan als voorbeeld gelabeld.
 Niet gedaan: modelantwoorden van sessie 5, 6 en 8 regel voor regel.
+
+**v145: modelantwoorden Intro sessie 5, 6 en 8 regel voor regel** (tegen kernstof,
+boek en, sinds Julie ze in het Project zette, de Intro-slides 1-5 en `sessie_6_iss_.pdf`).
+Let op: de Intro-slides heten `_1__...pptx` t/m `_5__...pptx` (platte tekst);
+`Lecture_1-5.pptx` in het Project zijn van **Society**. Hersteld:
+- **Slides wijken af van het boek** (sessie 5): "In safety we trust, in security we
+  distrust" staat op de slide van Brooks en Coole, maar is in het boek een kopje van de
+  redacteuren (H11, 11.2.3); "statistiek werkt, een tegenstander bedenkt nieuwe tactieken"
+  staat op de slide bij Wipf, maar is Blokland en Reniers (H2, 2.4.3). Nieuw Watch out-kader
+  na de tabel van positie 2; quiz-uitleg, To remember-tabel, Quick recap en modelantwoord
+  noemen nu beide.
+- **Verzonnen citaat in H9-kernstof**: "I am in unstudied conditions here" staat niet in het
+  boek. Nu: precursor conditions en drift (9.1), en de echte zinnen "I find myself in
+  uncharted territory" / "I'm not comfortable taking this action" (9.3, ook op de slide).
+  Flashcard Unstudied conditions en modelantwoord mee hersteld.
+- H7: "directed" werd "purposive intent" (kernstof en antwoord); "ergonomics" eruit (staat
+  niet in H7); Nederlandse voorbeelden en tegenkrachten gelabeld als eigen argument.
+- Sessie 5: Jore letterlijk geciteerd; "wat kwam eerst in een ziekenhuis" gelabeld als eigen
+  argument. H9: "convenient" en de just culture-zin preciezer. H10: "captured terrorists
+  (allegedly)", "personal grievance and willingness to take revenge", worker participation.
+Nog niet tegen slides: sessie 8 (H10), want die slides staan niet in het Project.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

@@ -235,7 +235,7 @@ voegOverviewToe("intro-to-safety-security/college-5", {
     {
       "type": "tekst",
       "titel": "Three positions",
-      "tekst": "**One coin** (Leveson): same losses, same controls, whatever the cause; STAMP and STPA. **Two professions** (Brooks and Coole): different knowledge, different tools, and opposite habits about sharing (‘in safety we trust, in security we distrust’). **Count the players** (Wipf): no opponent means safety, an opponent means security, and then you need **game theory**. GNSS example: **jamming** blocks the signal, **meaconing** rebroadcasts a delayed signal, **spoofing** fakes it, and spoofing is worst because you don’t notice."
+      "tekst": "**One coin** (Leveson): same losses, same controls, whatever the cause; STAMP and STPA. **Two professions** (Brooks and Coole): different knowledge, different tools, and opposite habits about sharing (‘in safety we trust, in security we distrust’, on their slide; in the book that line is the editors’, ch. 11). **Count the players** (Wipf): no opponent means safety, an opponent means security, and then you need **game theory**. GNSS example: **jamming** blocks the signal, **meaconing** rebroadcasts a delayed signal, **spoofing** fakes it, and spoofing is worst because you don’t notice."
     },
     {
       "type": "tekst",
