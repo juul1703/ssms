@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v139**.
+Stand: 23 oktober 2026, service worker **v140**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -78,7 +78,8 @@ bestanden.
 | `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
 | `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
 | `drm-college-5.js` | DRM sessie 5, workshop 2: 6W op de phishing-case (Shop & Go), modelantwoorden, bewijskaart en een vast stappenplan voor elke 6W-vraag; nieuw in v116 |
-| `drm-h3.js` | DRM Verhoeven H3 (aanleiding, 6W, vooronderzoek), les-id `ch3`, hangt aan sessie 3; Engels met To remember en Quick recap; nieuw in v139 (stond Nederlands in `ssms-inhoud.js`, daar weggehaald) |
+| `drm-h3.js` | DRM Verhoeven H3 (aanleiding, 6W, vooronderzoek), les-id `ch3`, hangt aan sessie 3; Engels met To remember en Quick recap; nieuw in v139 (stond Nederlands in `ssms-inhoud.js`, daar weggehaald); v140: Watch out over de 6W gecorrigeerd (de cursus zegt 'which factors or how', vrijwel gelijk aan 'what is the cause') |
+| `drm-h4.js` | DRM Verhoeven H4 (central question en objective, Van Tulder A14 en A15, Kahneman), les-id `ch4`, staat in de groep Boek; Engels met To remember en Quick recap; nieuw in v140 |
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
 | `faw-summary.js` | FAW naslag: How to write an academic summary (stap voor stap, uitgewerkt voorbeeld, oefenartikel); nieuw in v107 |
@@ -125,6 +126,7 @@ drm-college-2.js
 drm-college-4.js
 drm-college-5.js
 drm-h3.js
+drm-h4.js
 faw-college-1.js
 faw-college-2.js
 faw-summary.js
@@ -563,7 +565,7 @@ en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
    apart op de lijst); de In plain words-kaders wel in het Engels.
 6. ~~Studiegids em dashes~~ niet nodig (Julie, 12 okt).
 7. ~~Intro H10 vertalen~~ klaar (v130): volledig Engels, recap-tab, quiz van 8 vragen, bronnen, 2 lijstkaarten erbij; titel in vakken.js nu Engels.
-8. DRM-hoofdstukken vertalen naar het Engels, met To remember en Quick recap. Werkwijze (v139): het hoofdstuk wordt een eigen bestand `drm-h<n>.js` met hetzelfde les-id (`ch<n>`), het blok gaat uit `ssms-inhoud.js` (de rest blijft byte-voor-byte gelijk), scripttag na `drm-college-5.js`, en de naam in `BOEKEN`. ~~ch3~~ klaar (v139). **Volgende:** ch4 en ch5, daarna ch13.
+8. DRM-hoofdstukken vertalen naar het Engels, met To remember en Quick recap. Werkwijze (v139): het hoofdstuk wordt een eigen bestand `drm-h<n>.js` met hetzelfde les-id (`ch<n>`), het blok gaat uit `ssms-inhoud.js` (de rest blijft byte-voor-byte gelijk), scripttag na `drm-college-5.js`, en de naam in `BOEKEN`. Kadertitels in de kernstof weggehaald zodat er alleen echte kopjes in de kopjesbalk staan. Watch out-kaders waar het boek afwijkt van de conceptlijst (6W, preliminary versus background research). ~~ch3~~ klaar (v139). ~~ch4~~ klaar (v140), met Watch out-kaders over problem statement versus de vier termen van de conceptlijst, en negen (boek) versus acht (conceptlijst) vraagtypes. **Volgende:** ch5 (v141), daarna ch13.
 
 ## 9e. Volgende-knop vinkt af (v126)
 
@@ -618,6 +620,34 @@ alles open. Zelf open- of dichtklappen wordt onthouden in localStorage
 (`ssms-toetsblok-<vak>-<blok>`), samen met het huidige blok; begint een nieuw
 blok, dan gelden de standaarden weer. Datums: Y1 manual, DRM manual, PS manual
 (week 10 = 9-13 nov 2026, week 15 = 14-18 dec, week 20 = 1-5 feb 2027).
+
+## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
+
+Toetsen: ma 9 nov DRM CT1 (20 meerkeuzevragen, 30 min, Remindo: 15 begrippen
+toepassen, 1 onderzoeksvraag beoordelen, 4 onderzoeksopzet beoordelen), di 10
+nov Intro (Remindo written exam), do 12 nov Governance, vr 13 nov Society
+(beide individual written exam). Voor Intro, Governance en Society is alle
+literatuur plus alle lecture slides toetsstof.
+
+Prioriteit van Julie: een **Quick recap bij elke les**, zo snel mogelijk, en
+per vak een **overkoepelende mid-term-les**: dezelfde opbouw als elke les,
+maar een samenvatting van alle mid-term-stof, met een oefentoets op
+examenniveau met nieuwe, vakoverstijgende vragen (geen herhaling van
+lesvragen). Volgorde, per vak op toetsdatum:
+
+1. DRM: ch3 (v139), ch4 (v140), ch5 (v141) in het Engels met recaps;
+   Quick recaps bij college-2, college-4, college-5 en conceptlist-1/2 (v142);
+   mid-term-les met CT1-oefentoets volgens de toetsmatrijs (v143).
+2. Intro: Quick recaps bij sessie 1-5 en 8; mid-term-les.
+3. Governance: Quick recaps bij sessie 1-4; mid-term-les (na de recap-slides
+   van sessie 8 op 6 november).
+4. Society: Quick recaps bij sessie 1-5; H16 compleet bij sessie 4 (PDF
+   nodig van Julie); mid-term-les.
+5. Tussendoor: slides van de laatste colleges verwerken zodra Julie ze
+   stuurt (Society 7 en 8, Governance 7 en 8, Intro 7 en 8).
+6. Na de mid-terms: tweaks en volledige audit (paginanummers op de
+   vakpagina, dubbel nummer in de kopjesbalk, Verhoeven 1.1-1.2 en het stuk
+   over variabelen als Julie die uploadt).
 
 ## 10a. To-do lijst (bijgewerkt 29 september)
 

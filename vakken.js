@@ -102,7 +102,7 @@ var TOETSBLOKKEN = {
       groep: 'Boek',
       delen: {
         ch3:  'H3 The background of your research',
-        ch4:  'H4 Centrale vraag en doelstelling',
+        ch4:  'H4 Central question and objective',
         ch5:  'H5 Begripsafbakening en modelbouw',
         ch13: 'H13 Kwantitatieve data: voorbereiding'
       }
