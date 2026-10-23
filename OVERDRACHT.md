@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v143**.
+Stand: 23 oktober 2026, service worker **v144**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -662,7 +662,10 @@ het boek).
 
 Gedaan in v143:
 - **Slides 1, 3 en 5** (pptx met sprekersnotities, van Julie) naast
-  `intro-college-1.js`, `-3.js` en `-5.js` gelegd. Sessie 1 en 5 kloppen.
+  `intro-college-1.js`, `-3.js` en `-5.js` gelegd. Sessie 5 klopt. Sessie 1 klopt, op
+  de klimaatketen na (dia 17 is een afbeelding): die staat nu exact zoals op de
+  dia, met de dwarsverbanden naar migratie, en zonder 'mortality' (de dia zegt
+  population growth rate and population size).
   Sessie 3 had een echte fout: volgens de sprekersnotities zijn er **drie
   communicatievormen** over de keten gelegd: risk communication (proaction,
   prevention, preparation), **crisis communication als breedste pijl (voor,
@@ -682,10 +685,17 @@ Gedaan in v143:
   open access): klopt. Opmaakfout hersteld: de vijf kenmerken van een sterke
   security culture stonden als drie stappen plus losse tekst "4." en "5.".
 
-Nog niet tegen de bron: Bieder H1, H2, H3, H7, H9 en H10, en de
-modelantwoorden van sessie 5, 6 en 8 (die zijn wel naast de kernstof gelegd
-via quiz en kaarten). De boek-PDF is via `web_fetch` niet als tekst te lezen;
-vraag Julie de PDF te uploaden en lees met `pdftotext`.
+**v144: Bieder H1, H2, H3, H5, H7, H9 en H10 tegen het boek.** Het boek staat
+als tekst in de Project-bestanden (`/mnt/project/The_coupling_of_safety_and_security.pdf`,
+eigenlijk platte tekst; splits op regels `Chapter N`). Automatisch gecheckt:
+alle jaartallen, getallen, citaten en auteursnamen in de kernstof; daarna de
+definities en lijsten met de hand (vier consequenties H1, definities en 90 graden H2,
+tabellen 7.3 en 7.6 H7, synergieën H9, vier interdependencies H10). Klopt, op drie
+letterlijke citaten na, hersteld: 'eternal killjoys' (H1, was spoilsports),
+'connecting dots' (H10, was connecting points) en 'at a cursory level' (H7, was
+'cursory alignment' tussen aanhalingstekens). Voorbeelden die niet uit het boek
+komen (nooddeur, klep in de waterzuivering) staan als voorbeeld gelabeld.
+Niet gedaan: modelantwoorden van sessie 5, 6 en 8 regel voor regel.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
