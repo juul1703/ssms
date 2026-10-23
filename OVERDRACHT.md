@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v138**.
+Stand: 23 oktober 2026, service worker **v139**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -78,6 +78,7 @@ bestanden.
 | `drm-college-2.js` | DRM sessie 2, workshop 1 (Carinhas en Lindhout); nieuw in v111 |
 | `drm-college-4.js` | DRM sessie 4 in het programma, lecture 2: Understanding the problem, 6W; nieuw in v111 |
 | `drm-college-5.js` | DRM sessie 5, workshop 2: 6W op de phishing-case (Shop & Go), modelantwoorden, bewijskaart en een vast stappenplan voor elke 6W-vraag; nieuw in v116 |
+| `drm-h3.js` | DRM Verhoeven H3 (aanleiding, 6W, vooronderzoek), les-id `ch3`, hangt aan sessie 3; Engels met To remember en Quick recap; nieuw in v139 (stond Nederlands in `ssms-inhoud.js`, daar weggehaald) |
 | `faw-college-1.js` | FAW sessie 1: paragrafen en topic sentences (uit de slides en worksheets) |
 | `faw-college-2.js` | FAW sessie 2: de zes technieken en de academische samenvatting |
 | `faw-summary.js` | FAW naslag: How to write an academic summary (stap voor stap, uitgewerkt voorbeeld, oefenartikel); nieuw in v107 |
@@ -123,6 +124,7 @@ drm-conceptlist-3.js
 drm-college-2.js
 drm-college-4.js
 drm-college-5.js
+drm-h3.js
 faw-college-1.js
 faw-college-2.js
 faw-summary.js
@@ -561,7 +563,7 @@ en 2; Governance 5, 6; Society 6; Intro 5, H7, H9; DRM college-5.)
    apart op de lijst); de In plain words-kaders wel in het Engels.
 6. ~~Studiegids em dashes~~ niet nodig (Julie, 12 okt).
 7. ~~Intro H10 vertalen~~ klaar (v130): volledig Engels, recap-tab, quiz van 8 vragen, bronnen, 2 lijstkaarten erbij; titel in vakken.js nu Engels.
-8. **Volgende:** de DRM-hoofdstukken ch3, ch4, ch5, ch13 vertalen naar het Engels, met recaps (zelfde aanpak als H10).
+8. DRM-hoofdstukken vertalen naar het Engels, met To remember en Quick recap. Werkwijze (v139): het hoofdstuk wordt een eigen bestand `drm-h<n>.js` met hetzelfde les-id (`ch<n>`), het blok gaat uit `ssms-inhoud.js` (de rest blijft byte-voor-byte gelijk), scripttag na `drm-college-5.js`, en de naam in `BOEKEN`. ~~ch3~~ klaar (v139). **Volgende:** ch4 en ch5, daarna ch13.
 
 ## 9e. Volgende-knop vinkt af (v126)
 

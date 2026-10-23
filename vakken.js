@@ -101,7 +101,7 @@ var TOETSBLOKKEN = {
     'demystifying-research-methods': {
       groep: 'Boek',
       delen: {
-        ch3:  'H3 De achtergrond van je onderzoek',
+        ch3:  'H3 The background of your research',
         ch4:  'H4 Centrale vraag en doelstelling',
         ch5:  'H5 Begripsafbakening en modelbouw',
         ch13: 'H13 Kwantitatieve data: voorbereiding'
