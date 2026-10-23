@@ -130,7 +130,7 @@ voegOverviewToe("intro-to-safety-security/college-3", {
     {
       "type": "tekst",
       "titel": "The safety chain",
-      "tekst": "Five links, in order: **proaction** (remove the causes), **prevention** (lower the chance and the damage), **preparation** (be ready for what you couldn’t prevent), **repression** (act during the incident) and **recovery** (restore and learn). Communication matters in every link: from who gets consulted on spatial plans, to evacuation messages, to compensation afterwards. The lecturer analyses the **Manila** case link by link, so expect to do the same with another incident."
+      "tekst": "Five links in a **closed loop** (not a straight line: recovery feeds the next round of prevention): **proaction** (remove the causes), **prevention** (lower the chance and the damage), **preparation** (be ready for what you couldn’t prevent), **repression** (act during the incident) and **recovery** (restore and learn). Communication matters in every link: from who gets consulted on spatial plans, to evacuation messages, to compensation afterwards. The lecturer analyses the **Manila** case link by link, so expect to do the same with another incident."
     },
     {
       "type": "tekst",
@@ -140,7 +140,7 @@ voegOverviewToe("intro-to-safety-security/college-3", {
     {
       "type": "tekst",
       "titel": "Talking before and during a crisis",
-      "tekst": "**Risk communication** happens **before**: people aren’t in danger yet, you have time for nuance and dialogue, and the goal is **preparedness**. **Crisis communication** happens **during and after**: time pressure, incomplete info, media everywhere, so you need one voice and one clear instruction, fast. **Lasswell** helps you build a message: **who** says **what**, through **which channel**, to **whom**, with **what effect** (here: increasing preparedness)."
+      "tekst": "The lecture lays **three modes** over the chain. **Risk communication** comes **before** (proaction, prevention, preparation): people aren’t in danger yet, you have time for nuance and dialogue, and the goal is **preparedness**. **Crisis communication** is the **widest arrow**: active before, during and long after the crisis; in the acute phase it’s time pressure, incomplete info and media everywhere, so you need one voice and one clear instruction, fast. **Evaluation** runs from repression to recovery and looks back at what happened (and who’s accountable). Mixing up these registers is a failure in itself. **Lasswell** helps you build a message: **who** says **what**, through **which channel**, to **whom**, with **what effect** (here: increasing preparedness)."
     },
     {
       "type": "tekst",
@@ -149,7 +149,7 @@ voegOverviewToe("intro-to-safety-security/college-3", {
     },
     {
       "type": "uitleg",
-      "tekst": "**If you only remember 5 things**\n\n1. The safety chain: proaction, prevention, preparation, repression, recovery.\n2. Five intervention challenges and nine information criteria.\n3. The security paradox: openness versus containment (the cockpit door).\n4. Risk communication (before) versus crisis communication (during and after); Lasswell’s five questions.\n5. Avianca, Korean Air, Manila: mitigated speech, hierarchy, information without control."
+      "tekst": "**If you only remember 5 things**\n\n1. The safety chain: proaction, prevention, preparation, repression, recovery.\n2. Five intervention challenges and nine information criteria.\n3. The security paradox: openness versus containment (the cockpit door).\n4. Three modes on the chain: risk communication (before), crisis communication (widest: before, during, long after), evaluation (repression to recovery); Lasswell’s five questions.\n5. Avianca, Korean Air, Manila: mitigated speech, hierarchy, information without control."
     }
   ]
 });

@@ -52,7 +52,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
         "type": "tekst",
         "titel": "3.1 The safety chain: five options for intervention",
         "toetsstof": true,
-        "tekst": "The lecture opens with the field you will work in, drawn as a chain of five links. Know the order, because the rest of the session is organised by it.\n\n**[[Proaction]].** Taking away the structural causes of insecurity before anything exists to protect: not building in a flood plain, designing a district so it can be policed.\n**[[Prevention]].** Reducing the chance that a specific incident happens, and limiting its consequences in advance: public awareness, risk assessment and management, conceptual design, early warning.\n**[[Preparation]].** Making sure that if it does happen, you are ready: infrastructure development, emergency planning, training, simulation exercises.\n**[[Repression]].** Acting during the incident: rescue operations, firefighting, evacuation, humanitarian aid.\n**[[Recovery]].** Everything after: damage assessment, compensation, reconstruction, and revision of the plans.\n\n**The point of the slide is not the chain itself but what runs through it.** Every single link is made of **information and communication**. Early warning is communication. Training is communication. Evacuation is communication. Damage assessment is information gathering, and the revision of plans is feeding that information back into proaction.\n\nYour own note from the lecture puts it in one line: information and communication is key **here**, with an arrow pointing at the whole cycle rather than at one link."
+        "tekst": "The lecture opens with the field you will work in, drawn as a chain of five links. Know the order, because the rest of the session is organised by it.\n\n**[[Proaction]].** Taking away the structural causes of insecurity before anything exists to protect: not building in a flood plain, designing a district so it can be policed.\n**[[Prevention]].** Reducing the chance that a specific incident happens, and limiting its consequences in advance: public awareness, risk assessment and management, conceptual design, early warning.\n**[[Preparation]].** Making sure that if it does happen, you are ready: infrastructure development, emergency planning, training, simulation exercises.\n**[[Repression]].** Acting during the incident: rescue operations, firefighting, evacuation, humanitarian aid.\n**[[Recovery]].** Everything after: damage assessment, compensation, reconstruction, and revision of the plans.\n\n**The point of the slide is not the chain itself but what runs through it.** Every single link is made of **information and communication**. Early warning is communication. Training is communication. Evacuation is communication. Damage assessment is information gathering, and the revision of plans feeds that information back into the start of the next cycle. The lecturer stresses that the diagram is a **closed loop, not a straight line**: recovery feeds back into prevention for the next incident, and if that loop breaks you relearn the same lesson at a higher cost.\n\nYour own note from the lecture puts it in one line: information and communication is key **here**, with an arrow pointing at the whole cycle rather than at one link."
       },
       {
         "type": "slimmer",
@@ -86,7 +86,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
         "type": "tekst",
         "titel": "3.4 The information hurdle",
         "toetsstof": true,
-        "tekst": "Interventions need information, and not just any information. The slide gives **nine quality criteria**: information must be **accurate, concise, believable, complete, clear, valid, objective, redundant and up to date**.\n\n**Redundant** is the one that looks out of place and is not. In ordinary writing redundancy is a fault; in an intervention it is a safeguard. If the same critical fact reaches the command post through two independent routes, a single broken link does not blind the operation.\n\n**Why it is called a hurdle.** The lecture then lists what stands between you and that quality:\n- **Systems may be too inflexible** and subject to **legal limitations**, so the information exists but may not be shared.\n- **Information unreliability**: what comes in is incomplete, out of date or simply wrong.\n- **Vulnerability of communication structures**: the network itself can fail or be attacked.\n- **Time pressure.**\n- **Different actors with different agendas**, so what is shared is shaped by what each party wants the others to know.\n\n**[[Situation assessment]]** is the reason all this matters: it is the basis for decision-making and for collaboration. Two agencies with different pictures of the same situation cannot coordinate, however good their intentions.\n\n**The example: [[Ushahidi]].** The lecture points at data collection in humanitarian emergencies, where the classic methods are surveys and surveillance. Ushahidi is the platform first built during the 2007 to 2008 post-election violence in Kenya that let ordinary people report incidents by text message and mapped them in near real time. It is the standard example of **crowdsourced crisis information**: fast and wide, but with reliability and verification as its weak point, which is exactly the trade-off the nine criteria describe."
+        "tekst": "Interventions need information, and not just any information. The slide gives **nine quality criteria**: information must be **accurate, concise, believable, complete, clear, valid, objective, redundant and up to date**.\n\n**The lecturer’s question: which two are hardest to meet at the same time?** **Complete and up to date.** The longer you wait for a complete picture, the more out of date it is by the time you act. You always decide on information that is incomplete or already slightly stale; you cannot escape that trade-off, only manage it.\n\n**Redundant** is the one that looks out of place and is not. In ordinary writing redundancy is a fault; in an intervention it is a safeguard. If the same critical fact reaches the command post through two independent routes, a single broken link does not blind the operation.\n\n**Why it is called a hurdle.** The lecture then lists what stands between you and that quality:\n- **Systems may be too inflexible** and subject to **legal limitations**, so the information exists but may not be shared.\n- **Information unreliability**: what comes in is incomplete, out of date or simply wrong.\n- **Vulnerability of communication structures**: the network itself can fail or be attacked.\n- **Time pressure.**\n- **Different actors with different agendas**, so what is shared is shaped by what each party wants the others to know.\n\n**[[Situation assessment]]** is the reason all this matters: it is the basis for decision-making and for collaboration. Two agencies with different pictures of the same situation cannot coordinate, however good their intentions.\n\n**The example: [[Ushahidi]].** The lecture points at data collection in humanitarian emergencies, where the classic methods are surveys and surveillance. Ushahidi is the platform first built during the 2007 to 2008 post-election violence in Kenya that let ordinary people report incidents by text message and mapped them in near real time. It is the standard example of **crowdsourced crisis information**: fast and wide, but with reliability and verification as its weak point, which is exactly the trade-off the nine criteria describe."
       },
       {
         "type": "slimmer",
@@ -106,11 +106,11 @@ LESSTOF['intro-to-safety-security/college-3'] = [
         "type": "tekst",
         "titel": "3.6 Risk communication and crisis communication",
         "toetsstof": true,
-        "tekst": "The lecture puts the two kinds of communication on the safety chain, and that placement is the whole point.\n\n**[[Risk communication]]** runs **before** the crisis: across [[proaction|Proaction]], [[prevention|Prevention]] and [[preparation|Preparation]]. Its audience is a public or a workforce that is not currently in danger, its purpose is **increasing preparedness**, and it has time on its side.\n\n**[[Crisis communication]]** runs **during and after**: [[repression|Repression]] and [[recovery|Recovery]]. Its audience is in the middle of the event, its purpose is to direct behaviour and reduce harm, and it works under time pressure, with incomplete information and with the media already present.\n\nBetween the two sits **evaluation**, which closes the loop: what you learn in recovery feeds the risk communication of the next cycle.\n\n**Why the distinction matters in practice.** The two are often done by the same department with the same tools and the same tone, and that is a mistake. Risk communication can afford nuance, repetition and dialogue. Crisis communication needs a single clear instruction, one voice, and speed. Confusing the two produces either panic-inducing warnings or unusable crisis messages."
+        "tekst": "The lecture lays three communication modes over the same five-link cycle (risk communication, crisis communication and evaluation), and that placement is the whole point.\n\n**[[Risk communication]]** runs **before** the crisis: across [[proaction|Proaction]], [[prevention|Prevention]] and [[preparation|Preparation]]. Its audience is a public or a workforce that is not currently in danger, its purpose is **increasing preparedness**, and it has time on its side.\n\n**[[Crisis communication]]** is the **widest arrow on the diagram**: the lecturer stresses that it does not only switch on during the emergency, but is active **before, during and long after** the crisis. Its core is the acute phase ([[repression|Repression]]), where the audience is in the middle of the event, the purpose is to direct behaviour and reduce harm, and it works under time pressure, with incomplete information and with the media already present.\n\nThe third mode is **evaluation**, which covers **repression through to recovery**: slower and more analytical, often more adversarial because people are looking for accountability. It closes the loop: what you learn feeds the risk communication of the next cycle.\n\nThe lecturer’s point: the three modes need **different skills and registers**, and confusing them is itself a serious communication failure.\n\n**Why the distinction matters in practice.** The two are often done by the same department with the same tools and the same tone, and that is a mistake. Risk communication can afford nuance, repetition and dialogue. Crisis communication needs a single clear instruction, one voice, and speed. Confusing the two produces either panic-inducing warnings or unusable crisis messages."
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nRisk communication happens before a crisis, to help people prepare. Crisis communication happens during and after, to tell people what to do."
+        "tekst": "**In plain words**\n\nRisk communication happens before a crisis (proaction, prevention, preparation), to help people prepare. Crisis communication is the widest: it is active before, during and long after the crisis, and in the acute phase it tells people what to do, fast. Evaluation runs from repression to recovery and looks back at what happened."
       },
       {
         "type": "tekst",
@@ -172,7 +172,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
           },
           {
             "begrip": "Recovery",
-            "definitie": "Everything after the incident: damage assessment, compensation, reconstruction, and revision of the plans, which feeds back into proaction."
+            "definitie": "Everything after the incident: damage assessment, compensation, reconstruction, and revision of the plans, which feeds back into the next cycle (the chain is a closed loop)."
           },
           {
             "begrip": "Why definitions matter (list)",
@@ -224,7 +224,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
           },
           {
             "begrip": "Crisis communication",
-            "definitie": "Communication during and after the incident, in repression and recovery, aimed at directing behaviour and reducing harm under time pressure and with incomplete information. It needs one voice, one clear instruction and speed."
+            "definitie": "The widest of the three modes on the lecture’s diagram: active before, during and long after the crisis, not only during the emergency. In the acute phase it aims at directing behaviour and reducing harm under time pressure and with incomplete information, which needs one voice, one clear instruction and speed."
           },
           {
             "begrip": "Lasswell’s model (list)",
@@ -323,7 +323,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
           [
             "Where on the chain",
             "Proaction, prevention, preparation",
-            "Repression and recovery"
+            "Before, during and long after the crisis (the widest arrow); its core is the acute phase"
           ],
           [
             "Audience",
@@ -415,7 +415,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
         "id": "iss3-oef-1",
         "niveau": "basis",
         "vraag": "Name the five links of the safety chain in order, and for each one give a concrete safety or security measure at a university campus, plus the information or communication that measure depends on.",
-        "antwoord": "**1. Proaction.** Measure: siting and designing the building so that crowds can leave quickly and sightlines are open, and not placing a chemistry lab above a lecture hall. Depends on: spatial and policy decisions taken years earlier, and on who was consulted at the design stage.\n\n**2. Prevention.** Measure: access control on lab doors, a maintenance regime for the sprinkler system, an awareness campaign about tailgating. Depends on: risk assessment, and on the awareness message actually reaching students rather than being a poster nobody reads.\n\n**3. Preparation.** Measure: an evacuation plan with marshals per floor, twice-yearly drills, a mass notification system tested in advance. Depends on: training, simulation exercises, and up-to-date contact and floor-occupancy data.\n\n**4. Repression.** Measure: the evacuation itself, the emergency services entering, first aid. Depends on: situation assessment and clear orders, and on the alarm being interpretable (what do people actually do when they hear it?).\n\n**5. Recovery.** Measure: counselling, repairs, resuming teaching, the investigation. Depends on: damage assessment, and on feeding what you learn back into the plans, which closes the loop to proaction.\n\n**The point of the exercise:** every link fails on information rather than on hardware. The sprinkler is fine; nobody logged that it was not serviced. The plan is fine; the marshals were never trained. That is the lecture's thesis in practice."
+        "antwoord": "**1. Proaction.** Measure: siting and designing the building so that crowds can leave quickly and sightlines are open, and not placing a chemistry lab above a lecture hall. Depends on: spatial and policy decisions taken years earlier, and on who was consulted at the design stage.\n\n**2. Prevention.** Measure: access control on lab doors, a maintenance regime for the sprinkler system, an awareness campaign about tailgating. Depends on: risk assessment, and on the awareness message actually reaching students rather than being a poster nobody reads.\n\n**3. Preparation.** Measure: an evacuation plan with marshals per floor, twice-yearly drills, a mass notification system tested in advance. Depends on: training, simulation exercises, and up-to-date contact and floor-occupancy data.\n\n**4. Repression.** Measure: the evacuation itself, the emergency services entering, first aid. Depends on: situation assessment and clear orders, and on the alarm being interpretable (what do people actually do when they hear it?).\n\n**5. Recovery.** Measure: counselling, repairs, resuming teaching, the investigation. Depends on: damage assessment, and on feeding what you learn back into the plans, which closes the loop to the start of the next cycle.\n\n**The point of the exercise:** every link fails on information rather than on hardware. The sprinkler is fine; nobody logged that it was not serviced. The plan is fine; the marshals were never trained. That is the lecture's thesis in practice."
       },
       {
         "type": "oefening",
@@ -464,7 +464,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
               "Proaction, preparation, prevention, repression, recovery"
             ],
             "juist": 1,
-            "uitleg": "Proaction removes structural causes; prevention lowers the chance of a specific incident. Recovery feeds back into proaction, which is why it is drawn as a cycle."
+            "uitleg": "Proaction removes structural causes; prevention lowers the chance of a specific incident. Recovery feeds back into the next cycle (prevention), which is why it is drawn as a closed loop."
           },
           {
             "vraag": "Early warning belongs to which link?",
@@ -552,7 +552,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
               "Throughout, it is the same as crisis communication"
             ],
             "juist": 1,
-            "uitleg": "Crisis communication is the one in repression and recovery. Its purpose is directing behaviour under time pressure; risk communication aims at increasing preparedness."
+            "uitleg": "Risk communication runs before the crisis and aims at increasing preparedness. Crisis communication is the widest mode (before, during and long after, with its core in the acute phase), and evaluation runs from repression to recovery."
           },
           {
             "vraag": "In Lasswell’s model applied to risk communication, what is the fifth element?",
@@ -634,7 +634,7 @@ LESSTOF['intro-to-safety-security/college-3'] = [
           },
           {
             "doel": "Distinguish risk from crisis communication and place both on the chain",
-            "uitleg": "Before against during and after; preparedness against directing behaviour."
+            "uitleg": "Risk communication before the crisis, crisis communication before, during and long after (widest), evaluation from repression to recovery; preparedness against directing behaviour."
           },
           {
             "doel": "Apply Lasswell with all five elements and name its weakness",

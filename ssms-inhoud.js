@@ -1757,7 +1757,7 @@ LESSTOF["intro-to-safety-security/h3"] = [
           },
           {
             "begrip": "Swiss cheese model",
-            "definitie": "The more recent name for the domino model: accidents as a chain of failure events. No longer fully explains today’s accidents."
+            "definitie": "Reason’s model of accidents as holes in successive layers of defence lining up. Leveson treats it as the more recent version of the domino model: both see accidents as a chain of failure events, which in her view no longer fully explains today’s accidents."
           },
           {
             "begrip": "STAMP",
@@ -2178,12 +2178,20 @@ LESSTOF["intro-to-safety-security/h5"] = [
           {
             "titel": "Sufficient capacity and competence",
             "tekst": "to identify and respond to the security challenges the company faces."
+          },
+          {
+            "titel": "A holistic approach",
+            "tekst": "to managing security risks, as an integrated part of core processes and deliveries."
+          },
+          {
+            "titel": "Transparent, inclusive, active and authoritative risk management processes",
+            "tekst": "run by an organisation able to identify and act on potential threats."
           }
         ]
       },
       {
         "type": "tekst",
-        "tekst": "4. A **holistic approach** to managing security risks, as an integrated part of core processes and deliveries.\n5. **Transparent, inclusive, active and authoritative risk management processes**, run by an organisation able to identify and act on potential threats.\n\nJore accepts that the way the committee uses the concept, and its recommendations, match the common understanding of how you build a security culture. But the recommendation to build a security culture **separate from safety** may be more problematic than it seems. If organisations put resources into building a strong security culture, such programmes ought to rest on a **scientific foundation**.\n\nHence the question: how does the concept of security culture hold up under scientific scrutiny?"
+        "tekst": "Jore accepts that the way the committee uses the concept, and its recommendations, match the common understanding of how you build a security culture. But the recommendation to build a security culture **separate from safety** may be more problematic than it seems. If organisations put resources into building a strong security culture, such programmes ought to rest on a **scientific foundation**.\n\nHence the question: how does the concept of security culture hold up under scientific scrutiny?"
       },
       {
         "type": "waarschuwing",

@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v142**.
+Stand: 23 oktober 2026, service worker **v143**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -651,6 +651,41 @@ Gevonden en hersteld:
   slice-vervanging in `ssms-inhoud.js`; de rest van het bestand blijft gelijk).
 - Lege `tekst`-blokken in samengevoegde sessies zijn de hoofdstukkopjes van
   `voegSamen()`: geen fout. "TBD" in H3 komt uit het boek (STPA-voorbeeld).
+
+## 9k. Bron-controle Intro (v143)
+
+Julie leunt volledig op de app voor haar toetsen: **inhoud moet kloppen met de
+bron**. Werkwijze per les: (1) elke samenvatting (In plain words, Quick
+recap, To remember, flashcards, quiz-uitleg, modelantwoorden) naast de
+kernstof; (2) de kernstof naast de originele bron (slides met sprekersnotities,
+het boek).
+
+Gedaan in v143:
+- **Slides 1, 3 en 5** (pptx met sprekersnotities, van Julie) naast
+  `intro-college-1.js`, `-3.js` en `-5.js` gelegd. Sessie 1 en 5 kloppen.
+  Sessie 3 had een echte fout: volgens de sprekersnotities zijn er **drie
+  communicatievormen** over de keten gelegd: risk communication (proaction,
+  prevention, preparation), **crisis communication als breedste pijl (voor,
+  tijdens en lang na de crisis)** en evaluation (repression tot recovery). De les
+  zei dat crisis communication alleen tijdens en na liep. Hersteld in de
+  kernstof, In plain words, flashcard, tabel, quiz-uitleg, checklist en de Quick
+  recap. Ook toegevoegd: de keten is een **gesloten kringloop** (recovery voedt
+  prevention van de volgende ronde), en de vraag van de docent welke twee
+  criteria het moeilijkst samengaan (**complete en up to date**).
+- **Alle quizvragen** van Intro sessie 1-8 (135) nagelopen: juiste antwoorden
+  kloppen met de kernstof.
+- **Alle lijstkaarten en de gewone flashcards** nagelopen. Swiss cheese-kaart
+  (H3) preciezer gemaakt.
+- **Alle modelantwoorden** van sessie 1-4 gelezen; de bewering over de
+  Noorse petroleumbedrijven in H5 klopt met het boek (Jore, 5.7).
+- **H5 (Jore) naast de echte hoofdtekst** gelegd (Springer-pagina,
+  open access): klopt. Opmaakfout hersteld: de vijf kenmerken van een sterke
+  security culture stonden als drie stappen plus losse tekst "4." en "5.".
+
+Nog niet tegen de bron: Bieder H1, H2, H3, H7, H9 en H10, en de
+modelantwoorden van sessie 5, 6 en 8 (die zijn wel naast de kernstof gelegd
+via quiz en kaarten). De boek-PDF is via `web_fetch` niet als tekst te lezen;
+vraag Julie de PDF te uploaden en lees met `pdftotext`.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
