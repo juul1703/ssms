@@ -1,9 +1,8 @@
 /* ============================================================
    Intro to Safety & Security, mid-term review (sessie 1-8)
    ============================================================
-   Nieuw in v146. Samenvatting van alle mid-term-stof, opgebouwd uit
+   Nieuw in v146, oefentoets in v147. Samenvatting van alle mid-term-stof, opgebouwd uit
    de gecontroleerde sessielessen (v141-v146) en de slides 1-6.
-   De oefentoets (Applying it, Check yourself) volgt in v147.
    ============================================================ */
 
 LESSTOF['intro-to-safety-security/midterm'] = [
@@ -183,7 +182,7 @@ LESSTOF['intro-to-safety-security/midterm'] = [
       },
       {
         "type": "tekst",
-        "tekst": "**Jore (ch. 5): security culture.** The case is **In Amenas** (16 January 2013): 32 terrorists attacked an Algerian gas facility with almost 800 workers; 40 people from 10 countries were killed, five of them from Statoil. Statoil's investigation named a lacking security culture.\n\nJore's distinction is **malicious intent**, not intentionality: a worker who deliberately skips goggles acts intentionally, but that is still safety. Judged on **Gerring's eight criteria**, security culture scores high on familiarity and resonance, low on parsimony, coherence, differentiation and depth, and mixed on utility.\n\nThree safety ideas do not transfer easily: **just culture**, **everyone committed** (does that mean suspicion of colleagues?) and **weak signals** (attackers hide their plans). Her conclusion: security and safety culture should be **understood separately, but in practical reality not treated as distinct**."
+        "tekst": "**Jore (ch. 5): security culture.** The case is **In Amenas** (16 January 2013): 32 terrorists attacked an Algerian oil facility with almost 800 workers; 40 people from 10 countries were killed, five of them from Statoil. Statoil's investigation named a lacking security culture.\n\nJore's distinction is **malicious intent**, not intentionality: a worker who deliberately skips goggles acts intentionally, but that is still safety. Judged on **Gerring's eight criteria**, security culture scores high on familiarity and resonance, low on parsimony, coherence, differentiation and depth, and mixed on utility.\n\nThree safety ideas do not transfer easily: **just culture**, **everyone committed** (does that mean suspicion of colleagues?) and **weak signals** (attackers hide their plans). Her conclusion: security and safety culture should be **understood separately, but in practical reality not treated as distinct**."
       },
       {
         "type": "slimmer",
@@ -514,6 +513,265 @@ LESSTOF['intro-to-safety-security/midterm'] = [
         "type": "tekst",
         "titel": "Session 8 and the threads",
         "tekst": "**Session 8:** Boustras: the two meet at the individual worker, 9/11 first responders, systems of systems, social exclusion as an unproven hinge. **Threads:** intent, openness against secrecy, merge or separate, definitions shape solutions, people."
+      }
+    ]
+  },
+  {
+    "id": "toepassen",
+    "titel": "Applying it",
+    "blokken": [
+      {
+        "type": "oefening",
+        "id": "intro-mid-oef-1",
+        "niveau": "gevorderd",
+        "vraag": "**Case: a city festival.** A city organises a three-day music festival. Its objective: visitors and staff can enjoy and work at the festival without serious harm or disruption.\n\n(a) Give one safety risk and one security risk, and explain the difference with Blokland and Reniers (ch. 2).\n(b) Apply the two axes of chapter 1 to a deliberate act of your choice that ends up harming the area around the festival.\n(c) Name for two links of the safety chain what communication should do there.",
+        "antwoord": "**(a)** Any pair works if the reasoning is right. Safety: a crowd crush at an exit that is too narrow. Security: someone deliberately starting a fire. Both touch the **same objective**; what differs is the nature of the negative effect: unintentional against **intentional**. That is the campus logic of session 2, and why Blokland and Reniers call security a **subset** of safety.\n\n**(b)** For example: someone deliberately dumps waste from the festival into the river. Axis 1 (intentionality): on purpose, so **security**. Axis 2 (direction of harm): the system harms its environment, so **safety**. The axes disagree, which is exactly the grey area chapter 1 describes.\n\n**(c)** For example: **prevention**: public awareness and early warning, such as clear information on exits and weather; **repression**: situation assessment, orders and evacuation messages, with one voice and one clear instruction. Other links also count, if you name what communication does there (session 3)."
+      },
+      {
+        "type": "oefening",
+        "id": "intro-mid-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "**Germanwings 9525 across the course.** The case appears in session 3 and in chapter 9.\n\n(a) Explain how session 3 uses it, and how Schulman uses it.\n(b) What does the case say about the claim that good safety management takes care of security too?\n(c) Which other author's point about openness and secrecy fits the case, and why?",
+        "antwoord": "**(a)** Session 3 uses it for the **security paradox**: safety runs on openness, security on containment, and the cockpit doors hardened after 9/11 also locked out crewmates. Schulman uses it for **reciprocal vulnerability**: the hardened door protected against intruders and protected the attacker already inside.\n\n**(b)** Schulman calls that claim a **convenient untruth**. Germanwings shows why: a security measure created a new vulnerability, and hostile strategy can use your own protections against you. Separating the missions creates the risk that nobody notices when one undermines the other.\n\n**(c)** For example the editors (ch. 11, 11.2.3): \"in safety we trust, in security we distrust\": the same employee is trusted for safety and potentially a threat for security. Or Jore (ch. 5): a security culture where everyone is committed raises the question whether that means suspicion of colleagues."
+      },
+      {
+        "type": "oefening",
+        "id": "intro-mid-oef-3",
+        "niveau": "gevorderd",
+        "vraag": "**After an attack on a production site.** Armed attackers take hostages at an oil and gas site abroad. Afterwards, the company's report says a lacking security culture explains what happened, and that a stronger security culture is the solution.\n\n(a) Which real case is this based on, and what does Jore think of the concept of security culture?\n(b) What does Boustras say the company should expect among its employees in the months and years afterwards?\n(c) What does Boustras propose for workers' role in security?",
+        "antwoord": "**(a)** **In Amenas** (16 January 2013): 32 terrorists, almost 800 workers, 40 people from 10 countries killed, five from Statoil. Statoil's report used security culture both as an explanation and as the solution. Jore finds the concept **needed but poorly demarcated**: on Gerring's criteria it scores high on familiarity and resonance but low on parsimony, coherence, differentiation and depth. Safety ideas such as just culture and weak signals do not transfer easily, because security has an adversary. Her conclusion: understand security and safety culture separately, but do not treat them as distinct in practice.\n\n**(b)** Direct effects (injury, death) and slow, invisible ones: **psychosocial problems** that can show long afterwards, and damaged **trust** that the employer can keep them safe (ch. 10).\n\n**(c)** **Worker participation**: the legally binding health and safety committees could be replicated to build a security culture, with training, risk assessment and policies typical for both. He adds a difference: in safety the legal duty is on the employer, in security the state provides the backbone."
+      }
+    ]
+  },
+  {
+    "id": "checken",
+    "titel": "Check yourself",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Practice exam: twenty questions across sessions 1 to 8",
+        "vragen": [
+          {
+            "vraag": "A hacker remotely makes a water treatment plant release untreated water into a lake. How do the two axes of chapter 1 classify this?",
+            "opties": [
+              "Both axes say security",
+              "Both axes say safety",
+              "Intentionality says security; the direction of harm says safety, because the system harms its environment",
+              "Intentionality says safety; the direction of harm says security"
+            ],
+            "juist": 2,
+            "uitleg": "Axis 1 asks whether it was done on purpose (yes: security). Axis 2 asks which way the harm goes: here the system harms the environment, which is the safety direction. The two axes can disagree; that grey area is what the book is about (ch. 1)."
+          },
+          {
+            "vraag": "Two parties' objectives are 120 degrees apart and the likelihood of intentional negative effects on objectives is high. Which term do Blokland and Reniers use specifically for this condition?",
+            "opties": [
+              "Unsecurity",
+              "Security",
+              "Safety",
+              "Unsafety"
+            ],
+            "juist": 0,
+            "uitleg": "Unsecurity needs both conditions: low alignment of objectives (more than 90 degrees apart) and a high likelihood of intentional negative effects (ch. 2)."
+          },
+          {
+            "vraag": "A cleaner props open a fire door to air a room, and a burglar walks in and steals laptops. Why is the burglary a security matter for Blokland and Reniers?",
+            "opties": [
+              "Because the cleaner acted on purpose",
+              "Because the open door is a hazard",
+              "Because two separate acts were intentional",
+              "Because the burglar intends a negative effect on the organisation's objectives"
+            ],
+            "juist": 3,
+            "uitleg": "\"Intentional\" in their definition refers to the effect on objectives, not to the act itself. The cleaner acted on purpose but did not intend harm; the burglar does (ch. 2, the second trap)."
+          },
+          {
+            "vraag": "A ship sails close to a reef in calm weather. Following Leveson's definition, what is the hazard?",
+            "opties": [
+              "The reef",
+              "The ship being too close to the reef",
+              "A possible storm",
+              "The captain's fatigue"
+            ],
+            "juist": 1,
+            "uitleg": "A hazard is a system state, not a feature of the environment: the mountain is not the hazard, flying too close to it is (Leveson, ch. 3). The reef is the environment; the storm is the worst-case environmental condition."
+          },
+          {
+            "vraag": "After a cyberattack stopped the cranes in a container port, the port wants to analyse what went wrong. Which of Leveson's tools fits?",
+            "opties": [
+              "STPA",
+              "CAST",
+              "STAMP",
+              "The Swiss cheese model"
+            ],
+            "juist": 1,
+            "uitleg": "CAST is the tool built on STAMP for losses that have already happened; STPA is for losses that have not yet happened; STAMP is the model underneath (ch. 3)."
+          },
+          {
+            "vraag": "Leveson argues that in Stuxnet the best control is the same whether the error was accidental or an attack. Which point from Schulman (ch. 9) most limits how far you can generalise that?",
+            "opties": [
+              "HROs preclude catastrophic events deterministically",
+              "Lateral communication keeps the system focus",
+              "Reliability professionals are not defined by diplomas",
+              "Hostile strategy targets vulnerabilities and can use your protections against you"
+            ],
+            "juist": 3,
+            "uitleg": "An accident does not react to your control; an adversary does. Schulman's Germanwings example shows a protection being used against you (reciprocal vulnerability). The other options describe how HROs manage safety, not why security differs."
+          },
+          {
+            "vraag": "In Wipf's approach, why is a storm a safety problem and a ransomware gang a security problem?",
+            "opties": [
+              "A storm does not react to your strategy, while the gang is a second player who does, so game theory applies",
+              "A storm is less likely than an attack",
+              "The gang's intent is only known afterwards",
+              "A storm only causes physical damage"
+            ],
+            "juist": 0,
+            "uitleg": "Wipf counts the players: with zero or one player it is safety, with two or more it is security, and then game theory enters (ch. 4, as presented in session 5)."
+          },
+          {
+            "vraag": "Which two authors both make the point that warning signs work less well in security because an attacker keeps them hidden?",
+            "opties": [
+              "Leveson and Wipf",
+              "Brooks and Coole and La Porte",
+              "Jore and Schulman",
+              "Blokland and Reniers and Boustras"
+            ],
+            "juist": 2,
+            "uitleg": "Jore: learning from weak signals is problematic when perpetrators are strategic and do not reveal their plans (ch. 5). Schulman: a perpetrator will try to keep precursor actions and information secret (ch. 9)."
+          },
+          {
+            "vraag": "Which of the following is NOT an example from the course of safety's openness clashing with security's secrecy?",
+            "opties": [
+              "Just culture, which assumes nobody meant harm (Jore)",
+              "Publishing research results (ch. 1)",
+              "Lateral communication against restricted information (Schulman)",
+              "Lasswell's five elements of communication"
+            ],
+            "juist": 3,
+            "uitleg": "Lasswell's model (session 3) describes how communication works, not a clash. The other three are all forms of the openness-secrecy tension that runs through the course."
+          },
+          {
+            "vraag": "A municipality publishes its full vulnerability analysis of its bridges online, to be transparent. Which concept from Schulman describes the risk?",
+            "opties": [
+              "A convenient untruth",
+              "The risk of risk assessment: a known vulnerability analysis can guide an attacker",
+              "Design-based vulnerability",
+              "Precursor resilience"
+            ],
+            "juist": 1,
+            "uitleg": "Schulman warns about the risks of risk assessments themselves: if known, a vulnerability assessment can point hostile action to targets, including those assessed as low risk (ch. 9)."
+          },
+          {
+            "vraag": "A chemical plant wants inspectors and emergency services to have easy access to the site, while its security manager wants fences and badge control. Which of Schulman's four tensions is this?",
+            "opties": [
+              "Accessibility against hardening",
+              "Lateral communication against restricted information",
+              "Anticipation against resilience",
+              "Emergency coordination against security frameworks"
+            ],
+            "juist": 0,
+            "uitleg": "Safety management wants accessibility for cooperation and inspection; security management wants hardening: guns, gates and guards (ch. 9)."
+          },
+          {
+            "vraag": "A company merges its safety and security departments into one department under one manager. Which authors would warn that merging dilutes understanding and boundaries?",
+            "opties": [
+              "Leveson",
+              "Wipf",
+              "Brooks and Coole",
+              "Boustras"
+            ],
+            "juist": 2,
+            "uitleg": "Brooks and Coole conclude that merging the two professions into a single practice only dilutes understanding and boundaries (ch. 7). Leveson argues the opposite for analysis."
+          },
+          {
+            "vraag": "An SSMS student argues that one degree can prepare for both safety and security work. Which finding of Brooks and Coole supports her best?",
+            "opties": [
+              "Both are bounded by the workplace",
+              "Both rest on the same underlying theories",
+              "Both follow ISO 31000 and align on risk management, controls, management and professional practice",
+              "Both have the same legislation"
+            ],
+            "juist": 2,
+            "uitleg": "Brooks and Coole find alignment on four points and polarity on three (hazards against threats, technologies, underlying theories). Legislation and boundedness differ (ch. 7)."
+          },
+          {
+            "vraag": "Which statement about legal duties fits both Brooks and Coole (ch. 7) and Boustras (ch. 10)?",
+            "opties": [
+              "Safety comes with a clearer legal duty at the level of the organisation than security",
+              "Security has more legislation than safety",
+              "Both fields are regulated in the same way",
+              "Neither field has legal duties"
+            ],
+            "juist": 0,
+            "uitleg": "Brooks and Coole: safety has explicit legislation (in their Australian example), security almost none apart from a licence in parts of the industry. Boustras: in safety the legal duty is on the employer, in security the state provides the backbone."
+          },
+          {
+            "vraag": "La Porte places a military unit with strong security but frequent training accidents in which group?",
+            "opties": [
+              "Both strong, with nuclear power operations",
+              "Safety strong, security needs work, with NASA",
+              "Both need work, with hospitals",
+              "Security strong, safety needs work, with weapons labs and intelligence IT"
+            ],
+            "juist": 3,
+            "uitleg": "In Fig. 8.1, military units sit with intelligence IT and weapons labs: security strong, safety needs work (ch. 8, session 5)."
+          },
+          {
+            "vraag": "Months after a terrorist attack at a train station, several station staff suffer from anxiety and stay home. Boustras would see this as:",
+            "opties": [
+              "A security problem only",
+              "A slow and invisible safety effect of a security incident",
+              "An effect of the financial crisis",
+              "A cascading failure in a system of systems"
+            ],
+            "juist": 1,
+            "uitleg": "Security incidents have direct, visible effects and slow, invisible ones such as psychosocial problems; this is where safety and security meet at the level of the individual worker (ch. 10)."
+          },
+          {
+            "vraag": "A city texts residents of one street: \"Leave your homes now, there is a gas leak.\" Which link of the safety chain and which kind of communication is this?",
+            "opties": [
+              "Repression, crisis communication",
+              "Prevention, risk communication",
+              "Preparation, risk communication",
+              "Recovery, crisis communication"
+            ],
+            "juist": 0,
+            "uitleg": "Repression is acting during the incident, with evacuation messages. People in the middle of the event need crisis communication: one voice, one clear instruction, speed (session 3)."
+          },
+          {
+            "vraag": "After a flood-awareness campaign, the municipality checks whether more households now keep an emergency kit. Which element of Lasswell's model does it measure?",
+            "opties": [
+              "Who",
+              "In which channel",
+              "To whom",
+              "With what effect"
+            ],
+            "juist": 3,
+            "uitleg": "In the risk communication version (Rahman and Munadi, 2019) the effect is increasing preparedness (session 3)."
+          },
+          {
+            "vraag": "At a joint exercise, police officers talk about \"the hot zone\" and hospital staff do not know what they mean. Which of the five intervention challenges is this?",
+            "opties": [
+              "Stress and uncertainty",
+              "Language and jargon",
+              "Different concepts of time",
+              "Type of personnel and level of professionalism"
+            ],
+            "juist": 1,
+            "uitleg": "Language and jargon is one of the five intervention challenges, and it affects the quality of perception (session 3)."
+          },
+          {
+            "vraag": "An adviser measures whether new lighting on a campus has reduced incidents. Which of the four core tasks from session 1 is this?",
+            "opties": [
+              "Identify, analyse and assess",
+              "Design and recommend",
+              "Evaluate",
+              "Implement and coordinate"
+            ],
+            "juist": 2,
+            "uitleg": "Evaluating interventions asks whether they were effective. It is the fourth task, after which the cycle closes (session 1)."
+          }
+        ]
       },
       {
         "type": "bronnen",

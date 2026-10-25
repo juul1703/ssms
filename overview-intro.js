@@ -195,7 +195,7 @@ voegOverviewToe("intro-to-safety-security/h5", {
     {
       "type": "tekst",
       "titel": "In Amenas",
-      "tekst": "On **16 January 2013**, 32 terrorists attacked the **In Amenas** gas facility in Algeria, with almost 800 workers on site. After a four-day siege, **40 people from 10 countries** were dead, five of them from **Statoil**. Statoil’s investigation said a lacking **security culture** was part of the explanation and building one was the solution. Jore asks: is that even a good concept?"
+      "tekst": "On **16 January 2013**, 32 terrorists attacked the **In Amenas** oil facility in Algeria, with almost 800 workers on site. After a four-day siege, **40 people from 10 countries** were dead, five of them from **Statoil**. Statoil’s investigation said a lacking **security culture** was part of the explanation and building one was the solution. Jore asks: is that even a good concept?"
     },
     {
       "type": "tekst",

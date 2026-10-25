@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v146**.
+Stand: 23 oktober 2026, service worker **v147**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -730,6 +730,15 @@ occupational medicine..." (niet in H7) en To remember-tabel H7 ("directed",
 "ergonomics"); H10 kernstof "That is the bridge Boustras builds" (meten met surveys,
 climate, reporting structures staat niet in H10; zijn eigen voorstel is worker
 participation via de health and safety committees), ook in To remember en Quick recap.
+
+**v147: Intro mid-term-les, deel 2: de oefentoets.** Check yourself: twintig nieuwe
+MC-vragen (toepassen, scenario's, vakoverstijgend), antwoordposities gespreid, in de
+browser 20/20 bij de juiste antwoorden. Applying it: drie open examenvragen (festival,
+Germanwings door het hele vak, In Amenas met Jore en Boustras). Bouwscripts staan niet in
+de repo; de les is gewoon JSON in `intro-midterm.js`.
+Ook hersteld: In Amenas heet in het boek een **oil facility** ("Algerian oil facility",
+grootste aanslag in de olie- en gasindustrie); de lessen zeiden "gas facility" of "gas
+plant" (H5-kernstof en begrip, Quick recap, To remember, sessie 5).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

@@ -299,7 +299,7 @@ voegRecapToe("intro-to-safety-security/h5", {
   "blokken": [
     {
       "type": "tekst",
-      "tekst": "**Chapter 5 (Jore)** asks whether \"security culture\" is an adequate concept.\n\n**In Amenas, 16 January 2013**: 32 terrorists attacked an Algerian gas facility with almost 800 workers; a four-day siege; **40 people from 10 countries** killed, five from Statoil. Statoil's investigation named a lacking **security culture** as an explanation and as the solution. Jore asks: how **adequate** is the concept, how does it relate to **safety culture**, and are they a **duality** or separate?"
+      "tekst": "**Chapter 5 (Jore)** asks whether \"security culture\" is an adequate concept.\n\n**In Amenas, 16 January 2013**: 32 terrorists attacked an Algerian oil facility with almost 800 workers; a four-day siege; **40 people from 10 countries** killed, five from Statoil. Statoil's investigation named a lacking **security culture** as an explanation and as the solution. Jore asks: how **adequate** is the concept, how does it relate to **safety culture**, and are they a **duality** or separate?"
     },
     {
       "type": "uitleg",

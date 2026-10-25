@@ -2111,7 +2111,7 @@ LESSTOF["intro-to-safety-security/h5"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nIn 2013 terrorists attacked a gas plant in Algeria and 40 people died. Afterwards, the company Statoil was told to build a security culture."
+        "tekst": "**In plain words**\n\nIn 2013 terrorists attacked an oil facility in Algeria and 40 people died. Afterwards, the company Statoil was told to build a security culture."
       },
       {
         "type": "waarschuwing",
@@ -2350,7 +2350,7 @@ LESSTOF["intro-to-safety-security/h5"] = [
         "items": [
           {
             "begrip": "In Amenas",
-            "definitie": "Algerian gas facility where on 16 January 2013 thirty-two terrorists began a four-day siege; 40 people from 10 countries were killed, among them five Statoil employees. The largest terrorist attack in the history of the oil and gas industry."
+            "definitie": "Algerian oil facility where on 16 January 2013 thirty-two terrorists began a four-day siege; 40 people from 10 countries were killed, among them five Statoil employees. The largest terrorist attack in the history of the oil and gas industry."
           },
           {
             "begrip": "Statoil",
