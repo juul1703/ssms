@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v145**.
+Stand: 23 oktober 2026, service worker **v146**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -717,6 +717,19 @@ Let op: de Intro-slides heten `_1__...pptx` t/m `_5__...pptx` (platte tekst);
   argument. H9: "convenient" en de just culture-zin preciezer. H10: "captured terrorists
   (allegedly)", "personal grievance and willingness to take revenge", worker participation.
 Nog niet tegen slides: sessie 8 (H10), want die slides staan niet in het Project.
+
+**v146: Intro mid-term-les, deel 1** (`intro-midterm.js`, les-id `midterm`). Staat via
+`EXTRA` in vakken.js in de groep Colleges met `toetsblok: 'mid'`; vak.js zet een les met
+`toetsblok` in dat blok (nieuwe regel in toetsBlokkenHtml). Tabs: Before you start, Core
+material (kopje per sessie 1-8 plus "The threads"), To remember, Quick recap. Opgebouwd uit
+de gecontroleerde sessielessen; steekproeven tegen slides 1, 2, 3 en 5. Sessie 7 (gastcollege)
+en de recap-slides van sessie 8 ontbreken in het Project en staan als gat in de les. De
+oefentoets (Applying it, Check yourself) volgt in v147.
+Bij het bouwen nog gevonden en hersteld: H7 kernstof "Safety leans on ergonomics,
+occupational medicine..." (niet in H7) en To remember-tabel H7 ("directed",
+"ergonomics"); H10 kernstof "That is the bridge Boustras builds" (meten met surveys,
+climate, reporting structures staat niet in H10; zijn eigen voorstel is worker
+participation via de health and safety committees), ook in To remember en Quick recap.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

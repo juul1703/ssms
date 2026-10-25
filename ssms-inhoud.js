@@ -2897,7 +2897,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
       {
         "type": "waarschuwing",
         "titel": "The subtlety of \"perceived discrimination\"",
-        "tekst": "This is the point many students read past too quickly. Boustras does not say that every workplace discriminates. He says that the employee's **perception** is decisive, not the intention of the colleague who made the joke.\n\nThat matters for your profession for two reasons. First, you cannot remove a perception by saying \"that is not what was meant\". Second, perception **can** be measured, with the same instruments you use to measure subjective safety: surveys, conversations, reports.\n\nThat makes [[radicalisation|Radicalisation]] a theme that can be approached through occupational safety. Not with a security approach of detection and suspicion, but with a safety approach of climate measurement and reporting structures. That is the bridge Boustras builds."
+        "tekst": "This is the point many students read past too quickly. Boustras does not say that every workplace discriminates. He says that the employee's **perception** is decisive, not the intention of the colleague who made the joke.\n\nThat matters for your profession for two reasons. First, you cannot remove a perception by saying \"that is not what was meant\". Second, it makes [[radicalisation|Radicalisation]] a theme that touches occupational safety, not only security.\n\nWhat Boustras himself proposes comes at the end of the chapter: **worker participation**. The legally binding health and safety committees could be replicated to build a security culture, with training, risk assessment and policies typical for both. Measuring perceptions with surveys would be a logical next step, but that is our own extension, not Boustras."
       },
       {
         "type": "tekst",
@@ -3020,7 +3020,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
           ],
           [
             "Radicalisation",
-            "Perceived discrimination and bullying as possible routes; a safety approach (climate, reporting) rather than suspicion"
+            "Perceived discrimination and bullying as possible routes (not proven); Boustras proposes worker participation, copying the health and safety committees"
           ],
           [
             "Financial crisis",

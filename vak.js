@@ -281,6 +281,7 @@
     var html = blokken.map(function(b, i){
       var eigen = items.filter(function(x){
         var n = sessieNr(x.les);
+        if (x.les.toetsblok) return x.les.toetsblok === b.id;
         return n !== null && n >= b.van && n <= b.tot;
       });
       eigen.forEach(function(x){ gebruikt[x.les.id] = true; });

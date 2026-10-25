@@ -366,7 +366,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
       {
         "type": "tekst",
         "toetsstof": true,
-        "tekst": "**Underlying theories: accidents versus crime**\n\nThe underlying theories for safety focus on the **workplace**, and on the **health effects and non-malicious accidents** that arise there.\n\nSecurity focuses on **crime and crime prevention**, resulting from malicious threat actors.\n\nThat means the theoretical basis of the two professions comes from **different sciences**. Safety leans on ergonomics, occupational medicine, human factors and accident theory. Security leans on **criminology**. A safety professional has not learned how offenders select targets. A security professional has not learned how fatigue leads to error."
+        "tekst": "**Underlying theories: accidents versus crime**\n\nThe underlying theories for safety focus on the **workplace**, and on the **health effects and non-malicious accidents** that arise there.\n\nSecurity focuses on **crime and crime prevention**, resulting from malicious threat actors.\n\nThat means the theoretical basis of the two professions comes from **different sciences**. Security leans on **criminology**: the security synthesis table lists \"security and criminology theories\". An illustration of what that means (ours, not the book's): a safety professional has not learned how offenders select targets, and a security professional has not learned how fatigue leads to error."
       },
       {
         "type": "tekst",

@@ -437,7 +437,7 @@ voegRecapToe("intro-to-safety-security/h7", {
         [
           "Risk concept",
           "Hazard: a danger exposing someone to injury or loss, accidental drivers",
-          "Threat: the directed intent and capability of an adversary, malicious drivers"
+          "Threat: the purposive intent and capability of an adversary, malicious drivers"
         ],
         [
           "Standard",
@@ -446,7 +446,7 @@ voegRecapToe("intro-to-safety-security/h7", {
         ],
         [
           "Underlying theory",
-          "Workplace, health effects, accidents (ergonomics, human factors)",
+          "Workplace, health effects and non-malicious accidents",
           "Crime and crime prevention (criminology)"
         ],
         [

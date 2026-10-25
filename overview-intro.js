@@ -275,7 +275,7 @@ voegOverviewToe("intro-to-safety-security/h10", {
     {
       "type": "tekst",
       "titel": "Radicalisation, the crisis and the final point",
-      "tekst": "**Radicalisation** at work is a new risk. **Perceived** discrimination and bullying may be a route, so Boustras prefers a safety approach (a good climate, reporting) over suspicion. The **2008 financial crisis** brought unemployment, insecurity and psychosocial problems, which can lead to extreme behaviour. The hinge: **social exclusion** may be the common route to both safety and security incidents, but that’s **not empirically proven yet**.\n\nThe final difference: for safety the **legal duty lies with the employer** (personal), while for security the **state** is the backbone. Different incentives, so security gets less attention at work."
+      "tekst": "**Radicalisation** at work is a new risk. **Perceived** discrimination and bullying may be a route, but that is not proven. At the end Boustras proposes **worker participation**: copy the legally binding health and safety committees to build a security culture. The **2008 financial crisis** brought unemployment, insecurity and psychosocial problems, which can lead to extreme behaviour. The hinge: **social exclusion** may be the common route to both safety and security incidents, but that’s **not empirically proven yet**.\n\nThe final difference: for safety the **legal duty lies with the employer** (personal), while for security the **state** is the backbone. Different incentives, so security gets less attention at work."
     },
     {
       "type": "uitleg",
