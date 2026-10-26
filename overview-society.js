@@ -132,3 +132,66 @@ voegOverviewToe("society-politics/college-2", {
   ]
 });
 
+voegOverviewToe("society-politics/college-3", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nChapter 11 and lecture 3 as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
+    },
+    {
+      "type": "tekst",
+      "titel": "The starting question: how do we make sense of our differences?",
+      "tekst": "The lecture opens with one question: **how do we make sense of our differences?** The answer is a chain of ideas.\n\nFirst we sort people into groups: **social categorisation**, the process of differentiating groups of people. Some groups exist mainly because people imagine them: **imagined communities**, groups that are socially constructed and imagined by the people who see themselves as part of them. You will never meet most of your fellow citizens, yet you feel part of one nation with them. (Imagined communities, social categorisation and intersectionality are on the slides but **not in the chapter**, so learn them from the slides.)\n\n**Race** is a category of people sharing biologically transmitted traits that a society **deems socially significant**. The key word is *deems*: the differences themselves are superficial, and all humans are one species. The US once legally called anyone with one thirty-second African ancestry \"coloured\": a rule made by society, not by biology. Yet the category has very real effects. Ranking people by presumed race is called **racialisation**.\n\n**Ethnicity** is different: a shared **cultural and historical** heritage (ancestry, language, religion). Everyone has an ethnicity, not just minorities, and it is mixed and can change. The slide's summary: race and ethnicity may overlap, but race is about **biology**, ethnicity about **cultural heritage**."
+    },
+    {
+      "type": "tekst",
+      "titel": "More words you need",
+      "tekst": "- **Minority**: a group that is culturally or physically distinct **and** socially disadvantaged. It is not about numbers: black South Africans were a numerical majority but a sociological minority under apartheid.\n- **Multiculturalism**: the idea that all cultural traditions can be equal.\n- **Diaspora**: a population spread out from its homeland.\n- **Othering**: a group defines itself by pointing at outsiders as \"the other\". Do not confuse it with the definition right below it on the slide:\n- **Colonialism**: some countries enriching themselves by controlling other countries politically and economically.\n- **Intersectionality**: race combines with other forms of exclusion, such as class, gender and age. They do not just add up; together they create a specific experience."
+    },
+    {
+      "type": "tekst",
+      "titel": "From thinking to doing: prejudice, stereotypes, racism, discrimination",
+      "tekst": "- **Prejudice** is an **attitude**: a rigid, irrational generalisation about a whole category of people, with little regard to facts. It can even be positive.\n- A **stereotype** is the image that goes with it: an exaggerated description applied to every person in a category. Every group has them, majorities included.\n- **Racism** is a powerful and destructive form of prejudice: the belief that one racial category is innately superior or inferior. The slide splits it into three aspects: **cognitive** (what you believe: \"group X is lazy\"), **evaluative** (the judgement: \"so they are worth less\") and **affective** (the feeling: fear, dislike).\n- **Discrimination** is **behaviour**: treating categories of people unequally. It can be positive or negative and happens at school, at work and in relationships. **Institutional discrimination** is bias built into how organisations work, often without anyone intending it."
+    },
+    {
+      "type": "tekst",
+      "titel": "Why do people become prejudiced?",
+      "tekst": "The book and the slides give several explanations:\n\n1. **Scapegoat theory** (Dollard et al., 1939): people who are frustrated about their own problems blame a weaker, \"safe\" group. The book's example: a woman in a low-paid factory job blaming immigrant co-workers instead of the owners.\n2. **Authoritarian personality** (Adorno et al., 1950): some people have rigid, black-and-white views, and extreme prejudice is part of that personality.\n3. **Cultural theory** (Bogardus, social distance): prejudice is part of the culture everyone grows up in. Bogardus found that people across the US ranked groups in almost the same order.\n4. **Oppression of minorities** (conflict theory): prejudice serves the powerful, because a divided workforce is easier to exploit. This one is in the book but not on the slide; it is still exam material.\n5. **Post-colonial theory** challenges the idea that Western, white thinking and culture are superior.\n\nAnd a modern twist: Martin Barker's **new racism** (1981) no longer talks about biology but about **culture**: \"they do not fit in here\". Same exclusion, different argument."
+    },
+    {
+      "type": "tekst",
+      "titel": "Merton, institutions and the vicious cycle",
+      "tekst": "**Merton** shows that attitude and behaviour do not always match. Cross \"prejudiced or not\" with \"discriminates or not\" and you get four types: the **active bigot** (both), the **timid bigot** (prejudiced but does not act on it, for example out of fear of legal action), the **fair-weather liberal** (not prejudiced, but discriminates when it is convenient, for example because the boss wants it) and the **all-weather liberal** (neither).\n\nThe **Macpherson Report** (1999), after the murder of Stephen Lawrence, found the London police **institutionally racist**: a collective failure of an organisation to provide a proper service because of colour, culture or ethnic origin, visible in processes, attitudes and behaviour, often through **unwitting** prejudice. You do not need a single racist officer for an organisation to discriminate.\n\nThe **vicious cycle** (slide and Figure 11.1) runs in three stages: **prejudice and discrimination** lead to **social disadvantage**, and that disadvantage is then seen as proof of the minority's **inferiority**, which feeds new prejudice. That is the Thomas theorem from session 2 in action."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nWe sort people into groups and imagine communities. Race is a social label with real effects, ethnicity a shared culture. Prejudice is an attitude, discrimination is behaviour, and racism has cognitive, evaluative and affective sides. Scapegoating, personality, culture, oppression and post-colonial thinking explain prejudice; the new racism uses culture instead of biology. Institutions can discriminate without racist individuals, and prejudice and disadvantage feed each other in a vicious cycle."
+    },
+    {
+      "type": "tekst",
+      "titel": "How majorities and minorities live together",
+      "tekst": "Four patterns, from most equal to most destructive:\n\n1. **Pluralism**: different groups, equal standing (the book's example: Switzerland).\n2. **Assimilation**: minorities gradually take over the dominant culture. The \"melting pot\" sounds like everyone mixing into something new, but in practice minorities mostly adopted the culture of the earliest dominant settlers.\n3. **Segregation**: physical and social separation of groups, to the disadvantage of the minority, by law (apartheid, the Jim Crow laws) or in practice.\n4. **Genocide**: the systematic destruction of one category of people by another, also called ethnic cleansing (Bosnia, Rwanda, the Holocaust)."
+    },
+    {
+      "type": "tekst",
+      "titel": "Migration",
+      "tekst": "The book names **four models** of migration: the **classical** model (the US, Canada and Australia welcome future citizens), the **colonial** model (France, the Netherlands, the UK: migrants from former colonies with potential citizenship), the **guest worker** model (Germany, Belgium: temporary, without citizen rights) and the **\"illegal\"** model.\n\nMigration often goes through **four phases** (Castles and Miller): temporary labour migration, a longer stay, family reunion and new ethnic communities, and finally permanent settlement.\n\nEurope saw **three waves**: the European exodus (around 52 million people left), the post-war inflow of colonial and guest workers, and a marked decline after 1973.\n\nCastles and Miller predict **five trends**: **globalisation** (more countries involved), **acceleration** (more people), **differentiation** (more types of migrants), **feminisation** (more women) and **politicisation** (migration becomes a political issue). The slide adds a sixth: the **proliferation of migration transition**. The lesson mentions a Refugees Welcome banner on that slide as politicisation in one image (the picture is not in the Project text of the slides: unchecked)."
+    },
+    {
+      "type": "tekst",
+      "titel": "The UK, Europe and the big debate",
+      "tekst": "**The UK** (2001 Census): 57.1 million people, with Indian, Pakistani, Afro-Caribbean and Black African people as the largest minority groups. Minority groups are much **younger** than the white population. Black people have lived in England for centuries; after 1948 (the ship Empire Windrush) migration from the Commonwealth grew, and from 1962 entry was controlled much more strictly. Minorities run more risk of unemployment and low pay, and black women are concentrated in the worst jobs. Ethnic cultures become **hybrid**: they mix their culture of origin with British culture.\n\n**Europe**: the book names five features of racism, from rising racism and discrimination against asylum seekers to the new racism and a \"**Fortress Europe**\" mentality (\"little England\" in England). **Stuart Hall** describes three responses to ethnic divides: the majority strengthens its own identity defensively, minorities do the same, or **new mixed identities** appear (Gilroy's Black Atlantic). The first two can feed each other, which is how polarisation works.\n\n**The big debate** is Islamophobia: a hatred of all things Muslim. The book asks why all Muslims should be blamed for an extreme edge, when few people blamed all Catholics for IRA bombings. But it also asks how far a tolerant society can let a religious strand spread views that reject tolerance. That is the **dilemma of freedom**, and the book leaves it open."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nGroups can live together as equals, blend in, be kept apart, or be destroyed. Migration follows four models and four phases, and is becoming more global, faster, more varied, more female and more political. In the UK and Europe the patterns repeat: younger, poorer minorities, defensive identities on both sides, and the open dilemma of freedom around Islamophobia."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 8 things**\n\n1. Race: biologically transmitted traits that society deems significant; racialisation is ranking people by presumed race. Ethnicity: shared cultural heritage.\n2. Lecture-only concepts: imagined communities, social categorisation, intersectionality.\n3. Minority = distinctive identity plus subordination, not small numbers. Othering is not colonialism.\n4. Prejudice is an attitude, discrimination is behaviour; racism has cognitive, evaluative and affective aspects.\n5. Explanations: scapegoat (Dollard), authoritarian personality (Adorno), cultural theory (Bogardus), oppression of minorities, post-colonial theory; Barker's new racism.\n6. Merton's four types; Macpherson's institutional racism; the three-stage vicious cycle.\n7. Pluralism, assimilation, segregation, genocide.\n8. Four migration models, four phases, three European waves, five trends (six on the slide); Hall's three responses; Islamophobia and the dilemma of freedom."
+    }
+  ]
+});
+

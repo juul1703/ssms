@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v164**.
+Stand: 23 oktober 2026, service worker **v165**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -890,6 +890,13 @@ gelabeld unchecked. Vaardigheden-uitleg S2 (8).
 /home/claude/work/sov, niet in de repo). Elke bewering nagekeken in H1, H2, H4 en Lecture 1
 (onder meer 25-40 mensen, 12.000 jaar, drie op de vier in steden, 200 natiestaten, tot 10.000
 talen, 40/90/60 landen, de slide-tag "networks, risk & surveillance", het studieschuld-voorbeeld).
+
+**v165: Society sessie 3 gecontroleerd** (H11, Lecture 3) met vaardigheden-uitleg (10) en Quick
+recap. Gelabeld: Crenshaw en Anderson (algemene kennis, niet in slide of hoofdstuk), Nederlandse
+voorbeelden (etnisch profileren, toeslagenaffaire), plaatjes op slides (Zwarte Piet, Refugees
+Welcome; niet in de tekstexport), en het blok met correcties op het boek (Stephen Lawrence 1993
+tegenover 1995 in de tijdlijn klopt met het boek; Sudan, Rwanda en het moslimcijfer rusten op
+algemene kennis).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
