@@ -141,7 +141,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
       },
       {
         "type": "waarschuwing",
-        "tekst": "**Watch out: the slides and the book attribute two points differently**\n\n**1.** \"In safety we trust, in security we distrust\" is on the slide with **position 2** (Brooks and Coole). In the book it is not Brooks and Coole's line: it is the heading of **section 11.2.3** by the editors, **Bieder and Pettersen Gould**, where they discuss openness versus secrecy and the insider (Germanwings). Brooks and Coole themselves argue from bodies of knowledge, risk drivers and professional practice.\n\n**2.** \"Safety can learn from statistics, an adversary keeps inventing new tactics\" is on the slide with **Wipf, ch. 4**. In the book that point is made by **Blokland and Reniers (ch. 2, section 2.4.3)**; Wipf supplies the game theory.\n\nIn an essay, name the chapter you mean. If a question asks who wrote it, go with the book."
+        "tekst": "**Watch out: the slides and the book attribute two points differently**\n\n**1.** \"In safety we trust, in security we distrust\" is on the slide with **position 2** (Brooks and Coole). In the book it is not Brooks and Coole's line: it is the heading of **section 11.2.3** by the editors, **Bieder and Pettersen Gould**, where they discuss openness versus secrecy and the insider (Germanwings). Brooks and Coole themselves argue from bodies of knowledge, risk drivers and professional practice.\n\n**2.** \"Safety science can learn from statistics, because accidents repeat. An adversary keeps inventing new tactics\" is on the slide with **Wipf, ch. 4**. In the book that point is made by **Blokland and Reniers (ch. 2, section 2.4.3)**; Wipf supplies the game theory.\n\nIn an essay, name the chapter you mean. If a question asks who wrote it, go with the book."
       },
       {
         "type": "tekst",
@@ -604,7 +604,7 @@ LESSTOF['intro-to-safety-security/college-5'] = [
             "uitleg": "Attractive but slippery; separate in theory."
           },
           {
-            "vraag": "Schulman calls \"good safety management takes care of security too\":",
+            "vraag": "Schulman calls the claim that good safety management takes care of security too:",
             "opties": [
               "A useful principle",
               "A convenient untruth",

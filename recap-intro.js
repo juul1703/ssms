@@ -309,7 +309,7 @@ voegRecapToe("intro-to-safety-security/h5", {
     {
       "type": "tekst",
       "titel": "The distinction: malicious intent",
-      "tekst": "**Not intentionality but malicious intent** distinguishes security from safety, because intent and even crime also occur in safety (deliberately skipping goggles, drug use). Security means an actor who **genuinely wants to cause harm**.\n\nTwo features make security different: threats are often **external** and beyond what an organisation can fully know, and they are **not directly tied to profit and production**. And security events are rare, so a culture gets little feedback to learn from."
+      "tekst": "**Not intentionality but malicious intent** distinguishes security from safety, because intent and even crime also occur in safety (deliberately skipping goggles, drug use). Security means an actor who **genuinely wants to cause harm**.\n\nTwo features make security different: threats are often **external** and beyond what an organisation can fully know, and they are **not directly tied to profit and production**. And an attack is an event of extremely low probability, so Jore asks whether culture can be applied to it in the same way as in safety."
     },
     {
       "type": "tabel",

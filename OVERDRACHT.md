@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v149**.
+Stand: 23 oktober 2026, service worker **v150**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -758,6 +758,23 @@ Say it out loud). H7-leerdoel 6 noemde legislation als polarity; de polarity is 
 boek hazards and threats, technologies, underlying theories, legislation is een apart punt.
 Volgende stap: v150, volledige controleronde Intro (citaten en getallen mechanisch tegen
 boek en slides, daarna alle samenvattingen naast de kernstof).
+
+**v150: controleronde Intro, laag 1 (mechanisch) en de Quick recaps.** Methode: alle
+citaten (4+ woorden tussen aanhalingstekens), alle getallen en alle auteur/hoofdstuk-paren uit
+alle Intro-lessen automatisch gezocht in boek, Intro-slides 1-6 en manual (scripts in /tmp,
+niet in de repo). Niet gevonden = met de hand nagelopen. Hersteld: CEO-citaat Schulman
+(was parafrase tussen aanhalingstekens; nu letterlijk "If we're doing a good job of safety
+management that should take care of security too"), "homegrown, radicalized youth" (H10),
+"safety in operation" / "security from external threat" (H1, La Porte), "where the
+likelihood" (H2), het beleidscitaat in H1, het slide-citaat statistiek (sessie 5, mid-term),
+flashcard convenient untruth (reden "convenient" stond als Schulmans woorden), noot dat het
+boek bij Oxford "unsecurity" drukt. Quick recaps: Safety-II, "security events are rare, so
+little feedback" (staat niet in H5; Jore stelt een vraag over extreem lage kans), "security
+gets less attention" (H10), 9/11-cijfers precies volgens het boek ("retired due to health
+effects", niet "early"), low-risk firms.
+Niet te controleren met het Project: letterlijke uitspraken van de docent in sessie 5 (komen uit
+sprekersnotities; de Project-pptx heeft geen notities) en Beck bij sessie 1.
+Laag 2 (To remember, In plain words, flashcards, quiz-uitleg volledig lezen) volgt in v151.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

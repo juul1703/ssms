@@ -105,7 +105,7 @@ voegOverviewToe("intro-to-safety-security/h2", {
     {
       "type": "tekst",
       "titel": "What the lecture added",
-      "tekst": "**Semantic** questions (what do the words mean?) versus **ontological** ones (what has to exist for risk to exist at all?). Objectives come first: always ask what you are trying to protect. And from concepts to management in four moves: **identify objectives, identify risk sources, consider effects, set constraints** (limits you must not cross). Plus the shift from **Safety-I** (prevent things going wrong) to **Safety-II** (also learn from things going right)."
+      "tekst": "**Semantic** questions (what do the words mean?) versus **ontological** ones (what has to exist for risk to exist at all?). Objectives come first: always ask what you are trying to protect. And from concepts to management in four moves: **identify objectives, identify risk sources, consider effects, set constraints** (limits you must not cross). Plus the shift from **Safety-I** (prevent things going wrong) to **Safety-II** (also the condition of excellent performance in achieving objectives, Hollnagel)."
     },
     {
       "type": "uitleg",
@@ -200,7 +200,7 @@ voegOverviewToe("intro-to-safety-security/h5", {
     {
       "type": "tekst",
       "titel": "Malicious intent, not just intent",
-      "tekst": "Jore draws the line at **malicious intent**, not intentionality. Why? Because intent also exists in safety: a worker who deliberately skips their goggles is still a safety issue. Security means someone who **really wants to cause harm**. Security threats are also often **external**, not tied to profit and production, and **rare**, so a culture gets little feedback to learn from."
+      "tekst": "Jore draws the line at **malicious intent**, not intentionality. Why? Because intent also exists in safety: a worker who deliberately skips their goggles is still a safety issue. Security means someone who **really wants to cause harm**. Security threats are also often **external**, not tied to profit and production. And an attack is an event of **extremely low probability**, so Jore asks whether culture can be applied to it in the same way as in safety."
     },
     {
       "type": "tekst",
@@ -265,17 +265,17 @@ voegOverviewToe("intro-to-safety-security/h10", {
     {
       "type": "tekst",
       "titel": "Where safety and security meet: the worker",
-      "tekst": "Boustras’ claim: workplace safety increasingly depends on **security**, and the two meet at the level of the **individual employee**. Attacks like 9/11, 7/7 and Madrid are becoming more ‘ordinary’, and they hit workplaces in two ways: **direct and visible** (injury, death) and **slow and invisible** (psychosocial problems like PTSD and depression).\n\nPerfect example: after **9/11** a toxic cloud with asbestos covered the area, and of the **40,000 first responders** many got ill years later and hundreds of firefighters retired early. A security incident became a long-term **safety** problem."
+      "tekst": "Boustras’ claim: workplace safety increasingly depends on **security**, and the two meet at the level of the **individual employee**. Attacks like 9/11, 7/7 and Madrid are becoming more ‘ordinary’, and they hit workplaces in two ways: **direct and visible** (injury, death) and **slow and invisible** (psychosocial problems like PTSD and depression).\n\nPerfect example: after **9/11** a toxic cloud with asbestos covered the area, and the more than **40,000 first responders** and relief workers suffered short- and long-term effects: at least four deaths are linked to upper respiratory problems, and hundreds of firefighters retired because of health effects. A security incident became a long-term **safety** problem."
     },
     {
       "type": "tekst",
       "titel": "Organisations, trust and cyber",
-      "tekst": "Organisations now include security in their **risk assessments**, and in low-risk firms one person often does both the safety and the security job. Attacks also damage something less visible: employees’ **trust** that their employer can keep them safe.\n\nCyberattacks spread through ‘**systems of systems**’: one failure cascades into other infrastructures. Remember the **four interdependencies**: digital, physical, geographical and logical."
+      "tekst": "Organisations now include security in their **risk assessments**, and low-risk firms such as offices increasingly try to combine the duties of the safety and the security officer. Attacks also damage something less visible: employees’ **trust** that their employer can keep them safe.\n\nCyberattacks spread through ‘**systems of systems**’: one failure cascades into other infrastructures. Remember the **four interdependencies**: digital, physical, geographical and logical."
     },
     {
       "type": "tekst",
       "titel": "Radicalisation, the crisis and the final point",
-      "tekst": "**Radicalisation** at work is a new risk. **Perceived** discrimination and bullying may be a route, but that is not proven. At the end Boustras proposes **worker participation**: copy the legally binding health and safety committees to build a security culture. The **2008 financial crisis** brought unemployment, insecurity and psychosocial problems, which can lead to extreme behaviour. The hinge: **social exclusion** may be the common route to both safety and security incidents, but that’s **not empirically proven yet**.\n\nThe final difference: for safety the **legal duty lies with the employer** (personal), while for security the **state** is the backbone. Different incentives, so security gets less attention at work."
+      "tekst": "**Radicalisation** at work is a new risk. **Perceived** discrimination and bullying may be a route, but that is not proven. At the end Boustras proposes **worker participation**: copy the legally binding health and safety committees to build a security culture. The **2008 financial crisis** brought unemployment, insecurity and psychosocial problems, which can lead to extreme behaviour. The hinge: **social exclusion** may be the common route to both safety and security incidents, but that’s **not empirically proven yet**.\n\nThe final difference: for safety the **legal duty lies with the employer** (personal), while for security the **state** is the backbone. That has consequences for strategic priorities and incentives."
     },
     {
       "type": "uitleg",

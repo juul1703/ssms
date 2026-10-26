@@ -49,7 +49,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
       {
         "type": "tekst",
         "titel": "The opening: a convenient untruth",
-        "tekst": "Schulman opens with an anecdote. At a conference on safety management, organised by a large utilities regulator, infrastructure security came up. The CEO of a major utility said: **\"If we do our safety management well, that will take care of security too.\"**\n\nSchulman regarded that as a **convenient untruth**. Convenient, because it relieves the CEO of a second programme, a second budget, a second concern. Untrue, because it is not correct, and the rest of the chapter explains why.\n\nThere is a serious debate among researchers and practitioners about whether **the same management framework within one organisation** can accommodate effective safety **and** security management.\n\nResearch into **High Reliability Organizations** has focused on organisations such as nuclear power plants, commercial aviation, air traffic control centres and electricity grid operators, with extremely well developed reliability strategies in both technical design and management systems, protecting against failures that could cause catastrophic accidents.\n\nThose organisations are, as critical infrastructures, also **potential high-value targets for terrorist attacks**. But the research makes it **unclear** whether HROs address safety and security objectives at the same time in their reliability strategies.\n\nThis essay compares the main variables and the strategy of an organisation pursuing high reliability management, first with a **safety mission** and then with a **security mission**."
+        "tekst": "Schulman opens with an anecdote. At a conference on safety management, organised by a large utilities regulator, infrastructure security came up. The CEO of a major utility said: **\"If we're doing a good job of safety management that should take care of security too.\"**\n\nSchulman regarded that as a **convenient untruth**. Convenient, because it relieves the CEO of a second programme, a second budget, a second concern. Untrue, because it is not correct, and the rest of the chapter explains why.\n\nThere is a serious debate among researchers and practitioners about whether **the same management framework within one organisation** can accommodate effective safety **and** security management.\n\nResearch into **High Reliability Organizations** has focused on organisations such as nuclear power plants, commercial aviation, air traffic control centres and electricity grid operators, with extremely well developed reliability strategies in both technical design and management systems, protecting against failures that could cause catastrophic accidents.\n\nThose organisations are, as critical infrastructures, also **potential high-value targets for terrorist attacks**. But the research makes it **unclear** whether HROs address safety and security objectives at the same time in their reliability strategies.\n\nThis essay compares the main variables and the strategy of an organisation pursuing high reliability management, first with a **safety mission** and then with a **security mission**."
       }
     ]
   },
@@ -224,7 +224,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
         "items": [
           {
             "begrip": "Convenient untruth",
-            "definitie": "Schulman’s label for the CEO’s claim that good safety management takes care of security too. Convenient because it saves a second programme and budget; untrue because security cannot meet the safety standard."
+            "definitie": "Schulman’s label for the CEO’s claim that good safety management takes care of security too. Untrue because security cannot meet the deterministic standard of high reliability safety. Schulman does not spell out why it is convenient; the obvious reading is that it would save a second programme."
           },
           {
             "begrip": "High Reliability Organization (HRO)",
@@ -462,7 +462,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
             "vraag": "What was the statement by the CEO with which Schulman opens the chapter?",
             "opties": [
               "Security matters more than safety",
-              "If we do our safety management well, that takes care of security too",
+              "If we're doing a good job of safety management that should take care of security too",
               "Safety and security must stay separate",
               "Security is unaffordable"
             ],
