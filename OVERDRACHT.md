@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v158**.
+Stand: 23 oktober 2026, service worker **v159**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -848,6 +848,12 @@ Indonesië, Japan JA, Zweden 11 departementen/4.600, Nordic Council 1952, Tabell
 17.3, 17.5). Citaten letterlijk ("following power rather than parties", WANGO "organization").
 SER: boek noemt het "Economic and Social Council". Vaardigheden-uitleg S7 (11). Hiermee zijn
 alle Governance-sessies 1-7 gecontroleerd; volgende stap de Governance mid-term-les.
+
+**v159: Governance mid-term-les, deel 1** (`governance-midterm.js`, les-id `midterm`, via EXTRA in
+het Mid-term-blok). Kopje per sessie 1-7 plus "The threads", To remember (wie, lijsten, cases),
+Quick recap, 18 begrippen, vaardigheden met uitleg. Alles uit de gecontroleerde sessielessen
+(v153-v158); auteurs en jaartallen nog eens in de boeken nagekeken. Sessie 7-slides ontbreken
+(college nog niet geweest). Oefentoets volgt in v160.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
