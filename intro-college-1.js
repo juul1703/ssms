@@ -17,7 +17,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
         "items": [
           {
             "doel": "State the four official learning objectives of this course and what you are assessed on",
-            "uitleg": "They are in the course manual and return in every lecture. The oral end-term exam is built on them literally."
+            "uitleg": "They are in the course manual (section 2.1.2): conceptualise the domains of safety and security in SSMS; explain stakeholder management approaches in international environments; summarise the SSMS programme and its multidisciplinary character; explain how risk management and resilience apply in international safety and security. You are assessed on all course literature and lecture slides: the mid-term is a written Remindo exam, the end-term an oral assessment."
           },
           {
             "doel": "Name the three worlds of SSMS and explain why the programme puts them together",
