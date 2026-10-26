@@ -1,4 +1,4 @@
-/* Governance & Policy, mid-term review (sessie 1-7). Nieuw in v159; oefentoets volgt in v160.
+/* Governance & Policy, mid-term review (sessie 1-7). Nieuw in v159, oefentoets in v161.
    Opgebouwd uit de gecontroleerde sessielessen (v153-v158). */
 
 LESSTOF['governance-policy/midterm'] = [
@@ -398,6 +398,265 @@ LESSTOF['governance-policy/midterm'] = [
         "type": "tekst",
         "titel": "Sessions 5 to 7 and the threads",
         "tekst": "**5:** Levi-Faur's Big Governance and the four perspectives on the state. **6:** integrity scandals and the PI-Index; global governance and the frozen Security Council. **7:** interest groups and public policy. **Threads:** government and governance, legitimacy, democratic against authoritarian, experts against the public, policy and non-decisions."
+      }
+    ]
+  },
+  {
+    "id": "toepassen",
+    "titel": "Applying it",
+    "blokken": [
+      {
+        "type": "oefening",
+        "id": "gov-mid-oef-1",
+        "niveau": "gevorderd",
+        "vraag": "**Case: an emergency in a city.** After severe floods, a national government suspends the elected city council for a year and appoints a crisis manager with full powers.\n\n(a) Analyse this with Buckwalter and Balfour: which values gain and which lose?\n(b) Is the decision legitimate? Use the course's distinction between power, authority and legitimacy.\n(c) What would Levi-Faur's state-centred governance perspective suggest as an alternative?",
+        "antwoord": "**(a)** Bureaucratic values gain: efficiency, expertise, control, order. Democratic values lose: representativeness, participation, responsiveness, transparency. This is **bureaucratic distortion**: a crisis makes control look like the answer, as with the Michigan emergency managers. The authors' verdict: if there must be imbalance, it should fall on the democratic side, even and perhaps especially in a crisis.\n\n**(b)** The national government has the **power** to do it and may have the formal **authority** if a law allows it (formal democratic legitimacy rests on laws passed by elected representatives). Whether it is **legitimate** depends on whether the citizens recognise and accept that right; formal requirements are necessary but not sufficient (Waldo: without results democracy means nothing, but results alone do not make it democratic).\n\n**(c)** Keep the council and let the state **steer**: set rules, standards and support, and leave the rowing (the practical recovery work) to the city and other actors, with the state able to step in (the shadow of hierarchy)."
+      },
+      {
+        "type": "oefening",
+        "id": "gov-mid-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "**Who governs when nobody is in charge?** Use sessions 1, 5 and 6.\n\n(a) Explain why the course speaks of global governance but not of a world government.\n(b) Which bases of authority does the Security Council have, and why did it \"freeze\" after Libya?\n(c) Link this to Levi-Faur: is global governance a case of governance without the state?",
+        "antwoord": "**(a)** Government is the institutions that make binding decisions for a community; there is no world government. **Governance** is the process of collective decision-making with many actors, which can happen without a government: international organisations, treaties, NGOs (session 1). In Avant et al.'s words, global governance is something that happens, no one apparently actually does it.\n\n**(b)** Institutional and delegated authority (the Charter), principled and capacity-based authority only as long as states see it serving peace and acting effectively, and no expert authority. The veto makes the P5 able to block everything. After Resolution 1973 on Libya was used for regime change, Russia vetoed action on Syria, so the Council no longer brought predictability, stability, and order: a freezing of global governance (Maia).\n\n**(c)** Not without the state: global governance is produced \"within, by, without and beyond the state\" (Levi-Faur), and in the Security Council the great powers, which are states, decide. Levi-Faur's warning applies: a shift away from government is not automatically a shift away from the state."
+      },
+      {
+        "type": "oefening",
+        "id": "gov-mid-oef-3",
+        "niveau": "gevorderd",
+        "vraag": "**Making safety policy.** A government wants to reduce knife crime among young people.\n\n(a) Walk the problem through the policy cycle.\n(b) Choose one stick, one carrot and one sermon.\n(c) Which interest groups might try to influence the policy, through which channels, and what does the incremental model predict?",
+        "antwoord": "**(a)** **Agenda-setting** (incidents and media attention put it on the agenda), **formulation** (options such as stop-and-search powers, youth programmes, school campaigns), **adoption** (cabinet and parliament decide), **implementation** (police, municipalities, schools), **evaluation** (did incidents fall?). In reality the stages overlap and later ones may never be reached.\n\n**(b)** Stick: higher penalties for carrying a knife. Carrot: funding for youth clubs. Sermon: a campaign in schools. Other examples work if you name the right type.\n\n**(c)** For example: police unions (protective, insider status, direct channels to the ministry), parents' and victims' groups and youth organisations (promotional, indirect channels through media and social media), municipalities. The incremental model predicts small, negotiated steps that the actors can agree on, rather than a rational comparison of all options."
+      }
+    ]
+  },
+  {
+    "id": "checken",
+    "titel": "Check yourself",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Practice exam: twenty questions across sessions 1 to 7",
+        "vragen": [
+          {
+            "vraag": "A city contracts out its waste collection to a private company, sets performance standards and checks that they are met. Which idea fits best?",
+            "opties": [
+              "Hollowing out: no sovereign actor can steer any more",
+              "The state steers and leaves the rowing to other actors",
+              "Degovernancing: government gives up its ability to govern",
+              "The iron law of oligarchy"
+            ],
+            "juist": 1,
+            "uitleg": "This is Offe's catchphrase for state-centred governance (Levi-Faur, session 5): the state sets direction and rules while others deliver. Outsourcing itself is a session 3 topic."
+          },
+          {
+            "vraag": "A state government replaces an elected city council with an appointed manager to deal with a fiscal crisis. Which concept from Buckwalter and Balfour describes this?",
+            "opties": [
+              "Cohabitation",
+              "Corporatism",
+              "A cartel party",
+              "Bureaucratic distortion"
+            ],
+            "juist": 3,
+            "uitleg": "In a crisis, problems are seen as best solved by responses heavier on bureaucratic values: the Michigan emergency managers are the authors' case (session 2)."
+          },
+          {
+            "vraag": "In which situation is there power but no authority?",
+            "opties": [
+              "An elected parliament passing a budget",
+              "A judge sentencing someone under the law",
+              "An occupying army enforcing a curfew in territory it has seized",
+              "A mayor issuing a permit within the rules"
+            ],
+            "juist": 2,
+            "uitleg": "Power is the capacity to act; authority is the acknowledged right to do so (session 1). The book's example: Russia's power reaches beyond its border, its authority does not."
+          },
+          {
+            "vraag": "Before an election, a minister makes sure a contested pension reform never reaches the cabinet agenda. How does the course describe this?",
+            "opties": [
+              "Lukes' second dimension, and still policy, because a non-decision counts as policy",
+              "Lukes' first dimension, and not policy because nothing was decided",
+              "Lukes' third dimension, and not policy",
+              "Lukes' second dimension, and not policy because nothing was decided"
+            ],
+            "juist": 0,
+            "uitleg": "Keeping issues off the agenda is non-decision-making, Lukes' second dimension; the lecture defines policy as a decision, a non-decision, or an intention to make future decisions (session 1)."
+          },
+          {
+            "vraag": "In a semi-presidential system, only the legislature can dismiss the prime minister and cabinet, and the opposition wins a majority in parliament. What follows?",
+            "opties": [
+              "Impeachment of the president",
+              "Cohabitation, in a president-parliamentary system",
+              "Cohabitation, in a premier-presidential system",
+              "A switch to ministerial government"
+            ],
+            "juist": 2,
+            "uitleg": "When only the legislature can dismiss the PM and cabinet, the system is premier-presidential (Finland, France, Poland); a president facing an opposition majority must work with its prime minister: cohabitation (session 3)."
+          },
+          {
+            "vraag": "A civil servant refuses a permit to a friend of the minister because the rules do not allow it. Which two ideas from the course does this combine?",
+            "opties": [
+              "Charismatic authority and the spoils system",
+              "Legal-rational authority and decisions reached by applying rules",
+              "Traditional authority and new public management",
+              "Patronage and the developmental state"
+            ],
+            "juist": 1,
+            "uitleg": "Legal-rational authority rests on the rule-governed powers of an office (Weber, session 1); in Weber's model of bureaucracy, decisions are reached by methodically applying rules to cases (session 3)."
+          },
+          {
+            "vraag": "Established parties vote themselves generous state funding and rules that make it hard for new parties to enter. Which concept fits?",
+            "opties": [
+              "Catch-all parties",
+              "Niche parties",
+              "Mass parties",
+              "Cartel parties"
+            ],
+            "juist": 3,
+            "uitleg": "Katz and Mair: colluding parties become agents of the state and use its resources to ensure their own survival (session 4)."
+          },
+          {
+            "vraag": "According to Maia, which bases of authority does the Security Council keep only as long as states see it serving peace and acting effectively?",
+            "opties": [
+              "Principled and capacity-based",
+              "Expert and institutional",
+              "Institutional and delegated",
+              "Delegated and expert"
+            ],
+            "juist": 0,
+            "uitleg": "Institutional and delegated authority come from the Charter; principled authority depends on its actions being seen as moral, capacity-based authority on perceived competence. It has no expert authority (session 6)."
+          },
+          {
+            "vraag": "A local councillor's undeclared paid sideline job is revealed by a newspaper and publicly condemned, but he keeps his seat. How do Huberts et al. and Thompson classify this?",
+            "opties": [
+              "Not a scandal, because he did not resign",
+              "A conflict of interest through sideline activities, and a scandal",
+              "Misconduct in the private sphere, but not a scandal",
+              "Bribery, and a scandal only after a conviction"
+            ],
+            "juist": 1,
+            "uitleg": "It is type 5 of the ten violations. Thompson's scandal needs a transgression that becomes known, is publicly denounced and may damage reputation; resignation or conviction is not required (session 6)."
+          },
+          {
+            "vraag": "Most Dutch integrity scandals in the PI-Index are at the local level. What is the authors' main explanation?",
+            "opties": [
+              "Local politicians have lower integrity",
+              "The media ignore national politics",
+              "Most politicians, about 92%, are active at the local level",
+              "Local scandals are counted twice"
+            ],
+            "juist": 2,
+            "uitleg": "With 10,770 of the politicians active locally, it is not surprising that most scandals are local; the VVD, by contrast, is involved in more scandals than its number of politicians could justify (session 6)."
+          },
+          {
+            "vraag": "A national farmers' association has most farmers as members and can block roads with tractors. Which two of the five qualities of group influence does this show?",
+            "opties": [
+              "Legitimacy and resources",
+              "Legitimacy and the relationship to the state",
+              "Resources and the relationship to the state",
+              "Membership (density) and the ability to use sanctions"
+            ],
+            "juist": 3,
+            "uitleg": "Density is the share of those eligible to join who actually do; road blockades are a sanction. The five qualities: legitimacy, membership, resources, sanctions, relationship to the state (session 7)."
+          },
+          {
+            "vraag": "In a country, many groups compete openly for government's attention and no group is formally part of policymaking. This is closest to:",
+            "opties": [
+              "Pluralism",
+              "Corporatism",
+              "An iron triangle",
+              "Clientelism"
+            ],
+            "juist": 0,
+            "uitleg": "Pluralism sees many groups competing; corporatism gives selected interests a formal role in negotiating policy, as in the Dutch Social and Economic Council (session 7)."
+          },
+          {
+            "vraag": "A defence ministry, the main arms manufacturers and the parliamentary defence committee keep a closed, long-standing relationship. This is:",
+            "opties": [
+              "An issue network",
+              "A peak association",
+              "An iron triangle",
+              "A GONGO"
+            ],
+            "juist": 2,
+            "uitleg": "An iron triangle is a closed insider relationship between interest groups, the bureaucracy and legislative committees; an issue network is more open (session 7)."
+          },
+          {
+            "vraag": "To improve road safety, a government subsidises bicycle helmets, fines e-scooters on pavements and runs a television campaign. In that order, these are:",
+            "opties": [
+              "Sticks, carrots, sermons",
+              "Carrots, sticks, sermons",
+              "Sermons, carrots, sticks",
+              "Carrots, sermons, sticks"
+            ],
+            "juist": 1,
+            "uitleg": "Carrots reward, sticks sanction, sermons persuade (session 7)."
+          },
+          {
+            "vraag": "After a serious incident, a proposal that had been lying around for years is suddenly adopted as \"the\" answer. Which model of policymaking does this fit?",
+            "opties": [
+              "Rational",
+              "Incremental",
+              "Developmental state",
+              "Garbage-can"
+            ],
+            "juist": 3,
+            "uitleg": "The garbage-can model describes solutions looking for issues to which they might be the answer; the rational model compares all options first, the incremental model takes small negotiated steps (session 7)."
+          },
+          {
+            "vraag": "EU member states adopt the same rules because an EU regulation requires them to. Which mechanism of policy convergence is this?",
+            "opties": [
+              "International agreements",
+              "Independent problem-solving",
+              "Policy learning",
+              "International competition"
+            ],
+            "juist": 0,
+            "uitleg": "National policies converge as countries comply with international laws, regulations and standards (Table 17.3, session 7)."
+          },
+          {
+            "vraag": "A leader comes to power with little experience of government and uses policy mainly to stay in power and reward supporters. Which features of Table 17.5 does this illustrate?",
+            "opties": [
+              "Institutions and methods",
+              "Methods and policy priorities",
+              "Qualifications and motivations",
+              "Institutions and qualifications"
+            ],
+            "juist": 2,
+            "uitleg": "Authoritarian leaders often have less experience of government (qualifications) and aim to stay in power and exploit policy for sectional and personal gain (motivations), as in Mugabe's Zimbabwe (session 7)."
+          },
+          {
+            "vraag": "A ministry publishes all its meeting documents and holds public consultations before every decision. Which side of Figure 2.1 does this strengthen?",
+            "opties": [
+              "The bureaucratic side: control and order",
+              "Only effectiveness",
+              "Neither: these are outside the figure",
+              "The democratic side: transparency and participation"
+            ],
+            "juist": 3,
+            "uitleg": "Transparency and participation are democratic values in Buckwalter and Balfour's figure; efficiency, expertise, control and order sit on the bureaucratic side (session 2)."
+          },
+          {
+            "vraag": "Why are high-status groups even more over-represented in a cabinet than among voters?",
+            "opties": [
+              "The paradox of participation",
+              "The law of increasing disproportion",
+              "Partisan dealignment",
+              "The iron law of oligarchy"
+            ],
+            "juist": 1,
+            "uitleg": "The higher the level of political authority, the greater the representation of high-status groups (session 4)."
+          },
+          {
+            "vraag": "In a hybrid regime, villagers vote for the ruling party's candidate because the local boss arranges jobs and access to the clinic. This is:",
+            "opties": [
+              "Clientelism, based on a patron-client relationship",
+              "Mobilised participation",
+              "Corporatism",
+              "Issue voting"
+            ],
+            "juist": 0,
+            "uitleg": "Support is exchanged for access to jobs and services; the lecture calls clientelism an insurance policy. Mobilised participation is elite-controlled display of support, such as rallies (session 4)."
+          }
+        ]
       },
       {
         "type": "bronnen",

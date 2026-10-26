@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v160**.
+Stand: 23 oktober 2026, service worker **v161**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -862,6 +862,13 @@ authority ("lead groups without an office"; Maia: deference based on perceived c
 Russisch veto Oekraïne 2022 gelabeld als algemene kennis (artikel noemt 2014). Overige
 gecontroleerd en correct (VVD boven aandeel, Tartus, Russische diplomatie via G8/ASEAN,
 LexisNexis, IMF en Griekenland, Zweedse commissies, ideas rather than policies).
+
+**v161: Governance mid-term-les deel 2: oefentoets.** Twintig nieuwe toepassingsvragen
+(scenario's, vakoverstijgend, geen jaartallen; Julie verwacht vooral begripsvragen), antwoorden
+gespreid, browser 20/20. Drie open examenvragen (noodbestuur na overstroming, global governance,
+veiligheidsbeleid tegen messengeweld). Maia's tekst over principled en capacity-based authority
+van de Veiligheidsraad nagelezen voor vraag 8. S5-quizvraag: "Neither markets nor hierarchy"
+(zo spelt Levi-Faur de titel).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
