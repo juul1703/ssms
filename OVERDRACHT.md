@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v159**.
+Stand: 23 oktober 2026, service worker **v160**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -854,6 +854,14 @@ het Mid-term-blok). Kopje per sessie 1-7 plus "The threads", To remember (wie, l
 Quick recap, 18 begrippen, vaardigheden met uitleg. Alles uit de gecontroleerde sessielessen
 (v153-v158); auteurs en jaartallen nog eens in de boeken nagekeken. Sessie 7-slides ontbreken
 (college nog niet geweest). Oefentoets volgt in v160.
+
+**v160: Governance, gat in de controle gedicht.** In v153-v158 waren de In plain words en de
+Quick recaps (overview-tab S5-S7) niet met de hand nagelopen. Nu alle 60+ gelezen naast de bron.
+Hersteld: S3 Weber "treating everyone the same" (staat niet in Figuur 10.3), S6 capacity-based
+authority ("lead groups without an office"; Maia: deference based on perceived competence), S6
+Russisch veto Oekraïne 2022 gelabeld als algemene kennis (artikel noemt 2014). Overige
+gecontroleerd en correct (VVD boven aandeel, Tartus, Russische diplomatie via G8/ASEAN,
+LexisNexis, IMF en Griekenland, Zweedse commissies, ideas rather than policies).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

@@ -552,7 +552,7 @@ LESSTOF['governance-policy/college-3'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nBureaucracies are very old, from ancient China to modern states. Weber described the ideal: fixed rules, a clear hierarchy, experts hired on merit, and treating everyone the same."
+        "tekst": "**In plain words**\n\nBureaucracies are very old, from ancient China to modern states. Weber described the ideal: a clear division of tasks, decisions made by applying rules, recruitment on competence, secure careers, and a disciplined hierarchy."
       },
       {
         "type": "tabel",
