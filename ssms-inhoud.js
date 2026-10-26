@@ -672,7 +672,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
               "They have become identical in practice"
             ],
             "juist": 2,
-            "uitleg": "Pettersen and Bjørnskau (2015) demonstrated this with field research. Note especially \"in normal situations\": the friction sits in daily work, not in the crisis."
+            "uitleg": "Pettersen and Bjørnskau (2015) illustrate this, and field studies confirm the tension in daily work. Note especially \"in normal situations\": the friction sits in daily work, not in the crisis."
           },
           {
             "vraag": "Why do science and technology widen the difference at airports?",
@@ -694,7 +694,7 @@ LESSTOF["intro-to-safety-security/h1"] = [
               "Security may only be published by government"
             ],
             "juist": 1,
-            "uitleg": "A **structural** conflict between two information regimes. On integration, one of the two surrenders its most important learning mechanism."
+            "uitleg": "A **structural** conflict between two information regimes. Our reading: on integration, one of the two would have to give up part of its most important learning mechanism."
           },
           {
             "vraag": "What does Schulman claim about complex systems, according to chapter 1?",
@@ -2593,7 +2593,7 @@ LESSTOF["intro-to-safety-security/h5"] = [
             "uitleg": "As a result the field lacks theories of organisational security, and the literature on security science does not even mention the concept of security culture."
           },
           {
-            "vraag": "Why is just culture not transferable to security, according to Jore?",
+            "vraag": "Why is just culture problematic in security, according to Jore?",
             "opties": [
               "Because security has no errors",
               "Because the principle assumes openness and good faith, while the attacker is malicious",
@@ -2634,7 +2634,7 @@ LESSTOF["intro-to-safety-security/h5"] = [
               "Security culture should replace safety culture"
             ],
             "juist": 2,
-            "uitleg": "Understood separately because of malicious intent and non-transferable instruments; not treated separately because an organisation has only one culture."
+            "uitleg": "Understood separately because of malicious intent and instruments that do not transfer easily; not treated separately because both safety and security risks influence the same organisational culture."
           }
         ]
       },
@@ -2837,7 +2837,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSecurity incidents affect workers in the short and long term, physically and mentally. The first responders after 9/11 still suffer health effects."
+        "tekst": "**In plain words**\n\nSecurity incidents affect workers in the short and long term, physically and mentally. For the first responders after 9/11 there were short- and long-term health effects."
       },
       {
         "type": "tekst",
@@ -2846,7 +2846,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nThe toxic dust after the collapse of the Twin Towers made many rescue workers ill years later. A security incident became a long-term safety problem."
+        "tekst": "**In plain words**\n\nThe toxic dust after the collapse of the Twin Towers, with asbestos in it, has been linked to deaths and health-related retirements among rescue workers. A security incident became a long-term safety problem."
       },
       {
         "type": "waarschuwing",
@@ -2915,7 +2915,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSafety at work now also means dealing with security threats. Because the law places the duty for safety on the employer, security gets less attention."
+        "tekst": "**In plain words**\n\nSafety at work now also means dealing with security threats. For safety the law places the duty on the employer; for security the state is the backbone, and that difference affects priorities and incentives."
       },
       {
         "type": "uitleg",
@@ -3108,12 +3108,12 @@ LESSTOF["intro-to-safety-security/h10"] = [
             "vraag": "Why is 9/11 also a safety problem for Boustras?",
             "opties": [
               "Because of the cockpit doors",
-              "Because the toxic dust made thousands of first responders ill for years",
+              "Because more than 40,000 first responders and relief workers were exposed to toxic dust, with short- and long-term health effects",
               "Because the TSA was created",
               "Because of the stock market"
             ],
             "juist": 1,
-            "uitleg": "Asbestos, respiratory illness and early retirement: classic OHS themes."
+            "uitleg": "At least four deaths are linked to upper respiratory problems and hundreds of firefighters retired because of health effects: classic OHS themes."
           },
           {
             "vraag": "What do low-risk companies such as offices increasingly do?",
@@ -3124,7 +3124,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
               "Outsource all safety"
             ],
             "juist": 1,
-            "uitleg": "Usually to save costs: integration where risks are low."
+            "uitleg": "Boustras says they increasingly attempt to consolidate the duties; he does not give the reason."
           },
           {
             "vraag": "\"No payment system, so people hoard, so the supermarket chain stalls\" is which interdependency?",

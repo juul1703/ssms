@@ -467,7 +467,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
               "Security is unaffordable"
             ],
             "juist": 1,
-            "uitleg": "He calls it a convenient untruth: convenient because it saves a second programme, untrue because security cannot meet the safety standard."
+            "uitleg": "He calls it a convenient untruth. It is untrue because security cannot meet the deterministic standard of high reliability safety; he does not spell out why it is convenient."
           },
           {
             "vraag": "What does high reliability mean for an HRO?",
@@ -533,7 +533,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
               "That safety matters more than security"
             ],
             "juist": 1,
-            "uitleg": "Protection against intrusion from outside became protection for an attacker inside. The failure is part of a learning system."
+            "uitleg": "Protection against intrusion from outside became protection for an attacker inside. In security, failure is part of a learning system: the adversary develops counter-strategy."
           },
           {
             "vraag": "Why is the internet the spectacular example of design-based vulnerability?",
@@ -599,7 +599,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
               "Operators in a nuclear plant"
             ],
             "juist": 1,
-            "uitleg": "Trained for safety, they recognised an unprecedented security situation within minutes and acted without a script."
+            "uitleg": "Schulman's example of reliability professionals in teams acting as first responders, in an emergency response role at the service of both safety and security."
           },
           {
             "vraag": "What is Schulman’s conclusion?",
@@ -610,7 +610,7 @@ LESSTOF['intro-to-safety-security/h9'] = [
               "HROs are unsuitable for security"
             ],
             "juist": 1,
-            "uitleg": "The error sensitivity of high reliability management can catch the precursors of one mission undermining the other, as in the Germanwings case."
+            "uitleg": "The error sensitivity of high reliability management can catch the precursors of one mission undermining the other, which a separated approach can miss."
           }
         ]
       },

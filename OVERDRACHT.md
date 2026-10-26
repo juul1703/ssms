@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v151**.
+Stand: 23 oktober 2026, service worker **v152**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -789,6 +789,17 @@ Opgemerkt voor Governance: een G&P-slide (types of political executives) leest i
 tekstexport alsof Frankrijk autoritair en China semi-presidentieel is; vermoedelijk een
 kolomverschuiving in de export. Controleren bij Governance.
 Laag 2 deel 2 (alle In plain words en alle quiz-uitleg) volgt in v152.
+
+**v152: controleronde Intro, laag 2 deel 2: alle In plain words (87) en alle quizvragen met
+uitleg (135)** gelezen naast boek en slides. Hersteld: H10 9/11 ("many ill years later",
+"still suffer", "thousands ill" in een quizantwoord; boek: 40.000+ blootgesteld, minstens
+vier doden, honderden met pensioen om gezondheidsredenen), H10 "security gets less attention"
+en "usually to save costs" (staat niet in het boek), H7 "chapter 4 said that" en "safety's
+knowledge is more developed" (niet in het boek), H7 drie keer interpretatie gelabeld, H5 quiz
+"just culture not transferable" en "only one culture", H1 Pettersen en Bjørnskau, H9 de
+reden voor "convenient" (nog een keer), de 9/11-luchtverkeersleiders ("within minutes,
+without a script" staat niet in het boek). Daarmee is de controleronde Intro rond: alle
+samenvattingssoorten zijn gelezen. Wat niet in het Project staat, is gelabeld unchecked.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

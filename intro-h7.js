@@ -44,7 +44,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
       {
         "type": "slimmer",
         "titel": "Read this chapter as a counterweight",
-        "tekst": "So far the book pointed one way. Leveson: one analysis. Wipf: one solution space. Bongiovanni: one user experience. This chapter points the other way, and that is exactly why the editors included it.\n\nWhat you need to understand is that Brooks and Coole do **not contradict** the others. They look at something else. The others ask: can you analyse safety and security with the same tools? Brooks and Coole ask: is the person handling those tools the same person, with the same education, in the same profession? Their answer to that second question is no.\n\nSo keep in mind: **analytical unity is something different from professional unity**. Chapter 4 said that in a subordinate clause. Chapter 7 turns it into a whole argument."
+        "tekst": "So far the book pointed one way. Leveson: one analysis. Wipf: one solution space. Bongiovanni: one user experience. This chapter points the other way, and that is exactly why the editors included it.\n\nWhat you need to understand is that Brooks and Coole do **not contradict** the others. They look at something else. The others ask: can you analyse safety and security with the same tools? Brooks and Coole ask: is the person handling those tools the same person, with the same education, in the same profession? Their answer to that second question is no.\n\nSo keep in mind: **analytical unity is something different from professional unity**. Chapter 7 turns that distinction into a whole argument."
       }
     ]
   },
@@ -303,7 +303,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSafety is also still growing into a profession, and its training differs a lot between schools. But its knowledge is more developed and better organised than security’s."
+        "tekst": "**In plain words**\n\nSafety is also still growing into a profession, and its training differs a lot between schools. Its knowledge is set out in models such as the SIA Model of OHS Practice and the INSHPO Capability Framework."
       },
       {
         "type": "tekst",
@@ -633,7 +633,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
               "Can safety professionals carry out security tasks?"
             ],
             "juist": 1,
-            "uitleg": "They answer the question through bodies of knowledge, because knowledge is the most stable and testable characteristic of a profession."
+            "uitleg": "They answer the question through bodies of knowledge, because a supporting academic body of knowledge is the primary characteristic of a profession."
           },
           {
             "vraag": "In which contexts are safety and security compared in this chapter?",
@@ -732,7 +732,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
               "It depends on the organisation"
             ],
             "juist": 1,
-            "uitleg": "Life safety is the only area where, according to INSHPO, the safety professional has a security function."
+            "uitleg": "INSHPO suggests the safety professional has a security function, which Brooks and Coole say generally lies in life safety."
           },
           {
             "vraag": "According to Brooks and Coole, what happens if you merge the professions into one practice?",
@@ -743,7 +743,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
               "A new profession emerges"
             ],
             "juist": 1,
-            "uitleg": "Merging is not the same as cooperating. The argument is against naive integration, not against coordination."
+            "uitleg": "Our reading, not the authors': merging is not the same as cooperating, so this argues against merging the professions, not against coordination."
           },
           {
             "vraag": "Which three forces will increase the divergence?",
@@ -754,7 +754,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
               "Courses, associations, government"
             ],
             "juist": 1,
-            "uitleg": "It is a prediction about where the professions are heading, not advice that they ought to diverge."
+            "uitleg": "Our reading: it is a prediction about where the professions are heading, not advice that they ought to diverge."
           }
         ]
       },
