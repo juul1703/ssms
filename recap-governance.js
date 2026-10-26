@@ -112,17 +112,17 @@ voegRecapToe("governance-policy/college-1", {
         [
           "Traditional",
           "The accepted way of doing things",
-          "Hereditary monarchy"
+          "Example (ours): a hereditary monarchy"
         ],
         [
           "Charismatic",
           "Commitment to a leader and their message",
-          "Fragile: tied to one person"
+          "Example (ours): fragile, because it is tied to one person"
         ],
         [
           "Legal-rational",
           "Rules attached to an office, not a person",
-          "Dominant in democracies"
+          "Often seen as dominant in democracies"
         ],
         [
           "Added by the chapter",

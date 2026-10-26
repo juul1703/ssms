@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v152**.
+Stand: 23 oktober 2026, service worker **v153**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -800,6 +800,15 @@ knowledge is more developed" (niet in het boek), H7 drie keer interpretatie gela
 reden voor "convenient" (nog een keer), de 9/11-luchtverkeersleiders ("within minutes,
 without a script" staat niet in het boek). Daarmee is de controleronde Intro rond: alle
 samenvattingssoorten zijn gelezen. Wat niet in het Project staat, is gelabeld unchecked.
+
+**v153: Governance sessie 1 en 2 gecontroleerd** (kernstof en alle samenvattingen naast
+McCormick H1, Buckwalter en Balfour en de slides; figuur 2.1 als afbeelding bekeken). Methode:
+citaten, getallen en namen mechanisch; daarna per zin de best passende passage in de bron
+(script /tmp/support.py, venster van 80 woorden), alles met weinig steun met de hand
+nagelopen. Hersteld S1: Foucault "tying someone up is violence" (staat niet op de slide),
+Weber-voorbeelden en "dominant" gelabeld, Jetten-details en "trias politica" gemarkeerd als
+niet uit de bron. S2: "five emergency managers" is vijf benoemingen van vier mensen; self-
+sealing cycle-uitleg gelabeld. Vaardigheden-uitleg S1 (16) en S2 (8).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

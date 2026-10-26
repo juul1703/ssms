@@ -35,22 +35,22 @@ LESSTOF['governance-policy/college-1'] = [
       {
         "type": "leerdoelen",
         "items": [
-          "Explain what political science and social science are, and why they are harder to do than natural science",
-          "Name the six sub-fields of political science and say where comparative politics stands apart",
-          "List the six benefits of comparison and illustrate each with an example",
-          "Tell government and governance apart, and explain why you need both concepts",
-          "Name the three features of politics and set the two opposing conceptions of politics against each other",
-          "Distinguish power from authority, and apply Lukes’ three dimensions of power to a case",
-          "Recognise Weber’s three sources of authority in practice",
-          "Explain what a typology is, why no generally accepted one exists, and what the Democracy Index and Freedom House measure",
-          "Name the two things politics is about according to this lecture",
-          "Explain what makes politics collective, including the four kinds of decision a group takes",
-          "Tell power, authority and legitimacy apart and say what each one does",
-          "Say what a policy is, including the part everyone forgets",
-          "Distinguish state from government, and name the three elements of a nation state",
-          "Name the three branches of government",
-          "Tell government, governance, public governance and metagovernance apart",
-          "For the Netherlands, Germany and Mexico, say where the highest legal authority sits and why that differs per country"
+          {"doel": "Explain what political science and social science are, and why they are harder to do than natural science", "uitleg": "**Social scientists** (anthropologists, economists, geographers, historians, political scientists, sociologists) study the institutions we build, the rules we agree, the processes we use, our motives and the outcomes of our interactions. **Political science** is the branch that focuses on government and politics. Why harder: human behaviour is unpredictable and resists being tied down to unchanging rules."},
+          {"doel": "Name the six sub-fields of political science and say where comparative politics stands apart", "uitleg": "Comparative politics, international relations, national politics, political philosophy, political theory and public policy. Comparative politics stands apart because comparison is one of the oldest tools of the field (Aristotle) and, as the chapter quotes, \"the methodological core of the scientific study of politics\" (Powell et al., 2014)."},
+          {"doel": "List the six benefits of comparison and illustrate each with an example", "uitleg": "**Description** (the core facts of how governments work), **context** (is what you see usual or unusual?), **rules** (regularities, which give theories and tendencies rather than laws), **understanding** (of yourself and the world), **prediction** (with its limits; Popper doubted long-term prediction of society) and **making choices** (learning from each other: equal education spending, very different literacy rates). Covid-19 in China, the US and the DRC works as one example for several of them."},
+          {"doel": "Tell government and governance apart, and explain why you need both concepts", "uitleg": "**Government**: the institutions and offices that make binding decisions for society, a relatively static concept. **Governance**: the process of collective decision-making and its quality, in which government is one actor among many. You need both because some decision-making runs without a government: global governance through international organisations and treaties, without a world government."},
+          {"doel": "Name the three features of politics and set the two opposing conceptions of politics against each other", "uitleg": "Politics is **collective** (a lone castaway cannot do politics), it involves **deciding**, and the decision becomes **policy** binding the whole group, including those who keep resisting. The two conceptions: politics as **serving the community** (Aristotle: \"man is by nature a political animal\") against politics as a **competitive struggle** for power and resources (Lasswell: \"who gets what, when, how\")."},
+          {"doel": "Distinguish power from authority, and apply Lukes’ three dimensions of power to a case", "uitleg": "**Power** is the capacity to act; **authority** is the acknowledged right to do so. Then Lukes: the **first** dimension asks who prevails when preferences conflict (decision-making; the US gun lobby); the **second** who controls whether preferences are expressed (non-decision-making; the Taliban keeping women's rights off the agenda); the **third** who shapes preferences (a manipulated consensus; the Spanish flu). Apply all three to your case in that order."},
+          {"doel": "Recognise Weber’s three sources of authority in practice", "uitleg": "**Tradition** (the accepted way of doing things), **charisma** (intense commitment to a leader and their message) and **legal-rational norms** (the rule-governed powers of an office, not a person). The chapter adds two things to Weber: competence, or at least the perception of it, and how far leaders represent their followers' moral values and ideological goals."},
+          {"doel": "Explain what a typology is, why no generally accepted one exists, and what the Democracy Index and Freedom House measure", "uitleg": "A **typology** sorts political systems into types. No generally accepted one exists because political scientists disagree on the criteria, the groups, the labels and even which country belongs where. The book relies on two: the EIU **Democracy Index** (score out of 10: full democracy, flawed democracy, hybrid regime, authoritarian regime) and Freedom House's **Freedom in the World** (score out of 100: free, partly free, not free). Their results overlap strongly but not exactly."},
+          {"doel": "Name the two things politics is about according to this lecture", "uitleg": "From the slide: **communicating and reconciling different interests** within a social group, and **reaching and implementing collective decisions, by force if necessary**. Do not forget the last four words."},
+          {"doel": "Explain what makes politics collective, including the four kinds of decision a group takes", "uitleg": "**Membership** of a social group (family, school, church, nation, state) whose decisions affect its members. The four kinds of decision on the slide: who is in the group and who is out; how to share resources; how to relate to other groups; and what to decide privately and what collectively."},
+          {"doel": "Tell power, authority and legitimacy apart and say what each one does", "uitleg": "From the slide: **power** is the capacity to make and enforce political decisions; **authority** is the right to do so; **legitimacy** is the validation of political decisions: a government is legitimate when those subject to its rule recognise and accept its right to decide. In short: being able, being allowed, and the governed agreeing that you are allowed."},
+          {"doel": "Say what a policy is, including the part everyone forgets", "uitleg": "From the slide: a policy is **a decision, a non-decision, or an intention to make future decisions** in accordance with an overall objective. The forgotten part is the **non-decision**: deciding not to act is policy too. Add its function: an instrument to turn collective decisions into permanent or semi-permanent rules, enforced by government agencies."},
+          {"doel": "Distinguish state from government, and name the three elements of a nation state", "uitleg": "A (nation) state consists of **territory, population and government** (slide 9). The government is one of the three elements, which is why the state survives a change of government."},
+          {"doel": "Name the three branches of government", "uitleg": "The **executive**, the **legislative** and the **judiciary** branch (slide 10). The book lists more institutions of government; the lecture uses these three."},
+          {"doel": "Tell government, governance, public governance and metagovernance apart", "uitleg": "From the slides: **government** = all organisations through which we experience public authority; **governance** = the process and quality of ruling or steering, coordinating a variety of actors, not exclusive to governments; **public governance** = the relationship between government (three branches plus political parties) and economic and civil society actors, to tackle social problems together; **metagovernance** = the power of governing governance, usually placed at the highest end of authority."},
+          {"doel": "For the Netherlands, Germany and Mexico, say where the highest legal authority sits and why that differs per country", "uitleg": "The slides ask who is the highest authority **in legal terms**. The Netherlands: a constitutional monarchy, with the question king or prime minister. Germany, a parliamentary federal republic: reviewing the constitution brings up the Federal Constitutional Court, the Federal Chancellor and the Federal Parliament. Mexico, a presidential federal republic: the **Supreme Court of Justice**. It differs because each constitution distributes authority differently; you find metagovernance by reading the constitution, not by looking at who seems most powerful."}
         ]
       },
       {
@@ -312,7 +312,7 @@ LESSTOF['governance-policy/college-1'] = [
       },
       {
         "type": "uitleg",
-        "tekst": "**From the lecture**\n\nThe lecturer asks it outright: what is the difference between a state and a government? The answer you should be able to give:\n\nA **[[(nation) state|(Nation) state]]** consists of three elements: **territory, population and government**. The note on the slide puts it more sharply: the state is the political community formed by a territorial population subject to one government.\n\nA **government** is one of those three elements. The definition the lecturer gives: the institutions that make binding decisions for society. They offer **security and predictability** by making laws and decisions that are expected to be fair to everyone.\n\nThe state is therefore the larger whole, and it survives a change of government.\n\nThe book lists five institutions of government (above); the lecture uses the classic three branches, the **[[trias politica|Trias politica]]**:"
+        "tekst": "**From the lecture**\n\nThe lecturer asks it outright: what is the difference between a state and a government? The answer you should be able to give:\n\nA **[[(nation) state|(Nation) state]]** consists of three elements: **territory, population and government**. The note on the slide puts it more sharply: the state is the political community formed by a territorial population subject to one government.\n\nA **government** is one of those three elements. The definition the lecturer gives: the institutions that make binding decisions for society. They offer **security and predictability** by making laws and decisions that are expected to be fair to everyone.\n\nThe state is therefore the larger whole, and it survives a change of government.\n\nThe book lists five institutions of government (above); the lecture uses the classic three branches, usually called the **[[trias politica|Trias politica]]** (the slide lists the branches but does not use that name):"
       },
       {
         "type": "tabel",
@@ -466,7 +466,7 @@ LESSTOF['governance-policy/college-1'] = [
       },
       {
         "type": "uitleg",
-        "tekst": "**From the lecture: Foucault on power**\n\nIt is not decoration at the end. Foucault shifts the question from *who has power* to *how does power work*.\n\nIn his picture nobody owns power like an object; power exists in what people do to each other. And the sharpest point: power presupposes that the person it acts on **can act**. Tying someone up completely is not power but violence; power works precisely on someone who has choices.\n\nThat connects to Lukes’ three dimensions of power from the book, especially the third: shaping what people want is more effective than defeating what they want."
+        "tekst": "**From the lecture: Foucault on power**\n\nIt is not decoration at the end. Foucault shifts the question from *who has power* to *how does power work*.\n\nIn his picture nobody owns power like an object; power exists in what people do to each other. And the sharpest point: power presupposes that the person it acts on **can act**. The quote ends on exactly that: even when power constrains or forbids absolutely, it is still a way of acting upon a subject capable of action.\n\nThat connects to Lukes’ three dimensions of power from the book, especially the third: shaping what people want is more effective than defeating what they want."
       },
       {
         "type": "citaat",
@@ -497,11 +497,11 @@ LESSTOF['governance-policy/college-1'] = [
           },
           {
             "titel": "Charisma",
-            "tekst": "Intense commitment to a leader and their message. Tied to a person and therefore fragile."
+            "tekst": "Intense commitment to a leader and their message. Tied to a person, and therefore (our addition) fragile."
           },
           {
             "titel": "Legal-rational norms",
-            "tekst": "Based on the rule-governed powers of an office, not of a person. Dominant in democracies."
+            "tekst": "Based on the rule-governed powers of an office, not of a person. Often seen as the dominant form in democracies (the book: \"where we might think\" it is)."
           },
           {
             "titel": "Additions to Weber",
@@ -616,7 +616,7 @@ LESSTOF['governance-policy/college-1'] = [
         "type": "tekst",
         "titel": "From the lecture: who has the final say? Three countries",
         "toetsstof": true,
-        "tekst": "The lecturer works through the Netherlands to illustrate [[government|Government]] versus [[governance|Governance]].\n\n**Government:** the executive is the prime minister and cabinet, on the slide **Rob Jetten** (prime minister since 23 February 2026, at the head of a minority cabinet of D66, VVD and CDA; see session 3). The legislature is the Dutch parliament. The judiciary consists of judges and police.\n\n**Governance:** on top of that come [[economic actors|Economic actors]] and [[civil society actors|Civil society actors]], to produce, implement and enforce public [[policy|Policy]].\n\nThen the [[metagovernance|Metagovernance]] question: who is the highest [[authority|Authority]] in legal terms? The head of government, the prime minister? Or the head of state, the king? The answer the lecturer gives is that **the Dutch [[political system|Political system]] is a [[constitutional monarchy|Constitutional monarchy]]**."
+        "tekst": "The lecturer works through the Netherlands to illustrate [[government|Government]] versus [[governance|Governance]].\n\n**Government:** the executive is the prime minister and cabinet, on the slide **Rob Jetten** (prime minister since 23 February 2026, at the head of a minority cabinet of D66, VVD and CDA; see session 3; these details are not on the slide or in the book, so check them yourself if you use them). The legislature is the Dutch parliament. The judiciary consists of judges and police.\n\n**Governance:** on top of that come [[economic actors|Economic actors]] and [[civil society actors|Civil society actors]], to produce, implement and enforce public [[policy|Policy]].\n\nThen the [[metagovernance|Metagovernance]] question: who is the highest [[authority|Authority]] in legal terms? The head of government, the prime minister? Or the head of state, the king? The answer the lecturer gives is that **the Dutch [[political system|Political system]] is a [[constitutional monarchy|Constitutional monarchy]]**."
       },
       {
         "type": "slimmer",
@@ -774,11 +774,11 @@ LESSTOF['governance-policy/college-1'] = [
           },
           {
             "begrip": "Legal-rational authority",
-            "definitie": "Weber: authority based on the rule-governed powers of an office rather than of a person. Dominant in democracies."
+            "definitie": "Weber: authority based on the rule-governed powers of an office rather than of a person. Often seen as the dominant form in democracies (the book: \"where we might think\" it is)."
           },
           {
             "begrip": "Charismatic authority",
-            "definitie": "Weber: authority based on intense commitment to a leader and their message. Tied to a person, so fragile."
+            "definitie": "Weber: authority based on intense commitment to a leader and their message. Tied to a person, so (our addition) fragile."
           },
           {
             "begrip": "Traditional authority",
@@ -1261,7 +1261,7 @@ LESSTOF['governance-policy/college-1'] = [
               "Power derives from legitimacy"
             ],
             "juist": 1,
-            "uitleg": "Nobody owns power as an object. And power presupposes freedom to act: tying someone up completely is not power but violence."
+            "uitleg": "Nobody owns power as an object. And power presupposes freedom to act: even when it constrains or forbids absolutely, it still acts upon a subject capable of action."
           }
         ]
       },
