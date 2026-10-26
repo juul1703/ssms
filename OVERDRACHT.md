@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v156**.
+Stand: 23 oktober 2026, service worker **v157**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -833,6 +833,14 @@ jaartallen en de vier meanings, vijf mechanisms, drie richtingen en vier perspec
 Citaten letterlijk gemaakt (Lynn et al. met komma, Amerikaanse spelling "institutionalized",
 "state-organized", Powell-titel "Neither markets nor hierarchy"). UNESCAP als bron van de acht
 kwaliteiten gelabeld als niet uit slide of tekst. Vaardigheden-uitleg S5 (7).
+
+**v157: Governance sessie 6 gecontroleerd** (Huberts et al., Maia, slides 6). Getallen PI-Index
+(355, 282, 106, 90/39/35, 92%), Nordic research, Thompson, de vijf bases of authority en
+Resolutie 1973 (10 voor, 5 onthoudingen) kloppen. Citaten letterlijk (Luck "performance,
+unity, and control, not equity"; "predictability, stability, and order"). Gelabeld als
+algemene kennis: 9 stemmen voor een besluit, Trusteeship Council inactief sinds 1994. Quiz-
+uitleg expert authority: Maia noemt IMF-economen en IAEA-ingenieurs, niet de WHO.
+Vaardigheden-uitleg S6 (6).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
