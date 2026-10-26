@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v163**.
+Stand: 23 oktober 2026, service worker **v164**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -885,6 +885,11 @@ only remember". Ontbreken nog: Society S1, S3-S5, Governance S1-S4; te kort: all
 Volgorde: Society helemaal (inclusief uitgebreide mid-term-les), dan Governance, dan Intro.
 S2: twin-study-slide (afbeelding) en "three invented neighbours" (Julies aantekeningen)
 gelabeld unchecked. Vaardigheden-uitleg S2 (8).
+
+**v164: Quick recap Society sessie 1** in `overview-society.js` (bouwscripts in
+/home/claude/work/sov, niet in de repo). Elke bewering nagekeken in H1, H2, H4 en Lecture 1
+(onder meer 25-40 mensen, 12.000 jaar, drie op de vier in steden, 200 natiestaten, tot 10.000
+talen, 40/90/60 landen, de slide-tag "networks, risk & surveillance", het studieschuld-voorbeeld).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
