@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v155**.
+Stand: 23 oktober 2026, service worker **v156**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -827,6 +827,12 @@ congestion", "...restrictions on vehicle use"). Actualisatieblok (Trump 2024, Re
 Lawrence Wong, Sheinbaum, D66 sociaal-liberaal, Jetten) gelabeld als niet uit boek of slides.
 Alle verwijzingen naar "the lecturer's notes" in S3 en S4 (13) gelabeld unchecked, net als de
 voorbeelden van politiek uitgeslotenen. Vaardigheden-uitleg S4 (11).
+
+**v156: Governance sessie 5 gecontroleerd** (Levi-Faur 2012, slides 5). Alle getallen,
+jaartallen en de vier meanings, vijf mechanisms, drie richtingen en vier perspectives kloppen.
+Citaten letterlijk gemaakt (Lynn et al. met komma, Amerikaanse spelling "institutionalized",
+"state-organized", Powell-titel "Neither markets nor hierarchy"). UNESCAP als bron van de acht
+kwaliteiten gelabeld als niet uit slide of tekst. Vaardigheden-uitleg S5 (7).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
