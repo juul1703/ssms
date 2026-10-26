@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v157**.
+Stand: 23 oktober 2026, service worker **v158**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -841,6 +841,13 @@ unity, and control, not equity"; "predictability, stability, and order"). Gelabe
 algemene kennis: 9 stemmen voor een besluit, Trusteeship Council inactief sinds 1994. Quiz-
 uitleg expert authority: Maia noemt IMF-economen en IAEA-ingenieurs, niet de WHO.
 Vaardigheden-uitleg S6 (6).
+
+**v158: Governance sessie 7 gecontroleerd** (H16, H17; nog geen slides, het college is nog
+niet geweest). Getallen en voorbeelden kloppen (WANGO 54.000/75%, Civicus 3%, Haïti, Zimbabwe,
+Indonesië, Japan JA, Zweden 11 departementen/4.600, Nordic Council 1952, Tabellen 16.3, 17.2,
+17.3, 17.5). Citaten letterlijk ("following power rather than parties", WANGO "organization").
+SER: boek noemt het "Economic and Social Council". Vaardigheden-uitleg S7 (11). Hiermee zijn
+alle Governance-sessies 1-7 gecontroleerd; volgende stap de Governance mid-term-les.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
