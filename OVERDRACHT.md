@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v161**.
+Stand: 23 oktober 2026, service worker **v162**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -869,6 +869,12 @@ gespreid, browser 20/20. Drie open examenvragen (noodbestuur na overstroming, gl
 veiligheidsbeleid tegen messengeweld). Maia's tekst over principled en capacity-based authority
 van de Veiligheidsraad nagelezen voor vraag 8. S5-quizvraag: "Neither markets nor hierarchy"
 (zo spelt Levi-Faur de titel).
+
+**v162: Society sessie 1 gecontroleerd** (Macionis en Plummer H1, H2, H4, Lecture 1). Let op bij
+bronnen: de pdf's van Society moeten zonder -layout worden geëxtraheerd (twee kolommen). Hersteld:
+"the book's chapter 17 adds anomic and fatalistic suicide" staat niet in H17 of H1-2 en niet op de
+slide; nu gelabeld unchecked. G8/Rusland 2014 gelabeld als algemene kennis. Vaardigheden-uitleg
+S1 (10). Society heeft 78 vaardigheden zonder uitleg; per sessie aanvullen.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
