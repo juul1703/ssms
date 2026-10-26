@@ -13,11 +13,26 @@ LESSTOF['intro-to-safety-security/midterm'] = [
       {
         "type": "leerdoelen",
         "items": [
-          "Conceptualise the domains of safety and security addressed in SSMS (course goal 1)",
-          "Explain the relevance of stakeholder approaches to safety and security management (course goal 2)",
-          "Summarise the structure and main ideas of the SSMS programme (course goal 3)",
-          "Explain how elements of risk management and resilience apply to international safety and security (course goal 4)",
-          "Link the sessions: intent, openness against secrecy, merge or separate, definitions, people"
+          {
+            "doel": "Conceptualise the domains of safety and security addressed in SSMS (course goal 1)",
+            "uitleg": "Start with the three worlds (public safety; industrial safety and corporate security; international security) and the key distinction, human intentionality. Then sharpen it with chapter 2 (intentional effects on objectives) and Jore (malicious intent). See sections 1, 2 and 4."
+          },
+          {
+            "doel": "Explain the relevance of stakeholder approaches to safety and security management (course goal 2)",
+            "uitleg": "Use session 4 (stakeholders, actors and culture): Jore's security culture and In Amenas. Add communication with stakeholders from session 3 (trust, participation) and the workers of chapter 10. One concrete case per point."
+          },
+          {
+            "doel": "Summarise the structure and main ideas of the SSMS programme (course goal 3)",
+            "uitleg": "The three worlds with SSMS in the middle, and the four core tasks that structure the degree: identify, analyse and assess; design and recommend; implement and coordinate; evaluate. See section 1."
+          },
+          {
+            "doel": "Explain how elements of risk management and resilience apply to international safety and security (course goal 4)",
+            "uitleg": "Risk as the effect of uncertainty on objectives (ISO 31000), the safety chain, and session 6 on resilience: Brooks and Coole's bodies of knowledge and Schulman's HROs, precursors and higher resolution reliability. Use an international case such as In Amenas or 9/11."
+          },
+          {
+            "doel": "Link the sessions: intent, openness against secrecy, merge or separate, definitions, people",
+            "uitleg": "Take each thread from section 9 and name two sessions or authors in which it appears. For example openness against secrecy: the security paradox (session 3), just culture (Jore) and the four tensions (Schulman), with Germanwings 9525 as the shared case."
+          }
         ]
       },
       {

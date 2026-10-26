@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v148**.
+Stand: 23 oktober 2026, service worker **v149**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -748,6 +748,16 @@ sessie 1 t/m 4 compleet. Elke uitleg is geschreven uit de gecontroleerde kernsto
 uitleg doel 1: "the oral end-term exam is built on them literally" stond niet in de manual;
 nu de vier leerdoelen uit 2.1.2 en de toetsvorm. Nog te doen voor Intro: H7, H9, H10,
 sessie 5, mid-term-les. Daarna Governance, Society, PS, DRM, FAW (zie audit).
+
+**v149: Vaardigheden-uitleg Intro deel 2** (H7, H9, H10, sessie 5, mid-term-les). Alle
+Intro-lessen hebben nu bij elke vaardigheid een uitleg. Bij het schrijven tegen het boek
+gecontroleerd en daarbij hersteld: H7 zei dat safety "closer" / "further along the road to
+professional status" is dan security; Brooks en Coole zeggen dat **beide** die status nog niet
+hebben (7.4, 7.5). Nu gelabeld als eigen redenering (kernstof, modelantwoord, quiz-uitleg,
+Say it out loud). H7-leerdoel 6 noemde legislation als polarity; de polarity is volgens het
+boek hazards and threats, technologies, underlying theories, legislation is een apart punt.
+Volgende stap: v150, volledige controleronde Intro (citaten en getallen mechanisch tegen
+boek en slides, daarna alle samenvattingen naast de kernstof).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

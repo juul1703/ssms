@@ -2794,11 +2794,11 @@ LESSTOF["intro-to-safety-security/h10"] = [
       {
         "type": "leerdoelen",
         "items": [
-          "Explain why Boustras argues that safety increasingly depends on security",
-          "Name the connecting factors and describe the mechanism behind each",
-          "Distinguish the short-term and long-term effects of security incidents on the workplace",
-          "Explain what social exclusion as a common route means",
-          "Reproduce the final difference between safety and security in terms of legal responsibility"
+          {"doel": "Explain why Boustras argues that safety increasingly depends on security", "uitleg": "New social conditions (cybersecurity threats, radicalisation, the economic crisis) bring safety and security tighter together and affect the workplace and the employee. Security-related episodes impact safety at the occupational and societal level. From that he concludes that safety is becoming increasingly dependent on security, and that a new domain emerges at their interface. Note that he calls his approach **exploratory**."},
+          {"doel": "Name the connecting factors and describe the mechanism behind each", "uitleg": "**Security incidents** (terrorism, 9/11): direct harm plus psychosocial problems and damaged trust in the employer. **Cyber and critical infrastructure**: systems of systems, where one failure cascades, with four interdependencies (digital, physical, geographical, logical). **Radicalisation**: perceived discrimination and bullying as a possible route. **The financial crisis**: unemployment, insecurity and psychosocial problems, and historically political radicalisation."},
+          {"doel": "Distinguish the short-term and long-term effects of security incidents on the workplace", "uitleg": "**Direct and visible:** injury and loss of life, with an immediate impact on daily operation. **Slow and invisible:** psychosocial problems such as PTSD, depression and stress-related illness, with organisational and financial costs. Use 9/11 for the long term: more than 40,000 first responders exposed to toxic dust, at least four deaths linked to it, hundreds of firefighters retiring early."},
+          {"doel": "Explain what social exclusion as a common route means", "uitleg": "Both radicalisation and the financial crisis can lead to social exclusion, and social exclusion surfaces as the connecting factor between safety-related and security-related incidents. Add the caveat Boustras makes himself: without empirical analysis the causal connections are not established."},
+          {"doel": "Reproduce the final difference between safety and security in terms of legal responsibility", "uitleg": "With safety there is a legal requirement on the owner or manager: responsibility is **personalised**. With security that is not the case, because the **state authorities provide the backbone**. That has consequences for strategic priorities and for incentives."}
         ]
       },
       {

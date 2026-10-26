@@ -480,7 +480,7 @@ voegRecapToe("intro-to-safety-security/h7", {
         "Name the five characteristics of a profession, and say which is the most important.",
         "Give the five security categories and the six OHS categories.",
         "Explain hazard versus threat, and what it does to the controls.",
-        "Explain why safety is further along the road to professional status than security."
+        "Explain how the legislation of safety and security differs, and why that matters for professional status."
       ]
     }
   ]
