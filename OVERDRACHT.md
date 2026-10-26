@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v154**.
+Stand: 23 oktober 2026, service worker **v155**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -819,6 +819,14 @@ autoritair is; de les volgt het boek (Frankrijk semi-presidentieel), wat ook de 
 de slide moet zijn. Vaardigheden-uitleg S3 (11). Opmaak: vet met cursief erin ("**... *titel*
 ...**") breekt de renderer en toonde losse sterretjes; opgelost in S3 en S4. Let op: een
 algemene regex hiervoor raakt ook gewone cursief tussen twee vetgedrukte stukken; niet doen.
+
+**v155: Governance sessie 4 gecontroleerd** (H13, H15, slides 4). Citaten letterlijk: Figuur
+13.2 "wanting to be counted as part of the potential solution...", slide "'steering the ship'
+of state", prompt en veto ("public opinion demands that we do something about traffic
+congestion", "...restrictions on vehicle use"). Actualisatieblok (Trump 2024, Renaissance,
+Lawrence Wong, Sheinbaum, D66 sociaal-liberaal, Jetten) gelabeld als niet uit boek of slides.
+Alle verwijzingen naar "the lecturer's notes" in S3 en S4 (13) gelabeld unchecked, net als de
+voorbeelden van politiek uitgeslotenen. Vaardigheden-uitleg S4 (11).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
