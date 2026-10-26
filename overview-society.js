@@ -195,3 +195,61 @@ voegOverviewToe("society-politics/college-3", {
   ]
 });
 
+voegOverviewToe("society-politics/college-4", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nSession 4 (chapter 5 on culture, chapter 16 on social movements, and lecture 4) as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
+    },
+    {
+      "type": "tekst",
+      "titel": "What is culture?",
+      "tekst": "Why do we do what we do? Because of **culture**: the slide calls it **\"designs for living\"**, the values, beliefs, behaviour, practices and material objects that make up a people's way of life. It is a **toolbox** of solutions to everyday problems, a **bridge to the past** and a **guide to the future**. And the key line: **humans make culture, and in turn culture makes us.**\n\nClifford Geertz says humans are suspended in **webs of significance** they spun themselves: culture is those webs. Culture has a **non-material** side (ideas, \"from altruism to zen\") and a **material** side (things, \"from armaments to zips\").\n\nThe lecture reads extracts from Horace Miner's **Body Ritual among the Nacirema**: a strange tribe with shrines, charm-boxes and medicine men. \"Nacirema\" is American spelled backwards: it is about bathrooms and medicine cabinets. The point: what is normal inside your culture looks strange from outside. (The extracts were on image slides, so they are not in the Project files.)"
+    },
+    {
+      "type": "tekst",
+      "titel": "The five building blocks",
+      "tekst": "1. **Symbols**: anything that carries a meaning recognised by people who share a culture. A red light or a handshake means something only because we agree it does. The study of symbols and signs is **semiotics**.\n2. **Language**: a system of symbols that lets us communicate and pass culture on (**cultural reproduction**). The **Sapir-Whorf hypothesis** says we perceive the world through our language. It combines two ideas: **linguistic determinism** (language shapes how we think) and **linguistic relativity** (distinctions in one language are not found in another; the Inuit have many words for snow).\n3. **Values and beliefs**: values are standards of what is good and bad; beliefs are specific statements held to be true. Inglehart's **World Values Survey** sorts countries on two dimensions: **traditional versus secular-rational** and **survival versus self-expression**.\n4. **Norms**: rules that guide behaviour. **Prescriptive** norms say what you should do, **proscriptive** norms what you should not. **Mores** are about right and wrong and are strictly enforced (do not steal); **folkways** are customs for casual interaction, mildly enforced (they separate right from rude). Following or breaking norms brings positive or negative **sanctions**.\n5. **Material culture**: the tangible things, from houses to phones."
+    },
+    {
+      "type": "tekst",
+      "titel": "Diversity: many cultures in one society",
+      "tekst": "- **High culture** (the elite's patterns) and **popular culture** (widespread). Sociologists refuse to call one better.\n- **Cultural capital** (Bourdieu): power and status that come from education, cultural awareness and taste.\n- A **subculture** has patterns that set it apart from the wider population; a **counterculture** opposes widely accepted patterns (the 1960s hippies).\n- **Cultural integration**: the parts of a culture are connected, so changing one changes others. **Cultural lag** (Ogburn): technology races ahead and the rest of culture lags behind.\n- Culture changes through **invention** (something new: the telephone), **discovery** (understanding something that already existed: Marie Curie and radium) and **diffusion** (spreading from one culture to another).\n- **Ethnocentrism**: judging another culture by your own standards. **Cultural relativism**: judging a culture by its own standards and context. The Nacirema text is the exercise in switching from the first to the second.\n\nThe book also looks at **Muslim cultures**: they share core beliefs such as the **five pillars** (affirmation of faith, prayer five times a day, fasting during Ramadan, almsgiving, the pilgrimage to Mecca) but are very varied; Akbar Ahmed adds **asabiyya**, honour found through group loyalty. The lesson warns that the book's generalisations about Sunni and Shia are its own sketch, not a description of what all Muslims believe."
+    },
+    {
+      "type": "tekst",
+      "titel": "Youth cultures and a global culture",
+      "tekst": "**Youth cultures** appeared after the Second World War, made possible by **affluence**, **longer schooling** and a **consumer market** for young people: Teddy Boys, Mods and Rockers, skinheads, punks, goths. Sociologists read them in two ways: as **resistance** to the dominant culture (cultural studies), or as loose, fluid **neo-tribes** around tastes and styles (the postmodern view). Hodkinson's study of goths gives four signs of a real youth culture: identity, commitment, consistent distinctiveness and autonomy.\n\nIs there a **global culture**? Three flows push in that direction: **goods**, **information** and **people**. But there are three limits: the flows are **uneven**, many people **cannot afford** to take part, and people give global things **local meanings**. That last one is **glocalisation**: karaoke came from Japan but means something different in Thailand, London and San Francisco. **Hybridisation** mixes cultures (Pieterse: Thai boxing by Moroccan girls in Amsterdam), and Hannerz's **cosmopolitan** is someone with \"a willingness to engage with the other\"."
+    },
+    {
+      "type": "tekst",
+      "titel": "How sociologists explain culture",
+      "tekst": "**Functionalists** say culture holds society together: **core values** give stability, and some traits appear in every culture, the **cultural universals** (Murdock: family, funeral rites, jokes). Their blind spots: change, diversity and power.\n\n**Conflict theorists** say culture serves the powerful. **Adorno's culture industry**: mass culture is standardised and makes people passive and uncritical. **Gramsci's hegemony**: a dominant group wins over the others through **ideas**, so they consent and force is not needed.\n\n**Cultural studies** (Stuart Hall and others) sees popular culture as an arena of **consent and resistance**: people both accept and push back against dominant ideas. Any cultural object can be studied through the **circuit of culture**: **production, representation, identity, consumption, regulation**. Think of a smartphone: who makes it, how it is advertised, who you become by owning it, how you use it, and which rules apply to it.\n\nSo is culture a **constraint** or **freedom**? Both. It is largely habit and can make us repeat troubling patterns such as prejudice. But unlike animal instinct, culture gives us the responsibility and the freedom to make and remake our world."
+    },
+    {
+      "type": "tekst",
+      "titel": "The big debate: whose culture?",
+      "tekst": "**Eurocentrism** sees the world through European eyes; for Therborn, Europe was the \"chief organiser\" of the modern world. **Multiculturalism** recognises cultural diversity and promotes the equality of all traditions; **postcolonialism** shows how many cultures were shaped by relationships between oppressor and oppressed. Edward Said's **Orientalism**: the West creating a stereotyped image of the East as mysterious and inscrutable.\n\nCritics say multiculturalism can **divide** people instead of uniting them, and may even demand the separation it opposes. The common ground: everyone needs more appreciation of cultural diversity. **Cosmopolitanism** is the idea that, despite great differences, all people can share a common humanity."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nCulture is our design for living: we make it and it makes us. It is built from symbols, language, values, norms and things, and it varies within and between societies. Youth cultures and global flows show culture changing and mixing. Functionalists see culture as glue, conflict theorists as a tool of the powerful, cultural studies as a field of consent and resistance. And it is both a constraint and a source of freedom."
+    },
+    {
+      "type": "tekst",
+      "titel": "Social movements",
+      "tekst": "Politics is changing: people trust parties less and take part in other ways, for example in **social movements**. The usual definition (from the wider Macionis textbook, not this chapter): an organised activity that encourages or discourages social change.\n\n**Four types** (Aberle), by two questions: **who** is changed (some people or everyone) and **how much** (a little or radically):\n- **Alternative**: limited change for some people.\n- **Redemptive**: radical change for some people.\n- **Reformative**: limited change for everyone.\n- **Revolutionary**: radical change for everyone.\n\n**Four stages** (this is the figure on the lecture slide): **emergence** (dissatisfaction spreads), **coalescence** (people organise and go public), **bureaucratisation** (formal structures and paid staff instead of charismatic leaders; it gives staying power, as with Greenpeace, but can blunt the radical edge) and **decline**. A movement can decline through **success**, **failure**, **co-optation** (leaders drawn into the system), **repression** or **establishment within the mainstream**.\n\n**New social movements** are younger, more informal and direct, driven by **post-materialist** values (environment, peace, identity) and international, and they provoke countermovements. Critics say they are less new than claimed. The book's conclusion: **social change is both the cause and the consequence of social movements**.\n\n**Human rights** came in **three waves** (Klug): liberty and equality before the law in the late eighteenth century (1776, 1789); dignity and equality around the Second World War and the United Nations (1948); and mutuality and participation after the Cold War."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nSocial movements are organised pushes for or against change. Aberle sorts them by who and how much; they go through emergence, coalescence, bureaucratisation and decline. New social movements are informal, post-materialist and global, and change and movements keep causing each other. Human rights grew in three waves."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 8 things**\n\n1. Culture: designs for living; a toolbox, a bridge to the past, a guide to the future; we make culture and culture makes us.\n2. Five components: symbols (semiotics), language (Sapir-Whorf), values and beliefs (World Values Survey), norms (mores and folkways, sanctions), material culture.\n3. Diversity: high and popular culture, cultural capital, subculture and counterculture, integration and lag, invention, discovery and diffusion; ethnocentrism versus cultural relativism.\n4. Youth cultures: resistance or neo-tribes. Global culture: three flows, three limits; glocalisation, hybridisation, cosmopolitan.\n5. Functionalism (core values, universals), conflict (culture industry, hegemony), cultural studies (consent and resistance, circuit of culture); constraint and freedom.\n6. Eurocentrism, multiculturalism, postcolonialism, Orientalism, cosmopolitanism, and the criticism of multiculturalism.\n7. Aberle's four types of social movement; four stages; five ways to decline.\n8. New social movements; change as cause and consequence; three waves of human rights."
+    }
+  ]
+});
+

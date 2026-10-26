@@ -497,7 +497,7 @@ voegRecapToe("society-politics/college-4", {
       "rijen": [
         [
           "Social movement",
-          "An organised activity that encourages or discourages social change"
+          "An organised activity that encourages or discourages social change (the standard Macionis definition; this chapter does not define it)"
         ],
         [
           "Four types (Aberle)",

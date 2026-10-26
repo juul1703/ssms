@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v165**.
+Stand: 23 oktober 2026, service worker **v166**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -897,6 +897,13 @@ voorbeelden (etnisch profileren, toeslagenaffaire), plaatjes op slides (Zwarte P
 Welcome; niet in de tekstexport), en het blok met correcties op het boek (Stephen Lawrence 1993
 tegenover 1995 in de tijdlijn klopt met het boek; Sudan, Rwanda en het moslimcijfer rusten op
 algemene kennis).
+
+**v166: Society sessie 4 deel 1** (H5, het bestaande H16-deel over sociale bewegingen, Lecture 4):
+gecontroleerd, vaardigheden-uitleg (9), Quick recap. Gelabeld: Miner's Nacirema (beeldslides,
+niet in het Project), "strong/weak" bij Sapir-Whorf (boek noemt het twee principes), de
+definitie van social movement in To remember (Macionis-standaard, niet in dit hoofdstuk).
+Deel 2 (v167): H16 compleet maken (macht, staat, politieke systemen, governance) en Quick
+recap en vaardigheden daarop aanvullen.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
