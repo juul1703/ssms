@@ -40,7 +40,7 @@ LESSTOF['governance-policy/college-4'] = [
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **McCormick, Hague & Harrop, *Comparative Government and Politics*, chapter 13 (Political participation) and chapter 15 (Political parties).** Lecture 4 (De Sousa, 2 October): political participation and political parties.\n\nThis lesson was written from the literature as preparation; since v110 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3. The two chapters each have their own Core material tab, with the chapter's own sections as headings."
+        "tekst": "Read: **McCormick, Hague & Harrop, Comparative Government and Politics, chapter 13 (Political participation) and chapter 15 (Political parties).** Lecture 4 (De Sousa, 2 October): political participation and political parties.\n\nThis lesson was written from the literature as preparation; since v110 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3. The two chapters each have their own Core material tab, with the chapter's own sections as headings."
       },
       {
         "type": "slimmer",

@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v153**.
+Stand: 23 oktober 2026, service worker **v154**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -809,6 +809,16 @@ nagelopen. Hersteld S1: Foucault "tying someone up is violence" (staat niet op d
 Weber-voorbeelden en "dominant" gelabeld, Jetten-details en "trias politica" gemarkeerd als
 niet uit de bron. S2: "five emergency managers" is vijf benoemingen van vier mensen; self-
 sealing cycle-uitleg gelabeld. Vaardigheden-uitleg S1 (16) en S2 (8).
+
+**v154: Governance sessie 3 gecontroleerd** (H8, H10, slides 3; figuren 10.3 en 10.5 als
+afbeelding bekeken). Citaten letterlijk gemaakt (Bagehot "those which excite and preserve",
+"neutralize", "politics, as a result, comes before policy", World Bank "[and]"). Het blok met
+actualisaties (Carney, Lula, Hasina, Helen Clark, Jetten) staat niet in boek of slides en is
+nu zo gelabeld. Slide 12 (types of executives) leest in de tekstexport alsof Frankrijk
+autoritair is; de les volgt het boek (Frankrijk semi-presidentieel), wat ook de bedoeling van
+de slide moet zijn. Vaardigheden-uitleg S3 (11). Opmaak: vet met cursief erin ("**... *titel*
+...**") breekt de renderer en toonde losse sterretjes; opgelost in S3 en S4. Let op: een
+algemene regex hiervoor raakt ook gewone cursief tussen twee vetgedrukte stukken; niet doen.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
