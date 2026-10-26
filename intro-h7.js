@@ -65,7 +65,7 @@ LESSTOF['intro-to-safety-security/h7'] = [
       },
       {
         "type": "uitleg",
-        "tekst": "**Why this question is answered through knowledge**\n\nThere are many ways to ask whether two occupations are the same. You can look at what they earn, what they are called, or whether they belong to the same association.\n\nBrooks and Coole choose **knowledge**: what do you have to know to do the work? That is a smart choice, because knowledge is the most stable characteristic of a profession. Job titles change, organisational structures change, but what a doctor has to know in order to be a doctor changes slowly.\n\nAnd it is testable. You can compare curricula, lay competency frameworks side by side, and see whether the same topics return. That is exactly what they do, and it is why the chapter is full of tables."
+        "tekst": "**Why this question is answered through knowledge**\n\nThere are many ways to ask whether two occupations are the same. You can look at what they earn, what they are called, or whether they belong to the same association.\n\nBrooks and Coole choose **knowledge**: what do you have to know to do the work? The book's reason: a body of knowledge is the primary characteristic of a profession, because academic knowledge underpins and legitimises professional work. Our addition: knowledge is also fairly stable over time. Job titles change, organisational structures change, but what a doctor has to know in order to be a doctor changes slowly.\n\nAnd it is testable. You can compare curricula, lay competency frameworks side by side, and see whether the same topics return. That is exactly what they do, and it is why the chapter is full of tables."
       },
       {
         "type": "slimmer",

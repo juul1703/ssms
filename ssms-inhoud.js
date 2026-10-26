@@ -2378,7 +2378,7 @@ LESSTOF["intro-to-safety-security/h5"] = [
           },
           {
             "begrip": "Just culture",
-            "definitie": "The safety principle that errors can be reported without punishment so the organisation learns. According to Jore not transferable to security, because the attacker is malicious."
+            "definitie": "The safety principle that errors can be reported without punishment so the organisation learns. According to Jore problematic in security: what does a just culture mean when the attacker has malicious intent? It limits openness outside trusted communities."
           },
           {
             "begrip": "Weak signals",
@@ -2948,7 +2948,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
           },
           {
             "begrip": "Social exclusion",
-            "definitie": "The common route that can lead to security incidents both from radicalisation and from economic crisis."
+            "definitie": "The connecting factor that surfaces between safety-related and security-related incidents, reached both through radicalisation and through the economic crisis; not yet empirically proven."
           },
           {
             "begrip": "System of systems",
@@ -2976,7 +2976,7 @@ LESSTOF["intro-to-safety-security/h10"] = [
           },
           {
             "begrip": "Two routes to social exclusion (list)",
-            "definitie": "1. Radicalisation: perceived discrimination and bullying lead to injustice and revenge. 2. Financial crisis: insecurity and despair lead to extreme behaviour, aggression and political radicalisation."
+            "definitie": "1. Radicalisation: perceived discrimination and bullying can create an environment in which personal grievance and a willingness to take revenge grow. 2. Financial crisis: insecurity and despair lead to extreme behaviour, aggression and political radicalisation."
           }
         ]
       }

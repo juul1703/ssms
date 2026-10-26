@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v150**.
+Stand: 23 oktober 2026, service worker **v151**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -775,6 +775,20 @@ effects", niet "early"), low-risk firms.
 Niet te controleren met het Project: letterlijke uitspraken van de docent in sessie 5 (komen uit
 sprekersnotities; de Project-pptx heeft geen notities) en Beck bij sessie 1.
 Laag 2 (To remember, In plain words, flashcards, quiz-uitleg volledig lezen) volgt in v151.
+
+**v151: controleronde Intro, laag 2 deel 1: To remember en alle flashcards** volledig naast
+boek en slides gelezen, plus labels. Afspraak met Julie: wat niet in de Project-bestanden staat
+krijgt het label *(unchecked ...)*; dat geldt voor de letterlijke docentuitspraken in sessie 5,
+Beck in sessie 1 en de term "efficient thinness". Hersteld: H9 "precursors overlappen niet"
+klopte niet; Schulman zegt dat de focus op precursors voor beide missies belangrijk is, maar in
+security beperkt (kernstof-uitleg, modelantwoord, To remember, vaardigheid, mid-term-les).
+Verder: H7 "knowledge is the most stable feature" (boek: primary characteristic), H7 nuance
+gelabeld als eigen, H10 flashcards (injustice, social exclusion), H5 just culture ("not
+transferable" te sterk), H9 deterministic ("only probabilistically" te sterk).
+Opgemerkt voor Governance: een G&P-slide (types of political executives) leest in de
+tekstexport alsof Frankrijk autoritair en China semi-presidentieel is; vermoedelijk een
+kolomverschuiving in de export. Controleren bij Governance.
+Laag 2 deel 2 (alle In plain words en alle quiz-uitleg) volgt in v152.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

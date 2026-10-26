@@ -245,7 +245,7 @@ voegOverviewToe("intro-to-safety-security/college-5", {
     {
       "type": "tekst",
       "titel": "The toolkit",
-      "tekst": "Six lenses for any case: who wants what, what must never happen, which professions are involved, what must be shared or kept secret, who came first, and what’s outside the organisation’s control. Four take-aways: **definitions shape solutions**, **analyse together but organise carefully**, **management means holding tensions**, and **zoom out**. Likely exam question: merge them, or keep them apart?"
+      "tekst": "Six lenses for any case: who wants what, what must never happen, which professions are involved, what must be shared or kept secret, who came first, and what’s outside the organisation’s control. Four take-aways: **definitions shape solutions**, **analyse together but organise carefully**, **management means holding tensions**, and **zoom out**. Likely exam question: merge them, or keep them apart? *(The lecturer's spoken words, not on the slides in the Project: unchecked.)*"
     },
     {
       "type": "uitleg",

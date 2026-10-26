@@ -362,7 +362,7 @@ voegRecapToe("intro-to-safety-security/h7", {
     {
       "type": "tekst",
       "titel": "H7 Brooks and Coole: two diverging professions",
-      "tekst": "**The research question:** do the knowledge categories of safety and security science demonstrate professional divergence? The answer is found through **bodies of knowledge**, because knowledge is the most stable and testable feature of a profession.\n\n**What is compared:** safety as **OHS** (bounded by the workplace and by law) against security as **corporate security** (a deliberate narrowing, because security runs on a continuum from national to community security)."
+      "tekst": "**The research question:** do the knowledge categories of safety and security science demonstrate professional divergence? The answer is found through **bodies of knowledge**, because a body of knowledge is the primary characteristic of a profession.\n\n**What is compared:** safety as **OHS** (bounded by the workplace and by law) against security as **corporate security** (a deliberate narrowing, because security runs on a continuum from national to community security)."
     },
     {
       "type": "tabel",
@@ -469,7 +469,7 @@ voegRecapToe("intro-to-safety-security/h7", {
     {
       "type": "tekst",
       "titel": "The conclusion and its nuance",
-      "tekst": "Similarities exist **only at an abstract level**; in practice the differences are explicit. **Merging dilutes** understanding and boundaries. The one place where they meet is **life safety**, which **takes precedence over security requirements**.\n\nThree forces will **increase** the divergence: greater societal risk aversion, higher expectations of professions, and both professions striving for professional status.\n\n**The nuance:** this is a prediction, not advice; \"do not merge\" is not the same as \"do not cooperate\"; and the shared ground (risk management, controls, management, professional practice) is exactly what an SSMS degree builds on."
+      "tekst": "Similarities exist **only at an abstract level**; in practice the differences are explicit. **Merging dilutes** understanding and boundaries. The one place where they meet is **life safety**, which **takes precedence over security requirements**.\n\nThree forces will **increase** the divergence: greater societal risk aversion, higher expectations of professions, and both professions striving for professional status.\n\n**The nuance (ours, not the authors'):** read it as a prediction about professions; \"do not merge\" is not the same as \"do not cooperate\"; and the shared ground (risk management, controls, management, professional practice) is exactly what an SSMS degree builds on."
     },
     {
       "type": "hardop",
@@ -575,7 +575,7 @@ voegRecapToe("intro-to-safety-security/h9", {
     {
       "type": "tekst",
       "titel": "What overlaps, and the conclusion",
-      "tekst": "**Not overlapping**: the deterministic standard, the object of analysis (failure versus vulnerability), open communication, and the precursors themselves, which a perpetrator hides.\n\n**Overlapping**: the management of **representational error**, and the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, pattern recognition, and the authority to stop. Also the consequences, and therefore emergency response, with the caveat that first responders can themselves be targets.\n\n**Integration** demands **higher resolution reliability**: broader scope, longer time horizon, more distributed participation. Teams of reliability professionals can act as first responders for both missions; the example is the air traffic controllers clearing the airspace on 9/11.\n\n**The conclusion**: integration does not resolve the tensions, but separation creates a specific risk, that nobody notices when one mission undermines the other. A shared framework built on error sensitivity can catch exactly that precursor."
+      "tekst": "**Not overlapping**: the deterministic standard, the object of analysis (failure versus vulnerability), and open communication. **Precursors** are important to both missions (Schulman), but limited in security because a perpetrator hides or falsifies them.\n\n**Overlapping**: the management of **representational error**, and the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, pattern recognition, and the authority to stop. Also the consequences, and therefore emergency response, with the caveat that first responders can themselves be targets.\n\n**Integration** demands **higher resolution reliability**: broader scope, longer time horizon, more distributed participation. Teams of reliability professionals can act as first responders for both missions; the example is the air traffic controllers clearing the airspace on 9/11.\n\n**The conclusion**: integration does not resolve the tensions, but separation creates a specific risk, that nobody notices when one mission undermines the other. A shared framework built on error sensitivity can catch exactly that precursor."
     },
     {
       "type": "hardop",

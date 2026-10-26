@@ -186,7 +186,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
       },
       {
         "type": "uitleg",
-        "tekst": "**Why \"equally distributed\" is the most contested claim**\n\nOf the three differences this is the one to stop at, because it is both the most interesting and the most criticised.\n\nThe idea comes from the **risk society** theory of the sociologist **Ulrich Beck**. His argument: in a classic disaster such as a failed harvest, the rich were better protected than the poor. But with modern risks such as radioactive fallout or climate change, money only helps up to a point. Beck summed it up as: **poverty is hierarchical, smog is democratic.**\n\nThe criticism is just as important to know: in practice modern risks are anything but equally distributed. Climate change hits low-lying poor countries far harder than rich ones. Anyone who can afford to move, to insure or to buy a generator is better off.\n\nHold on to that tension. In an oral exam, \"I know the three differences\" is a pass answer; \"I know them **and** I can explain why the third is contested\" is what earns a higher mark."
+        "tekst": "**Why \"equally distributed\" is the most contested claim**\n\nOf the three differences this is the one to stop at, because it is both the most interesting and the most criticised.\n\nThe idea comes from the **risk society** theory of the sociologist **Ulrich Beck**. *(Beck is not on the slides in the Project; this comes from the lecture notes and is unchecked.)* His argument: in a classic disaster such as a failed harvest, the rich were better protected than the poor. But with modern risks such as radioactive fallout or climate change, money only helps up to a point. Beck summed it up as: **poverty is hierarchical, smog is democratic.**\n\nThe criticism is just as important to know: in practice modern risks are anything but equally distributed. Climate change hits low-lying poor countries far harder than rich ones. Anyone who can afford to move, to insure or to buy a generator is better off.\n\nHold on to that tension. In an oral exam, \"I know the three differences\" is a pass answer; \"I know them **and** I can explain why the third is contested\" is what earns a higher mark."
       },
       {
         "type": "tekst",
@@ -238,7 +238,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
           },
           {
             "begrip": "Risk society (Beck)",
-            "definitie": "Ulrich Beck’s theory behind the old-modern distinction: modern risks are produced by our own technology and are less easily escaped by wealth. His summary: poverty is hierarchical, smog is democratic. The criticism: climate change hits poor low-lying countries much harder, so the equal distribution is limited."
+            "definitie": "Ulrich Beck’s theory behind the old-modern distinction: modern risks are produced by our own technology and are less easily escaped by wealth. His summary: poverty is hierarchical, smog is democratic. Not on the slides in the Project; unchecked. The criticism: climate change hits poor low-lying countries much harder, so the equal distribution is limited."
           },
           {
             "begrip": "The four core tasks (list)",
@@ -554,7 +554,7 @@ LESSTOF['intro-to-safety-security/college-1'] = [
               "Ferdinand Toennies"
             ],
             "juist": 0,
-            "uitleg": "Beck’s risk society: poverty is hierarchical, smog is democratic. The criticism is that the capacity to protect yourself is still unequally distributed."
+            "uitleg": "Beck’s risk society: poverty is hierarchical, smog is democratic. The criticism is that the capacity to protect yourself is still unequally distributed. *(Beck is not on the slides in the Project; this comes from the lecture notes and is unchecked.)*"
           },
           {
             "vraag": "What does the climate chain from Ljungqvist illustrate?",
