@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v162**.
+Stand: 23 oktober 2026, service worker **v163**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -875,6 +875,16 @@ bronnen: de pdf's van Society moeten zonder -layout worden geëxtraheerd (twee k
 "the book's chapter 17 adds anomic and fatalistic suicide" staat niet in H17 of H1-2 en niet op de
 slide; nu gelabeld unchecked. G8/Rusland 2014 gelabeld als algemene kennis. Vaardigheden-uitleg
 S1 (10). Society heeft 78 vaardigheden zonder uitleg; per sessie aanvullen.
+
+**v163: Society sessie 2 gecontroleerd** (H7, Lecture 2) **plus nieuw bestand
+`overview-society.js`** voor de Quick recap-tabs die ontbraken (Society S1-S5; S6-S8 hebben ze in
+het eigen lesbestand). Afspraak met Julie (26 okt): elke les van Intro, Governance en Society moet
+een Quick recap hebben op het niveau van Governance S6: het hele college als verhaal in
+alledaagse, wat jongere taal, uitgebreid en volledig, met "in one breath"-blokken en "If you
+only remember". Ontbreken nog: Society S1, S3-S5, Governance S1-S4; te kort: alle Intro-recaps.
+Volgorde: Society helemaal (inclusief uitgebreide mid-term-les), dan Governance, dan Intro.
+S2: twin-study-slide (afbeelding) en "three invented neighbours" (Julies aantekeningen)
+gelabeld unchecked. Vaardigheden-uitleg S2 (8).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
