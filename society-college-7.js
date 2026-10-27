@@ -13,15 +13,42 @@ LESSTOF['society-politics/college-7'] = [
       {
         "type": "leerdoelen",
         "items": [
-          "Define social divisions and social stratification and name the five principles",
-          "Name Iris Marion Young’s five processes of inequality",
-          "Compare closed and open systems: slavery, estate, caste and class",
-          "Explain status consistency and structural social mobility (Japan, Russia)",
-          "Explain how ideology gives stratification its \"staying power\"",
-          "Explain and criticise the Davis-Moore thesis and meritocracy",
-          "Explain Marx’s conflict view, why no revolution came (Dahrendorf) and the critical reply",
-          "Explain Weber’s three dimensions: class, status and power",
-          "Explain the Kuznets curve and the matrix of inequalities"
+          {
+            "doel": "Define social divisions and social stratification and name the five principles",
+            "uitleg": "**Social divisions**: human differences rendered socially significant. **Social stratification**: a system by which a society ranks categories of people in a hierarchy, giving some more money, power and prestige. The five principles: 1. it is a characteristic of **society**, not simply of individual differences; 2. it **persists over generations**; 3. it is **universal but variable**; 4. it involves not just inequality but **beliefs** (ideology, hegemony); 5. it engenders **shared identities**. Divisions overlap: **intersectionality**."
+          },
+          {
+            "doel": "Name Iris Marion Young’s five processes of inequality",
+            "uitleg": "1. **Social exclusion and marginalisation**: a whole category is expelled from useful participation in social life. 2. **Exploitation**: one group's labour benefits another. 3. **Powerlessness**: lacking authority, status and a sense of self. 4. **Cultural imperialism**: the dominant group's experience and culture become the norm. 5. **Violence** directed at people because they belong to a group. Bourdieu's *The Weight of the World* shows how such inequality feels in \"damaged lives\"."
+          },
+          {
+            "doel": "Compare closed and open systems: slavery, estate, caste and class",
+            "uitleg": "Systems differ in how **closed** or **open** they are (Tumin). **Slavery**: people owned as property; modern slavery (Bales) is control through violence plus exploitation, about 27 million people. **Estate**: medieval Europe, rank by birth, justified as God's will. **Caste**: ascription by birth with four traits: tied to **occupation**, **endogamous** marriage, **segregated** everyday life (purity and pollution), and **cultural beliefs** of moral duty (India; race as caste under apartheid). **Class**: unequal distribution of wealth, power and prestige, more open and based more on achievement."
+          },
+          {
+            "doel": "Explain status consistency and structural social mobility (Japan, Russia)",
+            "uitleg": "**Status consistency**: the degree of consistency of a person's standing across several dimensions of inequality; high in caste systems, low in class systems. **Structural social mobility**: a shift in the position of many people because of changes in society itself, not individual effort. **Japan**: a feudal caste system (shoguns, samurai, burakumin) legally abolished from 1871, yet family background still matters. **Russia**: the 1917 revolution claimed a classless society, but elites were based on **power** rather than wealth; Soviet industrialisation produced structural mobility, and the 1991 collapse overthrew the ruling class again."
+          },
+          {
+            "doel": "Explain how ideology gives stratification its \"staying power\"",
+            "uitleg": "**Ideology**: cultural beliefs that justify social stratification. **Plato**: every society teaches that its system is fair. **Marx**: capitalism presents inequality as \"a law of the marketplace\"; \"ideas as well as resources are controlled by a society's elite\". Examples: Aristotle defending slavery, the estate system as God's will, industrial capitalism turning poverty into a sign of personal inadequacy. The book stresses that both saw ideology as cultural patterns built up over time, not as a conspiracy."
+          },
+          {
+            "doel": "Explain and criticise the Davis-Moore thesis and meritocracy",
+            "uitleg": "**Davis and Moore (1945)**: stratification exists everywhere because it is functional: the more **functionally important** a position, the greater the rewards, so talented people take on the most important work. **Meritocracy**: equality of opportunity with inequality of rewards. **Criticisms** (Tumin): it cannot explain why systems differ so much; functional importance cannot be measured (nurses against surgeons, footballers against teachers); it ignores how families pass on wealth and how barriers block women, ethnic groups and disabled people; and it ignores how inequality causes conflict."
+          },
+          {
+            "doel": "Explain Marx’s conflict view, why no revolution came (Dahrendorf) and the critical reply",
+            "uitleg": "**Marx**: capitalists against the proletariat; inequality comes from conflict over ownership of the means of production. **Dahrendorf (1959)**: four reasons there was no revolution: **fragmentation of the capitalist class** (many shareholders, managers), **white-collar work and higher living standards**, **more worker organisation** (unions, peaceful negotiation), **more legal protections**. **Neo-Marxist reply**, five points: wealth stays concentrated, production moved to global **sweatshops**, work remains degrading, labour has been weakened, and the law still favours the rich."
+          },
+          {
+            "doel": "Explain Weber’s three dimensions: class, status and power",
+            "uitleg": "Weber found Marx's two classes too simple: stratification has three dimensions, **class** (economic position), **status** (social prestige) and **power**. Industrial societies have low status consistency (a powerful bureaucrat who is not rich), so there are many overlapping categories: **socioeconomic status** is a composite ranking. Agrarian societies stress status, industrial capitalism class, the bureaucratic state power; Weber feared that socialism would only increase the power of officials."
+          },
+          {
+            "doel": "Explain the Kuznets curve and the matrix of inequalities",
+            "uitleg": "**Kuznets curve**: as technology advances, inequality first **rises** sharply (agrarian societies, nobles and serfs) and then **moderates** somewhat in industrial societies (talent matters, literacy, political voice): an inverted U, building on the Lenskis. Critics say global inequality is still huge. The **matrix of inequalities** (Table 8.2) has three columns: **institutions of social division** (class, gender, ethnicity, sexuality, age, health and disability, global culture and nation), **processes of social exclusion** (marginalisation, stigmatisation, exploitation and more) and **experiences of inequality** (lack, degradation, invisibility, fear, low self-worth)."
+          }
         ]
       },
       {
@@ -108,7 +135,7 @@ LESSTOF['society-politics/college-7'] = [
       {
         "type": "tekst",
         "titel": "3. Stratification at work: Japan and Russia",
-        "tekst": "**Japan** mixes tradition and modernity. Feudal Japan had a rigid [[caste system|Caste system]]: an imperial family, regional nobles (**shoguns**), the **samurai** warrior caste (\"to serve\"), commoners, and the **burakumin** (\"outcasts\") below them. The outcast category was banned in **1871** and the nobility lost legal standing after World War II, but family background still matters: business leaders often have noble or samurai roots, burakumin communities stay isolated, and women remain subordinate in work and education.\n\n**Russia**: the 1917 revolution replaced the feudal estates with state ownership and claimed to create the **first classless society**. Critics saw a four-level hierarchy: **apparatchiks** (high officials), the **intelligentsia**, **manual workers** and **rural peasants**. Economic inequality was smaller than in capitalist countries (Figure 8.1: Russia about 11:1 between the richest and poorest 20%, against far higher ratios in Brazil and South Africa), but **power** was very unequal: 18 million party members (6%) made all decisions. Gorbachev's **perestroika** (1985) led to the collapse of the Soviet Union in 1991: \"the overthrow of the ruling class\" again.\n\n**[[Structural social mobility]]**: a shift in the position of large numbers of people due to **changes in society** rather than individual effort (industrialisation and bureaucratisation moved Soviet peasants \"from ploughing to paperwork\").",
+        "tekst": "**Japan** mixes tradition and modernity. Feudal Japan had a rigid [[caste system|Caste system]]: an imperial family, regional nobles (**shoguns**), the **samurai** warrior caste (\"to serve\"), commoners, and the **burakumin** (\"outcasts\") below them. The outcast category was banned in **1871** and the nobility lost legal standing after World War II, but family background still matters: business leaders often have noble or samurai roots, burakumin communities stay isolated, and women remain subordinate in work and education.\n\n**Russia**: the 1917 revolution replaced the feudal estates with state ownership and claimed to create the **first classless society**. Critics saw a four-level hierarchy: **apparatchiks** (high officials), the **intelligentsia**, **manual workers** and **rural peasants**. Economic inequality was smaller than in capitalist countries (Figure 8.1: the Russian Federation about 10:1 (the US 11:1) between the richest and poorest 20%, against far higher ratios in Brazil and South Africa), but **power** was very unequal: 18 million party members (6%) made all decisions. Gorbachev's **perestroika** (1985) led to the collapse of the Soviet Union in 1991: \"the overthrow of the ruling class\" again.\n\n**[[Structural social mobility]]**: a shift in the position of large numbers of people due to **changes in society** rather than individual effort (industrialisation and bureaucratisation moved Soviet peasants \"from ploughing to paperwork\").",
         "toetsstof": true
       },
       {
@@ -478,51 +505,59 @@ LESSTOF['society-politics/college-7'] = [
     "blokken": [
       {
         "type": "slimmer",
-        "tekst": "**What this tab is**\n\nChapter 8 as one easy story: why some people are on the upper deck and others in the basement."
+        "tekst": "**What this tab is**\n\nChapter 8 (Social divisions and social stratification) as one story you can read on the bus. The lecture is still to come; its slides will be added after it. Everything here is also in the Core material, in full academic mode."
       },
       {
         "type": "tekst",
-        "titel": "The vibe of this session",
-        "tekst": "The Titanic says it all: **60%** of first class survived, only **24%** of third class. Not because rich people swim better, but because they slept on the upper decks near the lifeboats. That's **social stratification**: society ranks groups of people, and where you are decides a lot, sometimes even life or death."
+        "titel": "The Titanic: where you sleep decides whether you live",
+        "tekst": "On 10 April 1912 the Titanic left Southampton. Days later it hit an iceberg and more than 1,600 people died. Who survived? Of the dead, 80 per cent were men (women and children first). And class decided the rest: more than **60 per cent** of first-class passengers survived, **36 per cent** of second class, and only **24 per cent** of third class. Not because rich people swim better, but because first class slept on the upper decks, near the warnings and the lifeboats.\n\nThat is **social stratification** in one picture: society ranks whole groups of people, and where you are in that ranking decides a lot, sometimes even life or death."
       },
       {
         "type": "tekst",
-        "titel": "What stratification is",
-        "tekst": "It's when society puts whole groups in a ranking with more or less money, power and respect. Five rules: it's about **society**, not individual talent; it **passes from parents to kids**; it's **everywhere** but looks different each place; people are taught it's **fair** (ideology); and it shapes your **identity**. It's not just about money: also gender, ethnicity, age, sexuality and disability, all mixed together (**intersectionality**).\n\nYoung's five ways inequality works: people get **pushed out**, **exploited**, made **powerless**, the dominant culture becomes \"normal\" (**cultural imperialism**), and **violence**."
+        "titel": "What stratification is: five principles",
+        "tekst": "**Social divisions** are human differences that society makes important. **Social stratification** is a system that ranks categories of people in a hierarchy, giving some more money, power and prestige. Five principles:\n\n1. It is a feature of **society**, not just of individual talent or effort.\n2. It **persists over generations**: it passes from parents to children.\n3. It is **universal but variable**: every society has it, in different forms.\n4. It involves not just inequality but **beliefs**: people are taught that their system is fair (ideology, hegemony).\n5. It creates **shared identities**: you feel part of your category.\n\nAnd it is not only about money: class, gender, ethnicity, age, sexuality and disability all overlap. That overlap is **intersectionality**.\n\n**Iris Marion Young** names **five processes** through which inequality works: **exclusion** (a whole group is pushed out of useful participation), **exploitation** (one group's work benefits another), **powerlessness** (no authority or respect), **cultural imperialism** (the dominant group's culture becomes \"normal\") and **violence** (aimed at people because of their group)."
       },
       {
         "type": "tekst",
         "titel": "From locked to (kind of) open",
-        "tekst": "- **Slavery**: people owned or controlled by force. Not just history: about 27 million people today (forced labour, debt bondage, trafficking, forced marriage).\n- **Estates**: medieval nobles, clergy and peasants, each with fixed rights and duties.\n- **Caste**: birth decides everything: your job, who you marry, who you can mix with, and it's backed by religion. India's Dalits; apartheid worked like a race-caste system.\n- **Class**: more open, you can move up through education and work, but inequality stays.\n\nSouth Africa: after apartheid, race became less decisive but **class** took over, and the country might now be even more unequal."
+        "tekst": "Systems differ in how **closed** or **open** they are.\n\n- **Slavery**: people owned by others as property. The Atlantic slave trade took 10-15 million Africans to the Americas. It is not only history: **modern slavery** (Kevin Bales) is about control through violence plus economic exploitation, about 27 million people, in forced labour, debt bondage, forced prostitution and trafficking, and servile marriage.\n- **Estates**: medieval nobles, clergy and peasants, with fixed rights and duties, justified as God's will.\n- **Caste**: birth decides everything. Four traits: caste is tied to your **job**, you marry **within** your caste (endogamy), everyday life is **separated** (ideas of purity and pollution), and it rests on strong **beliefs** (accept your work as your moral duty). India is the classic case; **apartheid** in South Africa worked like a racial caste system.\n- **Class**: inequality of wealth, power and prestige, more open and based more on **achievement**. You can move up or down: **social mobility**.\n\n**Status consistency** is how well your positions match: in a caste system everything lines up (low caste, poor, little respect); in a class system you can be powerful without being rich. **Structural mobility** is when many people move at once because society changes, not because each person worked harder."
       },
       {
         "type": "tekst",
         "titel": "Japan and Russia",
-        "tekst": "Japan banned its \"outcast\" caste in 1871, but family background still matters. The Soviet Union claimed to be **classless**, but the party elite had huge power and perks. Lesson: inequality isn't only about money, it's also about **power**."
+        "tekst": "**Japan** mixed tradition and modernity. Feudal Japan had an imperial family, regional nobles (shoguns), the samurai, commoners, and the outcast burakumin at the bottom. The outcast category was banned in **1871** and the nobility lost its legal status after the Second World War, but family background still matters, and women remain behind in work and education.\n\n**Russia**: the 1917 revolution claimed to create the first **classless** society. Economic inequality was indeed smaller (Figure 8.1: the Russian Federation about 10:1 between the richest and poorest 20 per cent, against 32:1 or more in South Africa and Brazil). But **power** was very unequal: 18 million party members made almost all decisions and enjoyed privileges. Soviet industrialisation pulled millions upwards (**structural mobility**). In 1991 the Soviet Union collapsed: again \"the overthrow of the ruling class\". Lesson: inequality is about **power** as well as money."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 1 in one breath**\n\nStratification is society ranking whole groups, and it can decide who lives and who dies, as on the Titanic. It follows five principles and works through exclusion, exploitation, powerlessness, cultural imperialism and violence. Systems run from closed (slavery, estate, caste) to more open (class). Japan and Russia show that old status and political power keep mattering."
       },
       {
         "type": "tekst",
-        "titel": "Why inequality sticks around",
-        "tekst": "**Ideology**: beliefs that make inequality look fair. First \"God made rich and poor\", later \"you earned your position\". Same function: protecting the people at the top."
+        "titel": "Why inequality sticks around: ideology",
+        "tekst": "Why do people accept inequality? Because they are taught that it is fair. That is **ideology**: cultural beliefs that justify stratification. **Plato** said every society teaches its members that its system is just; **Marx** said capitalism presents inequality as \"a law of the marketplace\", because the elite controls ideas as well as resources.\n\nThe story changes over time but the function stays the same. Aristotle said some people deserve to be directed by their \"betters\". Medieval Europe said God made rich and poor (\"The rich man in his castle, the poor man at his gate\"). Industrial capitalism says you earned your place, so poverty became a sign of **personal failure**. Neither Plato nor Marx saw this as a conspiracy: it is built into culture over time."
       },
       {
         "type": "tekst",
         "titel": "Three big explanations",
-        "tekst": "- **Davis & Moore (functional)**: inequality is useful: important jobs pay more, so talented people want them (**meritocracy**). Pushback: why does a footballer earn more than a nurse? And rich kids start with a huge head start.\n- **Marx (conflict)**: owners get rich from workers' labour, so eventually workers would revolt. They didn't (in rich countries), says **Dahrendorf**, because ownership spread, work became office work, unions and laws protected workers, and life got better. Neo-Marxists reply: inequality is still massive, it just moved to sweatshops in poorer countries.\n- **Weber (multidimensional)**: three separate rankings: **money (class), respect (status) and power**. You can score high on one and low on another."
+        "tekst": "**Davis and Moore (1945), functionalism**: inequality is useful. The more important a job (transplanting an organ versus changing spark plugs), the higher the rewards, so talented people are motivated to do it. A **meritocracy**: equal chances, unequal rewards. The criticism (Tumin): it cannot explain why systems differ so much; you cannot measure importance (why does a footballer earn more than a nurse or a primary school teacher?); rich families pass on their head start, and women, ethnic minorities and disabled people face barriers; and inequality causes conflict.\n\n**Marx, conflict**: capitalists own the means of production and get rich from workers' labour, so one day workers would revolt. **Dahrendorf** (1959) explains why that did not happen in rich countries: ownership spread over many shareholders and managers, work became white-collar and living standards rose, unions negotiate peacefully, and laws protect workers. The **neo-Marxist reply**: wealth is still highly concentrated, production moved to sweatshops in poorer countries, a lot of work is still degrading, unions are weaker, and the law still favours the rich.\n\n**Weber**: Marx's two classes are too simple. Stratification has **three dimensions**: **class** (money), **status** (prestige) and **power**. You can be high on one and low on another, like a powerful civil servant who is not rich. Weber also warned that abolishing capitalism would just give more power to officials, which Soviet history seems to confirm."
       },
       {
         "type": "tekst",
-        "titel": "Technology and the curve",
-        "tekst": "As technology develops, inequality first **shoots up** (farming societies with lords and serfs) and then **comes down a bit** (industrial societies with education and rights): the **Kuznets curve**. The Bell Curve book claimed rich people are just smarter by birth; critics say that's mostly upbringing and opportunity."
+        "titel": "Technology, the Kuznets curve and the Bell Curve",
+        "tekst": "The Lenskis link inequality to **technology**. Hunters and gatherers share almost everything. With farming comes a surplus and inequality grows; agrarian societies with nobles and serfs are the most unequal in history. Industrial societies become somewhat **more equal**: talent counts, people can read, demand a vote, and most work becomes white-collar. Inequality first shoots up and then comes down a bit: the **Kuznets curve**, an upside-down U. Critics say that global inequality is still enormous.\n\n**The Bell Curve** (Herrnstein and Murray, 1994) claimed that intelligence is largely genetic (60 to 70 per cent), that a \"cognitive elite\" now rules and that the poor are poor because they are less intelligent. Critics say heritability is at most about 25-40 per cent, that \"intelligence\" is hard to define, and that the book revives social Darwinism."
       },
       {
         "type": "tekst",
-        "titel": "Today",
-        "tekst": "Three worlds: a tiny super-rich group, about a billion people in extreme poverty, and the rest of us, still divided in many ways. And a warning from Vonnegut's story: forcing everyone to be equal can turn into a nightmare too."
+        "titel": "Today: three worlds and a matrix",
+        "tekst": "The chapter sketches three worlds: a few million truly wealthy people, sealed off from everyone else; the **\"bottom billions\"**, a fifth to a sixth of the world, living on less than a dollar a day; and the rest of us in between, still divided by class, gender, ethnicity, age and more.\n\nThe **matrix of inequalities** (Table 8.2) puts it together in three columns: the **institutions** of division (class, gender, ethnicity, sexuality, age, health and disability, nation), the **processes** of exclusion (marginalisation, stigmatisation, exploitation, domination and more) and the **experiences** of inequality (lack, degradation, invisibility, fear, low self-worth).\n\nAnd a warning from fiction: in Kurt Vonnegut's story *Harrison Bergeron* a \"Handicapper General\" forces everyone to be equal with masks for the beautiful and noise for the clever. Forced equality can be a nightmare too."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 2 in one breath**\n\nIdeology makes inequality look fair, from God's will to merit. Davis and Moore say inequality is useful; Marx says it comes from exploitation, Dahrendorf explains why no revolution came, and Weber adds status and power to class. Inequality rises and then falls with technology (Kuznets). Today there are three worlds and a whole matrix of overlapping inequalities."
       },
       {
         "type": "uitleg",
-        "tekst": "**If you only remember 7 things**\n\n1. Stratification = society ranking groups; five principles.\n2. Young’s five processes of inequality.\n3. Slavery, estate, caste, class: from closed to open.\n4. Ideology makes inequality look fair.\n5. Davis-Moore (functional) versus Marx (conflict), and Dahrendorf’s four reasons.\n6. Weber: class, status, power.\n7. The Kuznets curve."
+        "tekst": "**If you only remember 8 things**\n\n1. Stratification ranks categories of people; the Titanic shows its effects.\n2. Five principles; intersectionality.\n3. Young's five processes: exclusion, exploitation, powerlessness, cultural imperialism, violence.\n4. Closed to open: slavery (modern slavery, Bales), estate, caste (four traits), class; status consistency and structural mobility.\n5. Japan (burakumin, 1871) and Russia (power-based elites, structural mobility).\n6. Ideology: from Aristotle and God's will to merit.\n7. Davis-Moore and meritocracy with the criticisms; Marx, Dahrendorf's four reasons and the neo-Marxist reply; Weber's class, status and power.\n8. The Kuznets curve, the Bell Curve debate, the bottom billions and the matrix of inequalities."
       }
     ]
   },

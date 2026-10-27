@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v170**.
+Stand: 23 oktober 2026, service worker **v171**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -932,6 +932,12 @@ Dunbar-lagen (5, 15, 50, 150, 500, 1.500) gelabeld als Julies aantekeningen (sli
 Vaardigheden-uitleg (8). Quick recap uitgebreid van ca. 6.900 naar 11.100 tekens: informele kant
 (Western Electric), McDonald's-geschiedenis en Ritzers kritiek, Kanter, Ouchi's vijf verschillen,
 Clegg, audit culture met vijf kritiekpunten, Granovetter, Wellman, Castells; twee "in one breath".
+
+**v171: Society sessie 7 gecontroleerd tegen H8** (geen slides: college 28 okt nog niet geweest).
+Figuur 8.1 als afbeelding bekeken: de les zei "Russia about 11:1"; de figuur geeft de Russische
+Federatie 10:1 en de VS 11:1 (Zuid-Afrika 33:1, Brazilië 32:1). Hersteld. Vaardigheden-uitleg (9).
+Quick recap herschreven van 3.700 naar ca. 9.900 tekens. Na het college: slides en aantekeningen
+toevoegen in From the lecture-blokken.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
