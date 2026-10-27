@@ -18,14 +18,38 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "leerdoelen",
         "items": [
-          "Distinguish primary and secondary groups (Cooley)",
-          "Explain the conformity studies of Asch, Milgram and Zimbardo, and Stouffer’s reference groups",
-          "Explain how group size (Simmel’s dyad and triad) and Blau’s four factors shape groups",
-          "Name Etzioni’s three types of formal organisation and Weber’s six elements of bureaucracy",
-          "Explain the problems of bureaucracy: alienation, ritualism, inertia, oligarchy, total institutions, Parkinson and Peter",
-          "Explain Ritzer’s McDonaldisation and its four principles, and the irrationality of rationality",
-          "Describe changing organisational forms: work teams, the audit culture, humanising bureaucracy, Japanese and postmodern organisations",
-          "Explain social networks, weak ties and Castells’s network society"
+          {
+            "doel": "Distinguish primary and secondary groups (Cooley)",
+            "uitleg": "Cooley: a **primary group** is a small group whose members share personal and enduring relationships (family, close friends); people are valued for who they are. A **secondary group** is a large and impersonal group pursuing a specific interest or activity (colleagues, an association); people are valued for what they do. Real groups sit on a continuum and can shift between the two."
+          },
+          {
+            "doel": "Explain the conformity studies of Asch, Milgram and Zimbardo, and Stouffer’s reference groups",
+            "uitleg": "**Asch** (1952): in a line-matching test with planted participants giving wrong answers, about **one-third** of subjects conformed. **Milgram** (1963): almost **two-thirds** went all the way to the 450-volt \"shock\" because an authority told them to. **Zimbardo**: in the Stanford prison experiment students playing guards quickly became abusive, so the situation shapes behaviour. **Stouffer**: soldiers judged their chances against a **reference group**; where promotion was rare they were more optimistic. The lesson adds, as its own note, that Milgram and Zimbardo are heavily criticised today."
+          },
+          {
+            "doel": "Explain how group size (Simmel’s dyad and triad) and Blau’s four factors shape groups",
+            "uitleg": "**Simmel**: a **dyad** (two people) is intense but unstable, because one person can end it; a **triad** is more stable, because a third can mediate, though two can also gang up. The number of relationships grows fast (six people: 15). The slide adds **Dunbar's number** (about 150, range 100-250). **Blau**: social diversity affects contact in four ways: **large groups turn inwards**, **heterogeneous groups turn outwards**, **social parity promotes contact**, **physical boundaries foster social boundaries**."
+          },
+          {
+            "doel": "Name Etzioni’s three types of formal organisation and Weber’s six elements of bureaucracy",
+            "uitleg": "A **formal organisation** is a large secondary group organised to achieve its goals efficiently. **Etzioni**: **utilitarian** (people join for material rewards: a company), **normative** or voluntary (worthwhile goals: a charity, a party) and **coercive** or involuntary (punishment or treatment: a prison, a psychiatric hospital). **Weber's** bureaucracy has six elements: **specialisation**, a **hierarchy of offices**, **rules and regulations**, **technical competence**, **impersonality** and **formal, written communication**."
+          },
+          {
+            "doel": "Explain the problems of bureaucracy: alienation, ritualism, inertia, oligarchy, total institutions, Parkinson and Peter",
+            "uitleg": "**Alienation**: bureaucracy's dehumanising potential (Weber). **Ritualism**: a preoccupation with rules that thwarts the goals (Merton). **Inertia**: organisations perpetuate themselves (the March of Dimes after polio). **Oligarchy**: rule by the few (Michels); the slide calls it the **abuse of power** (self-interest, above accountability). **Total institutions** (Goffman): places such as prisons where staff control every part of life. Two tongue-in-cheek laws: **Parkinson's** (work expands to fill the time available) and the **Peter principle** (people rise to their level of incompetence). Bauman adds the extreme case: bureaucracy made the Holocaust possible."
+          },
+          {
+            "doel": "Explain Ritzer’s McDonaldisation and its four principles, and the irrationality of rationality",
+            "uitleg": "**McDonaldisation** (Ritzer): the process by which the principles of the fast-food industry come to dominate more and more of society. Four principles (slide): **efficiency** (minimising time), **calculability** (everything quantified and planned), **predictability** (uniformity and standardisation) and **control**, largely through **automation**. The **irrationality of rationality**: a system built to be rational becomes dehumanising and ends up controlling the people it should serve."
+          },
+          {
+            "doel": "Describe changing organisational forms: work teams, the audit culture, humanising bureaucracy, Japanese and postmodern organisations",
+            "uitleg": "**Self-managed work teams** give workers more say. **Humanising bureaucracy** (Kanter): a more democratic atmosphere, social inclusiveness, shared responsibility and more opportunities to advance (the slide's list). **Japanese organisations** (Ouchi's five distinctions, starting with collective hiring and advancement and lifetime security) work almost like very large primary groups. The **postmodern** organisation (Clegg) is flexible and less hierarchical. Meanwhile the **audit culture** (measuring and inspecting health, education and policing) creates a new kind of bureaucracy, criticised as costly, bureaucratic and demoralising."
+          },
+          {
+            "doel": "Explain social networks, weak ties and Castells’s network society",
+            "uitleg": "A **social network** is a web of social ties that link people who identify with one another (slide); in the twenty-first century networking replaces older patterns of group life. Networks are \"clusters of **weak ties**\" (Granovetter, 1973), and weak ties are a real resource, for example in finding a job. **Social capital**: connections built over time that create social bonds; young, educated urbanites have the most extensive networks; mobile phones break down the split between home and street. **Castells's network society**: information, money and people flow through global networks, and power diffuses through them."
+          }
         ]
       },
       {
@@ -512,7 +536,7 @@ LESSTOF['society-politics/college-6'] = [
           },
           {
             "begrip": "Dunbar’s number",
-            "definitie": "About 150 (range 100-250): the number of stable relationships a person can maintain, in layers of roughly 5, 15, 50, 150, 500 and 1,500 (Robin Dunbar; from the lecture)."
+            "definitie": "About 150 (range 100-250): the number of stable relationships a person can maintain, in layers of roughly 5, 15, 50, 150, 500 and 1,500 (Robin Dunbar; the layers come from your notes, the slide gives 100-250 or 150)."
           },
           {
             "begrip": "Social capital",
@@ -556,7 +580,7 @@ LESSTOF['society-politics/college-6'] = [
       {
         "type": "tekst",
         "titel": "Size matters: dyads, triads and Dunbar",
-        "tekst": "**Dyad** (two people): super intense but fragile. If one person leaves, it's over.\n**Triad** (three people): more stable, because the third can mediate. But also: \"two's company, three's a crowd\", and two can team up against one.\n\nThe more people, the more relationships: with 6 people there are already **15** connections.\n\n**Dunbar's number** (from the lecture): you can only keep about **150** real relationships (somewhere between 100 and 250). They come in circles: about 5 super close people, then 15, then about 50, then 150, and looser circles of 500 and 1,500.\n\n**Blau's four rules** for how groups mix: big groups stick to themselves, diverse groups reach out more, groups that are roughly equal mix more easily, and physical separation (different buildings, different canteens) creates social separation."
+        "tekst": "**Dyad** (two people): super intense but fragile. If one person leaves, it's over.\n**Triad** (three people): more stable, because the third can mediate. But also: \"two's company, three's a crowd\", and two can team up against one.\n\nThe more people, the more relationships: with 6 people there are already **15** connections.\n\n**Dunbar's number** (from the lecture): you can only keep about **150** real relationships (somewhere between 100 and 250). They come in circles: about 5 super close people, then 15, then about 50, then 150, and looser circles of 500 and 1,500 (from your notes; the slide only gives 100-250 or 150).\n\n**Blau's four rules** for how groups mix: big groups stick to themselves, diverse groups reach out more, groups that are roughly equal mix more easily, and physical separation (different buildings, different canteens) creates social separation."
       },
       {
         "type": "tekst",
@@ -569,19 +593,32 @@ LESSTOF['society-politics/college-6'] = [
         "tekst": "**Weber's bureaucracy** is the rulebook way of organising, with six features: everyone has a specialised task, there's a clear chain of command, everything follows written rules, you're hired for your skills, everyone gets treated the same (impersonal), and everything is written down.\n\nIt's efficient, but it has problems:\n1. **Alienation**: you feel like a number, not a person.\n2. **Ritualism**: following the rules becomes more important than the actual goal (red tape).\n3. **Inertia**: organisations refuse to die and invent new goals to keep existing.\n4. **Abuse of power / oligarchy**: a small group at the top takes over and avoids accountability (Michels's iron law).\n\nThe dark side, taken to the extreme: **Bauman** shows how bureaucracy made the **Holocaust** possible, because everyone only did their small part of the job and nobody felt responsible.\n\n**Total institutions** (Goffman): places that control your whole life, like prisons. And two joke-but-true laws: **Parkinson's law** (work takes as long as the time you have) and the **Peter principle** (people get promoted until they're bad at their job).\n\nThe fix: **humanising bureaucracy** (Kanter): include everyone, share responsibility, give people chances to grow."
       },
       {
+        "type": "slimmer",
+        "tekst": "**Part 1 in one breath**\n\nGroups shape us: primary groups for who we are, secondary groups for what we do. Group pressure is strong (Asch, Milgram, Zimbardo), size changes everything (dyad, triad, Dunbar), and Blau shows when groups mix. We join organisations for money, for a cause or because we are forced to, and Weber's bureaucracy brings both efficiency and alienation, ritualism, inertia and abuse of power."
+      },
+      {
+        "type": "tekst",
+        "titel": "The unofficial side of every organisation",
+        "tekst": "No organisation runs exactly like the rulebook. People find shortcuts, help each other where the rules forget something, or just cut corners. The **personality** of the boss matters (authoritarian, democratic or hands-off), and news spreads faster through the **grapevine** than through official memos.\n\nThe classic proof is the **Western Electric** study (Roethlisberger and Dickson, 1939): workers set their own \"fair day's work\", and anyone who worked too hard (a \"rate-buster\"), too little (a \"chiseller\") or told the boss (a \"squealer\") got the cold shoulder. The group, not the manager, decided the pace."
+      },
+      {
         "type": "tekst",
         "titel": "McDonaldisation: everything is fast food now",
-        "tekst": "**Ritzer**: the principles of McDonald's are taking over everything, from universities to holidays. Four principles:\n- **Efficiency**: as fast as possible.\n- **Calculability**: everything measured and counted.\n- **Predictability**: the same everywhere.\n- **Control**: machines instead of people.\n\nSounds handy, but the catch is the **irrationality of rationality**: the system becomes dehumanising, and in the end it controls us instead of the other way around."
+        "tekst": "The story starts small. In the **1940s** the brothers Mac and Dick McDonald opened a restaurant in California with fast, cheap food, made by employees who each did one tiny task, like a factory line. In **1954** salesman **Ray Kroc** saw its potential and turned it into a world chain: over 31,000 restaurants in 118 countries, serving more than 52 million customers a day (the book's figures).\n\n**Ritzer**: the principles of McDonald's are taking over everything, from universities to holidays. Four principles:\n- **Efficiency**: as fast as possible.\n- **Calculability**: everything measured and counted.\n- **Predictability**: the same everywhere.\n- **Control**: machines instead of people.\n\nSounds handy, but the catch is the **irrationality of rationality**: the system becomes dehumanising, and in the end it controls us instead of the other way around.\n\n**Ritzer** sees McDonald's everywhere: chain stores, package holidays, sound-bite news, megachurches, and \"McUniversities\" with pre-packaged modules and mass-produced tests. Kroc's goal was a burger, fries and shake in **50 seconds**, and you even clear your own tray. The price: the food is not especially healthy, the packaging harms the environment, and, in Ritzer's words, the ultimate irrationality is that people could lose control over the system and it would come to control us. His advice: avoid routines, eat at local restaurants."
       },
       {
         "type": "tekst",
         "titel": "New ways of organising",
-        "tekst": "Organisations try to be less rigid: **self-managed teams**, **humanising bureaucracy** (Kanter), the **Japanese model** where the company is almost like a family (Ouchi), and the flexible **postmodern firm** (Clegg). At the same time the **audit culture** (measuring and checking everything) creates a whole new kind of bureaucracy."
+        "tekst": "Organisations try to be less rigid: **self-managed teams**, **humanising bureaucracy** (Kanter), the **Japanese model** where the company is almost like a family (Ouchi), and the flexible **postmodern firm** (Clegg). At the same time the **audit culture** (measuring and checking everything) creates a whole new kind of bureaucracy.\n\n**Humanising bureaucracy** (Kanter, and the slide's list): a more democratic atmosphere, social inclusiveness, sharing responsibilities and more chances to move up.\n\n**The Japanese model** (Ouchi) differs from Western firms in five ways: people are hired and promoted **together** as a group; **lifetime security** (retraining instead of lay-offs); **holistic involvement** (the company cares about your whole life); **non-specialised training**; and **collective decision-making** (quality circles, smaller pay gaps). **Clegg** sees this as the **postmodern firm**: flexible, with fewer fixed boundaries and Just in Time production.\n\n**The audit culture**: since Taylor's time-and-motion studies, organisations keep measuring. Quality systems, targets and inspectorates now run schools, hospitals and the police (a form of new public management). Critics name five problems: it is costly (UK inspection spending rose from £250 million to £550 million, 1998-2003), bureaucratic, demoralising (\"teachers want to teach, nurses want to nurse\"), deskilling, and a way of controlling people."
       },
       {
         "type": "tekst",
         "titel": "Networks: the phone era",
-        "tekst": "A **social network** is a loose web of people you're connected to, without clear borders. In the 21st century, **networking is replacing the old ways** of group life.\n\n- **Weak ties** (Granovetter): people you barely know can be super useful, for example for finding a job. Who you know matters as much as what you know.\n- **Social capital** (from the lecture): the connections you build over time that create bonds.\n- The biggest networks belong to people who are **young, educated and live in cities**.\n- **Mobile phones**: you're always reachable (**perpetual contact**), the line between home and street disappears, and calls can be intrusive.\n\n**Castells' network society**: computers and the internet create a world of **networks and flows** of information, money and people. Power moves away from the state into those networks."
+        "tekst": "A **social network** is a loose web of people you're connected to, without clear borders. In the 21st century, **networking is replacing the old ways** of group life.\n\n- **Weak ties** (Granovetter): people you barely know can be super useful, for example for finding a job. Who you know matters as much as what you know.\n- **Social capital** (from the lecture): the connections you build over time that create bonds.\n- The biggest networks belong to people who are **young, educated and live in cities**.\n- **Mobile phones**: you're always reachable (**perpetual contact**), the line between home and street disappears, and calls can be intrusive.\n\n**Castells' network society**: computers and the internet create a world of **networks and flows** of information, money and people. Power moves away from the state into those networks.\n\n**Weak ties** (Granovetter, 1973): networks are \"clusters of weak ties\", and those loose contacts are gold, for example for finding a job: who you know is often as important as what you know. **Wellman**: Western communities are loose networks of specialised ties, held together by phones, cars and the internet rather than by place.\n\n**Castells's network society**: not factories but telecommunications now reorganise time and space. Hubs (people, cities, businesses, states) are connected by flows of **information, money and people**; time becomes a \"perpetual present\", and you can be \"everywhere and nowhere at the same time\". Power moves into these networks, away from governments. The internet itself was designed in the Cold War as a network with no centre, no one in charge and no main switch."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 2 in one breath**\n\nEvery organisation has an unofficial side. McDonaldisation spreads efficiency, calculability, predictability and control into all of life, with the irrationality of rationality as the catch. Organisations try to become more human and flexible, while the audit culture measures everything. And networks of weak ties, as in Castells's network society, increasingly replace the old groups."
       },
       {
         "type": "uitleg",

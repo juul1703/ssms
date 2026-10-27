@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v169**.
+Stand: 23 oktober 2026, service worker **v170**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -926,6 +926,12 @@ Sessie 2 (samengevoegd uit h1 en h2) nu ca. 14.000 tekens, sessie 3 ca. 8.500. A
 kernstof; casusfeiten (Avianca, Korean Air, Manila) opnieuw naast slide 3 gelegd. Ushahidi-achtergrond
 (Kenia 2007-2008) gelabeld als algemene kennis. Bouwscripts in /home/claude/work/iov (zet.py vervangt
 een voegOverviewToe-blok in overview-intro.js). Nog te doen Intro: sessie 1 en 4-8 op dezelfde standaard.
+
+**v170: Society sessie 6 gecontroleerd** (H6, slides 6): kernstof, quiz (20), bestaande Quick recap.
+Dunbar-lagen (5, 15, 50, 150, 500, 1.500) gelabeld als Julies aantekeningen (slide: 100-250 of 150).
+Vaardigheden-uitleg (8). Quick recap uitgebreid van ca. 6.900 naar 11.100 tekens: informele kant
+(Western Electric), McDonald's-geschiedenis en Ritzers kritiek, Kanter, Ouchi's vijf verschillen,
+Clegg, audit culture met vijf kritiekpunten, Granovetter, Wellman, Castells; twee "in one breath".
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
