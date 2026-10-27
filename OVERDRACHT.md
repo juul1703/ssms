@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v168**.
+Stand: 23 oktober 2026, service worker **v169**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -919,6 +919,13 @@ House-percentages tellen op tot meer dan 100). Kernstof per zin tegen H16 gelegd
 Gelabeld: het blok met actualisaties (Saudi-Arabië, coffeeshops 5 gram, gesloten Nederlandse
 gevangenissen, ASBO's, Amnesty) als algemene kennis; de Veiligheidsmonitor als eigen toevoeging.
 Society S1-S5 hebben nu allemaal een Quick recap in overview-society.js.
+
+**v169: Intro Quick recaps sessie 2 (h1, h2) en sessie 3 (college-3) herschreven** op de standaard
+(Governance S6): het hele college als verhaal, twee "in one breath"-blokken, "If you only remember".
+Sessie 2 (samengevoegd uit h1 en h2) nu ca. 14.000 tekens, sessie 3 ca. 8.500. Alles uit de gecontroleerde
+kernstof; casusfeiten (Avianca, Korean Air, Manila) opnieuw naast slide 3 gelegd. Ushahidi-achtergrond
+(Kenia 2007-2008) gelabeld als algemene kennis. Bouwscripts in /home/claude/work/iov (zet.py vervangt
+een voegOverviewToe-blok in overview-intro.js). Nog te doen Intro: sessie 1 en 4-8 op dezelfde standaard.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
