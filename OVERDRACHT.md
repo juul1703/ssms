@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v167**.
+Stand: 23 oktober 2026, service worker **v168**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -914,6 +914,11 @@ heet nu "part 2" en kreeg "the trouble with rights" en de big debate (beyond lef
 vaardigheden met uitleg, 10 nieuwe quizvragen (29/29 in de browser), 20 begrippen, Quick recap
 aangevuld. Twee slips van het boek gemarkeerd (EHRM is Raad van Europa; 723/732 MEPs; Freedom
 House-percentages tellen op tot meer dan 100). Kernstof per zin tegen H16 gelegd (support-script).
+
+**v168: Society sessie 5 gecontroleerd** (H17, Lecture 5) met vaardigheden-uitleg (11) en Quick recap.
+Gelabeld: het blok met actualisaties (Saudi-Arabië, coffeeshops 5 gram, gesloten Nederlandse
+gevangenissen, ASBO's, Amnesty) als algemene kennis; de Veiligheidsmonitor als eigen toevoeging.
+Society S1-S5 hebben nu allemaal een Quick recap in overview-society.js.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

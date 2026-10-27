@@ -272,3 +272,56 @@ voegOverviewToe("society-politics/college-4", {
   ]
 });
 
+voegOverviewToe("society-politics/college-5", {
+  "id": "overview",
+  "titel": "Quick recap",
+  "blokken": [
+    {
+      "type": "slimmer",
+      "tekst": "**What this tab is**\n\nChapter 17 (Control, crime and deviance) and lecture 5 as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
+    },
+    {
+      "type": "tekst",
+      "titel": "Two questions and a few definitions",
+      "tekst": "The lecture asks two questions: **how can we explain deviance**, and **how do people become deviant?**\n\n- **Deviance** is breaking a norm, and it only counts once others notice and label it. Our example: wearing pyjamas to a lecture is deviant, but it is not a crime.\n- **Crime** is breaking a norm that has been written into **criminal law**.\n- The **social control system** is \"planned and programmed responses to expected deviance\": society prepares for rule-breaking. These control processes become more **bureaucratic**, **professional** and **state-funded**.\n- The **criminal justice system** is the formal part: police, courts and prison officials.\n\nOur example: think of a security guard at a festival: the guard is part of social control, the festival rules are norms, and only some violations are crimes.\n\nWhat do all forms of deviance share? An **evaluation of difference** that turns someone into an **\"outsider\"** (Becker). So deviance is not just personal choice; how society defines and reacts to it is a matter of social organisation. And **no society is crime-free**: crime can be the price of freedom, can bring change (yesterday's rebels can be tomorrow's leaders), and shows where the moral boundaries are."
+    },
+    {
+      "type": "tekst",
+      "titel": "How much crime is there? Read the numbers carefully",
+      "tekst": "Official figures show crime rising enormously in England and Wales: about 100,000 recorded offences a year around 1900, nearly 6 million in 2002-03. But crime statistics are a **shrinking flow**: of everything that happens, only part is reported, part of that is recorded, and only a sliver ends in a conviction, perhaps **two in 100** offences. Everything else is the **hidden figure** of crime.\n\nWhether people report depends on things like how much they **tolerate** a crime (vandalism), how **serious** they find it, their **confidence in the police**, whether there is a clear victim, and whether they even **notice** it. About 90 per cent of crimes reach the police through the public.\n\nTwo extra tools: **victimisation surveys** ask people what happened to them (they suggest real crime is two or three times higher than recorded) and **self-report studies** ask people what they did themselves. Lesson for every policy debate: before you believe \"crime is rising\", ask whether it is recorded or experienced crime, and which crimes."
+    },
+    {
+      "type": "tekst",
+      "titel": "Global crime and how we punish",
+      "tekst": "Crime goes global too. Castells describes a **global criminal economy** with six forms: arms trafficking, trafficking of nuclear materials, smuggling of migrants, trafficking in women and children, trafficking in body parts, and **money laundering**, which sits at the heart of it because it makes dirty money look clean. Drugs come on top of that.\n\nWhat is punishment for? Six possible goals:\n1. **Deterrence**: scare people off.\n2. **Rehabilitation**: change the offender.\n3. **Restorative justice**: repair the harm and heal the community.\n4. **Retribution**: punishment that fits the crime (just deserts).\n5. **Incapacitation**: make reoffending impossible, for example by prison.\n6. **Radical non-intervention**: the system itself may cause crime, so interfere as little as possible.\n\nThe book contrasts **Sweden**, with one of the toughest drug policies in Europe, and the **Netherlands**, with its tolerance of soft drugs."
+    },
+    {
+      "type": "tekst",
+      "titel": "Watching and controlling",
+      "tekst": "**Foucault** (*Discipline and Punish*) describes a big shift. In 1757 a man who tried to kill the king was publicly tortured and torn apart: punishment as a **spectacle on the body**. Modern punishment is a **timetable**: the prison regulates every hour. Power moves from hurting bodies to **watching and disciplining** people.\n\nControl has changed in three ways: more **prisons and police**; an extra layer of **informal control** on top (community orders, therapy), which pulls more people into the system (**net-widening**); and much more **surveillance**, often private: CCTV, electronic tags, Neighbourhood Watch (about 143,000 schemes in the UK by 1996). Prisons are increasingly **private**. Bottoms calls the split between harsh treatment for serious offenders and mild treatment for everyone else **bifurcation**.\n\nThe lecture gives the **surveillance society** its own slide (Lyon): a society that relies on communication and information technology for administration and control, with close monitoring of everyday life. The book's example: a fictional father, Thomas Kearn, filmed by cameras again and again in a single morning."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nDeviance is breaking a norm that others notice; crime is breaking the law; social control is how society prepares for both. Crime figures hide most crime, so read them carefully. Crime has gone global, punishment can aim at six different goals, and control has shifted from punishing bodies to watching people everywhere."
+    },
+    {
+      "type": "tekst",
+      "titel": "Why do people commit crime? The explanations",
+      "tekst": "The lecture runs through the explanations one slide at a time, **each with a critique**.\n\n**Classical school** (Beccaria, 1764): people choose crime rationally, to gain as much as possible and get away with it, so make punishment certain, quick and proportional. Critique: it assumes everyone is rational, free and self-interested.\n\n**Positivist school** (Lombroso, Sheldon): crime has causes in biology or personality; the criminal is a special type of person. Critique: it focuses on specific types of people and looks for causes outside the offender's control; most offenders are psychologically normal.\n\n**Functionalism** (Durkheim): deviance is normal and even useful. Its four functions: it **affirms** values and norms, **clarifies boundaries**, **promotes unity** (people unite in outrage) and **encourages change**.\n\n**Strain theory** (Merton): society tells everyone to be successful but does not give everyone legal ways to get there. People adapt in five ways: **conformity** (legal means, accepted goals), **innovation** (crime to reach success), **ritualism** (sticking to the rules but giving up on success), **retreatism** (dropping out of both) and **rebellion** (replacing both). Critique on the slide: it unfairly focuses on poor people and on conventional ideas of success.\n\n**Subcultures** build on Merton: Albert Cohen's **status frustration** (boys who cannot succeed at school turn its values upside down), Walter Miller's six **focal concerns** (trouble, toughness, smartness, excitement, fate, autonomy), and Cloward and Ohlin's **opportunity structures** (you need illegal opportunities too).\n\n**Learning theory** (Sutherland's **differential association**): you learn deviance from the people you hang out with."
+    },
+    {
+      "type": "tekst",
+      "titel": "Labels, power and gender",
+      "tekst": "**Labelling theory** (Becker, Lemert): deviance is not in the act but in **how others react**. **Primary deviance** is small and passing (one shoplifting incident). **Secondary deviance** comes when people keep calling you a thief until you see yourself as one and act like it, the Thomas theorem again. A **stigma** is a powerful negative label that changes your identity; **retrospective labelling** rewrites your past (\"he was always weird\"); **medicalisation** turns \"bad\" into \"sick\". Critique: it is unclear whether labels produce more deviance or discourage it.\n\n**Conflict criminology**: deviance is about **power**. Norms and laws serve the rich, and the powerful can resist labels. Spitzer: labels go to people who get in the way of capitalism: those who threaten property, cannot or will not work, resist authority, or challenge the system.\n\n**Left realism** (Jock Young): take crime and its victims seriously. Key ideas: **relative deprivation** (feeling worse off than others), **marginalisation** (being on the edge of society with little to lose) and crime in its context (job crisis, poverty, fear of \"others\", family crisis). The **square of crime** says you need all four corners: the **state**, **informal control** (the public), the **offender** and the **victim**.\n\n**Feminist criminology** (Carol Smart) asks the other theories awkward questions: why do women commit far fewer crimes, why are women taught to see success in relationships, why do men and women get judged by different standards? And new ones: why do women fear crime more, why are women so often victims of sexual violence, why are women more controlled?\n\n**Race and ethnicity**: there is a link with victimisation and crime rates, and some groups are arrested and imprisoned far more often. The book explains this with prejudice in policing, inequality and what gets counted."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nClassical: crime is a choice. Positivist: crime has causes in the person. Durkheim: deviance is normal and useful. Merton: crime comes from the gap between goals and means. Subcultures and learning: you learn it in groups. Labelling: the reaction makes the deviant. Conflict and left realism: power, deprivation and the square of crime. Feminists and race scholars: who gets watched, labelled and punished is not neutral."
+    },
+    {
+      "type": "uitleg",
+      "tekst": "**If you only remember 8 things**\n\n1. Deviance (recognised violation of norms), crime (violation of criminal law), the social control system (planned responses to expected deviance), the criminal justice system.\n2. No society is crime-free; crime figures are a shrinking flow with a hidden figure; victim surveys and self-report studies add to them.\n3. Castells's six forms of global crime, with money laundering at the heart.\n4. Six penal goals: deterrence, rehabilitation, restoration, retribution, incapacitation, radical non-intervention.\n5. Foucault: from spectacle to timetable; net-widening, bifurcation, privatisation; Lyon's surveillance society.\n6. Classical versus positivist; Durkheim's four functions; Merton's five adaptations; Cohen, Miller, Cloward and Ohlin; Sutherland.\n7. Labelling: primary and secondary deviance, stigma, retrospective labelling, medicalisation.\n8. Conflict (Spitzer), left realism (square of crime), feminist criminology, race and ethnicity."
+    }
+  ]
+});
+
