@@ -38,21 +38,76 @@ LESSTOF['society-politics/college-4'] = [
       {
         "type": "leerdoelen",
         "items": [
-          {"doel": "Describe how youth cultures developed and how sociologists explain them: as resistance, and as fluid, postmodern styles", "uitleg": "Youth cultures grew after the Second World War out of three conditions: relative **affluence**, extended **schooling** and a **consumer market** aimed at the young (Teddy Boys, Mods and Rockers, punks, goths and many more). Cultural studies read them as **resistance**; the postmodern view sees loose, fluid groupings around tastes and lifestyles (**neo-tribes**). Hodkinson's study of goths (2002) gives four indicators: identity, commitment, consistent distinctiveness and autonomy."},
-          {"doel": "Explain the global culture thesis, its three flows and its three limitations, and the terms cosmopolitan, hybridisation and glocalisation", "uitleg": "A global culture is emerging through three **flows**: goods (the economy), information (communication) and people (migration). Its three **limitations**: the flows are uneven, access to goods and services is unequal, and people respond locally (**glocalisation**: karaoke means different things in Thailand, London and San Francisco). **Hybridisation**: combining parts of cultures (Pieterse: Thai boxing by Moroccan girls in Amsterdam). **Cosmopolitan** (Hannerz): \"a willingness to engage with the other\"."},
-          {"doel": "Compare the functionalist and the conflict approach to culture, with Adorno’s culture industry and Gramsci’s hegemony", "uitleg": "**Functionalism**: culture is a system that meets needs; core values give stability and **cultural universals** exist in every known culture (Murdock: family, funeral rites, jokes). Blind spots: change, diversity and power. **Conflict approach**: culture serves the interests of the powerful. **Adorno's culture industry** standardises culture and makes people passive and uncritical (Frankfurt School); **Gramsci's hegemony**: a dominant group wins over subordinate groups through ideas, winning consent rather than using force."},
-          {"doel": "Explain what cultural studies is, with Stuart Hall and the circuit of culture", "uitleg": "**Cultural studies** treats popular culture as an arena of **consent and resistance**: partly where hegemony is secured, partly where it can be resisted (Stuart Hall). The **circuit of culture** (Hall, du Gay and others) analyses any cultural object through five moments: **production, representation, identity, consumption, regulation**."},
-          {"doel": "Explain culture as constraint and as freedom", "uitleg": "**Constraint**: culture is largely habit; it limits our choices and drives us to repeat troubling patterns such as prejudice, and media and business may manipulate us. **Freedom**: unlike biological instinct, culture gives us the responsibility to make and remake our world; it always embodies the human capacity for hope, creativity and choice, and it is ever-changing. The slide asks the same question: culture as constraint or freedom?"},
-          {"doel": "Explain Eurocentrism, multiculturalism, postcolonialism, Orientalism and cosmopolitanism, and the criticism of multiculturalism", "uitleg": "**Eurocentrism**: seeing the world through European culture and its links (Therborn: Europe as the \"chief organiser\" of modernity). **Multiculturalism**: recognising cultural diversity and promoting the equality of all cultural traditions. **Postcolonialism**: showing how cultures were made through oppressor-subject relationships. **Orientalism** (Said): the West creating a stereotyped image of the East. **Cosmopolitanism**: despite great differences, people can share a common humanity. **Criticism**: multiculturalism may encourage divisiveness rather than unity and may demand the kind of separation it opposes."},
-          {"doel": "Classify social movements with Aberle’s four types and describe the four stages of a social movement", "uitleg": "Aberle (1966) crosses **who is changed** (specific individuals or everyone) with **how much** (limited or radical): **alternative** (limited, individuals), **redemptive** (radical, individuals), **reformative** (limited, everyone) and **revolutionary** (radical, everyone). The four stages: **emergence**, **coalescence**, **bureaucratisation** (staying power, but a blunted edge) and **decline**, through success, failure, co-optation, repression or establishment within the mainstream."},
-          {"doel": "Explain what is new about new social movements, and how social movements and social change cause each other", "uitleg": "New social movements are younger, more informal and direct, driven by **post-materialist** values, and international; they also provoke countermovements, and critics say the difference with old movements is exaggerated. Offe: the conflicts of advanced industrial society \"can no longer be resolved by the state or by increasing bureaucracy\". The book's conclusion: **social change is both the cause and the consequence of social movements**, and their scope grows with the information revolution and the global economy."},
-          {"doel": "Describe the three waves of human rights", "uitleg": "Klug (2000): **wave one**, the late eighteenth century, liberty, justice and equality before the law, freedom from state tyranny and religious persecution (1776, 1789); **wave two**, around the Second World War and the UN, dignity, equality and community (the Universal Declaration of Human Rights, 1948); **wave three**, after the Cold War, mutuality and participation."}
+          {
+            "doel": "Describe how youth cultures developed and how sociologists explain them: as resistance, and as fluid, postmodern styles",
+            "uitleg": "Youth cultures grew after the Second World War out of three conditions: relative **affluence**, extended **schooling** and a **consumer market** aimed at the young (Teddy Boys, Mods and Rockers, punks, goths and many more). Cultural studies read them as **resistance**; the postmodern view sees loose, fluid groupings around tastes and lifestyles (**neo-tribes**). Hodkinson's study of goths (2002) gives four indicators: identity, commitment, consistent distinctiveness and autonomy."
+          },
+          {
+            "doel": "Explain the global culture thesis, its three flows and its three limitations, and the terms cosmopolitan, hybridisation and glocalisation",
+            "uitleg": "A global culture is emerging through three **flows**: goods (the economy), information (communication) and people (migration). Its three **limitations**: the flows are uneven, access to goods and services is unequal, and people respond locally (**glocalisation**: karaoke means different things in Thailand, London and San Francisco). **Hybridisation**: combining parts of cultures (Pieterse: Thai boxing by Moroccan girls in Amsterdam). **Cosmopolitan** (Hannerz): \"a willingness to engage with the other\"."
+          },
+          {
+            "doel": "Compare the functionalist and the conflict approach to culture, with Adorno’s culture industry and Gramsci’s hegemony",
+            "uitleg": "**Functionalism**: culture is a system that meets needs; core values give stability and **cultural universals** exist in every known culture (Murdock: family, funeral rites, jokes). Blind spots: change, diversity and power. **Conflict approach**: culture serves the interests of the powerful. **Adorno's culture industry** standardises culture and makes people passive and uncritical (Frankfurt School); **Gramsci's hegemony**: a dominant group wins over subordinate groups through ideas, winning consent rather than using force."
+          },
+          {
+            "doel": "Explain what cultural studies is, with Stuart Hall and the circuit of culture",
+            "uitleg": "**Cultural studies** treats popular culture as an arena of **consent and resistance**: partly where hegemony is secured, partly where it can be resisted (Stuart Hall). The **circuit of culture** (Hall, du Gay and others) analyses any cultural object through five moments: **production, representation, identity, consumption, regulation**."
+          },
+          {
+            "doel": "Explain culture as constraint and as freedom",
+            "uitleg": "**Constraint**: culture is largely habit; it limits our choices and drives us to repeat troubling patterns such as prejudice, and media and business may manipulate us. **Freedom**: unlike biological instinct, culture gives us the responsibility to make and remake our world; it always embodies the human capacity for hope, creativity and choice, and it is ever-changing. The slide asks the same question: culture as constraint or freedom?"
+          },
+          {
+            "doel": "Explain Eurocentrism, multiculturalism, postcolonialism, Orientalism and cosmopolitanism, and the criticism of multiculturalism",
+            "uitleg": "**Eurocentrism**: seeing the world through European culture and its links (Therborn: Europe as the \"chief organiser\" of modernity). **Multiculturalism**: recognising cultural diversity and promoting the equality of all cultural traditions. **Postcolonialism**: showing how cultures were made through oppressor-subject relationships. **Orientalism** (Said): the West creating a stereotyped image of the East. **Cosmopolitanism**: despite great differences, people can share a common humanity. **Criticism**: multiculturalism may encourage divisiveness rather than unity and may demand the kind of separation it opposes."
+          },
+          {
+            "doel": "Classify social movements with Aberle’s four types and describe the four stages of a social movement",
+            "uitleg": "Aberle (1966) crosses **who is changed** (specific individuals or everyone) with **how much** (limited or radical): **alternative** (limited, individuals), **redemptive** (radical, individuals), **reformative** (limited, everyone) and **revolutionary** (radical, everyone). The four stages: **emergence**, **coalescence**, **bureaucratisation** (staying power, but a blunted edge) and **decline**, through success, failure, co-optation, repression or establishment within the mainstream."
+          },
+          {
+            "doel": "Explain what is new about new social movements, and how social movements and social change cause each other",
+            "uitleg": "New social movements are younger, more informal and direct, driven by **post-materialist** values, and international; they also provoke countermovements, and critics say the difference with old movements is exaggerated. Offe: the conflicts of advanced industrial society \"can no longer be resolved by the state or by increasing bureaucracy\". The book's conclusion: **social change is both the cause and the consequence of social movements**, and their scope grows with the information revolution and the global economy."
+          },
+          {
+            "doel": "Describe the three waves of human rights",
+            "uitleg": "Klug (2000): **wave one**, the late eighteenth century, liberty, justice and equality before the law, freedom from state tyranny and religious persecution (1776, 1789); **wave two**, around the Second World War and the UN, dignity, equality and community (the Universal Declaration of Human Rights, 1948); **wave three**, after the Cold War, mutuality and participation."
+          },
+          {
+            "doel": "Define formal politics, governance and informal power, and explain Weber's power and three types of authority",
+            "uitleg": "**Formal politics**: the institution that distributes power, sets the agenda and makes decisions; **governance**: the exercise of political, economic and administrative authority at all levels; **informal power** is everywhere (Foucault). **Weber**: power is achieving desired ends despite resistance; **authority** is power perceived as legitimate: **traditional** (long-established patterns), **rational-legal** (enacted rules; authority stays with the office) and **charismatic** (extraordinary personal abilities)."
+          },
+          {
+            "doel": "Compare totalitarianism, authoritarianism, monarchy and democracy, with Singapore's soft authoritarianism",
+            "uitleg": "**Totalitarianism** extensively regulates people's lives and seeks inward commitment (North Korea). **Authoritarianism** denies popular participation, with no legal way to remove leaders (Saudi Arabia, juntas). **Monarchy**: one family rules from generation to generation, absolute or constitutional, legitimated by tradition. **Democracy**: power exercised by the people as a whole, usually representative, legitimated by rational-legal authority. **Singapore**: loyalty in exchange for security and prosperity, which critics call soft authoritarianism."
+          },
+          {
+            "doel": "Explain the tension between democracy and bureaucracy, and the capitalist and socialist views of freedom",
+            "uitleg": "As government grows it takes on a life of its own: an inherent antagonism between democracy and bureaucracy, since most everyday decisions are made by unelected career officials. **Capitalist** freedom: personal liberty with minimal interference, but inequality limits the poor's choices. **Socialist** freedom: freedom from basic want, but systems can be unresponsive and repressive. Question: are economic equality and political liberty compatible? Much of Europe is social democratic."
+          },
+          {
+            "doel": "Name the five ways politics is globalising, and the position of women in politics",
+            "uitleg": "Five ways: regional interconnectedness (EU, ASEAN), global government since 1945 (the UN), multinational corporations (51 of the 100 largest economies), the Information Revolution, and global new social movements (Make Poverty History). **Women**: the vote came late, representation is well below 40 per cent at best, UN women's conferences (1975-2000), and the UNDP's eight areas of inequality."
+          },
+          {
+            "doel": "Compare the pluralist, power elite and ruling class models of power, with their research",
+            "uitleg": "**Pluralist**: power dispersed among competing groups (Polsby and Dahl on New Haven). **Power elite**: power concentrated among the rich in economy, government and military (Mills; the Lynds on Muncie; Hunter on Atlanta). **Ruling class**: the state serves the dominant economic class (Gramsci's hegemony, Miliband, Poulantzas's repressive and ideological apparatus; Scott on Britain). Learn Table 16.3."
+          },
+          {
+            "doel": "Explain revolution, terrorism and war as power beyond the rules",
+            "uitleg": "**Revolution**: overthrowing a political system to establish another; four traits: rising expectations, unresponsive government, radical leadership by intellectuals, establishing a new legitimacy. **Terrorism**: violence as a political strategy; Johnson's four insights (a weak organisation's strategy, state terrorism, democracies' vulnerability, a matter of definition); new terrorism's four features (decentralisation, asymmetry, religious centrality, weapons of mass destruction). **War**: old and new wars (Kaldor), degenerate wars (Shaw), the costs, the military-industrial complex, nuclear weapons, information warfare."
+          },
+          {
+            "doel": "Explain the three problems with rights and the big debate on left and right",
+            "uitleg": "**Rights**: the claim to universalism (a possible euphemism for Western intervention), unenforceability, and too much focus on individual rather than collective rights. **Big debate**: Fukuyama's end of history, Giddens's dialogic democracy, Barber's jihad versus McWorld, and new politics around social movements."
+          }
         ]
       },
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **Macionis & Plummer, chapter 5 (Culture)**, the whole chapter, and **chapter 16 (Power, governance and social movements), the section on social movements.**\n\n**About page numbers.** The programme gives page ranges (H5 pp. 144-158, H16 pp. 563-567) from a newer edition of the book. You use an older edition, which the lecturer says is fine because the chapters correspond in content. So this lesson follows the **chapters**, not the page numbers. Lecture 4 confirms that: it spent most of its slides on the first half of chapter 5 (what culture is, its components, diversity), so the whole chapter is covered here. For chapter 16 the programme points to the **social movements** section, which in your edition is pp. 525-528 (plus human rights, pp. 528-532); the lecture's only social movements slide shows Figure 16.4 from exactly that section.\n\nSince v108 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3."
+        "tekst": "Read: **Macionis & Plummer, chapter 5 (Culture)**, the whole chapter, and **chapter 16 (Power, governance and social movements), which this lesson covers in full.** The programme only points to the social movements section, but you asked for whole chapters, so both halves of chapter 16 are here, in two Core material tabs.\n\n**About page numbers.** The programme gives page ranges (H5 pp. 144-158, H16 pp. 563-567) from a newer edition of the book. You use an older edition, which the lecturer says is fine because the chapters correspond in content. So this lesson follows the **chapters**, not the page numbers. Lecture 4 confirms that: it spent most of its slides on the first half of chapter 5 (what culture is, its components, diversity), so the whole chapter is covered here. For chapter 16 the programme points to the **social movements** section, which in your edition is pp. 525-528 (plus human rights, pp. 528-532); the lecture's only social movements slide shows Figure 16.4 from exactly that section.\n\nSince v108 the slides of lecture 4 are added in From the lecture boxes, as in sessions 2 and 3."
       },
       {
         "type": "slimmer",
@@ -586,8 +641,308 @@ LESSTOF['society-politics/college-4'] = [
     ]
   },
   {
+    "id": "kern3",
+    "titel": "Core material: chapter 16, part 1 (power and politics)",
+    "blokken": [
+      {
+        "type": "uitleg",
+        "titel": "About this tab",
+        "tekst": "This tab covers the **first part of chapter 16** (Power, governance and social movements): everything before the section on new politics and social movements, which is in the next tab. Together the two tabs cover the **whole chapter**. The lecture slide only names the social movements pages, but the chapter is assigned reading, so this part is exam material too.\n\nThe chapter's key themes, from its opening page: different kinds of power; the nature of democracies and other global systems of power; the distribution of power in democratic societies; revolutions, war and terrorism; the significance of social movements; the changing politics of the twenty-first century; the significance of human rights regimes."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "The book was written around 2007-2008. Many figures are outdated (Freedom House counts, EU seats, nuclear warheads, the cost of the Iraq War). Learn the concepts and the arguments; treat the numbers as the book's snapshot.",
+        "titel": "The figures are old"
+      },
+      {
+        "type": "tekst",
+        "titel": "1. Power, politics and governance",
+        "toetsstof": true,
+        "tekst": "The chapter starts with the **Battle of Seattle** (December 1999): mass protests against the World Trade Organization that turned into violent clashes, with over 500 arrests. It shows power being exercised and contested on the street, not only in parliaments.\n\nTwo definitions frame the chapter:\n- **Formal politics**: the social institution that distributes power, sets a society's agenda and makes decisions.\n- **Governance**: the exercise of political, economic and administrative authority in the management of a country's affairs at all levels.\n\nBut power is wider than formal politics. **Informal power** is found in everyday encounters: face-to-face interaction, families, relations between men and women, institutions such as schools and prisons, child-adult relations. It is most obvious when people take decisions that affect others, but it can be subtler: preventing issues from ever being discussed, or shaping desires and wishes, often against our will. **Michel Foucault** goes furthest: power is everywhere, in all relationships; it does not simply come from the top or from formal institutions (Foucault, 1977; more in chapter 17)."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPolitics decides who gets power and what gets decided; governance is how a country is actually managed. But power is not only in parliament: it is in families, schools and everyday conversations too. Foucault even says it is everywhere."
+      },
+      {
+        "type": "tekst",
+        "titel": "2. Weber: power and three types of authority",
+        "toetsstof": true,
+        "tekst": "**Max Weber** (1978; orig. 1921) defined **power** as the ability to achieve desired ends despite resistance from others. **Force** (physical might or psychological coercion) is its most basic form, but no society lasts long on force alone, because people break rules they do not respect at the first opportunity. So social organisation depends on **legitimacy and consensus** (compare ideology and hegemony from chapter 5).\n\n**Authority** is power that people perceive as **legitimate** rather than coercive. When parents, teachers or police do their work well, their power wins respect as authority. Weber distinguished three types:\n\n1. **Traditional authority**: power legitimised through respect for long-established cultural patterns (Chinese emperors in antiquity, nobles in medieval Europe; hereditary family rule with almost godlike authority). In the modern world it is increasingly challenged.\n2. **Rational-legal authority**: power legitimised by legally enacted rules and regulations, through government and formal organisations; bureaucracy is its backbone. It flows from **organisational position**, not family background: a monarch rules for life, a prime minister accepts and gives up power according to law, and the authority stays with the office. A lecturer's authority rests on the office held in a university.\n3. **Charismatic authority**: power legitimised through extraordinary personal abilities that inspire devotion and obedience; charisma is seen as a sign of divine inspiration and is more a trait of the individual than of social organisation. Charismatics challenge the status quo: Lenin (Russia, 1917), Mahatma Gandhi (India), Martin Luther King Jr (the US civil rights movement); more recently Indira Gandhi, Benazir Bhutto, Golda Meir and Margaret Thatcher."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPower is getting your way even when others resist. Authority is power that people accept as rightful. Weber names three sources: tradition, rules and offices, and a leader's personal magnetism."
+      },
+      {
+        "type": "tekst",
+        "titel": "3. Types of political system",
+        "toetsstof": true,
+        "tekst": "Political systems vary greatly. Some societies were \"headless\", without leaders (the **Nuer**, studied by Evans-Pritchard, 1951). For much of history **empires** (Chinese, Japanese, Islamic, Roman) dominated, as separate worlds with little contact. Only in the latter part of the second millennium did the **nation state** emerge: a clearly defined territory, military support and a nationalist creed, with people imagining a community connected to their nation.\n\nToday's major political systems fall into **four categories**:\n\n1. **Totalitarianism**: a political system that extensively regulates people's lives. A total concentration of power that prohibits organised opposition, denies the right to assemble, controls information, and thrives on fear and social atomisation. Socialisation is intensely political, seeking inward commitment, not just outward compliance (North Korea's leader portraits and loudspeakers; after the 1989 pro-democracy movement in China, citizens had to report \"unpatriotic\" people, even family). Totalitarianism spans the spectrum from the far right (Nazi Germany) to the far left (North Korea).\n2. **Authoritarianism**: a political system that denies popular participation in government. It is indifferent to people's needs, lacks legal means to remove leaders and gives people little or no way to express opinions. Wesolowski: \"The authoritarian philosophy argues for the supremacy of the state [over other] organised social activity\" (1990: 435). Examples: the absolute monarchies of Saudi Arabia and Kuwait, military juntas (Congo, Ethiopia).\n3. **Monarchy**: a political system in which a single family rules from generation to generation, legitimated by **tradition**. Medieval **absolute monarchy** claimed power by divine right. Europe's remaining monarchs (UK, Spain, Norway, Sweden, Belgium, Denmark, the Netherlands) preside over **constitutional monarchies**: they reign, elected officials rule. In 2003 around 30 nations were still political monarchies.\n4. **Democracy**: a political system in which power is exercised by the people as a whole. In **representative democracy** authority lies with elected leaders accountable to the people; under **participatory democracy** people would represent themselves. Democracy is legitimated by **rational-legal authority**."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "System",
+          "Core feature",
+          "Legitimated by",
+          "Book's examples"
+        ],
+        "rijen": [
+          [
+            "Totalitarianism",
+            "Extensive regulation of people's lives; no opposition",
+            "Not genuine consent; fear, indoctrination",
+            "North Korea, Nazi Germany"
+          ],
+          [
+            "Authoritarianism",
+            "No popular participation; no legal way to remove leaders",
+            "Supremacy of the state",
+            "Saudi Arabia, Kuwait, military juntas"
+          ],
+          [
+            "Monarchy",
+            "One family rules from generation to generation",
+            "Tradition",
+            "Absolute or constitutional (UK, Spain, the Netherlands)"
+          ],
+          [
+            "Democracy",
+            "Power exercised by the people as a whole",
+            "Rational-legal authority",
+            "Representative democracies of Europe"
+          ]
+        ],
+        "noot": "Built from the chapter's four categories; the third column combines the text and the summary."
+      },
+      {
+        "type": "tekst",
+        "titel": "4. Singapore: soft authoritarianism (World Watch box)",
+        "toetsstof": true,
+        "tekst": "Singapore (independent from Malaysia in 1965) has spectacular economic growth and scarcely any crime, slums or unemployment. The key is the **ever-present hand of government**: it owns most housing, has stakes in many businesses, taxes cars heavily, bans chewing gum, fines littering and smoking in public, permits detention without trial and the death penalty for drug dealing, and caned an American (Michael Fay, 1994). One party, the **People's Action Party**, has ruled without opposition since independence.\n\nThe system offers a **bargain**: unflinching loyalty in return for security and prosperity. Critics call it **soft authoritarianism** that stifles dissent; most citizens, the box says, consider the trade-off a good one, for now. It also defies economic categories: state control looks socialist, but the businesses are run efficiently and profitably within a capitalist culture."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nCountries are run in four basic ways: total control, authoritarian rule without a say for the people, rule by a royal family, or democracy. Singapore shows a mix: little freedom, but safety and wealth, and many people accept that deal."
+      },
+      {
+        "type": "tekst",
+        "titel": "5. Democracy and its problems",
+        "toetsstof": true,
+        "tekst": "The historical trend in the modern world has favoured democracy, but how the people's power is to be exercised has always been a key problem. Members of democratic societies rarely take part directly in decision-making.\n\nDemocracies are built on extensive **bureaucracy** and economic power. As government grows it takes on a life of its own, revealing **an inherent antagonism between democracy and bureaucracy**. The US federal government employs more than 3 million people (excluding the armed forces), with another 15 million in some 80,000 local governments; in the UK some 2.6 million people work for local authorities alone. Most of these officials were never elected and are unknown to the public. The irony: the public watches a few elected leaders, while most everyday decisions are made by career bureaucrats who are not directly accountable to the people."
+      },
+      {
+        "type": "tekst",
+        "titel": "6. Democracy and freedom: contrasting approaches",
+        "toetsstof": true,
+        "tekst": "Virtually all industrialised nations claim to be democratic and free. According to **Freedom House**, by the end of 2003 more people in the world were \"free\" than \"not free\" for the first time in history; the 2007 survey found the share of free countries flat. Table 16.1 shows the trend: free countries rose from 43 (1973) to 89 (2003), not free countries fell from 69 to 48. But **measuring freedom is always a problem**: it is defined through national ratings on political rights and civil liberties, which countries interpret differently, so the conclusions must be read with caution.\n\nThe deeper question: **what kind of freedom?**\n- **Capitalist view**: the market gives individuals the personal freedom to pursue their self-interest; political freedom means **personal liberty**, voting and acting with minimal government interference. Critics: capitalism's inequality gives some people far more choices than others, so it looks undemocratic.\n- **Socialist view**: politics should meet everyone's basic needs (housing, schooling, a job, medical care); freedom means **freedom from basic want** (there is little hunger and homelessness in Norway and Sweden). Critics: such systems can be unresponsive and heavy-handed against opposition; people in Eastern Europe overthrew them.\n\nSo: **are economic equality and political liberty compatible?** Socialism tends to infringe individual initiative; capitalism gives broad political liberties that mean little to the poor. Many European countries take a **social democratic** position, a mix of capitalist and socialist/welfare economies: Scandinavia with high taxes and strong welfare, Middle Europe with lower commitments, Southern Europe less comprehensive, and the UK with welfare and social services plus income-dependent benefits."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "The book's Map 16.1 caption gives 47, 37 and 23 per cent of the world's population as free, partly free and not free in 2006, which adds up to more than 100. Do not try to reconcile the numbers; learn that more people lived in free countries than ever, and that about half of those not free lived in China.",
+        "titel": "A number that does not add up"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nDemocracies need huge bureaucracies, and those unelected officials make many of the daily decisions. And \"freedom\" means different things: freedom to choose (capitalism) or freedom from want (socialism). Much of Europe mixes the two."
+      },
+      {
+        "type": "tekst",
+        "titel": "7. The globalisation of politics",
+        "toetsstof": true,
+        "tekst": "Is there a global political system to match the global economy? **Mixed answer.** No: for some 300 years the dominant mode has been the **nation state** (the **Westphalian Order**, after the Peace of Westphalia, 1648), each with its own territory, citizens, military force and sovereign creed. Yes: politics is part of globalisation, and the book names **five ways** in which national politics become interlinked:\n\n1. **Regional interconnectedness**: the European Union (some 27 states) and ASEAN.\n2. **A layer of global government** since 1945: the United Nations and bodies such as UNICEF, UNHCR, UNESCO and the WHO.\n3. **Multinational corporations** as a political order of a different kind: of the 100 largest economies in the world, 51 are corporations, not countries (Brecher et al., 2000); politics is \"dissolving into business\".\n4. **The Information Revolution** puts national politics on the world stage: news of the 1989 Tiananmen Square massacre spread by fax within minutes; the world watched 9/11 as it happened. No government can fully manage what happens within its borders.\n5. **New social movements** run global campaigns (\"eco-warriors\" for the rainforest). Example: the **Make Poverty History** campaign around the G8 summit at Gleneagles (2005), with over 500 organisations from some 84 nations; claimed as a huge success, it closed down a year later amid much criticism."
+      },
+      {
+        "type": "tekst",
+        "titel": "8. Gender and power",
+        "toetsstof": true,
+        "tekst": "Throughout history women have been excluded from most positions in the political system and, until recently, from research on politics. Asking **\"where are the women?\"** reveals their lack of representation. In most countries men gained the vote long before women, sometimes a century earlier; the proportion of women in governments is low, well below 40 per cent at best. A few women rose to prominence (Indira Gandhi, Margaret Thatcher, Mary Robinson, Sirimavo Bandaranaike, Angela Merkel, Ellen Johnson-Sirleaf, the first elected female president in Africa, 2006).\n\nA transnational **Women's Movement** has emerged, often prompted by the UN: the UN Decade for Women (1975-1985) with conferences in Mexico (1975), Copenhagen (1980), Nairobi (1985), Beijing (1995) and Beijing plus five (2000). They revealed conflicts between \"First World\" and \"Third World\" women, because priorities differ across cultures. Standard development measures such as the HDI do not show gender imbalances, so the **UNDP** names **eight areas** where women's position needs equalising: autonomy of the body; autonomy within family and household; political power; social resources (health, education); material resources (land, houses, credit); employment and income; time (leisure, sleep); and gender identity (the rigid sexual division of labour)."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nPolitics is going global: regional unions, the UN, big companies, the internet and global movements all cross borders, even though the world is still divided into nation states. And women are still far less powerful than men in politics almost everywhere."
+      },
+      {
+        "type": "tekst",
+        "titel": "9. Political organisation in Europe and the EU",
+        "toetsstof": true,
+        "tekst": "All countries of Western and Central Europe can now be seen as **liberal democracies** with a plurality of parties and elections, but Spain, Germany, Greece and Italy have at times had authoritarian governments, and Portugal and Spain were right-wing dictatorships until the mid-1970s. Eastern Europe was mostly communist until 1989 and has since, often with difficulty, been becoming democratic. The book's map **Life after Communism** is sobering: GDP growth declined in every country but Poland, and poverty rose from 14 million (1989) to 147 million (1998). Most countries have both a national and a local government, which can cause tensions when different parties hold power in each.\n\nMost European nation states are also **member states of the European Union** (Norway and Switzerland are major exceptions) and elect members of the **European Parliament** in Strasbourg. In 2004 the centre-right European People's Party was the largest group, ahead of the Social Democrats, the Liberals and the Greens; turnout was low and often a protest vote, with as little as 20 per cent in Slovakia and 21 per cent in Poland. The book lists the EU's institutions: the **Commission** (at least one member per country; proposes and implements laws), the **Council** (one seat per country; the main decision-making body), the **Parliament** (732 MEPs in 2004, allocated by population), the **Court of Justice** (monitors EU law and compliance) and the **European Court of Human Rights** (established 1959)."
+      },
+      {
+        "type": "waarschuwing",
+        "tekst": "The European Court of Human Rights in Strasbourg belongs to the Council of Europe, not to the EU; the book lists it among EU institutions anyway. This is general knowledge, not in the Project files. Also, the book gives 276 \"out of the 723 MEPs\" in the text but a total of 732 in its figure.",
+        "titel": "Two slips in the book"
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nEurope today is mostly democratic, but some countries were dictatorships until the 1970s and Eastern Europe only became democratic after 1989. On top of national governments sits the EU, with its own parliament, commission, council and court."
+      },
+      {
+        "type": "tekst",
+        "titel": "10. Explaining power: three models",
+        "toetsstof": true,
+        "tekst": "How is formal power distributed? Hard to research, because decision-making is complex and often happens behind closed doors, and in democracies power is harder to locate. Three competing models:\n\n**The pluralist model**: politics views power as **dispersed among many competing interest groups** (linked to structural-functional theory). Politics is an arena of **negotiation**; organisations act as **veto groups**, achieving some success but mostly keeping opponents from reaching all their goals. Power has many sources (wealth, office, prestige, charisma, organisational clout) that rarely fall into the same hands (Dahl). Research: **Polsby** (1959) found that in New Haven different groups made key decisions on different issues; **Dahl** (1961) found power increasingly dispersed: \"no one, and certainly no group of more than a few individuals, is entirely lacking in [power]\". Implication: democracies are reasonably democratic.\n\n**The power elite model**: power is **concentrated among the rich** (linked to the social-conflict paradigm). **C. Wright Mills** (1956): the upper class holds the bulk of wealth, prestige and power, and elites circulate between three sectors, the economy, the government and the military (Alexander Haig moved between business, the White House, the State Department and the army). Research: the **Lynds** (1937) on Muncie, \"Middletown\", dominated by one family (the Balls); **Hunter** (1953) on Atlanta, where about 40 people held all top positions. Implication: the US is not really a democracy; those at the top face no real opposition.\n\n**The ruling class (Marxist) model**: political equality is \"one of the great myths of our time\" (Miliband, 1969); the state always works in the interests of the dominant economic class, and parliaments, courts and pressure groups are masks. Three variants:\n- **Gramsci** (*Prison Notebooks*): \"the state = political society + civil society\"; the ruling class must win the working class's **consent** through **hegemony**, with concessions to the dominated.\n- **Miliband** (1969): cabinet ministers, senior police and top judges come from or identify with the bourgeoisie and act in the interests of capital; the media help legitimate it.\n- **Poulantzas** (1969): the state rolls on by itself, independent of individuals, through a **repressive apparatus** (army, police) and an **ideological apparatus** (church, schools, media, family). Criticised as too abstract, leaving no role for people, and impossible to prove or disprove.\n\n**Who rules Britain?** John Scott (1991): \"there is in Britain today a ruling class\", an economically dominant class with overlapping status circles; \"private schooling remained the most important route to political success\"; an **inner circle** of finance capitalists with a \"City\" point of view."
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "",
+          "Pluralist",
+          "Power elite",
+          "Ruling class"
+        ],
+        "rijen": [
+          [
+            "Distribution of power",
+            "Highly dispersed",
+            "Concentrated",
+            "Concentrated"
+          ],
+          [
+            "Is it democratic?",
+            "Yes: every vote counts; no one group dominates",
+            "No: a small share of people dominate economy, armed services and government",
+            "No: concentration of wealth and power"
+          ],
+          [
+            "Voter apathy",
+            "Some people are just not interested, but all could have a voice",
+            "How can ordinary folk stop \"big government\"? Apathy is perfectly understandable",
+            "Apathy is alienation. Most people are powerless"
+          ]
+        ],
+        "noot": "Table 16.3: three models of contemporary politics and society."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nWho really has power? Pluralists: many groups, each with a bit. Power elite theorists: a small rich group that runs business, government and the army. Marxists: the economic ruling class, which keeps others in line through ideas as well as force."
+      },
+      {
+        "type": "tekst",
+        "titel": "11. Power beyond the rules: revolution and terrorism",
+        "toetsstof": true,
+        "tekst": "Politics tries to resolve disagreement within a system of rules, but political activity sometimes exceeds those rules.\n\n**Revolution**: the overthrow of one political system in order to establish another. Unlike **reform** (change within a system, rarely violent), revolution changes the system itself. No system is immune, and revolution produces no single kind of government (the American Revolution; France 1789, followed by Napoleon; Russia 1917). Four shared traits (de Tocqueville, Davies, Brinton, Skocpol, Tilly and others):\n1. **Rising expectations**: revolution usually comes when lives are improving, not when people are most deprived.\n2. **Unresponsive government**: unwilling or unable to reform.\n3. **Radical leadership by intellectuals**: Hobbes noted that rebellion is often centred in universities (students in the 1960s, China 1989, Eastern Europe).\n4. **Establishing a new legitimacy**: harder than the overthrow itself; movements split once new leaders are installed and must guard against counter-revolution.\n\n**Terrorism**: violence or the threat of violence employed by an individual or a group as a political strategy (the IRA, Baader-Meinhof, 9/11; the US \"war on terror\", Afghanistan 2001, Iraq 2003). Paul Johnson (1981) offers **four insights**:\n1. Terrorists try to cast violence as a legitimate political tactic and bypass (or are excluded from) established channels: terror is **a weak organisation's strategy to harm a stronger foe**.\n2. Governments use it too: **state terrorism** is the use of violence, generally without the support of law, by a government or its agents against individuals or groups (North Korea, the former Soviet Union, Nazi Germany, Zaïre, Saddam Hussein's Iraq).\n3. **Democracies are especially vulnerable**, because of extensive civil liberties and minimal police networks; responding is hard (no clear target, the risk of broadening violence), and governments may suspend civil liberties when they feel under attack.\n4. Terrorism is **always a matter of definition**: \"one person's 'terrorist' is another's 'freedom fighter'\".\n\n**Old and new terrorism**: old-style terrorism was linked to nationalism and borders, focused on specific enemies, fairly local. New-style terrorism (seen as emerging largely since 9/11; al Qaeda, created in 1989, said to operate in 40-50 countries) has **four features** (Martin, 2004): **organisational decentralisation** (loose networks, not pyramids), **operational asymmetry** (unexpected, unconventional targets), **religious centrality** (a struggle of good against evil) and **weapons of mass destruction** (biological, chemical, radiological, nuclear)."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nSometimes politics breaks out of its rules. Revolutions overthrow a whole system, usually when things are getting better and the government will not change. Terrorism uses violence for political goals; the new kind is networked, unpredictable, religious and potentially catastrophic."
+      },
+      {
+        "type": "tekst",
+        "titel": "12. Power beyond the rules: war, its costs, nuclear weapons and information warfare",
+        "toetsstof": true,
+        "tekst": "**War** is as old as humanity: since 3600 BCE some 14,500 major wars have killed some 4 billion people, and well over 100 million died in war in the twentieth century; periods of peace are actually rare. **Old wars** were fought between states, evolving from mercenary armies to the mass armies and massive firepower of the world wars and the nuclear age (Table 16.4, Kaldor). Most recent armed conflicts take place **within** states: **new wars** (Kaldor, 1999), mixtures of war, organised crime and mass human rights violations, almost anarchic, with rape and genocide commonplace (Bosnia). Kaldor calls for international intervention and regulation, a **cosmopolitan approach**. Martin Shaw sees **degenerate wars**: \"a deliberate and systematic extension of war against an organized armed enemy to war against a largely unarmed civilian population\" (2003).\n\nThe box on the former **Yugoslavia** shows that war also has **rules**: after the Second World War, and through the Geneva Conventions (the first from 1864), soldiers may not imprison, torture, rape or murder civilians or wantonly destroy cities; a UN tribunal in the Netherlands (from 1993) indicted more than 50 officers, and Milosevic was charged in The Hague.\n\n**The costs of war**: some £3.5 trillion a year is spent on military purposes, diverting resources and scientists from other needs; the world average is around 3 per cent of GDP, the US about 18 per cent of federal spending; by May 2007 the Iraq War was estimated at $460 billion. The US is the single superpower, with more military might than the next nine countries combined. The Cold War (from the Soviet bomb of 1949 to the collapse of the USSR in 1991) drove escalating spending. Some argue the US economy relies on militarism: a **military-industrial complex**, the close association among the federal government, the military and defence industries (allied to power elite theory). Regional conflicts (Bosnia, Chechnya, Rwanda) keep militarism going.\n\n**Nuclear weapons**: almost 25,000 warheads, five tons of TNT for every person on the planet; Einstein: \"The unleashed power of the atom has changed everything save our modes of thinking\". Most are in the US and Russia; the UK, France and China have substantial capability; Israel, India, Pakistan and North Korea have some; Argentina, Brazil and South Africa stopped; by 2010 as many as 50 nations could have the ability to fight a nuclear war.\n\n**Information warfare**: future \"virtual wars\" with viruses that shut down communications, air traffic control and railways and broadcast \"morphed\" news. It might precede conventional fighting, or perhaps prevent it, but a few skilled operators could also wreak havoc."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nWar is the rule rather than the exception in history. Today's wars are mostly inside countries and hit civilians hardest. War costs enormous amounts of money, nuclear weapons could end life as we know it, and the next wars may be fought with computers."
+      },
+      {
+        "type": "checklist",
+        "titel": "Summary",
+        "toetsstof": true,
+        "items": [
+          "Formal politics distributes power and makes decisions; governance is the exercise of authority at all levels; informal power is everywhere (Foucault).",
+          "Weber: power is achieving ends despite resistance; authority is legitimate power: traditional, rational-legal, charismatic.",
+          "Four political systems: totalitarianism, authoritarianism, monarchy, democracy; Singapore's soft authoritarianism.",
+          "Democracy and bureaucracy are in tension; freedom means personal liberty (capitalism) or freedom from want (socialism); Europe leans social democratic.",
+          "Politics globalises in five ways: regional unions, the UN, multinationals, the Information Revolution, global social movements.",
+          "Women remain under-represented; the UN conferences and the UNDP's eight areas of inequality.",
+          "Three models of power: pluralist, power elite, ruling class (Gramsci, Miliband, Poulantzas); Scott on Britain.",
+          "Beyond the rules: revolution (four traits), terrorism (Johnson's four insights; four features of new terrorism), war (old and new wars, costs, nuclear weapons, information warfare)."
+        ]
+      },
+      {
+        "type": "begrippen",
+        "items": [
+          {
+            "begrip": "Formal politics",
+            "definitie": "The social institution that distributes power, sets a society's agenda and makes decisions."
+          },
+          {
+            "begrip": "Governance",
+            "definitie": "The exercise of political, economic and administrative authority in the management of a country's affairs at all levels."
+          },
+          {
+            "begrip": "Informal power",
+            "definitie": "Power in everyday encounters, families, gender relations and institutions such as schools and prisons; Foucault sees power everywhere."
+          },
+          {
+            "begrip": "Power (Weber)",
+            "definitie": "The ability to achieve desired ends despite resistance from others."
+          },
+          {
+            "begrip": "Authority",
+            "definitie": "Power that people perceive as legitimate rather than coercive: traditional, rational-legal or charismatic."
+          },
+          {
+            "begrip": "Totalitarianism",
+            "definitie": "A political system that extensively regulates people's lives."
+          },
+          {
+            "begrip": "Authoritarianism",
+            "definitie": "A political system that denies popular participation in government."
+          },
+          {
+            "begrip": "Monarchy",
+            "definitie": "A political system in which a single family rules from generation to generation; absolute or constitutional."
+          },
+          {
+            "begrip": "Democracy",
+            "definitie": "A political system in which power is exercised by the people as a whole; usually representative."
+          },
+          {
+            "begrip": "Soft authoritarianism",
+            "definitie": "Critics' label for Singapore: loyalty and little dissent in exchange for security and prosperity."
+          },
+          {
+            "begrip": "Westphalian Order",
+            "definitie": "The system of sovereign nation states, named after the Peace of Westphalia (1648)."
+          },
+          {
+            "begrip": "Pluralist model",
+            "definitie": "Power is dispersed among many competing interest groups (Polsby, Dahl)."
+          },
+          {
+            "begrip": "Power elite model",
+            "definitie": "Power is concentrated among the rich, who circulate between economy, government and military (Mills)."
+          },
+          {
+            "begrip": "Ruling class model",
+            "definitie": "Marxist: the state serves the dominant economic class (Gramsci, Miliband, Poulantzas)."
+          },
+          {
+            "begrip": "Political revolution",
+            "definitie": "The overthrow of one political system in order to establish another."
+          },
+          {
+            "begrip": "Terrorism",
+            "definitie": "Violence or the threat of violence employed by an individual or a group as a political strategy."
+          },
+          {
+            "begrip": "State terrorism",
+            "definitie": "The use of violence, generally without the support of law, against individuals or groups by a government or its agents."
+          },
+          {
+            "begrip": "New wars",
+            "definitie": "Kaldor: wars within states mixing war, organised crime and mass human rights violations."
+          },
+          {
+            "begrip": "Military-industrial complex",
+            "definitie": "The close association among the federal government, the military and defence industries."
+          },
+          {
+            "begrip": "End of history",
+            "definitie": "Fukuyama (1989): the final triumph of capitalism and liberal democracy."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "kern2",
-    "titel": "Core material: chapter 16",
+    "titel": "Core material: chapter 16, part 2 (social movements and rights)",
     "blokken": [
       {
         "type": "tekst",
@@ -710,6 +1065,26 @@ LESSTOF['society-politics/college-4'] = [
         "tekst": "**In plain words**\n\nHuman rights developed in three waves: freedom from tyranny, then dignity after the Second World War, then worldwide cooperation and participation."
       },
       {
+        "type": "tekst",
+        "titel": "7. The trouble with rights",
+        "toetsstof": true,
+        "tekst": "The chapter does not simply celebrate human rights. In the UK the **Human Rights Act 1998** came into force on 2 October 2000: the first enforceable official human rights protection, drawn from the European Convention on Human Rights. But the book names **three problems** with rights talk:\n\n1. **The claim to universalism.** When the Universal Declaration was adopted, most low-income societies were still under colonial rule, and many remain suspicious of it. \"Human rights\" can become a euphemism for **Western intervention**, \"a universality of the privileged\". Some claims make no sense in much of the world (a paid vacation amid sweatshop labour), and women's rights clash with cultural and religious expectations around family and gender.\n2. **Unenforceability.** Amnesty International and Human Rights Watch show that rights are incessantly violated; in wars of liberation both oppressors and liberators commit gross violations.\n3. **Too individually based.** Human rights theory focuses on **individual** rights, pursued through the nation state or bodies like the UN; **collective** human rights focus on the rights of social groups and seek a framework independent of nation states."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nHuman rights sound universal, but critics say they can be a Western tool, are hard to enforce, and focus on individuals rather than groups."
+      },
+      {
+        "type": "tekst",
+        "titel": "8. The big debate: are we moving beyond left and right?",
+        "toetsstof": true,
+        "tekst": "For some 200 years people have joined together under the labels **left** and **right** (from the French revolutionary assembly of the 1790s: the left were radicals, the right moderates). For most of the twentieth century the divides were sharp: capitalism against communism, East against West. The fall of the **Berlin Wall** (1989) symbolised the end of the Cold War. Where is politics heading now?\n\n- **The end of history** (Francis Fukuyama, 1989): the worldwide triumph of modernity, capitalism and liberal democracy; \"the universalisation of Western democracy as the final form of human government\". Even the old left moved: Britain's New Labour sounded like the old Conservatives.\n- **New politics**: green politics; Anthony Giddens's **democratic life politics** and **dialogic democracy**, arguing that \"socialism and conservatism have disintegrated\" (1994) and opposing fundamentalism of all kinds.\n- **Jihad versus McWorld** (Benjamin Barber, 1995): the divide is no longer left against right but consumerist capitalism (McWorld) against religious and tribal fundamentalisms (jihad).\n\nThe book's conclusion: some want to reassert left and right, some see the end of history, some see a **clash of civilisations**, and others look to new forms of politics with social movements, green politics and lifestyle politics at the forefront. A new political scene is in the making."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nAfter the Cold War, is the old split between left and right over? Fukuyama says liberal democracy has won; Giddens wants a new politics of dialogue; Barber sees a clash between global consumer capitalism and fundamentalism."
+      },
+      {
         "type": "checklist",
         "titel": "Summary",
         "toetsstof": true,
@@ -719,7 +1094,9 @@ LESSTOF['society-politics/college-4'] = [
           "Four stages: emergence, coalescence, bureaucratisation, decline; decline through success, failure, co-optation, repression or establishment in the mainstream.",
           "New social movements are younger, informal, direct, post-materialist and international, and provoke countermovements; critics say the difference with old movements is exaggerated.",
           "Social change is both the cause and the consequence of social movements; their scope grows with the information revolution and the global economy.",
-          "Human rights came in three waves: liberty and equality (18th century), dignity (UN, 1948), mutuality and participation (after the Cold War)."
+          "Human rights came in three waves: liberty and equality (18th century), dignity (UN, 1948), mutuality and participation (after the Cold War).",
+          "Three problems with rights: universalism, unenforceability, too individual.",
+          "The big debate: beyond left and right? Fukuyama's end of history, Giddens's dialogic democracy, Barber's jihad versus McWorld."
         ]
       },
       {
@@ -876,7 +1253,7 @@ LESSTOF['society-politics/college-4'] = [
     "blokken": [
       {
         "type": "quiz",
-        "titel": "Nineteen questions on chapters 5 and 16",
+        "titel": "Twenty-nine questions on chapters 5 and 16",
         "vragen": [
           {
             "vraag": "Culture shock is best described as:",
@@ -1086,6 +1463,116 @@ LESSTOF['society-politics/college-4'] = [
             ],
             "juist": 2,
             "uitleg": "Younger, informal, direct, post-materialist and international."
+          },
+          {
+            "vraag": "A head of government steps down after losing an election, and the authority stays with the office. Which type of authority is this?",
+            "opties": [
+              "Traditional",
+              "Charismatic",
+              "Rational-legal",
+              "Totalitarian"
+            ],
+            "juist": 2,
+            "uitleg": "Rational-legal authority flows from organisational position, not family background; a prime minister accepts and gives up power according to law (Weber, chapter 16)."
+          },
+          {
+            "vraag": "Which political system denies popular participation in government but does not necessarily regulate all of people's lives?",
+            "opties": [
+              "Totalitarianism",
+              "Authoritarianism",
+              "Constitutional monarchy",
+              "Representative democracy"
+            ],
+            "juist": 1,
+            "uitleg": "Authoritarianism denies participation; totalitarianism goes further and extensively regulates everyday life."
+          },
+          {
+            "vraag": "Singapore's critics call its political system:",
+            "opties": [
+              "Soft authoritarianism",
+              "Participatory democracy",
+              "Absolute monarchy",
+              "Totalitarianism"
+            ],
+            "juist": 0,
+            "uitleg": "Loyalty in return for security and prosperity: a soft authoritarianism that stifles dissent (World Watch box)."
+          },
+          {
+            "vraag": "Of the 100 largest economies in the world, how many are corporations according to the book?",
+            "opties": [
+              "About 10",
+              "51",
+              "75",
+              "None"
+            ],
+            "juist": 1,
+            "uitleg": "Brecher et al. (2000): 51 are corporations, not countries; politics is \"dissolving into business\"."
+          },
+          {
+            "vraag": "Which model holds that power is dispersed among many competing interest groups acting as veto groups?",
+            "opties": [
+              "Power elite",
+              "Ruling class",
+              "Pluralist",
+              "Military-industrial complex"
+            ],
+            "juist": 2,
+            "uitleg": "The pluralist model (Polsby, Dahl on New Haven)."
+          },
+          {
+            "vraag": "C. Wright Mills's power elite circulates between which three sectors?",
+            "opties": [
+              "Church, schools, media",
+              "The economy, the government and the military",
+              "Parliament, courts, unions",
+              "Families, schools, prisons"
+            ],
+            "juist": 1,
+            "uitleg": "Elites move from one sector to another and consolidate power (Alexander Haig is the book's example)."
+          },
+          {
+            "vraag": "According to the book, revolutions usually occur when:",
+            "opties": [
+              "People are most deprived",
+              "People's lives are improving and expectations rise",
+              "The economy collapses",
+              "A charismatic leader dies"
+            ],
+            "juist": 1,
+            "uitleg": "Rising expectations, rather than bitter resignation, fuel revolutionary fervour: the first of four traits."
+          },
+          {
+            "vraag": "Which is NOT one of the four features of the new terrorism (Martin, 2004)?",
+            "opties": [
+              "Organisational decentralisation",
+              "Operational asymmetry",
+              "Religious centrality",
+              "A focus on national borders"
+            ],
+            "juist": 3,
+            "uitleg": "A focus on national borders is typical of old terrorism; the fourth new feature is weapons of mass destruction."
+          },
+          {
+            "vraag": "Kaldor's \"new wars\" are best described as:",
+            "opties": [
+              "Wars between superpowers with nuclear weapons",
+              "Wars within states mixing war, organised crime and mass human rights violations",
+              "Information wars fought with computer viruses",
+              "Wars of national independence"
+            ],
+            "juist": 1,
+            "uitleg": "New wars are mostly within states, almost anarchic, with civilians as the main victims (Bosnia); Kaldor calls for a cosmopolitan approach."
+          },
+          {
+            "vraag": "Which is NOT one of the three problems the book names with human rights?",
+            "opties": [
+              "The claim to universalism",
+              "Unenforceability",
+              "Too individually based",
+              "Too few countries use the language of rights"
+            ],
+            "juist": 3,
+            "uitleg": "Almost every country uses the language of rights; the three problems are universalism, unenforceability and the focus on individual rather than collective rights."
           }
         ]
       },

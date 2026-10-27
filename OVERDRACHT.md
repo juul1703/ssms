@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v166**.
+Stand: 23 oktober 2026, service worker **v167**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -904,6 +904,16 @@ niet in het Project), "strong/weak" bij Sapir-Whorf (boek noemt het twee princip
 definitie van social movement in To remember (Macionis-standaard, niet in dit hoofdstuk).
 Deel 2 (v167): H16 compleet maken (macht, staat, politieke systemen, governance) en Quick
 recap en vaardigheden daarop aanvullen.
+
+**v167: Society sessie 4 deel 2: H16 compleet.** Nieuwe tab `kern3` ("chapter 16, part 1: power and
+politics", staat tussen kern en kern2) met 12 secties uit het hele eerste deel van H16: formal politics,
+governance en informele macht; Weber; vier politieke systemen; Singapore; democratie en bureaucratie;
+twee visies op vrijheid; vijf vormen van globalisering van politiek; gender en macht; Europa en de EU;
+drie machtsmodellen (Tabel 16.3); revolutie, terrorisme, oorlog, kernwapens, informatieoorlog. kern2
+heet nu "part 2" en kreeg "the trouble with rights" en de big debate (beyond left and right). 7 nieuwe
+vaardigheden met uitleg, 10 nieuwe quizvragen (29/29 in de browser), 20 begrippen, Quick recap
+aangevuld. Twee slips van het boek gemarkeerd (EHRM is Raad van Europa; 723/732 MEPs; Freedom
+House-percentages tellen op tot meer dan 100). Kernstof per zin tegen H16 gelegd (support-script).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
