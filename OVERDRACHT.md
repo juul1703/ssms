@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v175**.
+Stand: 23 oktober 2026, service worker **v176**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -962,6 +962,12 @@ bureaucratie bij een beveiligingsbedrijf, ongelijkheid door het hele vak).
 tekens). Kernstof: "personal injustice" stond nog op twee plekken; het boek zegt "personal
 grievance" (en "willingness to take revenge are cultured"). Nagekeken in het boek: Rinaldi (ref. 16),
 Lehman Brothers, "driven by the human factor", lage persoonlijke voorbereiding, "usual".
+
+**v176: Intro Quick recaps sessie 1 en sessie 4 (H3, H5)** herschreven op de standaard: sessie 1 ca.
+7.500, sessie 4 (H3 en H5 samen) ca. 12.800 tekens. Definities van sessie 1 letterlijk naast de slide
+gelegd; Ljungqvist-diagram gelabeld (beeld, niet in de tekstexport); Beck-koppeling gelabeld
+unchecked. H3: "hundred or so", hardware en software, Swiss cheese nagekeken in het boek.
+Nog te doen Intro: sessie 5 (college-5) en sessie 6 (h7, h9), daarna de mid-term-les uitbreiden.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

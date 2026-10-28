@@ -15,31 +15,54 @@ voegOverviewToe("intro-to-safety-security/college-1", {
   "blokken": [
     {
       "type": "slimmer",
-      "tekst": "**What this tab is**\n\nLecture 1 as one easy story, in a few minutes."
+      "tekst": "**What this tab is**\n\nLecture 1 (the introduction to the course and the programme) as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
     },
     {
       "type": "tekst",
-      "titel": "What is SSMS even about?",
-      "tekst": "SSMS sits where **three worlds** meet that usually work apart: **public safety** (police, fire service, ambulance, municipalities), **industrial safety and corporate security** (companies, SHEQ departments) and **international security** (intelligence services, the military, IGOs and NGOs, think tanks). One big incident often touches all three at once. The lecture puts SSMS right in the middle of that diagram, and learning objective 3 says you must be able to explain your own programme, so this is exam stuff."
+      "titel": "Why this lecture matters more than it looks",
+      "tekst": "Lecture 1 looks like a warm-up: who your lecturers are (Jonathan Corr and Enrique Gomez Llata Cazares), how the course works, how you are tested. But the second half lays the foundation for everything after it. One of the course goals is that you can **explain the structure and main ideas of the SSMS programme**, so this lecture is exam material in itself.\n\nThe practical part: the mid-term and the end-term each count for 50 per cent. The slide says the end-term is an **individual presentation** (the manual calls it an oral assessment), so practise saying things out loud, not just recognising them."
     },
     {
       "type": "tekst",
-      "titel": "Safety or security? Ask: was it on purpose?",
-      "tekst": "The key difference is **human intentionality**. **Safety** protects against things nobody wants: natural forces, technical failure, human error. **Security** protects against people who **mean** to do harm: crime, sabotage, attacks. That changes everything: in security there is an **adversary** who adapts to your measures, so statistics only partly work, and sharing information can make you more vulnerable. In safety, openness and reporting make the system safer.\n\nThere are **four kinds**: physical safety, industrial safety, security and public security. Two of the definitions include **‘and feel protected’**: the difference between being safe (objective) and feeling safe (subjective)."
+      "titel": "Three worlds, one programme",
+      "tekst": "SSMS covers **three worlds** of safety and security, with SSMS in the middle of the diagram:\n- **Public safety**: police, fire brigade and rescue teams, local government, welfare organisations. Question: how do we protect citizens in public space?\n- **Industrial safety / corporate security**: corporations and their SHEQ departments (safety, health, environment and quality). Question: how do we protect processes, staff, assets and continuity?\n- **International security**: security agencies, intelligence services, the military, IGOs and NGOs, consultancy firms, think tanks. Question: who threatens whom between states?\n\nThe question that carries the whole course: **what do all these kinds of safety and security have in common?** The lecture's one-word answer comes a few slides later: **risk**."
     },
     {
       "type": "tekst",
-      "titel": "Risk is the common denominator",
-      "tekst": "What do all four have in common? One word: **risk**. Risk is uncertainty about a possible bad outcome of a decision, often **probability times impact**. And risk changed character: **old risks** were natural, small-scale and unequally spread; **modern risks** are man-made, large-scale and (according to Beck) equally spread. That last one is contested: the poor still get hit harder."
+      "titel": "The one difference that matters most: intent",
+      "tekst": "The key distinction between safety and security is **human intentionality**:\n- **Safety management** deals with natural disasters, accidents and human error: nobody wants it to go wrong.\n- **Security management** deals with intentional adversaries, deliberate activities and crime: someone wants it to go wrong, and adapts to your measures.\n\nThat has big consequences. In safety, **openness** helps: reporting near-misses makes the system safer, and statistics work because accidents follow patterns. In security, **confidentiality** matters, because sharing your weaknesses helps the attacker, and statistics work only partly, because attackers change their methods. A fire alarm is a safety measure; access control and staff screening are security measures.\n\nThis idea comes back in almost every chapter of the book, so learn it well. Later sessions sharpen it: chapter 2 talks about intentional **effects on objectives**, Jore (chapter 5) about **malicious** intent."
     },
     {
       "type": "tekst",
-      "titel": "What a professional actually does",
-      "tekst": "Four core tasks, in a cycle: **analyse** the risks, **design and recommend** measures, **implement and coordinate** them, and **evaluate** whether they work, which takes you back to analysing. Your daily work is dealing with uncertainties around people, systems and organisations, and **connecting the dots**: turning small bits of information into one picture.\n\nThe end-term is an individual presentation, so practise saying all of this out loud."
+      "titel": "Four definitions, and three words you must not miss",
+      "tekst": "The slides give four definitions, word for word:\n- **Physical safety**: the extent to which people are protected **and feel protected** against personal harm caused by accidents and against calamities of non-human origin.\n- **Industrial safety**: the prevention or reduction of threats to a business, its employees or environment due to natural risks (such as flooding) and risks connected with production processes or logistics.\n- **Security** (corporate, international, regional, physical, cyber and more): the prevention or reduction of **malicious** infliction of damage on citizens, employees, and public and private assets.\n- **Public security**: the extent to which people are protected **and feel protected** against personal harm due to crime, offences and harassment by other people.\n\nNotice **\"and feel protected\"** in physical safety and public security. There is an **objective** side (are you actually safe?) and a **subjective** side (do you feel safe?). The two can differ: crime figures can fall while people feel less safe. A professional has to work on both.\n\nWhat do all four have in common? **Risk.**"
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nSSMS spans three worlds: public safety, industrial safety and corporate security, and international security. What links them is risk. Safety is about things going wrong by accident, security about someone wanting harm. Four definitions to learn word for word, and two of them include feeling protected as well as being protected."
+    },
+    {
+      "type": "tekst",
+      "titel": "Risk, old and new",
+      "tekst": "**Risk** on the slide: uncertainty about a potentially negative outcome (of a decision), or in a formula: **probability x impact**.\n\nThe slide compares \"old\" and \"modern\" risks in a three-row table:\n- **Origin**: old risks are natural, \"god-given\" (earthquakes, failed harvests, disease); modern risks are **man-made and technological** (nuclear power, cyberattacks, climate change).\n- **Scale**: old risks are small-scale and local; modern risks are **large-scale**, and they become **political**.\n- **Distribution**: old risks were unequally distributed, hitting one and sparing another; modern risks are said to be **equally distributed**.\n\nThat third row is the contested one. The lesson links it to Beck's risk society (\"poverty is hierarchical, smog is democratic\"), with the criticism that rich people can still protect themselves much better. Beck is not on the slides in the Project, so treat that link as unchecked."
+    },
+    {
+      "type": "tekst",
+      "titel": "What a safety and security professional does",
+      "tekst": "The slide gives **four core tasks**, which are also the structure of the whole degree:\n1. **Identify, analyse and assess** risk situations: risk analyses.\n2. **Design and recommend** feasible interventions: plans, policies, regulations, strategies.\n3. **Implement and coordinate** those interventions: tactics, methods and tools, based on information.\n4. **Evaluate** the interventions and solutions: were they effective?\n\nThen the cycle closes: what you learn in the evaluation feeds the next analysis.\n\nAnd you do all of that while dealing with \"insecurities\" in **people, systems, technology, beliefs, culture and much more**. The technology is rarely the hardest part; the people around it usually are."
+    },
+    {
+      "type": "tekst",
+      "titel": "Connecting the dots",
+      "tekst": "The lecture closes its content with a diagram from **Ljungqvist (2017)** on the human and societal dimensions of past climate change. In the lesson's description, it shows a chain: climate change affects agricultural productivity, then the food supply, and from there it runs to social unrest and armed conflict, to migration, and to food shortage, poor health and epidemics, with the tracks linked to each other. (The diagram is an image, so its details are not in the Project text of the slides.)\n\nWhy is that in a safety and security lecture? It is the illustration of **connecting the dots**: a climate phenomenon can end, through a chain of steps, in an armed conflict. If you only look at the start or the end of the chain, you do not understand what is happening. That is exactly why SSMS puts three worlds together."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nRisk is uncertainty about a negative outcome, probability times impact. Modern risks are man-made, large-scale and political, and whether they are equally spread is contested. The professional analyses, designs, implements and evaluates, and has to connect the dots between worlds, as the climate chain shows."
     },
     {
       "type": "uitleg",
-      "tekst": "**If you only remember 5 things**\n\n1. The three worlds of SSMS: public safety, industrial safety and corporate security, international security.\n2. Safety versus security = human intentionality.\n3. The four definitions, and ‘and feel protected’ (objective versus subjective).\n4. Risk = uncertainty about a negative outcome (probability times impact); old versus modern risks.\n5. The four core tasks: analyse, design and recommend, implement and coordinate, evaluate."
+      "tekst": "**If you only remember 6 things**\n\n1. The three worlds: public safety; industrial safety and corporate security; international security.\n2. The key distinction: human intentionality; safety is about accidents and error, security about intentional adversaries.\n3. The four definitions word for word; \"and feel protected\" in physical safety and public security.\n4. What they share: risk, uncertainty about a potentially negative outcome, probability x impact.\n5. Old against modern risks: natural or man-made, small or large-scale, unequally or equally distributed (the contested one).\n6. The four core tasks: identify, analyse and assess; design and recommend; implement and coordinate; evaluate. And connecting the dots (Ljungqvist)."
     }
   ]
 });
@@ -214,26 +237,49 @@ voegOverviewToe("intro-to-safety-security/h3", {
   "blokken": [
     {
       "type": "slimmer",
-      "tekst": "**What this tab is**\n\nChapter 3 (Leveson) as one easy story, in a few minutes."
+      "tekst": "**What this tab is**\n\nChapter 3 (Leveson) and its part of lecture 4 as one story you can read on the bus. Chapter 5 (Jore) has its own Quick recap. Everything here is also in the Core material, in full academic mode."
     },
     {
       "type": "tekst",
-      "titel": "One coin, two sides",
-      "tekst": "Leveson’s big claim: safety and security are **two sides of the same coin**. It starts with definitions: there is no right or wrong one, only the one you choose, and a **narrow** definition hides the overlap and limits your solutions. Her definitions: **safety** is freedom from **accidents (losses)**, whatever the cause. An **accident** is any unplanned event that leads to a loss the stakeholders care about. A **hazard** is a **state of the system** that, together with bad conditions, leads to a loss: the mountain isn’t the hazard, flying too close to it is. In security the same thing is called a **vulnerability**."
+      "titel": "Two sides of the same coin?",
+      "tekst": "Lecture 4 starts with a question: are safety and security **two sides of the same coin**? Nancy Leveson, an engineer, says: largely yes, if you define them well.\n\nHer starting point: **there is no right or wrong definition, only the one you choose to use**. And the choice matters. A **narrow** definition (safety is about machines, security is about information) splits the two fields and limits the solutions you can see. An **inclusive** definition shows how much they overlap. Even within safety, engineers, social scientists and different industries define it differently."
     },
     {
       "type": "tekst",
-      "titel": "Two myths she busts",
-      "tekst": "**Safety is not reliability.** Since software entered critical systems (around 1980), you can’t test every design error away. Every part can work perfectly and you still get an accident, and an unreliable system can still be safe. So preventing failures is not the same as preventing losses.\n\n**Security is not just about information.** Losing **mission assurance** (a power plant that stops producing, a space mission that fails) matters just as much as leaked data."
+      "titel": "The definitions to know",
+      "tekst": "Learn these four word for word:\n- **Safety**: freedom from accidents (losses).\n- **Accident** or mishap: any undesired or unplanned event that results in a loss, as defined by the stakeholders. A loss can be injury or death, damage, pollution, a lost mission or reputational harm.\n- **Hazard**: a system state or set of conditions that, together with worst-case environmental conditions, will lead to a loss.\n- **Hazard analysis**: identifying the causal scenarios of hazards.\n\nThe important twist: a hazard is a state of the **system**, not of the environment. Her example: **the mountain is not the hazard; flying too close to it is**. Why? Because designers and operators can only control what is inside the system: you cannot move the mountain, but you can keep the plane away from it.\n\nAnd security? A **vulnerability** is, in Leveson's view, essentially the same thing as a hazard. Security just adds a few extra causal scenarios: someone doing it on purpose."
     },
     {
       "type": "tekst",
-      "titel": "Stuxnet and the systems view",
-      "tekst": "Intent differs, but it barely matters for the **solution** when the loss is the same. **Stuxnet**: the loss is damaged centrifuges, the hazard is spinning too fast, the constraint is ‘never above max speed’, the unsafe control action is ‘speed up’ at max, and the cause is a controller that wrongly thought the speed was lower, by mistake or by attack. Same fix either way: a mechanical interlock.\n\nInstead of the old **chain of events** (dominoes, Swiss cheese), Leveson uses **systems theory**: accidents are a **control problem**. **STAMP** is the model; **CAST** analyses losses that already happened; **STPA** analyses losses that haven’t happened yet. STPA first finds unsafe control actions and their scenarios, and only then asks how an attacker could inject, spoof, tamper with, intercept or leak information. Her conclusion: one integrated process can handle both."
+      "titel": "Safety is not reliability",
+      "tekst": "This sounds strange, but it is the core of the chapter. Since software entered critical systems (from about 1980), design errors can no longer all be removed before use. Two claims follow:\n- Components can be **perfectly reliable** and an accident can still happen: every part does exactly what it was designed to do, but the combination is dangerous.\n- Components, even the whole system, can be **unreliable** and the system can still be **safe**.\n\nSo preventing failures is not the same as preventing losses. The old way of thinking, a **chain of events** or the **Swiss cheese model** (failures lining up until something goes wrong), is no longer enough for complex systems.\n\nSecurity has a similar blind spot: it focuses too narrowly on **information** and keeping intruders out. But important losses have nothing to do with information, such as **mission assurance**: keeping a power plant producing or a space mission on track. And keeping people out has proved almost impossible for systems connected to the outside world."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nThere is no right definition, only a useful one, and narrow definitions hide the overlap. Safety is freedom from losses; a hazard is a state of the system, not the mountain but flying too close to it. Safety is not reliability, and security is more than protecting information."
+    },
+    {
+      "type": "tekst",
+      "titel": "Stuxnet: does intent matter?",
+      "tekst": "Leveson's favourite example is **Stuxnet**, the attack on Iranian centrifuges. Walk the chain:\n- **Loss**: damaged centrifuges.\n- **Hazard**: the centrifuges spinning too fast.\n- **Constraint**: never spin above the maximum speed.\n- **Unsafe control action**: the controller gives the command \"increase speed\" while the centrifuge is already at its maximum.\n- **Cause**: the controller wrongly believes the speed is lower than it is.\n\nWas that wrong belief caused by an error or by an attack? Leveson's point: **it hardly matters for the solution**. The best control is the same either way: a **mechanical interlock** or an **analogue tachometer** that cannot be fooled by software. Intent differs, but when the consequences are the same, the protection can be the same."
+    },
+    {
+      "type": "tekst",
+      "titel": "STAMP, CAST and STPA",
+      "tekst": "Leveson's alternative to the chain-of-events view is **systems theory**:\n- **STAMP** is the **model**: safety and security as a dynamic **control problem**, enforcing constraints on components and their interactions.\n- **CAST** is a **tool** built on STAMP for analysing losses that **have already happened**.\n- **STPA** is a **tool** built on STAMP for analysing losses that **have not yet happened**.\n\nDo not mix them up: STAMP is not a method and STPA is not a model.\n\n**How STPA works**, with the aircraft braking system example. Step 1: find the **unsafe control actions** in four columns: not providing the action, providing it, providing it too early, too late or in the wrong order, and stopping too soon or applying it too long. Step 2: find the **scenarios** that lead to them. Only **then** does security come in: how could an adversary **inject, spoof, tamper with, intercept or leak** feedback and information? For the brakes: an attacker spoofs the wheel-speed feedback, or delays it with a denial-of-service attack. STPA treats people the same way it treats hardware and software."
+    },
+    {
+      "type": "tekst",
+      "titel": "Leveson's conclusion",
+      "tekst": "Safety and security can be handled with **one integrated process**, on three conditions:\n1. safety analysis goes **beyond reliability**;\n2. security goes **beyond information** and keeping intruders out;\n3. the field shifts from chain-of-events models to **systems theory**.\n\nShe adds that in the comparisons done so far (a hundred or so), the system-theoretic and integrated approaches have proven superior. Keep that claim with her name: other authors in the book (Brooks and Coole, Schulman) are much more sceptical about integration."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nStuxnet shows that whether a wrong belief comes from error or attack, the best control is the same. STAMP is the model, CAST looks back, STPA looks ahead and adds security only after the unsafe control actions are found. Leveson's conclusion: one integrated process is possible if safety goes beyond reliability, security beyond information, and the field adopts systems theory."
     },
     {
       "type": "uitleg",
-      "tekst": "**If you only remember 4 things**\n\n1. Safety = freedom from losses; a hazard is a system state (≈ vulnerability).\n2. Safety is not reliability; security is more than information (mission assurance).\n3. Stuxnet: same loss, same control, whatever the intent.\n4. Systems theory instead of chains: STAMP (model), CAST (past losses), STPA (future losses)."
+      "tekst": "**If you only remember 7 things**\n\n1. No right or wrong definitions, only useful ones; narrow definitions limit overlap and solutions.\n2. Safety: freedom from losses. Accident: an undesired event resulting in a loss. Hazard: a system state that, with worst-case conditions, leads to a loss.\n3. The mountain is not the hazard; flying too close to it is. A vulnerability is essentially a hazard.\n4. Safety is not reliability; security is more than information (mission assurance).\n5. Stuxnet: same control (mechanical interlock, analogue tachometer) whether by error or attack.\n6. STAMP (model), CAST (past losses), STPA (future losses); security enters STPA after the unsafe control actions: inject, spoof, tamper, intercept, leak.\n7. One integrated process on three conditions; systems theory instead of chain-of-events."
     }
   ]
 });
@@ -244,31 +290,44 @@ voegOverviewToe("intro-to-safety-security/h5", {
   "blokken": [
     {
       "type": "slimmer",
-      "tekst": "**What this tab is**\n\nChapter 5 (Jore) and lecture 4 as one easy story."
+      "tekst": "**What this tab is**\n\nChapter 5 (Jore) and its part of lecture 4 as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
     },
     {
       "type": "tekst",
-      "titel": "In Amenas",
-      "tekst": "On **16 January 2013**, 32 terrorists attacked the **In Amenas** oil facility in Algeria, with almost 800 workers on site. After a four-day siege, **40 people from 10 countries** were dead, five of them from **Statoil**. Statoil’s investigation said a lacking **security culture** was part of the explanation and building one was the solution. Jore asks: is that even a good concept?"
+      "titel": "It starts in the desert: In Amenas",
+      "tekst": "On **16 January 2013**, 32 heavily armed terrorists attacked an Algerian oil facility at **In Amenas**, where almost 800 people were working. Many were taken hostage; the siege lasted four days. **40 people from 10 countries** were killed, five of them employees of the Norwegian company **Statoil**. It was the largest terrorist attack in the history of the oil and gas industry.\n\nStatoil's investigation came to a striking conclusion: the company lacked a strong **security culture**. That term did two jobs at once: it **explained** what had gone wrong, and it was the **solution** for the future. Sune Jore asks whether one concept, which nobody had properly defined, can carry that much."
     },
     {
       "type": "tekst",
-      "titel": "Malicious intent, not just intent",
-      "tekst": "Jore draws the line at **malicious intent**, not intentionality. Why? Because intent also exists in safety: a worker who deliberately skips their goggles is still a safety issue. Security means someone who **really wants to cause harm**. Security threats are also often **external**, not tied to profit and production. And an attack is an event of **extremely low probability**, so Jore asks whether culture can be applied to it in the same way as in safety."
+      "titel": "What makes something security: malicious intent",
+      "tekst": "Lecture 1 said the difference between safety and security is intent. Jore sharpens that: it is not intentionality but **malicious intent**. Why? Because intent, and even crime, also happen in safety: a worker who deliberately does not wear goggles, or drug use at work. That is on purpose, but it is still a safety matter. Security begins where someone **genuinely wants to cause harm**.\n\nTwo more things make security different: threats often come from **outside** and are hard for the organisation to know about, and they are **not directly tied to profit and production**. And an attack is an event of **extremely low probability**, so Jore asks whether \"culture\" can work for it in the same way as in safety.\n\nThe Statoil report described a strong security culture with **five features**: hands-on security leadership with access to top management; high ambitions, with security as a discipline **separate** from safety; enough capacity and competence; a **holistic** approach as part of core processes; and transparent, active risk management. Notice the tension between \"separate\" and \"holistic\": that is the book's whole question in one list."
     },
     {
       "type": "tekst",
-      "titel": "Testing the concept",
-      "tekst": "Jore uses **Gerring’s eight criteria** for a good concept. **Familiarity and resonance: high**, because it leans on the well-known idea of safety culture (used since Chernobyl, 1986). **Parsimony, coherence, differentiation and depth: low**: thin literature, one culture can’t cover phishing, sabotage and armed attacks, and it’s hard to tell apart from safety or organisational culture. **Theoretical and field utility: mixed**: the security field has little theory, and companies use the label without changing how they work.\n\nSome safety ideas don’t transfer: **just culture** assumes nobody meant harm, ‘**everyone committed**’ could turn into suspicion of colleagues, and **weak signals** are hidden on purpose by smart attackers."
+      "titel": "Is security culture a good concept? Gerring's test",
+      "tekst": "To judge the concept, Jore uses **Gerring's eight criteria** for a good concept: familiarity, resonance, parsimony, coherence, differentiation, depth, theoretical utility and field utility. The verdict:\n- **High** on **familiarity and resonance**: it leans on the well-known idea of safety culture, first used after Chernobyl (1986), so people immediately feel they understand it.\n- **Low** on **parsimony, coherence, differentiation and depth**: the literature is thin; one \"culture\" cannot cover phishing, sabotage and an armed attack at once; and it is hard to tell apart from safety culture and organisational culture.\n- **Mixed** on **utility**: the security field lacks theory, and a Norwegian study found companies using the term as a label without really changing how they organise security.\n\nThe lecture lists **four attractions** of the idea anyway: shared awareness, weak signals, mindfulness and resilience. That is why it is so tempting."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 1 in one breath**\n\nIn Amenas made security culture famous, as both the explanation and the solution. Jore says security is about malicious intent, not just intent. On Gerring's criteria the concept sounds familiar but is vague, overlapping and thin, even though its promises are attractive."
     },
     {
       "type": "tekst",
-      "titel": "The verdict",
-      "tekst": "Four conclusions: the concept is **needed**; it’s **poorly demarcated** (but so is safety culture); in practice it’s a **duality** with safety culture; and it’ll matter **more** with digitalisation. Jore’s formula: **understand them separately, but don’t treat them as separate in practice**.\n\nThe lecture (session 4) framed chapters 3 and 5 together: ‘two sides of the same coin?’ Inclusive definitions show the overlap, a hazard is roughly a vulnerability, and the big question is **when to integrate and when to keep things apart**."
+      "titel": "What does not transfer from safety",
+      "tekst": "Safety culture is built on **trust and openness**. Security assumes there is an **adversary**. So three popular safety ideas do not simply carry over:\n- **Just culture**: no-blame reporting assumes nobody meant harm. What does a just culture mean when the attacker has malicious intent? It also limits openness outside trusted communities.\n- **Everyone committed**: in safety everyone watches out for everyone. In security, does that mean being **suspicious of your colleagues**?\n- **Weak signals**: safety learns from small warning signs. But strategic attackers **hide** their plans, so the signals are weak on purpose.\n\nThe lecture puts it simply: safety culture cannot just be copied, because openness collides with confidentiality, and the concept has problems of overlap, boundaries and measurement."
+    },
+    {
+      "type": "tekst",
+      "titel": "Jore's conclusion",
+      "tekst": "Despite all the objections, Jore keeps the concept. **Four conclusions**:\n1. It is **needed**: in complex, volatile environments like In Amenas, clear warnings rarely come, so organisations must aim for **resilience against multiple threats** and a collective security mindfulness.\n2. It is **poorly demarcated**, but so is safety culture, and that concept is still widely used.\n3. In practice it is a **duality**: the same people, routines and organisation carry both.\n4. It will become **more important** with digitalisation.\n\nAnd her formula, which you should be able to reproduce: security and safety culture should be **understood separately, but in practical reality should not be treated as distinct**.\n\nThe lecture's final question for the whole session: **when should safety and security be integrated, and when should they remain distinct?** Leveson (chapter 3) leans towards integration; Jore says understand them apart but manage them together."
+    },
+    {
+      "type": "slimmer",
+      "tekst": "**Part 2 in one breath**\n\nJust culture, everyone committed and weak signals do not transfer easily, because security has an enemy. Jore still keeps security culture: it is needed, as vague as safety culture, a duality in practice and growing with digitalisation. Understand them separately, but do not treat them as separate in practice."
     },
     {
       "type": "uitleg",
-      "tekst": "**If you only remember 4 things**\n\n1. In Amenas 2013: 40 dead, and ‘security culture’ named as the cause and the cure.\n2. Malicious intent, not intentionality, separates security from safety.\n3. Gerring’s criteria: familiarity high, depth low, utility mixed.\n4. Understand separately, don’t treat separately in practice."
+      "tekst": "**If you only remember 7 things**\n\n1. In Amenas, 16 January 2013: 32 attackers, almost 800 workers, 40 dead from 10 countries, five from Statoil; security culture as explanation and solution.\n2. Malicious intent, not intentionality, separates security from safety.\n3. Statoil's five features of a strong security culture; the tension between separate and holistic.\n4. Gerring's eight criteria: high on familiarity and resonance, low on parsimony, coherence, differentiation and depth, mixed on utility.\n5. Four attractions: shared awareness, weak signals, mindfulness, resilience.\n6. What does not transfer: just culture, everyone committed, weak signals.\n7. Four conclusions and the formula: understand separately, do not treat as separate in practice."
     }
   ]
 });
