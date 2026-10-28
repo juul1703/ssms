@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v174**.
+Stand: 23 oktober 2026, service worker **v175**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -957,6 +957,11 @@ To remember (wie, lijsten), 22 begrippen, vijf vaardigheden op basis van de leer
 **v174: Society mid-term-les deel 2: oefentoets.** Twintig nieuwe toepassingsvragen (scenario's,
 vakoverstijgend), antwoorden gespreid, browser 20/20; drie open examenvragen (jeugdcriminaliteit,
 bureaucratie bij een beveiligingsbedrijf, ongelijkheid door het hele vak).
+
+**v175: Intro sessie 8 (H10).** Quick recap herschreven op de standaard (van ca. 2.500 naar ca. 9.000
+tekens). Kernstof: "personal injustice" stond nog op twee plekken; het boek zegt "personal
+grievance" (en "willingness to take revenge are cultured"). Nagekeken in het boek: Rinaldi (ref. 16),
+Lehman Brothers, "driven by the human factor", lage persoonlijke voorbereiding, "usual".
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
