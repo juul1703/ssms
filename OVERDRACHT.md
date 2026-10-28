@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v172**.
+Stand: 23 oktober 2026, service worker **v173**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -945,6 +945,14 @@ fase 2 van de demografische transitie). "8 miljard in 2022" gelabeld als algemen
 Vaardigheden-uitleg (13). Quick recap herschreven van 6.200 naar ca. 11.500 tekens. Let op bij het
 uitvoeren: `cut -c` breekt UTF-8-tekens; met Python afkappen. Hiermee zijn Society S1-S8 klaar; volgende
 stap de uitgebreide Society mid-term-les (2 opleveringen).
+
+**v173: Society mid-term-les, deel 1** (`society-midterm.js`, les-id `midterm`, via EXTRA in het
+Mid-term-blok). Per sessie een uitgebreide academische samenvatting (alle begrippen, lijsten,
+theorieën en studies) plus, daaronder, het volledige verhaal uit de Quick recap van die sessie
+(dezelfde gecontroleerde tekst). Samen ca. 130.000 tekens. Kopje "The threads" met zes lijnen.
+To remember (wie, lijsten), 22 begrippen, vijf vaardigheden op basis van de leerdoelen uit de manual
+(2.3.2). Bouwscript /home/claude/work/smid/build.py leest de recaps uit /home/claude/work/sov
+(S1-S5) en uit de lesbestanden (S6-S8). Oefentoets volgt in v174.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
