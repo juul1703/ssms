@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v178**.
+Stand: 23 oktober 2026, service worker **v179**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -981,6 +981,12 @@ het volledige verhaal uit de Quick recap(s) van die sessie (sessie 2: H1 en H2; 
 H9). Samen ca. 135.000 tekens in 9 kopjes. Bouwscript /home/claude/work/mid/build.py leest de recaps
 uit /tmp/dump.json (eerst /tmp/dump.py draaien). Daarmee is Intro af; volgende stap Governance
 (Quick recaps S1-S4, mid-term-les uitbreiden).
+
+**v179: Governance Quick recaps sessie 1 en 2** in het nieuwe bestand `overview-governance.js`
+(voegOverviewToe, laadt na recap-governance.js; bouwscripts in /home/claude/work/gov). S1 ca. 7.900,
+S2 ca. 6.900 tekens, geschreven uit de gecontroleerde kernstof; claims nagekeken (Clausewitz, Hobbes,
+Dogan en Pelassy, Acton, de slide-definitie van politiek, Figure 2.2 panelen, de landen van de
+austerity, "self-legitimating", "negative focusing events"). Volgende: S3 en S4.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
