@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v177**.
+Stand: 23 oktober 2026, service worker **v178**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -975,6 +975,12 @@ kosten, EASA, La Porte-matrix, Activity 2, Alfred en Wendy, zes lenzen, vier tak
 staan in de eigen lesbestanden (overview-tab vervangen). H7: "generic capabilities" en "systematic,
 logically related, predictive" in het boek bevestigd. Let op: markdown-tabellen (|---|) worden niet
 weergegeven; gebruik een tabel-blok. Alle Intro-lessen hebben nu een Quick recap op de standaard.
+
+**v178: Intro mid-term-les uitgebreid.** Onder elke sessie staat nu, na de academische samenvatting,
+het volledige verhaal uit de Quick recap(s) van die sessie (sessie 2: H1 en H2; 4: H3 en H5; 6: H7 en
+H9). Samen ca. 135.000 tekens in 9 kopjes. Bouwscript /home/claude/work/mid/build.py leest de recaps
+uit /tmp/dump.json (eerst /tmp/dump.py draaien). Daarmee is Intro af; volgende stap Governance
+(Quick recaps S1-S4, mid-term-les uitbreiden).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
