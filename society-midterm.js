@@ -1,4 +1,4 @@
-/* Society & Politics, mid-term review (sessie 1-8). Nieuw in v173; oefentoets volgt in v174.
+/* Society & Politics, mid-term review (sessie 1-8). Nieuw in v173, oefentoets in v174.
    Opgebouwd uit de gecontroleerde sessielessen (v162-v172). */
 
 LESSTOF['society-politics/midterm'] = [
@@ -806,6 +806,265 @@ LESSTOF['society-politics/midterm'] = [
         "items": [
           {
             "apa": "Macionis, J. J., & Plummer, K. (2008). Sociology: A global introduction (4th ed.). Pearson Education."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toepassen",
+    "titel": "Applying it",
+    "blokken": [
+      {
+        "type": "oefening",
+        "id": "soc-mid-oef-1",
+        "niveau": "gevorderd",
+        "vraag": "**Case: youth crime in a city neighbourhood.** In one neighbourhood young people are arrested much more often than elsewhere.\n\n(a) Explain this with two theories of deviance from session 5, one structural and one about reactions.\n(b) Use one concept from session 3 or session 7 to explain why the same young people may be over-represented.\n(c) Which penal goal would you recommend, and why?",
+        "antwoord": "**(a)** A structural explanation: **Merton's strain theory**: the young people share the cultural goals (money, status) but lack legitimate means, so some choose **innovation**; or **left realism**: **relative deprivation** and **marginalisation**. A reaction-based explanation: **labelling theory**: arrests and a bad reputation produce **secondary deviance**; conflict criminology adds that labels go to those with little power.\n\n**(b)** For example **institutional racism** (Macpherson): routines in policing can target certain groups without individual intent, which feeds the **vicious cycle**; or Young's processes of **exclusion** and **powerlessness** (session 7).\n\n**(c)** Any goal works if you argue it: for example **restorative justice** (repair harm and reconnect young people to the community) or **rehabilitation**, rather than incapacitation, because labelling theory warns that prison can deepen deviant identities."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-mid-oef-2",
+        "niveau": "gevorderd",
+        "vraag": "**Bureaucracy and safety.** A large security company introduces strict procedures, time targets per guard and constant camera monitoring of its own staff.\n\n(a) Analyse this with Weber's bureaucracy and Ritzer's McDonaldisation.\n(b) Which problems can arise, according to sessions 5 and 6?\n(c) Suggest two changes from the newer organisational forms.",
+        "antwoord": "**(a)** Weber: specialisation, rules and regulations, hierarchy, impersonality. Ritzer: **efficiency** (time targets), **calculability** (everything measured), **predictability** (standard procedures) and **control** (cameras).\n\n**(b)** **Alienation** and **ritualism** (guards following rules rather than solving problems), the **irrationality of rationality**, demoralisation as in the criticisms of the **audit culture**; and the cameras are an example of the **surveillance society** (Lyon) turned inward on the staff.\n\n**(c)** For example **self-managed work teams**, Kanter's **humanising bureaucracy** (more participation and shared responsibility), or elements of Ouchi's Japanese model such as collective decision-making."
+      },
+      {
+        "type": "oefening",
+        "id": "soc-mid-oef-3",
+        "niveau": "gevorderd",
+        "vraag": "**Inequality across the course.** Choose a group that is disadvantaged in your country.\n\n(a) Describe its position with Young's five processes.\n(b) Explain it once from a functionalist and once from a conflict perspective.\n(c) Which other session gives you a concept that shows how this inequality is reproduced?",
+        "antwoord": "**(a)** Name the processes that apply, with an example each: exclusion, exploitation, powerlessness, cultural imperialism, violence.\n\n**(b)** **Functionalist**: Davis and Moore would say rewards follow functional importance and talent (with Tumin's criticisms). **Conflict**: Marx and later conflict theorists would say the inequality serves those who own and control resources; ideology and hegemony make it look fair.\n\n**(c)** For example the **Thomas theorem** and the vicious cycle (sessions 2 and 3), **labelling** (session 5), **cultural capital** (session 4), or **cyberclasses** and the digital divide (session 8). A strong answer explains the mechanism, not just the label."
+      }
+    ]
+  },
+  {
+    "id": "checken",
+    "titel": "Check yourself",
+    "blokken": [
+      {
+        "type": "quiz",
+        "titel": "Practice exam: twenty questions across sessions 1 to 8",
+        "vragen": [
+          {
+            "vraag": "A student who cannot pay her rent sees it as her own failure. A sociologist points out that rents have doubled for a whole generation. Which idea is the sociologist using?",
+            "opties": [
+              "Mills's sociological imagination: a personal trouble as a public issue",
+              "Durkheim's mechanical solidarity",
+              "Goffman's back region",
+              "Merton's ritualism"
+            ],
+            "juist": 0,
+            "uitleg": "Mills links personal troubles to public issues and biography to history (session 1)."
+          },
+          {
+            "vraag": "Teachers expect little of a group of pupils, treat them that way, and the pupils start to perform badly. Which concept explains the mechanism best?",
+            "opties": [
+              "The looking-glass self only",
+              "Cultural lag",
+              "The Thomas theorem",
+              "Bifurcation"
+            ],
+            "juist": 2,
+            "uitleg": "A situation defined as real becomes real in its consequences: the same mechanism drives the vicious cycle of prejudice (session 3) and secondary deviance (session 5)."
+          },
+          {
+            "vraag": "A shop assistant keeps smiling at rude customers because the job requires it. Which concept fits?",
+            "opties": [
+              "Status consistency",
+              "Emotional labour",
+              "Organic solidarity",
+              "Glocalisation"
+            ],
+            "juist": 1,
+            "uitleg": "Hochschild: managing feelings as part of the job, following feeling rules (session 2)."
+          },
+          {
+            "vraag": "A police force with no openly racist officers still stops black young men far more often, because of routines and unwitting assumptions. How would the Macpherson Report describe this?",
+            "opties": [
+              "A timid bigot",
+              "Cultural relativism",
+              "Scapegoating",
+              "Institutional racism"
+            ],
+            "juist": 3,
+            "uitleg": "Institutional racism: a collective failure of an organisation, visible in processes, attitudes and behaviour, often through unwitting prejudice; no individual racist intent is needed (session 3)."
+          },
+          {
+            "vraag": "A manager is not prejudiced but refuses to hire migrants because the owner wants it. In Merton's typology this is a:",
+            "opties": [
+              "Active bigot",
+              "Timid bigot",
+              "Fair-weather liberal",
+              "All-weather liberal"
+            ],
+            "juist": 2,
+            "uitleg": "Not prejudiced, but discriminates when it is convenient or expected (session 3)."
+          },
+          {
+            "vraag": "A Japanese karaoke format becomes popular in the Netherlands but is used mainly for corporate team outings. Which concept fits?",
+            "opties": [
+              "Glocalisation",
+              "Cultural lag",
+              "Counterculture",
+              "Ethnocentrism"
+            ],
+            "juist": 0,
+            "uitleg": "A global product given a local meaning; the book's own example is karaoke in Thailand, London and San Francisco (sessions 1 and 4)."
+          },
+          {
+            "vraag": "A dominant group keeps its position mainly because others accept its ideas as common sense, not because of force. Which concept is this?",
+            "opties": [
+              "Ritzer's calculability",
+              "Weber's charismatic authority",
+              "Durkheim's anomie",
+              "Gramsci's hegemony"
+            ],
+            "juist": 3,
+            "uitleg": "Hegemony is domination through ideas and consent (session 4); it also helps explain the staying power of stratification (session 7)."
+          },
+          {
+            "vraag": "A leader steps down after losing an election and the next leader takes over the same powers. Which type of authority does this show?",
+            "opties": [
+              "Traditional",
+              "Rational-legal",
+              "Charismatic",
+              "Totalitarian"
+            ],
+            "juist": 1,
+            "uitleg": "Rational-legal authority belongs to the office, not the person (Weber, session 4)."
+          },
+          {
+            "vraag": "A campaign group wants all consumers to stop buying fast fashion, but only asks for limited changes in behaviour. In Aberle's typology this is a:",
+            "opties": [
+              "Revolutionary movement",
+              "Redemptive movement",
+              "Reformative movement",
+              "Alternative movement"
+            ],
+            "juist": 2,
+            "uitleg": "Limited change for everyone is reformative; radical change for everyone would be revolutionary (session 4)."
+          },
+          {
+            "vraag": "A young man without legal job opportunities starts dealing drugs to afford the lifestyle everyone around him values. Which of Merton's adaptations is this?",
+            "opties": [
+              "Conformity",
+              "Innovation",
+              "Ritualism",
+              "Retreatism"
+            ],
+            "juist": 1,
+            "uitleg": "Accepting the culturally approved goals (success) but using illegitimate means (session 5)."
+          },
+          {
+            "vraag": "A teenager caught once for shoplifting is called a thief by everyone, starts to see himself as one and steals more. Which concept describes the second step?",
+            "opties": [
+              "Primary deviance",
+              "Net-widening",
+              "Differential association",
+              "Secondary deviance"
+            ],
+            "juist": 3,
+            "uitleg": "Lemert: labelling leads someone to take on a deviant identity; the slide links it to the Thomas theorem (session 5)."
+          },
+          {
+            "vraag": "A city adds community orders, therapy programmes and electronic tags on top of prisons, so more people end up under some form of control. This is:",
+            "opties": [
+              "Net-widening",
+              "Bifurcation",
+              "Restorative justice",
+              "Incapacitation"
+            ],
+            "juist": 0,
+            "uitleg": "Informal control grafted onto the formal system widens the net (session 5)."
+          },
+          {
+            "vraag": "A university replaces seminars with standard online modules, multiple-choice tests and strict time targets per student. Which concept fits best?",
+            "opties": [
+              "Iron triangle",
+              "Weak ties",
+              "McDonaldisation",
+              "Gemeinschaft"
+            ],
+            "juist": 2,
+            "uitleg": "Efficiency, calculability, predictability and control: Ritzer's \"McUniversity\" (session 6)."
+          },
+          {
+            "vraag": "A department follows its procedures so strictly that it fails the people it is supposed to help. Which problem of bureaucracy is this?",
+            "opties": [
+              "Inertia",
+              "Ritualism",
+              "Oligarchy",
+              "Alienation"
+            ],
+            "juist": 1,
+            "uitleg": "Merton's bureaucratic ritualism: a preoccupation with rules that thwarts the organisation's goals (session 6)."
+          },
+          {
+            "vraag": "Someone finds a job through an old acquaintance from a sports club rather than through close friends. Which idea does this illustrate?",
+            "opties": [
+              "The strength of weak ties (Granovetter)",
+              "The iron law of oligarchy",
+              "The dyad",
+              "Structural mobility"
+            ],
+            "juist": 0,
+            "uitleg": "Networks are clusters of weak ties, and those loose contacts are a real resource (session 6)."
+          },
+          {
+            "vraag": "A surgeon earns far more than a nurse. According to Davis and Moore, why?",
+            "opties": [
+              "Because surgeons have more power",
+              "Because of cultural imperialism",
+              "Because of class conflict",
+              "Because the position is functionally important and requires scarce talent and training"
+            ],
+            "juist": 3,
+            "uitleg": "The more functionally important a position, the greater its rewards; Tumin replies that importance cannot be measured (session 7)."
+          },
+          {
+            "vraag": "A civil servant has a lot of power but a modest income. Which theorist's approach captures this best?",
+            "opties": [
+              "Marx: two classes",
+              "Weber: class, status and power are separate dimensions",
+              "Davis and Moore: functional importance",
+              "Malthus: population growth"
+            ],
+            "juist": 1,
+            "uitleg": "Low status consistency: you can rank high on power and low on class (session 7)."
+          },
+          {
+            "vraag": "Which concept links session 1 most directly to session 8?",
+            "opties": [
+              "Aberle's typology",
+              "Goffman's dramaturgy",
+              "Beck's risk society",
+              "Bogardus's social distance"
+            ],
+            "juist": 2,
+            "uitleg": "Beck's world risk society appears among the features of globalisation in chapter 2 and returns as manufactured risk in chapter 23."
+          },
+          {
+            "vraag": "A country's death rate has fallen sharply thanks to vaccines, but families still have many children. In which stage of demographic transition is it?",
+            "opties": [
+              "Stage 2",
+              "Stage 1",
+              "Stage 3",
+              "Stage 4"
+            ],
+            "juist": 0,
+            "uitleg": "Stage 2: death rates fall, birth rates stay high, so population grows rapidly; most of Latin America, Africa and Asia are here (session 8)."
+          },
+          {
+            "vraag": "A commuter in a big city ignores street musicians, advertisements and strangers on the train. Which concept explains this?",
+            "opties": [
+              "Burgess's concentric zones",
+              "Wirth's tolerance",
+              "Park's natural areas",
+              "Simmel's blasé attitude"
+            ],
+            "juist": 3,
+            "uitleg": "Tuning out stimulation as a technique for social survival (session 8)."
           }
         ]
       }
