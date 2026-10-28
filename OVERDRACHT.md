@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v176**.
+Stand: 23 oktober 2026, service worker **v177**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -968,6 +968,13 @@ Lehman Brothers, "driven by the human factor", lage persoonlijke voorbereiding, 
 gelegd; Ljungqvist-diagram gelabeld (beeld, niet in de tekstexport); Beck-koppeling gelabeld
 unchecked. H3: "hundred or so", hardware en software, Swiss cheese nagekeken in het boek.
 Nog te doen Intro: sessie 5 (college-5) en sessie 6 (h7, h9), daarna de mid-term-les uitbreiden.
+
+**v177: Intro Quick recaps sessie 5 (college-5) en sessie 6 (h7, h9)** herschreven op de standaard.
+Sessie 5: alle feiten naast slide 5 gelegd (Kopenhagen 22 sept 2025, ca. 4 uur, Oslo ca. 3 uur, GNSS-
+kosten, EASA, La Porte-matrix, Activity 2, Alfred en Wendy, zes lenzen, vier take-aways). H7 en H9
+staan in de eigen lesbestanden (overview-tab vervangen). H7: "generic capabilities" en "systematic,
+logically related, predictive" in het boek bevestigd. Let op: markdown-tabellen (|---|) worden niet
+weergegeven; gebruik een tabel-blok. Alle Intro-lessen hebben nu een Quick recap op de standaard.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

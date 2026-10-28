@@ -19,16 +19,46 @@ LESSTOF['intro-to-safety-security/h9'] = [
       {
         "type": "leerdoelen",
         "items": [
-          {"doel": "Explain why Schulman calls the CEO’s statement a \"convenient untruth\", and what the question of the chapter is", "uitleg": "A utility CEO said that doing safety management well takes care of security too. Schulman calls it a **convenient untruth**; he does not spell out the \"convenient\" part, but the chapter shows why it is untrue: security cannot meet the deterministic standard of high reliability safety. The question of the chapter: can one management framework carry both missions, and where do they collide and overlap?"},
-          {"doel": "Define a High Reliability Organization and what \"high reliability\" means there, including the difference between probabilistic and deterministic", "uitleg": "High reliability means that catastrophic failures are precluded **deterministically**: there is a set of precluded events that must not happen, whatever their probability. Probabilistic management accepts a small chance; deterministic preclusion does not. Add that non-operation takes precedence over output when a precluded event threatens: a nuclear plant that shuts down is doing the right thing."},
-          {"doel": "Reproduce the classic HRO formula: low input variance plus low process variance gives low output variance, and explain the irony in it", "uitleg": "Low input variance (resources, demands, conditions) plus low process variance (procedures, prior analysis) gives low output variance (predictable performance). The **irony**: that control rests on the insight that reliability is **not** rigid invariance but managing fluctuations within acceptable **bandwidths**, outside dangerous or unstudied conditions. And the processes that make this work, such as attention and trust, are perishable."},
-          {"doel": "Explain what precursors, the precursor zone and precursor resilience are, with examples", "uitleg": "**Precursors**: conditions that could lead to a precluded event, found by analysing backwards from the unacceptable events. The **precursor zone** grows outward as analysis and experience add more conditions. **Precursor resilience**: moving quickly back out of a precursor condition instead of waiting for the accident. Examples include technical ones and organisational ones, such as a backlog of unresolved problems or a movement into unstudied conditions."},
-          {"doel": "Describe who reliability professionals are and why they are not defined by diplomas", "uitleg": "People who blend formal and experiential knowledge, see the system as larger than their own role, and internalise reliable operation into their identity. They are found at many levels: control operators, maintenance staff, middle managers, executives. Hence **not defined by diplomas or certifications** but by what they do: identifying precursor conditions, including in their own performance, and policing their unit's drift away from reliability."},
-          {"doel": "Explain the difference between failure and vulnerability, using the Germanwings example", "uitleg": "Managing the risk of **failure** is not the same as managing **vulnerability** to destructive intent: hostile strategy targets vulnerabilities and can use your protections against you. Germanwings 9525: the cockpit door hardened after 9/11 against intruders protected the co-pilot already inside, who locked out the captain. That is **reciprocal vulnerability**: protection against one threat created a new vulnerability."},
-          {"doel": "Explain design-based vulnerability and why the internet is the extreme example", "uitleg": "Exposure we build ourselves, such as homes in forested areas exposed to wildfires. The internet is the extreme case: it can be attacked from any location, at any scale and with a wide range of precision, and every new connected element adds to it. Schulman's conclusion: it lies beyond the reach of any single organisation and calls for regulation at the level of society."},
-          {"doel": "Name the four tensions between safety and security management", "uitleg": "Safety wants anticipation, security adaptability to the unexpected; safety wants lateral communication and open information, security restricted information; safety wants accessibility for cooperation and inspection, security hardening (guns, gates and guards); safety wants rapid inter-organisational emergency coordination, security frameworks around access and information."},
-          {"doel": "Name the ground for overlap: the management of representational error", "uitleg": "**Representational error**: misjudgements, wrong specifications and misunderstandings about the systems being managed. Managing it is shared ground, and so is the focus on precursor conditions and indicators (limited in security, because perpetrators hide them), with the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, pattern recognition, and taking \"I find myself in uncharted territory\" seriously. Emergency response overlaps too, with the caveat that first responders can themselves be targets."},
-          {"doel": "Explain what \"higher resolution reliability\" demands and why Schulman still argues for integration", "uitleg": "It demands a **broader scope**, a **longer time horizon** and **more distributed participation** in error detection and precursor resilience. He still argues for a shared framework because treating the missions separately risks losing reliability: an overlapping framework built on error sensitivity can catch the precursors of one mission undermining the other. Integration does not resolve the tensions."}
+          {
+            "doel": "Explain why Schulman calls the CEO’s statement a \"convenient untruth\", and what the question of the chapter is",
+            "uitleg": "A utility CEO said that doing safety management well takes care of security too. Schulman calls it a **convenient untruth**; he does not spell out the \"convenient\" part, but the chapter shows why it is untrue: security cannot meet the deterministic standard of high reliability safety. The question of the chapter: can one management framework carry both missions, and where do they collide and overlap?"
+          },
+          {
+            "doel": "Define a High Reliability Organization and what \"high reliability\" means there, including the difference between probabilistic and deterministic",
+            "uitleg": "High reliability means that catastrophic failures are precluded **deterministically**: there is a set of precluded events that must not happen, whatever their probability. Probabilistic management accepts a small chance; deterministic preclusion does not. Add that non-operation takes precedence over output when a precluded event threatens: a nuclear plant that shuts down is doing the right thing."
+          },
+          {
+            "doel": "Reproduce the classic HRO formula: low input variance plus low process variance gives low output variance, and explain the irony in it",
+            "uitleg": "Low input variance (resources, demands, conditions) plus low process variance (procedures, prior analysis) gives low output variance (predictable performance). The **irony**: that control rests on the insight that reliability is **not** rigid invariance but managing fluctuations within acceptable **bandwidths**, outside dangerous or unstudied conditions. And the processes that make this work, such as attention and trust, are perishable."
+          },
+          {
+            "doel": "Explain what precursors, the precursor zone and precursor resilience are, with examples",
+            "uitleg": "**Precursors**: conditions that could lead to a precluded event, found by analysing backwards from the unacceptable events. The **precursor zone** grows outward as analysis and experience add more conditions. **Precursor resilience**: moving quickly back out of a precursor condition instead of waiting for the accident. Examples include technical ones and organisational ones, such as a backlog of unresolved problems or a movement into unstudied conditions."
+          },
+          {
+            "doel": "Describe who reliability professionals are and why they are not defined by diplomas",
+            "uitleg": "People who blend formal and experiential knowledge, see the system as larger than their own role, and internalise reliable operation into their identity. They are found at many levels: control operators, maintenance staff, middle managers, executives. Hence **not defined by diplomas or certifications** but by what they do: identifying precursor conditions, including in their own performance, and policing their unit's drift away from reliability."
+          },
+          {
+            "doel": "Explain the difference between failure and vulnerability, using the Germanwings example",
+            "uitleg": "Managing the risk of **failure** is not the same as managing **vulnerability** to destructive intent: hostile strategy targets vulnerabilities and can use your protections against you. Germanwings 9525: the cockpit door hardened after 9/11 against intruders protected the co-pilot already inside, who locked out the captain. That is **reciprocal vulnerability**: protection against one threat created a new vulnerability."
+          },
+          {
+            "doel": "Explain design-based vulnerability and why the internet is the extreme example",
+            "uitleg": "Exposure we build ourselves, such as homes in forested areas exposed to wildfires. The internet is the extreme case: it can be attacked from any location, at any scale and with a wide range of precision, and every new connected element adds to it. Schulman's conclusion: it lies beyond the reach of any single organisation and calls for regulation at the level of society."
+          },
+          {
+            "doel": "Name the four tensions between safety and security management",
+            "uitleg": "Safety wants anticipation, security adaptability to the unexpected; safety wants lateral communication and open information, security restricted information; safety wants accessibility for cooperation and inspection, security hardening (guns, gates and guards); safety wants rapid inter-organisational emergency coordination, security frameworks around access and information."
+          },
+          {
+            "doel": "Name the ground for overlap: the management of representational error",
+            "uitleg": "**Representational error**: misjudgements, wrong specifications and misunderstandings about the systems being managed. Managing it is shared ground, and so is the focus on precursor conditions and indicators (limited in security, because perpetrators hide them), with the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, pattern recognition, and taking \"I find myself in uncharted territory\" seriously. Emergency response overlaps too, with the caveat that first responders can themselves be targets."
+          },
+          {
+            "doel": "Explain what \"higher resolution reliability\" demands and why Schulman still argues for integration",
+            "uitleg": "It demands a **broader scope**, a **longer time horizon** and **more distributed participation** in error detection and precursor resilience. He still argues for a shared framework because treating the missions separately risks losing reliability: an overlapping framework built on error sensitivity can catch the precursors of one mission undermining the other. Integration does not resolve the tensions."
+          }
         ]
       },
       {
@@ -343,38 +373,67 @@ LESSTOF['intro-to-safety-security/h9'] = [
     "titel": "Quick recap",
     "blokken": [
       {
-        "type": "tekst",
-        "titel": "Chapter 9 in one story: the super-reliable organisations",
-        "tekst": "**HROs** (high-reliability organisations) are places where one big mistake could be a disaster: nuclear plants, power grids, air traffic control. Their goal isn't \"make accidents unlikely\", it's \"**this can never happen**\". So they build in backups and automatic shut-downs: when things get risky, they stop instead of pushing on.\n\nTheir recipe: **keep the wobble small.** Stable conditions, good procedures, careful planning, so everything stays inside a safe \"bandwidth\". The tricky part: attention, trust and shared understanding wear off under pressure, so you have to keep refreshing them."
+        "type": "slimmer",
+        "tekst": "**What this tab is**\n\nChapter 9 (Schulman) and its part of lecture 6 as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
       },
       {
         "type": "tekst",
-        "titel": "Weak signals and the people who notice them",
-        "tekst": "HROs look for **precursors**: little warning signs before things go wrong. A machine running near its limit, a packed and noisy control room, an operator who suddenly goes quiet, a pile of unfixed problems, work drifting into territory nobody has studied.\n\nThe heroes are **reliability professionals**: people at any level, no fancy title needed, who see the bigger picture and **speak up**. Complacency is the enemy. Resilience is a **people thing**, not just tech."
+        "titel": "A convenient untruth",
+        "tekst": "Schulman opens with a quote from the CEO of a major utility: **\"If we're doing a good job of safety management that should take care of security too.\"** Schulman calls it a **convenient untruth**. He does not explain the \"convenient\" part (the obvious reading is that it would save a second programme), but the whole chapter shows why it is untrue.\n\nHis question: **can one management framework carry both missions?** He answers in three steps: how safety is managed in a **high reliability organisation**, why security collides with that on four points, and what still overlaps."
       },
       {
         "type": "tekst",
-        "titel": "Plot twist: the enemy thinks back",
-        "tekst": "All of this works great against **nature and accidents**. Against an **attacker** it gets harder:\n- An attacker looks for your weak spots on purpose, may not care about surviving, and can even be **inside**.\n- **Fixes can backfire**: after 9/11 cockpit doors were locked tight against hijackers, and in 2015 a Germanwings co-pilot used that same door to lock the pilot out and crash the plane.\n- Some things are **vulnerable by design**, like the internet: everything connects to everything, so every new device is a new way in.\n- You can't stop every plot, a list of your weak points can attract attackers, and attackers can **hide or fake** the warning signs."
+        "titel": "How a high reliability organisation works",
+        "tekst": "**High reliability organisations (HROs)** run technical systems that can fail catastrophically: nuclear power plants, air traffic control, electricity grids. Their standard: catastrophic failures are **precluded deterministically**. There is a list of **precluded events** that must never happen, whatever the probability. A small chance is not acceptable. A nuclear plant that shuts down when in doubt is doing the right thing.\n\nThe classic formula: **low input variance plus low process variance gives low output variance**. The irony: this does not mean rigid sameness, but managing fluctuations within safe **bandwidths**, and staying out of dangerous or unstudied conditions.\n\nThe key tool: **precursors**, conditions that could lead to a precluded event, found by reasoning backwards from what must never happen. They can be technical, or organisational: a backlog of unresolved problems, unusual noise or silence, a movement into unstudied conditions. **Precursor resilience** means pulling back out of those conditions quickly, instead of waiting for the accident.\n\nOther ingredients: **lateral communication** between departments to keep the whole system in view; a culture that manages to the worst case, rewards imagination, spreads responsibility and gives people the **authority to stop**; and **reliability professionals** at every level, who blend formal and practical knowledge, see the system as bigger than their own job, and are **not defined by diplomas**. The enemies are complacency and hubris, and reliability is **perishable**: attention and trust must be renewed all the time."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 1 in one breath**\n\nThe CEO's claim that safety takes care of security is a convenient untruth. HROs preclude catastrophes deterministically, keep variation within bandwidths, manage precursors, talk sideways, and rely on reliability professionals with the authority to stop."
       },
       {
         "type": "tekst",
-        "titel": "The three tugs-of-war",
-        "tekst": "Safety and security pull in opposite directions in three ways:\n1. **Planned vs adaptable**: safety likes stable plans, security needs flexibility for surprise attacks.\n2. **Share vs contain**: safety wants everyone to see the incident reports, security wants to keep info away from attackers.\n3. **Open vs locked**: safety wants easy access and quick teamwork, security wants gates, guards and locks."
+        "titel": "Why security is different",
+        "tekst": "**Failure is not vulnerability.** Managing the risk of failure is different from managing vulnerability to people who want to destroy. Hostile strategy **targets your weak spots** and can use your own protections against you. So security can never reach the deterministic standard of HRO safety.\n\n**Germanwings 9525** is the example to know. The cockpit door, hardened after 9/11 to keep intruders out, protected the co-pilot who was already inside and locked out the captain. That is **reciprocal vulnerability**: a protection against one threat creates a vulnerability to another.\n\n**Design-based vulnerability**: exposure we build ourselves, like homes in forest areas exposed to wildfires. The internet is the extreme case: it can be attacked from anywhere, at any scale, and every new connected device adds to it. That lies **beyond the reach of any single organisation**, so it calls for regulation at the level of society.\n\nTwo more problems: **symbolic targets** make even failed attacks work, so preclusion is impossible; and the **risk of risk assessment**: a known vulnerability analysis can become a map for the attacker, pointing to targets, even the ones marked low risk. In security, failure is part of a **learning system**: the adversary learns from it."
+      },
+      {
+        "type": "tabel",
+        "titel": "Four tensions between the two missions",
+        "kop": [
+          "Safety management wants",
+          "Security management wants"
+        ],
+        "rijen": [
+          [
+            "Anticipation and prior analysis",
+            "Adaptability and resilience to the unexpected"
+          ],
+          [
+            "Lateral communication and open information",
+            "Restricted information, to prevent counter-learning"
+          ],
+          [
+            "Accessibility for cooperation and inspection",
+            "Hardening: guns, gates and guards"
+          ],
+          [
+            "Rapid inter-organisational emergency coordination",
+            "Security frameworks around access and information"
+          ]
+        ],
+        "noot": "Learn the four pairs: they are a classic exam question."
       },
       {
         "type": "tekst",
-        "titel": "But they also help each other",
-        "tekst": "Four ways they're on the same team: **being alert to errors** (question your assumptions), **noticing weak signals** (the person who spots a failing pump can spot an attack too), **experienced teams responding fast** (like US air traffic control on 9/11), and **looking further ahead**, together and across borders.\n\nSo who's right? Chapter 7 says: two different professions. Chapter 9 says: shared habits make both stronger. The lecturer's combo: **different expertise, shared habits.**"
+        "titel": "What overlaps, and Schulman's conclusion",
+        "tekst": "**What does not overlap**: the deterministic standard, the object of analysis (failure against vulnerability) and open communication. **Precursors** sit in between: Schulman says the focus on precursor conditions and indicators is important to **both** missions (recognising precursors to terror attacks is already part of security management), but in security it is limited, because perpetrators hide or falsify exactly those signals.\n\n**What does overlap**: the management of **representational error** (misjudgements, wrong specifications and misunderstandings about the systems you manage) and the attitude that goes with it: questioning assumptions, accepting surprise, fending off complacency, recognising patterns, and taking it seriously when someone says \"I find myself in uncharted territory\" or \"I'm not comfortable taking this action\". The consequences overlap too, and so does **emergency response**, with the caveat that first responders can themselves be targets.\n\nIntegration demands **higher resolution reliability**: a broader scope, a longer time horizon and more distributed participation. Teams of reliability professionals can act as first responders for both missions; Schulman's example is the air traffic controllers on 9/11.\n\nHis conclusion: integration does not make the tensions go away. But keeping the missions **separate** creates a specific risk: nobody notices when one mission undermines the other. A shared framework built on sensitivity to error can catch exactly that precursor."
       },
       {
-        "type": "tekst",
-        "titel": "Delta Water Works (the class exercise)",
-        "tekst": "You played the resilience team of a water company for 400,000 people. Some signals were **safety precursors** (47 unfixed reports, a quiet operator in a crowded room), some were **threats** (a random \"Payroll\" USB stick, fake \"ministry\" visitors), some were **both** (remote access from home, a propped-open fire door, reports hidden from staff), and one was **ambiguous** (a drone). The big lesson: when an operator says \"I'm in uncharted territory\", you **pause, investigate and protect the person who spoke up**, even if you're behind schedule."
+        "type": "slimmer",
+        "tekst": "**Part 2 in one breath**\n\nSecurity faces an adversary who targets weak spots and can turn protections around (Germanwings: reciprocal vulnerability); the internet is design-based vulnerability beyond any single organisation. Four tensions separate the missions. What overlaps is the management of representational error, the questioning attitude, precursors (limited in security) and emergency response. Integration needs higher resolution reliability, and separation risks missing one mission undermining the other."
       },
       {
         "type": "uitleg",
-        "tekst": "**The 5 takeaways of lecture 6**\n\n1. Hazards don't plan, threats do: intent changes the controls.\n2. Two toolkits: different professions (ch. 7).\n3. Resilience = weak signals: spot drift early and step back.\n4. Fixes can open new gaps: remember the cockpit door.\n5. Shared habits: question assumptions, speak up, join the dots."
+        "tekst": "**If you only remember 8 things**\n\n1. The CEO's claim is a convenient untruth.\n2. HROs preclude catastrophic events deterministically, whatever the probability.\n3. Low input plus low process variance gives low output variance; the irony of bandwidths.\n4. Precursors, precursor resilience, lateral communication, reliability professionals; reliability is perishable.\n5. Failure is not vulnerability; Germanwings 9525 and reciprocal vulnerability.\n6. Design-based vulnerability (the internet), symbolic targets, the risk of risk assessment.\n7. The four tensions.\n8. Overlap in representational error, attitude, precursors (limited in security) and emergency response; higher resolution reliability; separation risks missing one mission undermining the other."
       }
     ]
   },
