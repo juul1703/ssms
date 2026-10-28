@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v171**.
+Stand: 23 oktober 2026, service worker **v172**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -938,6 +938,13 @@ Figuur 8.1 als afbeelding bekeken: de les zei "Russia about 11:1"; de figuur gee
 Federatie 10:1 en de VS 11:1 (Zuid-Afrika 33:1, Brazilië 32:1). Hersteld. Vaardigheden-uitleg (9).
 Quick recap herschreven van 3.700 naar ca. 9.900 tekens. Na het college: slides en aantekeningen
 toevoegen in From the lecture-blokken.
+
+**v172: Society sessie 8 gecontroleerd tegen H23-24** (geen slides). Getallen nagelopen (Hiroshima,
+Eisenstein, verstedelijking Groot-Brittannie, laag-inkomenslanden 1950-1995, 81% in 2030, regel van 70,
+fase 2 van de demografische transitie). "8 miljard in 2022" gelabeld als algemene kennis.
+Vaardigheden-uitleg (13). Quick recap herschreven van 6.200 naar ca. 11.500 tekens. Let op bij het
+uitvoeren: `cut -c` breekt UTF-8-tekens; met Python afkappen. Hiermee zijn Society S1-S8 klaar; volgende
+stap de uitgebreide Society mid-term-les (2 opleveringen).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
