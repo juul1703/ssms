@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v179**.
+Stand: 23 oktober 2026, service worker **v180**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -987,6 +987,13 @@ uit /tmp/dump.json (eerst /tmp/dump.py draaien). Daarmee is Intro af; volgende s
 S2 ca. 6.900 tekens, geschreven uit de gecontroleerde kernstof; claims nagekeken (Clausewitz, Hobbes,
 Dogan en Pelassy, Acton, de slide-definitie van politiek, Figure 2.2 panelen, de landen van de
 austerity, "self-legitimating", "negative focusing events"). Volgende: S3 en S4.
+
+**v180: Governance Quick recaps sessie 3 en 4** (in overview-governance.js), elk ca. 7.800 tekens.
+Nagekeken: Gaddafi, Snowden, France's personal cabinet of advisers, presidentialisering, red tape,
+institution en institutionalisation (slide), "almost one-third" van de werkgelegenheid, de twee
+perspectieven op participatie, de drie antwoorden op "who commands the party" (inclusief
+Panebianco's electoral-professional party), de vier financieringsbronnen. "Nederland
+minderheidskabinet sinds 2026" gelabeld als algemene kennis.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
