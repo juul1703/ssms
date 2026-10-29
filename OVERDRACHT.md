@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v181**.
+Stand: 23 oktober 2026, service worker **v182**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1002,6 +1002,12 @@ expert authority is beperkt tot het eigen vakgebied (onderwijs tegenover elektro
 perspectieven, Börzel, de instrumenten "standards, best practices, ranking and shaming"). S7 aangevuld
 (5.300 naar 7.800: zes rollen, NGO-definitie, herkomst van lobby, corporatisme, tabellen 17.2, 17.3,
 17.5); VNO-NCW/FNV en #MeToo/BLM gelabeld als eigen voorbeelden.
+
+**v182: Governance mid-term-les uitgebreid**, zelfde opzet als Intro en Society: onder elke sessie het
+volledige verhaal uit de Quick recap (ca. 109.000 tekens, 8 kopjes). Bouwscript /home/claude/work/gmid
+(leest /tmp/dump.json). Daarmee zijn Intro, Governance en Society alle drie compleet: gecontroleerd,
+vaardigheden, Quick recaps op standaard, uitgebreide mid-term-les met oefentoets. Open: slides van
+nog niet gegeven colleges (Intro 7-8, Governance 7, Society 7-8) en DRM (nog niet gecontroleerd).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
