@@ -121,8 +121,8 @@ var TOETSBLOKKEN = {
       { id: 'midterm', groep: 'Colleges', toetsblok: 'mid', titel: 'Mid-term review \u00b7 sessions 1-8 in one lesson', duur: 180 }
     ],
     'demystifying-research-methods': [
-      { id: 'conceptlist-1', groep: 'Extra naslagwerken', titel: 'Concept list deel 1 \u00b7 Intro to Research Methods', duur: 60 },
-      { id: 'conceptlist-2', groep: 'Extra naslagwerken', titel: 'Concept list deel 2 \u00b7 Understanding the problem', duur: 35 },
+      { id: 'conceptlist-1', groep: 'Colleges', toetsblok: 'ct1', titel: 'Concept list deel 1 \u00b7 Intro to Research Methods', duur: 60 },
+      { id: 'conceptlist-2', groep: 'Colleges', toetsblok: 'ct1', titel: 'Concept list deel 2 \u00b7 Understanding the problem', duur: 35 },
       { id: 'conceptlist-3', groep: 'Extra naslagwerken', titel: 'Concept list deel 3 \u00b7 Planning your investigation', duur: 50 }
     ],
     'professional-skills': [

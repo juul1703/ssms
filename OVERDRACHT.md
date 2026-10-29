@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v182**.
+Stand: 23 oktober 2026, service worker **v183**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1008,6 +1008,12 @@ volledige verhaal uit de Quick recap (ca. 109.000 tekens, 8 kopjes). Bouwscript 
 (leest /tmp/dump.json). Daarmee zijn Intro, Governance en Society alle drie compleet: gecontroleerd,
 vaardigheden, Quick recaps op standaard, uitgebreide mid-term-les met oefentoets. Open: slides van
 nog niet gegeven colleges (Intro 7-8, Governance 7, Society 7-8) en DRM (nog niet gecontroleerd).
+
+**v183: DRM concept list deel 1 en 2 naar het CT1-blok** (EXTRA in vakken.js: groep 'Colleges',
+toetsblok 'ct1'); deel 3 blijft onder Extra naslagwerken (CT2-stof). Begin DRM-controle. Bronnen in
+het Project: slides lecture 1 (nieuw), workshop 1, lecture 2, workshop 2, course manual (met Appendix
+7, de concept list). Verhoeven en Van Tulder staan NIET in het Project. Sessie 1 (lecture 1) heeft
+nog geen les.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
