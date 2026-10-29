@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v180**.
+Stand: 23 oktober 2026, service worker **v181**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -994,6 +994,14 @@ institution en institutionalisation (slide), "almost one-third" van de werkgeleg
 perspectieven op participatie, de drie antwoorden op "who commands the party" (inclusief
 Panebianco's electoral-professional party), de vier financieringsbronnen. "Nederland
 minderheidskabinet sinds 2026" gelabeld als algemene kennis.
+
+**v181: Governance Quick recaps sessie 5-7 nagelopen.** S6: de WHO stond als voorbeeld van expert
+authority; bij Maia is het hoofd van het IMF of de WHO een voorbeeld van institutional authority, en
+expert authority is beperkt tot het eigen vakgebied (onderwijs tegenover elektronica). S5 herschreven
+(3.000 naar 6.400 tekens: definitie, oorsprong, shiftology, vier betekenissen, vijf mechanismen, vier
+perspectieven, Börzel, de instrumenten "standards, best practices, ranking and shaming"). S7 aangevuld
+(5.300 naar 7.800: zes rollen, NGO-definitie, herkomst van lobby, corporatisme, tabellen 17.2, 17.3,
+17.5); VNO-NCW/FNV en #MeToo/BLM gelabeld als eigen voorbeelden.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

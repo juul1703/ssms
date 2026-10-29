@@ -21,13 +21,34 @@ LESSTOF['governance-policy/college-5'] = [
       {
         "type": "leerdoelen",
         "items": [
-          {"doel": "Explain why governance is called a buzzword and how Levi-Faur defines it as a research agenda", "uitleg": "Governance is said to be many things: a buzzword, a fad, a framing device, an umbrella concept, a slippery concept, an empty signifier, a weasel word, and also a field, an approach and a theory. It is lamented for its ambiguity almost as often as it is used creatively. Levi-Faur's definition: \"an interdisciplinary research agenda on order and disorder, efficiency and legitimacy\", in the context of hybrid modes of control producing order **within, by, without and beyond the state**."},
-          {"doel": "Trace the scholarly origins of governance: kybernan, Williamson, markets and hierarchies, networks", "uitleg": "The word comes from the Greek **kybernan** (to pilot, steer or direct), via the Latin **gubernare**. The tipping point in the social sciences was **Williamson** (1979), whose transaction-cost economics entrenched the distinction between **markets and hierarchies**. Then came **networks**: Powell's \"Neither markets nor hierarchy\" (1990) and Rhodes's \"Policy networks: A British perspective\" (1990). Only in the 1990s did governance become a buzzword: 349 papers in the 1980s, 3,773 in the 1990s, 18,648 in the 2000s."},
-          {"doel": "Explain \"shiftology\": the three directions of shifts in governance and the main shifts named", "uitleg": "Governance carries images of change, so studying it became \"shiftology\", the study of change. The three directions: **upward** (regional, transnational, intergovernmental, global), **downward** (local, regional, metropolitan) and **horizontally** (to private and civil spheres of authority). Named shifts include politics to markets, politicians to experts, bureaucracy to regulocracy, service provision to regulation, national to global, hard to soft power, public to private authority. Key point: a shift away from government is not automatically a shift away from the state or from hierarchy."},
-          {"doel": "Distinguish governance as structure, process, mechanism and strategy, with the five mechanisms of decision-making", "uitleg": "**Structure**: the architecture of formal and informal institutions (the meaning most used). **Process**: the dynamics and steering functions of never-ending policy-making. **Mechanism**: institutional procedures of decision-making, compliance and control. **Strategy** (\"governancing\"): actors designing institutions and mechanisms to shape choice. The five mechanisms: **monetized exchange**, **non-monetized exchange**, **command**, **persuasion** and **solidarity** (\"loyalty rather than voice, love rather than interest\")."},
-          {"doel": "Say what governance is not", "uitleg": "Three points: **first**, governance is not a unified, homogenous and hierarchical approach to the study of politics, economics and society (most governance scholars see themselves as (neo)pluralists and pragmatists); **second**, it is, so far, not a theory of causal relations; **third**, governance is not government: it may be more than government or an alternative to it, but it is not synonymous with it. The trap from the quiz: governance is very much about the state, because the chapter is about how governance and the state relate."},
-          {"doel": "Compare the four perspectives on the state: hollowing out, degovernancing, state-centred governance and Big Governance", "uitleg": "**Hollowing out** (Rhodes): the state becomes \"a collection of inter-organizational networks made up of governmental and societal actors with no sovereign actor able to steer or regulate\". **Degovernancing**: like deregulation, limiting the ability of governments to govern. **State-centred governance** (Pierre and Peters, Offe): the state is still the leading actor, setting priorities and objectives. **Big Governance** (Levi-Faur): government and governance expand together, mainly through regulation, in hybrids."},
-          {"doel": "Explain steering versus rowing and the shadow of hierarchy", "uitleg": "Offe's catchphrase for state-centred governance: \"the state should limit itself to steering and leave the rowing to other actors\". **Steering** is setting direction and rules; **rowing** is delivering (taxing, spending, providing services). The **shadow of hierarchy**: non-state arrangements work because the state can always step in with binding rules. Add Börzel's paradox: the lower the effectiveness of government, the greater the need for governance, yet governance depends on the presence of government."}
+          {
+            "doel": "Explain why governance is called a buzzword and how Levi-Faur defines it as a research agenda",
+            "uitleg": "Governance is said to be many things: a buzzword, a fad, a framing device, an umbrella concept, a slippery concept, an empty signifier, a weasel word, and also a field, an approach and a theory. It is lamented for its ambiguity almost as often as it is used creatively. Levi-Faur's definition: \"an interdisciplinary research agenda on order and disorder, efficiency and legitimacy\", in the context of hybrid modes of control producing order **within, by, without and beyond the state**."
+          },
+          {
+            "doel": "Trace the scholarly origins of governance: kybernan, Williamson, markets and hierarchies, networks",
+            "uitleg": "The word comes from the Greek **kybernan** (to pilot, steer or direct), via the Latin **gubernare**. The tipping point in the social sciences was **Williamson** (1979), whose transaction-cost economics entrenched the distinction between **markets and hierarchies**. Then came **networks**: Powell's \"Neither markets nor hierarchy\" (1990) and Rhodes's \"Policy networks: A British perspective\" (1990). Only in the 1990s did governance become a buzzword: 349 papers in the 1980s, 3,773 in the 1990s, 18,648 in the 2000s."
+          },
+          {
+            "doel": "Explain \"shiftology\": the three directions of shifts in governance and the main shifts named",
+            "uitleg": "Governance carries images of change, so studying it became \"shiftology\", the study of change. The three directions: **upward** (regional, transnational, intergovernmental, global), **downward** (local, regional, metropolitan) and **horizontally** (to private and civil spheres of authority). Named shifts include politics to markets, politicians to experts, bureaucracy to regulocracy, service provision to regulation, national to global, hard to soft power, public to private authority. Key point: a shift away from government is not automatically a shift away from the state or from hierarchy."
+          },
+          {
+            "doel": "Distinguish governance as structure, process, mechanism and strategy, with the five mechanisms of decision-making",
+            "uitleg": "**Structure**: the architecture of formal and informal institutions (the meaning most used). **Process**: the dynamics and steering functions of never-ending policy-making. **Mechanism**: institutional procedures of decision-making, compliance and control. **Strategy** (\"governancing\"): actors designing institutions and mechanisms to shape choice. The five mechanisms: **monetized exchange**, **non-monetized exchange**, **command**, **persuasion** and **solidarity** (\"loyalty rather than voice, love rather than interest\")."
+          },
+          {
+            "doel": "Say what governance is not",
+            "uitleg": "Three points: **first**, governance is not a unified, homogenous and hierarchical approach to the study of politics, economics and society (most governance scholars see themselves as (neo)pluralists and pragmatists); **second**, it is, so far, not a theory of causal relations; **third**, governance is not government: it may be more than government or an alternative to it, but it is not synonymous with it. The trap from the quiz: governance is very much about the state, because the chapter is about how governance and the state relate."
+          },
+          {
+            "doel": "Compare the four perspectives on the state: hollowing out, degovernancing, state-centred governance and Big Governance",
+            "uitleg": "**Hollowing out** (Rhodes): the state becomes \"a collection of inter-organizational networks made up of governmental and societal actors with no sovereign actor able to steer or regulate\". **Degovernancing**: like deregulation, limiting the ability of governments to govern. **State-centred governance** (Pierre and Peters, Offe): the state is still the leading actor, setting priorities and objectives. **Big Governance** (Levi-Faur): government and governance expand together, mainly through regulation, in hybrids."
+          },
+          {
+            "doel": "Explain steering versus rowing and the shadow of hierarchy",
+            "uitleg": "Offe's catchphrase for state-centred governance: \"the state should limit itself to steering and leave the rowing to other actors\". **Steering** is setting direction and rules; **rowing** is delivering (taxing, spending, providing services). The **shadow of hierarchy**: non-state arrangements work because the state can always step in with binding rules. Add Börzel's paradox: the lower the effectiveness of government, the greater the need for governance, yet governance depends on the presence of government."
+          }
         ]
       },
       {
@@ -342,46 +363,54 @@ LESSTOF['governance-policy/college-5'] = [
     "blokken": [
       {
         "type": "slimmer",
-        "tekst": "**What this tab is**\n\nSession 5 (Levi-Faur plus the lecture) as one easy story."
+        "tekst": "**What this tab is**\n\nSession 5 (Levi-Faur, From \"Big Government\" to \"Big Governance\"?, plus lecture 5) as one story you can read on the bus. Everything here is also in the Core material, in full academic mode."
       },
       {
         "type": "tekst",
-        "titel": "The vibe of this session",
-        "tekst": "One question: **has governing moved away from the government?** Levi-Faur's answer: yes, it's spread out in all directions, **but the government didn't shrink**: it just governs more and more by making rules. That's \"Big Governance\"."
+        "titel": "The big question",
+        "tekst": "One question runs through the session: **has governing moved away from the government?** Levi-Faur's answer: yes, it is spread out in all directions, **but the state did not shrink**. It now governs more and more by making rules, together with companies and civil society. He calls that **Big Governance**."
       },
       {
         "type": "tekst",
-        "titel": "How we got here: three periods",
-        "tekst": "The lecture tells the backstory:\n1. **Cold War**: big, strong states that steered the economy (Keynes) or owned it (Marxism).\n2. **From 1989**: the market wins. Government is seen as slow, expensive and corrupt, so: privatise, deregulate, let the market do it (Fukuyama, Friedman).\n3. **Now**: the market can't fix everything either. Terrorism, climate change, populism, new wars. So governments, companies and civil society have to work together. That's **governance**."
+        "titel": "How we got here: three periods (the lecture)",
+        "tekst": "The lecture tells the backstory in three periods:\n1. **Strong state apparatuses** during the Cold War (the slide gives 1961-1989): governments that steered the economy (Keynes and institutionalism) or owned the means of production (Marxist approaches).\n2. **Globalisation**, from 1989: the market economy seen as the only alternative (the slide names Francis Fukuyama and Milton Friedman). Government is seen as inefficient and expensive, so privatise and deregulate.\n3. **Now**: the market cannot solve everything either (terrorism, climate change, populism, new wars), so governments, companies and civil society have to work together. That is **governance**."
       },
       {
         "type": "tekst",
-        "titel": "What governance even means",
-        "tekst": "It's a buzzword with a million meanings. Levi-Faur makes it a research question: **how is order created, within, by, without and beyond the state?** The key word is **steering**, like steering a ship, rather than raw power.\n\nThe lecture's simple definition of **public governance**: the government working together with **companies** and **civil society** (NGOs, activists) to solve shared problems.\n\n**Four meanings**: the rules and institutions (**structure**), the ongoing steering (**process**), the decision-making tools (**mechanism**: paying, trading favours, ordering, convincing, loyalty), and designing new ways to govern (**strategy**, or \"governancing\")."
+        "titel": "A buzzword turned into a research agenda",
+        "tekst": "Governance is called many things: a buzzword, a fad, an umbrella concept, a slippery concept, a weasel word, and also a field, an approach and a theory. Levi-Faur turns it into a research agenda: **\"an interdisciplinary research agenda on order and disorder, efficiency and legitimacy\"**, about how order is produced **within, by, without and beyond the state**.\n\nThe word comes from the Greek **kybernan**, to steer a ship. In the social sciences the tipping point was **Williamson** (1979), with the distinction between **markets and hierarchies**; then came **networks** (Powell: \"Neither markets nor hierarchy\"; Rhodes on policy networks, both 1990). Only in the 1990s did the word explode: 349 papers in the 1980s, 3,773 in the 1990s, 18,648 in the 2000s.\n\nThe lecture's simple definition of **public governance**: government working with **companies** and **civil society** (NGOs, activists, unions) to solve shared problems."
       },
       {
         "type": "tekst",
-        "titel": "Power moves in three directions",
-        "tekst": "Power shifts **up** (EU, UN), **down** (cities, regions) and **sideways** (companies, NGOs). Careful though: if the government does less itself, that doesn't automatically mean the state got weaker."
+        "titel": "Shiftology: power moves in three directions",
+        "tekst": "Because governance is about change, studying it became **\"shiftology\"**. Power shifts:\n- **upward**: to regional, international and global levels (the EU, the UN);\n- **downward**: to cities, regions and metropolitan areas;\n- **horizontally**: to private and civil actors (companies, NGOs).\n\nExamples of shifts in the chapter: from politics to markets, from politicians to experts, from bureaucracy to \"regulocracy\", from providing services to regulating them, from hard to soft power. The trap: a shift away from **government** is not automatically a shift away from the **state** or from hierarchy."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 1 in one breath**\n\nGovernance grew out of three periods: the strong state, the market, and now cooperation. Levi-Faur makes the buzzword a research agenda about order within, by, without and beyond the state. From kybernan to Williamson to networks, and power shifts up, down and sideways, without the state disappearing."
       },
       {
         "type": "tekst",
-        "titel": "The four perspectives on the state",
-        "tekst": "- **Hollowing out**: the state is losing control, and the strongest groups take over.\n- **Degovernancing**: let the market do it, less rules.\n- **State-centred governance**: the state is still the boss, it just **steers** and lets others **row** (do the practical work). Fits with **metagovernance**: governing the governance.\n- **Big Governance** (Levi-Faur): government AND everyone else are making more rules, through standards, best practices, rankings and naming-and-shaming."
+        "titel": "Four meanings and five mechanisms",
+        "tekst": "Governance has **four meanings**:\n- **structure**: the formal and informal institutions (the meaning used most);\n- **process**: the ongoing steering and policy-making;\n- **mechanism**: the procedures for making decisions and getting compliance;\n- **strategy** (\"governancing\"): actors designing institutions to shape choices.\n\nAnd **five mechanisms** of decision-making: **monetized exchange** (paying), **non-monetized exchange** (trading favours), **command** (ordering), **persuasion** (convincing) and **solidarity** (\"loyalty rather than voice, love rather than interest\").\n\nWhat governance is **not**: not one unified, hierarchical approach to studying politics; not (yet) a theory of causes; and **not the same as government**. And the trap from the quiz: governance is very much about the **state**."
       },
       {
         "type": "tekst",
-        "titel": "Good governance: the 8 qualities",
-        "tekst": "The lecture's checklist for good governance in a democracy: **rule of law, transparency, consensus, accountability, effectiveness and efficiency, equity and inclusiveness, responsiveness, participation.** Learn all eight."
+        "titel": "Four perspectives on the state",
+        "tekst": "- **Hollowing out** (Rhodes): the state becomes \"a collection of inter-organizational networks made up of governmental and societal actors with no sovereign actor able to steer or regulate\".\n- **Degovernancing**: like deregulation, limiting the ability of governments to govern.\n- **State-centred governance** (Pierre and Peters, Offe): the state still leads. Offe's catchphrase: \"the state should limit itself to steering and leave the rowing to other actors\". Steering means setting direction and rules; rowing means doing the practical work. Non-state arrangements work in the **shadow of hierarchy**: the state can always step in with binding rules. **Börzel's paradox**: the weaker the government, the greater the need for governance, yet governance depends on government being there.\n- **Big Governance** (Levi-Faur): government and governance grow **together**, mainly through **regulation**, with instruments such as standards, best practices, rankings and shaming."
       },
       {
         "type": "tekst",
-        "titel": "Bonus: the info problem",
-        "tekst": "The lecture ends with a warning: governance only works with good information. Watch out for **misinformation** (false by accident), **disinformation** (false on purpose), **paltering** (lying by telling only the true bits), and **propaganda**."
+        "titel": "The lecture's extras",
+        "tekst": "**Eight qualities of good governance** (in liberal democracies): rule of law, transparency, consensus orientation, accountability, effectiveness and efficiency, equity and inclusiveness, responsiveness, participation.\n\nAnd a closing warning: governance depends on good information. Watch out for **misinformation** (false by accident), **disinformation** (false on purpose), **paltering** (deceiving by telling only true things), and **persuasion and propaganda**."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**Part 2 in one breath**\n\nGovernance means structure, process, mechanism or strategy, works through five mechanisms, and is not the same as government. On the state there are four views: hollowing out, degovernancing, state-centred (steering, not rowing, in the shadow of hierarchy) and Levi-Faur's Big Governance through regulation. The lecture adds eight qualities of good governance and a warning about bad information."
       },
       {
         "type": "uitleg",
-        "tekst": "**If you only remember 6 things**\n\n1. Governance = order created within, by, without and beyond the state; steering, not just power.\n2. Three periods: strong state, market (1989), governance now.\n3. Shifts go up, down and sideways.\n4. Four meanings: structure, process, mechanism, strategy.\n5. Four perspectives: hollowing out, degovernancing, state-centred, Big Governance.\n6. Eight qualities of good governance."
+        "tekst": "**If you only remember 7 things**\n\n1. Has governing moved away from government? Yes, but the state did not shrink: Big Governance.\n2. Three periods: strong state, market (1989), governance now.\n3. Levi-Faur's definition: a research agenda on order and disorder, efficiency and legitimacy, within, by, without and beyond the state.\n4. Kybernan, Williamson (markets and hierarchies), networks; the 1990s explosion.\n5. Shifts up, down and sideways; not automatically away from the state.\n6. Four meanings, five mechanisms, what governance is not.\n7. Four perspectives: hollowing out, degovernancing, state-centred (steering and rowing, shadow of hierarchy, Börzel), Big Governance; eight qualities and the information warning."
       }
     ]
   },
