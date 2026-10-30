@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v183**.
+Stand: 23 oktober 2026, service worker **v184**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1014,6 +1014,13 @@ toetsblok 'ct1'); deel 3 blijft onder Extra naslagwerken (CT2-stof). Begin DRM-c
 het Project: slides lecture 1 (nieuw), workshop 1, lecture 2, workshop 2, course manual (met Appendix
 7, de concept list). Verhoeven en Van Tulder staan NIET in het Project. Sessie 1 (lecture 1) heeft
 nog geen les.
+
+**v184: DRM sessie 1 (lecture 1), nieuwe les** `drm-college-1.js` (les-id college-1), volledig uit de
+slides (slides_lecture_1_drm.pdf): 9 secties (waarom onderzoek, understand/decide/learn, informeel en
+systematisch met Ziggo Dome, fundamenteel en toegepast met de brandstichtingsoefening, THUAS, drie
+verantwoordelijkheden, research path, hoe de cursus werkt, de gastles van Jane Vasov), To remember,
+Quick recap, 8 vaardigheden met uitleg, 2 opdrachten, 10 quizvragen (10/10). Toetsinfo CT1 uit de
+manual (Appendix 1). Bouwscript /home/claude/work/drm/c1.py.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
