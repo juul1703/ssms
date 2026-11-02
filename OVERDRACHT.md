@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 2 november 2026, service worker **v186**.
+Stand: 2 november 2026, service worker **v187**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1048,6 +1048,22 @@ Oorzaak: eerdere rondes keken vooral of een bewering te vinden was, niet of de w
 een herstel werd niet overal doorgevoerd. **Werkwijze vanaf nu:** bij elke oplevering een regressie-grep
 over alle bestanden op alle eerder herstelde fouten (lijst: /home/claude/work/v186, of opnieuw maken uit
 dit hoofdstuk), en woordkeus van kernbegrippen letterlijk naast de bron.
+
+**v187: Society sessie 7, slides lecture 7 verwerkt** (*Inequality, social division and social
+stratification*). Negen From the lecture-blokken in `society-college-7.js`, vier vaardigheden met uitleg,
+What the lecturer emphasised, drie oefeningen, quiz van 10 (browser 14/14 en 10/10), vier begrippen,
+Quick recap met een blok over de review-lijst (9 things). Let op: de slide noemt Weber de 'symbolic'
+verklaring; het boek gebruikt dat label niet (staat zo in de les). De ideologievoorbeelden (elitism is
+efficient enz.) zijn van de docent, niet uit het boek. Mujica: algemene kennis, gelabeld.
+**Review-slides** (11 onderwerpen voor de mid-term) staan in de les en bovenaan de mid-term-les, met
+koppeling naar sessies; de paginanummers horen bij een nieuwere druk en zijn bewust weggelaten. Sessie 8
+eindigt met een mock exam. Mid-term-les: sessie 7 bijgewerkt en het verhaal gelijkgetrokken (20/20).
+Sessietitels Society 7 en 8 nu Engels. **Julie (2 nov):** het hoeft niet woord voor woord gelijk aan de
+bron; het gaat om begrijpen en toepassen. Inhoudelijke fouten blijven onacceptabel.
+**Open:** Governance sessie 7 (slides staan in uploads: Political parties & interest groups); DRM v-volgend:
+concept list deel 1 (A-E gecontroleerd in chat, fixes nog niet doorgevoerd: 'thirty' moet 28, CT1 = deel 1
+en 2, vergelijkingstabel figuur 2, 'often follows' moet 'can be a follow-up', labels); huiswerkblad
+workshop 1 + answer key gevraagd aan Julie.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
