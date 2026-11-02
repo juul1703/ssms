@@ -95,7 +95,7 @@ var TOETSBLOKKEN = {
         h5:  'H5 Security- en safetycultuur',
         h7:  'H7 Divergence of safety and security',
         h9:  'H9 Managerial tensions and synergies',
-        h10: 'H10 The intersection at the workplace'
+        h10: 'H10 The interface of safety and security: the workplace'
       }
     },
     'demystifying-research-methods': {

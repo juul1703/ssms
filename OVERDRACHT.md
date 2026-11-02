@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v185**.
+Stand: 2 november 2026, service worker **v186**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1027,6 +1027,27 @@ manual (Appendix 1). Bouwscript /home/claude/work/drm/c1.py.
 toegangsbeveiliging: wie het adres kent, komt er nog steeds in. Echte afscherming kan alleen buiten
 GitHub Pages (bijv. Cloudflare Pages met Cloudflare Access); Julie overweegt dat. Let op bij verhuizen:
 voortgang, deadlines en de iCal-link staan in localStorage per domein en gaan niet vanzelf mee.
+
+**v186: Intro programmawijziging en slides sessie 7.** Sessie 7 is nu Bieder H10 met lecture 7 (Jonathan
+Corr, 28 okt, *The Interface of Safety and Security: The Workplace*); sessie 8 is examenvoorbereiding
+(leeg). Verplichte gastcolleges Intro: alleen sessie 9 en 10 (Julie, 2 nov); 11, 12, 14, 15 heten nu
+'Gastcollege', ook aangepast in de studiegids. **Sessietitels (onderwerp) voortaan Engels** (Julie).
+H10-les: zes From the lecture-blokken, Watch out over de black-out (in de warm-up een cyberaanval, de
+krantenbron van het boek ging over een brand door vandalisme), 4 vaardigheden met uitleg, What the
+lecturer emphasised (slide 19), 6 oefeningen (warm-up, pair talk, domino, teamleider, Haven Logistics met
+debrief slide 18, exit ticket), tweede quiz van 10 (browser 8/8 en 10/10), 4 begrippen, Quick recap naar
+ca. 13.000 tekens. Mid-term-les: sessie 7/8 bijgewerkt, verhaal opnieuw gelijkgetrokken (20/20).
+`app.js`: eenmalige kopie van localStorage-sleutels `...college-8...` naar `...college-7...` (vlag
+`ssms-migratie-v186`), omdat voortgang en antwoorden aan het sessienummer hangen.
+**Fouten in eerder 'gecontroleerde' H10-tekst, hersteld:** "intersection" (boek en slides: interface),
+"usually to save costs" (stond er nog, terwijl v152 hem als hersteld meldt), "retiring early",
+"increasingly ordinary" (boek: "usual"), "glossed over" (boek: eliminated), "arrested" (boek: captured,
+allegedly), "regardless of intention" (boek: intensity, wide or covert), Jore/differentiation in
+modelantwoord 2 (Jore bedoelt onderscheid van verwante begrippen, niet te breed), H7-wetgeving preciezer.
+Oorzaak: eerdere rondes keken vooral of een bewering te vinden was, niet of de woordkeus exact klopt, en
+een herstel werd niet overal doorgevoerd. **Werkwijze vanaf nu:** bij elke oplevering een regressie-grep
+over alle bestanden op alle eerder herstelde fouten (lijst: /home/claude/work/v186, of opnieuw maken uit
+dit hoofdstuk), en woordkeus van kernbegrippen letterlijk naast de bron.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

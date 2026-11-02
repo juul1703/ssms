@@ -4,6 +4,27 @@
    Voortgang wordt lokaal bewaard (localStorage), dus offline.
    ============================================================ */
 
+/* v186: Intro H10 verhuisde van sessie 8 naar sessie 7. Voortgang, notities,
+   quiz- en oefenantwoorden hingen aan 'college-8'; kopieer ze eenmalig naar
+   'college-7' (alleen als daar nog niets staat; het oude blijft staan). */
+(function migreerIntroSessie7(){
+  try {
+    if (localStorage.getItem('ssms-migratie-v186')) return;
+    var oud = 'intro-to-safety-security-college-8', nieuw = 'intro-to-safety-security-college-7';
+    var sleutels = [];
+    for (var i = 0; i < localStorage.length; i++) sleutels.push(localStorage.key(i));
+    sleutels.forEach(function(k){
+      if (k && k.indexOf(oud) > -1) {
+        var n = k.split(oud).join(nieuw);
+        if (localStorage.getItem(n) === null) localStorage.setItem(n, localStorage.getItem(k));
+      }
+    });
+    var v8 = 'ssms-voor-intro-to-safety-security-8', v7 = 'ssms-voor-intro-to-safety-security-7';
+    if (localStorage.getItem(v8) === 'af' && localStorage.getItem(v7) !== 'af') localStorage.setItem(v7, 'af');
+    localStorage.setItem('ssms-migratie-v186', '1');
+  } catch(e){}
+})();
+
 var STUDENT = { naam: '' }; // vul je voornaam in voor een persoonlijke groet
 
 /* Vakken en lessen. Voeg lessen toe als objecten: {id, titel, duur, url}
