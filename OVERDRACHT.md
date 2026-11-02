@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 23 oktober 2026, service worker **v184**.
+Stand: 23 oktober 2026, service worker **v185**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1021,6 +1021,12 @@ systematisch met Ziggo Dome, fundamenteel en toegepast met de brandstichtingsoef
 verantwoordelijkheden, research path, hoe de cursus werkt, de gastles van Jane Vasov), To remember,
 Quick recap, 8 vaardigheden met uitleg, 2 opdrachten, 10 quizvragen (10/10). Toetsinfo CT1 uit de
 manual (Appendix 1). Bouwscript /home/claude/work/drm/c1.py.
+
+**v185: niet vindbaar voor zoekmachines.** `robots.txt` (Disallow: /) in de root en
+`<meta name="robots" content="noindex, nofollow">` in index.html, les.html en vak.html. Dit is geen
+toegangsbeveiliging: wie het adres kent, komt er nog steeds in. Echte afscherming kan alleen buiten
+GitHub Pages (bijv. Cloudflare Pages met Cloudflare Access); Julie overweegt dat. Let op bij verhuizen:
+voortgang, deadlines en de iCal-link staan in localStorage per domein en gaan niet vanzelf mee.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
