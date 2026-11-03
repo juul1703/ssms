@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 3 november 2026, service worker **v190**.
+Stand: 3 november 2026, service worker **v191**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1099,6 +1099,15 @@ staat in uploads als scan; OCR-tekst in /tmp/c2/q-*.txt kan weg zijn, opnieuw ma
 200 + tesseract), en H4 4.9-4.13 (Marx/Weber/Durkheim modern; buiten de pagina's, voorlopig blijven
 staan met waarschuwing omdat recap, quiz en mid-term-les ernaar verwijzen). Deel 2 (v191): H2, recap,
 Quick recap, quiz en mid-term-les sessie 1.
+
+**v191: Society sessie 1, H1 p. 21-25 (5e druk, screenshots Julie).** Oude 1.5-1.7 (4e druk: oorsprong,
+Comte 1838, drie stadia, positivisme, vier veranderingen, Gemeinschaft/Gesellschaft) vervangen door: 1.5
+Mills-box, 1.6 Sociology and the significance of change, 1.7 Great Transformation 2 (digital-information-
+network-cyborg society, vijf labels, Castells, Table 1.4, new information order), 1.8 Futures. Comte
+'coined' volgens Mann-definitie: 1830 (4e druk: 1838). Leerdoelen 5-6, quizvragen 5-7, checklist, recap en
+Quick recap (overview-society.js) mee aangepast; `app.js` wist eenmalig oude antwoorden op quizvragen 5-7
+(vlag `ssms-migratie-v191`). Nog open voor deel 2: H2, H4 4.9-4.13 eruit, oefening 5 (Gemeinschaft), en
+de mid-term-les sessie 1 (noemt nog Comte 1838, vier veranderingen, drie problemen).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

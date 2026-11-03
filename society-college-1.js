@@ -7,6 +7,7 @@
    v122: op standaard gebracht (In plain words per kopje, tijdnood-blok
    waar dat ontbrak, hover-begrippen, geen em dashes). Inhoud ongewijzigd.
    v190: H1 (p. 4-14) en H4 (p. 106-116) opnieuw uit de 5e druk.
+   v191: H1 p. 21-25 (Mills, verandering, digitale samenleving, futures) uit de 5e druk.
    ============================================================ */
 
 LESSTOF['society-politics/college-1'] = [
@@ -34,12 +35,12 @@ LESSTOF['society-politics/college-1'] = [
             "uitleg": "**Benefits:** 1. a \"form of consciousness\" that challenges familiar understandings and asks awkward questions; 2. assessing both the **opportunities and the constraints** in our lives; 3. empowering us to be **active participants** in society; 4. helping us **recognise human difference** and the suffering in the world. **Problems:** 1. sociology is part of a changing world (a moving object); 2. sociologists are part of what they study; 3. sociological knowledge becomes part of society."
           },
           {
-            "doel": "Explain how the Enlightenment, Comte and positivism gave rise to sociology, and name the four changes that drove it",
-            "uitleg": "The **Enlightenment** brought reason, science and progress against tradition; **Comte** coined the term sociology in **1838** and argued for **positivism**: understanding society through science, divided into social statics and social dynamics. The four changes: 1. a **new industrial economy**; 2. the **growth of cities**; 3. **political change** (individual liberty and rights, the French Revolution of 1789); 4. the **loss of Gemeinschaft**, the eclipse of community (Toennies)."
+            "doel": "Explain Mills's sociological imagination and the link between personal troubles and public issues",
+            "uitleg": "The sociological imagination is the **quality of mind** that lets us grasp **history and biography** and the relations between them within society. Many **personal troubles** (losing a job) cannot be solved merely as troubles, but must be understood as **public issues** (an economy in crisis). Triple focus: **biography, history and structure**. Apply it: name the personal trouble, then the public issue behind it."
           },
           {
-            "doel": "Explain Toennies’s Gemeinschaft and Gesellschaft",
-            "uitleg": "**Gemeinschaft**: human community, with close ties of kinship and tradition in which people share a sense of belonging. **Gesellschaft**: a society in which people are, in Toennies's phrase, essentially separated in spite of uniting factors, with relationships based on self-interest. Toennies (1887) saw the modern world as the progressive loss of Gemeinschaft. Learn the two phrases as a pair."
+            "doel": "Name the five labels for the digital-information-network-cyborg society",
+            "uitleg": "**Digital Age** (digitalisation, miniaturisation), **Cyborg Age** (humans adapted to technologies), **Information Age** (a flood of data), **Network Society** (new ways of communicating and relating; Castells), **Virtual Age** (reality mediated through technology). Each highlights a different aspect of the same change, which also gives sociology new topics and new methods."
           },
           {
             "doel": "Explain what a theory and a theoretical perspective are, and compare functionalism, conflict theory and symbolic interactionism",
@@ -72,7 +73,7 @@ LESSTOF['society-politics/college-1'] = [
       {
         "type": "waarschuwing",
         "titel": "Two things to know about the reading",
-        "tekst": "**Edition.** The programme lists H1 p. 4-14 and 21-25, H2 p. 33-52 and H4 p. 106-116 of the **5th edition**. Chapters 1 (pages 4-14) and 4 (pages 106-116) of this lesson are now based on that edition (v190). Still from the 4th edition: chapter 1 sections 1.5-1.7 (pages 21-25 not yet in the Project), chapter 2 (being checked next), and chapter 4 sections 4.9-4.13 (not on the assigned pages).\n\n**The book is dated.** The 5th edition's figures are from around 2009-2010 (the suicide table is WHO 2009; 200 societies in 2010). Learn the book's figures for the midterm, but do not use them as current facts in a paper."
+        "tekst": "**Edition.** The programme lists H1 p. 4-14 and 21-25, H2 p. 33-52 and H4 p. 106-116 of the **5th edition**. Chapters 1 (pages 4-14) and 4 (pages 106-116) of this lesson are now based on that edition (v190). Chapter 1 pages 21-25 were added in v191. Still from the 4th edition: chapter 2 (being checked next), and chapter 4 sections 4.9-4.13 (not on the assigned pages).\n\n**The book is dated.** The 5th edition's figures are from around 2009-2010 (the suicide table is WHO 2009; 200 societies in 2010). Learn the book's figures for the midterm, but do not use them as current facts in a paper."
       },
       {
         "type": "slimmer",
@@ -143,75 +144,55 @@ LESSTOF['society-politics/college-1'] = [
         "tekst": "**In plain words**\n\nOutsiders and people in a crisis see social forces more easily; when millions lose their jobs at once, it's clearly not their own fault. Sociology helps you think critically, see your options and limits, take part in society and respect other ways of life."
       },
       {
+        "type": "tekst",
+        "titel": "1.5 C. Wright Mills: the sociological imagination",
+        "tekst": "*(Thinkers and theory box.)* **Charles Wright Mills (1916-62)** was an outspoken, radical, left-wing American sociologist (an American Marxist) who caused a stir with almost everything he did, from arriving at Columbia University on his motorcycle in jeans and boots to books that challenged what most people take for granted. His book ***The Sociological Imagination*** (1959) influenced generations of sociologists.\n\nFor Mills, sociology is not a dry enterprise but an **escape from the 'traps' of our lives**: it shows that **society, not our own foibles or failings, is responsible for many of our problems**. Sociology **transforms personal problems into public and political issues**. The [[sociological imagination|Sociological imagination]] enables us to **grasp history and biography and the relations between the two within society**: that is its task and its promise.\n\nThe excerpt (Mills, 1957): when a society industrialises, a peasant becomes a worker and a feudal lord a businessman; when classes rise or fall, a man is employed or unemployed; when wars happen, an insurance salesman becomes a rocket launcher, a wife lives alone, a child grows up without a father. **Neither the life of an individual nor the history of a society can be understood without understanding both.** Yet people do not usually define their troubles in terms of historical change; they lack the **quality of mind** to grasp the interplay of man and society, of biography and history, of self and world. That quality is the **sociological imagination**. Mills's advice: know that many **[[personal troubles|Personal troubles and public issues]]** cannot be solved merely as troubles, but must be understood in terms of **public issues** and the problems of history making; and the meaning of public issues must be revealed by relating them to personal troubles.\n\nThe box concludes: this triple focus on **biography, history and structure** is sociology's heritage (Bhadra, 1998). And note: Mills uses male pronouns for all people, the convention of the 1950s before gender became a key issue in sociology."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**In plain words**\n\nMills says your problems are often not just your own fault: losing your job in a crisis is a public issue, not only a personal trouble. The sociological imagination is the skill of connecting your own life story to history and society."
+      },
+      {
         "type": "uitleg",
         "tekst": "**From the lecture**\n\nThe lecture puts Mills on a slide as **biography (personal milieu, troubles)** on one side, **history (public issues, society)** on the other, and the **sociological imagination** as the quality of mind that lets you see the interplay. Its example is more recent than the book's: **one student who cannot pay tuition is a personal trouble; millions facing staggering student debt is a systemic public issue.**\n\nThe slide adds a reason that matters for your degree: the more you understand how society operates, the more thoughtfully you engage with it, **and the more sound your recommendations become**. That is the bridge from sociology to safety and security work.\n\nThe lecture also has a slide the book does not have: **the global village, if the world were 100 people**. 61 live in Asia, 13 in Africa, 12 in Europe, 14 in the Americas; **20 people hold 80 per cent of global income**; **50** lack regular food security or steady work; only **8** reach higher education. The question underneath it is the sociological one: **what structural forces produce and maintain this distribution?**"
       },
       {
-        "type": "waarschuwing",
-        "tekst": "**The next three sections are still from the 4th edition.** The programme also assigns chapter 1 pages **21-25** (5th edition), which are not yet in the Project. Sections 1.5 to 1.7 below come from the 4th edition and have not yet been checked against those pages."
-      },
-      {
         "type": "tekst",
-        "titel": "1.5 Social change and the origins of sociology",
-        "toetsstof": true,
-        "tekst": "Major historical events rarely just happen, and neither did [[sociology|Sociology]]. Human beings have thought about [[society|Society]] since the beginning of history: **Confucius (551-479 BCE)**, **Plato** and **Aristotle**, **Thomas Aquinas**, the fourteenth-century Muslim thinker **Ibn Khaldun**, **Montesquieu**. But, as **Durkheim** noted, none of them approached society from a truly sociological point of view. Their aim was not to describe society as accurately as possible but to present **the idea of a perfect society, a model to be imitated**. What sets sociology apart is that it tries to **analyse society as it really is**.\n\n**[[The Enlightenment]].** Sociology is a product of Enlightenment thinking, with the French *philosophes* (Montesquieu, Rousseau, Voltaire) as its cornerstone. Peter Hamilton lists **ten hallmarks** of the Enlightenment mind: **reason, empiricism, science, universalism, progress, individualism, toleration, freedom, uniformity of human nature, and secularism**.\n\nFour thinkers the book puts in a box, worth knowing by name:\n- **Descartes**: how do I know, and can I be certain? \"I think therefore I am.\"\n- **Rousseau**: man is born free, and everywhere he is in chains; living under the general will is the remedy.\n- **Voltaire**: mocks the idea that this is the best of all possible worlds in *Candide*; better to cultivate your own garden.\n- **Hobbes**: without society, life is \"solitary, poor, nasty, brutish and short\", so people should hand power to a sovereign whose authority must be absolute. **Locke** disagreed: the ruler's authority rests on an implied contract and is **not** absolute.\n\n**Comte and [[positivism|Positivism]].** In **1838** the French thinker **[[Auguste Comte]]** coined the term **sociology**. He divided the new discipline into **social statics** (how society is held together) and **social dynamics** (how society changes). He sorted human efforts to understand the world into **three stages**:\n- the **theological** stage, up to the medieval period, in which society was seen as an expression of God's will;\n- the **metaphysical** stage, from the Renaissance, in which society was understood as natural rather than supernatural (Hobbes saw it as reflecting a selfish human nature);\n- the **scientific** stage, propelled by Copernicus, Galileo and Newton, in which Comte applied the scientific approach to society.\n\nComte was a proponent of **positivism**: understanding the world on the basis of science. As a positivist he believed society conforms to invariable laws, as the physical world does. Most sociologists still agree that science has a crucial role, but with two reservations the book adds: human beings are imaginative and spontaneous, so behaviour can never be fully explained by rigid \"laws of society\", and the universe itself now looks more chaotic and emergent than we used to think."
+        "titel": "1.6 Sociology and the significance of change",
+        "tekst": "Living through the **French Revolution** and the **Industrial Revolution** must have been exciting and dangerous. That was the period the earliest sociologists lived through, and why they tried to understand the changes and where they were heading: **sociology was born out of this firmament of change**.\n\nSociologists reacted differently. **Auguste Comte** and later **Ferdinand Toennies** feared that people would be uprooted from long-established local communities and overpowered by change; in a **conservative** approach, Comte sought to shore up the family and traditional morality. **Karl Marx (1818-83)** worried little about the loss of tradition, but could not condone how industrial technology concentrated great wealth in a small elite while many faced hunger and misery (chapter 4). Comte and Marx gave radically different prescriptions for modernity, but shared the conviction that **society rests on much more than individual choice**: individual lives are framed by the broader society, a lesson as true today as a century ago."
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nPeople have always thought about society, but sociology as a science only started about 200 years ago, when society was changing very fast."
+        "tekst": "**In plain words**\n\nThe first sociologists lived through huge revolutions. Some (Comte) wanted to protect tradition, others (Marx) wanted to end inequality, but all agreed that society shapes individual lives."
       },
       {
         "type": "tekst",
-        "titel": "1.6 The four changes that produced sociology",
-        "toetsstof": true,
-        "tekst": "[[Sociology]] was born out of the massive social transformation of the past two centuries. Two great revolutions, the **French Revolution of 1789** and the **Industrial Revolution** traced to eighteenth-century England, had, in Giddens's words, all but dissolved the forms of social organisation in which humankind had lived for thousands of years. Sociology flowered precisely in **France, Germany and England**, where change was greatest. The book names **four dimensions of change**.\n\n**1. A new industrial economy.** In the Middle Ages most people worked the fields near their homes or did small-scale *manufacturing* (from the Latin for \"to make by hand\"). By the end of the eighteenth century, water power and then steam powered large machines, which gave birth to **factories**. Instead of working at home, people became part of a large and anonymous industrial workforce, working for strangers who owned the factories. This generated huge poverty and mass suffering, weakened families and eroded the traditions that had guided small communities.\n\n**2. The growth of cities.** Factories pulled people in need of work. The **[[enclosure movement|Enclosure movement]]** pushed them out: landowners fenced off ground and turned farms into grazing land for sheep, the source of wool for the textile mills, which forced countless tenant farmers off the land. Villages were abandoned and factory towns swelled into large cities, churning with strangers in numbers that overwhelmed the housing. Poverty, disease, pollution, crime and homelessness were the order of the day, the world Dickens described.\n\n**3. Political change: control and democracy.** In the Middle Ages royalty claimed to rule by **[[divine right|Divine right]]** and each person had a part in the holy plan. From the seventeenth century, **Hobbes, Locke and Adam Smith** shifted the focus from people's moral obligation to remain loyal to their rulers to the idea that [[society|Society]] is the product of **individual self-interest**. The key phrases became **individual liberty and individual rights**; the American Declaration of Independence asserts \"certain unalienable rights\". The French Revolution was an even more dramatic break: **de Tocqueville** said the changes amounted to nothing short of the regeneration of the whole human race.\n\n**4. The loss of [[Gemeinschaft]]: the eclipse of community.** The German sociologist **Ferdinand Toennies** (1887) saw the modern world as the progressive loss of **Gemeinschaft**, human community. The Industrial Revolution undermined the fabric of family and tradition by fostering individualism and a businesslike emphasis on facts and efficiency, so societies became rootless and impersonal and people associated mostly on the basis of **self-interest**: the condition he called **[[Gesellschaft]]**.\n\nHis formulation is worth learning as a pair: in Gemeinschaft people are **\"essentially united in spite of all separating factors\"**; in the modern world they are **\"essentially separated in spite of uniting factors\"**. Gesellschaft is the world of large cities where most people live among strangers, ignore those they pass and find trust hard to come by.\n\nToennies distrusted the notion of **progress**, which he feared amounted to a steady loss of traditional morality. He did not claim modern society was worse, and he praised the spread of rational, scientific thinking, but growing individualism troubled him. Knowing there could be no return to the past, he hoped new forms of social organisation would combine **modern rationality with traditional collective responsibility**."
+        "titel": "1.7 Social change and the Great Transformation 2: the digital-information-network-cyborg society",
+        "tekst": "Sociology was born of the Industrial Revolution but has fast moved into the **Cyber Revolution**. Digital technologies, information technologies and new ways of communicating have spread extraordinarily fast since the later twentieth century: the **World Wide Web** launched only in **1991**, and already over 180 countries are connected, with over 100 million users in the US alone. A **Net Generation** takes computers and the internet for granted, often reversing adult-child roles; many users are young, male and relatively wealthy: Douglas Rushkoff's (1999) **'Digital Kids'**, though women, more classes and ethnicities and more groups across the world are joining. In 2010 young people spent on average **seven hours a day** with new technologies, and there were at least **250 million Facebook sites**. **Table 1.4** (2010): of a world population of about 6.8 billion, almost **2 billion** used the internet (**28.7 per cent**), from 77.4 per cent in North America to 10.9 per cent in Africa; growth 2000-10 was 444.8 per cent; Asia had the largest share of users (**42 per cent**, Figure 1.2).\n\nThe best term for this change is not yet clear. Five suggestions, each highlighting a different aspect:\n1. **The Digital Age**: the computerisation of life, from analogue to digital, and miniaturisation into everyday gadgets; **digitalisation** is the key process.\n2. **The Cyborg Age**: humans increasingly adapted to and compelled to live with technologies, from transplants to space travel.\n3. **The Information Age**: the rapid growth of production and availability of data and information (Wikipedia alone has over 14 million articles).\n4. **The Network Society**: new ways of communicating and relating: mobile phones put us in 'perpetual contact', and Facebook (some 500 million users in mid-2010) gives new ways to build friendship networks. (The Information Age and the Network Society are terms used by **Manuel Castells**.)\n5. **The Virtual Age**: the mediated nature of reality: reality is less direct and increasingly mediated through technology (a phone, a screen, a bar code).\n\n**Sociology and the new information order.** Sociology is changing in two ways: **new topics** (from digital dating to digital democracies; the *Living the digital life* box links digital themes to every chapter, such as the surveillance society and cybercrime in chapter 17 and the network society in chapter 6) and **new methods** (Google, YouTube, Wikipedia, Twitter and Facebook as tools, with new problems for research). We live in social worlds saturated with information; in a way everybody can be their own sociologist, **but no data or information is just the automatic truth about society**: thinking is what is required."
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nSociology grew out of four big changes: new industry, growing cities, new political ideas about freedom and rights, and the rise of science."
-      },
-      {
-        "type": "vergelijking",
-        "links": {
-          "titel": "Gemeinschaft",
-          "tekst": "Human community, typical of traditional society.",
-          "punten": [
-            "Bonds of kinship, neighbourhood and tradition",
-            "Collective sentiments, virtue and honour",
-            "\"Essentially united in spite of all separating factors\"",
-            "Example: a rural village before cars and telephones"
-          ]
-        },
-        "rechts": {
-          "titel": "Gesellschaft",
-          "tekst": "Association, typical of modern society.",
-          "punten": [
-            "Bonds of self-interest, facts and efficiency",
-            "Rootless, impersonal, individualistic",
-            "\"Essentially separated in spite of uniting factors\"",
-            "Example: a large city full of strangers"
-          ]
-        }
+        "tekst": "**In plain words**\n\nSince the internet arrived, society has changed as much as during the Industrial Revolution. Sociologists use five labels for it: digital, cyborg, information, network and virtual. Sociology now studies new digital topics with new digital tools, but data alone isn't the truth: you still have to think."
       },
       {
         "type": "tekst",
-        "titel": "1.7 Sociologists look to the future",
-        "toetsstof": true,
-        "tekst": "The earliest sociologists lived through the French and Industrial Revolutions, and they **reacted differently** to the new order, just as sociologists respond differently to [[society|Society]] today.\n\n- **Comte** and later **Toennies** feared that people would be uprooted from long-established communities and overpowered by change. Comte's response was conservative: shore up the family and traditional morality.\n- **Karl Marx (1818-83)** worried little about the loss of tradition, but could not condone the way industrial technology concentrated great wealth in the hands of a small elite while so many faced hunger and misery.\n\nRadically different prescriptions, but a shared conviction: **society rests on much more than individual choice**, and individual lives are framed by the broader society.\n\n**Continuing change.** The changes of the twenty-first century are as momentous as those of the nineteenth: digital technologies, new media, new reproductive technologies, new global connections. Traditional families, religions, patterns of work and government are all being rethought. People are given no clear blueprint for how to live, so they have to ask what kind of life they want to lead: they become **more individualised, less committed to common standards, more prone to self-reflection**. Divisions of class, ethnicity, age and gender are more noticeable, and conflicts over religion and culture are rife. Just as [[sociology|Sociology]] was born of the Industrial Revolution, it now faces the challenge of what the book calls the **postmodern or information society**.\n\n**Sociology does not stand alone.** A box in the chapter places it next to its neighbours: **history** (all social phenomena have histories: when did this happen and what led to it?), **philosophy** (the assumptions about human nature, freedom and knowledge behind any [[theory|Theory]]), **anthropology** (how social things are organised across different cultures, and the corrective against **[[ethnocentrism|Ethnocentrism]]**, judging another culture by the standard of your own), and **literature** (novels, film and art as visions of human life). Newer fields such as women's and gender studies, media and cultural studies, ethnic studies, human rights and queer studies are usually more interdisciplinary and focus on one issue."
+        "titel": "1.8 Futures: a world brimming with change",
+        "tekst": "The changes of the twenty-first century are as momentous as those of the nineteenth and twentieth: digital technologies, new media, new sciences such as reproductive technologies, and new transnational movements and global interconnections. Traditional families, religions, work and government are being rethought. People no longer get a clear blueprint for how to live; they must ask what kind of life they want, and become **more individualised**, less committed to common standards and more self-reflective. Divisions and inequalities of **class, ethnicity, age and gender** have become more noticeable and often increased, and new conflicts over religion and culture seem rife.\n\nJust as sociology was born of the Industrial Revolution, it finds renewed excitement in what the book calls the **postmodern or information society**. The book follows the move to modernity and how it may be transforming into **global, digital, postmodern** society, through pivotal social forces: culture, inequality, social class, race, ethnicity, gender, the economy and the family. Sociology is highly relevant to a world brimming with change."
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nThe first sociologists reacted to these changes in different ways: some wanted order and stability, others wanted big changes to make society fairer."
+        "tekst": "**In plain words**\n\nToday people have to figure out for themselves how to live, while inequality and conflicts become more visible. Sociology was born from one big change and is now needed for the next one."
       },
       {
         "type": "checklist",
-        "titel": "Summary of chapter 1 (pages 4-14)",
+        "titel": "Summary of chapter 1 (pages 4-14 and 21-25)",
         "items": [
           "Sociology: the systematic, sceptical and critical study of the social; a form of consciousness; definitions from Berger, Bauman, Jenkins, Abercrombie, Mann (Comte 1830) and Giddens.",
           "Seeing the general in the particular (Berger), the five layers of reality (Table 1.1), seeing the strange in the familiar (Berger, Bauman); the university example.",
           "Durkheim on suicide: categories, social integration and regulation, four types (with the book's pairing); Baudelot and Establet; the Chinese exception.",
           "Roles of the sociologist, public sociology and the 5 Ps.",
-          "Marginality and crisis (Mills, the Great Depression); four benefits; sociology and other disciplines (ethnocentrism); the Enlightenment."
+          "Marginality and crisis (Mills, the Great Depression); four benefits; sociology and other disciplines (ethnocentrism); the Enlightenment.",
+          "Mills: the sociological imagination, personal troubles and public issues, biography, history and structure; sociology born of change (Comte, Toennies, Marx); the digital-information-network-cyborg society (five terms, Castells); new topics and new methods; futures: individualisation and visible inequality."
         ]
       },
       {
@@ -263,31 +244,7 @@ LESSTOF['society-politics/college-1'] = [
           },
           {
             "begrip": "Auguste Comte",
-            "definitie": "French thinker (1798-1857) who coined the term sociology in 1838, split it into social statics (how society holds together) and social dynamics (how it changes), and argued for a scientific study of society."
-          },
-          {
-            "begrip": "Comte’s three stages",
-            "definitie": "Theological (society as God’s will), metaphysical (society as natural, human nature at the centre), scientific (society studied with the methods of science)."
-          },
-          {
-            "begrip": "Positivism",
-            "definitie": "A means of understanding the world based on science. Comte believed society conforms to invariable laws, as the physical world does. Modern sociology accepts the role of science but not rigid laws of society."
-          },
-          {
-            "begrip": "Enclosure movement",
-            "definitie": "Landowners fencing off land and turning farms into sheep grazing for the wool trade, which pushed tenant farmers off the land and into the new industrial cities."
-          },
-          {
-            "begrip": "Gemeinschaft",
-            "definitie": "Toennies’s term for human community: bonds of kinship, neighbourhood and tradition, where people are essentially united in spite of all separating factors."
-          },
-          {
-            "begrip": "Gesellschaft",
-            "definitie": "Toennies’s term for modern association: rootless, impersonal and individualistic, where people are essentially separated in spite of uniting factors and associate on the basis of self-interest."
-          },
-          {
-            "begrip": "Divine right",
-            "definitie": "The medieval claim that royalty rules by God’s will and everyone has a fixed place in a holy plan. Displaced by ideas of individual liberty and rights from the seventeenth century."
+            "definitie": "Coined the term sociology (1830, in Mann's definition in the chapter); feared that change would uproot people from communities and, in a conservative approach, sought to shore up the family and traditional morality."
           },
           {
             "begrip": "Individualisation",
@@ -316,6 +273,14 @@ LESSTOF['society-politics/college-1'] = [
           {
             "begrip": "Public sociology",
             "definitie": "Sociology that reaches audiences beyond the university and engages with public issues (Burawoy)."
+          },
+          {
+            "begrip": "Five labels for today's society (list)",
+            "definitie": "1. The Digital Age (digitalisation). 2. The Cyborg Age (living with technologies). 3. The Information Age (data). 4. The Network Society (new ways of relating). 5. The Virtual Age (mediated reality). Castells uses the Information Age and the Network Society."
+          },
+          {
+            "begrip": "Biography, history and structure",
+            "definitie": "The triple focus of the sociological imagination (Mills), called sociology's heritage."
           }
         ]
       }
@@ -1014,7 +979,7 @@ LESSTOF['society-politics/college-1'] = [
       {
         "type": "tekst",
         "titel": "Chapter 1 in five lines",
-        "tekst": "**Sociology** is the systematic, sceptical and critical study of the social, and above all a **way of seeing**.\n**Berger**: seeing the general in the particular, and the strange in the familiar. Things are not what they seem.\n**Mills**: the sociological imagination links biography and history, and turns personal troubles into public issues.\n**Durkheim on suicide**: the most personal act follows social patterns, because low social integration means higher suicide rates.\n**Origins**: a child of the Enlightenment, named by **Comte** in 1838, driven by four changes: the industrial economy, the growth of cities, new political ideas, and the loss of community (**Toennies**: Gemeinschaft to Gesellschaft)."
+        "tekst": "**Sociology** is the systematic, sceptical and critical study of the social, and above all a **way of seeing**.\n**Berger**: seeing the general in the particular, and the strange in the familiar. Things are not what they seem.\n**Mills**: the sociological imagination links biography and history, and turns personal troubles into public issues.\n**Durkheim on suicide**: the most personal act follows social patterns, because low social integration means higher suicide rates.\n**Change**: sociology was born of the French and Industrial Revolutions (Comte conservative, Marx critical of inequality) and now faces the **Cyber Revolution**: the digital, cyborg, information, network and virtual age."
       },
       {
         "type": "tabel",
@@ -1305,40 +1270,40 @@ LESSTOF['society-politics/college-1'] = [
               "Mechanical and organic solidarity"
             ],
             "juist": 1,
-            "uitleg": "Toennies has the first, Merton the third, Durkheim the fourth. All four pairs come from this session, which is why they are easy to mix up."
+            "uitleg": "The other pairs are Toennies's (Gemeinschaft and Gesellschaft), Merton's (manifest and latent functions) and Durkheim's (mechanical and organic solidarity). Pairs like these are easy to mix up."
           },
           {
-            "vraag": "Who coined the term sociology, and in which year?",
+            "vraag": "According to the definitions in chapter 1 (Mann), who coined the term sociology?",
             "opties": [
-              "Durkheim, 1895",
-              "Comte, 1838",
-              "Spencer, 1860",
-              "Marx, 1848"
+              "Durkheim",
+              "Comte",
+              "Mills",
+              "Marx"
             ],
             "juist": 1,
-            "uitleg": "Comte, who also divided the discipline into social statics and social dynamics and argued for positivism. 1848 is the Communist Manifesto, which makes it a plausible-looking distractor."
+            "uitleg": "Comte (1830), linking the Latin socius to the Greek logos. (The 4th edition gave 1838; the 5th edition's definition box says 1830.)"
           },
           {
-            "vraag": "Which is NOT one of the four changes that drove the rise of sociology?",
+            "vraag": "Which is NOT one of the five labels the chapter gives for today's digital-information-network-cyborg society?",
             "opties": [
-              "A new industrial economy",
-              "The growth of cities",
-              "The spread of mass education",
-              "The loss of community"
+              "The Digital Age",
+              "The Network Society",
+              "The Industrial Age",
+              "The Virtual Age"
             ],
             "juist": 2,
-            "uitleg": "The fourth is political change: new ideas of liberty and rights. Education expanded later and is a consequence rather than a driver in the book’s account."
+            "uitleg": "The five: Digital Age, Cyborg Age, Information Age, Network Society, Virtual Age. Sociology was born of the Industrial Revolution; today's change is the Cyber Revolution."
           },
           {
-            "vraag": "Toennies’s Gesellschaft describes a world in which people are:",
+            "vraag": "For Mills, the sociological imagination means:",
             "opties": [
-              "Essentially united in spite of all separating factors",
-              "Essentially separated in spite of uniting factors",
-              "Bound by mechanical solidarity",
-              "Free of social constraint"
+              "Imagining a better society",
+              "Grasping history and biography and the relations between the two within society",
+              "Using statistics to predict behaviour",
+              "Seeing society as a world of balance"
             ],
             "juist": 1,
-            "uitleg": "The first option is his description of Gemeinschaft. Learning the two phrases as a pair is the safest way to keep them apart."
+            "uitleg": "Personal troubles must be understood as public issues; the triple focus is biography, history and structure."
           },
           {
             "vraag": "A theoretical perspective differs from a theory because it:",
@@ -1463,8 +1428,8 @@ LESSTOF['society-politics/college-1'] = [
             "uitleg": "Critical consciousness, opportunities and constraints, active participation, recognising difference; a changing world, being part of what you study, and knowledge feeding back into society."
           },
           {
-            "doel": "Explain the origins of sociology in four changes plus Comte",
-            "uitleg": "Industrial economy, cities, political change, loss of community; Comte 1838, three stages, positivism."
+            "doel": "Explain Mills and the digital-information-network-cyborg society",
+            "uitleg": "Biography and history, troubles and issues; the five labels (digital, cyborg, information, network, virtual); new topics and new methods."
           },
           {
             "doel": "Set out the three perspectives with level, names, concepts and criticism",
