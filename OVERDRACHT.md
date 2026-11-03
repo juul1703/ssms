@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 3 november 2026, service worker **v189**.
+Stand: 3 november 2026, service worker **v190**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1087,6 +1087,18 @@ Mid-term-les: sessie 8 opnieuw, recap-rijen (Malthus en Merton eruit), oefentoet
 (demografische transitie valt buiten de pagina's). `app.js`: eenmalig oude quizantwoorden van sessie 8
 en vraag 19 gewist (vlag `ssms-migratie-v189`). Browser: 15/15 en 20/20.
 Alle andere Society-lessen zijn nog uit de 4e druk; Julie heeft nu de 5e.
+
+**v190: Society sessie 1, deel 1 van 2.** H1 p. 4-14 en H4 p. 106-116 opnieuw uit de 5e druk (PDF's van
+Julie). Nieuw t.o.v. 4e druk: definitie 'systematic, sceptical and critical study of the social', Table
+1.1 (vijf lagen), rollen van de socioloog, public sociology en de 5 Ps, Baudelot & Establet, Chinese
+exception, Enlightenment-box; H4-opening is nu de Amazone-stam/Akuntsu (niet de Iceman). LET OP: de 5e
+druk koppelt anomic aan te weinig integratie en egoistic aan te weinig regulatie; de slide (en de
+gangbare Durkheim) zegt egoistic = te weinig integratie. Staat als waarschuwing in de les.
+Nog uit de 4e druk: H1 1.5-1.7 (p. 21-25 ontbreken in het Project, gevraagd), heel H2 (PDF p. 33-52
+staat in uploads als scan; OCR-tekst in /tmp/c2/q-*.txt kan weg zijn, opnieuw maken met pdftoppm -r
+200 + tesseract), en H4 4.9-4.13 (Marx/Weber/Durkheim modern; buiten de pagina's, voorlopig blijven
+staan met waarschuwing omdat recap, quiz en mid-term-les ernaar verwijzen). Deel 2 (v191): H2, recap,
+Quick recap, quiz en mid-term-les sessie 1.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
