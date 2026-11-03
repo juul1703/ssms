@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 2 november 2026, service worker **v187**.
+Stand: 2 november 2026, service worker **v188**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1064,6 +1064,16 @@ bron; het gaat om begrijpen en toepassen. Inhoudelijke fouten blijven onacceptab
 concept list deel 1 (A-E gecontroleerd in chat, fixes nog niet doorgevoerd: 'thirty' moet 28, CT1 = deel 1
 en 2, vergelijkingstabel figuur 2, 'often follows' moet 'can be a follow-up', labels); huiswerkblad
 workshop 1 + answer key gevraagd aan Julie.
+
+**v188: Governance sessie 7, slides lecture 7 verwerkt** (*Political Parties & Interest Groups*, De
+Sousa). De partij-slides zijn een herhaling van sessie 4 (daar al verwerkt); in sessie 7 kort samengevat.
+Zes From the lecture-blokken in de tab H16 plus een tabel protective/promotional (5 punten), vier
+vaardigheden, What the lecturer emphasised, drie oefeningen, quiz van 10 (browser 14/14 en 10/10), vier
+begrippen (in kern2, waar de begrippenlijst staat), Quick recap met 'What the lecture added', twee
+'in one breath'-blokken en 10 things. Niet in het boek en zo gelabeld: capture en de twee manieren
+waarop IG's bureaucratieen vormen, Dahl 1993, 'government not neutral', nieuwe groepen door economische
+ontwikkeling. Slide geeft 4 condities van invloed, boek 5 (plus relationship to the state). H17 staat
+niet op de slides. Mid-term-les Governance: sessie 7 bijgewerkt (20/20).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

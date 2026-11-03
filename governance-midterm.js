@@ -34,7 +34,7 @@ LESSTOF['governance-policy/midterm'] = [
       {
         "type": "uitleg",
         "titel": "What this lesson is",
-        "tekst": "**The Governance mid-term is on Thursday 12 November 2026**, an individual written exam. The course manual says the material is **all course literature and lecture slides**.\n\nThis lesson puts sessions 1 to 7 together: per session a dense academic summary of all key concepts, followed by the full story of that session in plain language (the same text as its Quick recap), and at the end the threads that connect the sessions. For the full detail, go to the session lessons.\n\n**Not in this lesson yet:** the slides of session 7, because that lecture has not taken place."
+        "tekst": "**The Governance mid-term is on Thursday 12 November 2026**, an individual written exam. The course manual says the material is **all course literature and lecture slides**.\n\nThis lesson puts sessions 1 to 7 together: per session a dense academic summary of all key concepts, followed by the full story of that session in plain language (the same text as its Quick recap), and at the end the threads that connect the sessions. For the full detail, go to the session lessons.\n\nThe slides of all seven sessions are in, including lecture 7 (Political Parties & Interest Groups). Lecture 7 repeats the party slides of session 4: a signal that parties matter."
       },
       {
         "type": "waarschuwing",
@@ -361,17 +361,13 @@ LESSTOF['governance-policy/midterm'] = [
       },
       {
         "type": "tekst",
-        "titel": "Session 7: interest groups and public policy (ch. 16 and 17)",
+        "titel": "Session 7: parties again, interest groups and public policy (ch. 16 and 17, lecture 7)",
         "toetsstof": true,
-        "tekst": "**Interest groups** influence government from outside, with six roles (advocacy, education, influence, mobilisation, watchdog, service provision). NGOs and social movements; pluralism against **Olson** (1965) and Trumbull's legitimacy coalitions; protective and promotional groups, peak associations, think tanks; direct and indirect channels, **iron triangles** against issue networks; five qualities of influence, including density and **corporatism**; in authoritarian regimes control and **GONGOs**.\n\n**Public policy**: the positions adopted and actions taken (or avoided) by governments. The **policy cycle**: agenda-setting, formulation, adoption, implementation, evaluation. Instruments: **sticks, carrots, sermons**. Models: **rational**, **incremental** (\"muddling through\") and **garbage-can**. Policy styles (Table 17.2), diffusion, five mechanisms of **convergence** (Table 17.3), and five differences between democratic and authoritarian policy (Table 17.5)."
+        "tekst": "**Interest groups** influence government from outside, with six roles (advocacy, education, influence, mobilisation, watchdog, service provision). NGOs and social movements; pluralism against **Olson** (1965) and Trumbull's legitimacy coalitions; protective and promotional groups, peak associations, think tanks; direct and indirect channels, **iron triangles** against issue networks; five qualities of influence, including density and **corporatism**; in authoritarian regimes control and **GONGOs**.\n\n**Public policy**: the positions adopted and actions taken (or avoided) by governments. The **policy cycle**: agenda-setting, formulation, adoption, implementation, evaluation. Instruments: **sticks, carrots, sermons**. Models: **rational**, **incremental** (\"muddling through\") and **garbage-can**. Policy styles (Table 17.2), diffusion, five mechanisms of **convergence** (Table 17.3), and five differences between democratic and authoritarian policy (Table 17.5).\n\n**Lecture 7** repeats the party slides of session 4 (recruitment as the main function; mass, cadre, catch-all; Michels, Panebianco; decline in membership since 1970). On interest groups: autonomy from government and parties; influence government, do not contest elections; a low-key channel between society and government, born of industrialisation and the welfare state. Channels: direct discussion, through parties (declining links), through public opinion, paid lobbyists. **Four conditions of influence** (legitimacy, sanctions, membership, resources; the book adds relationship to the state). **Protective against promotional** on five points (interest against cause, restricted against open, insider against outsider, selective against collective benefits, national against national and global focus). **Capture**: an agency becomes a client of one group, benefits to a small interest, costs to all taxpayers; or hostile groups turn it into a battleground. **Liberal democracies**: functional representation next to electoral; pluralist view (Dahl: majority rule insufficient, interests weighed, decisions more rational and acceptable) against the critique (hierarchy of influence, a non-neutral government). **Authoritarian states**: new groups from economic development; selective incorporation or patronage, control of civil society through a single party, local services. Chapter 17 is not on the slides."
       },
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nGroups try to push government in their direction, and some get much closer than others. Policy is made in steps, but in practice it is often messier than the textbook cycle."
-      },
-      {
-        "type": "waarschuwing",
-        "tekst": "**Session 7: no slides yet.** The slides of session 7 are not in the app yet, because that lecture has not taken place. When they are in the Project, they are added to session 7 and to this lesson."
       },
       {
         "type": "uitleg",
@@ -403,6 +399,10 @@ LESSTOF['governance-policy/midterm'] = [
       },
       {
         "type": "tekst",
+        "tekst": "**What the lecture added**\n\nThe lecture starts with a **replay of the party slides** from session 4: recruiting candidates is the main job of a party, then mass, cadre and catch-all parties, who really runs a party (everyone, a small elite, or media professionals), and why membership keeps dropping. If the lecturer shows it twice, expect it on the mid-term.\n\nThen interest groups, with a few things the book says differently or not at all:\n- They are **independent** from government and parties and work **quietly**, as a **line of communication** between society and government. They grew with **industrialisation** and the **welfare state**.\n- **Protective vs promotional** on five points: defend an interest vs promote a cause; closed vs open membership; **insiders** vs **outsiders**; benefits **only for members** vs **for everyone**; national focus vs national and global.\n- What gives a group clout: **legitimacy, sanctions** (strike, or a company moving its money abroad), **members** and **resources**. The book adds a fifth: a good relationship with the state.\n- **Capture**: when one group basically owns a ministry. A small club gets the benefits, all taxpayers pay. Or the opposite: groups that **hate** a ministry's plans and turn it into a battlefield.\n- **Help or hindrance to democracy?** Groups give a second kind of representation next to elections (**functional representation**). Pluralists (Dahl) say that's good: interests are weighed, not just votes, and decisions get smarter and easier to accept. Critics say some groups are much stronger than others, and the government picks who it listens to.\n- **Dictators** deal with new groups from a growing economy by letting some organise in return for loyalty, steering the rest through one party and propaganda, and keeping people happy with local services."
+      },
+      {
+        "type": "tekst",
         "tekst": "**Public policy: what comes out**\n\n**Public policy** = what the government does, **and what it chooses not to do**. Like Indonesia praying instead of testing for Covid: also a policy choice.\n\nThe **policy cycle**: put it on the agenda, design it, decide, carry it out, check if it worked. In real life the steps overlap and the last ones often never happen.\n\nThe toolbox: **sticks** (rules, bans, fines), **carrots** (subsidies, tax breaks), **sermons** (campaigns), plus **market tools** like emissions trading (sell your unused \"right to pollute\")."
       },
       {
@@ -423,11 +423,15 @@ LESSTOF['governance-policy/midterm'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In one breath**\n\nInterest groups play six roles from outside government, with NGOs, social movements and corporatism as variants. Policy is made in a cycle with sticks, carrots and sermons, through rational, incremental or garbage-can processes, in different national styles, converging through five mechanisms, and very differently in democracies and dictatorships."
+        "tekst": "**The book in one breath**\n\nInterest groups play six roles from outside government, with NGOs, social movements and corporatism as variants. Policy is made in a cycle with sticks, carrots and sermons, through rational, incremental or garbage-can processes, in different national styles, converging through five mechanisms, and very differently in democracies and dictatorships."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**The lecture in one breath**\n\nParties again (recruitment first; mass, cadre, catch-all; Michels and Panebianco; falling membership). Interest groups are independent, quiet channels to government; protective insiders against promotional outsiders on five points; four sources of clout; capture makes an agency a client; pluralists say groups enrich democracy, critics point to unequal influence and a picky government; dictators buy loyalty, control and serve."
       },
       {
         "type": "uitleg",
-        "tekst": "**If you only remember 8 things**\n\n1. Interest groups influence policy from outside government; six roles.\n2. Pluralism versus Olson’s logic of collective action.\n3. Protective versus promotional groups.\n4. Iron triangle versus issue network.\n5. Five qualities: legitimacy, membership, resources, sanctions, relationship to the state (corporatism).\n6. Policy cycle and sticks, carrots, sermons.\n7. Rational, incremental, garbage-can.\n8. Five differences between democratic and authoritarian policy."
+        "tekst": "**If you only remember 10 things**\n\n1. Interest groups influence policy from outside government; six roles.\n2. Pluralism versus Olson’s logic of collective action.\n3. Protective versus promotional groups.\n4. Iron triangle versus issue network.\n5. Five qualities: legitimacy, membership, resources, sanctions, relationship to the state (corporatism).\n6. Policy cycle and sticks, carrots, sermons.\n7. Rational, incremental, garbage-can.\n8. Five differences between democratic and authoritarian policy.\n9. The lecture: capture (a small interest benefits, all taxpayers pay) and the two ways groups shape bureaucracies.\n10. Help or hindrance? Functional representation; pluralist view (Dahl) against the critique (hierarchy of influence, a non-neutral government)."
       },
       {
         "type": "tekst",
@@ -704,7 +708,7 @@ LESSTOF['governance-policy/midterm'] = [
       {
         "type": "tekst",
         "titel": "Sessions 5 to 7 and the threads",
-        "tekst": "**5:** Levi-Faur's Big Governance and the four perspectives on the state. **6:** integrity scandals and the PI-Index; global governance and the frozen Security Council. **7:** interest groups and public policy. **Threads:** government and governance, legitimacy, democratic against authoritarian, experts against the public, policy and non-decisions."
+        "tekst": "**5:** Levi-Faur's Big Governance and the four perspectives on the state. **6:** integrity scandals and the PI-Index; global governance and the frozen Security Council. **7:** parties again, and interest groups (capture, protective against promotional, help or hindrance to democracy) and public policy. **Threads:** government and governance, legitimacy, democratic against authoritarian, experts against the public, policy and non-decisions."
       }
     ]
   },

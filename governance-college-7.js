@@ -3,7 +3,8 @@
    McCormick, Hague & Harrop H16 (Interest groups) en H17 (Public
    policy). Nieuw in v135, uit de literatuur, volgens de standaard:
    tijdnood-blok, In plain words per kopje, hover-begrippen, To
-   remember, Quick recap. Slides volgen na het college.
+   remember, Quick recap.
+   v188: slides lecture 7 (Political Parties & Interest Groups) verwerkt.
    ============================================================ */
 
 LESSTOF['governance-policy/college-7'] = [
@@ -57,18 +58,34 @@ LESSTOF['governance-policy/college-7'] = [
           {
             "doel": "Name the five differences between policy in democratic and authoritarian regimes",
             "uitleg": "From Table 17.5: **institutions** (divided authority against authority focused in a leader or ruling party); **methods** (inclusion and public opinion against leading, with more coercion); **motivations** (shaping policy and re-election against staying in power and exploiting policy for sectional and personal gain); **qualifications** (political experience against often less experience of government); **policy priorities** (wide-ranging and social against fewer social concerns and more security)."
+          },
+          {
+            "doel": "Classify an interest group as protective or promotional with the lecture's five criteria (lecture 7)",
+            "uitleg": "Go through the slide's five rows. **Aim**: defending an interest (protective) or promoting a cause (promotional)? **Membership**: restricted or open to anyone? **Status**: insider, frequently consulted and seeking it (protective), or outsider, consulted less and working through public opinion and the media (promotional)? **Benefits**: selective, only for members (protective), or collective, also for non-members (promotional)? **Focus**: national government on issues affecting members (protective), or national and global bodies on broad policy matters (promotional)? A trade union scores protective on all five; an environmental campaign scores promotional."
+          },
+          {
+            "doel": "Name the channels and the conditions of influence, and explain capture (lecture 7)",
+            "uitleg": "**Channels**: direct discussion with policymakers (executive, bureaucracy, legislature, courts); indirectly through political parties (links are declining); indirectly through public opinion (paid advertising, social media); and lobbying by people or organisations paid to influence government. **Conditions** (the ability to persuade): legitimacy, the capacity to invoke sanctions (a strike; a business sector moving its investments elsewhere), membership, and resources (money, prestige). **Capture**: an agency's functioning becomes determined by an interest group, so the benefits go to one small interest while many people (all taxpayers) bear the costs."
+          },
+          {
+            "doel": "Argue whether interest groups help or hinder democracy (lecture 7)",
+            "uitleg": "Start from the slide's question: interest groups create **functional representation** next to electoral representation. Is that power without accountability, or the right to organise? **Help** (pluralist view, Dahl): majority rule is correct but insufficient; democracy includes rule by minorities per policy area; interests are weighed, not only votes; information, discussion, negotiation and compromise make decisions more rational and acceptable. **Hindrance** (critique): a hierarchy of influence, so groups do not compete on an equal playing field; and the government is not neutral: it decides which groups to hear, regulates them and may encourage groups in favoured areas. Conclude with a position and one reason."
+          },
+          {
+            "doel": "Describe how authoritarian rulers deal with interest groups (lecture 7)",
+            "uitleg": "Economic development unleashes new groups (labour unions, an educated middle class, peasant leagues), and rulers must deal with them. Three strategies on the slide: **selective incorporation or patronage** (some interests may organise in exchange for loyalty and support); **control of civil society** (incorporating it into the governing system, for example through a single party, and socialising voters into trusting the regime); and **provision of local services** (health, education, infrastructure). They match the book's four roles: control, patronage, propaganda and service provision."
           }
         ]
       },
       {
         "type": "uitleg",
         "titel": "What to prepare for this session",
-        "tekst": "Read: **McCormick, Hague and Harrop, chapter 16 (Interest groups) and chapter 17 (Public policy)**. Session 7 of Governance & Policy (30 October). Interest groups are the last group of actors in the book (after participation and parties in session 4); public policy is what all of them produce.\n\nThis lesson is written from the literature, as preparation. After the lecture, the slides and your notes are added in From the lecture boxes."
+        "tekst": "Read: **McCormick, Hague and Harrop, chapter 16 (Interest groups) and chapter 17 (Public policy)**. Session 7 of Governance & Policy (30 October). Interest groups are the last group of actors in the book (after participation and parties in session 4); public policy is what all of them produce.\n\nThe lesson was written from the literature; the slides of **lecture 7** (*Political Parties & Interest Groups*) are now added in **From the lecture** boxes in the chapter 16 tab. The lecture first repeats the party slides of session 4, then covers interest groups. **Chapter 17 (public policy) is not on the slides**, but it is reading for this session, so it is exam material through the book."
       },
       {
         "type": "slimmer",
         "titel": "If you are short on time",
-        "tekst": "**1.** The To remember tab and the Quick recap (20 minutes). **2.** Chapter 16, sections 3 to 5: types, channels and the five qualities (20 minutes). **3.** Chapter 17, sections 2 and 3: the policy cycle, instruments and the three models (20 minutes). **4.** The quiz (10 minutes). **5.** The rest (30 minutes)."
+        "tekst": "**1.** To remember (start with What the lecturer emphasised) and the Quick recap (20 minutes). **2.** Chapter 16 with its From the lecture boxes: types, channels, conditions of influence, capture, pluralism and its critique, authoritarian states (25 minutes). **3.** Chapter 17, sections 2 and 3: the policy cycle, instruments and the three models (20 minutes). **4.** Both quizzes (15 minutes). **5.** The rest (25 minutes)."
       },
       {
         "type": "waarschuwing",
@@ -97,6 +114,10 @@ LESSTOF['governance-policy/college-7'] = [
         "tekst": "**In plain words**\n\nInterest groups are organisations outside the government that try to influence what the government does, by lobbying, informing people, mobilising members, watching the government and sometimes providing services. Social movements want the same but are looser and use protests and boycotts. All of this together is civil society."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Lecture 7, Political Parties & Interest Groups, slides 2 to 5: parties.* The lecture opens with the **party slides of session 4**, which are worked out in that lesson. In short: a party is a political group identified by an official label that presents candidates at elections and can place candidates in public office. **Main function: recruiting and preparing candidates**; other functions: governing (steering the ship of state), offering voters a choice of policies, mobilising citizens (campaigning, raising funds, voting) and aggregating interests into manageable proposals. These are the five functions of the book's Figure 15.1, with recruitment singled out. Then: no real parties in Western democracies until the end of the 19th century; **mass**, **cadre** and **catch-all** parties; who commands the party (optimistic: internal democracy; pessimistic: Michels's iron law of oligarchy; intermediate: Panebianco's electoral-professional party); and the **decline in membership** since 1970.\n\n*Slides 7 and 8: interest groups.* **Interest groups** (also called pressure groups) are organisations that have **autonomy from government and political parties** and try to **influence public policy**. Examples: employers' organisations, trade unions, consumer groups, organisations of specific industries and professions, campaigns. Government agencies risk being **\"captured\"**: their functioning becomes determined by interest groups (more on capture below).\n\nTheir role: a **low-key, discreet approach** to politics, and **major channels of communication between society and government**. **Not to be confused with parties**: interest groups seek to influence the government itself and do not take part directly in elections. In the West they emerged from waves of social and economic change: **industrialisation** and the **expansion of state activity into public welfare**. (The book tells the origins with guilds, early campaigns and unions, linked to democracy and pluralism; the two stories fit together.)"
+      },
+      {
         "type": "tekst",
         "titel": "2. Origins, pluralism and lobbying",
         "tekst": "**Origins**: groups are as old as organised government. Early examples: the **medieval guilds** (merchant and craft guilds, 11th to 16th centuries); the **Royal Society of London** (1660); in the industrial era the Committee for the Abolition of the Slave Trade (1787), the RSPCA (1824) and the Anti-Corn Law League (repeal in 1846); and **labour unions** in the late 19th century (the British Trades Union Congress, 1868). Their growth went with the **expansion of democracy and [[pluralism|Pluralism]]**: weak in Germany, Japan and Spain until after World War II, controlled in Latin America until the end of military rule. **Women's rights** shows the overlap between movement and groups across four **waves of feminism**: suffrage (late 19th century), ending discrimination (1960s), reproductive rights (1990s) and empowerment (since the 2010s).\n\n**Pluralism** (Using Theory 16): tolerance for a diversity of ideas and interests, with power dispersed among many groups. In the ideal, groups represent all sectors and compete on a **level playing field**, with a neutral state.\n\n**Olson's critique** (*[[The Logic of Collective Action]]*, 1965): people with **diffuse interests** (ordinary citizens, consumers) find it hard to find each other and organise against **narrow, well-organised interests** (large corporations with money and contacts). **Trumbull (2012)** disagrees: diffuse interests can win through **[[legitimacy coalitions|Legitimacy coalition]]** of activists and regulators who link their cause to the public interest. And the **internet** makes it much easier for people with shared interests to find each other (even if often only \"clicktivism\", session 4).\n\n**[[Lobbying]]**: efforts to influence the decisions of elected officials or bureaucrats. The word comes from citizens approaching MPs in the **lobby** between the two Houses of the British Parliament (not, as often claimed, from President Grant in a Washington hotel). Success means \"getting the right message over to the right people in the right form at the right time on the right issue\" (Crossick). **Three reasons lobbying is rising**: government **regulation keeps growing**; **public relations campaigns** are more sophisticated; and **corporations increasingly lobby directly** rather than through their trade association.\n\n**Numbers**: the World Association of NGOs (WANGO) lists more than **54,000** members, 75% of them in North America and Europe (self-listed, so incomplete).",
@@ -105,6 +126,10 @@ LESSTOF['governance-policy/college-7'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\n[[Interest groups|Interest group]] have existed for centuries, but they grew with democracy. In theory (pluralism) every group gets a fair chance, but Olson said big organised interests beat scattered ordinary people. Others say ordinary people can still win, especially with the internet. Lobbying, trying to convince decision-makers directly, keeps growing."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Slides 14 to 16: interest groups in liberal democracies.* Interest group activity creates a system of **functional representation** operating alongside **electoral representation**. The slide's questions: is it **power without accountability**, or simply the **right to organise** in defence of specific objectives? A help or a hindrance to democracy?\n\n**The pluralist view**: majority rule is a correct but **insufficient** account of how modern democracies work; democracy should include a strong element of **rule by minorities**, each operating in a particular policy area; it **weighs interests, not only votes**. By providing information, discussion, negotiation and compromise, interest groups have even helped to make public decisions **more rational and more acceptable** (Dahl, 1993; this source is the lecture's, not the book's).\n\n**Critique**: a **hierarchy of influence**: groups do not compete on an equal playing field, some interests weigh more than others (the book makes the same point with Olson). And **the government is not neutral**: it decides which groups to hear, may regulate their operation and may even encourage their formation in favoured areas. That last point is not in the book; it answers pluralism's assumption of a neutral state."
       },
       {
         "type": "tekst",
@@ -117,6 +142,49 @@ LESSTOF['governance-policy/college-7'] = [
         "tekst": "**In plain words**\n\nProtective groups stand up for their own members (unions, employers, doctors) and usually have good access to the government. Promotional groups fight for a broader cause anyone can join (the environment, human rights) and are more often outsiders. Umbrella organisations represent whole sectors, and think tanks do research to influence the debate."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Slide 12: classifying interest groups.* The slide compares the two types on five points:"
+      },
+      {
+        "type": "tabel",
+        "kop": [
+          "",
+          "Protective groups",
+          "Promotional groups"
+        ],
+        "rijen": [
+          [
+            "Aim",
+            "Defend an interest",
+            "Promote a cause"
+          ],
+          [
+            "Membership",
+            "Restricted",
+            "Open: anyone can join"
+          ],
+          [
+            "Status",
+            "Insider: frequently consulted by government, and actively seeks this",
+            "Outsider: less consulted, may influence public opinion and the media"
+          ],
+          [
+            "Benefits",
+            "Selective: only group members benefit",
+            "Collective: members and non-members"
+          ],
+          [
+            "Focus",
+            "National governments, on issues affecting members",
+            "National and global bodies, on broad policy matters"
+          ]
+        ]
+      },
+      {
+        "type": "tekst",
+        "tekst": "Aim, membership, status and benefits agree with the book (Table 16.3, the text around it and the glossary). The focus row is the lecture's own; learn it as the slide gives it."
+      },
+      {
         "type": "tekst",
         "titel": "4. Channels of influence",
         "tekst": "Table 16.4: **direct** channels target policymakers; **indirect** channels target public opinion.\n\n**Direct:**\n- **Executive**: talking with ministers before policy is finalised; the prime target, but open only to a select few.\n- **Bureaucracy**: where the **details** of policy are formed, which are easier to change than broad policy. Influence depends on bureaucrats' responsiveness, role and power, on opportunities and on **[[issue salience|Issue salience]]** (how much an issue matters to citizens and government). It is a two-way street: information in exchange for a hearing.\n- **Legislature**: its value depends on its weight. In the **US Congress** (with two-year House elections and group endorsements) [[lobbying|Lobbying]] is intense; in **Canada**, with strict party discipline, MPs are opinion-formers rather than policymakers.\n- **Courts**: legal challenges, long common in the US and increasingly used in Europe (thanks to EU-enforceable rights), notably by unions.\n\n**[[Iron triangles|Iron triangle]]**: a closed, insider relationship between **[[interest groups|Interest group]], the bureaucracy and legislative committees**, trading information, favours and support (Figure 16.2): fertile ground for corruption. Japan: the ruling LDP, the bureaucracy and big business. US examples: environmental management, gun control, and the AARP defending pensions and health care for older people. They have **weakened**: more media attention, new public interest groups, legislators speaking out, and more complex issues.\n\n**[[Issue networks|Issue network]]** (Heclo, 1978): a **looser and more open** set of groups, departments, committees and experts; more interests take part, less bias towards [[protective groups|Protective group]], new groups can enter, and sound public arguments weigh more.\n\n**Indirect:**\n- **Parties**: less important than they were (the old link between unions and socialist parties has loosened); groups now \"following power rather than parties\".\n- **Traditional media**: paid advertising and favourable coverage.\n- **Social media**: direct engagement with the public, more targeted.\nWhen public opinion is already on their side, groups often use a **dual strategy**: the public and lawmakers at once.",
@@ -125,6 +193,10 @@ LESSTOF['governance-policy/college-7'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nGroups try to influence the government directly (ministers, civil servants, parliament, courts) or indirectly, through the media and public opinion. Sometimes a group, civil servants and politicians form a closed club (an iron triangle); nowadays it is more often an open network with many players."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Slide 10: channels of influence.* How do interest groups influence decision-makers?\n- **Direct discussion** with policymakers (in the executive, bureaucracy, legislature, courts).\n- **Indirect influence through political parties** (but links with a particular party are declining).\n- **Indirect influence through public opinion** (paid advertising in the media, direct engagement with the public through social media).\n- **Lobbying and lobbyists**: any person or organisation that works on behalf of groups or individuals and **receives money** to influence the government. (The book defines lobbying without the money: efforts to influence decisions of elected officials or bureaucrats on behalf of others; it adds that lobbyists are usually paid professionals.)\n\n*Slide 13: bureaucracies are shaped by interest groups in two major ways.*\n1. **One dominant interest group in line with the department's goals**: the agency risks becoming **\"captured\"** and a **\"client\"** of that group. Most benefits of the department's programmes go to a **single, small interest** (an industry, profession or locality), while most **costs are borne by a large number of people** (all taxpayers).\n2. **One or more groups hostile to the department's goals.** The slide's example: an energy policy based on cheap fossil fuels, seen as a benefit to many but opposed by hostile groups. The department risks being captured by those who bear the costs (the slide names fossil fuel producers and distributors), or becoming a **battleground** between them and groups that promote radically different energy policies.\n\n*Our link:* capture is close to the book's **iron triangle** (a closed insider relationship between a group, the bureaucracy and legislative committees)."
       },
       {
         "type": "tekst",
@@ -137,6 +209,10 @@ LESSTOF['governance-policy/college-7'] = [
         "tekst": "**In plain words**\n\nNot every group has the same power. It helps to be seen as respectable, to have many committed members, money and expertise, a way to put pressure on the government, and a good relationship with the state. In corporatism, like the Dutch SER, unions and employers sit at the table with the government."
       },
       {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Slide 11: conditions of influence.* What gives interest groups the **ability to persuade**?\n- **Legitimacy**;\n- the **capacity to invoke sanctions** (a trade union calling a strike; a business sector locating its investments elsewhere);\n- **membership**;\n- **resources**: money, prestige.\n\nThe book lists **five** qualities: these four plus the **relationship to the state** (corporatism). Know both: four on the slide, five in the book."
+      },
+      {
         "type": "tekst",
         "titel": "6. Interest groups in authoritarian regimes",
         "tekst": "**Venezuela**: rated Not Free; groups such as Public Space keep reporting abuses, but their members are threatened, attacked and prosecuted under a 2017 \"Law Against Hatred\".\n\n**Civicus**, a [[think tank|Think tank]] in Johannesburg (an alliance of over 4,000 groups in about 175 countries), rates civic space in five categories: **open, narrowed, obstructed, repressed, closed** (Table 16.5: Germany and Sweden open; Japan and the UK narrowed; France, South Africa and the USA obstructed; Russia and Venezuela repressed or closed; China, Egypt and Iran closed). Its 2017 report found only **3%** of the world's population in fully open civic space and called the restriction of civic space \"a global emergency\"; in 2020 it warned that repressive states used Covid-19 lockdowns to tighten control.\n\n**Four roles of [[interest groups|Interest group]] in authoritarian regimes** (Figure 16.4): **control** (incorporating [[civil society|Civil society]] into the governing system), **patronage** (rewards to friendly groups for support), **propaganda** (socialising citizens into the regime's ideology) and **service provision** (education, health care, especially locally).\n\n**Authoritarian [[corporatism|Corporatism]]**: groups are recognised but used to extend government control. In communist China, Cuba and the USSR, organisations were **\"[[transmission belts|Transmission belt]]\"** for party policy. Today's China has **[[GONGOs|GONGO]]** (government-organised non-governmental organisations), founded, funded and staffed by government, usually one per sector (Table 16.6: the All-China Federation of Trade Unions, the All-China Women's Federation, the China Family Planning Association; Friends of Nature as a more autonomous NGO). There may be up to **500,000** registered NGOs, but under Xi Jinping control has tightened; Chinese NGOs are \"far from non-governmental\" (Matsuzawa). **Russia**: a **Civic Chamber** (since 2005) that manages funding for NGOs, with 42 of its 166 members appointed by Putin.\n\n**Spotlight Egypt**: under Mubarak (1981-2011) groups grew and leaders used personal contacts; a 1999 law let government hire and fire boards and dissolve groups; laws in 2017 and 2019 under el-Sisi kept severe limits (no work with foreign organisations, no opinion polls, dissolution for vague \"violations\").\n\n**But also openings**: international NGOs (Oxfam, CARE) provide services; local groups organise without threatening rulers. *Examples:* Kenya's **Green Belt Movement** (Wangari Maathai, Nobel Peace Prize 2004: planting trees and \"planting ideas\"); Chinese grassroots environmental NGOs acting as watchdogs (Dai and Spires, 2018); Ethiopian forestry NGOs influencing policy through pilot projects and careful alliances. And the reverse: regimes can **organise pro-regime demonstrations** to fake popular support (Hellmeier and Weidmann, 2019).",
@@ -145,6 +221,10 @@ LESSTOF['governance-policy/college-7'] = [
       {
         "type": "slimmer",
         "tekst": "**In plain words**\n\nIn authoritarian countries, the government mostly controls interest groups or sets up fake independent ones (GONGOs), and uses them to give favours, spread propaganda and provide services. Independent groups are often threatened. Still, groups that provide services or work locally can slowly create some space for citizens."
+      },
+      {
+        "type": "uitleg",
+        "tekst": "**From the lecture**\n\n*Slide 17: interest groups in authoritarian states.* The **challenge** for authoritarian rulers: how to deal with new groups unleashed by **economic development** (labour unions, an educated middle class, peasant leagues). Their strategies:\n- **Selective incorporation or patronage**: some interests may organise, in exchange for political loyalty and support.\n- **Control of civil society**: incorporating it into the governing system (for example through a single political party) and **socialising voters into trusting the regime**.\n- **Provision of local services** to improve the quality of life: health, education, infrastructure.\n\nThese match the book's four roles (Figure 16.4): control, patronage, propaganda (socialising citizens) and service provision. The point about new groups from economic development is the lecture's."
       },
       {
         "type": "checklist",
@@ -560,6 +640,22 @@ LESSTOF['governance-policy/college-7'] = [
           {
             "begrip": "Five differences between democratic and authoritarian policy (list)",
             "definitie": "1. Institutions. 2. Methods. 3. Motivations. 4. Qualifications. 5. Policy priorities."
+          },
+          {
+            "begrip": "Capture (agency capture)",
+            "definitie": "Lecture: a government agency whose functioning becomes determined by an interest group; it becomes the group's \"client\", with the benefits going to a small interest and the costs borne by many (all taxpayers)."
+          },
+          {
+            "begrip": "Functional representation",
+            "definitie": "Lecture: the representation of interests through interest group activity, operating alongside electoral representation."
+          },
+          {
+            "begrip": "Protective versus promotional (lecture, list)",
+            "definitie": "Protective: defend an interest, restricted membership, insider, selective benefits, national focus on members' issues. Promotional: promote a cause, open membership, outsider, collective benefits, national and global focus on broad policy."
+          },
+          {
+            "begrip": "Conditions of influence (lecture, list)",
+            "definitie": "1. Legitimacy. 2. Capacity to invoke sanctions. 3. Membership. 4. Resources (money, prestige). The book adds 5. Relationship to the state."
           }
         ]
       }
@@ -569,6 +665,11 @@ LESSTOF['governance-policy/college-7'] = [
     "id": "recap",
     "titel": "To remember",
     "blokken": [
+      {
+        "type": "uitleg",
+        "titel": "What the lecturer emphasised",
+        "tekst": "Signals from the slides of lecture 7 (*Political Parties & Interest Groups*).\n\n**Parties again.** The lecture repeats the party slides of session 4: recruitment as the main function, mass, cadre and catch-all parties, Michels and Panebianco, the decline in membership. That repetition is a hint that parties matter for the mid-term.\n\n**Interest groups**: autonomy from government and parties; influence government, do not contest elections; channels (direct, through parties, through public opinion, lobbying); four conditions of influence; protective against promotional on **five** points; **capture** and the two ways interest groups shape bureaucracies.\n\n**The big question**: help or hindrance to democracy? Functional representation next to electoral representation; the pluralist view (Dahl) against the critique (hierarchy of influence, a government that is not neutral).\n\n**Authoritarian states**: new groups from economic development; selective incorporation or patronage, control of civil society, local services.\n\n**Not on the slides**: chapter 17 (public policy). It is still reading for this session."
+      },
       {
         "type": "tabel",
         "titel": "Chapter 16 on one page",
@@ -660,7 +761,11 @@ LESSTOF['governance-policy/college-7'] = [
           "Name the five qualities of group influence.",
           "Name the five stages of the policy cycle and the three types of instruments.",
           "Compare the three models of policymaking.",
-          "Name three mechanisms of policy convergence."
+          "Name three mechanisms of policy convergence.",
+          "Compare protective and promotional groups on the slide's five points.",
+          "Explain capture and the two ways interest groups shape bureaucracies.",
+          "Give the pluralist view and its two-part critique.",
+          "Name the three strategies of authoritarian rulers on the slide."
         ]
       }
     ]
@@ -671,7 +776,7 @@ LESSTOF['governance-policy/college-7'] = [
     "blokken": [
       {
         "type": "slimmer",
-        "tekst": "**What this tab is**\n\nChapters 16 and 17 as one easy story: who pushes the government from outside, and what comes out at the end."
+        "tekst": "**What this tab is**\n\nChapters 16 and 17 and lecture 7 as one easy story: who pushes the government from outside, and what comes out at the end. Everything here is also in the Core material. Where something is our own reading, it says so."
       },
       {
         "type": "tekst",
@@ -705,6 +810,11 @@ LESSTOF['governance-policy/college-7'] = [
       },
       {
         "type": "tekst",
+        "titel": "What the lecture added",
+        "tekst": "The lecture starts with a **replay of the party slides** from session 4: recruiting candidates is the main job of a party, then mass, cadre and catch-all parties, who really runs a party (everyone, a small elite, or media professionals), and why membership keeps dropping. If the lecturer shows it twice, expect it on the mid-term.\n\nThen interest groups, with a few things the book says differently or not at all:\n- They are **independent** from government and parties and work **quietly**, as a **line of communication** between society and government. They grew with **industrialisation** and the **welfare state**.\n- **Protective vs promotional** on five points: defend an interest vs promote a cause; closed vs open membership; **insiders** vs **outsiders**; benefits **only for members** vs **for everyone**; national focus vs national and global.\n- What gives a group clout: **legitimacy, sanctions** (strike, or a company moving its money abroad), **members** and **resources**. The book adds a fifth: a good relationship with the state.\n- **Capture**: when one group basically owns a ministry. A small club gets the benefits, all taxpayers pay. Or the opposite: groups that **hate** a ministry's plans and turn it into a battlefield.\n- **Help or hindrance to democracy?** Groups give a second kind of representation next to elections (**functional representation**). Pluralists (Dahl) say that's good: interests are weighed, not just votes, and decisions get smarter and easier to accept. Critics say some groups are much stronger than others, and the government picks who it listens to.\n- **Dictators** deal with new groups from a growing economy by letting some organise in return for loyalty, steering the rest through one party and propaganda, and keeping people happy with local services."
+      },
+      {
+        "type": "tekst",
         "titel": "Public policy: what comes out",
         "tekst": "**Public policy** = what the government does, **and what it chooses not to do**. Like Indonesia praying instead of testing for Covid: also a policy choice.\n\nThe **policy cycle**: put it on the agenda, design it, decide, carry it out, check if it worked. In real life the steps overlap and the last ones often never happen.\n\nThe toolbox: **sticks** (rules, bans, fines), **carrots** (subsidies, tax breaks), **sermons** (campaigns), plus **market tools** like emissions trading (sell your unused \"right to pollute\")."
       },
@@ -730,11 +840,15 @@ LESSTOF['governance-policy/college-7'] = [
       },
       {
         "type": "slimmer",
-        "tekst": "**In one breath**\n\nInterest groups play six roles from outside government, with NGOs, social movements and corporatism as variants. Policy is made in a cycle with sticks, carrots and sermons, through rational, incremental or garbage-can processes, in different national styles, converging through five mechanisms, and very differently in democracies and dictatorships."
+        "tekst": "**The book in one breath**\n\nInterest groups play six roles from outside government, with NGOs, social movements and corporatism as variants. Policy is made in a cycle with sticks, carrots and sermons, through rational, incremental or garbage-can processes, in different national styles, converging through five mechanisms, and very differently in democracies and dictatorships."
+      },
+      {
+        "type": "slimmer",
+        "tekst": "**The lecture in one breath**\n\nParties again (recruitment first; mass, cadre, catch-all; Michels and Panebianco; falling membership). Interest groups are independent, quiet channels to government; protective insiders against promotional outsiders on five points; four sources of clout; capture makes an agency a client; pluralists say groups enrich democracy, critics point to unequal influence and a picky government; dictators buy loyalty, control and serve."
       },
       {
         "type": "uitleg",
-        "tekst": "**If you only remember 8 things**\n\n1. Interest groups influence policy from outside government; six roles.\n2. Pluralism versus Olson’s logic of collective action.\n3. Protective versus promotional groups.\n4. Iron triangle versus issue network.\n5. Five qualities: legitimacy, membership, resources, sanctions, relationship to the state (corporatism).\n6. Policy cycle and sticks, carrots, sermons.\n7. Rational, incremental, garbage-can.\n8. Five differences between democratic and authoritarian policy."
+        "tekst": "**If you only remember 10 things**\n\n1. Interest groups influence policy from outside government; six roles.\n2. Pluralism versus Olson’s logic of collective action.\n3. Protective versus promotional groups.\n4. Iron triangle versus issue network.\n5. Five qualities: legitimacy, membership, resources, sanctions, relationship to the state (corporatism).\n6. Policy cycle and sticks, carrots, sermons.\n7. Rational, incremental, garbage-can.\n8. Five differences between democratic and authoritarian policy.\n9. The lecture: capture (a small interest benefits, all taxpayers pay) and the two ways groups shape bureaucracies.\n10. Help or hindrance? Functional representation; pluralist view (Dahl) against the critique (hierarchy of influence, a non-neutral government)."
       }
     ]
   },
@@ -762,6 +876,27 @@ LESSTOF['governance-policy/college-7'] = [
         "niveau": "gevorderd",
         "vraag": "Explain with at least three mechanisms of convergence why many European countries adopted similar measures during the Covid-19 pandemic.",
         "antwoord": "**Independent problem-solving**: the same virus produced the same problems (overloaded hospitals), so similar responses (lockdowns, testing) arose in parallel. **International agreements and organisations**: WHO guidance and EU coordination (vaccine procurement, the EU digital Covid certificate) pushed countries in the same direction. **Policy learning**: countries closely watched each other’s timetables, vaccines and lockdowns, especially neighbours; but policies were \"translated rather than transported\", adapted to national circumstances. **International competition**: countries compared infection and death rates like a league table, which created pressure to follow successful approaches."
+      },
+      {
+        "type": "oefening",
+        "id": "gov-c7-oef-L1",
+        "niveau": "basis",
+        "vraag": "Protective or promotional? Use the lecture's five points. (a) A national association of police officers that negotiates pay and is regularly consulted by the ministry. (b) An international campaign against nuclear weapons that anyone can join and that runs media campaigns. *(Both examples are ours.)*",
+        "antwoord": "**(a) Protective**: it defends an interest (its members' pay and conditions), membership is restricted to police officers, it has insider status (regularly consulted), its benefits are selective (only members, or at least the profession), and it focuses on national government on issues that affect its members.\n\n**(b) Promotional**: it promotes a cause, membership is open, it is an outsider working through public opinion and the media, the benefit (fewer nuclear weapons) is collective, for members and non-members alike, and it targets national and global bodies on a broad policy matter."
+      },
+      {
+        "type": "oefening",
+        "id": "gov-c7-oef-L2",
+        "niveau": "basis",
+        "vraag": "A national agriculture ministry spends most of its budget on subsidies for one farming sector, whose association writes much of the ministry's policy. Which concept from the lecture fits, and who pays? *(The case is ours.)*",
+        "antwoord": "**Capture**: the ministry has become a \"client\" of one dominant interest group in line with its goals. Most of the benefits of its programmes go to a single, small interest (one farming sector), while most of the costs are borne by a large number of people: all taxpayers (and, through prices, consumers). The book's opening case, Japan's agricultural cooperative JA, shows a small group with outsized influence in the same way."
+      },
+      {
+        "type": "oefening",
+        "id": "gov-c7-oef-L3",
+        "niveau": "gevorderd",
+        "vraag": "Exam-style: \"Interest groups are power without accountability.\" Discuss, using the lecture's view of interest groups in liberal democracies.",
+        "antwoord": "**Introduction.** Interest group activity creates **functional representation** next to **electoral representation**: groups influence policy without being elected. The question is whether that undermines democracy.\n\n**For the statement (critique).** There is a **hierarchy of influence**: groups do not compete on an equal playing field, and some interests weigh more than others (Olson: concentrated, well-organised interests beat diffuse ones). The **government is not neutral**: it chooses which groups to hear, regulates them and may encourage groups in favoured areas. Groups are accountable to their members at most, not to voters, and capture shows how a small interest can steer an agency at the expense of all taxpayers.\n\n**Against the statement (pluralist view).** Majority rule alone is an insufficient account of democracy; democracy includes rule by minorities per policy area and weighs interests, not only votes. The right to organise in defence of specific objectives is itself democratic, and by providing information, discussion, negotiation and compromise, groups make decisions more rational and more acceptable (Dahl).\n\n**Conclusion** (choose and justify, for example): interest groups are not illegitimate in themselves, but their influence is unequal, so the statement holds most where access is closed (insider groups, capture) and least where many groups compete openly."
       }
     ]
   },
@@ -930,10 +1065,129 @@ LESSTOF['governance-policy/college-7'] = [
         ]
       },
       {
+        "type": "quiz",
+        "titel": "Lecture 7: ten questions on the slides",
+        "vragen": [
+          {
+            "vraag": "According to the slide, what is the main function of political parties?",
+            "opties": [
+              "Aggregating interests",
+              "Recruiting and preparing candidates for political office",
+              "Mobilising citizens",
+              "Governing the state"
+            ],
+            "juist": 1,
+            "uitleg": "Recruitment is singled out as the main function; governing, offering choice, mobilising and aggregating are the other functions."
+          },
+          {
+            "vraag": "What most clearly distinguishes interest groups from political parties?",
+            "opties": [
+              "Interest groups have members",
+              "Interest groups try to influence policy",
+              "Interest groups seek to influence the government but do not take part directly in elections",
+              "Interest groups only exist in democracies"
+            ],
+            "juist": 2,
+            "uitleg": "Both have members and both want to influence policy; interest groups do not compete in elections. They also exist (controlled) in authoritarian states."
+          },
+          {
+            "vraag": "A trade union calls a strike to win a pay deal. Which condition of influence is this?",
+            "opties": [
+              "Legitimacy",
+              "Membership",
+              "Capacity to invoke sanctions",
+              "Prestige"
+            ],
+            "juist": 2,
+            "uitleg": "The slide's examples of sanctions: a union calling a strike; a business sector locating its investments elsewhere."
+          },
+          {
+            "vraag": "Which feature belongs to promotional groups, according to the slide?",
+            "opties": [
+              "Selective benefits for members only",
+              "Restricted membership",
+              "Insider status with government",
+              "Collective benefits for members and non-members"
+            ],
+            "juist": 3,
+            "uitleg": "Promotional: promote a cause, open membership, outsider status, collective benefits, national and global focus. The other three are protective features."
+          },
+          {
+            "vraag": "An agency's programmes mainly benefit one industry while all taxpayers carry the costs. The lecture calls this:",
+            "opties": [
+              "Capture: the agency has become a client of the group",
+              "Functional representation",
+              "Selective incorporation",
+              "Pluralism"
+            ],
+            "juist": 0,
+            "uitleg": "The first of the two ways interest groups shape bureaucracies: one dominant group in line with the department's goals."
+          },
+          {
+            "vraag": "On the slide, a lobbyist is any person or organisation that:",
+            "opties": [
+              "Is elected to influence the government",
+              "Works on behalf of groups or individuals and receives money to influence the government",
+              "Organises protests outside parliament",
+              "Advises the government without pay"
+            ],
+            "juist": 1,
+            "uitleg": "The slide's definition stresses that lobbyists are paid. The book defines lobbying as efforts to influence decisions on behalf of others."
+          },
+          {
+            "vraag": "What does the pluralist view say about majority rule?",
+            "opties": [
+              "It is a correct but insufficient account of how modern democracies work",
+              "It is the only legitimate form of democracy",
+              "It should be replaced by rule by experts",
+              "It is incompatible with interest groups"
+            ],
+            "juist": 0,
+            "uitleg": "Pluralists add a strong element of rule by minorities per policy area: interests are weighed, not only votes."
+          },
+          {
+            "vraag": "Which is part of the lecture's critique of the pluralist view?",
+            "opties": [
+              "Interest groups make decisions more rational",
+              "Interest groups provide information and compromise",
+              "The government is not neutral and decides which groups to hear",
+              "Democracy should weigh interests, not only votes"
+            ],
+            "juist": 2,
+            "uitleg": "The critique: a hierarchy of influence, and a non-neutral government that chooses, regulates and may encourage groups. The other options are the pluralist view itself."
+          },
+          {
+            "vraag": "An authoritarian regime lets a farmers' league organise in exchange for political loyalty. This is:",
+            "opties": [
+              "Provision of local services",
+              "Selective incorporation or patronage",
+              "Functional representation",
+              "Capture"
+            ],
+            "juist": 1,
+            "uitleg": "Some interests may organise, in exchange for loyalty and support."
+          },
+          {
+            "vraag": "Which of these is NOT one of the four conditions of influence on the slide?",
+            "opties": [
+              "Legitimacy",
+              "Membership",
+              "Resources",
+              "Relationship to the state"
+            ],
+            "juist": 3,
+            "uitleg": "The slide gives four: legitimacy, sanctions, membership, resources. The book adds relationship to the state (corporatism) as a fifth quality."
+          }
+        ]
+      },
+      {
         "type": "bronnen",
         "items": [
           {
             "apa": "McCormick, J., Hague, R., & Harrop, M. (2022). Comparative government and politics: An introduction (12th ed.). Bloomsbury/Red Globe Press. Chapters 16 (Interest groups) and 17 (Public policy)."
+          },
+          {
+            "apa": "Trigo de Sousa, I. (2026). Lecture 7: Political parties & interest groups [Lecture slides, Governance & Policy, SSMS Y1]. The Hague University of Applied Sciences."
           }
         ]
       }
