@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 2 november 2026, service worker **v188**.
+Stand: 3 november 2026, service worker **v189**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1074,6 +1074,19 @@ begrippen (in kern2, waar de begrippenlijst staat), Quick recap met 'What the le
 waarop IG's bureaucratieen vormen, Dahl 1993, 'government not neutral', nieuwe groepen door economische
 ontwikkeling. Slide geeft 4 condities van invloed, boek 5 (plus relationship to the state). H17 staat
 niet op de slides. Mid-term-les Governance: sessie 7 bijgewerkt (20/20).
+
+**v189: Society sessie 8 opnieuw opgebouwd uit de 5e druk** (Macionis & Plummer 2012; screenshots van
+Julie, 3 nov: H23 p. 795-797, H24 p. 830, 841-849, 855, precies de programmapagina's). De les volgt nu
+alleen die pagina's; de oude v137-stof uit de hele hoofdstukken van de 4e druk (Science Wars,
+sociobiologie, IVF, Malthus, demografische transitie, fertiliteitsmaten enz.) is eruit. Verschillen met
+de 4e druk: Kaku 300 (niet 150) wetenschappers, wereldbevolking ca. 7 miljard (2011), UN Habitat 2010
+(urban millennium, 70% in 2050), postcolonial cities, Hiroshima/Nagasaki 75.000 (boekcijfer). Let op:
+de tekst noemt London en New York de mega-cities van 1950, Tabel 24.4 New York en Tokyo (staat als
+opmerking in de les). Burgess' zones en de lijst mega-regions staan op niet-gelezen pagina's.
+Mid-term-les: sessie 8 opnieuw, recap-rijen (Malthus en Merton eruit), oefentoetsvraag 19 vervangen
+(demografische transitie valt buiten de pagina's). `app.js`: eenmalig oude quizantwoorden van sessie 8
+en vraag 19 gewist (vlag `ssms-migratie-v189`). Browser: 15/15 en 20/20.
+Alle andere Society-lessen zijn nog uit de 4e druk; Julie heeft nu de 5e.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

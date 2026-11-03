@@ -25,6 +25,24 @@
   } catch(e){}
 })();
 
+/* v189: Society sessie 8 is opnieuw opgebouwd (5e druk) met een nieuwe quiz,
+   en vraag 19 van de Society-oefentoets is vervangen. Oude antwoorden zouden
+   bij de nieuwe vragen verschijnen; die worden eenmalig gewist. */
+(function wisOudeQuizSociety8(){
+  try {
+    if (localStorage.getItem('ssms-migratie-v189')) return;
+    var weg = [];
+    for (var i = 0; i < localStorage.length; i++) {
+      var k = localStorage.key(i);
+      if (!k) continue;
+      if (k.indexOf('ssms-society-politics-college-8-checken-quiz') === 0) weg.push(k);
+      if (k.indexOf('ssms-society-politics-midterm-checken-quiz0-v18') === 0) weg.push(k);
+    }
+    weg.forEach(function(k){ localStorage.removeItem(k); });
+    localStorage.setItem('ssms-migratie-v189', '1');
+  } catch(e){}
+})();
+
 var STUDENT = { naam: '' }; // vul je voornaam in voor een persoonlijke groet
 
 /* Vakken en lessen. Voeg lessen toe als objecten: {id, titel, duur, url}

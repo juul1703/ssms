@@ -1,6 +1,7 @@
 /* Society & Politics, mid-term review (sessie 1-8). Nieuw in v173, oefentoets in v174.
    Opgebouwd uit de gecontroleerde sessielessen (v162-v172).
-   v187: slides sessie 7 en de review-lijst van de docent. */
+   v187: slides sessie 7 en de review-lijst van de docent.
+   v189: sessie 8 opnieuw uit de 5e druk (H23 p. 795-797, H24 p. 830, 841-849, 855). */
 
 LESSTOF['society-politics/midterm'] = [
   {
@@ -477,13 +478,13 @@ LESSTOF['society-politics/midterm'] = [
       },
       {
         "type": "tekst",
-        "titel": "Session 8: science, risk, population and cities (chapters 23 and 24)",
+        "titel": "Session 8: science, risk, population and cities (chapters 23 and 24, 5th edition pages)",
         "toetsstof": true,
-        "tekst": "**Chapter 23**: Kaku's three pillars (**matter, life, mind**) and three revolutions (**quantum, biomolecular, computer**); Beck's **risk society** of manufactured risks. Science as social: **Mannheim**, **Kuhn's paradigms**, **Popper's falsification**, **Merton's four norms** (universalism, communalism, disinterestedness, organised scepticism), SSK, **Latour**, the black box and the Science Wars. Outer space and nuclear weapons; **sociobiology** and evolutionary psychology with **five criticisms** (reductionism, ignoring time, determinism, culture, ideology); genetic modification, GM food and **Haraway's cyborg**; the new reproductive technologies (IVF, cloning, surrogacy) and the **HFEA**; the Information Revolution (Hamelink's four roles, three phases of computing, **Zuboff's four effects**) and the risks of cyberworlds (cyberclasses and the digital divide).\n\n**Chapter 24**: **demography** through fertility (crude birth rate, TPFR), mortality (crude death rate, infant mortality, life expectancy) and migration (push and pull); age-sex pyramids and the rule of 70. **Malthus** (geometric against arithmetic growth) and **demographic transition theory** (four stages); empowering women (Cairo 1994). Three **urban revolutions**, suburbanisation, white flight and gentrification, mega-cities and megalopolis, **global cities** (Sassen); **Simmel's blasé urbanite**, the **Chicago School** (Park, Wirth) and **urban ecology** (Burgess, Hoyt, Harris and Ullman)."
+        "tekst": "**Chapter 23 (pp. 795-797)**: Kaku (over 300 scientists, *Physics of the Future*); three pillars (**matter, life, mind**), three revolutions (**quantum, biomolecular, computer**), three discoveries (**atom, gene, computer**), from an age of discovery to an age of mastery. Applied through technology, each raises social and political issues: the moon and Hiroshima and Nagasaki; the Human Genome Project and cloning, designer babies, racial eugenics; communication and the surveillance society, cyborgs. **Beck's risk society**: new technologies manufacture risks that are humanly produced yet often invisible; the implications matter for everyone, not only experts. **Mannheim** (sociology of knowledge), **Kuhn** (paradigms, normal science, anomalies, paradigmatic crisis; consensus, not objective truth), **Popper** (falsification, deduction).\n\n**Chapter 24 (pp. 830, 841-849, 855)**: the **sociology of space** and the social construction of space; **demography** (from under 500 million to about 7 billion in 2011; growth mainly from falling death rates; population control and women's status inseparable). **Urbanisation** in four patterns and three **urban revolutions** (about 8000 BCE, 1750, 1950); the malling of the world (Ritzer's cathedrals of consumption); early and pre-industrial cities (Jericho, Athens, Rome, ghetto, bourgeoisie); the industrial city, **metropolis**, decentralisation, **suburbs** (Levittown, white flight), **gentrification** (London Docklands); **mega-cities** (more than 8 million), **megalopolis** (Gottmann), urban tensions and riots, Mexico City, postcolonial cities; **world cities** (Friedman) and **global cities** (Sassen), the urban millennium (UN Habitat). **Urbanism as a way of life**: Baudelaire's flâneur, **Simmel's blasé attitude**, **Wirth** (impersonal, superficial, transitory, tolerant), **Gans**'s critique (class, race, gender); **Park** and **urban ecology** (natural areas), Burgess's concentric zones."
       },
       {
         "type": "slimmer",
-        "tekst": "**In plain words**\n\nScience changes human life and creates new risks we made ourselves. Population exploded and moved to the cities, and sociologists ask how city life shapes the way we live and treat each other."
+        "tekst": "**In plain words**\n\nScience changes human life and creates new risks we made ourselves. The world's population exploded and moved into cities, and sociologists ask how city life shapes the way we live and treat each other."
       },
       {
         "type": "waarschuwing",
@@ -495,43 +496,47 @@ LESSTOF['society-politics/midterm'] = [
       },
       {
         "type": "tekst",
-        "tekst": "**Three pillars, three revolutions**\n\nPhysicist **Michio Kaku** interviewed over 150 scientists and found **three pillars of science**: **matter**, **life** and **mind**. Each produced a revolution:\n- matter: the **quantum** revolution, the discovery of the **atom**;\n- life: the **biomolecular** revolution, the discovery of the **gene**;\n- mind: the **computer** revolution.\n\nScience has moved from an age of discovery to an age of **mastery**: we no longer just understand nature, we change it. And every revolution cuts both ways. The atom gave us the moon landing and the bombs on Hiroshima and Nagasaki. The gene gave us medicine and the fear of designer babies. The computer gave us the internet and the surveillance society.\n\nThat is **Beck's risk society** (remember session 1): today's biggest risks are not floods or plagues but risks we **manufacture** ourselves through science and technology. They are often **invisible**, global, and nobody can fully predict where they lead."
+        "tekst": "**Science fiction is becoming real**\n\nPhysicist **Michio Kaku** asked **more than 300 scientists** what the future looks like. Smart homes, gene medicine that lets us live much longer, the internet in your contact lenses, trips into space. A lot of what sounded like science fiction 50 years ago is already here: mobile phones, test-tube babies, cloning. The sociologist asks: **what kind of society does all of this create?** And Einstein's warning is printed right at the start: don't think science solves human problems on its own, and don't let only the experts decide how society is organised."
       },
       {
         "type": "tekst",
-        "tekst": "**Is science just the truth?**\n\nSociologists ask how knowledge is made.\n- **Mannheim** founded the **sociology of knowledge**: forms of knowledge are linked to the society they come from.\n- **Kuhn**: scientists work inside a shared way of seeing, a **paradigm**. When too much stops fitting (anomalies), a crisis comes and the paradigm flips: a scientific revolution.\n- **Popper**: science can never prove anything for certain; it can only show what is **not** true. Progress comes from **falsification**.\n- **Merton**: science has its own ethos with four norms: **universalism**, **communalism** (findings belong to everyone), **disinterestedness** and **organised scepticism**. Critics call it a wish list: no real lab works like that.\n\nThen came the lab-watchers: the **sociology of scientific knowledge (SSK)** studied scientists like a foreign tribe. **Latour and Woolgar** (*Laboratory Life*) showed how facts get made through talk, paperwork and publications. A **black box** is a complex process nobody needs to explain, which makes science look more solid than it is. This led to the **Science Wars**: scientists defending objective knowledge against sociologists who study science as socially made, partly based on misreadings on both sides (Fuller)."
+        "tekst": "**Three pillars, three revolutions**\n\nKaku sees **three pillars of science**: **matter, life and mind**. They led to three revolutions in the twentieth century: the **quantum** revolution (the **atom**), the **biomolecular** revolution (the **gene**) and the **computer** revolution (the **computer**). We went from discovering things to mastering them.\n\nThe catch: science is harmless while it stays in the lab. Once it becomes **technology**, it cuts both ways. The atom put people on the moon **and** killed an estimated 75,000 people in Hiroshima and Nagasaki. The gene gave us the Human Genome Project **and** fears of cloning, designer babies and racial eugenics. The computer gave us amazing communication **and** the surveillance society, and maybe one day cyborgs."
       },
       {
         "type": "tekst",
-        "tekst": "**Space, bombs and genes**\n\n**Space** is not just science fiction. Since **Sputnik I** (1957) some 600 satellites orbit the earth for navigation, weather, communication, the military and intelligence; cyberspace depends on them. Space research teaches us about the human body, controlling space means power on earth, space lives in our imagination, and space tourism is very expensive and very risky.\n\n**Nuclear weapons**: Hiroshima (some 80,000-120,000 dead) and Nagasaki in 1945; the Non-Proliferation Treaty (1968), which aimed at elimination but achieved little; eight states have detonated nuclear weapons, and Israel is widely believed to have them. They symbolise the \"Nuclear Age\": brilliant science next to our capacity for annihilation.\n\n**Genes**: \"the gene is an icon of our time\". **Sociobiology** (Edward O. Wilson) and **evolutionary psychology** explain behaviour through biology and natural selection. Sociologists push back with **five criticisms**: it is **reductionist** (a whole life reduced to a genetic seed), it **ignores time** and history, it is too **deterministic** (Darwin stressed chance), **culture** explains why behaviour differs between societies, and it gives scientists too much **moral authority** (fears of a revival of ideas of racial or sexual superiority).\n\n**Genetic modification** brings benefits and risks: higher insurance premiums for \"sick genes\", more abortions, gene patents, questions of genetic privacy, and Lee Silver's warning of **two human species**, an enhanced one and a deficient one. **GM food** could feed more people or carry unknown risks. **Haraway's cyborg**: we are all becoming part machine, so what is a human?"
+        "tekst": "**Risks we made ourselves**\n\nRemember **Ulrich Beck** from session 1: we live in a **risk society**. The new technologies **manufacture** risks that old societies never had. These risks are **made by humans but often invisible**: nobody really knows where gene editing or AI will lead. That's why the big questions about science aren't just for the experts: they're for everyone."
       },
       {
         "type": "tekst",
-        "tekst": "**Babies in a lab, and life online**\n\n**IVF** joins sperm and egg in a lab dish; Louise Brown was the first \"test-tube baby\". In the UK one in seven couples had difficulty conceiving, and the success rate is only about 28 per cent for women under 35. **Dolly the sheep** (1996) showed that cloning a mammal is possible. The new reproductive technologies raise **seven ethical issues**, from who the real parents are to commercial surrogacy and choosing the child you want. Feminists disagree: more choice for women, or more control for doctors? The UK regulates it all through the **HFEA** (1991).\n\n**The Information Revolution**: Hamelink's four roles of IT are **capturing, storing, processing and communicating** data. Computing went through **three phases**: huge mainframes, then PCs and the first internet links, then **ubiquitous computing**, with connected computers everywhere. **Zuboff** shows four effects on work: **deskilling**, more **abstract** work, **less interaction** and **more control** by employers. Technology is not neutral.\n\nCyberworlds bring digital economies, democracy, relationships and communities, but also four worries: **cyberclasses** (information haves and have-nots: in Eisenstein's figures 84 per cent of computer users were in North America and Northern Europe), **information overload**, **cybercrime** and **dysfunctionality**."
+        "tekst": "**How is science made?**\n\n- **Mannheim**: what you believe depends on the groups you belong to. All knowledge, even science, is shaped by society (the **sociology of knowledge**).\n- **Kuhn**: scientists grow up inside a **paradigm**, a shared way of seeing. They solve puzzles inside it (**normal science**) until too many things don't fit (**anomalies**). Then comes a **crisis** and a new paradigm. Truth is basically what scientists agree on.\n- **Popper** disagrees: you can **never prove** a theory, only try to **disprove** it. One counter-example and it's out. Start with a theory and test it (deduction)."
       },
       {
         "type": "slimmer",
-        "tekst": "**Chapter 23 in one breath**\n\nThree pillars (matter, life, mind) gave three revolutions (atom, gene, computer), each with benefits and manufactured risks: Beck's risk society. Kuhn, Popper, Merton and the lab studies show science is also social. Space, nuclear weapons, genes, IVF and computers all reshape human life, and sociologists keep asking who gains, who controls and what it means to be human."
+        "tekst": "**Chapter 23 in one breath**\n\nThree pillars (matter, life, mind), three revolutions (quantum, biomolecular, computer), three discoveries (atom, gene, computer), and each one used for good and for harm. Beck: these technologies manufacture invisible risks, so science is everybody's business. Mannheim says knowledge is social, Kuhn says science moves by paradigm shifts, Popper says science moves by falsifying."
       },
       {
         "type": "tekst",
-        "tekst": "**So many people**\n\nFor most of history the world had fewer than 500 million people. About 250 years ago growth took off: 3 billion in 1960, 6.5 billion in 2006, around 9 billion expected by 2050 (the book's figures). Rich regions grow very slowly and are ageing; poor regions grow much faster.\n\n**Demography** studies population through three things:\n- **Fertility**: births, measured by the **crude birth rate** and the **total period fertility rate**, which is better for comparing countries because it is not affected by age structure.\n- **Mortality**: deaths, measured by the **crude death rate**, **infant mortality** and **life expectancy**.\n- **Migration**: in, out and net migration, driven by **push** factors (problems at home) and **pull** factors (opportunities elsewhere).\n\nAn **age-sex pyramid** shows a population at a glance: rich countries have a bulge from the baby boom and a narrow base, poor countries a wide base of children. A handy rule: **70 divided by the growth rate** gives the years it takes a population to double (Africa at 2.8 per cent: 25 years).\n\n**Malthus** (1766-1834) warned that population grows **geometrically** (2, 4, 8, 16) while food grows only **arithmetically** (2, 3, 4, 5), so starvation would follow. He was wrong about the timing, because people had fewer children and farming improved, but land, water and air are still finite.\n\n**Demographic transition theory** links population to technology in four stages: (1) high birth and death rates; (2) death rates fall, birth rates stay high, so rapid growth; most of Latin America, Africa and Asia are here; (3) birth rates fall too; (4) both low, very slow growth. It is optimistic, like modernisation theory; dependency theorists say poverty will stay without a fair redistribution of resources.\n\nThe key insight from the **Cairo conference** (1994): **empower women**. In Nafis Sadik's words: give women more choices and they will have fewer children."
+        "tekst": "**Spaces and people**\n\nSpaces aren't just there: **we make them**. World maps look different in different cultures, and your bedroom, a favela, an office in the City of London and Disneyland are all **socially constructed spaces** that shape very different lives.\n\nAnd there are a lot more of us now. For almost all of history the world had **fewer than 500 million** people; about **250 years ago** growth took off: **3 billion in 1960, 7 billion in 2011**, maybe 9 billion in 2050. **Demography** studies this. Surprise: populations grow mainly because **fewer people die** (medicine, antibiotics), not because people have more babies. And the best way to slow growth? Give **women** education and opportunities. Forced family planning, as in India and China, was very unpopular, and many in poor countries see Western pressure as racist."
       },
       {
         "type": "tekst",
-        "tekst": "**Cities, three times over**\n\n**Revolution 1**, about 12,000 years ago: farming created a surplus, so some people could stop growing food and specialise. The first cities appeared.\n\n**Revolution 2**, from about 1750: the Industrial Revolution made cities huge, crowded and impersonal. In Britain 20 per cent lived in cities in 1810, nearly 80 per cent by 1910. Later many people moved to the **suburbs**, often white families leaving minorities behind (**white flight**). **Gentrification** turns declining areas into prosperous ones, like the London Docklands, but pushes poorer residents out. Tensions sometimes ended in **riots** (Brixton and Toxteth in 1981, among others), which did little to solve the long-term problems.\n\n**Revolution 3**, since about 1950: explosive growth of cities in poorer countries, through more births and migration from the countryside, faster than water pipes and housing can be built. In 1950 only London and New York were **mega-cities** (more than 8 million people); by 2005 there were 20, 16 of them in the developing world. Gottmann's **megalopolis** is a whole region that looks like one city from a plane at night.\n\n**Global cities** (Friedman, **Sassen**): London, New York, Tokyo and others are the **command points** of the world economy, with headquarters, banks and airports, and \"global souls\" who live everywhere and nowhere. Since **2008** more than half of humanity lives in cities: the urban millennium."
+        "tekst": "**Cities, three times over**\n\n**Revolution 1**, about 12,000 years ago (from about 8000 BCE): farming meant staying put and having food to spare, so the first cities appeared (Jericho, the Fertile Crescent, the Nile). Then Athens (built on slaves), Rome (almost a million people), a long dip, and medieval cities where the **bourgeoisie** grew rich and the word **ghetto** was born.\n\n**Revolution 2**, from 1750: factories made cities explode (London from 550,000 to 6.5 million). Then the **metropolis**, a big city that dominates its area. After 1950 people with money moved out to the **suburbs**: think Levittown's look-alike houses, and **white flight** driven by racism, leaving inner cities poorer. Later, money moved back in: **gentrification** (London Docklands), and the poor got pushed out again.\n\n**Revolution 3**, from 1950: now the growth is in **poor countries**. **Mega-cities** (more than 8 million people) like Mexico City, where many have no running water. A **megalopolis** is a whole region of cities glued together. When inequality boils over, cities get riots, like Brixton in 1981."
       },
       {
         "type": "tekst",
-        "tekst": "**How sociologists read the city**\n\nEarly sociologists worried about city life: **Toennies** saw community (Gemeinschaft) give way to impersonal society (Gesellschaft); **Durkheim** saw mechanical solidarity give way to organic solidarity based on specialisation.\n\n**Simmel**: the city bombards you with people and impressions, so you develop a **blasé attitude** and tune most of it out. Not because you are cold, but to survive and keep your energy for the people who matter.\n\nThe **Chicago School** turned the city into a laboratory. **Park** walked the streets and saw the city as a mosaic of **natural areas** (ethnic neighbourhoods, industrial districts), a living organism. **Wirth** (*Urbanism as a way of life*, 1938): a large, dense and diverse population makes city life **impersonal, superficial and transitory**, but also more **tolerant**.\n\n**Urban ecology** maps the layout: Burgess's **concentric zones** (like a bull's-eye around the centre), Hoyt's **wedge-shaped sectors**, and Harris and Ullman's **multiple centres**. Elijah Anderson's *Code of the Street* shows one street in Philadelphia running from a \"code of civility\" to a \"street code\" built around respect."
+        "tekst": "**Cities that run the world**\n\nSome cities are **global cities** (Sassen): command centres of the world economy, packed with bank headquarters and big companies. London, New York and Tokyo top the list, but they also house many poorly paid migrants. Friedman called them **world cities**. By 2050 over **70 per cent** of humanity will live in cities, mostly in Africa and Asia. Fun fact: even shopping malls are a sociology topic. Ritzer calls them **cathedrals of consumption**, and in Las Vegas 'Disneyland goes shopping'."
+      },
+      {
+        "type": "tekst",
+        "tekst": "**What city life does to you**\n\n**Simmel**: the city throws so much at you that you switch off. That's the **blasé attitude**: not because you're cold, but to survive. **Wirth**: big, dense and mixed cities make life **impersonal, superficial and fast**, but also more **tolerant**. You know people by their job, not as people. Critics (**Gans**): not every city dweller lives the same life; rich and poor, men and women, different ethnic groups all experience the city differently.\n\n**Park** and the Chicago School walked the streets to study them. The city is like a living organism made of **'natural areas'** (ethnic neighbourhoods, industrial zones), all competing for space: **urban ecology**. His student **Burgess** drew Chicago as rings around the centre, like a dartboard."
       },
       {
         "type": "slimmer",
-        "tekst": "**Chapter 24 in one breath**\n\nPopulation exploded in the last 250 years; demography measures it through fertility, mortality and migration. Malthus feared starvation, demographic transition theory expects stability, and empowering women is the key. Cities came in three revolutions, ending in mega-cities in poor countries and global command cities. Simmel, Park, Wirth and urban ecology explain how city life shapes us."
+        "tekst": "**Chapter 24 in one breath**\n\nSpace is made by people. Population exploded in 250 years, mostly because fewer people die; empowering women is the key to slowing it. Cities came in three revolutions (farming, industry, poor countries since 1950), with metropolis, suburbs, gentrification, mega-cities, megalopolis and global cities along the way. Simmel and Wirth describe the city mind (blasé, impersonal, tolerant), Gans adds that class, race and gender matter, and Park sees the city as an ecology of natural areas."
       },
       {
         "type": "uitleg",
-        "tekst": "**If you only remember 8 things**\n\n1. Kaku: matter, life and mind; the atom, the gene and the computer; Beck's manufactured risks.\n2. Mannheim, Kuhn (paradigms), Popper (falsification), Merton's four norms; SSK, Latour, the black box, the Science Wars.\n3. Space, nuclear weapons, sociobiology and its five criticisms, genetic modification and the cyborg.\n4. IVF, cloning and the seven ethical issues; the HFEA.\n5. Hamelink's four roles, three phases of computing, Zuboff's four effects, the four risks of cyberworlds.\n6. Demography: fertility (TPFR), mortality, migration (push and pull); pyramids and the rule of 70.\n7. Malthus, demographic transition theory, Cairo 1994 and empowering women.\n8. Three urban revolutions, mega-cities, global cities (Sassen); Simmel, Park, Wirth, urban ecology."
+        "tekst": "**If you only remember 8 things**\n\n1. Kaku: matter, life, mind; quantum, biomolecular, computer; atom, gene, computer.\n2. Every revolution cuts both ways (atom bomb, designer babies, surveillance).\n3. Beck: new technologies manufacture invisible, human-made risks.\n4. Mannheim (knowledge is social), Kuhn (paradigms and crises), Popper (falsification).\n5. Space is socially constructed; demography: 7 billion, growth from falling death rates.\n6. Four patterns of urban life and three urban revolutions (8000 BCE, 1750, 1950).\n7. Metropolis, suburbs, gentrification, mega-city (8 million), megalopolis, global city.\n8. Simmel's blasé attitude, Wirth's urbanism, Gans's critique, Park's urban ecology."
       },
       {
         "type": "tekst",
@@ -716,9 +721,9 @@ LESSTOF['society-politics/midterm'] = [
             "Three pillars; risk society; paradigms; falsification"
           ],
           [
-            "Malthus; Wirth; Simmel",
+            "Simmel; Wirth; Gans; Park",
             "8",
-            "Population and food; urbanism as a way of life; the blasé urbanite"
+            "The blasé attitude; urbanism as a way of life; many types of urbanite; urban ecology"
           ]
         ]
       },
@@ -774,8 +779,8 @@ LESSTOF['society-politics/midterm'] = [
             "Exclusion, exploitation, powerlessness, cultural imperialism, violence"
           ],
           [
-            "Merton's four norms of science",
-            "Universalism, communalism, disinterestedness, organised scepticism"
+            "Three urban revolutions",
+            "About 8000 BCE, 1750, 1950"
           ]
         ]
       },
@@ -1038,7 +1043,7 @@ LESSTOF['society-politics/midterm'] = [
               "Marx: two classes",
               "Weber: class, status and power are separate dimensions",
               "Davis and Moore: functional importance",
-              "Malthus: population growth"
+              "Wirth: urbanism as a way of life"
             ],
             "juist": 1,
             "uitleg": "Low status consistency: you can rank high on power and low on class (session 7)."
@@ -1055,15 +1060,15 @@ LESSTOF['society-politics/midterm'] = [
             "uitleg": "Beck's world risk society appears among the features of globalisation in chapter 2 and returns as manufactured risk in chapter 23."
           },
           {
-            "vraag": "A country's death rate has fallen sharply thanks to vaccines, but families still have many children. In which stage of demographic transition is it?",
+            "vraag": "A city has 9 million inhabitants, many of them in shanty towns without running water. Which concept from session 8 fits best?",
             "opties": [
-              "Stage 2",
-              "Stage 1",
-              "Stage 3",
-              "Stage 4"
+              "A mega-city in a low-income society (the third urban revolution)",
+              "A metropolis of the second urban revolution",
+              "A gentrified city",
+              "A suburb"
             ],
             "juist": 0,
-            "uitleg": "Stage 2: death rates fall, birth rates stay high, so population grows rapidly; most of Latin America, Africa and Asia are here (session 8)."
+            "uitleg": "A mega-city has more than 8 million people; since about 1950 the third urban revolution takes place in less developed nations, as in Mexico City (session 8)."
           },
           {
             "vraag": "A commuter in a big city ignores street musicians, advertisements and strangers on the train. Which concept explains this?",
