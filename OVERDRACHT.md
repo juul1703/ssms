@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 3 november 2026, service worker **v191**.
+Stand: 3 november 2026, service worker **v192**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1108,6 +1108,16 @@ network-cyborg society, vijf labels, Castells, Table 1.4, new information order)
 Quick recap (overview-society.js) mee aangepast; `app.js` wist eenmalig oude antwoorden op quizvragen 5-7
 (vlag `ssms-migratie-v191`). Nog open voor deel 2: H2, H4 4.9-4.13 eruit, oefening 5 (Gemeinschaft), en
 de mid-term-les sessie 1 (noemt nog Comte 1838, vier veranderingen, drie problemen).
+
+**v192: Society sessie 1 af (5e druk).** H2 p. 33-52 opnieuw (scan-PDF, OCR met tesseract): global village,
+theorie, multi-paradigmatisch (Table 2.1), functionalisme (Spencer, Parsons, Merton), conflict, box 'The
+foundational three' (Marx, Durkheim, Weber), action theory, Table 2.2, kapitalisme en neoliberalisme, other
+voices, postmodern, Table 2.3, global perspective, Connell, Robertson, globalisering (hyperglobalisers vs
+sceptics, vier kenmerken). Glocalisation alleen in Table 2.3 + lecture (zo gelabeld). H4 4.9-4.13 eruit.
+Leerdoelen, recap, Quick recap (overview-society.js), oefeningen 3 en 4, quizvragen 12-14 en checklist
+afgestemd; `app.js` wist eenmalig quizvragen 12-14 (`ssms-migratie-v192`). Mid-term-les sessie 1 opnieuw
+(academische samenvatting + verhaal). In het Project staan nu 5e-druk-hoofdstukken (chapter_1, 2, 4, 5+16,
+7, 8, 23+24); H6, H11 en H17 ontbreken nog (te groot om te uploaden, >30 MB).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

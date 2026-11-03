@@ -52,6 +52,15 @@
   } catch(e){}
 })();
 
+/* v192: vragen 12-14 van de quiz van Society sessie 1 zijn vervangen (5e druk). */
+(function wisOudeQuizSociety1b(){
+  try {
+    if (localStorage.getItem('ssms-migratie-v192')) return;
+    ['11','12','13'].forEach(function(n){ localStorage.removeItem('ssms-society-politics-college-1-checken-quiz0-v' + n); });
+    localStorage.setItem('ssms-migratie-v192', '1');
+  } catch(e){}
+})();
+
 var STUDENT = { naam: '' }; // vul je voornaam in voor een persoonlijke groet
 
 /* Vakken en lessen. Voeg lessen toe als objecten: {id, titel, duur, url}
