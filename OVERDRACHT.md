@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 25 november 2026, service worker **v197**.
+Stand: 25 november 2026, service worker **v198**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst **sectie 0 (standaard voor nieuwe lessen)**, dan hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -101,6 +101,7 @@ bestanden.
 | `society-college-7.js` | Society sessie 7, Macionis H8 (social divisions and stratification), uit de literatuur volgens de standaard; nieuw in v136 |
 | `society-college-8.js` | Society sessie 8, Macionis H23 (science, cyberspace and the risk society) en H24 (populations, cities and the space of things to come), beide heel, uit de literatuur volgens de standaard; nieuw in v137 |
 | `society-college-9.js` | Society sessie 9 (end-term 1), McCormick H3 States and nations; eerste les in de grafische end-term-opzet (v193) |
+| `society-college-10.js` | Society sessie 10 (end-term 2), McCormick H4 Political culture; sectie 0-opzet (v198) |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `governance-college-9.js` | Governance sessie 9, Allison & Zelikow (1999) Introduction p. 1-12; end-term-opzet (v196) |
@@ -187,6 +188,7 @@ society-college-6.js
 society-college-7.js
 society-college-8.js
 society-college-9.js
+society-college-10.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -1228,6 +1230,16 @@ op de telefoon): vergelijkingen als overzicht met punten per model. Bronnen voor
 kleur 4 geel, Model III kleur 1 oranje); labels toegevoegd aan de puzzling actions, Side by side (Choice, Output,
 Resultant) en de schaakkaart in de Recap. Les op: een gewijzigde les altijd met een nieuw versienummer opleveren,
 ook als de vorige zip nog niet geupload leek; met hetzelfde nummer haalt de service worker het bestand niet opnieuw.
+
+**v198: Society sessie 10 (McCormick H4 Political culture), volgens sectie 0.** Vijf kopjes zoals het boek
+(Understanding political culture, From The Civic Culture to post-materialism, From cultures to civilizations,
+Political trust, Political culture in authoritarian regimes); 22 van 24 overzichtskaarten met kleurlabels; Recap met
+Names to know en "If you only remember 8 things"; quiz 14/14 in de browser. Let op: de sessie heet "Political culture
+and ideologies", maar H4 gaat alleen over political culture (ideologie: H15); in Before you start staat een
+waarschuwing, ideologieen komen uit de slides zodra die er zijn. Watch out in de les: het boek drukt "Minkov and
+Hostede (2011)", vrijwel zeker Hofstede. Figuren 4.2-4.7 zijn beeld; alleen wat in de tekst staat is gebruikt.
+**Repo's (Julie, 25 nov):** haal alleen `ssms` op. `ssms-share` werkt Julie aan het eind van de end-terms in een keer
+bij; tot die tijd loopt die achter, en dat is de bedoeling.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
