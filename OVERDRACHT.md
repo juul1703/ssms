@@ -1,14 +1,58 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 24 november 2026, service worker **v197**.
+Stand: 25 november 2026, service worker **v197**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
-> hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
+> hij is. Lees eerst **sectie 0 (standaard voor nieuwe lessen)**, dan hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
 > de to-do lijst in 10a. Lever wijzigingen altijd als zip met alleen de
 > gewijzigde bestanden, verhoog `VERSIE` in `sw.js`, en zet nieuwe bestanden
 > in `BESTANDEN` in `sw.js` én als scripttag in `index.html`, `vak.html` en
 > `les.html`, vóór `vakken.js`.
+
+
+## 0. Standaard voor alle nieuwe lessen (end-term, vanaf v194). Gaat voor alles hieronder
+
+Afgesproken met Julie op 24 november 2026. Voorbeelden om na te bouwen: `society-college-9.js`
+(McCormick H3) en `governance-college-9.js` (Allison & Zelikow). Geldt voor **elke nieuwe les**
+vanaf de end-terms, bij alle vakken. Bestaande mid-term-lessen blijven zoals ze zijn, tenzij Julie
+iets anders vraagt. Waar secties 5, 9c en 9f iets anders zeggen, geldt deze sectie.
+
+**Tabbladen:** Before you start, Core material, **Recap**, Applying it, Check yourself (plus de
+automatische Vaardigheden en Flashcards). Geen aparte `overview`-tab (Quick recap) meer.
+
+**Core material**
+- **Kopjes volgen precies de indeling van de bron** (de hoofdstuk- of paragraafkoppen van het boek
+  of de tekst), genummerd, dus niet zelf in meer kopjes knippen. Kaders uit het boek (Using Theory,
+  Spotlight enz.) staan in het kopje waar ze in het boek staan.
+- Binnen een kopje: **de volledige uitleg**, in korte, behapbare stukken (een vette tussenkop aan het
+  begin van een tekstblok, nooit `titel`, anders wordt het een eigen kopje), met het **bijpassende
+  grafische blok direct onder het stuk waar het bij hoort**: tekst, graphic, tekst, graphic.
+- **Geen ingeklapte uitleg** (`verdieping` bestaat nog, maar wordt niet gebruikt) en **geen aparte
+  In plain words-kaders**: de stukken zelf zijn in eenvoudig Engels.
+- Grafische blokken (lesblokken.js, gebruiken `kop` in plaats van `titel`):
+  `overzicht` (rijtje met gekleurde labels: lijstjes, typen, vergelijkingen), `tijdlijn`
+  (volgordes, stappen, jaartallen), `schema` (vakjes met pijl naar een begrip), `examentip`.
+- **Kleurlabels op bijna elke overzichtskaart** (doel: ongeveer 9 van de 10). Vaste kleur per
+  terugkerend begrip binnen een les (bijv. Allison Model I kleur 2, Model II kleur 4, Model III kleur 1).
+- **Geen tabellen met meer dan 3 kolommen** in een les die op de telefoon gelezen wordt; maak er een
+  `overzicht` met `punten` van.
+- Onderaan de kern-tab het `begrippen`-blok (definities plus lijstkaarten), voor flashcards en hover.
+
+**Recap-tab** (id `recap`, titel `Recap`; vervangt To remember en Quick recap samen)
+- Kort "What this tab is".
+- Per kopje van de kernstof een tekstblok **met titel** (2-3 zinnen, **chillere, makkelijke taal**,
+  beknopt) plus grafische blokken: **lijstjes als overzicht, volgordes als tijdlijn,
+  tegenstellingen als schema**.
+- **"Names to know"**: overzicht met alle auteurs en namen en waar je ze van moet kennen.
+- **"If you only remember N things"**: als tijdlijn (genummerd).
+- **"Say it out loud"**: `hardop`-blok.
+- Niets nieuws: alles uit de gecontroleerde kernstof.
+
+**Verder ongewijzigd:** leerdoelen met uitleg (Vaardigheden), oefeningen met modelantwoord, quiz met
+gespreide antwoordposities, bronnen in APA, hover-begrippen, de controle-werkwijze (zin voor zin naast
+de bron, labels unchecked / general knowledge / own reasoning, regressie-grep), en bij elke gewijzigde
+levering een **nieuw** versienummer in `sw.js`, ook als de vorige zip nog niet geupload leek.
 
 
 ## 1. Wat het is
@@ -220,6 +264,8 @@ vóór de `[data-vak]`-afhandeling, anders opent de regel het vak.
 
 ## 5. De lespagina — vaste opzet
 
+> Voor nieuwe end-term-lessen geldt sectie 0 (o.a. Recap-tab in plaats van To remember + Quick recap).
+
 Vijf tabbladen: Before you start, Core material (per hoofdstuk), Applying it,
 Check yourself, Flashcards.
 
@@ -249,6 +295,8 @@ Niets mag springen. Elke actie tekent het tabblad opnieuw; `zonderSprong()`
 zet de scrollpositie terug. Voeg je een actie toe, gebruik die functie dan ook.
 
 ### Het tabblad "To remember" (recap, sinds v81)
+
+> Alleen nog voor bestaande mid-term-lessen. Nieuwe lessen: Recap-tab volgens sectie 0.
 
 Een zesde tabblad met de echte kernprincipes van de les op een rij: tabellen
 en korte uitleg, afgesloten met een `hardop`-blok "Say it out loud". Id
@@ -526,6 +574,8 @@ werkt sinds v106 zo:
 
 ## 9c. "In plain words" in elke nieuwe les (v114)
 
+> Vervallen voor nieuwe end-term-lessen (sectie 0): de uitleg zelf is in eenvoudig Engels, met graphics.
+
 Julie wil voortaan in **elke nieuwe les** per kopje van de kernstof een
 kader "In plain words": drie of vier zinnen in heel eenvoudig Engels (altijd
 Engels, ook als de chat Nederlands is), alsof je het uitlegt aan iemand die er
@@ -581,6 +631,8 @@ tabblad nu ook af (alleen aanzetten, nooit uitzetten). Eén wijziging in
 "Onderdeel afvinken" werkt zoals voorheen (aan/uit).
 
 ## 9f. Quick recap per sessie (v131 proef, v133 standaard)
+
+> Vervallen voor nieuwe end-term-lessen (sectie 0): samengevoegd met To remember tot de Recap-tab.
 
 Julie wil bij **elke sessie** een tabblad **Quick recap** (id `overview`): het hele
 college als verhaal in heel makkelijke, licht Gen Z-achtige maar nauwkeurige
