@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 24 november 2026, service worker **v193**.
+Stand: 24 november 2026, service worker **v194**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1145,6 +1145,15 @@ Figuren 3.3-3.5 en de kaarten zijn beeld en niet gelezen; de les gebruikt alleen
 Regressie-grep: Governance sessie 6 had nog twee keer "capacity to lead groups without an office" (in v160 als
 hersteld gemeld); nu volgens Maia: deference based on perceived competence. Nog in het Project nodig: McCormick H12
 en H14. Aanwezig: H3, H4, H5, H6, H18.
+
+**v194: opzet end-term-lessen bijgesteld (Julie, 24 nov).** De grafische blokken blijven, maar **geen ingeklapte
+volledige uitleg** meer: de hele uitleg staat in de kernstof, in korte stukken, met het bijpassende grafische blok
+direct onder het stuk waar het bij hoort (tekst, graphic, tekst, graphic). **Kopjes volgen precies de indeling van
+het boek** (McCormick H3: Understanding states, Origins and evolution, The diversity of states, Understanding nations,
+The future of the state), dus 5 kopjes en niet 10. Kaders uit het boek (Using Theory, Exploring Problems, Spotlight)
+staan in het kopje waar ze in het boek staan, met een vette tussenkop. Tussenkoppen altijd vet aan het begin van een
+tekstblok, nooit `titel`. De samenvatting (checklist) staat in To remember, niet als extra kopje. Het bloktype
+`verdieping` blijft in lesblokken.js bestaan maar wordt niet gebruikt. Standaard voor alle volgende end-term-lessen.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
