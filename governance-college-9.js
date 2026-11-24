@@ -146,18 +146,26 @@ LESSTOF['governance-policy/college-9'] = [
     "items": [
      {
       "naam": "Soviet missiles in Cuba",
+      "label": "Soviet Union",
+      "kleur": 1,
       "tekst": "To defend Cuba against an American attack."
      },
      {
       "naam": "500,000 American soldiers in the Persian Gulf",
+      "label": "United States",
+      "kleur": 2,
       "tekst": "US troops went to Saudi Arabia to undo and deter aggression."
      },
      {
       "naam": "Germany gives up the Deutsche Mark for the euro",
+      "label": "Germany",
+      "kleur": 4,
       "tekst": "To advance the cause of European integration."
      },
      {
       "naam": "The UN does little to defend Srebrenica (July 1995)",
+      "label": "United Nations",
+      "kleur": 0,
       "tekst": "Member nations lacked the will to resist Serb aggression."
      }
     ]
@@ -752,35 +760,33 @@ LESSTOF['governance-policy/college-9'] = [
     "kop": "Side by side",
     "items": [
      {
-      "naam": "A government action is a...",
+      "naam": "Model I",
+      "label": "Choice",
+      "kleur": 2,
       "punten": [
-       "Model I: **choice**",
-       "Model II: **output**",
-       "Model III: **resultant**"
+       "Looks at goals and objectives",
+       "Explained when the action was reasonable",
+       "Predicts by calculating the rational move"
       ]
      },
      {
-      "naam": "It looks at",
+      "naam": "Model II",
+      "label": "Output",
+      "kleur": 4,
       "punten": [
-       "Model I: goals and objectives",
-       "Model II: organizations, functions, SOPs",
-       "Model III: players, stands, action channels"
+       "Looks at organizations, functions, SOPs",
+       "Explained when the organizations and patterns are shown",
+       "Predicts by trends in fixed procedures"
       ]
      },
      {
-      "naam": "Explained when",
+      "naam": "Model III",
+      "label": "Resultant",
+      "kleur": 1,
       "punten": [
-       "Model I: the action was reasonable",
-       "Model II: the organizations and patterns are shown",
-       "Model III: you know who did what to whom"
-      ]
-     },
-     {
-      "naam": "Predicts by",
-      "punten": [
-       "Model I: calculating the rational move",
-       "Model II: trends in fixed procedures",
-       "Model III: the game, the players, their power and skill"
+       "Looks at players, stands, action channels",
+       "Explained when you know who did what to whom",
+       "Predicts by the game, the players, their power and skill"
       ]
      }
     ]
@@ -791,14 +797,20 @@ LESSTOF['governance-policy/college-9'] = [
     "items": [
      {
       "naam": "Model I",
+      "label": "One player",
+      "kleur": 2,
       "tekst": "One player with a plan to win."
      },
      {
       "naam": "Model II",
+      "label": "Teams with routines",
+      "kleur": 4,
       "tekst": "Separate teams each moving their own pieces by routine."
      },
      {
       "naam": "Model III",
+      "label": "Bargaining players",
+      "kleur": 1,
       "tekst": "Several players with shared power, bargaining over every move."
      }
     ]

@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 24 november 2026, service worker **v196**.
+Stand: 24 november 2026, service worker **v197**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1171,6 +1171,11 @@ paginarand wegviel de pagina's zelf bekeken. Slides van het college (Del Grosso)
 Governance sessie 9-16 nu met Engelse titels volgens de manual. In de Recap geen brede tabellen (4 kolommen past niet
 op de telefoon): vergelijkingen als overzicht met punten per model. Bronnen voor sessie 14 staan al in het Project
 (House.pdf, Weiss.pdf).
+
+**v197: meer kleurlabels in Governance sessie 9.** Vaste kleur per Allison-model (Model I kleur 2 blauw, Model II
+kleur 4 geel, Model III kleur 1 oranje); labels toegevoegd aan de puzzling actions, Side by side (Choice, Output,
+Resultant) en de schaakkaart in de Recap. Les op: een gewijzigde les altijd met een nieuw versienummer opleveren,
+ook als de vorige zip nog niet geupload leek; met hetzelfde nummer haalt de service worker het bestand niet opnieuw.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
