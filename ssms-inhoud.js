@@ -4911,14 +4911,14 @@ var VAK_VOORBEREIDING = {
           titel: 'McCormick H16 en H17 lezen', lesIds: [] },
     8:  { onderwerp: 'Recap and exam preparation (Gomez Llata & De Sousa) \u00b7 6 nov',
           titel: 'Daarna de midterm en de POP-week', lesIds: [], leeg: true },
-    9:  { onderwerp: 'Introductie besluitvorming', titel: 'Allison & Zelikow lezen, p. 1-12', lesIds: [] },
-    10: { onderwerp: 'Agendasetting', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
-    11: { onderwerp: 'Beleidsformulering', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
-    12: { onderwerp: 'Beleidsimplementatie 1', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
-    13: { onderwerp: 'Beleidsimplementatie 2', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
-    14: { onderwerp: 'Beleidsevaluatie', titel: 'House (p. 618-627) en Weiss (p. 47-70) lezen', lesIds: [] },
-    15: { onderwerp: 'Beleid maken in de praktijk', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
-    16: { onderwerp: 'Overzicht en tentamenvoorbereiding', titel: 'Daarna de eindtoets', lesIds: [], leeg: true }
+    9:  { onderwerp: 'Introduction to decision-making (Del Grosso)', titel: 'Allison & Zelikow lezen, p. 1-12', lesIds: [] },
+    10: { onderwerp: 'Agenda setting (Del Grosso)', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    11: { onderwerp: 'Policy formulation (Del Grosso)', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    12: { onderwerp: 'Policy implementation 1 (Del Grosso)', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    13: { onderwerp: 'Policy implementation 2 (Del Grosso)', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    14: { onderwerp: 'Policy evaluation (Del Grosso)', titel: 'House (p. 618-627) en Weiss (p. 47-70) lezen', lesIds: [] },
+    15: { onderwerp: 'Policy making in practice (Del Grosso)', titel: 'Geen leeswerk vooraf', lesIds: [], leeg: true },
+    16: { onderwerp: 'Overview and exam preparation (Del Grosso)', titel: 'Daarna de eindtoets', lesIds: [], leeg: true }
   },
 
   'society-politics': {

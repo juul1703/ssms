@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 24 november 2026, service worker **v195**.
+Stand: 24 november 2026, service worker **v196**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -59,6 +59,7 @@ bestanden.
 | `society-college-9.js` | Society sessie 9 (end-term 1), McCormick H3 States and nations; eerste les in de grafische end-term-opzet (v193) |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
+| `governance-college-9.js` | Governance sessie 9, Allison & Zelikow (1999) Introduction p. 1-12; end-term-opzet (v196) |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
 | `intro-college-1.js` | Intro sessie 1: SSMS & what it's all about, Engelse versie; verving in v98 de Nederlandse slides-les |
 | `intro-college-3.js` | Intro sessie 3: Communication Matters (uit de collegeslides; er was nog geen les) |
@@ -1161,6 +1162,15 @@ dan per boekkopje een tekstblok met titel (2-3 zinnen, chille taal) plus grafisc
 volgordes als tijdlijn, tegenstellingen als schema), dan "Names to know" (overzicht), "If you only remember 8
 things" (tijdlijn) en "Say it out loud" (hardop). Beknopter dan de oude Quick recap, alles uit de gecontroleerde
 kernstof. Standaard voor alle volgende end-term-lessen.
+
+**v196: Governance sessie 9 in de end-term-opzet (Allison & Zelikow 1999, Introduction, p. 1-12).** Precies zoals
+Society sessie 9: kopjes volgens de tekst (1. Introduction, 2. The general argument, 3. Broader implications), de
+volledige uitleg in korte stukken met graphics ertussen, samengevoegde Recap-tab met "Names to know" en "If you only
+remember 7 things". Bron in het Project is een scan zonder tekstlaag: gelezen met OCR (tesseract) en waar de
+paginarand wegviel de pagina's zelf bekeken. Slides van het college (Del Grosso) nog niet in het Project. Programma
+Governance sessie 9-16 nu met Engelse titels volgens de manual. In de Recap geen brede tabellen (4 kolommen past niet
+op de telefoon): vergelijkingen als overzicht met punten per model. Bronnen voor sessie 14 staan al in het Project
+(House.pdf, Weiss.pdf).
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
