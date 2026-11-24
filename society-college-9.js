@@ -65,7 +65,7 @@ LESSTOF['society-politics/college-9'] = [
    {
     "type": "slimmer",
     "titel": "If you are short on time",
-    "tekst": "**1.** To remember (10 minutes). **2.** Core material: read the graphics and the exam tips first (20 minutes). **3.** The quiz in Check yourself (15 minutes). **4.** With time left: the full text of Understanding states and The future of the state."
+    "tekst": "**1.** Recap (15 minutes). **2.** Core material: read the graphics and the exam tips first (20 minutes). **3.** The quiz in Check yourself (15 minutes). **4.** With time left: the full text of Understanding states and The future of the state."
    },
    {
     "type": "uitleg",
@@ -1260,149 +1260,450 @@ LESSTOF['society-politics/college-9'] = [
  },
  {
   "id": "recap",
-  "titel": "To remember",
+  "titel": "Recap",
   "blokken": [
    {
-    "type": "checklist",
-    "titel": "Summary of chapter 3",
+    "type": "slimmer",
+    "tekst": "**What this tab is**\n\nChapter 3 in one go: short, in normal language, with the lists you need for the exam. Nothing here is new; it all comes from the core material."
+   },
+   {
+    "type": "tekst",
+    "titel": "1. What a state is",
+    "tekst": "Covid made it obvious: lockdowns, masks, vaccines, the daily numbers. That was the **state**. **Weber** gives the classic definition: a community that successfully claims the **monopoly of legitimate force** in a territory. The book turns that into five features you can tick off."
+   },
+   {
+    "type": "overzicht",
+    "kop": "Every state has these five",
     "items": [
-     "The state: Weber's monopoly of legitimate force; five features: government, population, territory, sovereignty, legitimacy.",
-     "State versus government: political community (abstract, permanent) versus the agency that manages it (concrete, temporary).",
-     "Sovereignty (Bodin): undivided power to make laws; weaker in federations. Legitimacy: acceptance, broader than legality.",
-     "Roles of states, international law and citizenship; why 193 UN members does not tell the whole story.",
-     "Interpretivism: the state as an idea; strong and restrained versions; the same act can mean different things.",
-     "Origins: war made the state (Tilly); Westphalia 1648; Bodin and Locke; waves after WWI, 1945-1990 and the 1990s.",
-     "Diversity: population, wealth (World Bank income groups) and political authority (quasi-states versus de facto states).",
-     "Nations: cultural and historical, imagined communities, homeland and self-determination; nation-state, multinational state, stateless nation.",
-     "Nationalism: two meanings; Greenfield, Walt, Mearsheimer; a reaction to globalisation and immigration.",
-     "The EU: regional integration, more than an IGO, less than a federal superstate.",
-     "The future: as strong as ever, weakening, or changing; failing states (Rotberg), the Fragile States Index, Diamond versus Acemoglu and Robinson."
+     {
+      "naam": "Government",
+      "label": "Rules",
+      "kleur": 2,
+      "tekst": "Runs the state and represents it abroad."
+     },
+     {
+      "naam": "Population",
+      "label": "People",
+      "kleur": 0,
+      "tekst": "No people, just 'a block of real estate'."
+     },
+     {
+      "naam": "Territory",
+      "label": "Borders",
+      "kleur": 4,
+      "tekst": "Fixed borders; controls what crosses them."
+     },
+     {
+      "naam": "Sovereignty",
+      "label": "Highest power",
+      "kleur": 1,
+      "tekst": "Sole right to make laws and taxes. 'Sovereign' literally meant 'one seated above'."
+     },
+     {
+      "naam": "Legitimacy",
+      "label": "Accepted",
+      "kleur": 3,
+      "tekst": "Own people and other states accept its authority."
+     }
     ]
    },
    {
-    "type": "tabel",
-    "kop": [
-     "Topic",
-     "What to remember"
-    ],
-    "rijen": [
-     [
-      "The state",
-      "Weber: monopoly of the legitimate use of physical force within a territory. Five features: government, population, territory, sovereignty, legitimacy."
-     ],
-     [
-      "State and government",
-      "State: political community, abstract, permanent. Government: agency that manages it, concrete, temporary."
-     ],
-     [
-      "Sovereignty",
-      "Bodin (1530-96): unfettered, undivided power to make laws; 'one seated above'. Weaker in federations (Brazil, Germany, India, US)."
-     ],
-     [
-      "Legitimacy",
-      "Acceptance by citizens and other states; authority of an official, legitimacy of a state; credit and reserve. Legality is technical, legitimacy political."
-     ],
-     [
-      "Counting states",
-      "193 UN members; includes four enclave states; leaves out e.g. Taiwan, Palestine, Hong Kong, and colonies."
-     ],
-     [
-      "Interpretivism",
-      "Politics is formed by the ideas we have about it. Strong and restrained version. Bevir and Rhodes; Parsons."
-     ],
-     [
-      "Origins",
-      "War made the state (Tilly 1975). Westphalia 1648. Bodin's five functions; Locke's natural rights and right to resist."
-     ],
-     [
-      "Waves",
-      "About 20 states in 1800; after WWI three empires collapse; just over 70 in 1945; nearly 90 new 1945-1990; 15 Soviet successors in the 1990s."
-     ],
-     [
-      "Diversity",
-      "Population (China, India against microstates), wealth (World Bank: 83 / 56 / 50 / 29 states), authority (quasi-states versus de facto states)."
-     ],
-     [
-      "Nation",
-      "Cultural and historical; imagined communities (Anderson); homeland plus self-determination."
-     ],
-     [
-      "Nation and state",
-      "Nation-state (Iceland, Japan), multinational state (Britain, Canada, Belgium), stateless nation (Kurds, 40-45 million)."
-     ],
-     [
-      "Nationalism",
-      "Classic (self-determination) and troubling (superiority, exclusion). Greenfield, Walt, Mearsheimer."
-     ],
-     [
-      "EU",
-      "Regional integration; more than an IGO, less than a federal superstate; 27 members."
-     ],
-     [
-      "Future",
-      "Stronger (security state), weaker (globalisation, Table 3.2), changing. Failing states: Rotberg; Fragile States Index; Diamond versus Acemoglu and Robinson."
-     ]
+    "type": "overzicht",
+    "kop": "Pairs people mix up",
+    "items": [
+     {
+      "naam": "State vs government",
+      "label": "Permanent vs temporary",
+      "kleur": 5,
+      "tekst": "State = the political community, creates the mandate. Government = the team running it now, puts the mandate into effect."
+     },
+     {
+      "naam": "Legality vs legitimacy",
+      "label": "Technical vs political",
+      "kleur": 3,
+      "tekst": "Legality: were the rules made the right way? Legitimacy: do people accept the state? Think of it as a bank account: credit in good times, a reserve you burn in bad times."
+     },
+     {
+      "naam": "Centralised vs federal",
+      "label": "Strong vs diluted",
+      "kleur": 1,
+      "tekst": "In federations (Brazil, Germany, India, US) authority is shared, so sovereignty is weaker."
+     }
     ]
    },
    {
-    "type": "tabel",
-    "kop": [
-     "Who",
-     "Remember them for"
+    "type": "tekst",
+    "tekst": "**What states do:** law and order, national security, money, taxes, trade, regulation, welfare, infrastructure, plus two roles about their place in the world: **international law** and **citizenship** (rights like legal protection, duties like military or community service).\n\n**How many?** The UN says **193**, but that counts tiny enclave states (Monaco and co) and skips places that work like states (Taiwan, Palestine, Hong Kong) and colonies (Gibraltar, Guam)."
+   },
+   {
+    "type": "overzicht",
+    "kop": "Interpretivism in one look",
+    "items": [
+     {
+      "naam": "The idea",
+      "tekst": "From space you see no borders. The state is an **idea**, so people can also question it."
+     },
+     {
+      "naam": "Strong version",
+      "label": "Ideas are politics",
+      "kleur": 3,
+      "tekst": "Politics is nothing but our ideas about it."
+     },
+     {
+      "naam": "Restrained version",
+      "label": "Ideas shape politics",
+      "kleur": 2,
+      "tekst": "Ideas steer how we see interests, allies and enemies."
+     },
+     {
+      "naam": "So what?",
+      "tekst": "A bribe, a vote or criticising the president means something different from country to country."
+     }
+    ]
+   },
+   {
+    "type": "tekst",
+    "titel": "2. How states came about",
+    "tekst": "Medieval Europe: kingdoms and empires, run in a personal, patchy way. Then war changed everything, and the state idea spread from Europe to the whole world."
+   },
+   {
+    "type": "tijdlijn",
+    "kop": "The story in steps",
+    "items": [
+     {
+      "label": "1300s+",
+      "naam": "War makes the state",
+      "tekst": "Gunpowder, arms race, standing armies, so rulers need bureaucracies. Tilly: 'war made the state, and the state made war'."
+     },
+     {
+      "label": "1648",
+      "naam": "Westphalia",
+      "tekst": "Ends the Thirty Years' War and the Eighty Years' War (the Dutch one). Sovereignty defined, secular authority above Rome."
+     },
+     {
+      "label": "Theory",
+      "naam": "Bodin and Locke",
+      "tekst": "Bodin: one sovereign for law, war and peace, appointments, appeals, currency. Locke: natural rights (life, liberty, property) and a right to resist."
+     },
+     {
+      "label": "1800-1900",
+      "naam": "Slow start",
+      "tekst": "About 20 states in 1800, about 30 more by 1900. Borders turn into barriers; the state takes on schools, policing and statistics."
+     },
+     {
+      "label": "WWI",
+      "naam": "Deeper states, three empires fall",
+      "tekst": "Passports arrive, and in the world wars the power to tax grows ('the central pillar of state capacity'). Austria-Hungary, Russia and the Ottoman Empire collapse: lots of new states, few stable ones."
+     },
+     {
+      "label": "1945-1990",
+      "naam": "Decolonisation",
+      "tekst": "From just over 70 states to nearly 90 new ones. Colonial borders throw rival groups together: civil wars."
+     },
+     {
+      "label": "1990s",
+      "naam": "Soviet Union splits",
+      "tekst": "15 successor states. The Baltics do well (EU), Central Asia much less."
+     }
+    ]
+   },
+   {
+    "type": "examentip",
+    "tekst": "Armitage sums it up: the big political fact of the last 500 years is 'a world of states from a world of empires'."
+   },
+   {
+    "type": "tekst",
+    "titel": "3. Not all states are equal",
+    "tekst": "Same five features, totally different states. Three ways they differ:"
+   },
+   {
+    "type": "overzicht",
+    "kop": "Three markers",
+    "items": [
+     {
+      "naam": "Population",
+      "label": "Size",
+      "kleur": 0,
+      "tekst": "China and India are each bigger than the 160 smallest countries together. Median country: Switzerland (8.6 million). Big = harder to govern; small can work (Iceland, Luxembourg) or barely function (Tuvalu, Nauru)."
+     },
+     {
+      "naam": "Wealth",
+      "label": "Income",
+      "kleur": 4,
+      "tekst": "World Bank: high (83 states), upper middle (56), lower middle (50), low (29). Extremes in 2020: Luxembourg nearly $116,000 per person, Burundi $274."
+     },
+     {
+      "naam": "Political authority",
+      "label": "Control",
+      "kleur": 1,
+      "tekst": "Equal under international law, not equally in control."
+     }
+    ]
+   },
+   {
+    "type": "schema",
+    "kop": "Legit but useless, or useful but not legit",
+    "invoer": [
+     {
+      "naam": "Quasi-state",
+      "tekst": "Recognised, but controls little. **Somalia** (Jackson)."
+     },
+     {
+      "naam": "De facto state",
+      "tekst": "In control, but not recognised. **Somaliland** (Pegg)."
+     }
     ],
-    "rijen": [
-     [
-      "Weber",
-      "The state: monopoly of the legitimate use of physical force."
-     ],
-     [
-      "Bodin",
-      "Sovereignty; five functions of the sovereign."
-     ],
-     [
-      "Locke",
-      "Natural rights (life, liberty, property); right to resist."
-     ],
-     [
-      "Tilly (1975)",
-      "'War made the state, and the state made war'."
-     ],
-     [
-      "Armitage (2005)",
-      "A world of states from a world of empires."
-     ],
-     [
-      "Jackson (1990)",
-      "Quasi-states."
-     ],
-     [
-      "Pegg (1998)",
-      "De facto states."
-     ],
-     [
-      "Anderson",
-      "Nations as imagined communities."
-     ],
-     [
-      "Mill (1861)",
-      "A nationality should have a government to itself."
-     ],
-     [
-      "Greenfield, Walt, Mearsheimer",
-      "Why nationalism is so powerful."
-     ],
-     [
-      "Rotberg (2004)",
-      "Features of a weak state."
-     ],
-     [
-      "Diamond (2011)",
-      "States fail by geography, luck, environmental change."
-     ],
-     [
-      "Acemoglu and Robinson (2013)",
-      "States fail through extractive institutions."
-     ]
+    "uitkomst": {
+     "naam": "Same map, opposite problems",
+     "tekst": "Recognition and real control do not always go together."
+    }
+   },
+   {
+    "type": "tekst",
+    "tekst": "**Falling apart?** Loads of countries put 'unity' in their motto, which says a lot about how hard staying together is. Break-ups can be peaceful (Czech Republic and Slovakia, 1993) but are mostly violent (Yugoslavia, Eritrea, South Sudan)."
+   },
+   {
+    "type": "tekst",
+    "titel": "4. Nations and nationalism",
+    "tekst": "Big one: a **state** is legal, a **nation** is cultural. A nation is a group that feels it belongs together (history, language, myths), wants a **homeland** and wants to **rule itself**. Anderson calls nations **imagined communities**."
+   },
+   {
+    "type": "overzicht",
+    "kop": "Three ways nations and states fit",
+    "items": [
+     {
+      "naam": "Nation-state",
+      "label": "1 nation, 1 state",
+      "kleur": 0,
+      "tekst": "Rare: Iceland, Japan."
+     },
+     {
+      "naam": "Multinational state",
+      "label": "Many nations, 1 state",
+      "kleur": 4,
+      "tekst": "Normal: Britain, Canada, Belgium."
+     },
+     {
+      "naam": "Stateless nation",
+      "label": "1 nation, many states",
+      "kleur": 1,
+      "tekst": "The Kurds: 40-45 million, no Kurdistan."
+     }
+    ]
+   },
+   {
+    "type": "overzicht",
+    "kop": "Nationalism has two faces",
+    "items": [
+     {
+      "naam": "Classic",
+      "label": "Self-determination",
+      "kleur": 0,
+      "tekst": "Every people may decide its own future (UN Covenant 1966)."
+     },
+     {
+      "naam": "Troubling",
+      "label": "Superiority, exclusion",
+      "kleur": 1,
+      "tekst": "Nazi lebensraum, 'Make America Great Again', white supremacists, Covid blame games."
+     }
+    ]
+   },
+   {
+    "type": "overzicht",
+    "kop": "Who says nationalism is powerful",
+    "items": [
+     {
+      "naam": "Greenfield",
+      "tekst": "Behind every big development for centuries."
+     },
+     {
+      "naam": "Walt",
+      "tekst": "The most powerful force in the world, and misunderstood."
+     },
+     {
+      "naam": "Mearsheimer",
+      "tekst": "State and nationalism feed each other."
+     }
+    ]
+   },
+   {
+    "type": "tekst",
+    "tekst": "Lately nationalism grew as a reaction to globalisation and immigration (Brexit, Modi, Duterte, Trump), often mixed with **xenophobia** and **nativism**. Still, in most countries more people see immigrants as a strength."
+   },
+   {
+    "type": "schema",
+    "kop": "The EU: somewhere in between",
+    "invoer": [
+     {
+      "naam": "Intergovernmental organisation",
+      "tekst": "States just cooperate."
+     },
+     {
+      "naam": "Federal superstate",
+      "tekst": "One European government."
+     }
+    ],
+    "uitkomst": {
+     "naam": "EU = regional integration",
+     "tekst": "27 states pool some power where cooperation beats competition, but stay sovereign."
+    }
+   },
+   {
+    "type": "tekst",
+    "titel": "5. Where is the state going?",
+    "tekst": "Globalisation pulls one way, nationalism the other. Three camps:"
+   },
+   {
+    "type": "overzicht",
+    "kop": "Three views",
+    "items": [
+     {
+      "naam": "Stronger",
+      "label": "Security state",
+      "kleur": 0,
+      "tekst": "Armies, trade, identity, plus new tech (CCTV, monitoring). Covid lockdowns showed the power."
+     },
+     {
+      "naam": "Weaker",
+      "label": "Globalisation",
+      "kleur": 1,
+      "tekst": "Cooperation, global markets, mobility, and a list of ten criticisms of the state."
+     },
+     {
+      "naam": "Changing",
+      "label": "The book's ending",
+      "kleur": 2,
+      "tekst": "Still needed for security, the economy, education and global problems, but working differently."
+     }
+    ]
+   },
+   {
+    "type": "tijdlijn",
+    "kop": "Failing state: Rotberg's three signs",
+    "items": [
+     {
+      "naam": "Lost control",
+      "tekst": "Revolts, civil war; regimes prey on their own people."
+     },
+     {
+      "naam": "Crime takes over",
+      "tekst": "Gangs, trafficking, warlords instead of the state."
+     },
+     {
+      "naam": "Institutions stop working",
+      "tekst": "Only the executive and the military are left."
+     }
+    ]
+   },
+   {
+    "type": "schema",
+    "kop": "Why do states fail?",
+    "invoer": [
+     {
+      "naam": "Diamond",
+      "tekst": "Geography, luck, environmental change."
+     },
+     {
+      "naam": "Acemoglu and Robinson",
+      "tekst": "Extractive institutions that serve the elite."
+     }
+    ],
+    "uitkomst": {
+     "naam": "Opinion differs",
+     "tekst": "Know both, and apply one to a case."
+    }
+   },
+   {
+    "type": "tekst",
+    "tekst": "**Measuring it:** the Fragile States Index (Fund for Peace) scores almost every country; higher = more fragile. In 2020 Finland scored best, and China, India, Indonesia, Mexico and Russia got a 'warning'."
+   },
+   {
+    "type": "overzicht",
+    "kop": "Names to know",
+    "items": [
+     {
+      "naam": "Weber",
+      "tekst": "Monopoly of legitimate force."
+     },
+     {
+      "naam": "Bodin",
+      "tekst": "Sovereignty; five functions of the sovereign."
+     },
+     {
+      "naam": "Locke",
+      "tekst": "Natural rights; right to resist."
+     },
+     {
+      "naam": "Tilly (1975)",
+      "tekst": "War made the state, the state made war."
+     },
+     {
+      "naam": "Armitage (2005)",
+      "tekst": "A world of states from a world of empires."
+     },
+     {
+      "naam": "Jackson (1990) and Pegg (1998)",
+      "tekst": "Quasi-states and de facto states."
+     },
+     {
+      "naam": "Anderson",
+      "tekst": "Imagined communities."
+     },
+     {
+      "naam": "Mill (1861)",
+      "tekst": "A nationality deserves a government to itself."
+     },
+     {
+      "naam": "Greenfield, Walt, Mearsheimer",
+      "tekst": "The power of nationalism."
+     },
+     {
+      "naam": "Rotberg (2004)",
+      "tekst": "Signs of a weak state."
+     },
+     {
+      "naam": "Diamond vs Acemoglu and Robinson",
+      "tekst": "Why states fail."
+     }
+    ]
+   },
+   {
+    "type": "tijdlijn",
+    "kop": "If you only remember 8 things",
+    "items": [
+     {
+      "naam": "Weber",
+      "tekst": "The state = monopoly of legitimate force."
+     },
+     {
+      "naam": "Five features",
+      "tekst": "Government, population, territory, sovereignty, legitimacy."
+     },
+     {
+      "naam": "Two pairs",
+      "tekst": "State is permanent, government temporary; legitimacy is more than legality."
+     },
+     {
+      "naam": "Origins",
+      "tekst": "War made the state; Westphalia 1648."
+     },
+     {
+      "naam": "Two odd states",
+      "tekst": "Quasi-state (Somalia) vs de facto state (Somaliland)."
+     },
+     {
+      "naam": "Nation is not state",
+      "tekst": "Nation-state, multinational state, stateless nation (Kurds)."
+     },
+     {
+      "naam": "Nationalism",
+      "tekst": "Self-determination, or superiority and exclusion."
+     },
+     {
+      "naam": "Future",
+      "tekst": "Stronger, weaker or changing; failing states (Rotberg; Diamond vs Acemoglu and Robinson)."
+     }
     ]
    },
    {
@@ -1417,76 +1718,6 @@ LESSTOF['society-politics/college-9'] = [
      "Give the two meanings of nationalism.",
      "Give the three views on the future of the state, and two explanations of why states fail."
     ]
-   }
-  ]
- },
- {
-  "id": "overview",
-  "titel": "Quick recap",
-  "blokken": [
-   {
-    "type": "slimmer",
-    "tekst": "**What this tab is**\n\nChapter 3 as one story, in everyday language. Everything in here is in the core material; nothing new."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**The state is everywhere, but hard to grab.** Think back to Covid: lockdowns, masks, vaccines, the daily numbers. Almost all of it came from the state. You feel the state when you pay tax, follow the law or show your passport at a border. But what *is* it? People, buildings, laws, ideas? The book starts with **Weber**: a state is a community that successfully claims the **monopoly of legitimate force** in a territory. Then it makes it practical: every state has **five features**: a **government**, a **population**, a **territory**, **sovereignty** and **legitimacy**."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**State is not the same as government.** The state is the political community: abstract and permanent. The government is the team that runs it right now: concrete and temporary. Governments come and go; the state stays."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Sovereignty and legitimacy, the two tricky ones.** **Sovereignty** (Bodin): the highest power to make laws, with nobody above you. It is weaker in federations, where the centre shares power with regions. **Legitimacy** is about acceptance: do your own people and other states accept your authority? That is more than legality, which only asks if the rules were made the correct way. Think of legitimacy as a bank account: good times add credit, bad times drain the reserve."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**What states do, and how many there are.** States keep order, defend the country, manage money and taxes, regulate, provide welfare and infrastructure, follow international law and define who is a citizen. Count them? The UN says **193**, but that includes tiny Monaco and friends, and leaves out places like Taiwan and Palestine that work like states."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**The state is an idea (interpretivism).** From space you see no borders. The state exists because we think it does, and ideas can change. **Interpretivism** says politics is formed by the ideas we have about it. Strong version: politics *is* our ideas. Restrained version: ideas *shape* what we do. Practical lesson: a bribe, a vote or criticism of the president can mean totally different things in different countries."
-   },
-   {
-    "type": "slimmer",
-    "tekst": "**Part 1 in one breath**\n\nState = Weber's monopoly of legitimate force, plus five features (government, population, territory, sovereignty, legitimacy). State is permanent, government is temporary. Sovereignty = highest power; legitimacy = being accepted. 193 UN members, but the real map is messier. And the state is, in the end, an idea."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Where states came from.** Medieval Europe had kingdoms and empires, run in a personal, patchy way. Then came **war**. Gunpowder made armies huge and expensive, rulers needed tax collectors and administrators, and bureaucracies were born. Tilly: 'war made the state, and the state made war'. **Westphalia (1648)** ended the Thirty Years' War and the Eighty Years' War (yes, the Dutch one), and is seen as the start of the state system. **Bodin** said one sovereign should run law, war, appointments, appeals and money; **Locke** said rulers must respect natural rights, or people may resist."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Then the state went global.** Around 20 states in 1800. After WWI three empires fell apart. After 1945 decolonisation exploded: from just over 70 states to nearly 90 new ones by 1990. Many had borders drawn by colonial powers, which threw rival groups together and led to civil wars. In the 1990s the Soviet Union split into 15 states. And breaking up still happens: Czechoslovakia split peacefully, Yugoslavia violently, and South Sudan is the newest state."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Not all states are equal.** **Population**: China and India are each bigger than the 160 smallest countries combined. **Wealth**: the World Bank puts countries in four income groups, from Luxembourg's riches to Burundi's poverty. **Authority**: a **quasi-state** like Somalia is recognised but barely in control; a **de facto state** like Somaliland is in control but not recognised. Legit but useless, versus useful but not legit."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Nation is not state.** A state is legal; a **nation** is cultural: people who feel they belong together through history, language or myths. Anderson calls them **imagined communities**. A nation wants a **homeland** and **self-determination**. Perfect nation-states (one nation, one state) are rare: Iceland, Japan. Most states are **multinational** (Britain, Belgium, Canada). And some nations have no state at all: the **Kurds**, spread over Iran, Iraq, Syria and Turkey."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**Nationalism has two faces.** The classic one: every people may decide its own future. The dark one: superiority and exclusion, from Nazi *lebensraum* to 'Make America Great Again'. Greenfield, Walt and Mearsheimer all say it is hugely powerful; Mearsheimer adds that states and nationalism feed each other. Recently it grew as a reaction to globalisation and immigration (Brexit, Modi, Duterte, Trump), although in most countries more people still see immigrants as a strength."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**The EU is the odd one out.** More than a club of governments, less than a United States of Europe: states pool power where they think cooperation beats competition. That is **regional integration**, and the EU is the most advanced example."
-   },
-   {
-    "type": "tekst",
-    "tekst": "**So is the state getting stronger or weaker?** Three camps. **Stronger**: states still control armies, trade and identity, and new tech turns them into **security states** (think CCTV; Covid lockdowns showed how far their powers reach). **Weaker**: globalisation, cooperation, mobility, and a list of ten criticisms. **Changing**: still needed, but working differently. The extreme case is the **failing state**: no control, crime and warlords, institutions that stop working (Rotberg). Why do states fail? **Diamond**: geography and luck. **Acemoglu and Robinson**: extractive institutions that serve the elite."
-   },
-   {
-    "type": "slimmer",
-    "tekst": "**Part 2 in one breath**\n\nWar made the state; Westphalia 1648; waves of new states after WWI, after 1945 and in the 1990s. States differ in population, wealth and authority (quasi versus de facto). Nation is cultural, state is legal; nation-state, multinational state, stateless nation. Nationalism: self-determination or exclusion. EU = regional integration. Future: stronger, weaker or changing; failing states explained by luck (Diamond) or institutions (Acemoglu and Robinson)."
-   },
-   {
-    "type": "uitleg",
-    "tekst": "**If you only remember 8 things**\n\n1. Weber: the monopoly of legitimate force. 2. Five features: government, population, territory, sovereignty, legitimacy. 3. State is permanent, government temporary; legitimacy is more than legality. 4. War made the state; Westphalia 1648. 5. Quasi-state (Somalia) versus de facto state (Somaliland). 6. Nation is cultural, state is legal; nation-state, multinational state, stateless nation (Kurds). 7. Nationalism: self-determination or superiority and exclusion. 8. Future of the state: stronger, weaker or changing; failing states (Rotberg; Diamond versus Acemoglu and Robinson)."
    }
   ]
  },

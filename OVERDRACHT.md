@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 24 november 2026, service worker **v194**.
+Stand: 24 november 2026, service worker **v195**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1154,6 +1154,13 @@ The future of the state), dus 5 kopjes en niet 10. Kaders uit het boek (Using Th
 staan in het kopje waar ze in het boek staan, met een vette tussenkop. Tussenkoppen altijd vet aan het begin van een
 tekstblok, nooit `titel`. De samenvatting (checklist) staat in To remember, niet als extra kopje. Het bloktype
 `verdieping` blijft in lesblokken.js bestaan maar wordt niet gebruikt. Standaard voor alle volgende end-term-lessen.
+
+**v195: To remember en Quick recap samengevoegd tot één tab "Recap" (Julie, 24 nov), proef bij Society sessie 9.**
+Id `recap`, titel `Recap`; geen aparte `overview`-tab meer in de end-term-lessen. Opbouw: kort "What this tab is",
+dan per boekkopje een tekstblok met titel (2-3 zinnen, chille taal) plus grafische blokken (lijstjes als overzicht,
+volgordes als tijdlijn, tegenstellingen als schema), dan "Names to know" (overzicht), "If you only remember 8
+things" (tijdlijn) en "Say it out loud" (hardop). Beknopter dan de oude Quick recap, alles uit de gecontroleerde
+kernstof. Standaard voor alle volgende end-term-lessen.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
