@@ -69,6 +69,11 @@ function rijkeTekst(s){
   }).join('');
 }
 
+/* rijke tekst zonder alinea's, voor korte regels in de grafische blokken */
+function rijkeInline(s){
+  return rijkeTekst(s).replace(/^<p>/, '').replace(/<\/p>$/, '').replace(/<\/p><p>/g, '<br>');
+}
+
 var KADER_LABEL = { uitleg: 'Uitleg', waarschuwing: 'Let op', voorbeeld: 'Voorbeeld', slimmer: 'Slimmer werken', hardop: 'Hardop redeneren' };
 
 var BLOKKEN = {
@@ -256,6 +261,66 @@ var BLOKKEN = {
         ? '<ul>' + b.punten.map(function(p){ return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>'
         : '') +
       '<span class="preview-actie">Vooruitkijken &rarr;</span></a>';
+  },
+
+  /* ==== Grafische blokken (v193, end-term-lessen) ====
+     Let op: deze blokken gebruiken 'kop' en niet 'titel', zodat ze in een
+     kern-tab geen eigen kopje in de kopjesbalk worden. */
+
+  /* ---- in een oogopslag: per item naam, gekleurd label en een zin ---- */
+  overzicht: function(b){
+    return '<div class="graf graf-overzicht">' +
+      (b.kop ? '<h3 class="graf-kop">' + esc(b.kop) + '</h3>' : '') +
+      (b.items || []).map(function(it, i){
+        return '<div class="ovz-item">' +
+          '<div class="ovz-rij"><span class="ovz-naam">' + rijkeInline(it.naam) + '</span>' +
+          (it.label ? '<span class="graf-label kleur-' + ((it.kleur !== undefined ? it.kleur : i) % 6) + '">' + esc(it.label) + '</span>' : '') +
+          '</div>' +
+          (it.tekst ? '<div class="ovz-tekst">' + rijkeTekst(it.tekst) + '</div>' : '') +
+          (it.punten && it.punten.length ? '<ul class="graf-punten">' + it.punten.map(function(p){ return '<li>' + rijkeInline(p) + '</li>'; }).join('') + '</ul>' : '') +
+          '</div>';
+      }).join('') + '</div>';
+  },
+
+  /* ---- tijdlijn of stappen: nummer (of jaartal), kop, korte punten ---- */
+  tijdlijn: function(b){
+    return '<div class="graf graf-tijdlijn">' +
+      (b.kop ? '<h3 class="graf-kop">' + esc(b.kop) + '</h3>' : '') +
+      '<ol class="tl' + ((b.items || []).some(function(it){ return it.label; }) ? ' tl-labels' : '') + '">' + (b.items || []).map(function(it, i){
+        var merk = it.label ? esc(it.label) : String(i + 1);
+        return '<li class="tl-item"><div class="tl-merk' + (it.label ? ' tl-merk-tekst' : '') + '">' + merk + '</div>' +
+          '<div class="tl-inhoud"><div class="tl-naam">' + rijkeInline(it.naam) + '</div>' +
+          (it.tekst ? '<div class="tl-tekst">' + rijkeTekst(it.tekst) + '</div>' : '') +
+          (it.punten && it.punten.length ? '<ul class="graf-punten">' + it.punten.map(function(p){ return '<li>' + rijkeInline(p) + '</li>'; }).join('') + '</ul>' : '') +
+          '</div></li>';
+      }).join('') + '</ol></div>';
+  },
+
+  /* ---- schema: vakjes die samen uitkomen op een begrip ---- */
+  schema: function(b){
+    var inv = b.invoer || [];
+    var uit = b.uitkomst || {};
+    return '<div class="graf graf-schema">' +
+      (b.kop ? '<h3 class="graf-kop">' + esc(b.kop) + '</h3>' : '') +
+      '<div class="sch-invoer sch-n' + Math.min(inv.length, 4) + '">' + inv.map(function(v){
+        return '<div class="sch-vak"><div class="sch-naam">' + rijkeInline(v.naam) + '</div>' +
+          (v.tekst ? '<div class="sch-tekst">' + rijkeInline(v.tekst) + '</div>' : '') + '</div>';
+      }).join('') + '</div>' +
+      '<div class="sch-pijl" aria-hidden="true"><span>↓</span>' + (b.pijl ? '<em>' + esc(b.pijl) + '</em>' : '') + '</div>' +
+      '<div class="sch-uitkomst"><div class="sch-naam">' + rijkeInline(uit.naam) + '</div>' +
+      (uit.tekst ? '<div class="sch-tekst">' + rijkeInline(uit.tekst) + '</div>' : '') + '</div></div>';
+  },
+
+  /* ---- examentip ---- */
+  examentip: function(b){
+    return '<div class="examentip"><span class="examentip-label">Exam tip</span>' + rijkeTekst(b.tekst) + '</div>';
+  },
+
+  /* ---- inklapbare volledige uitleg; bevat gewone blokken ---- */
+  verdieping: function(b, ctx){
+    return '<details class="verdieping"><summary><span class="verd-label">' + esc(b.kop || 'Read the full explanation') + '</span>' +
+      '<span class="verd-pijl" aria-hidden="true">›</span></summary>' +
+      '<div class="verd-body">' + (b.blokken || []).map(function(x){ return blokHtml(x, ctx); }).join('') + '</div></details>';
   },
 
   /* ---- bronnen ---- */

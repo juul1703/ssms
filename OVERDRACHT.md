@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 3 november 2026, service worker **v192**.
+Stand: 24 november 2026, service worker **v193**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -56,6 +56,7 @@ bestanden.
 | `society-college-6.js` | Society & Politics sessie 6, Macionis H6 (groepen, organisaties, netwerksamenleving), uit de literatuur; nieuw in v120 |
 | `society-college-7.js` | Society sessie 7, Macionis H8 (social divisions and stratification), uit de literatuur volgens de standaard; nieuw in v136 |
 | `society-college-8.js` | Society sessie 8, Macionis H23 (science, cyberspace and the risk society) en H24 (populations, cities and the space of things to come), beide heel, uit de literatuur volgens de standaard; nieuw in v137 |
+| `society-college-9.js` | Society sessie 9 (end-term 1), McCormick H3 States and nations; eerste les in de grafische end-term-opzet (v193) |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `recap-governance.js` | "To remember" voor Governance college-1 (boek plus college), college-2 en college-3 |
@@ -140,6 +141,7 @@ society-college-5.js
 society-college-6.js
 society-college-7.js
 society-college-8.js
+society-college-9.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -1118,6 +1120,31 @@ Leerdoelen, recap, Quick recap (overview-society.js), oefeningen 3 en 4, quizvra
 afgestemd; `app.js` wist eenmalig quizvragen 12-14 (`ssms-migratie-v192`). Mid-term-les sessie 1 opnieuw
 (academische samenvatting + verhaal). In het Project staan nu 5e-druk-hoofdstukken (chapter_1, 2, 4, 5+16,
 7, 8, 23+24); H6, H11 en H17 ontbreken nog (te groot om te uploaden, >30 MB).
+
+**v193: grafische opzet voor de end-term-lessen + Society sessie 9 (McCormick H3).** Julie wil de end-term-stof
+beknopter en grafischer (voorbeelden uit ChatGPT, 24 nov), optie a: de kernstof zelf wordt kort en grafisch, de
+volledige uitleg staat ingeklapt eronder. **Alleen voor nieuwe end-term-lessen**, bestaande lessen blijven zoals ze zijn.
+Nieuwe bloktypes in `lesblokken.js` (opmaak achteraan `styles.css`, ook donker):
+- `overzicht` {kop, items:[{naam, label, kleur 0-5, tekst, punten}]}: rijtje met gekleurde labels ("at a glance").
+- `tijdlijn` {kop, items:[{label (jaartal, optioneel), naam, tekst, punten}]}: genummerd of met jaartal, lijn erlangs.
+- `schema` {kop, invoer:[{naam, tekst}] (2-4), pijl, uitkomst:{naam, tekst}}: vakjes die uitkomen op een begrip.
+- `examentip` {tekst}: label "Exam tip".
+- `verdieping` {kop (standaard "Read the full explanation"), blokken:[...]}: inklapbaar, met gewone blokken erin.
+**Let op: deze blokken gebruiken `kop`, niet `titel`**, anders worden ze een eigen kopje in de kopjesbalk.
+Opbouw per kopje: tekstblok met titel (2-3 zinnen), grafische blokken, eventueel examentip, dan verdieping met de
+volledige uitleg. In plain words valt in deze opzet weg (de korte laag is zelf de eenvoudige uitleg). Zoeken vindt
+tekst in een dichte verdieping en klapt die open (`markeerTreffer` in les.js; Chrome geeft tekst in een dichte
+<details> toch afmetingen, dus de verdieping rond de treffer wordt altijd opengezet).
+Programma sessie 9-16 aangepast aan het nieuwe programma (Society & Politics Part 2): Engelse titels en nieuwe
+volgorde: 9 H3, 10 H4, 11 H5, 12 Authoritarian rule H6, 13 Hybrid regimes (TBA), 14 Media and elections H12+H14,
+15 H18, 16 recap. Wijkt af van de manual (daar 12 media, 13 authoritarian, 14 hybrid); studiegidstabel ook bijgewerkt.
+Sessie 9-les uit H3 (Project: `Chapter 3 - session 1 - SocietyPolitics - ET.pdf`), 10 kopjes, 33 begrippen,
+10 vaardigheden met uitleg, To remember, Quick recap, 6 oefeningen, quiz 14 (browser 14/14). Watch out: het boek
+geeft 2012 voor de onafhankelijkheid van Zuid-Soedan; algemeen bekend is juli 2011 (gelabeld, niet in het Project).
+Figuren 3.3-3.5 en de kaarten zijn beeld en niet gelezen; de les gebruikt alleen wat in de tekst staat.
+Regressie-grep: Governance sessie 6 had nog twee keer "capacity to lead groups without an office" (in v160 als
+hersteld gemeld); nu volgens Maia: deference based on perceived competence. Nog in het Project nodig: McCormick H12
+en H14. Aanwezig: H3, H4, H5, H6, H18.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

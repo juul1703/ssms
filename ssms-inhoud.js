@@ -3711,16 +3711,17 @@ LESSTOF['studiegids/society'] = [
         noot: 'Sessie 8 over de risicosamenleving is de directe brug naar Intro to Safety & Security: dat is het sociologische fundament onder het begrip systemisch risico uit hoofdstuk 1 van Bieder.' },
 
       { type: 'tabel', titel: 'Sessie 9 tot 16: politicologie (Dr. Trigo de Sousa)', toetsstof: true,
+        noot: 'Volgorde volgens het programma Society & Politics Part 2 (nov 2026). Dat wijkt af van de manual: Authoritarian rule en Hybrid regimes zijn naar voren geschoven, Media and elections naar sessie 14.',
         kop: ['Sessie', 'Onderwerp', 'Voorbereiding in McCormick, Hague & Harrop'],
         rijen: [
-          ['9', 'Introductie. Politiek, staten en naties', 'Hoofdstuk 3'],
-          ['10', 'Politieke cultuur en politieke ideologieën', 'Hoofdstuk 4'],
-          ['11', 'Democratic rule', 'Hoofdstuk 5'],
-          ['12', 'Democratische instituties: media en verkiezingen', 'Hoofdstuk 12 en 14'],
-          ['13', 'Authoritarian rule', 'Hoofdstuk 6'],
-          ['14', 'Hybride regimes en het democratiseringsproces', 'Nog te bepalen'],
-          ['15', 'Politieke economie', 'Hoofdstuk 18'],
-          ['16', 'Recap en tentamenvoorbereiding', '']
+          ['9', 'Introduction: politics, states and nations (25 nov)', 'Hoofdstuk 3'],
+          ['10', 'Political culture and ideologies (2 dec)', 'Hoofdstuk 4'],
+          ['11', 'Democratic rule (9 dec)', 'Hoofdstuk 5'],
+          ['12', 'Authoritarian rule (16 dec)', 'Hoofdstuk 6'],
+          ['13', 'Hybrid regimes and the democratization process (6 jan)', 'Nog niet bekend (TBA)'],
+          ['14', 'Political communication: media and elections (13 jan)', 'Hoofdstuk 12 en 14'],
+          ['15', 'Political economy (20 jan)', 'Hoofdstuk 18'],
+          ['16', 'Recap and exam preparation (27 jan)', '']
         ] },
 
       { type: 'tekst', titel: 'Regels bij dit vak',
@@ -4929,14 +4930,14 @@ var VAK_VOORBEREIDING = {
     6:  { onderwerp: 'Stratificatie 1: groepen, organisaties, netwerksamenleving', titel: 'Macionis H6 lezen', lesIds: [] },
     7:  { onderwerp: 'Inequality, social division and social stratification', titel: 'Macionis H8 lezen', lesIds: [] },
     8:  { onderwerp: 'Risk society, cities and spaces; review and mock exam', titel: 'Macionis H23 (p. 795-797) en H24 (p. 830, 841-849, 855) lezen', lesIds: [] },
-    9:  { onderwerp: 'Politiek, staten en naties', titel: 'McCormick H3 lezen', lesIds: [] },
-    10: { onderwerp: 'Politieke cultuur en ideologieën', titel: 'McCormick H4 lezen', lesIds: [] },
-    11: { onderwerp: 'Democratisch bestuur', titel: 'McCormick H5 lezen', lesIds: [] },
-    12: { onderwerp: 'Democratische instituties: media en verkiezingen', titel: 'McCormick H12 en H14 lezen', lesIds: [] },
-    13: { onderwerp: 'Autoritair bestuur', titel: 'McCormick H6 lezen', lesIds: [] },
-    14: { onderwerp: 'Hybride regimes en democratisering', titel: 'Literatuur nog te bepalen', lesIds: [] },
-    15: { onderwerp: 'Politieke economie', titel: 'McCormick H18 lezen', lesIds: [] },
-    16: { onderwerp: 'Recap en tentamenvoorbereiding', titel: 'Daarna de eindtoets', lesIds: [] }
+    9:  { onderwerp: 'Introduction: politics, states and nations', titel: 'McCormick, Hague & Harrop H3 lezen', lesIds: [] },
+    10: { onderwerp: 'Political culture and ideologies', titel: 'McCormick, Hague & Harrop H4 lezen', lesIds: [] },
+    11: { onderwerp: 'Democratic rule', titel: 'McCormick, Hague & Harrop H5 lezen', lesIds: [] },
+    12: { onderwerp: 'Authoritarian rule', titel: 'McCormick, Hague & Harrop H6 lezen', lesIds: [] },
+    13: { onderwerp: 'Hybrid regimes and the democratization process', titel: 'Literatuur nog niet bekend (TBA)', lesIds: [] },
+    14: { onderwerp: 'Political communication: media and elections', titel: 'McCormick, Hague & Harrop H12 en H14 lezen', lesIds: [] },
+    15: { onderwerp: 'Political economy', titel: 'McCormick, Hague & Harrop H18 lezen', lesIds: [] },
+    16: { onderwerp: 'Recap and exam preparation', titel: 'Daarna de eindtoets', lesIds: [] }
   },
 
   'demystifying-research-methods': {

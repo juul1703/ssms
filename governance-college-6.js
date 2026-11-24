@@ -273,7 +273,7 @@ LESSTOF['governance-policy/college-6'] = [
       },
       {
         "type": "uitleg",
-        "tekst": "**From the lecture**\n\n**Exam topic (your notes: \"examples asked in exam\").** Learn each base of authority with an example:\n- **Institutional**: authority from **the office**, not the person; it is associated with the institution and where it sits. *Example: the White House, the office of the US president.*\n- **Delegated**: being a **representative** acting on behalf of others. *Example: an ambassador.*\n- **Expert**: authority explained by **expertise**. *Example: health experts and the WHO during Covid-19.*\n- **Principled**: their **own** authority, apart from any institution, really **embodied by people** through the values they stand for. *Examples: Nelson Mandela; also religious leaders.*\n- **Capacity-based**: a person or group that has the **capacity to lead groups**, usually **without an office or institution**. *Example (own addition): a crisis organisation or NGO trusted because it gets things done on the ground.*\n\n**The five permanent members with veto power** (your notes): **Russia, the UK, China, the US and France**."
+        "tekst": "**From the lecture**\n\n**Exam topic (your notes: \"examples asked in exam\").** Learn each base of authority with an example:\n- **Institutional**: authority from **the office**, not the person; it is associated with the institution and where it sits. *Example: the White House, the office of the US president.*\n- **Delegated**: being a **representative** acting on behalf of others. *Example: an ambassador.*\n- **Expert**: authority explained by **expertise**. *Example: health experts and the WHO during Covid-19.*\n- **Principled**: their **own** authority, apart from any institution, really **embodied by people** through the values they stand for. *Examples: Nelson Mandela; also religious leaders.*\n- **Capacity-based**: **deference based on perceived competence**: authority from the **capacity for effective action**, not from holding an office or from rare knowledge (Maia, quoting Avant, Finnemore and Sell). *The notes put it as 'the capacity to lead groups without an office'; that wording is not in the article or on the slides (unchecked).* *Example (own addition): a crisis organisation or NGO trusted because it gets things done on the ground.*\n\n**The five permanent members with veto power** (your notes): **Russia, the UK, China, the US and France**."
       },
       {
         "type": "tekst",
@@ -375,7 +375,7 @@ LESSTOF['governance-policy/college-6'] = [
           },
           {
             "begrip": "Five bases of authority with examples (list)",
-            "definitie": "1. Institutional: the office, e.g. the White House. 2. Delegated: a representative, e.g. an ambassador. 3. Expert: expertise, e.g. Covid experts. 4. Principled: values embodied by a person, e.g. Nelson Mandela, religious leaders. 5. Capacity-based: the capacity to lead groups without an office."
+            "definitie": "1. Institutional: the office, e.g. the White House. 2. Delegated: a representative, e.g. an ambassador. 3. Expert: expertise, e.g. Covid experts. 4. Principled: values embodied by a person, e.g. Nelson Mandela, religious leaders. 5. Capacity-based: deference based on perceived competence; the capacity for effective action, not an office or rare knowledge."
           },
           {
             "begrip": "P5 with veto power (list)",

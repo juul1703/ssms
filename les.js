@@ -469,7 +469,20 @@
       }
     }
     if (!keuze) for (var j = 0; j < kandidaten.length && !keuze; j++) if (zichtbaar(kandidaten[j])) keuze = kandidaten[j];
+    /* v193: de treffer kan in een ingeklapte volledige uitleg (verdieping)
+       staan; klap die dan open */
+    if (!keuze) {
+      var gesloten = kandidaten.filter(function(k){ var d = k.parentElement && k.parentElement.closest('details.verdieping'); return d && !d.open; });
+      for (var g = 0; g < gesloten.length && !keuze; g++) {
+        if (!stukje || normTekst(blokVan(gesloten[g]).textContent).indexOf(stukje.slice(0, 30)) >= 0) keuze = gesloten[g];
+      }
+      if (!keuze && gesloten.length) keuze = gesloten[0];
+    }
     if (!keuze) return false;
+    /* Chrome geeft tekst in een dichte <details> soms toch afmetingen;
+       klap de verdieping rond de gekozen treffer daarom altijd open */
+    var dd = keuze.parentElement && keuze.parentElement.closest('details.verdieping');
+    while (dd) { dd.open = true; dd = dd.parentElement && dd.parentElement.closest('details.verdieping'); }
     var pos = keuze.nodeValue.toLowerCase().indexOf(term);
     var rest = keuze.splitText(pos);
     rest.splitText(term.length);
