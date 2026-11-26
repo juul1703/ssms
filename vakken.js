@@ -35,7 +35,7 @@
 var TOETSBLOKKEN = {
   'intro-to-safety-security': [
     { id: 'mid', naam: 'Mid-term', van: 1, tot: 8,  toets: 'Mid-term exam, week 10 (9-13 nov)', einde: '2026-11-13' },
-    { id: 'end', naam: 'End-term', van: 9, tot: 16, toets: 'End-term exam, week 20 (1-5 feb)', einde: '2027-02-05' }
+    { id: 'end', naam: 'End-term', van: 9, tot: 16, toets: 'End-term presentation, 3/4 feb (slides by 29 jan)', einde: '2027-02-05' }
   ],
   'governance-policy': [
     { id: 'mid', naam: 'Mid-term', van: 1, tot: 8,  toets: 'Mid-term exam, week 10 (9-13 nov)', einde: '2026-11-13' },
@@ -112,7 +112,8 @@ var TOETSBLOKKEN = {
   /* Losse onderdelen die geen boek en geen slides zijn. */
   var EXTRA = {
     'intro-to-safety-security': [
-      { id: 'midterm', groep: 'Colleges', toetsblok: 'mid', titel: 'Mid-term review \u00b7 sessions 1-8 in one lesson', duur: 120 }
+      { id: 'midterm', groep: 'Colleges', toetsblok: 'mid', titel: 'Mid-term review \u00b7 sessions 1-8 in one lesson', duur: 120 },
+      { id: 'endterm', groep: 'Colleges', toetsblok: 'end', titel: 'How to: end-term presentation (5 minutes)', duur: 60 }
     ],
     'governance-policy': [
       { id: 'midterm', groep: 'Colleges', toetsblok: 'mid', titel: 'Mid-term review \u00b7 sessions 1-7 in one lesson', duur: 120 }

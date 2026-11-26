@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 25 november 2026, service worker **v199**.
+Stand: 26 november 2026, service worker **v200**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst **sectie 0 (standaard voor nieuwe lessen)**, dan hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -48,6 +48,22 @@ automatische Vaardigheden en Flashcards). Geen aparte `overview`-tab (Quick reca
 - **"If you only remember N things"**: als tijdlijn (genummerd).
 - **"Say it out loud"**: `hardop`-blok.
 - Niets nieuws: alles uit de gecontroleerde kernstof.
+
+**Slides na de reading (besluit Julie, 26 nov):** Julie leest nu de reading voor het college, dus een les wordt
+eerst uit de literatuur gebouwd en de slides komen later. Als de slides binnenkomen:
+- nieuwe tab **"From the lecture"** (id `college`), direct na Core material, met drie grafische blokken:
+  **New** (in het college, niet in de reading), **Emphasised** (stond in de reading, docent legde er nadruk op;
+  met verwijzing naar het kopje in de kernstof) en **Different** (slides zeggen iets anders dan het boek; erbij
+  welke versie het veiligst is voor het tentamen);
+- de nieuwe stof ook **in de kernstof** op de juiste plek, met een zichtbaar label **"Lecture"** (Julie wil het
+  daar ook hebben, zodat de kernstof compleet is om te leren);
+- Recap en quiz bijwerken (quizvragen over collegestof met label "Lecture");
+- in Before you start "slides not in yet" vervangen door "Slides processed, see From the lecture".
+Het bloktype en het label bestaan nog niet: bouwen bij de eerste slides die binnenkomen.
+
+**Opdrachtlessen** (zoals `intro-endterm.js`, `ps-midterm-1.js`): kernstof volgt de koppen van het
+opdrachtdocument, met de rubric als laatste kopje; een tweede kern-tab met de course concepts die je kunt gebruiken;
+Recap met "Names and sources to know"; Check yourself met een checklist voor het inleveren plus quiz.
 
 **Verder ongewijzigd:** leerdoelen met uitleg (Vaardigheden), oefeningen met modelantwoord, quiz met
 gespreide antwoordposities, bronnen in APA, hover-begrippen, de controle-werkwijze (zin voor zin naast
@@ -114,6 +130,7 @@ bestanden.
 | `intro-h7.js` | Bieder H7 (Brooks & Coole), Engelse versie; stond tot v84 in het Nederlands in `ssms-inhoud.js` |
 | `society-college-1.js` | Society & Politics sessie 1, Macionis H1, H2 en H4 plus Lecture 1 (compleet) |
 | `overview-intro.js` | Quick recaps (tab `overview`) voor Intro-lessen die er nog geen in hun eigen bestand hebben, via `voegOverviewToe()` (lesstof.js); laadt na `recap-intro.js`. v141: college-1, h1, h2, college-3; v142: h3, h5, college-5, h10 (alle Intro-sessies 1-8 met les hebben nu een Quick recap) |
+| `intro-endterm.js` | ISS end-term: how to, 5-minute individual presentation (opdracht, rubric, example topics); onder End-term (v200) |
 | `recap-intro.js` | "To remember" voor Intro slides-1 en de hoofdstukken H1, H2, H3, H5 (komen samen in college-2 en college-4) |
 | `ps-college-1.js` | Professional Skills sessie 1, non-verbale communicatie plus de kick-off slides (v102) |
 | `ps-college-2.js` | Professional Skills sessie 2, slecht nieuws: CAT (Dragojevic e.a. 2016), kanalen, McLuhan, barrières |
@@ -1250,6 +1267,17 @@ Theory 5 en Spotlight India in deel 3); 24 van 25 overzichtskaarten met kleurlab
 Watch outs in de les (algemene kennis, gelabeld): 'Matsusuka' is Matsusaka; Amerikaanse vrouwen: het boek zegt 1919
 (Congres), ratificatie augustus 1920; India heeft sinds 2020 28 staten en 8 unieterritoria (boek: 25 en 7); Park
 Geun-Hye kreeg eind 2021 gratie. Figuren 5.3, 5.5 en 5.6 zijn beeld; alleen de tekst is gebruikt.
+
+**v200: ISS end-term presentatie (How to), onder het End-term-blok van ISS.** Uit de drie Project-documenten
+(ASSIGNMENT END TERM ISS, grading rubric ISS END TERM, EXAMPLE TOPICS ISS END TERM, 26 nov) en de manual (2.1.4:
+end-term = oral assessment, 50%, 5,5; herkansing april 2027). 5 minuten individueel, geen Q&A; slides uiterlijk
+29 januari op Brightspace (te laat = niet presenteren, geen cijfer); presentatie 3/4 februari. Tabs: Before you
+start, Core material: how to (7 kopjes volgens de opdracht, rubric per criterium), Core material: course concepts
+(uit de gecontroleerde ISS-lessen sessie 1-8; sessies 9-15 zijn gastcolleges zonder slides in de app), Recap,
+Applying it, Check yourself (checklist + 12 vragen, 12/12). Indeling van de 24 example topics per weekthema is
+eigen redenering (gelabeld). Cijferberekening is eigen rekenwerk met de factoren 0.3/0.5/0.4/0.5/0.3 (som 2.0);
+gelabeld unchecked dat het laagst mogelijke totaal 2.0 is terwijl de opdracht 1-10 noemt. Toetsblok-tekst ISS end:
+"End-term presentation, 3/4 feb (slides by 29 jan)". Let op: v199 (Society sessie 11) stond nog niet online.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
