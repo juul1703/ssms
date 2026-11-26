@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 25 november 2026, service worker **v198**.
+Stand: 25 november 2026, service worker **v199**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst **sectie 0 (standaard voor nieuwe lessen)**, dan hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -102,6 +102,7 @@ bestanden.
 | `society-college-8.js` | Society sessie 8, Macionis H23 (science, cyberspace and the risk society) en H24 (populations, cities and the space of things to come), beide heel, uit de literatuur volgens de standaard; nieuw in v137 |
 | `society-college-9.js` | Society sessie 9 (end-term 1), McCormick H3 States and nations; eerste les in de grafische end-term-opzet (v193) |
 | `society-college-10.js` | Society sessie 10 (end-term 2), McCormick H4 Political culture; sectie 0-opzet (v198) |
+| `society-college-11.js` | Society sessie 11 (end-term 3), McCormick H5 Democratic rule; sectie 0-opzet (v199) |
 | `recap-society.js` | "To remember"-tabbladen voor Society college-2 en college-3 (die van college-1 zit in `society-college-1.js` zelf) |
 | `recap-professional-skills.js` | "To remember" voor PS college-1 en college-2 |
 | `governance-college-9.js` | Governance sessie 9, Allison & Zelikow (1999) Introduction p. 1-12; end-term-opzet (v196) |
@@ -189,6 +190,7 @@ society-college-7.js
 society-college-8.js
 society-college-9.js
 society-college-10.js
+society-college-11.js
 recap-society.js            <- recaps na de lesbestanden
 recap-professional-skills.js
 recap-governance.js
@@ -1240,6 +1242,14 @@ waarschuwing, ideologieen komen uit de slides zodra die er zijn. Watch out in de
 Hostede (2011)", vrijwel zeker Hofstede. Figuren 4.2-4.7 zijn beeld; alleen wat in de tekst staat is gebruikt.
 **Repo's (Julie, 25 nov):** haal alleen `ssms` op. `ssms-share` werkt Julie aan het eind van de end-terms in een keer
 bij; tot die tijd loopt die achter, en dat is de bedoeling.
+
+**v199: Society sessie 11 (McCormick H5 Democratic rule), volgens sectie 0.** Zes kopjes zoals het boek
+(Understanding democratic rule, Democratic regime types, Origins and evolution, Forms of democratic rule,
+Democracies and rights, The future of democratic rule); kaders op hun plek (Exploring Problems 5 in deel 2, Using
+Theory 5 en Spotlight India in deel 3); 24 van 25 overzichtskaarten met kleurlabels; quiz 14/14 in de browser.
+Watch outs in de les (algemene kennis, gelabeld): 'Matsusuka' is Matsusaka; Amerikaanse vrouwen: het boek zegt 1919
+(Congres), ratificatie augustus 1920; India heeft sinds 2020 28 staten en 8 unieterritoria (boek: 25 en 7); Park
+Geun-Hye kreeg eind 2021 gratie. Figuren 5.3, 5.5 en 5.6 zijn beeld; alleen de tekst is gebruikt.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 
