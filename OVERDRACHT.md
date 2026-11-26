@@ -1,7 +1,7 @@
 # SSMS-leeromgeving — overdracht
 
 Alles wat een nieuwe chat moet weten om hieraan verder te bouwen.
-Stand: 26 november 2026, service worker **v200**.
+Stand: 26 november 2026, service worker **v201**.
 
 > **Nieuwe chat begint hier.** De repo in deze zip is compleet en draait zoals
 > hij is. Lees eerst **sectie 0 (standaard voor nieuwe lessen)**, dan hoofdstuk 1 tot en met 5, dan de werkafspraken in 8, dan
@@ -1278,6 +1278,14 @@ Applying it, Check yourself (checklist + 12 vragen, 12/12). Indeling van de 24 e
 eigen redenering (gelabeld). Cijferberekening is eigen rekenwerk met de factoren 0.3/0.5/0.4/0.5/0.3 (som 2.0);
 gelabeld unchecked dat het laagst mogelijke totaal 2.0 is terwijl de opdracht 1-10 noemt. Toetsblok-tekst ISS end:
 "End-term presentation, 3/4 feb (slides by 29 jan)". Let op: v199 (Society sessie 11) stond nog niet online.
+
+**v201: bug afvinken opgelost (les.js, `toonVoortgang`).** Julie zag vinkjes "vanzelf" verdwijnen. Oorzaak: bij
+elk openen van een les (en elke tabwissel) zette `toonVoortgang` de les op `zetAf(vak, les, alleTabsAf)`, dus
+ook op 'open' zodra niet elk tabblad was afgevinkt. Gevolg: (1) een les die je op de vakpagina of in de lade
+afvinkte, stond weer uit zodra je hem opende; (2) een les waar later een tabblad bij kwam (Vaardigheden,
+Flashcards, nieuwe tabs bij een herbouw) werd uitgevinkt. Nu: alleen automatisch **aan** als alle tabbladen af
+zijn, nooit automatisch uit; uitvinken kan op de vakpagina. In de browser nagespeeld (eerst fout gereproduceerd,
+daarna opgelost). Al verdwenen vinkjes zijn niet automatisch teruggezet.
 
 ## 9i. Planning tot de mid-terms (afgesproken 23 oktober)
 

@@ -168,8 +168,12 @@
     document.getElementById('lesBalk').style.width = pct + '%';
     document.getElementById('lesVoortgang').textContent = af + ' van ' + onderdelen.length +
       ' onderdelen afgerond · ' + pct + '%';
-    // les zelf geldt als afgerond zodra alle tabbladen af zijn
-    if (vakParam !== 'voorbeeld') zetAf(vak, les, af === onderdelen.length);
+    // les zelf geldt als afgerond zodra alle tabbladen af zijn.
+    // v201: alleen aanzetten, nooit uitzetten. Voorheen werd de les bij elk
+    // openen op 'open' gezet als niet elk tabblad was afgevinkt; daardoor
+    // verdwenen vinkjes die op de vakpagina waren gezet, en vinkjes van
+    // lessen waar later een tabblad bij kwam. Uitvinken kan op de vakpagina.
+    if (vakParam !== 'voorbeeld' && af === onderdelen.length && !isAf(vak, les)) zetAf(vak, les, true);
   }
 
   /* ---- tabbladen ---- */
